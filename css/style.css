@@ -30,7 +30,7 @@ body {
   overflow-x: hidden;
 }
 
-p {
+body p {
 font-family:"ttcommons", sans-serif;}
 
 #absinthe {
