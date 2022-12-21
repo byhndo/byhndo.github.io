@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
-
-
+@import url('https://github.com/byhnd/byhnd.github.io/blob/master/TT%20Commons%20Regular.woff');
 :root {
   --green: #4d8426;
   --title-font: "Poppins", sans-serif;
-  --body-font: "Jost", sans-serif;
+  --body-font: "ttcommons", sans-serif;
   --serif-font: "Fleur De Leah", serif;
 }
 
