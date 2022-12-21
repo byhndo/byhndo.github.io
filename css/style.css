@@ -29,9 +29,6 @@ body {
   margin: 0;
   overflow-x: hidden;
 }
-h1,h2,h3,h4,h5,h6,h7{
-  font-family:ttcommons, sans-serif;
-}
 
 #absinthe {
   width: 900vw;
