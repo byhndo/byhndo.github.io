@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-font-face{font-family:caveat;src:url(https://github.com/byhnd/byhnd.github.io/raw/master/Caveat-Regular.woff) format('woff');font-weight:400;font-style:normal;}
+font-face{font-family:Caveat;src:url(https://github.com/byhnd/byhnd.github.io/raw/master/Caveat-Regular.woff) format('woff');font-weight:400;font-style:normal;}
 :root {
   --green:#4d8426;
-  --title-font: "caveat", sans-serif;
+  --title-font: "Caveat", sans-serif;
   --body-font: "Poppins", sans-serif;
   --sans-serif-font: "Poppins", sans-serif;
 }
