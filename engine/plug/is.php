@@ -1,0 +1,1 @@
+<?php foreach(['JSON'=>"_\\json",'json'=>"_\\json"]as $k=>$v){Is::_($k,$v);}

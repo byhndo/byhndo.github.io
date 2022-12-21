@@ -1,0 +1,1 @@
+<?php function state(...$lot){if(count($lot)<2){$lot[]=true;return State::get(...$lot);}return State::set(...$lot);}

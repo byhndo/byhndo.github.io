@@ -1,0 +1,1 @@
+<?php Lot::set('x-powered-by','Mecha/'.VERSION);Lot::status(403);Lot::type('text/html');
