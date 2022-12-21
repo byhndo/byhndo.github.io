@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
-@font-face{font-family:ttcommons;src:url(https://github.com/byhnd/byhnd.github.io/blob/master/TT%20Commons%20Regular.woff) format('woff');font-weight:400;font-style:normal}
+@font-face{font-family:ttcommons;src:url(https://github.com/byhnd/byhnd.github.io/blob/master/TT%20Commons%20Regular.woff) format('woff');font-weight:400;font-style:normal;}
 
 :root {
   --green: #4d8426;
@@ -28,8 +28,10 @@ body {
   padding: 0;
   margin: 0;
   overflow-x: hidden;
-  font-family:"ttcommons", sans-serif;
 }
+
+p {
+font-family:"ttcommons", sans-serif;}
 
 #absinthe {
   width: 900vw;
