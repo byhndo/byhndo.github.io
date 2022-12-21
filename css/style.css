@@ -2,7 +2,7 @@ font-face{font-family:caveat;src:url(https://github.com/byhnd/byhnd.github.io/ra
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 :root {
   --green:#333333;
-  --title-font: "Caveat", sans-serif;
+  --title-font: "caveat", sans-serif;
   --body-font: "Poppins", sans-serif;
   --sans-serif-font: "Poppins", sans-serif;
 }
