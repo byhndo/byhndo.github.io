@@ -1,1 +1,0 @@
-<?php Time::zone($state->zone);class_alias('Time','Date');$GLOBALS['time']=$time=new Time($_SERVER['REQUEST_TIME']??time());$GLOBALS['date']=$date=$time;

@@ -1,1 +1,0 @@
-<?php Time::_('en','%A, %B %d, %Y');Hook::set('get',function(){$key=strtr(State::get('language')??"",'-','_');if(!Time::_($key)){Time::_($key,Time::_('en'));}},20);
