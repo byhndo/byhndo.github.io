@@ -1,0 +1,1 @@
+<?php class Pages extends Files{public function file(string $path):\ArrayAccess{return $this->page($path);}public function page(string $path){return new Page($path);}public static function from(...$lot){$pages=[];foreach(g($lot[0]??LOT.DS.'page',$lot[1]??'page',$lot[2]??0)as $k=>$v){if(""===pathinfo($k,PATHINFO_FILENAME)){continue;}$pages[]=$k;}return new static($pages);}}
