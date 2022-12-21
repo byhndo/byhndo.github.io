@@ -4,9 +4,9 @@
 
 :root {
   --green: #4d8426;
-  --title-font: "ttcommons", sans-serif;
-  --body-font: "ttcommons", sans-serif;
-  --sans-serif-font: "ttcommons", sans-serif;
+  --title-font: "Caveat", sans-serif;
+  --body-font: "Poppins", sans-serif;
+  --sans-serif-font: "Poppins", sans-serif;
 }
 
 * {
