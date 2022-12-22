@@ -210,8 +210,8 @@ h1 {
 
 nav {
   position: fixed;
-  top: var(--border-width);
-  left:var(--border-width);
+  top:0;
+  left:0;
   right:var(--border-width);
   z-index: 10;
 }
