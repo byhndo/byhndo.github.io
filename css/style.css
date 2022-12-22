@@ -16,7 +16,7 @@
 }
 
 body {
-  font-family: Poppins, sans-serif;
+  font-family: ttcommons, sans-serif;
   line-height: 1.5;
   color: var(--egg-shell);
 }
@@ -245,7 +245,6 @@ main {
   padding: 0 2rem;
   margin: 0rem auto 0;
   font-size:1.1rem;
-  font-family:"ttcommons", sans-serif;
 }
 
 .slide-fade-enter-active {
