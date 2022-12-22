@@ -26,10 +26,10 @@
     <div class="dots dots2"></div>
     <main>
       <transition name="slide-fade" mode="out-in">
-        <h3 key="bio" v-if="bg==='bio'">
-          
-        Hi! Selamat datang. Saya Bayu, terima masih sudah mengunjungi halaman ini. Semoga kamu sehat selalu.
-</h3>
+        <h2 key="bio" v-if="bg==='bio'">Welcome
+          </h2>
+      <p key="bio" v-if="bg==='bio'">  Hi! Selamat datang. Saya Bayu, terima masih sudah mengunjungi halaman ini. Semoga kamu sehat selalu.
+</p>
         <p key="projects" v-if="bg==='projects'">This is a projects page.</p>
         <p key="find-me" v-if="bg==='find-me'">See <a href="https://pehaa.com" target="_blank" rel="noopener">pehaa.com</a> for the complete website (built with Nuxt.js).</p>
       </transition>
