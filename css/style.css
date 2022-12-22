@@ -209,7 +209,7 @@ h1 {
 
 nav {
   position: fixed;
-  top: var(--border-width);
+  top:0;
   left:0;
   right:0;
   z-index: 10;
