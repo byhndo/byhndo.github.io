@@ -2,7 +2,7 @@
   --purple-brown: #231f20;
   --egg-shell: #e8e4d2;
   --dark-peach: #e26961;
-  --border-width: .75rem;
+  --border-width: 0;
   --dots-gap: 10px;
 }
 
@@ -33,7 +33,7 @@ a {
 
 .bg:after {
   content: "";
-  
+  border: var(--border-width) solid;
   position: fixed;
   left: 0;
   top: 0;
