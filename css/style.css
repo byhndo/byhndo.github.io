@@ -212,7 +212,7 @@ nav {
   position: fixed;
   top:0;
   left:0;
-  right:var(--border-width);
+  right:0;
   z-index: 10;
 }
 nav ul {
