@@ -239,7 +239,7 @@ nav .link-projects {
 
 main {
   position: relative;
-  max-width:auto;
+  max-width:36rem;
   padding: 0 2rem;
   margin: 0rem auto 0;
   font-size:1.1rem;
