@@ -226,7 +226,7 @@ nav a {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 0.875rem;
-  font-family:"Jost", sans-serif;
+  font-family:"ttcommons", sans-serif;
 }
 nav .link-projects {
   color: var(--purple-brown);
