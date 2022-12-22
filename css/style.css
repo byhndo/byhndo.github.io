@@ -130,7 +130,7 @@ a {
 }
 
 .dots1:before {
-  left: 5%;
+  left: 2%;
 }
 
 .dots1:after {
@@ -144,7 +144,7 @@ a {
 }
 
 .dots2:after {
-  right: 5%;
+  right: 2%;
 }
 
 .dots:after {
@@ -253,6 +253,6 @@ main {
 }
 
 .slide-fade-enter, .slide-fade-leave-to {
-  transform: translateY(0rem);
+  transform: translateY(1.5rem);
   opacity: 0;
 }
