@@ -253,6 +253,6 @@ main {
 }
 
 .slide-fade-enter, .slide-fade-leave-to {
-  transform: translateY(1.5rem);
+  transform: translateY(0);
   opacity: 0;
 }
