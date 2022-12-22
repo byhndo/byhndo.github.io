@@ -135,12 +135,11 @@ a {
 }
 
 .dots1:after {
-  left: 15%;
-  display:none;
+  left: 4%;
 }
 
 .dots2:before {
-  right: 75%;
+  right: 80%;
   display:none;
 }
 
