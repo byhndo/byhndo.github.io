@@ -220,7 +220,7 @@ nav li {
 }
 nav a {
   display: block;
-  padding: 0.75rem 0 0.5rem;
+  padding: 0 0 0;
   color: var(--egg-shell);
   text-decoration: none;
   text-transform: uppercase;
