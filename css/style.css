@@ -14,7 +14,7 @@
 
 body {
   font-family: ttcommons, sans-serif;
-  font size:14px;
+  
   line-height: 1.5;
   color: var(--egg-shell);
 }
@@ -243,7 +243,7 @@ main {
   max-width: 36rem;
   padding: 0 2rem;
   margin: 0rem auto 0;
-  font-size: 2rem;
+  font-size:.7rem;
 }
 
 .slide-fade-enter-active {
