@@ -256,6 +256,6 @@ main {
 }
 
 .slide-fade-enter, .slide-fade-leave-to {
-  transform: translateY(2rem);
+  transform: translateY(0rem);
   opacity: 0;
 }
