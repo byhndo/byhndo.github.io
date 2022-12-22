@@ -36,7 +36,6 @@ a {
 
 .bg:after {
   content: "";
-  border: var(--border-width) solid;
   position: fixed;
   left: 0;
   top: 0;
@@ -240,7 +239,7 @@ nav .link-projects {
 main {
   position: relative;
   max-width: 36rem;
-  padding: 0 5rem;
+  padding: 0 1.5rem;
   margin: -3rem auto 0;
   font-size: 2rem;
 }
