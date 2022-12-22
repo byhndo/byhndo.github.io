@@ -211,7 +211,7 @@ nav {
   position: fixed;
   top: var(--border-width);
   left:var(--border-width);
-  right:0var(--border-width);
+  right:var(--border-width);
   z-index: 10;
 }
 nav ul {
