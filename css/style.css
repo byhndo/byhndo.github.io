@@ -123,8 +123,8 @@ a {
   background-image: linear-gradient(var(--dark-peach) 20%, transparent 0);
   background-size: 100% var(--dots-gap);
   background-position: 0 0;
-  -webkit-animation: movebg 1s linear infinite;
-          animation: movebg 1s linear infinite;
+  -webkit-animation: movebg .5s linear infinite;
+          animation: movebg .5s linear infinite;
   will-change: transform;
   width: 2px;
 }
