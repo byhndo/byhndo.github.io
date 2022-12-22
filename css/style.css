@@ -209,9 +209,9 @@ h1 {
 
 nav {
   position: fixed;
-  top:0;
-  left:0;
-  right:0;
+  top: var(--border-width);
+  left: var(--border-width);
+  right: var(--border-width);
   z-index: 10;
 }
 nav ul {
@@ -243,7 +243,7 @@ main {
   position: relative;
   max-width:36rem;
   padding: 0 2rem;
-  margin: 0rem auto 0;
+  margin: -3rem auto 0;
   font-size:1.1rem;
 }
 
@@ -256,6 +256,6 @@ main {
 }
 
 .slide-fade-enter, .slide-fade-leave-to {
-  transform: translateY(0rem);
+  transform: translateY(2rem);
   opacity: 0;
 }
