@@ -1,5 +1,7 @@
 @font-face{font-family:caveat;src:url(../css/Caveat-Regular.woff) format('woff');font-weight:400;font-style:normal}
 @font-face{font-family:ttcommons;src:url(../css/TTCommons-Regular.woff) format('woff');font-weight:400;font-style:normal}
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 :root {
   --purple-brown: #231f20;
   --egg-shell: #e8e4d2;
@@ -231,7 +233,8 @@ nav a {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 0.875rem;
-  font-family:"ttcommons", sans-serif;
+  font-family:"Poppins", sans-serif;
+  font-weight:500;
 }
 nav .link-projects {
   color: var(--purple-brown);
