@@ -37,7 +37,7 @@ a {
 .bg:after {
   content: "";
   border: var(--border-width) solid;
-  position: fixed;
+  position: relative;
   left: 0;
   top: 0;
   bottom: 0;
