@@ -18,7 +18,11 @@ body {
 }
 
 .card {
-  max-width: 340px;
+  posotion:relative;
+  top:0;
+  left:0;
+  right:0;
+  max-width:auto;
   margin: auto;
   overflow-y: auto;
   position: relative;
