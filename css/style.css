@@ -6,6 +6,7 @@
 @font-face{font-family:lora;src:url(../css/lora-b.woff) format('woff');font-weight:bold;font-style:normal}
 
 @font-face{font-family:lora;src:url(../css/lora-i-b.woff) format('woff');font-weight:bold;font-style:italic}
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
 * {
   box-sizing: border-box;
 }
@@ -159,6 +160,7 @@ body {
 }
 
 .card-subtitle {
+  font-family:"Caveat";
   font-weight: 700;
   font-size: 13px;
   margin-bottom: 8px;
