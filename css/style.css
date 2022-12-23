@@ -22,10 +22,10 @@ body {
   left:0;
   right:0;
   bottom:0;
-  max-width:auto;
+  max-width:340px;
   margin: auto;
   overflow-y: auto;
-  position: relative;
+  position: fixed;
   z-index: 1;
   overflow-x: hidden;
   background-color: white;
