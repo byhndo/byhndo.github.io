@@ -232,7 +232,7 @@ body {
   cursor: pointer;
   color: #5c5c6d;
   transition: 0.3s;
-  font-family: "Jost", sans-serif;
+  font-family: "ttcommons", sans-serif;
   font-weight: 500;
   outline: 0;
   border-bottom: 3px solid transparent;
@@ -365,6 +365,6 @@ body {
   cursor: pointer;
   font-size: 14px;
   font-weight: 500;
-  font-family: "Jost", sans-serif;
+  font-family: "ttcommons", sans-serif;
   transition: 0.3s;
 }
