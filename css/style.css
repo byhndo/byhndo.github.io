@@ -27,7 +27,6 @@ body {
 }
 
 .card {
-  font-family:"ttcommons", sans-serif;
   max-width: 340px;
   margin: auto;
   overflow-y: auto;
