@@ -9,9 +9,7 @@
 * {
   box-sizing: border-box;
 }
-:root {
-$size: 20px;
-}
+
 body {
   color: #2b2c48;
   font-family: "Caveat", sans-serif;
@@ -175,7 +173,7 @@ body {
 .card-desc {
   line-height: 1.6;
   color: #636b6f;
-  font-size: $size;
+  font-size:20px;
   margin: 0;
   font-weight: 400;
   font-family: "ttcommons", sans-serif;
