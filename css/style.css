@@ -11,8 +11,8 @@
 * {
   box-sizing: border-box;
 }
-:roto {
-$size: 15px;
+:root {
+$size: 20px;
 }
 body {
   color: #2b2c48;
