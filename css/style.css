@@ -172,7 +172,6 @@ body {
 .card-desc {
   line-height: 1.6;
   color: #636b6f;
-  font-size:14px;
   margin: 0;
   font-weight: 400;
 }
@@ -198,10 +197,9 @@ body {
   }
 
 .icon-3d {
-  padding: 10px;
   -webkit-animation: icon3d 200ms 10;
   animation: icon3d 200ms 10;
-  color: blue;
+  color: rgba(165, 180, 200, .2);
   }
 
  .icon-3d:hover {
