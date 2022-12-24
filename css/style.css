@@ -187,11 +187,11 @@ body {
   }
 
 .card-social a {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     color:#8f684e ;
     border-radius: 100%;
-    display: inline-flex;
+    display:inline;
     align-items: center;
     justify-content: center;
     transition: 0.3s;
