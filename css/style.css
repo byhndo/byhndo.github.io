@@ -180,7 +180,6 @@ body {
   font-size:14px;
   margin: 0;
   font-weight: 400;
-  font-family: "ttcommons", sans-serif;
 }
 
 .card-social {
@@ -339,7 +338,6 @@ body {
   align-items: center;
   font-size: 13px;
   color: #6f6f7b;
-  font-family: "ttcommons", sans-serif;
   line-height: 1.6;
   cursor: pointer;
 }
@@ -369,6 +367,5 @@ body {
   cursor: pointer;
   font-size: 14px;
   font-weight: 500;
-  font-family: "Caveat", sans-serif;
   transition: 0.3s;
 }
