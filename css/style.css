@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500|Jost:400,500,600&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 @font-face{font-family:ttcommons;src:url(../css/TTCommons-Regular.woff) format('woff');font-weight:400;font-style:normal}
 @font-face{font-family:ttcommons;src:url(../css/TTCommons-i.woff) format('woff');font-weight:400;font-style:italic}
 @font-face{font-family:trcommons;src:url(../css/TTCommons-b.woff) format('woff');font-weight:bold;font-style:normal}
@@ -138,7 +138,7 @@ body {
   white-space: nowrap;
   transform: translateY(-10px) translateX(-50%);
   left: 50%;
-  font-family:"Lusitana", sans-serif;
+  font-family:"Outfit", sans-serif;
 }
 
 .card-jobtitle {
