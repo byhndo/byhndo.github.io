@@ -180,20 +180,19 @@ body {
   font-weight: 400;
 }
 .card-social {
-  display:inline-block;
+  display:flex;
   align-items: center;
   padding: 0 20px;
   margin:10px;
   }
 
 .card-social a {
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
     color:#8f684e ;
     border-radius: 100%;
     display:inline-flex;
     align-items: center;
-    justify-content: center;
     transition: 0.3s;
     background-color: rgba(93, 133, 193, 0.05);
     border-radius: 50%;
