@@ -350,6 +350,7 @@ body {
   transition: 0.3s;
   padding-right: 12px;
   border-right: 1px solid #dfe2ec;
+  font-family:"Jost", sans-serif;
 }
 
 .contact-me {
