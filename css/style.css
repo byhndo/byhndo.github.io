@@ -187,8 +187,8 @@ body {
   }
 
 .card-social a {
-    height: 32px;
-    width: 32px;
+    height: 50px;
+    width: 50px;
     color:#8f684e ;
     border-radius: 100%;
     display: inline-flex;
