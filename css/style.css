@@ -258,7 +258,7 @@ color:#4abbd7;
   cursor: pointer;
   color: #5c5c6d;
   transition: 0.3s;
-  font-family: "ttcommons", sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: 500;
   outline: 0;
   border-bottom: 3px solid transparent;
@@ -341,12 +341,10 @@ color:#4abbd7;
 
 .card-item-title {
   font-weight: 500;
-  font-size: 14px;
   margin-bottom: 5px;
 }
 
 .card-item-desc {
-  font-size: 13px;
   color: #6f6f7b;
   line-height: 1.5;
   font-family: "ttcommons", sans-serif;
@@ -359,7 +357,6 @@ color:#4abbd7;
 .card-contact {
   display: flex;
   align-items: center;
-  font-size: 13px;
   color: #6f6f7b;
   line-height: 1.6;
   cursor: pointer;
