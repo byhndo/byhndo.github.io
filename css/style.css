@@ -215,6 +215,25 @@ color:#4abbd7;
     }
 }
 
+@-webkit-keyframes rotate {
+    0% {
+        transform-origin: left bottom;
+        transform: rotate3d(0, 0, 1, 45deg);
+        opacity: 0;
+    }
+
+    100% {
+
+        transform-origin: left bottom;
+
+        transform: none;
+
+        opacity: 1;
+
+    }
+
+}
+
 .card-buttons {
   display: flex;
   background-color: #fff;
