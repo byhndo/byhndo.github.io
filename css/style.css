@@ -179,27 +179,9 @@ body {
   margin: 0;
   font-weight: 400;
 }
-.card-social {
-  align-items: center;
-  padding: 0 20px;
-  margin:10px;
-  }
 
-.card-social a {
-    height: 35px;
-    width: 35px;
-    color:#8f684e ;
-    border-radius: 50%;
-    transition: .3s;
-    background-color: rgba(93, 133, 193, 0.05);
-    border-radius: 50%;
-    margin-right: 10px;
-    transition: .3s;
-  }
 
-.card-social a:hover{
-color:#4abbd7;
-  }
+
 
 @keyframes rotate {
     0% {
