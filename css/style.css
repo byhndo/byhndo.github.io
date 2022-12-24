@@ -183,9 +183,9 @@ body {
   }
 
 .card-social a {
-    color: #8797a1;
-    height: 32px;
-    width: 32px;
+    color: #aaa;
+    height: 35px;
+    width: 35px;
     border-radius: 50%;
     display: inline-flex;
     align-items: center;
@@ -196,51 +196,9 @@ body {
     margin-right: 10px;
   }
 
-.icon-3d {
-  -webkit-animation: icon3d 200ms 10;
-  animation: icon3d 200ms 10;
-  color: rgba(165, 180, 200, .2);
+.card-social a:hover{
+color:#65c8df;
   }
-
- .icon-3d:hover {
-    -webkit-animation: icon3d 200ms infinite;
-          animation: icon3d 200ms infinite;
-
-}
-
-@keyframes icon3d {
-
-  0% {
-
-    text-shadow: 5px 4px rgba(244,67,54,1), -5px -6px ;
-
-  }
-
-  25% {
-
-    text-shadow: -5px -6px rgba(244,67,54,1), 5px 4px ;
-
-  }
-
-  50% {
-
-    text-shadow: 5px -4px rgba(244,67,54,1), -8px 4px ;
-
-  }
-
-  75% {
-
-    text-shadow: -8px -4px rgba(244,67,54,1), -5px -4px ;
-
-  }
-
-  100% {
-
-    text-shadow: -5px 0 rgba(244,67,54,1), 5px -4px ;
-
-  }
-
-}
 
 .card-buttons {
   display: flex;
