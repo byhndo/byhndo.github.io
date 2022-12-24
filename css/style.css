@@ -185,13 +185,8 @@ body {
   padding: 0 20px;
   margin-bottom: 30px;
 }
-.card-social svg {
-  fill: #a5b5ce;
-  width: 16px;
-  display: block;
-  transition: 0.3s;
-}
 .card-social a {
+  font-family:"awesome";
   color: #8797a1;
   height: 32px;
   width: 32px;
