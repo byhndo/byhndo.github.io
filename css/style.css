@@ -44,14 +44,14 @@ body {
 }
 
 .card[data-state="#about"] {
-  height: 500px;
+  height: 450px;
 }
 .card[data-state="#about"] .card-main {
   padding-top: 0;
 }
 
 .card[data-state="#contact"] {
-  height: 450px;
+  height: 430px;
 }
 
 .card[data-state="#experience"] {
