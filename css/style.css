@@ -26,6 +26,7 @@ body {
 
 .card {
   max-width: 340px;
+  min-width: 340px;
   margin: auto;
   overflow-y: auto;
   position: relative;
@@ -43,14 +44,14 @@ body {
 }
 
 .card[data-state="#about"] {
-  height: 450px;
+  height: 500px;
 }
 .card[data-state="#about"] .card-main {
   padding-top: 0;
 }
 
 .card[data-state="#contact"] {
-  height: 430px;
+  height: 450px;
 }
 
 .card[data-state="#experience"] {
