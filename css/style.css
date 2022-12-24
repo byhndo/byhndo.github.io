@@ -137,7 +137,7 @@ body {
   white-space: nowrap;
   transform: translateY(-10px) translateX(-50%);
   left: 50%;
-  font-family:"JDM Sans", sans-serif;
+  font-family:"DM Sans", sans-serif;
 }
 
 .card-jobtitle {
@@ -258,7 +258,7 @@ color:#4abbd7;
   cursor: pointer;
   color: #5c5c6d;
   transition: 0.3s;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Jost", sans-serif;
   font-weight: 500;
   outline: 0;
   border-bottom: 3px solid transparent;
@@ -386,6 +386,7 @@ color:#4abbd7;
   margin-top: 25px;
   cursor: pointer;
   font-size: 14px;
-  font-weight: 500; -webkit-transition: 0.5s;
+  font-weight: 500; 
+  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
