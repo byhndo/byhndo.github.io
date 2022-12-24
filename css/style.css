@@ -188,13 +188,9 @@ body {
 
 .card-social svg {
   fill: #a5b5ce;
-  width: 16px;
+  width: 30px;
   display: block;
   transition: 0.3s;
-}
-
-.icon behance{
-font-size:20px;
 }
 
 .card-social a {
