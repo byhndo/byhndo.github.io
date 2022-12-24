@@ -193,6 +193,10 @@ body {
   transition: 0.3s;
 }
 
+.icon behance{
+font-size:20px;
+}
+
 .card-social a {
   color: #8797a1;
   height: 32px;
