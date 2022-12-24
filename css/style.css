@@ -188,7 +188,7 @@ body {
 
 .card-social svg {
   fill: #a5b5ce;
-  width: 20px;
+  width: 23px;
   display: block;
   transition: 0.3s;
 }
@@ -206,9 +206,7 @@ body {
   border-radius: 50%;
   margin-right: 10px;
 }
-.card-social a .behance{
-width:50px;
-}
+
 .card-social a:hover svg {
   fill: #637faa;
 }
