@@ -18,6 +18,8 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  --webkit-filer: blur(3px);
+  filter: blur(3px);
   min-height: 100vh;
   display: flex;
   flex-wrap: wrap;
