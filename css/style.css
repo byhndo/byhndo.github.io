@@ -153,6 +153,7 @@ body {
   margin: 0;
   left: 50%;
   transform: translateX(-50%) translateY(-7px);
+  font-family:"Outfit", sans-serif;
 }
 
 .card-main {
@@ -237,7 +238,7 @@ body {
   cursor: pointer;
   color: #5c5c6d;
   transition: 0.3s;
-  font-family: "Jost", sans-serif;
+  font-family: "Outfit", sans-serif;
   font-weight: 500;
   outline: 0;
   border-bottom: 3px solid transparent;
@@ -367,5 +368,5 @@ body {
   font-weight: 500; 
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  font-family:"Jost", sans-serif;
+  font-family:"Outfit", sans-serif;
 }
