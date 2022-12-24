@@ -188,7 +188,7 @@ body {
 
 .card-social svg {
   fill: #a5b5ce;
-  width: 23px;
+  width: 26px;
   display: block;
   transition: 0.3s;
 }
@@ -208,7 +208,7 @@ body {
 }
 
 .card-social a:hover svg {
-  fill: #637faa;
+  fill: #7EABFF;
 }
 
 .card-social a:last-child {
