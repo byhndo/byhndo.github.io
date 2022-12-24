@@ -176,9 +176,6 @@ body {
   font-weight: 400;
 }
 
-$redColor: rgba(244,67,54,1);
-
-$blueColor:rgba(33,150,243,1);
 
 .flex-center {
 
@@ -227,14 +224,15 @@ $blueColor:rgba(33,150,243,1);
   animation: icon3d 200ms 10;
 
   color: #fff;
+  }
 
-  &:hover {
+ .icon-3d:hover {
 
     -webkit-animation: icon3d 200ms infinite;
 
           animation: icon3d 200ms infinite;
 
-  }
+ 
 
 }
 
@@ -242,31 +240,31 @@ $blueColor:rgba(33,150,243,1);
 
   0% {
 
-    text-shadow: 5px 4px $redColor, -5px -6px $blueColor;
+    text-shadow: 5px 4px rgba(244,67,54,1), -5px -6px ;
 
   }
 
   25% {
 
-    text-shadow: -5px -6px $redColor, 5px 4px $blueColor;
+    text-shadow: -5px -6px rgba(244,67,54,1), 5px 4px ;
 
   }
 
   50% {
 
-    text-shadow: 5px -4px $redColor, -8px 4px $blueColor;
+    text-shadow: 5px -4px rgba(244,67,54,1), -8px 4px ;
 
   }
 
   75% {
 
-    text-shadow: -8px -4px $redColor, -5px -4px $blueColor;
+    text-shadow: -8px -4px rgba(244,67,54,1), -5px -4px ;
 
   }
 
   100% {
 
-    text-shadow: -5px 0 $redColor, 5px -4px $blueColor;
+    text-shadow: -5px 0 rgba(244,67,54,1), 5px -4px ;
 
   }
 
