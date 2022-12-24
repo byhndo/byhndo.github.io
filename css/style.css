@@ -191,14 +191,14 @@ body {
     width: 40px;
     color:#8f684e ;
     border-radius: 100%;
-    display:inline;
+    display:inline-flex;
     align-items: center;
     justify-content: center;
     transition: 0.3s;
     background-color: rgba(93, 133, 193, 0.05);
     border-radius: 50%;
     margin-right: 10px;
-  transition: .3s;
+    transition: .3s;
   }
 
 .card-social a:hover{
