@@ -176,25 +176,37 @@ body {
   margin: 0;
   font-weight: 400;
 }
+.card-social {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  margin-bottom: 30px;
+  }
+
+.card-social a {
+    color: #8797a1;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    background-color: rgba(93, 133, 193, 0.05);
+    border-radius: 50%;
+    margin-right: 10px;
+  }
 
 .icon-3d {
-
   padding: 10px;
-
   -webkit-animation: icon3d 200ms 10;
-
   animation: icon3d 200ms 10;
-
   color: #fff;
   }
 
  .icon-3d:hover {
-
     -webkit-animation: icon3d 200ms infinite;
-
           animation: icon3d 200ms infinite;
-
- 
 
 }
 
