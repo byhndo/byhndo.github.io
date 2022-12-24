@@ -206,7 +206,7 @@ body {
   border-radius: 50%;
   margin-right: 10px;
 }
-.card-social a.behance{
+.card-social a .behance{
 width:50px;
 }
 .card-social a:hover svg {
