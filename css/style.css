@@ -5,6 +5,8 @@
 @font-face{font-family:ttcommons;src:url(../css/TTCommons-i.woff) format('woff');font-weight:400;font-style:italic}
 @font-face{font-family:trcommons;src:url(../css/TTCommons-b.woff) format('woff');font-weight:bold;font-style:normal}
 @font-face{font-family:ttcommons;src:url(../css/TTCommons-i-b.woff) format('woff');font-weight:bold;font-style:italic}
+@font-face{font-family:awesome;src:url(../css/fontawesome-webfont.woff) format('woff');font-weight:400;font-style:normal}
+
 * {
   box-sizing: border-box;
 }
