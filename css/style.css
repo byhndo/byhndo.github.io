@@ -180,7 +180,6 @@ body {
   font-weight: 400;
 }
 .card-social {
-  display:flex;
   align-items: center;
   padding: 0 20px;
   margin:10px;
@@ -191,9 +190,7 @@ body {
     width: 35px;
     color:#8f684e ;
     border-radius: 50%;
-    display:inline-flex;
-    text-decorstion:none;
-    transition: 0.3s;
+    transition: .3s;
     background-color: rgba(93, 133, 193, 0.05);
     border-radius: 50%;
     margin-right: 10px;
