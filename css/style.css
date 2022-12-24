@@ -389,6 +389,6 @@ color:#4abbd7;
   margin-top: 25px;
   cursor: pointer;
   font-size: 14px;
-  font-weight: 500;
-  transition: 0.3s;
+  font-weight: 500; -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
