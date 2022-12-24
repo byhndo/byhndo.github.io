@@ -190,9 +190,9 @@ body {
     height: 35px;
     width: 35px;
     color:#8f684e ;
-    border-radius: 100%;
+    border-radius: 50%;
     display:inline-flex;
-    align-items: center;
+    text-decorstion:none;
     transition: 0.3s;
     background-color: rgba(93, 133, 193, 0.05);
     border-radius: 50%;
