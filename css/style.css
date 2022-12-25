@@ -3,6 +3,10 @@
 @font-face{font-family:ttcommons;src:url(../font/TTCommons Italic.woff) format('woff');font-weight:400;font-style:italic}
 @font-face{font-family:trcommons;src:url(../font/TTCommons Bold.woff) format('woff');font-weight:bold;font-style:normal}
 @font-face{font-family:ttcommons;src:url(../font/TTCommons Bold Italic.woff) format('woff');font-weight:bold;font-style:italic}
+@font-face{font-family:ttcommons;src:url(../font/TTCommons Medium.woff) format('woff');font-weight:500;font-style:normal}
+@font-face{font-family:ttcommons;src:url(../font/TTCommons Light.woff) format('woff');font-weight:300;font-style:normal}
+@font-face{font-family:ttcommons;src:url(../font/TTCommons ExtraLight.woff) format('woff');font-weight:200;font-style:normal}
+
 * {
   box-sizing: border-box;
 }
