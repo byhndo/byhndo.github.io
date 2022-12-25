@@ -168,7 +168,7 @@ body {
 }
 
 .card-subtitle {
-  font-family:"Caveat";
+  font-family:"Caveat", sans-serif;
   font-weight: 700;
   font-size:150%;
   margin-bottom: 8px;
