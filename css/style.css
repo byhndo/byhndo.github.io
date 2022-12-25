@@ -3,10 +3,6 @@
 @font-face{font-family:TT Commons;src:url(../font/TT Commons Italic.woff) format('woff');font-weight:400;font-style:italic}
 @font-face{font-family:TT Commons;src:url(../font/TT Commons Bold.woff) format('woff');font-weight:700;font-style:normal}
 @font-face{font-family:TT Commons;src:url(../font/TT Commons Bold Italic.woff) format('woff');font-weight:700;font-style:italic}
-@font-face{font-family:TT Commons;src:url(../font/TT Commons Medium.woff) format('woff');font-weight:500;font-style:normal}
-@font-face{font-family:TT Commons;src:url(../font/TT Commons Light.woff) format('woff');font-weight:300;font-style:normal}
-@font-face{font-family:TT Commons;src:url(../font/TT Commons ExtraLight.woff) format('woff');font-weight:200;font-style:normal}
-@font-face{font-family:TT Commons;src:url(../font/TT Commons Black.woff) format('woff');font-weight:900;font-style:normal}
 
 * {
   box-sizing: border-box;
@@ -136,12 +132,12 @@ body {
   position: absolute;
   bottom: 0;
   font-size: 22px;
-  font-weight: 200;
+  font-weight: 500;
   text-align: center;
   white-space: nowrap;
   transform: translateY(-10px) translateX(-50%);
   left: 50%;
-  font-family:"TT Commons", sans-serif;
+  font-family:"Outfit", sans-serif;
 }
 
 .card-jobtitle {
