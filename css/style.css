@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @font-face{font-family:TT Commons;src:url(../font/TT Commons Regular.woff) format('woff');font-weight:400;font-style:normal}
 @font-face{font-family:TT Commons;src:url(../font/TT Commons Italic.woff) format('woff');font-weight:400;font-style:italic}
 @font-face{font-family:TT Commons;src:url(../font/TT Commons Bold.woff) format('woff');font-weight:700;font-style:normal}
@@ -132,7 +132,7 @@ body {
   position: absolute;
   bottom: 0;
   font-size: 22px;
-  font-weight: 500;
+  font-weight: 700;
   text-align: center;
   white-space: nowrap;
   transform: translateY(-10px) translateX(-50%);
@@ -165,7 +165,7 @@ body {
 }
 
 .card-subtitle {
-  font-family:"Caveat", sans-serif;
+  font-family:"Outfit", sans-serif;
   font-weight: 700;
   font-size:150%;
   margin-bottom: 8px;
