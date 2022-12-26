@@ -92,10 +92,10 @@ body {
   height: 200px;
   flex-shrink: 0;
   width: 100%;
-  transition: 0.3s;
+  transition: 1s;
 }
 .card-header * {
-  transition: 0.3s;
+  transition: 1s;
 }
 
 .card-cover {
