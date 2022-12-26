@@ -33,12 +33,12 @@ body {
   overflow-x: hidden;
   background-color: white;
   display: flex;
-  transition: 1s;
+  transition: .7s;
   flex-direction: column;
   border-radius: 10px;
   box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
   animation-name: rotate;
-  animation-duration: 1s;
+  animation-duration: .7s;
   animation-fill-mode: both;
 }
 
@@ -92,7 +92,7 @@ body {
   height: 200px;
   flex-shrink: 0;
   width: 100%;
-  transition: .8s;
+  transition: .7s;
 }
 .card-header * {
   transition: 1s;
@@ -110,7 +110,7 @@ body {
   background-position: center;
   filter: blur(30px);
   transform: scale(1.2);
-  transition: 1.5s;
+  transition: 1.3s;
 }
 
 .card-avatar {
@@ -264,7 +264,7 @@ body {
   padding: 15px 5px;
   cursor: pointer;
   color: #5c5c6d;
-  transition: 5s;
+  transition: .3s;
   font-family: "Outfit", sans-serif;
   font-weight: 500;
   outline: 0;
@@ -393,7 +393,7 @@ body {
   cursor: pointer;
   font-size: 14px;
   font-weight: 500; 
-  -webkit-transition: .8s;
-  transition: .8s;
+  -webkit-transition: .7s;
+  transition: .7s;
   font-family:"Outfit", sans-serif;
 }
