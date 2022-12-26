@@ -210,16 +210,16 @@ body {
 }
 
 .card-social .f svg{
- fill:aqua;
+ fill:#5989b3;
 }
 .card-social .t svg{
- fill:red;
+ fill:#54c5eb;
 }
 .card-social .i svg{
- fill:black;
+ fill:#d43958;
 }
 .card-social .b svg{
-fill:yellow;
+fill:#140d0f;
 }
 
 .card-social a:hover svg {
