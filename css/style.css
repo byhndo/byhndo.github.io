@@ -212,6 +212,15 @@ body {
 .card-social a .f svg{
  fill:aqua;
 }
+.card-social a .t svg{
+ fill:aqua;
+}
+.card-social a .i svg{
+ fill:aqua;
+}
+.card-social a .b svg{
+fill:aqua;
+}
 
 .card-social a:hover svg {
   fill: #7EABFF;
