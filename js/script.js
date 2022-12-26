@@ -27,7 +27,7 @@ let textLength = letters.length -1;
 
 letters.forEach((item,index)=>{
 
-    const target = document.querySelector(".text-holder");
+    const target = document.querySelector(".card-fullname");
 
     let element = document.createElement("span");
 
