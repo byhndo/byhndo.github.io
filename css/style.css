@@ -33,7 +33,7 @@ body {
   overflow-x: hidden;
   background-color: white;
   display: flex;
-  transition: .7s;
+  transition: 1s;
   flex-direction: column;
   border-radius: 10px;
   box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
