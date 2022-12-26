@@ -209,16 +209,16 @@ body {
   margin-right: 10px;
 }
 
-.card-social svg .f{
+.card-social a svg .f{
  fill:aqua;
 }
-.card-social svg .t{
+.card-social a svg .t{
  fill:aqua;
 }
-.card-social svg .i{
+.card-social a svg .i{
  fill:aqua;
 }
-.card-social svg .b{
+.card-social a svg .b{
 fill:aqua;
 }
 
