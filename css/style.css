@@ -138,33 +138,6 @@ body {
   transform: translateY(-10px) translateX(-50%);
   left: 50%;
   font-family:"Outfit", sans-serif;
-  color:rgba(20, 20, 20,.1);
-}
-
-.opaque{
-  animation: opacity 1s linear;
-}
-
-@keyframes opacity{
-
-  0%{
-
-      color:rgba(20, 20, 20, .2);
-
-  }
-
-  50%{
-
-      color: rgba(20, 20, 20,1);             
-
-  }
-
-  100%{
-
-      color:rgba(20, 20, 20,.2);
-
-  }
-
 }
 
 .card-jobtitle {
