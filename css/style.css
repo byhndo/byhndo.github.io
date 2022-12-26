@@ -209,6 +209,10 @@ body {
   margin-right: 10px;
 }
 
+.card-social a svg .f{
+ fill:aqua;
+}
+
 .card-social a:hover svg {
   fill: #7EABFF;
 }
