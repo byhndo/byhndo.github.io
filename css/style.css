@@ -138,7 +138,7 @@ body {
   transform: translateY(-10px) translateX(-50%);
   left: 50%;
   font-family:"Outfit", sans-serif;
-  color:rgba(20, 20, 20,.2);
+  color:rgba(20, 20, 20,.1);
 }
 
 .opaque{
