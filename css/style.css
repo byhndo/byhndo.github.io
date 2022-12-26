@@ -209,16 +209,16 @@ body {
   margin-right: 10px;
 }
 
-.f svg{
+.f{
  fill:aqua;
 }
-.t svg{
+.t{
  fill:red;
 }
-.i svg{
+.i{
  fill:black;
 }
-.b svg{
+.b{
 fill:yellow;
 }
 
