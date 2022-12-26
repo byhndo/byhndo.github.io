@@ -375,7 +375,7 @@ body {
   width: 30px;
   min-height: 34px;
   margin-right: 12px;
-  transition: 0.3s;
+  transition: 0.5s;
   padding-right: 12px;
   border-right: 1px solid #dfe2ec;
 }
