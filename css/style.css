@@ -281,8 +281,8 @@ body {
 }
 .card-section.is-active {
   display: block;
-  -webkit-animation: fadeIn .8s both;
-          animation: fadeIn .8s both;
+  -webkit-animation: fadeIn .7s both;
+          animation: fadeIn .7s both;
 }
 
 @-webkit-keyframes fadeIn {
