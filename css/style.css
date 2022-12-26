@@ -209,17 +209,17 @@ body {
   margin-right: 10px;
 }
 
-.card-social .f{
+.card-social .f svg{
  fill:aqua;
 }
-.card-social .t{
- fill:aqua;
+.card-social .t svg{
+ fill:red;
 }
-.card-social .i{
- fill:aqua;
+.card-social .i svg{
+ fill:black;
 }
-.card-social .b{
-fill:aqua;
+.card-social .b svg{
+fill:yellow;
 }
 
 .card-social a:hover svg {
