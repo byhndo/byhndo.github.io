@@ -38,7 +38,7 @@ body {
   border-radius: 10px;
   box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
   animation-name: rotate;
-  animation-duration: .7s;
+  animation-duration: .5s;
   animation-fill-mode: both;
 }
 
@@ -92,7 +92,7 @@ body {
   height: 200px;
   flex-shrink: 0;
   width: 100%;
-  transition: .7s;
+  transition: .5s;
 }
 .card-header * {
   transition: 1s;
@@ -110,7 +110,7 @@ body {
   background-position: center;
   filter: blur(30px);
   transform: scale(1.2);
-  transition: 1.3s;
+  transition: 1.1s;
 }
 
 .card-avatar {
@@ -219,7 +219,7 @@ body {
   fill: #a5b5ce;
   width: 26px;
   display: block;
-  transition: 0.3s;
+  transition: .3s;
 }
 
 .card-social a {
@@ -281,8 +281,8 @@ body {
 }
 .card-section.is-active {
   display: block;
-  -webkit-animation: fadeIn .7s both;
-          animation: fadeIn .7s both;
+  -webkit-animation: fadeIn .5s both;
+          animation: fadeIn .5s both;
 }
 
 @-webkit-keyframes fadeIn {
@@ -393,7 +393,7 @@ body {
   cursor: pointer;
   font-size: 14px;
   font-weight: 500; 
-  -webkit-transition: .7s;
-  transition: .7s;
+  -webkit-transition: .5s;
+  transition: .5s;
   font-family:"Outfit", sans-serif;
 }
