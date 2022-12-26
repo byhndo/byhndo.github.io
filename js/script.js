@@ -18,3 +18,57 @@ const handleButtonClick = e => {
 buttons.forEach(btn => {
   btn.addEventListener("click", handleButtonClick);
 });
+
+const text= "Bayu Handono";
+
+let letters = text.split("");
+
+let textLength = letters.length -1;
+
+letters.forEach((item,index)=>{
+
+    const target = document.querySelector(".text-holder");
+
+    let element = document.createElement("span");
+
+    element.classList.add("textswipe");
+
+    element.id = `i${index}`;
+
+    element.innerText = item;
+
+    target.appendChild(element);
+
+});
+
+function animate(){
+
+    let textList = document.querySelectorAll(".textswipe");
+
+    textList.forEach((element,index)=>{
+
+        setTimeout(()=>{
+
+            let id = element.getAttribute('id');
+
+            document.getElementById(id)?.classList.toggle('opaque');
+
+            resetAnimation(index);
+
+        },(index + (textLength/2))*10*(100/textLength))
+
+    })
+
+}
+
+function resetAnimation(index){
+
+    if(index ==textLength){
+
+        animate();
+
+    }
+
+}
+
+animate();
