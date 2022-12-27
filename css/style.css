@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&family=Righteous&display=swap');
 @font-face{font-family:ttcommons;src:url(../font/ttcommonsregular.woff) format('woff');font-weight:400;font-style:normal}
 @font-face{font-family:ttcommons;src:url(../font/ttcommonsitalic.woff) format('woff');font-weight:400;font-style:italic}
 @font-face{font-family:ttcommons;src:url(../font/ttcommonsbold.woff) format('woff');font-weight:700;font-style:normal}
@@ -250,7 +250,7 @@ fill:#181a1f;
   cursor: pointer;
   color: #5c5c6d;
   transition: .3s;
-  font-family: "Outfit", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 500;
   outline: 0;
   border-bottom: 3px solid transparent;
@@ -380,5 +380,5 @@ fill:#181a1f;
   font-weight: 500; 
   -webkit-transition: .3s;
   transition: .3s;
-  font-family:"Outfit", sans-serif;
+  font-family:"Quicksand", sans-serif;
 }
