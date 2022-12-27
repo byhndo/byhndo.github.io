@@ -11,7 +11,7 @@
 body {
   color: #2b2c48;
   font-family: "ttcommons", sans-serif;
-  font-size:15px;
+  font-size:14px;
   background-image: url(../img/treeandmountain.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -244,14 +244,14 @@ fill:#181a1f;
       -ms-user-select: none;
           user-select: none;
   background: 0;
-  font-size: 13px;
+  font-size: 12px;
   border: 0;
   padding: 15px 5px;
   cursor: pointer;
   color: #5c5c6d;
   transition: .3s;
   font-family: "Quicksand", sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   outline: 0;
   border-bottom: 3px solid transparent;
 }
@@ -377,7 +377,7 @@ fill:#181a1f;
   margin-top: 25px;
   cursor: pointer;
   font-size: 14px;
-  font-weight: 600; 
+  font-weight: 700; 
   -webkit-transition: .3s;
   transition: .3s;
   font-family:"Quicksand", sans-serif;
