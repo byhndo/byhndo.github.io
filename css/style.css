@@ -25,6 +25,7 @@ body {
 
 .card {
   max-width: 330px;
+  min-width: 330px;
   margin: auto;
   overflow-y: auto;
   position: relative;
