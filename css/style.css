@@ -251,7 +251,7 @@ fill:#181a1f;
   color: #5c5c6d;
   transition: .3s;
   font-family: "Quicksand", sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   outline: 0;
   border-bottom: 3px solid transparent;
 }
@@ -377,7 +377,7 @@ fill:#181a1f;
   margin-top: 25px;
   cursor: pointer;
   font-size: 14px;
-  font-weight: 500; 
+  font-weight: 600; 
   -webkit-transition: .3s;
   transition: .3s;
   font-family:"Quicksand", sans-serif;
