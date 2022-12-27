@@ -35,7 +35,7 @@ body {
   display: flex;
   transition: .3s;
   flex-direction: column;
-  border-radius: 20px;
+  border-radius: 14px;
   animation-name: rotate;
   animation-duration: .3s;
   animation-fill-mode: both;
