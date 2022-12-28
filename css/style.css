@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+:root {
+  --purple-brown: #000000;
+  --egg-shell: #fef3e9;
+  --dark-peach: #f3950d;
+  --border-width: 0.75rem;
+  --dots-gap: 10px;
+  font-size: 0.875rem;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: ttcommons;
+  src: url(../font/ttcommonsregular.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: ttcommons;
+  src: url(../font/ttcommonsitalic.woff) format("woff");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: ttcommons;
+  src: url(../font/ttcommonsbold.woff) format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: ttcommons;
+  src: url(../font/ttcommonsbolditalic.woff) format("woff");
+  font-weight: 700;
+  font-style: italic;
+}
+body {
+  font-family: "Outfit", sans-serif;
+  color: var(--egg-shell);
+  font-size: 14px;
+  line-height: 1.5;
+  overflow: scroll;
+}
+
+a {
+  color: inherit;
+}
+
+.bg {
+  background: inherit;
+  min-height: 100vh;
+  padding: 10vh 0 8.5rem;
+  transition: background 0s 1s, color 0.6s;
+}
+
+.projects {
+  color: var(--purple-brown);
+}
+
+.bg:after {
+  content: "";
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 12;
+  pointer-events: none;
+  transition: 1s;
+}
+
+.bio,
+.link-bio {
+  background: var(--purple-brown);
+}
+
+.bio h1 {
+  background-color: var(--dark-peach);
+}
+
+.projects,
+.link-projects {
+  background: var(--egg-shell);
+}
+
+.find-me,
+.link-find-me {
+  background: var(--dark-peach);
+}
+
+.transition {
+  width: 1rem;
+  height: 1rem;
+  top: 0;
+  display: block;
+  position: absolute;
+  opacity: 0;
+  transition: transform 0.6s ease-in-out;
+  width: 100%;
+  height: 100vh;
+  transform: scale(0);
+  transform-origin: 35rem;
+}
+
+.transition-bio {
+  left: 0;
+  background: var(--purple-brown);
+  transform-origin: 0rem 0;
+}
+
+.transition-projects {
+  left: 0;
+  background: var(--egg-shell);
+  transform-origin: 14.6rem 0;
+}
+
+.transition-find-me {
+  left: 0;
+  background: var(--dark-peach);
+  transform-origin: 30rem 0;
+}
+
+.bio .transition-bio,
+.projects .transition-projects,
+.find-me .transition-find-me {
+  opacity: 1;
+}
+
+.bio .transition-bio {
+  transform: scale(1) translateX(0) translateY(0);
+}
+
+.projects .transition-projects {
+  transform: scale(1) translateX(0) translateY(0);
+}
+
+.find-me .transition-find-me {
+  transform: scale(1) translateX(0) translateY(0);
+}
+
+h1 {
+  font-family: "Anton", sans-serif;
+  text-align: center;
+  margin: 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #000), color-stop(0.5, #000), color-stop(1, transparent));
+  transition: background-position 1s, background-color 1s;
+  text-align: center;
+  font-size: calc(20vw + 1rem);
+  font-weight: 900;
+  text-transform: none;
+  line-height: 1;
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/tw-o.png"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/tw6-o.png"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/tw5-o.png");
+  background-size: 45vw auto, 45vw auto, 30vw auto;
+  background-repeat: repeat-x;
+  background-position: 0px 15%, 100px 25%, -50px 2vw;
+}
+
+.projects h1 {
+  background-color: var(--dark-peach);
+  background-position: -120px 15%, 230px 20%, -100px 3vw;
+}
+
+.find-me h1 {
+  background-color: var(--egg-shell);
+  background-position: -240px 15%, 260px 25%, -150px 1vw;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  flex: 1 0 7.5rem;
+}
+nav a {
+  display: block;
+  padding: 0.75rem 0 0.5rem;
+  color: var(--egg-shell);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 700;
+  font-family: "Space Mono", sans-serif;
+}
+nav .link-projects {
+  color: var(--purple-brown);
+}
+
+main {
+  position: relative;
+  max-width: 36rem;
+  padding: 0 1.5rem;
+  margin: 1rem auto 0;
+  font-size: 1rem;
+}
+
+.slide-fade-enter-active {
+  transition: all 1s ease;
+}
+
+.slide-fade-leave-active {
+  transition: all 0.5s;
+}
+
+.slide-fade-enter,
+.slide-fade-leave-to {
+  transform: translateY(2rem);
+  opacity: 0;
+}
+
+.sub1 {
+  font-family: "Outfit", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: #ffb100;
+}
+
+span.sub1 {
+  color: white;
+  font-family: "Space Mono", sans-serif;
+  font-size: 1.2rem;
+  word-wrap: break-word;
+  font-weight: 400;
+  display: flex;
+}
+
+.sub2 {
+  font-family: "Righteous", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: #fcbb42;
+}
+
+span.sub2 {
+  color: white;
+  font-family: "ttcommons", sans-serif;
+  font-size: 1.2rem;
+  word-wrap: break-word;
+  font-weight: 400;
+  display: flex;
+}
