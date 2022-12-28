@@ -225,7 +225,7 @@ main {
 }
 
 .sub1 {
-  font-family: "ttcommons", sans-serif;
+  font-family: "Open sans", sans-serif;
   font-size: 50px;
   font-weight: 700;
   color: #ffb100;
@@ -233,7 +233,7 @@ main {
 
 span.sub1 {
   color: white;
-  font-family: "ttcommons", sans-serif;
+  font-family: "Space Mono", sans-serif;
   font-size: 1.2rem;
   word-wrap: break-word;
   font-weight: 400;
@@ -241,7 +241,7 @@ span.sub1 {
 }
 
 .sub2 {
-  font-family: "Righteous", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 50px;
   font-weight: 700;
   color: #fcbb42;
@@ -249,7 +249,7 @@ span.sub1 {
 
 span.sub2 {
   color: white;
-  font-family: "ttcommons", sans-serif;
+  font-family: "Space Mono", sans-serif;
   font-size: 1.2rem;
   word-wrap: break-word;
   font-weight: 400;
