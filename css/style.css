@@ -154,7 +154,7 @@ h1 {
   font-size: calc(20vw + 1rem);
   font-weight: 900;
   text-transform: none;
-  line-height: 1;
+  line-height: 1.1;
   background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/tw-o.png"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/tw6-o.png"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/tw5-o.png");
   background-size: 45vw auto, 45vw auto, 30vw auto;
   background-repeat: repeat-x;
