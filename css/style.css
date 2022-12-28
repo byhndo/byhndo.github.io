@@ -14,30 +14,6 @@
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: ttcommons;
-  src: url(../font/ttcommonsregular.woff) format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: ttcommons;
-  src: url(../font/ttcommonsitalic.woff) format("woff");
-  font-weight: 400;
-  font-style: italic;
-}
-@font-face {
-  font-family: ttcommons;
-  src: url(../font/ttcommonsbold.woff) format("woff");
-  font-weight: 700;
-  font-style: normal;
-}
-@font-face {
-  font-family: ttcommons;
-  src: url(../font/ttcommonsbolditalic.woff) format("woff");
-  font-weight: 700;
-  font-style: italic;
-}
 body {
   font-family: "Outfit", sans-serif;
   color: var(--egg-shell);
