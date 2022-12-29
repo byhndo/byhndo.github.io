@@ -99,6 +99,27 @@
 </div>
     </header>
 
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     version="1.1">
+    <defs>
+        <filter id="distort">
+          <feTurbulence baseFrequency="0.015" 
+                          numOctaves="3" 
+                          result="warp" 
+                          type="fractalNoise">
+          </feTurbulence>
+          
+				  <feDisplacementMap in="SourceGraphic" 
+                             in2="warp" 
+                             scale="0" 
+                             xChannelSelector="R" 
+                             yChannelSelector="B">
+          </feDisplacementMap>
+        </filter>
+    </defs>
+</svg>
+
     <div class="dots dots1"></div>
 
     <div class="dots dots2"></div>
