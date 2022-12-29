@@ -184,7 +184,6 @@ main {
   max-width: 93%;
   padding: 0 1.5rem;
   margin: -1rem auto 0;
-  font-size: 1rem;
 }
 
 .slide-fade-enter-active {
@@ -211,7 +210,6 @@ main {
 span.sub1 {
   color: white;
   font-family: "Space Mono", sans-serif;
-  font-size: 1.2rem;
   word-wrap: break-word;
   font-weight: 400;
   display: flex;
@@ -227,7 +225,6 @@ span.sub1 {
 span.sub2 {
   color: white;
   font-family: "Space Mono", sans-serif;
-  font-size: 1.2rem;
   word-wrap: break-word;
   font-weight: 400;
   display: flex;
