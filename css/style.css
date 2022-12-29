@@ -144,19 +144,14 @@ h1 {
   font-weight: 900;
   text-transform: none;
   line-height: 1.1;
-  background-size: 45vw auto, 45vw auto, 30vw auto;
-  background-repeat: repeat-x;
-  background-position: 0px 15%, 100px 25%, -50px 2vw;
 }
 
 .projects h1 {
   background-color: var(--dark-peach);
-  background-position: -120px 15%, 230px 20%, -100px 3vw;
 }
 
 .find-me h1 {
   background-color: var(--egg-shell);
-  background-position: -240px 15%, 260px 25%, -150px 1vw;
 }
 
 nav {
