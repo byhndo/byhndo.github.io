@@ -119,6 +119,17 @@ a {
   transform: scale(1) translateX(0) translateY(0);
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:auto;
+}
+
+svg {
+  display: none;
+}
+
 h1 {
   font-family: "Anton", sans-serif;
   text-align: center;
