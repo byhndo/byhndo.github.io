@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Anton&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 
 :root {
@@ -87,19 +87,19 @@ a {
 .transition-bio {
   left: 0;
   background: var(--purple-brown);
-  transform-origin: 0rem 0;
+  transform-origin: 0 0;
 }
 
 .transition-projects {
   left: 0;
   background: var(--egg-shell);
-  transform-origin: 14.6rem 0;
+  transform-origin: 50% 0;
 }
 
 .transition-find-me {
   left: 0;
   background: var(--dark-peach);
-  transform-origin: 30rem 0;
+  transform-origin: 100% 0;
 }
 
 .bio .transition-bio,
