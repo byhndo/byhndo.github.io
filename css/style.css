@@ -132,6 +132,7 @@ svg {
 
 h1 {
   font-family: "Anton", sans-serif;
+  filter: url("#distort");
   text-align: center;
   margin: 0;
   -webkit-background-clip: text;
