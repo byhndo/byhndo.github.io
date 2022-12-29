@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Anton&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap'); 
 
 
 :root {
@@ -219,9 +219,9 @@ color:#ffffff;
 }
 
 span.sub1, span.sub2, span.sub3{
-  font-family: "Space Mono", sans-serif;
+  font-family: "Caveat", sans-serif;
   font-size:14px;
-  font-weight: 400;
+  font-weight: 700;
   display: flex;
 }
 
