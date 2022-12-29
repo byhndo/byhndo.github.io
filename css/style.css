@@ -7,7 +7,6 @@
   --dark-peach: #f3950d;
   --border-width: 0.75rem;
   --dots-gap: 10px;
-    font-size:14px;
 }
 
 *,
@@ -19,8 +18,10 @@
 body {
   font-family: "Space Mono", sans-serif;
   color: var(--egg-shell);
+  font-size:14px;
   line-height: 1.5;
   overflow: scroll;
+word-wrap: break-word;
 }
 
 a {
@@ -200,32 +201,36 @@ main {
   opacity: 0;
 }
 
-.sub1 {
+.sub1, .sub2, .sub2 {
   font-family: "Space Mono", sans-serif;
   font-size: 50px;
   font-weight: 700;
+}
+
+.sub1 {
   color: #ffb100;
 }
 
-span.sub1 {
-  color: white;
+.sub2{
+color:fcbb42;
+}
+
+.sub3{
+color:#ffffff;
+}
+
+span.sub1, span.sub2, span.sub3{
   font-family: "Space Mono", sans-serif;
-  word-wrap: break-word;
+  font-size:14px;
   font-weight: 400;
   display: flex;
 }
 
-.sub2 {
-  font-family: "Space Mono", sans-serif;
-  font-size: 50px;
-  font-weight: 700;
-  color: #fcbb42;
+span.sub1 {
+  color: white; 
 }
 
 span.sub2 {
-  color: white;
-  font-family: "Space Mono", sans-serif;
-  word-wrap: break-word;
-  font-weight: 400;
-  display: flex;
+  color:#111;
 }
+
