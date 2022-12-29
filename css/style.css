@@ -182,9 +182,9 @@ nav .link-projects {
 
 main {
   position: relative;
-  max-width: 95%;
+  max-width: 96%;
   padding: 0 1.5rem;
-  margin: -1rem auto 0;
+  margin: -3rem auto 0;
 }
 
 .slide-fade-enter-active {
