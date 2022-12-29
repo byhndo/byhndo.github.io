@@ -201,7 +201,7 @@ main {
 }
 
 .sub1, .sub2, .sub2 {
-  font-family: "Space Mono", sans-serif;
+  font-family: "Caveat", sans-serif;
   font-size: 50px;
   font-weight: 700;
 }
@@ -219,7 +219,7 @@ color:#ffffff;
 }
 
 span.sub1, span.sub2, span.sub3{
-  font-family: "Caveat", sans-serif;
+  font-family: "Space Mono", sans-serif;
   font-size:14px;
   font-weight: 700;
   display: flex;
