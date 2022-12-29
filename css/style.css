@@ -5,7 +5,6 @@
   --dark-peach: #f3950d;
   --border-width: 0.75rem;
   --dots-gap: 10px;
-  font-size: 0.875rem;
 }
 
 *,
@@ -17,7 +16,7 @@
 body {
   font-family: "Outfit", sans-serif;
   color: var(--egg-shell);
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 1.5;
   overflow: scroll;
 }
