@@ -16,7 +16,7 @@
 }
 
 body {
-  font-family: "Outfit", sans-serif;
+  font-family: "Space Mono", sans-serif;
   color: var(--egg-shell);
   font-size: 0.875rem;
   line-height: 1.5;
@@ -202,7 +202,7 @@ main {
 }
 
 .sub1 {
-  font-family: "Open sans", sans-serif;
+  font-family: "Space Mono", sans-serif;
   font-size: 50px;
   font-weight: 700;
   color: #ffb100;
@@ -218,7 +218,7 @@ span.sub1 {
 }
 
 .sub2 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Space Mono", sans-serif;
   font-size: 50px;
   font-weight: 700;
   color: #fcbb42;
