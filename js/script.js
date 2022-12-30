@@ -26,9 +26,8 @@ function scroll(){
 
 
 
-const logo = document.querySelectorAll(".logo span");
+const logo = document.querySelectorAll(".sub1 span");
 
-const symbol = document.querySelectorAll(".sub1 span");
 
 let tl = gsap.timeline();
 
@@ -46,13 +45,5 @@ tl.from(logo, {
 
 });
 
-tl.from(symbol, {
 
-  opacity: 0,
-
-  duration: 1,
-
-  stagger: 0.1,
-
-});
 
