@@ -8,6 +8,7 @@
   --light: #EFEAD8;
   --bonafide: #28544B;
   --fontbase: 14px;
+  --fontsubtitle: 50px;
   --font1: "Anton", sans-serif;
   --font2: "Abril Fatface", serif;
   --font3: "Space Mono", sans-serif;
@@ -213,7 +214,7 @@ main {
 
 .sub1, .sub2, .sub3 {
   font-family: var(--font2);
-  font-size: 50px;
+  font-size: var(--fontsubtitle);
   font-weight: 400;
 }
 
