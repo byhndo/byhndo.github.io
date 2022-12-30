@@ -214,7 +214,7 @@ main {
 .sub1, .sub2, .sub3 {
   font-family: var(--font2);
   font-size: 50px;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .sub1 {
