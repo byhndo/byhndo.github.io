@@ -7,8 +7,7 @@
   --dark: #000000;
   --light: #EFEAD8;
   --bonafide: #28544B;
-  --border-width: 0.75rem;
-  --dots-gap: 10px;
+  --fontbase: 14px;
   --font1: "Anton", sans-serif;
   --font2: "Abril Fatface", serif;
   --font3: "Space Mono", sans-serif;
@@ -23,7 +22,7 @@
 body {
   font-family: var(--font3);
   color: var(--light);
-  font-size:14px;
+  font-size:var(--fontbase);
   line-height: 1.5;
   overflow: scroll;
   word-wrap: break-word;
@@ -232,7 +231,7 @@ color: #fef3e9;
 
 span.sub1, span.sub2, span.sub3{
   font-family: var(--font3);
-  font-size:14px;
+  font-size:var(--fontbase);
   font-weight: 400;
   display: flex;
 }
