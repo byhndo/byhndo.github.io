@@ -252,3 +252,12 @@ span.sub3 {
 color: var(--light);
 }
 
+.line-under {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0vw;
+  height: .4vw;
+  background-color: $s_color;
+}
+
