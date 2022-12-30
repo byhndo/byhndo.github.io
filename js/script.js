@@ -56,20 +56,3 @@ tl.from(symbol, {
 
 });
 
-tl.to(".line-under", {
-
-  duration: 1,
-
-  width: "100%",
-
-}, "<");
-
-tl.to(".line-under", {
-
-  duration: 1,
-
-  width: "25%",
-
-  ease: "bounce"
-
-},"<1");
