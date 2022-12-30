@@ -26,7 +26,7 @@ function scroll(){
 
 
 
-const logo = document.querySelectorAll(".sub1 span");
+const logo = document.querySelectorAll("p.sub1 span");
 
 const symbol = document.querySelectorAll(".symbol span");
 
