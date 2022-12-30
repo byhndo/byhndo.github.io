@@ -68,7 +68,7 @@ tl.to(".line-under", {
 
   duration: 1,
 
-  width: "19.3vw",
+  width: "25%",
 
   ease: "bounce"
 
