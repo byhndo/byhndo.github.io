@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap'); 
 
 :root {
-  --purple-brown: #000000;
-  --egg-shell: #EFEAD8;
-  --dark-peach: #28544B;
+  --dark: #000000;
+  --light: #EFEAD8;
+  --bonafide: #28544B;
   --border-width: 0.75rem;
   --dots-gap: 10px;
 }
@@ -16,7 +16,7 @@
 
 body {
   font-family: "Space Mono", sans-serif;
-  color: var(--egg-shell);
+  color: var(--light);
   font-size:14px;
   line-height: 1.5;
   overflow: scroll;
@@ -35,7 +35,7 @@ a {
 }
 
 .projects {
-  color: var(--purple-brown);
+  color: var(--dark);
 }
 
 .bg:after {
@@ -52,21 +52,21 @@ a {
 
 .bio,
 .link-bio {
-  background: var(--purple-brown);
+  background: var(--dark);
 }
 
 .bio h1 {
-  background-color: var(--dark-peach);
+  background-color: var(--bonafide);
 }
 
 .projects,
 .link-projects {
-  background: var(--egg-shell);
+  background: var(--light);
 }
 
 .find-me,
 .link-find-me {
-  background: var(--dark-peach);
+  background: var(--bonafide);
 }
 
 .transition {
@@ -85,19 +85,19 @@ a {
 
 .transition-bio {
   left: 0;
-  background: var(--purple-brown);
+  background: var(--dark);
   transform-origin: 0 0;
 }
 
 .transition-projects {
   left: 0;
-  background: var(--egg-shell);
+  background: var(--light);
   transform-origin: 50% 0;
 }
 
 .transition-find-me {
   left: 0;
-  background: var(--dark-peach);
+  background: var(--bonafide);
   transform-origin: 100% 0;
 }
 
@@ -147,11 +147,11 @@ h1 {
 }
 
 .projects h1 {
-  background-color: var(--dark-peach);
+  background-color: var(--bonafide);
 }
 
 .find-me h1 {
-  background-color: var(--egg-shell);
+  background-color: var(--light);
 }
 
 nav {
@@ -174,7 +174,7 @@ nav li {
 nav a {
   display: block;
   padding: 0.75rem 0 0.5rem;
-  color: var(--egg-shell);
+  color: var(--light);
   text-decoration: none;
   text-transform: uppercase;
   font-size: 0.8rem;
@@ -182,7 +182,7 @@ nav a {
   font-family: "Space Mono", sans-serif;
 }
 nav .link-projects {
-  color: var(--purple-brown);
+  color: var(--dark);
 }
 
 main {
@@ -232,7 +232,7 @@ span.sub1, span.sub2, span.sub3{
 }
 
 span.sub1 {
-  color: white; 
+  color: var(--light);; 
 }
 
 span.sub2 {
@@ -240,6 +240,6 @@ span.sub2 {
 }
 
 span.sub3 {
-color: #fef3e9;
+color: var(--light);
 }
 
