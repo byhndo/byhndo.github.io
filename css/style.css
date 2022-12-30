@@ -9,6 +9,7 @@
   --bonafide: #28544B;
   --fontbase: 14px;
   --fontsubtitle: 50px;
+  --fonttitle: calc(20vw + 1rem);
   --font1: "Anton", sans-serif;
   --font2: "Abril Fatface", serif;
   --font3: "Space Mono", sans-serif;
@@ -144,9 +145,7 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #000), color-stop(0.5, #000), color-stop(1, transparent));
-  transition: background-position 1s, background-color 1s;
-  text-align: center;
-  font-size: calc(20vw + 1rem);
+  font-size: var(--fonttitle);
   font-weight: 900;
   text-transform: none;
   line-height: 1.1;
