@@ -156,7 +156,7 @@ h1 {
   font-weight: 700;
   text-transform: none;
   line-height: .8;
-  letter-spacing:1px;
+  word-wrap:break-word;
 }
 
 .projects h1 {
