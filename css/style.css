@@ -149,11 +149,8 @@ h1 {
   font-family: var(--font1);
   filter: url("#distort");
   text-align:center;
-  margin: 0 0 20px 0;
+  margin: 0;
   transition: background-position 1s, background-color 1s;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #000), color-stop(0.5, #000), color-stop(1, transparent));
   font-size: var(--fonttitle);
   font-weight: 700;
   text-transform: none;
