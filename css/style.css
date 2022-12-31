@@ -263,28 +263,14 @@ color: #fcfcfc;
 
 
 
-
-.social-links-container {
-  align-items: center;
-  justify-content: center;
+ul {
+  list-style: none;
 }
-
-.social-link {
-  background-color: rgba(0, 0, 0, 0);
-  cursor: pointer;
-  display: block;
-  height: 50px;
-  width: 50px;
+li {
+  display: inline-block;
 }
-.social-link:hover {
-  transform: scale(1.2);
-  transition: all 0.5s;
-}
-.social-link:hover .social-icon path {
-  color: purple;
-  background: purple;
-  fill: lime;
-  transition: all 0.5s;
+svg {
+  width: 96px;
 }
 
 
