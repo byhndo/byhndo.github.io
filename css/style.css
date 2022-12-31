@@ -152,7 +152,7 @@ h1 {
   font-size: var(--fonttitle);
   font-weight: 400;
   text-transform: none;
-  line-height: 1.1;
+  line-height: 1;
 }
 
 h1 span {
