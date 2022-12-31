@@ -149,7 +149,7 @@ h1 {
   -webkit-text-fill-color: transparent;
   -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #000), color-stop(0.5, #000), color-stop(1, transparent));
   background-image: url('../img/unnamed.png');
-  background-size:180% auto;
+  background-size:150% auto;
   background-repeat: no-repeat;
   background-position:  50% 20%;
   font-size: var(--fonttitle);
