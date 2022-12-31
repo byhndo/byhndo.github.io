@@ -154,10 +154,6 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #000), color-stop(0.5, #000), color-stop(1, transparent));
-  background-image: url('../img/unnamed.png');
-  background-size:120% auto;
-  background-repeat: no-repeat;
-  background-position:  50% 20%;
   font-size: var(--fonttitle);
   font-weight: 700;
   text-transform: none;
