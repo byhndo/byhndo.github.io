@@ -33,7 +33,7 @@ let tl = gsap.timeline();
 
 tl.from(logo, {
 
-  duration: 2,
+  duration: 1.8,
 
   opacity: 0,
 
