@@ -151,7 +151,7 @@ h1 {
   background-image: url('../img/unnamed.png');
   background-size: 100% auto;
   background-repeat: no-repeat;
-  background-position: 0px 90%;
+  background-position:  50% 50%;
   font-size: var(--fonttitle);
   font-weight: 400;
   text-transform: none;
