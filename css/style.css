@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Sulphur+Point:wght@300;400;700&display=swap'); 
 
 @font-face{font-family:Brixton-Wood;src:url(../font/Brixton-Wood.woff) format('woff');font-weight:400;font-style:normal}
 
@@ -12,10 +12,10 @@
   --fontbase: 14px;
   --fontsubtitle: 50px;
   --fonttitle: calc(30vw + 1rem);
-  --fontnav: "Brixton-Wood", sans-serif;
+  --fontnav: "Sulphur Point", sans-serif;
   --font1: "Brixton-Wood", sans-serif;
-  --font2: "Icomoon", serif;
-  --font3: "Space Mono", sans-serif;
+  --font2: "Sulphur Point", serif;
+  --font3: "Sulphur Point", sans-serif;
 }
 
 *,
