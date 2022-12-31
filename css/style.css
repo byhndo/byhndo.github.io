@@ -229,7 +229,7 @@ main {
 .sub1, .sub2, .sub3 {
   font-family: var(--font2);
   font-size: var(--fontsubtitle);
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .sub1 {
