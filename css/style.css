@@ -107,7 +107,7 @@ a {
 
 .transition-find-me {
   left: 0;
-  background: var(--middle);
+  background: var(--dusk);
   transform-origin: 100% 0;
 }
 
