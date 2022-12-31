@@ -142,8 +142,8 @@ svg {
 h1 {
   font-family: var(--font1);
   filter: url("#distort");
-  text-align:left;
-  margin: 0 0 0 5% ;
+  text-align:center;
+  margin: 0;
   transition: background-position 1s, background-color 1s;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
