@@ -18,7 +18,7 @@
   --fontsubtitle: 50px;
   --fonttitle: calc(20vw + 1rem);
   --fontnav: "Sulphur Point", sans-serif;
-  --font1: "BasierSquare", sans-serif;
+  --font1: "BasierCircle", sans-serif;
   --font2: "Sulphur Point", serif;
   --font3: "Space Mono", sans-serif;
 }
@@ -149,7 +149,7 @@ h1 {
   font-family: var(--font1);
   filter: url("#distort");
   text-align:center;
-  margin: 0;
+  margin: 0 0 20px 0;
   transition: background-position 1s, background-color 1s;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
