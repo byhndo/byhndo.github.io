@@ -262,3 +262,38 @@ color: #fcfcfc;
 
 
 
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  min-height: 100px;
+}
+
+.social-links-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.social-link {
+  background-color: rgba(0, 0, 0, 0);
+  box-sizing: border-box;
+  cursor: pointer;
+  display: block;
+  height: 50px;
+  width: 50px;
+}
+.social-link:hover {
+  transform: scale(1.2);
+  transition: all 0.5s;
+}
+.social-link:hover .social-icon path {
+  color: purple;
+  background: purple;
+  fill: lime;
+  transition: all 0.5s;
+}
+
+
