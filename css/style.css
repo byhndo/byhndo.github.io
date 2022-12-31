@@ -8,7 +8,7 @@
   --dark: #1b3c33;
   --light: #FFC85C;
   --dusk: #A9333A;
-  --fontbase: 14px;
+  --fontbase: 16px;
   --fontsubtitle: 50px;
   --fonttitle: calc(30vw + 1rem);
   --fontnav: "Sulphur Point", sans-serif;
@@ -219,7 +219,7 @@ main {
 .sub1, .sub2, .sub3 {
   font-family: var(--font2);
   font-size: var(--fontsubtitle);
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .sub1 {
