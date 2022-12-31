@@ -266,9 +266,6 @@ color: #fcfcfc;
 ul {
   list-style: none;
 }
-li {
-  display: inline-block;
-}
 svg {
   width: 96px;
 }
