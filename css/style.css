@@ -5,6 +5,10 @@
 @font-face{font-family:BasierCircle;src:url(../font/BasierCircle-Bold.woff) format('woff');font-weight:700;font-style:normal}
 @font-face{font-family:BasierCircle;src:url(../font/BasierCircle-Italic.woff) format('woff');font-weight:400;font-style:italic}
 @font-face{font-family:BasierCircle;src:url(../font/BasierCircle-BoldItalic.woff) format('woff');font-weight:700;font-style:italic}
+@font-face{font-family:BasierCircle;src:url(../font/BasierCircle-Medium.woff) format('woff');font-weight:500;font-style:normal}
+@font-face{font-family:BasierCircle;src:url(../font/BasierCircle-MediumItalic.woff) format('woff');font-weight:500;font-style:italic}
+@font-face{font-family:BasierCircle;src:url(../font/BasierCircle-SemiBold.woff) format('woff');font-weight:600;font-style:normal}
+@font-face{font-family:BasierCircle;src:url(../font/BasierCircle-SemiBoldItalic.woff) format('woff');font-weight:600;font-style:italic}
 
 
 :root {
