@@ -202,6 +202,7 @@ main {
   max-width: 96%;
   padding: 0 1.5rem;
   margin: -3rem auto 0;
+  text-align:center;
 }
 
 .slide-fade-enter-active {
