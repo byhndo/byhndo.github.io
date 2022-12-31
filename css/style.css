@@ -8,7 +8,7 @@
 :root {
   --dark: #1b3c33;
   --light: #FFC85C;
-  --middle: #d31c26;
+  --dusk: #d31c26;
   --fontbase: 14px;
   --fontsubtitle: 50px;
   --fonttitle: calc(30vw + 1rem);
@@ -66,7 +66,7 @@ a {
 }
 
 .bio h1 {
-  background-color: var(--middle);
+  background-color: var(--dusk);
 }
 
 .projects,
@@ -76,7 +76,7 @@ a {
 
 .find-me,
 .link-find-me {
-  background: var(--middle);
+  background: var(--dusk);
 }
 
 .transition {
@@ -159,7 +159,7 @@ h1 span {
 color:#89C4E1;}
 
 .projects h1 {
-  background-color: var(--middle);
+  background-color: var(--dusk);
 }
 
 .find-me h1 {
