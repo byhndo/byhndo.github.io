@@ -227,6 +227,7 @@ main {
   font-family: var(--font2);
   font-size: var(--fontsubtitle);
   font-weight: 700;
+  display:flex;
 }
 
 .sub1 {
