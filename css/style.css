@@ -150,6 +150,7 @@ h1 {
   filter: url("#distort");
   text-align:center;
   margin: 0;
+  padding:20px 0;
   transition: background-position 1s, background-color 1s;
   font-size: var(--fonttitle);
   font-weight: 700;
