@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap'); 
 
-
+@font-face{font-family:Dahlia;src:url(../css/dahlia-regular.woff) format('woff');font-weight:400;font-style:normal}
 
 
 :root {
@@ -11,7 +11,7 @@
   --fontsubtitle: 50px;
   --fonttitle: calc(20vw + 1rem);
   --font1: "Anton", sans-serif;
-  --font2: "Abril Fatface", serif;
+  --font2: "Dahlia", serif;
   --font3: "Space Mono", sans-serif;
 }
 
