@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Sulphur+Point:wght@300;400;700&display=swap'); 
 
 @font-face{font-family:Brixton-Wood;src:url(../font/Brixton-Wood.woff) format('woff');font-weight:400;font-style:normal}
-@font-face{font-family:BasierCircle-Regular;src:url(../font/BasierCircle-Bold.woff) format('woff');font-weight:700;font-style:normal}
+@font-face{font-family:BasierCircle;src:url(../font/BasierCircle-Regular.woff) format('woff');font-weight:400;font-style:normal}
+@font-face{font-family:BasierCircle;src:url(../font/BasierCircle-Bold.woff) format('woff');font-weight:700;font-style:normal}
+
+
 
 
 :root {
@@ -12,7 +15,7 @@
   --fontsubtitle: 50px;
   --fonttitle: calc(35vw + 1rem);
   --fontnav: "Sulphur Point", sans-serif;
-  --font1: "BasierCircle-Regular", sans-serif;
+  --font1: "BasierCircle", sans-serif;
   --font2: "Sulphur Point", serif;
   --font3: "Space Mono", sans-serif;
 }
@@ -153,7 +156,7 @@ h1 {
   background-repeat: no-repeat;
   background-position:  50% 20%;
   font-size: var(--fonttitle);
-  font-weight: 700;
+  font-weight: 400;
   text-transform: none;
   line-height: .8;
   word-wrap:break-word;
