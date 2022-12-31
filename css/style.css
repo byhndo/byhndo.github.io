@@ -246,7 +246,6 @@ span.sub1, span.sub2, span.sub3{
   font-family: var(--font3);
   font-size:var(--fontbase);
   font-weight: 400;
-  display: flex;
 }
 
 span.sub1 {
