@@ -2,9 +2,10 @@ new Vue({
   el: '#app',
   data() {
     return {
-      bg: 'bio' };
-
-  } });
+      bg: 'bio'
+    }
+  }
+})
 
 
 $(window).scroll(function(){
