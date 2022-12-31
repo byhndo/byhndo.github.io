@@ -3,10 +3,7 @@
 @font-face{font-family:Brixton-Wood;src:url(../font/Brixton-Wood.woff) format('woff');font-weight:400;font-style:normal}
 @font-face{font-family:BasierCircle;src:url(../font/BasierCircle-Regular.woff) format('woff');font-weight:400;font-style:normal}
 @font-face{font-family:BasierCircle;src:url(../font/BasierCircle-Bold.woff) format('woff');font-weight:700;font-style:normal}
-
-
-
-@font-face{font-family:BasierSquare;src:url(../font/BasierSquare-Bold.woff) format('woff');font-weight:700;font-style:normal}
+@font-face{font-family:BasierSquare;src:url(../font/BasierCircle-Italic.woff) format('woff');font-weight:400;font-style:italic}
 
 
 
