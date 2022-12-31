@@ -12,6 +12,7 @@
   --fontbase: 14px;
   --fontsubtitle: 50px;
   --fonttitle: calc(25vw + 1rem);
+  --fontnav: "Brixton-Wood", sans-serif;
   --font1: "Brixton-Wood", sans-serif;
   --font2: "Icomoon", serif;
   --font3: "Space Mono", sans-serif;
@@ -189,8 +190,7 @@ nav a {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 0.8rem;
-  font-weight: 700;
-  font-family: var(--font1);
+  font-family: var(--fontnav);
 }
 nav .link-projects {
   color: var(--dark);
