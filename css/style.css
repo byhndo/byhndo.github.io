@@ -6,9 +6,9 @@
 
 
 :root {
-  --dark: #131e18;
-  --light: #EFEAD8;
-  --bonafide: #1b3c33;
+  --dark: #1b3c33;
+  --light: #FFC85C;
+  --middle: #d31c26;
   --fontbase: 14px;
   --fontsubtitle: 50px;
   --fonttitle: calc(25vw + 1rem);
@@ -66,7 +66,7 @@ a {
 }
 
 .bio h1 {
-  background-color: var(--bonafide);
+  background-color: var(--middle);
 }
 
 .projects,
@@ -76,7 +76,7 @@ a {
 
 .find-me,
 .link-find-me {
-  background: var(--bonafide);
+  background: var(--middle);
 }
 
 .transition {
@@ -107,7 +107,7 @@ a {
 
 .transition-find-me {
   left: 0;
-  background: var(--bonafide);
+  background: var(--middle);
   transform-origin: 100% 0;
 }
 
@@ -159,7 +159,7 @@ h1 span {
 color:#89C4E1;}
 
 .projects h1 {
-  background-color: var(--bonafide);
+  background-color: var(--middle);
 }
 
 .find-me h1 {
