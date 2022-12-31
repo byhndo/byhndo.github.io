@@ -11,7 +11,7 @@
   --bonafide: #1b3c33;
   --fontbase: 14px;
   --fontsubtitle: 50px;
-  --fonttitle: calc(20vw + 1rem);
+  --fonttitle: calc(23vw + 1rem);
   --font1: "Brixton-Wood", sans-serif;
   --font2: "Icomoon", serif;
   --font3: "Space Mono", sans-serif;
@@ -149,7 +149,7 @@ h1 {
   -webkit-text-fill-color: transparent;
   -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #000), color-stop(0.5, #000), color-stop(1, transparent));
   font-size: var(--fonttitle);
-  font-weight: 900;
+  font-weight: 400;
   text-transform: none;
   line-height: 1.1;
 }
