@@ -265,7 +265,7 @@ h1 {
   line-height: .8;
 
   word-wrap:break-word;
-
+text-decoration: line-through;
 }
 
 .projects h1 {
