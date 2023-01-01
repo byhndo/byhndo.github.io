@@ -376,6 +376,20 @@ main {
 
 }
 
+
+span.b{
+font-style:bold
+}
+
+span.i{
+font-style:italic
+}
+
+span.b-i{
+font-style:italic;
+font-weight:700;
+}
+
 .sub1, .sub2, .sub3 {
 
   font-family: var(--font2);
