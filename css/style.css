@@ -495,12 +495,12 @@ soc a {
 
 .projects soc a {
 
-  background-color: var(--dark);
+  color: var(--dusk);
 
 }
 
 .find-me soc a {
 
-  background-color: var(--light);
+  color: var(--light);
 
 }
