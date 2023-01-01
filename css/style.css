@@ -377,6 +377,10 @@ main {
 }
 
 
+span.b, span.i, span.bi{
+display:inline;
+} 
+
 span.b{
 font-weight:700
 }
@@ -385,7 +389,7 @@ span.i{
 font-style:italic
 }
 
-span.b-i{
+span.bi{
 font-style:italic;
 font-weight:700;
 }
