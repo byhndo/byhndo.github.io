@@ -445,8 +445,7 @@ position:relative;
   left: 0;
   right: 0;
 z-index:10;
-float:left;
-margin:0 auto;
+justify-content: center;
 }
 
 soc ul.ico{
