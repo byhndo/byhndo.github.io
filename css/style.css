@@ -473,7 +473,7 @@ soc a {
   font-size: 22px;
   font-family: var(--fontnav);
   font-weight:700;
-transition: all ease-out 1s;
+transition: all ease-out 1.5s;
 }
 
 .projects soc a {
