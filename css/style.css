@@ -453,6 +453,7 @@ position:relative;
   left: 0;
   right: 0;
 z-index:10;
+margin: 0 auto;
 }
 
 
@@ -471,6 +472,7 @@ soc ul.ico{
 
 soc li.ico{
 display:inline-flex;
+margin:0 30px 0 30px;
 }
 
 soc a {
