@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+
+@font-face{font-family:Brixton-Wood;src:url(../font/Brixton-Wood.woff) format('woff');font-weight:400;font-style:normal}
+
+@font-face{font-family:BasierCircle;src:url(../font/BasierCircle-Regular.woff) format('woff');font-weight:400;font-style:normal}
+
+@font-face{font-family:BasierCircle;src:url(../font/BasierCircle-Bold.woff) format('woff');font-weight:700;font-style:normal}
+
+@font-face{font-family:BasierCircle;src:url(../font/BasierCircle-Italic.woff) format('woff');font-weight:400;font-style:italic}
+
+@font-face{font-family:BasierCircle;src:url(../font/BasierCircle-BoldItalic.woff) format('woff');font-weight:700;font-style:italic}
+
+@font-face{font-family:BasierCircle;src:url(../font/BasierCircle-Medium.woff) format('woff');font-weight:500;font-style:normal}
+
+@font-face{font-family:BasierCircle;src:url(../font/BasierCircle-MediumItalic.woff) format('woff');font-weight:500;font-style:italic}
+
+@font-face{font-family:BasierCircle;src:url(../font/BasierCircle-SemiBold.woff) format('woff');font-weight:600;font-style:normal}
+
+@font-face{font-family:BasierCircle;src:url(../font/BasierCircle-SemiBoldItalic.woff) format('woff');font-weight:600;font-style:italic}
+
+:root {
+
+  --dark: #1b3c33;
+
+  --light: #FFC85C;
+
+  --dusk: #A9333A;
+
+  --fontbase: 14px;
+
+  --fontsubtitle: 50px;
+
+  --fonttitle: calc(26vw + 1rem);
+
+  --fontnav: "BasierCircle", sans-serif;
+
+  --font1: "BasierCircle", sans-serif;
+
+  --font2: "BasierCircle", serif;
+
+  --font3: "Poppins", sans-serif;
+
+}
+
+*,
+
+*:before,
+
+*:after {
+
+  box-sizing: border-box;
+
+}
+
+body {
+
+  font-family: var(--font3);
+
+  color: var(--light);
+
+  font-size:var(--fontbase);
+
+  line-height: 1.5;
+
+  overflow: scroll;
+
+  word-wrap: break-word;
+
+}
+
+a {
+
+  color: inherit;
+
+}
+
+.bg {
+
+  background: inherit;
+
+  min-height: 100vh;
+
+  padding: 10vh 0 2rem;
+
+  transition: background 0s 1s, color 0.6s;
+
+}
+
+.projects {
+
+  color: var(--dark);
+
+}
+
+.bg:after {
+
+  content: "";
+
+  position: fixed;
+
+  left: 0;
+
+  top: 0;
+
+  bottom: 0;
+
+  right: 0;
+
+  z-index: 12;
+
+  pointer-events: none;
+
+  transition: 1s;
+
+}
+
+.bio,
+
+.link-bio {
+
+  background: var(--dark);
+
+}
+
+.bio h1 {
+
+  background-color: var(--dusk);
+
+}
+
+.projects,
+
+.link-projects {
+
+  background: var(--light);
+
+}
+
+.find-me,
+
+.link-find-me {
+
+  background: var(--dusk);
+
+}
+
+.transition {
+
+  width: 1rem;
+
+  height: 1rem;
+
+  top: 0;
+
+  display: block;
+
+  position: absolute;
+
+  opacity: 0;
+
+  transition: transform 0.6s ease-in-out;
+
+  width: 100%;
+
+  height: 100%;
+
+  transform: scale(0);
+
+  transform-origin: 0 0;
+
+}
+
+.transition-bio {
+
+  left: 0;
+
+  background: var(--dark);
+
+  transform-origin: 0 0;
+
+}
+
+.transition-projects {
+
+  left: 0;
+
+  background: var(--light);
+
+  transform-origin: 50% 0;
+
+}
+
+.transition-find-me {
+
+  left: 0;
+
+  background: var(--dusk);
+
+  transform-origin: 100% 0;
+
+}
+
+.bio .transition-bio,
+
+.projects .transition-projects,
+
+.find-me .transition-find-me {
+
+  opacity: 1;
+
+}
+
+.bio .transition-bio {
+
+  transform: scale(1) translateX(0) translateY(0);
+
+}
+
+.projects .transition-projects {
+
+  transform: scale(1) translateX(0) translateY(0);
+
+}
+
+.find-me .transition-find-me {
+
+  transform: scale(1) translateX(0) translateY(0);
+
+}
+
+.container {
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  height:auto;
+
+}
+
+svg {
+
+  display: none;
+
+}
+
+h1 {
+
+  font-family: var(--font1);
+
+  filter: url("#distort");
+
+  text-align:center;
+
+  margin: 0;
+
+  padding:30px 0;
+
+  transition: background-position 1s, background-color 1s;
+
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+
+  -webkit-mask-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#000),color-stop(.5,#000),color-stop(1,transparent));
+
+  font-size: var(--fonttitle);
+
+  font-weight: 700;
+
+  text-transform: none;
+
+  line-height: .8;
+
+  word-wrap:break-word;
+
+}
+
+.projects h1 {
+
+  background-color: var(--dusk);
+
+}
+
+.find-me h1 {
+
+  background-color: var(--light);
+
+}
+
+nav {
+
+  position: fixed;
+
+  top: 0;
+
+  left: 0;
+
+  right: 0;
+
+  z-index: 10;
+
+}
+
+nav ul {
+
+  list-style: none;
+
+  display: flex;
+
+  text-align: center;
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+nav li {
+
+  flex: 1 0 7.5rem;
+
+}
+
+nav a {
+
+  display: block;
+
+  padding: 0.75rem 0 0.5rem;
+
+  color: var(--light);
+
+  text-decoration: none;
+
+  text-transform: uppercase;
+
+  font-size: 0.8rem;
+
+  font-family: var(--fontnav);
+
+  font-weight:700;
+
+}
+
+nav .link-projects {
+
+  color: var(--dark);
+
+}
+
+main {
+
+  position: relative;
+
+  max-width: 96%;
+
+  padding: 0 1.5rem;
+
+  margin: -3rem auto 0;
+
+  text-align:center;
+
+}
+
+.slide-fade-enter-active {
+
+  transition: all 1s ease;
+
+}
+
+.slide-fade-leave-active {
+
+  transition: all 0.5s;
+
+}
+
+.slide-fade-enter,
+
+.slide-fade-leave-to {
+
+  transform: translateY(2rem);
+
+  opacity: 0;
+
+}
+
+.sub1, .sub2, .sub3 {
+
+  font-family: var(--font2);
+
+  font-size: var(--fontsubtitle);
+
+  font-weight: 500;
+
+}
+
+.sub1 {
+
+  color: var(--light);
+
+}
+
+.sub2{
+
+color:#000 var(--dark);
+
+}
+
+.sub3{
+
+color:var(--light);
+
+}
+
+span.sub1, span.sub2, span.sub3{
+
+  font-family: var(--font3);
+
+  font-size:var(--fontbase);
+
+  font-weight: 400;
+
+  display: flex;
+
+}
+
+span.sub1 {
+
+  color: #fcfcfc; 
+
+}
+
+span.sub2 {
+
+  color:#000;
+
+}
+
+span.sub3 {
+
+color: #fcfcfc;
+
+}
+
