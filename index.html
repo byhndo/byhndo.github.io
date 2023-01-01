@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<html lang="en" >
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Bayu Handono</title>
+
+  <link rel="stylesheet" href="css/normalize.css">
+
+<link rel="stylesheet" href="css/style.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="title" content="Bayu Handono">
+
+<meta name="description" content="Ini Websiteku Mana Websitemu?">
+
+<meta name="keywords" content="Bayu Handono, Web, Sans-Serif Addicted">
+
+<meta name="language" content="English">
+
+<meta name="author" content="Bayu Handono">
+
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+
+<meta property="og:url" content="http://byhnd.pw"> 
+
+<meta property="og:site_name" content="Bayu Handono">
+
+<meta property="og:type" content="website"> 
+
+<meta property="og:title" content="Bayu Handono"> 
+
+<meta property="og:description" content="Ini Websiteku Mana Websitemu?"> 
+
+<meta property="og:image" content="http://byhnd.pw/img/unnamed.jpg"> 
+
+<meta property="og:image:type" content="image/jpeg">
+
+<meta property="og:image:width" content="300">
+
+<meta property="og:image:height" content="300">
+
+<meta name="twitter:card" content="summary_large_image"> 
+
+<meta property="twitter:domain" content="byhnd.pw"> 
+
+<meta property="twitter:url" content="http://byhnd.pw"> 
+
+<meta name="twitter:title" content="Bayu Handono"> 
+
+<meta name="twitter:description" content="Ini Websiteku Mana Websitemu?"> 
+
+<meta name="twitter:image" content="http://byhnd.pw/img/unnamed.jpg">
+
+<meta name="twitter:site" content="@byuhnd"/>
+
+<meta name="twitter:creator" content="@byuhnd"/>
+
+<meta name="robots" content="noindex,nofollow">
+
+  </head>
+
+<body>
+
+<div id="app">
+
+  <div :class="['bg', bg]">
+
+    <header>
+
+      <nav>
+
+        <ul>
+
+          <li><a class="link-bio" href="#bio" @click="bg = 'bio'">Bio</a></li>
+
+          <li><a class="link-projects" href="#projects" @click="bg = 'projects'">Projects</a></li>
+
+          <li><a class="link-find-me" href="#findme" @click="bg = 'find-me'">Find Me</a></li>
+
+        </ul>
+
+      </nav>
+
+      <div class="transition transition-bio"></div>
+
+      <div class="transition transition-projects"></div>
+
+      <div class="transition transition-find-me"></div>
+
+    
+
+     <h1>byhnd.</h1>
+
+    </header>
+
+<svg xmlns="http://www.w3.org/2000/svg"
+
+     version="1.1">
+
+    <defs>
+
+        <filter id="distort">
+
+          <feTurbulence baseFrequency="0.015" 
+
+                          numOctaves="3" 
+
+                          result="warp" 
+
+                          type="fractalNoise">
+
+          </feTurbulence>
+
+          
+
+				  <feDisplacementMap in="SourceGraphic"                              in2="warp" 
+
+                             scale="0" 
+
+                             xChannelSelector="R" 
+
+                             yChannelSelector="B">
+
+          </feDisplacementMap>
+
+        </filter>
+
+    </defs>
+
+</svg>
+
+    
+
+    <main>
+
+      <transition name="slide-fade" mode="out-in">
+
+        <p key="bio" v-if="bg==='bio'" class="sub1"><span>H</span><span>i</span><span>!</span><span class="sub1">Saya Bayu, Saya lahir di Bandung, Jawa Barat, Indonesia, Asia Tenggara, Asia, Planet Bumi, Tata Surya, Bima Sakti, Jagat raya. Selamat datang dan terima kasih sudah mau berkunjung ke sini. Semoga anda sehat dan bahagia selalu. Senantiasa semua makhluk berbahagia. Jangan minta motivasi, tidak ada kata-kata dan kalimat motivasi, karena saya bukan motivator. Motivasilah dirimu sendiri.</span>
+
+        </p>
+
+        <p key="projects" v-if="bg==='projects'" class="sub2">Fuck<span class="sub2">Fuck you</span>
+
+</p>
+
+        <p key="find-me" v-if="bg==='find-me'" class="sub3">Suck<span class="sub3">Suck <a href="http://byhnd.pw" rel="noopener noreferrer"></a>
+
+</span>
+
+</p>
+
+  </transition>
+
+</main>  
+
+ </div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
