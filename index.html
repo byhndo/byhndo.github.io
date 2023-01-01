@@ -32,9 +32,17 @@
 <meta name="robots" content="noindex,nofollow">
   </head>
 <body>
+
+        
+
+       
+
 <div id="app">
+
   <div :class="['bg', bg]">
+
     <header>
+
       <nav>
 
         <ul>
@@ -55,52 +63,34 @@
 
       <div class="transition transition-find-me"></div>
 
-    
-     <h1>byhnd.</h1>
+      <h1>Header</h1>
+
     </header>
 
+    <div class="dots dots1"></div>
 
-<svg xmlns="http://www.w3.org/2000/svg"
-     version="1.1">
-    <defs>
-        <filter id="distort">
-          <feTurbulence baseFrequency="0.015" 
-                          numOctaves="3" 
-                          result="warp" 
-                          type="fractalNoise">
-          </feTurbulence>
-          
-				  <feDisplacementMap in="SourceGraphic" 
-                             in2="warp" 
-                             scale="0" 
-                             xChannelSelector="R" 
-                             yChannelSelector="B">
-          </feDisplacementMap>
-        </filter>
-    </defs>
-</svg>
+    <div class="dots dots2"></div>
 
-    
     <main>
 
       <transition name="slide-fade" mode="out-in">
-        <p key="bio" v-if="bg==='bio'" class="sub1"><span>H</span><span>i</span><span>!</span><span class="sub1">Saya Bayu, Saya lahir di Bandung, Jawa Barat, Indonesia, Asia Tenggara, Asia, Planet Bumi, Tata Surya, Bima Sakti, Jagat raya. Selamat datang dan terima kasih sudah mau berkunjung ke sini. Semoga anda sehat dan bahagia selalu. Senantiasa semua makhluk berbahagia. Jangan minta motivasi, tidak ada kata-kata dan kalimat motivasi, karena saya bukan motivator. Motivasilah dirimu sendiri.</span>
-        </p>
 
-        <p key="projects" v-if="bg==='projects'" class="sub2">Fuck<span class="sub2">Fuck you</span>
-</p>
+        <p key="bio" v-if="bg==='bio'">Hi! I'm a bio page.</p>
 
-        <p key="find-me" v-if="bg==='find-me'" class="sub3">Suck<span class="sub3">Suck <a href="http://byhnd.pw" rel="noopener noreferrer"></a>
-</span>
-</p>
+        <p key="projects" v-if="bg==='projects'">This is a projects page.</p>
 
+        <p key="find-me" v-if="bg==='find-me'">See <a href="https://pehaa.com" target="_blank" rel="noopener">pehaa.com</a> for the complete website (built with Nuxt.js).</p>
 
+      </transition>
 
+    </main>
 
-  </transition>
-</main>  
- </div>
+  </div>
+
 </div>
+
+
+ 
 
 
 
