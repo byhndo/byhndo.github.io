@@ -377,22 +377,8 @@ main {
 }
 
 
-span.b, span.i, span.bi{
-display:inline;
-} 
 
-span.b{
-font-weight:700
-}
 
-span.i{
-font-style:italic
-}
-
-span.bi{
-font-style:italic;
-font-weight:700;
-}
 
 .sub1, .sub2, .sub3 {
 
@@ -422,7 +408,7 @@ color:var(--light);
 
 }
 
-P.sub1, p.sub2, p.sub3{
+p.sub1, p.sub2, p.sub3{
 
   font-family: var(--font3);
 
