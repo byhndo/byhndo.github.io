@@ -471,7 +471,7 @@ soc a {
   font-size: 25px;
   font-family: var(--fontnav);
   font-weight:700;
-transition: background-position 1s, background-color 1s;
+transition: color 1s;
 }
 
 .projects soc a {
