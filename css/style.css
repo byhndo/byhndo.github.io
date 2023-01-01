@@ -492,10 +492,20 @@ position:relative;
   right: 0;
   margin-top:30px;
   justify-content:center;
-font-family:var(--font1);
+}
+
+.logo a{
+  font-family:var(--font1);
   color:var(--dusk);
   font-size:30px;
   fot-weight:700;
+}
+.projects .logo a {
+  color: var(--dusk);
+}
+
+.find-me .logo a {
+  color: var(--light);
 }
 
 
