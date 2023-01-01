@@ -331,6 +331,7 @@ nav a {
   font-family: var(--fontnav);
 
   font-weight:700;
+  letter-spacing:2px;
 
 }
 
