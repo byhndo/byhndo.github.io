@@ -470,7 +470,7 @@ soc ul.ico{
 }
 
 soc li.ico{
-flex: 1 0 7.5rem;
+display:inline-flex;
 }
 
 soc a {
