@@ -422,7 +422,7 @@ color:var(--light);
 
 }
 
-span.sub1, span.sub2, span.sub3{
+P.sub1, p.sub2, p.sub3{
 
   font-family: var(--font3);
 
@@ -434,19 +434,19 @@ span.sub1, span.sub2, span.sub3{
 
 }
 
-span.sub1 {
+p.sub1 {
 
   color: #F5EDCE; 
 
 }
 
-span.sub2 {
+p.sub2 {
 
   color:#000;
 
 }
 
-span.sub3 {
+p.sub3 {
 
 color: #fcfcfc;
 
