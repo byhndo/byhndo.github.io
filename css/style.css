@@ -485,7 +485,16 @@ transition: all ease-out 1.5s;
 }
 
 
-
+.logo{
+position:relative;
+ bottom: 0;
+  left: 0;
+  right: 0;
+  justify-content:center;
+font-family:var(--font1);
+  color:var(--dusk);
+  font-size:20px;
+}
 
 
 
