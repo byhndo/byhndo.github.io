@@ -497,8 +497,9 @@ position:relative;
 .logo a{
   font-family:var(--font1);
   color:var(--dusk);
-  font-size:17px;
+  font-size:14px;
   font-weight:700;
+  text-decoration:none;
 }
 
 .projects .logo a {
