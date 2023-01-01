@@ -502,11 +502,11 @@ position:relative;
   text-decoration:none;
 }
 
-.projects .logo a {
+.project .logo, .projects .logo a {
   color: var(--dusk);
 }
 
-.find-me .logo a {
+.project .logo, .find-me .logo a {
   color: var(--light);
 }
 
