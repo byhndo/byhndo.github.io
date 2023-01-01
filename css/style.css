@@ -457,7 +457,7 @@ z-index:10;
 
 
 
-soc ul{
+soc ul.soc{
     list-style: none;
 
   display: flex;
@@ -469,7 +469,7 @@ soc ul{
   padding: 0;
 }
 
-soc li{
+soc li.soc{
 flex: 1 0 7.5rem;
 }
 
