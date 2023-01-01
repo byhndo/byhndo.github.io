@@ -446,20 +446,20 @@ color: #fcfcfc;
 
 
 
-ul{
+ul.soc-icon{
     position: absolute;
     top: 50%;  width: 100%;  text-align: center;
     transform: translateY(-50%);
     white-space: nowrap;
 }
-ul li{
+ul.soc-icon li.soc-icon{
     list-style: none;
     margin: 0 20px;
     display: inline-block;
     position: relative;
     width: 30px;   height: 30px;
 }
-ul li a{
+ul.soc-icon li.soc-icon a{
     position: relative;
     display: inline-block;
     color: #262626; 
@@ -467,53 +467,53 @@ ul li a{
     width: 100%;  height: 100%;
     text-align: center;   line-height: 120px;
 }
-ul li span{
+ul.soc-icon li.soc-icon span{
     display: inline-block;
     position: absolute;
     background: #262626;
     transition: transform .9s;
 }
-ul li span:nth-of-type(1),ul li span:nth-of-type(2){
+ul.soc-icon li.soc-icon span:nth-of-type(1),ul li span:nth-of-type(2){
     width: 30px;  height: 2px;
 }
-ul li span:nth-of-type(3),ul li span:nth-of-type(4){
+ul.soc-icon li.-soc-icon span:nth-of-type(3),ul li span:nth-of-type(4){
     width: 2px;  height: 30px;
 }
-ul li span:nth-of-type(1){
+ul.soc-icon li.soc-icon span:nth-of-type(1){
     top: 0;  left: 0;
     transform-origin: right;
     transform: scaleX(1);
 }
-ul li span:nth-of-type(2){
+ul.soc-icon li.soc-icon span:nth-of-type(2){
    bottom: 0;   left: 0;
    transform-origin: left;
    transform: scale(1);
 }
-ul li span:nth-of-type(3){
+ul.soc-icon li.soc-icob span:nth-of-type(3){
    top: 0;   left: 0; 
    transform-origin: bottom;
    transform: scale(0);
 }
-ul li span:nth-of-type(4){
+ul.soc-icon li.soc-icon span:nth-of-type(4){
    top: 0;  right: 0;
    transform-origin: top;
    transform: scale(0);
 }
 
 /*************  On hover  *****************/
-ul li:hover span:nth-of-type(1){
+ul.soc-icon li.soc-icon:hover span:nth-of-type(1){
     transform-origin: left;
     transform: scaleX(0);
 }
-ul li:hover span:nth-of-type(2){
+ul.soc-icon li.soc-icon:hover span:nth-of-type(2){
    transform-origin: right;
    transform: scale(0);
 }
-ul li:hover span:nth-of-type(3){
+ul.soc-icon li.soc-icon:hover span:nth-of-type(3){
    transform-origin: top;
    transform: scale(1);
 }
-ul li:hover span:nth-of-type(4){
+ul.soc-icon li.soc-icon:hover span:nth-of-type(4){
    top: 0;  right: 0;
    transform-origin: bottom;
    transform: scale(1);
