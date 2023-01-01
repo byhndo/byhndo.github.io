@@ -265,10 +265,9 @@ h1 {
   line-height: .8;
 
   word-wrap:break-word;
-text-decoration: line-through;
+
 }
-h1 span{
-text-decoration: line-through;}
+
 .projects h1 {
 
   background-color: var(--dusk);
@@ -501,9 +500,7 @@ position:relative;
   font-size:20px;
   font-weight:700;
 }
-.logo a span{
-text-decoration: line-through;
-}
+
 .projects .logo a {
   color: var(--dusk);
 }
