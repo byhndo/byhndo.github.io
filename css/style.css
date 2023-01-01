@@ -220,7 +220,7 @@ main {
   font-family: var(--font2);
   font-size: var(--fontsubtitle);
   font-weight: 700;
-  display:inline-flex;
+  display:flex;
 }
 
 .sub1 {
@@ -239,6 +239,7 @@ span.sub1, span.sub2, span.sub3{
   font-family: var(--font3);
   font-size:var(--fontbase);
   font-weight: 400;
+  display:inline-flex;
 }
 
 span.sub1 {
