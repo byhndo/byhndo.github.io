@@ -492,3 +492,15 @@ soc a {
   font-weight:700;
 
 }
+
+.projects soc a {
+
+  background-color: var(--dusk);
+
+}
+
+.find-me soc a {
+
+  background-color: var(--light);
+
+}
