@@ -264,7 +264,7 @@ h1 {
 
   font-size: var(--fonttitle);
 
-  font-weight: 700;
+  font-weight: 600;
 
   text-transform: none;
 
@@ -392,7 +392,7 @@ main {
 
   font-size: var(--fontsubtitle);
 
-  font-weight: 700;
+  font-weight: 600;
 
 }
 
