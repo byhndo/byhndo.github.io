@@ -17,6 +17,11 @@
 
 @font-face{font-family:BasierCircle;src:url(../font/BasierCircle-SemiBoldItalic.woff) format('woff');font-weight:600;font-style:italic}
 
+
+@font-face{font-family:Raisonne;src:url(../font/raisonne-demibold.woff) format('woff');font-weight:600;font-style:normal}
+
+
+
 :root {
 
   --dark: #1b3c33;
@@ -33,9 +38,9 @@
 
   --fontnav: "BasierCircle", sans-serif;
 
-  --font1: "BasierCircle", sans-serif;
+  --font1: "Raisonne", sans-serif;
 
-  --font2: "BasierCircle", serif;
+  --font2: "Raisonne", serif;
 
   --font3: "Poppins", sans-serif;
 
