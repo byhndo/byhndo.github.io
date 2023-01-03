@@ -140,7 +140,29 @@
 
 
 
-        <div key="bio" v-if="bg==='bio'" class="sub1"><span>H</span><span>i</span><span>!</span><p class="sub1">Saya <b>Bayu</b>, Saya lahir di Bandung, Jawa Barat, Indonesia, Asia Tenggara, Asia, Planet Bumi, Tata Surya, Bima Sakti, Jagat raya. Selamat datang dan terima kasih sudah mau berkunjung ke sini. Semoga anda sehat dan bahagia selalu. Senantiasa semua makhluk berbahagia. <br><br>Jangan minta motivasi, tidak ada kata-kata dan kalimat motivasi, karena saya bukan motivator. Motivasilah dirimu sendiri.</p>
+        <div key="bio" v-if="bg==='bio'" class="sub1"><span>H</span><span>i</span><span>!</span>
+<svg xmlns="http://www.w3.org/2000/svg"
+     version="1.1">
+    <defs>
+        <filter id="distort">
+          <feTurbulence baseFrequency="0.015" 
+                          numOctaves="3" 
+                          result="warp" 
+                          type="fractalNoise">
+          </feTurbulence>
+          
+				  <feDisplacementMap in="SourceGraphic" 
+                             in2="warp" 
+                             scale="0" 
+                             xChannelSelector="R" 
+                             yChannelSelector="B">
+          </feDisplacementMap>
+        </filter>
+    </defs>
+</svg>
+
+
+<p class="sub1">Saya <b>Bayu</b>, Saya lahir di Bandung, Jawa Barat, Indonesia, Asia Tenggara, Asia, Planet Bumi, Tata Surya, Bima Sakti, Jagat raya. Selamat datang dan terima kasih sudah mau berkunjung ke sini. Semoga anda sehat dan bahagia selalu. Senantiasa semua makhluk berbahagia. <br><br>Jangan minta motivasi, tidak ada kata-kata dan kalimat motivasi, karena saya bukan motivator. Motivasilah dirimu sendiri.</p>
       </div>
 
 
@@ -198,8 +220,7 @@ byHandono.</span></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.min.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
-  
+
 
 
 <script src="js/script.js"></script>
