@@ -44,7 +44,6 @@
 
   --font3: "Poppins", sans-serif;
 
- position:relative;
 
 }
 
@@ -242,6 +241,10 @@ svg {
 
   display: none;
 
+}
+
+header{
+position:relative;
 }
 
 h1 {
