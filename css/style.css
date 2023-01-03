@@ -505,6 +505,7 @@ font-family:var(--fontlogo);
   color:var(--dusk);
   font-size:14px;
   font-weight:700;
+  letter-spacing:2px;
   text-decoration:none;
   transition: all ease-out 1.5s;
 }
