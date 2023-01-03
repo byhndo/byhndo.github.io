@@ -2,7 +2,8 @@
 
 
 @font-face{font-family:MahoneSans;src:url(../fonts/MahoneSansBold.woff) format('woff');font-weight:700;font-style:normal}
-
+@font-face{font-family:Reedoo;src:url(../fonts/Reedoo Bold.woff) format('woff');font-weight:700;font-style:normal}
+@font-face{font-family:Clarissans;src:url(../fonts/clarissans.woff) format('woff');font-weight:400;font-style:normal}
 
 
 :root {
