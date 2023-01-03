@@ -17,8 +17,8 @@
 
 @font-face{font-family:BasierCircle;src:url(../font/BasierCircle-SemiBoldItalic.woff) format('woff');font-weight:600;font-style:italic}
 
+@font-face{font-family:IcoMoon;src:url(../font/IcoMoon.woff) format('woff');font-weight:400;font-style:normal}
 
-@font-face{font-family:Raisonne;src:url(../font/raisonne-demibold.woff) format('woff');font-weight:600;font-style:normal}
 
 
 
@@ -36,13 +36,13 @@
 
   --fonttitle: calc(18vw + 1rem);
 
-  --fontnav: "BasierCircle", sans-serif;
+  --fontnav: "IcoMoon", sans-serif;
 
-  --font1: "BasierCircle", sans-serif;
+  --font1: "IcoMoon", sans-serif;
 
-  --font2: "BasierCircle", sans-serif;
+  --font2: "IcoMoon", sans-serif;
 
-  --font3: "Poppins", sans-serif;
+  --font3: "IcoMoon", sans-serif;
 
 }
 
