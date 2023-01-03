@@ -34,7 +34,7 @@
 
   --fontsubtitle: 50px;
 
-  --fonttitle: calc(18vw + 1rem);
+  --fonttitle: calc(30vw + 1rem);
 
   --fontnav: "BasierCircle", sans-serif;
 
@@ -43,6 +43,7 @@
   --font2: "BasierCircle", sans-serif;
 
   --font3: "Poppins", sans-serif;
+  --fontlogo: "Psilograph-Black", sans-serif;
 
 }
 
@@ -336,7 +337,7 @@ nav a {
 
   font-family: var(--fontnav);
 
-  font-weight:400;
+  font-weight:700;
   letter-spacing:1px;
 
 }
@@ -499,7 +500,7 @@ position:relative;
 }
 
 .logo span{
-font-family:var(--fontnav);
+font-family:var(--fontlogo);
   color:var(--dusk);
   font-size:12px;
   font-weight:700;
