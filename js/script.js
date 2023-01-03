@@ -10,11 +10,11 @@ new Vue({
 
 
 
-const h1 = document.querySelectorAll(".bg h1 span");
+const .sub1 = document.querySelectorAll(".sub1 span");
 
 let tl = gsap.timeline();
 
-tl.from(h1, {
+tl.from(sub1, {
   duration: 1.5,
   opacity: 0,
   ease: "bounce",
