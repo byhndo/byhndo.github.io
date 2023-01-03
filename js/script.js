@@ -18,7 +18,7 @@ tl.from(logo, {
   duration: 1.5,
   opacity: 0,
   ease: "bounce",
-  right: "100%",
+  left: "100%",
   stagger: 0.2,
 });
 
