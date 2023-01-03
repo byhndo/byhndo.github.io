@@ -38,11 +38,11 @@
 
   --fontnav: "IcoMoon", sans-serif;
 
-  --font1: "IcoMoon", sans-serif;
+  --font1: "BasierCircle", sans-serif;
 
-  --font2: "IcoMoon", sans-serif;
+  --font2: "BasierCircle", sans-serif;
 
-  --font3: "IcoMoon", sans-serif;
+  --font3: "Poppins", sans-serif;
 
 }
 
@@ -336,7 +336,7 @@ nav a {
 
   font-family: var(--fontnav);
 
-  font-weight:700;
+  font-weight:400;
   letter-spacing:1px;
 
 }
@@ -500,10 +500,10 @@ position:relative;
 }
 
 .logo span{
-font-family:var(--font1);
+font-family:var(--fontnav);
   color:var(--dusk);
   font-size:12px;
-  font-weight:700;
+  font-weight:400;
   text-decoration:none;
   transition: all ease-out 1.5s;
 }
