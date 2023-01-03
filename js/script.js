@@ -10,11 +10,11 @@ new Vue({
 
 
 
-const .sub1 = document.querySelectorAll(".sub1 span");
+const anim = document.querySelectorAll(".sub1 span");
 
 let tl = gsap.timeline();
 
-tl.from(sub1, {
+tl.from(anim, {
   duration: 1.5,
   opacity: 0,
   ease: "bounce",
