@@ -44,7 +44,7 @@
 
   --font3: "Poppins", sans-serif;
 
-  --fontlogo: "Psilograph-Black", sans-serif;
+ 
 
 }
 
@@ -501,7 +501,7 @@ position:relative;
 }
 
 .footer span{
-font-family:var(--fontlogo);
+font-family:var(--fontnav);
   color:var(--dusk);
   font-size:14px;
   font-weight:700;
