@@ -10,7 +10,7 @@ new Vue({
 
 
 
-const h1 = document.querySelectorAll("header h1 span");
+const h1 = document.querySelectorAll(".bg h1 span");
 
 let tl = gsap.timeline();
 
