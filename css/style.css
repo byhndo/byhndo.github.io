@@ -395,6 +395,7 @@ main {
   font-size: var(--sizesubtitle);
 
   font-weight: 700;
+filter:url("#distort");
 
 }
 
