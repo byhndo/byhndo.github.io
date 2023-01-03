@@ -1,0 +1,552 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+
+  --dark: #1b3c33;
+
+  --light: #ffc85c;
+
+  --dusk: #a9333a;
+
+  --sizefontbase: 12px;
+
+  --sizetitle: calc(30vw + 1rem);
+
+  --sizesubtitle: 50px;
+
+  --fontnav: "Poppins", sans-serif;
+
+  --font1: "Poppins", sans-serif;
+
+  --font2: "Poppins", sans-serif;
+
+  --font3: "Poppins", sans-serif;
+
+}
+
+*,
+
+*:before,
+
+*:after {
+
+  box-sizing: border-box;
+
+}
+
+body {
+
+  font-family: var(--font3);
+
+  color: var(--light);
+
+  font-size: var(--sizefontbase);
+
+  line-height: 1.5;
+
+  overflow: scroll;
+
+  word-wrap: break-word;
+
+}
+
+a {
+
+  color: inherit;
+
+}
+
+.bg {
+
+  background: inherit;
+
+  min-height: 100vh;
+
+  padding: 10vh 0 1.5rem;
+
+  transition: background 0s 1s, color 0.6s;
+
+}
+
+.projects {
+
+  color: var(--dark);
+
+}
+
+.bg:after {
+
+  content: "";
+
+  position: fixed;
+
+  left: 0;
+
+  top: 0;
+
+  bottom: 0;
+
+  right: 0;
+
+  z-index: 12;
+
+  pointer-events: none;
+
+  transition: 1s;
+
+}
+
+.bio,
+
+.link-bio {
+
+  background: var(--dark);
+
+}
+
+.bio h1 {
+
+  background-color: var(--dusk);
+
+}
+
+.projects,
+
+.link-projects {
+
+  background: var(--light);
+
+}
+
+.find-me,
+
+.link-find-me {
+
+  background: var(--dusk);
+
+}
+
+.transition {
+
+  width: 1rem;
+
+  height: 1rem;
+
+  top: 0;
+
+  display: block;
+
+  position: absolute;
+
+  opacity: 0;
+
+  transition: transform 0.6s ease-in-out;
+
+  width: 100%;
+
+  height: 100%;
+
+  transform: scale(0);
+
+  transform-origin: 0 0;
+
+}
+
+.transition-bio {
+
+  left: 0;
+
+  background: var(--dark);
+
+  transform-origin: 0 0;
+
+}
+
+.transition-projects {
+
+  left: 0;
+
+  background: var(--light);
+
+  transform-origin: 50% 0;
+
+}
+
+.transition-find-me {
+
+  left: 0;
+
+  background: var(--dusk);
+
+  transform-origin: 100% 0;
+
+}
+
+.bio .transition-bio,
+
+.projects .transition-projects,
+
+.find-me .transition-find-me {
+
+  opacity: 1;
+
+}
+
+.bio .transition-bio {
+
+  transform: scale(1) translateX(0) translateY(0);
+
+}
+
+.projects .transition-projects {
+
+  transform: scale(1) translateX(0) translateY(0);
+
+}
+
+.find-me .transition-find-me {
+
+  transform: scale(1) translateX(0) translateY(0);
+
+}
+
+svg {
+
+  display: none;
+
+}
+
+h1 {
+
+  font-family: var(--font1);
+
+  filter: url("#distort");
+
+  text-align: center;
+
+  margin: 0;
+
+  padding: 30px 0;
+
+  transition: background-position 1.5s, background-color 1.5s;
+
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+
+  -webkit-mask-image: -webkit-gradient(
+
+    linear,
+
+    left top,
+
+    left bottom,
+
+    color-stop(0, #000),
+
+    color-stop(0.5, #000),
+
+    color-stop(1, transparent)
+
+  );
+
+  font-size: var(--sizetitle);
+
+  font-weight: 900;
+
+  text-transform: none;
+
+  line-height: 0.8;
+
+  word-wrap: break-word;
+
+}
+
+.projects h1 {
+
+  background-color: var(--dusk);
+
+}
+
+.find-me h1 {
+
+  background-color: var(--light);
+
+}
+
+nav {
+
+  position: fixed;
+
+  top: 0;
+
+  left: 0;
+
+  right: 0;
+
+  z-index: 10;
+
+}
+
+nav ul {
+
+  list-style: none;
+
+  display: flex;
+
+  text-align: center;
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+nav li {
+
+  flex: 1 0 7.5rem;
+
+}
+
+nav a {
+
+  display: block;
+
+  padding: 0.75rem 0 0.5rem;
+
+  color: var(--light);
+
+  text-decoration: none;
+
+  text-transform: uppercase;
+
+  font-size: 0.8rem;
+
+  font-family: var(--fontnav);
+
+  font-weight: 600;
+
+  letter-spacing: 1px;
+
+}
+
+nav .link-projects {
+
+  color: var(--dark);
+
+}
+
+main {
+
+  position: relative;
+
+  max-width: 95%;
+
+  padding: 0 1rem;
+
+  margin: -0.1rem auto 0;
+
+  text-align: center;
+
+}
+
+.slide-fade-enter-active {
+
+  transition: all 1s ease;
+
+}
+
+.slide-fade-leave-active {
+
+  transition: all 0.5s;
+
+}
+
+.slide-fade-enter,
+
+.slide-fade-leave-to {
+
+  transform: translateY(2rem);
+
+  opacity: 0;
+
+}
+
+.sub1,
+
+.sub2,
+
+.sub3 {
+
+  font-family: var(--font2);
+
+  font-size: var(--sizesubtitle);
+
+  font-weight: 700;
+
+}
+
+.sub1 {
+
+  color: var(--light);
+
+}
+
+.sub2 {
+
+  color: var(--dark);
+
+}
+
+.sub3 {
+
+  color: var(--light);
+
+}
+
+p.sub1,
+
+p.sub2,
+
+p.sub3 {
+
+  font-family: var(--font3);
+
+  font-size: var(--sizefontbase);
+
+  font-weight: 400;
+
+}
+
+p.sub1 {
+
+  color: #dbc8ac;
+
+}
+
+p.sub2 {
+
+  color: #000;
+
+}
+
+p.sub3 {
+
+  color: #fcfcfc;
+
+}
+
+soc {
+
+  position: relative;
+
+  bottom: 0;
+
+  left: 0;
+
+  right: 0;
+
+  z-index: 10;
+
+}
+
+soc ul.ico {
+
+  list-style: none;
+
+  display: flex;
+
+  text-align: center;
+
+  margin: 0;
+
+  padding: 0;
+
+  justify-content: center;
+
+}
+
+soc li.ico {
+
+  display: inline-flex;
+
+  margin: 0 12px;
+
+}
+
+soc a {
+
+  display: block;
+
+  padding: 0.75rem 0 0.5rem;
+
+  color: var(--dusk);
+
+  text-decoration: none;
+
+  text-transform: uppercase;
+
+  font-size: 22px;
+
+  font-family: var(--fontnav);
+
+  transition: all ease-out 1.7s;
+
+}
+
+.projects soc a {
+
+  color: var(--dusk);
+
+}
+
+.find-me soc a {
+
+  color: var(--light);
+
+}
+
+.footer {
+
+  position: relative;
+
+  bottom: 0;
+
+  left: 0;
+
+  right: 0;
+
+  margin-top: 30px;
+
+}
+
+.footer span {
+
+  font-family: var(--fontnav);
+
+  color: var(--dusk);
+
+  font-size: 12px;
+
+  font-weight: 700;
+
+  letter-spacing: 2px;
+
+  text-decoration: none;
+
+  transition: all ease-out 1.8s;
+
+}
+
+.project .footer span {
+
+  color: var(--dusk);
+
+}
+
+.find-me .footer span {
+
+  color: var(--light);
+
+}
+
