@@ -10,11 +10,11 @@ new Vue({
 
 
 
-const logo = document.querySelectorAll("h1 span");
+const h1 = document.querySelectorAll("header h1 span");
 
 let tl = gsap.timeline();
 
-tl.from(logo, {
+tl.from(h1, {
   duration: 1.5,
   opacity: 0,
   ease: "bounce",
