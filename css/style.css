@@ -32,7 +32,7 @@
 
   --sizefontbase: 12px;
 
-  --sizetitle: calc(30vw + 1rem);
+  --sizetitle: calc(35vw + 1rem);
    
   --sizesubtitle: 50px;
 
@@ -503,7 +503,7 @@ position:relative;
 .logo span{
 font-family:var(--fontlogo);
   color:var(--dusk);
-  font-size:12px;
+  font-size:14px;
   font-weight:700;
   text-decoration:none;
   transition: all ease-out 1.5s;
