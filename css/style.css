@@ -257,6 +257,7 @@ h1 {
   padding:30px 0;
 
   transition: background-position 1s, background-color 1s;
+transition: all ease-out 1.5s;
 
   -webkit-background-clip: text;
 
