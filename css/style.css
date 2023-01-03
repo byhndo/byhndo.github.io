@@ -504,7 +504,7 @@ position:relative;
 .footer span{
 font-family:var(--fontnav);
   color:var(--dusk);
-  font-size:14px;
+  font-size:12px;
   font-weight:700;
   letter-spacing:2px;
   text-decoration:none;
