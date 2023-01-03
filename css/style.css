@@ -17,7 +17,7 @@
 
 @font-face{font-family:BasierCircle;src:url(../font/BasierCircle-SemiBoldItalic.woff) format('woff');font-weight:600;font-style:italic}
 
-@font-face{font-family:IcoMoon;src:url(../font/IcoMoon.woff) format('woff');font-weight:400;font-style:normal}
+@font-face{font-family:Psilograph-Black;src:url(../font/Psilograph-Black.woff) format('woff');font-weight:900;font-style:normal}
 
 
 
@@ -38,7 +38,7 @@
 
   --fontnav: "BasierCircle", sans-serif;
 
-  --font1: "BasierCircle", sans-serif;
+  --font1: "Psilograph-Black", sans-serif;
 
   --font2: "BasierCircle", sans-serif;
 
