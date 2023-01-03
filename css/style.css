@@ -30,11 +30,12 @@
 
   --dusk: #A9333A;
 
-  --fontbase: 12px;
+  --sizefontbase: 12px;
 
-  --fontsubtitle: 50px;
 
-  --fonttitle: calc(30vw + 1rem);
+  --sizetitle: calc(30vw + 1rem);
+   
+  --sizesubtitle: 50px;
 
   --fontnav: "BasierCircle", sans-serif;
 
@@ -63,7 +64,7 @@ body {
 
   color: var(--light);
 
-  font-size:var(--fontbase);
+  font-size:var(--sizefontbase);
 
   line-height: 1.5;
 
@@ -263,7 +264,7 @@ h1 {
 
   -webkit-mask-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#000),color-stop(.5,#000),color-stop(1,transparent));
 
-  font-size: var(--fonttitle);
+  font-size: var(--sizetitle);
 
   font-weight: 900;
 
@@ -391,7 +392,7 @@ main {
 
   font-family: var(--font2);
 
-  font-size: var(--fontsubtitle);
+  font-size: var(--sizesubtitle);
 
   font-weight: 700;
 
