@@ -18,7 +18,7 @@ tl.from(h1, {
   duration: 1.5,
   opacity: 0,
   ease: "bounce",
-  left: "100%",
+  right: "100%",
   stagger: 0.2,
 });
 
