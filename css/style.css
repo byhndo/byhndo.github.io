@@ -36,7 +36,7 @@
 
   --fonttitle: calc(18vw + 1rem);
 
-  --fontnav: "IcoMoon", sans-serif;
+  --fontnav: "BasierCircle", sans-serif;
 
   --font1: "BasierCircle", sans-serif;
 
@@ -478,7 +478,6 @@ soc a {
   text-transform: uppercase;
   font-size: 22px;
   font-family: var(--fontnav);
-  font-weight:700;
 transition: all ease-out 1.5s;
 }
 
@@ -503,7 +502,7 @@ position:relative;
 font-family:var(--fontnav);
   color:var(--dusk);
   font-size:12px;
-  font-weight:400;
+  font-weight:700;
   text-decoration:none;
   transition: all ease-out 1.5s;
 }
