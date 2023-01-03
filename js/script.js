@@ -39,7 +39,7 @@ tl.from(logo, {
 
   right: "100%",
 
-  stagger: .5,
+  stagger: .2,
 
 });
 
