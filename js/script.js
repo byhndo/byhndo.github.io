@@ -25,23 +25,34 @@ function scroll(){
 
 
 const logo = document.querySelectorAll("h1 span");
+const symbol = document.querySelectorAll(".symbol span");
 
 
 let tl = gsap.timeline();
 
 tl.from(logo, {
-
   duration: 1.5,
-
   opacity: 0,
-
   // ease: "bounce",
-
-  right: "100%",
-
-  stagger: .2,
-
+  left: "100%",
+  stagger: 0.2,
 });
+
+
+
+
+
+tl.to(".line-under", {
+  duration: 1,
+  width: "100%",
+}, "<");
+
+tl.to(".line-under", {
+  duration: 1,
+  width: "19.3vw",
+  ease: "bounce"
+},"<1");
+
 
 
 
