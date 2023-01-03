@@ -502,7 +502,7 @@ position:relative;
 .logo span{
 font-family:var(--font1);
   color:var(--dusk);
-  font-size:14px;
+  font-size:12px;
   font-weight:700;
   text-decoration:none;
   transition: all ease-out 1.5s;
