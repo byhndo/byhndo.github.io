@@ -245,7 +245,6 @@ svg {
 }
 
 h1 {
-position:relative;
 
   font-family: var(--font1);
 
@@ -257,7 +256,7 @@ position:relative;
 
   padding:30px 0;
 
-  transition: background-position 1.5s, background-color 1.5s;
+  transition: all background-position 1.5s, background-color 1.5s;
 
   -webkit-background-clip: text;
 
