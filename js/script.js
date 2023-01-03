@@ -24,7 +24,7 @@ function scroll(){
 
 
 
-const logo = document.querySelectorAll("h1 span");
+const logo = document.querySelectorAll(".h1 span");
 
 
 let tl = gsap.timeline();
@@ -39,7 +39,7 @@ tl.from(logo, {
 
   right: "100%",
 
-  stagger: .3,
+  stagger: .2,
 
 });
 
