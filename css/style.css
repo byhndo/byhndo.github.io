@@ -406,7 +406,7 @@ main {
 
 .sub2{
 
-color:#000 var(--dark);
+color:var(--dark);
 
 }
 
