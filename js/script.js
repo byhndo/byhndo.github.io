@@ -9,24 +9,8 @@ new Vue({
 
 
 
-$(window).scroll(function(){
-  scroll();
-});
-
-scroll();
-
-function scroll(){
-  var top = $('html, body').scrollTop();
-  var el = $("#distort").find("feDisplacementMap");
-  el.attr('scale', top);
-  $("h1").css('opacity', 1 - (top * 0.007))
-}
-
-
 
 const logo = document.querySelectorAll("h1 span");
-const symbol = document.querySelectorAll(".symbol span");
-
 
 let tl = gsap.timeline();
 
@@ -40,19 +24,18 @@ tl.from(logo, {
 
 
 
+$(window).scroll(function(){
+  scroll();
+});
 
+scroll();
 
-tl.to(".line-under", {
-  duration: 1,
-  width: "100%",
-}, "<");
-
-tl.to(".line-under", {
-  duration: 1,
-  width: "19.3vw",
-  ease: "bounce"
-},"<1");
-
+function scroll(){
+  var top = $('html, body').scrollTop();
+  var el = $("#distort").find("feDisplacementMap");
+  el.attr('scale', top);
+  $("h1").css('opacity', 1 - (top * 0.007))
+}
 
 
 
