@@ -10,18 +10,6 @@ new Vue({
 
 
 
-const logo = document.querySelectorAll(".sub1 span");
-
-let tl = gsap.timeline();
-
-tl.from(logo, {
-  duration: 1.5,
-  opacity: 0,
-  ease: "bounce",
-  left: "100%",
-  stagger: 0.2,
-});
-
 
 
 $(window).scroll(function(){
