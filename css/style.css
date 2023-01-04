@@ -35,6 +35,10 @@
 
 }
 
+img{
+  border-radius:5px;
+}
+
 body {
 
   font-family: var(--font3);
