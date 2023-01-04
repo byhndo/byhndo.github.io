@@ -11,7 +11,7 @@
 
   --sizefontbase: 12px;
 
-  --sizetitle: calc(21vw + 1rem);
+  --sizetitle: calc(10vw + 1rem);
 
   --sizesubtitle: 50px;
 
@@ -253,7 +253,7 @@ h1 {
 
   font-size: var(--sizetitle);
 
-  font-weight: 800;
+  font-weight: 700;
 
   text-transform: none;
 
@@ -383,7 +383,7 @@ main {
 
   font-size: var(--sizesubtitle);
 
-  font-weight: 500;
+  font-weight: 600;
 
 }
 
