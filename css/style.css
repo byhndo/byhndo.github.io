@@ -8,11 +8,11 @@
 
   --dusk: #a9333a;
 
-  --sizefontbase: 12px;
+  --sizefontbase: 18px;
 
   --sizetitle: calc(43vw + 1rem);
 
-  --sizesubtitle: 30px;
+  --sizesubtitle: 50px;
 
   --fontnav: "Poppins", sans-serif;
 
@@ -244,7 +244,7 @@ h1 {
 
   word-wrap: break-word;
   
-  letter-spacing: -5px;
+  letter-spacing: -2px;
 
 }
 
