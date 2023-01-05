@@ -226,35 +226,15 @@ h1 {
 
   margin: 0;
 
+  padding-bottom:30px;
+
   transition: background-position 1.5s, background-color 1.5s;
-
-  -webkit-background-clip: text;
-
-  -webkit-text-fill-color: transparent;
-
-  -webkit-mask-image: -webkit-gradient(
-
-    linear,
-
-    left top,
-
-    left bottom,
-
-    color-stop(0, #000),
-
-    color-stop(0.5, #000),
-
-    color-stop(1, transparent)
-
-  );
 
   font-size: var(--sizetitle);
 
   font-weight: 900;
 
   text-transform: none;
-  
-  letter-spacing: -10px;
 
   line-height: 0.8;
 
