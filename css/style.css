@@ -524,6 +524,12 @@ soc a {
 
 }
 
+.footer span a{
+
+  text-decoration:none;
+
+}
+
 .project .footer span, .project .footer span a {
 
   color: var(--dusk);
