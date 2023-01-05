@@ -10,7 +10,7 @@
 
   --sizefontbase: 14px;
 
-  --sizetitle: calc(42vw + 1rem);
+  --sizetitle: calc(41vw + 1rem);
 
   --sizesubtitle: 50px;
 
@@ -244,7 +244,7 @@ h1 {
 
   word-wrap: break-word;
   
-  letter-spacing: -2px;
+  letter-spacing: -1px;
 
 }
 
