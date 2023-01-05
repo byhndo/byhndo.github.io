@@ -10,7 +10,7 @@
 
   --sizefontbase: 12px;
 
-  --sizetitle: calc(39vw + 1rem);
+  --sizetitle: calc(43vw + 1rem);
 
   --sizesubtitle: 30px;
 
@@ -412,11 +412,11 @@ p.sub2,
 
 p.sub3 {
 
-  font-family: var(--font2);
+  font-family: var(--font3);
 
   font-size: var(--sizefontbase);
 
-  font-weight: 500;
+  font-weight: 400;
 
 }
 
