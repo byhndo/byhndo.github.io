@@ -528,11 +528,15 @@ soc a {
 
   color: var(--dusk);
 
+  text-decoration:none;
+
 }
 
 .find-me .footer span, .find-me .footer span a {
 
   color: var(--light);
+
+  text-decoration:none;
 
 }
 
