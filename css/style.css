@@ -243,6 +243,8 @@ h1 {
   line-height: 0.8;
 
   word-wrap: break-word;
+  
+  letter-spacing: -3px;
 
 }
 
