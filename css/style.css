@@ -10,7 +10,7 @@
 
   --sizefontbase: 12px;
 
-  --sizetitle: calc(40vw + 1rem);
+  --sizetitle: calc(39vw + 1rem);
 
   --sizesubtitle: 30px;
 
@@ -255,6 +255,8 @@ h1 {
   font-weight: 900;
 
   text-transform: none;
+  
+  letter-spacing: -2px;
 
   line-height: 0.8;
 
