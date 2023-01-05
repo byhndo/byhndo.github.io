@@ -524,13 +524,13 @@ soc a {
 
 }
 
-.project .footer span {
+.project .footer span, .project .footer span a {
 
   color: var(--dusk);
 
 }
 
-.find-me .footer span {
+.find-me .footer span, .find-me .footer span a {
 
   color: var(--light);
 
