@@ -12,7 +12,7 @@
 
   --sizefontbase: 14px;
 
-  --sizetitle: calc(41vw + 1rem);
+  --sizetitle: calc(50vw + 1rem);
 
   --sizesubtitle: 50px;
 
@@ -20,7 +20,7 @@
 
   --font1: 'DrukXCond-Super', sans-serif;
 
-  --font2: 'Oswald', sans-serif;
+  --font2: 'DrukXCond-Super', sans-serif;
 
   --font3: "Poppins", sans-serif;
 
