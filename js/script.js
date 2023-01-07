@@ -30,7 +30,7 @@ function scroll(){
 
 AOS.init({
   duration: 1000,
-  offset: -100
+  offset: -500
 });
 
    // AOS.init({
