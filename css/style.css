@@ -562,6 +562,7 @@ margin: 0 auto;
   background: transparent;
   border-radius: 10px;
   display:inline-flex;
+  margin: 0 auto;
 }
 
 .item img{
