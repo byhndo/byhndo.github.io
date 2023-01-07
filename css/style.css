@@ -547,11 +547,12 @@ soc a {
 
 
 .item {
-  width: 100vw;
+  width: 90vh;
   height: auto;
   margin:0 auto;
   padding: 0;
   background: transparent;
+  border-radius: 10px;
 }
 
 .item img{
