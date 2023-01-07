@@ -237,7 +237,7 @@ h1 {
 
   font-size: var(--sizetitle);
 
-  font-weight: 300;
+  font-weight: 700;
 
   line-height: 0.8;
 
@@ -509,7 +509,7 @@ soc a {
 
 .footer span {
 
-  font-family: var(--font1);
+  font-family: var(--font3);
 
   color: var(--dusk);
 
