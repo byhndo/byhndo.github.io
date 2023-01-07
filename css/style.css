@@ -369,7 +369,7 @@ main {
 
   font-weight: 300;
   
-  text-transform: lowercase;
+  text-transform: capitalize;
 
 }
 
@@ -515,7 +515,7 @@ soc a {
 
   font-size: 12px;
 
-  font-weight: 300;
+  font-weight: 400;
 
   letter-spacing: 1px;
 
