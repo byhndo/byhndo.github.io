@@ -557,8 +557,6 @@ box-sizing: border-box;
 
 
 .item {
-  width:200px;
-  height:200px;
   padding: 0;
   background: transparent;
   border-radius: 10px;
