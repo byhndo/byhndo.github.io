@@ -386,6 +386,8 @@ main {
 .sub3 {
 
   color: var(--light);
+  
+  margin: 0 auto;
 
 }
 
