@@ -556,7 +556,6 @@ grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr))
 
 
 .item {
-  height:200px;
   margin:0 auto;
   padding: 0;
   background: transparent;
