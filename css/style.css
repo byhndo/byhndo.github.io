@@ -554,3 +554,8 @@ soc a {
   background: #555;
 }
 
+.item img{
+width:100%;
+height: auto;
+}
+
