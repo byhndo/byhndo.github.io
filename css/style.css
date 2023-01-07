@@ -509,7 +509,7 @@ soc a {
 
 .footer span {
 
-  font-family: var(--fontnav);
+  font-family: var(--font2);
 
   color: var(--dusk);
 
