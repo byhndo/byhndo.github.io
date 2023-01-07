@@ -553,6 +553,7 @@ soc a {
   padding: 0;
   background: transparent;
   border-radius: 10px;
+  display:inline-flex;
 }
 
 .item img{
