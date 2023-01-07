@@ -509,17 +509,19 @@ soc a {
 
 .footer span {
 
-  font-family: var(--font2);
+  font-family: var(--font1);
 
   color: var(--dusk);
 
   font-size: 12px;
 
-  font-weight: 700;
+  font-weight: 300;
 
   letter-spacing: 1px;
 
   text-decoration: none;
+
+  text-transform: lowercase;
 
   transition: all ease-out 1.8s;
 
