@@ -243,6 +243,8 @@ h1 {
 
   word-wrap: break-word;
   
+  text-transform: lowercase;
+  
 }
 
 .projects h1 {
@@ -366,6 +368,8 @@ main {
   font-size: var(--sizesubtitle);
 
   font-weight: 700;
+  
+  text-transform: lowercase;
 
 }
 
@@ -384,8 +388,6 @@ main {
 .sub3 {
 
   color: var(--light);
-  
-  margin: 0 auto;
 
 }
 
