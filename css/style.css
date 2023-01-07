@@ -527,7 +527,7 @@ soc a {
 .footer span, .footer span a{
 
   text-decoration:none;
-  
+  transition: all ease-out 1.8s;
 }
 
 .project .footer span, .project .footer span a {
