@@ -555,7 +555,7 @@ grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr))
 
 
 .item {
-  width: 30vh;
+  width: 20vh;
   height: auto;
   margin:0 auto;
   padding: 0;
@@ -567,5 +567,6 @@ grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr))
 .item img{
 width:100%;
 height: auto;
+border-radius:10px;
 }
 
