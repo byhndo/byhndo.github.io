@@ -547,13 +547,10 @@ soc a {
 
 
 .item {
-  width: 200px;
-  height: 200px;
-  margin: 50px auto;
+  width: 350px;
+  height: auto;
+  margin: 20px auto;
   padding-top: 75px;
   background: rgba(255,85,0, .7);
-  text-align: center;
-  color: #4E4C48;
-  font-size: 1.5em;
 }
 
