@@ -551,7 +551,7 @@ soc a {
   height: auto;
   margin:0 auto;
   padding: 0;
-  background: #555;
+  background: transparent;
 }
 
 .item img{
