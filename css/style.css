@@ -369,7 +369,7 @@ main {
 
   font-weight: 300;
   
-  text-transform: capitalize;
+  text-transform: uppercase;
 
 }
 
@@ -402,6 +402,8 @@ p.sub3 {
   font-size: var(--sizefontbase);
 
   font-weight: 400;
+  
+  text-transform: capitalize;
 
 }
 
