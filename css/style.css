@@ -549,7 +549,7 @@ soc a {
 .grid {
 --auto-grid-min-size: 16rem;
 display: grid;
-grid-gap: 2rem;
+grid-gap: 1rem;
 grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
 }
 
