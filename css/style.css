@@ -504,8 +504,6 @@ soc a {
 
   margin-top: 30px;
 
- transition: all ease-out 1.8s;
-
 }
 
 .footer span {
@@ -522,7 +520,7 @@ soc a {
 
   text-decoration: none;
 
-  
+  transition: all ease-out 1.8s;
 
 }
 
@@ -530,7 +528,6 @@ soc a {
 
   text-decoration:none;
   
-
 }
 
 .project .footer span, .project .footer span a {
