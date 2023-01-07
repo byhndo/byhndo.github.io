@@ -547,10 +547,10 @@ soc a {
 
 
 .item {
-  width: 350px;
+  width: 98%;
   height: auto;
-  margin: 20px auto;
-  padding-top: 75px;
-  background: rgba(255,85,0, .7);
+  margin:0 auto;
+  padding: 0;
+  background: #555;
 }
 
