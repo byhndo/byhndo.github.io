@@ -30,8 +30,7 @@ function scroll(){
 
 AOS.init({
   duration: 500,
-  easing: 'ease-in-sine',
-  offset: 200
+  easing: 'ease-in-sine'
 });
 
    // AOS.init({
