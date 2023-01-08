@@ -15,7 +15,7 @@
   
   --sub3: #f3f3f3;
 
-  --psub1: #d71c24;
+  --psub1: #f3f3f3;
 
   --psub2: #3d3d3d;
  
@@ -75,7 +75,7 @@ a {
 
   min-height: 100vh;
 
-  padding: 10vh 0 0;
+  padding: 10vh 0 .1rem;
 
   transition: background 0s 1s, color 0.6s;
 
