@@ -9,6 +9,18 @@
 
   --dusk: #d71c24;
 
+  --sub1: #d71c24;
+
+  --sub2: #d71c24;
+  
+  --sub3: #f3f3f3;
+
+  --psub1: #d71c24;
+
+  --psub2: #3d3d3d;
+ 
+  --psub3: #f3f3f3;
+
   --sizefontbase: 12px;
 
   --sizetitle: calc(30vw + 1rem);
@@ -375,19 +387,19 @@ main {
 
 .sub1 {
 
-  color: #fdcf68;
+  color: var(--sub1);
 
 }
 
 .sub2 {
 
-  color: #fdcf68;
+  color: var(--sub2);
 
 }
 
 .sub3 {
 
-  color: var(--light);
+  color: var(--sub3);
 
 }
 
@@ -409,19 +421,19 @@ p.sub3 {
 
 p.sub1 {
 
-  color: #f3f3f3;
+  color: var(--psub1);
 
 }
 
 p.sub2 {
 
-  color: #3d3d3d;
+  color: var(--psub2);
 
 }
 
 p.sub3 {
 
-  color: #fcfcfc;
+  color: var(--psub3);
 
 }
 
