@@ -5,7 +5,7 @@
 
   --dark: #000;
 
-  --light: #fff;
+  --light: #f3f3f3;
 
   --dusk: #d71c24;
 
@@ -415,7 +415,7 @@ p.sub1 {
 
 p.sub2 {
 
-  color: #000;
+  color: #3e4143;
 
 }
 
@@ -505,7 +505,7 @@ soc a {
 
   right: 0;
 
-  margin: 30rem 0;
+  margin: 10rem 0;
 
 }
 
