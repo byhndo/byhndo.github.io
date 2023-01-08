@@ -447,6 +447,8 @@ soc {
 
   z-index: 10;
 
+  margin: 10rem 0 0 0;
+
 }
 
 soc ul.ico {
@@ -515,7 +517,7 @@ soc a {
 
   right: 0;
 
-  margin: 10rem 0 0 0;
+  margin: 1rem 0 0 0;
 
 }
 
