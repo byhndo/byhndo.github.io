@@ -2,9 +2,11 @@
 
 :root {
 
+   --colorbase: #ded3c7;
+
   --dark: #000;
 
-  --light: #e9e5da;
+  --light: #ded3c7;
 
   --dusk: #d71c24;
 
@@ -52,7 +54,7 @@ body {
 
   font-family: var(--font3);
 
-  color: var(--light);
+  color: var(--colorbase);
 
   font-size: var(--sizefontbase);
 
