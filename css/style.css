@@ -257,7 +257,7 @@ h1 {
   word-wrap: break-word;
   
   text-transform: uppercase;
-letter-spacing:1vw;
+letter-spacing:-1px;
   
 }
 
