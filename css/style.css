@@ -241,7 +241,7 @@ h1 {
 
   margin:0;
 
-  padding-bottom:0;
+  padding-bottom:5vh;
 
  -webkit-background-clip: text;
 
@@ -251,9 +251,9 @@ h1 {
 
   font-size: var(--sizetitle);
 
-  font-weight: 700;
+  font-weight: 400;
 
-  line-height: 0.8;
+  line-height:0;
 
   word-wrap: break-word;
   
