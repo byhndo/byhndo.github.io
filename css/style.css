@@ -240,7 +240,7 @@ h1 {
 
   margin:0;
 
-  padding: 2vh 0 .1vh 0;
+  padding: 5vh 0 1vh 0;
 
  -webkit-background-clip: text;
 
@@ -269,7 +269,7 @@ h1 span{
   transition: background-position 1.5s, background-color 1.5s;
   font-size: var(--sizetitle2);
   text-transform:lowercase;
-  font-weight:400;
+  font-weight:500;
 }
 
 .projects h1, .projects h1 span {
