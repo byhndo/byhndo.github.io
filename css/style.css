@@ -259,13 +259,17 @@ letter-spacing:1vw;
   
 }
 
-.projects h1 {
+h1 span{
+  color:inherit;
+}
+
+.projects h1, .project h1 span {
 
   background-color: var(--dusk);
 
 }
 
-.find-me h1 {
+.find-me h1, .find-me h1 span {
 
   background-color: var(--light);
 
