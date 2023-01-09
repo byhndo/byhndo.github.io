@@ -274,6 +274,10 @@ h1 span{
   font-weight:700;
 }
 
+h1 span.circle{
+  color:#fff
+}
+
 .projects h1, .projects h1 span {
 
   background-color: var(--dusk);
