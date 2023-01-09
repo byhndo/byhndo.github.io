@@ -263,7 +263,7 @@ letter-spacing:-1px;
 
 h1 span{
   font-family: var(--font2);
-  background-color:yellow;
+  background-color:#faa000;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: background-position 1.5s, background-color 1.5s;
