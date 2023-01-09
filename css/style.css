@@ -241,7 +241,7 @@ h1 {
 
   margin:0;
 
-  padding-bottom:5vh;
+  padding: 2vh 0;
 
  -webkit-background-clip: text;
 
@@ -253,7 +253,7 @@ h1 {
 
   font-weight: 400;
 
-  line-height:1.5;
+  line-height:.1;
 
   word-wrap: break-word;
   
@@ -590,22 +590,7 @@ box-sizing: border-box;
   background: transparent;
   border-radius: 10px;
   display:inline-flex;
-  transform: translateX(400%);
-  transition: transform 2s ease;
 }
-
-.item:nth-of-type(even) {
-  transform: translateX(-400%);
-}
-
-.item.show {
-  transform: translateX(0);
-}
-
-.box h2 {
-  font-size: 45px;
-}
-
 
 .item img{
 width:100%;
