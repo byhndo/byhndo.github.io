@@ -274,11 +274,6 @@ h1 span{
   font-weight:700;
 }
 
-h1 span.circle{
-  color:#fff!important;
-  fobt-size: var(--sizetitle)!important;
-}
-
 .projects h1, .projects h1 span {
 
   background-color: var(--dusk);
@@ -591,7 +586,7 @@ display: grid;
 grid-gap: .5rem;
 grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
 box-sizing: border-box;
-margin-bottom:8rem;
+padding-bottom:5rem;
 }
 
 
