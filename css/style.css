@@ -273,7 +273,7 @@ h1 {
 
 nav {
 
-  position: fixed;
+  position:relative;
 
   top: 0;
 
