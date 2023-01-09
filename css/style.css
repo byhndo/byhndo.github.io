@@ -492,7 +492,7 @@ soc a {
 
   font-family: var(--fontnav);
 
-  transition: all ease-out 1.7s;
+  transition: all ease-out 1.6s;
 
 }
 
@@ -520,7 +520,7 @@ soc a {
 
   margin: 1rem 0 1rem 0;
  
-  transition: all ease-out 1.8s;
+  transition: all ease-out 1.6s;
 
 
 }
