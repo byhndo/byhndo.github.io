@@ -262,7 +262,7 @@ letter-spacing:-1px;
 }
 
 h1 span{
-  font-family: var(--font2);
+  font-family: var(--font3);
   background-color:#faa000;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
