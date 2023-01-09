@@ -22,9 +22,9 @@
 
   --sizefontbase: 14px;
 
-  --sizetitle: calc(30vw + 1rem);
+  --sizetitle: calc(20vw + 1rem);
 
-  --sizesubtitle: 30px;
+  --sizesubtitle: 10vw;
 
   --fontnav: 'Barlow Condensed', sans-serif;
 
