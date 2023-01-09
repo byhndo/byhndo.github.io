@@ -275,7 +275,8 @@ h1 span{
 }
 
 h1 span.circle{
-  color:#fff
+  color:#fff!important;
+  fobt-size: var(--sizetitle);
 }
 
 .projects h1, .projects h1 span {
