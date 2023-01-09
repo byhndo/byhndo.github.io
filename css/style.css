@@ -23,6 +23,8 @@
   --sizefontbase: 14px;
 
   --sizetitle: calc(23vw + 1rem);
+  
+  --sizetitle2: 15vw;
 
   --sizesubtitle: 10vw;
 
@@ -260,7 +262,11 @@ letter-spacing:1vw;
 }
 
 h1 span{
-  color:inherit;
+  color:yellow;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: background-position 1.5s, background-color 1.5s;
+  font-size: var(--sizetitle2);
 }
 
 .projects h1, .project h1 span {
