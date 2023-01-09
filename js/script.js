@@ -31,7 +31,7 @@ function scroll(){
 
 
 
-let letters = document.getElementsByClassName('title-letter');
+let letters = document.getElementsByClassName('h1 span#title-letter');
 
 setTimeout(() => {
   for (let i = 0; i < letters.length; i++) {
@@ -59,7 +59,7 @@ setTimeout(() => {
 
 function showSubTitle() {
   anime({
-    targets: '#sub-title',
+    targets: 'h1 span#sub-title',
     easing: 'easeInQuad',
     opacity: 1,
     duration: 300,
