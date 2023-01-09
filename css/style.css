@@ -269,7 +269,7 @@ h1 span{
   font-size: var(--sizetitle2);
 }
 
-.projects h1, .project h1 span {
+.projects h1, .projects h1 span {
 
   background-color: var(--dusk);
 
@@ -530,9 +530,6 @@ soc a {
   right: 0;
 
   margin: 1rem 0 1rem 0;
- 
-  transition: all ease-out 1.6s;
-
 
 }
 
@@ -551,6 +548,8 @@ soc a {
   text-decoration: none;
 
   text-transform: lowercase;
+
+  transition: all ease-out 1.6s;
 
 }
 
