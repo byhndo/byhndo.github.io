@@ -24,9 +24,9 @@
 
   --sizetitle: calc(23vw + 1rem);
   
-  --sizetitle2: 15vw;
+  --sizetitle2: 10vw;
 
-  --sizesubtitle: 10vw;
+  --sizesubtitle: 8vw;
 
   --fontnav: 'Barlow Condensed', sans-serif;
 
@@ -262,7 +262,7 @@ letter-spacing:1vw;
 }
 
 h1 span{
-  color:yellow;
+  background-color:yellow;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: background-position 1.5s, background-color 1.5s;
@@ -555,9 +555,10 @@ soc a {
 
 .footer span, .footer span a{
   text-decoration:none;
+transition: all ease-out 1.6s;
 }
 
-.project .footer span, .project .footer span a {
+.projects .footer span, .projects .footer span a {
 
   color: var(--dusk);
 
