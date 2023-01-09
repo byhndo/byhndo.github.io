@@ -588,7 +588,6 @@ box-sizing: border-box;
 
 
 .item {
-  height:auto;
   padding: 0;
   background: transparent;
   border-radius: 20px;
