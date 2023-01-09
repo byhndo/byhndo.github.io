@@ -267,6 +267,7 @@ h1 span{
   -webkit-text-fill-color: transparent;
   transition: background-position 1.5s, background-color 1.5s;
   font-size: var(--sizetitle2);
+  text-transform:lowercase;
 }
 
 .projects h1, .projects h1 span {
