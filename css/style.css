@@ -271,7 +271,7 @@ h1 span{
   transition: background-position 1.5s, background-color 1.5s;
   font-size: var(--sizetitle2);
   text-transform:uppercase;
-  font-weight:600;
+  font-weight:700;
 }
 
 .projects h1, .projects h1 span {
