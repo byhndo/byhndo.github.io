@@ -244,8 +244,6 @@ h1 {
 
   padding: 5vh 0 1vh 0;
 
-  background-color:var(--light);
-
   -webkit-background-clip: text;
 
   -webkit-text-fill-color: transparent;
@@ -277,9 +275,13 @@ h1 span{
   letter-spacing:2px;
 }
 
+.bio h1, .bio h1 span{
+  background-color: var(--light);
+}
+
 .projects h1, .projects h1 span {
 
-  background-color: var(--dusk);
+  background-color: var(--dark);
 
 }
 
