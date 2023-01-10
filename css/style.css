@@ -275,8 +275,12 @@ h1 span{
   letter-spacing:2px;
 }
 
-.bio h1, .bio h1 span{
+.bio h1{
   background-color: var(--light);
+}
+
+.bio h1 span{
+  background-color: var(--dusk);
 }
 
 .projects h1{
