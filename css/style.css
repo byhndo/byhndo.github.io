@@ -264,7 +264,7 @@ h1 {
 }
 
 h1 span{
-  font-family: var(--font3);
+  font-family: var(--font2);
   background-color:#faa000;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
