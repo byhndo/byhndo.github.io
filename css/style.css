@@ -272,6 +272,7 @@ h1 span{
   font-size: var(--sizetitle2);
   text-transform:uppercase;
   font-weight:700;
+  letter-spacing:2px;
 }
 
 .projects h1, .projects h1 span {
