@@ -279,10 +279,12 @@ h1 span{
   background-color: var(--light);
 }
 
-.projects h1, .projects h1 span {
-
+.projects h1{
   background-color: var(--dark);
+}
 
+.projects h1 span{
+  background-color: var(--dusk);
 }
 
 .find-me h1, .find-me h1 span {
