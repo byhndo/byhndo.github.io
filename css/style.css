@@ -403,7 +403,7 @@ main {
 
   font-weight: 700;
   
-  text-transform: uppercase;
+  text-transform: capitalize;
 
   margin-top:3vh;
 
