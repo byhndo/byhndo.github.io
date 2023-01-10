@@ -2,25 +2,25 @@
 
 :root {
 
-   --colorbase:#e9e5da;
+   --colorbase:#000000;
 
-  --dark: #010101;
+  --dark: #000000;
 
-  --light: #f9ca24;
+  --light: #ffffff;
 
-  --dusk: #d1ec5d;
+  --dusk: #555;
 
-  --sub1: #ded3c7;
+  --sub1: #FFFFFF;
 
-  --sub2: #faa000;
+  --sub2: #000000;
   
-  --sub3: #fdcf68;
+  --sub3: #CCCCCC;
 
-  --psub1: #ded3c7;
+  --psub1: #FFFFFF;
 
-  --psub2: #3d3d3d;
+  --psub2: #000000;
  
-  --psub3: #f3f3f3;
+  --psub3: #CCCCCC;
 
   --sizefontbase: 14px;
 
