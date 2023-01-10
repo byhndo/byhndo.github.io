@@ -432,8 +432,6 @@ p.sub3 {
   font-size: var(--sizefontbase);
 
   font-weight: 400;
-  
-  text-transform: capitalize;
 
 }
 
