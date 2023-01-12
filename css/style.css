@@ -600,7 +600,7 @@ soc a:hover, soc a:active{
 }
 
 .footer span.fc{
-  background-color:#FF6E31!important;
+  color:#FF6E31!important;
   font-family: var(--font1);
   font-size: 12px;
   font-weight:700;
