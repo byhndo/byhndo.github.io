@@ -288,7 +288,7 @@ h1 span.c{
 }
 
 .bio h1{
-  background-color: var(--light);
+  background-color: var(--dusk);
 }
 
 .bio h1 span{
@@ -296,11 +296,11 @@ h1 span.c{
 }
 
 .projects h1{
-  background-color: var(--dark);
+  background-color: var(--dusk);
 }
 
 .projects h1 span{
-  background-color: var(--dusk);
+  background-color: var(--dark);
 }
 
 .find-me h1, .find-me h1 span {
