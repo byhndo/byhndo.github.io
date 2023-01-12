@@ -625,6 +625,14 @@ box-sizing: border-box;
   border-radius: 20px;
   display:inline-flex;
   margin:1rem;
+
+
+visibility: hidden;
+  position: relative;
+  width: 80%;
+  height: 80%;
+  max-width: 500px;
+  overflow: hidden;
 }
 
 .item img{
@@ -633,11 +641,4 @@ height:auto;
 border-radius:20px;
 }
 
-.reveal {
-  visibility: hidden;
-  position: relative;
-  width: 80%;
-  height: 80%;
-  max-width: 500px;
-  overflow: hidden;
-}
+
