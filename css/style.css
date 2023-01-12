@@ -627,7 +627,7 @@ box-sizing: border-box;
   margin:1rem;
 
 
-
+visibility:hidden;
 position:relative;
   width: 80%;
   height: 80%;
