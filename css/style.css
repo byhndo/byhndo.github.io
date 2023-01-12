@@ -542,7 +542,7 @@ soc a {
 }
 
 soc a:hover, soc a:active{
-  opacity: 0;
+  opacity: 1;
 }
 
 .projects soc a {
