@@ -278,7 +278,7 @@ h1 span{
 }
 
 h1 span.c{
-  background-color:yellow!important;
+  background-color:#FFD56F!important;
   font-family: var(--font2);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
