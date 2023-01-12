@@ -35,7 +35,7 @@ AOS.init({
   offset: 120, 
   delay: 0, 
   duration: 1000, 
-  easing: 'ease-in-out-quad', 
+  easing: 'ease-out-quart', 
   once: false, 
   mirror: false, 
   anchorPlacement: 'top-bottom' 
