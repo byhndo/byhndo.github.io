@@ -526,6 +526,8 @@ soc a {
   font-family: var(--fontnav);
 
   transition: all ease-out 1.6s;
+ 
+  opacity:.3;
 
 }
 
