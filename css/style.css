@@ -624,10 +624,9 @@ box-sizing: border-box;
   background: transparent;
   border-radius: 20px;
   display:inline-flex;
-  margin:1rem;
+  margin:.5rem;
 
 
-visibility:hidden;
 position:relative;
  
   
