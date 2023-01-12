@@ -265,6 +265,10 @@ h1 {
   letter-spacing:-2px;  
 }
 
+h1 span.c{
+  background-color:yellow;
+}
+
 h1 span{
   font-family: var(--font2);
   background-color:#FFFFFF;
