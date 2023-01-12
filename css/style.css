@@ -527,8 +527,12 @@ soc a {
 
   transition: all ease-out 1.6s;
  
-  opacity:.5;
+  opacity:.3;
 
+}
+
+soc a:hover, soc a:active{
+  opacity: 0;
 }
 
 .projects soc a {
