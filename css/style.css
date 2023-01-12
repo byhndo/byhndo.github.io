@@ -479,7 +479,7 @@ p.sub3 {
 
 }
 
-soc {
+.soc {
 
   position: relative;
 
@@ -495,7 +495,7 @@ soc {
 
 }
 
-soc ul.ico {
+.soc ul.ico {
 
   list-style: none;
 
@@ -511,7 +511,7 @@ soc ul.ico {
 
 }
 
-soc li.ico {
+.soc li.ico {
 
   display: inline-flex;
 
@@ -519,7 +519,7 @@ soc li.ico {
 
 }
 
-soc a {
+.soc a {
 
   display: block;
 
@@ -541,7 +541,7 @@ soc a {
 
 }
 
-soc a:hover, soc a:active{
+.soc a:hover, .soc a:active{
   opacity: 1;
 }
 
