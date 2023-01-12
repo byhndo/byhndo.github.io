@@ -265,10 +265,6 @@ h1 {
   letter-spacing:-2px;  
 }
 
-h1 span.c{
-  background-color:yellow;
-}
-
 h1 span{
   font-family: var(--font2);
   background-color:#FFFFFF;
@@ -279,6 +275,16 @@ h1 span{
   text-transform:uppercase;
   font-weight:700;
   letter-spacing:2px;
+}
+
+h1 span.c{
+  background-color:yellow;
+  font-family: var(--font2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: background-position 1.5s, background-color 1.5s;
+  font-size: var(--sizetitle);
+  font-weight:700;
 }
 
 .bio h1{
