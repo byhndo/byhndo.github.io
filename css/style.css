@@ -12,7 +12,7 @@
 
   --dusk: #d01d16;
 
-  --sub1: #FFFFFF;
+  --sub1: #d01d16;
 
   --sub2: #000000;
   
@@ -288,11 +288,11 @@ h1 span.c{
 }
 
 .bio h1{
-  background-color: var(--dusk);
+  background-color: var(--light);
 }
 
 .bio h1 span{
-  background-color: var(--dusk);
+  background-color: var(--light);
 }
 
 .projects h1{
