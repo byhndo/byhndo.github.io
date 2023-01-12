@@ -381,7 +381,7 @@ main {
 
   margin: 0 auto 0;
 
-  text-align: left;
+  text-align: center;
 
 }
 
@@ -423,6 +423,8 @@ main {
 
   margin:3vh 0;
 
+  text-align:left;
+
 }
 
 .sub1 {
@@ -458,6 +460,8 @@ p.sub3 {
   text-transform:none;
 
   letter-spacing: .3px;
+
+  text-align: left;
 
 }
 
