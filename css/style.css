@@ -612,7 +612,7 @@ soc a:hover, soc a:active{
 
 
 .grid {
---auto-grid-min-size: 15rem;
+--auto-grid-min-size: 10rem;
 display: grid;
 grid-gap: .5rem;
 grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
