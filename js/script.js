@@ -42,7 +42,7 @@ gsap.registerPlugin(ScrollTrigger);
 let revealContainers = document.querySelectorAll(".item");
 
 revealContainers.forEach((container) => {
-  let image = container.querySelector(".item img");
+  let image = container.querySelector("img.a");
   let tl = gsap.timeline({
     scrollTrigger: {
       trigger: container,
