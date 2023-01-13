@@ -630,6 +630,11 @@ height:100%;
   filter: blur(1rem);
   opacity: 0;
   transition-property: filter, opacity;
+
+-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: background-position 1.5s, background-color 1.5s;
+
 }
 [data-aos=blur].aos-animate {
   filter: blur(0);
