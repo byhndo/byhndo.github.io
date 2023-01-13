@@ -32,55 +32,28 @@ function scroll(){
 
   
 
-window.addEventListener("load", function () {
-  gsap.registerPlugin(CustomEase);
-  gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger);
 
-  // Wrap every letter
-  const textRevealElements = document.querySelectorAll(".sub1");
+let revealContainers = document.querySelectorAll(".item");
 
-  textRevealElements.forEach((element) => {
-    element.innerHTML = element.textContent.replace(
-      /([-A-Za-z0-9!$#%^&*@()_+|~=`{}\[\]:";'<>?,.\/]+)/g,
-      '<div class="word">$1</div>'
-    );
+revealContainers.forEach((container) => {
+  let image = container.querySelector("img");
+  let tl = gsap.timeline({
+    scrollTrigger: {
+      trigger: container,
+      toggleActions: "restart none none reset"
+    }
+  });
 
-    let words = element.querySelectorAll(".word");
-    words.forEach((word) => {
-      word.innerHTML = word.textContent.replace(
-        /[-A-Za-z0-9!$#%^&*@()_+|~=`{}\[\]:";'<>?,.\/]/g,
-        "<div class='perspective'><div class='letter'><div>$&</div></div></div>"
-      );
-    });
-
-    const letters = element.querySelectorAll(".letter");
-
-    let tl = gsap.timeline({
-      scrollTrigger: {
-        trigger: element,
-        toggleActions: "restart none none reset"
-      }
-    });
-    tl.set(element, { autoAlpha: 1 });
-    tl.fromTo(
-      letters,
-      1.6,
-      {
-        transformOrigin: "center",
-        rotationY: 90,
-        x: 30
-      },
-      {
-        rotationY: 0.1,
-        x: 0,
-        stagger: 0.025,
-        ease: CustomEase.create("custom", "M0,0 C0.425,0.005 0,1 1,1 ")
-      }
-    );
+  tl.set(container, { autoAlpha: 1 });
+  tl.from(container, 1.5, {
+    xPercent: -100,
+    ease: Power2.out
+  });
+  tl.from(image, 1.5, {
+    xPercent: 100,
+    scale: 1.3,
+    delay: -1.5,
+    ease: Power2.out
   });
 });
-
-
-
-
-
