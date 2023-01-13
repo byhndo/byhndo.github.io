@@ -76,7 +76,6 @@ a {
 
 .bg {
   background: inherit;
-  min-height: 100vh;
   max-height: 100vh;
   overflow: scroll;
   padding: 10vh 0 .3rem;
