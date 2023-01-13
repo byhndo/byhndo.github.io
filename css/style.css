@@ -618,6 +618,13 @@ grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr))
 box-sizing: border-box;
 }
 
+img{
+width:100%;
+height:100%;
+border-radius:20px;
+  object-fit: cover;
+  transform-origin:0 0;
+}
 
 .item {
   padding: 0;
@@ -633,12 +640,5 @@ position:relative;
   overflow: hidden;
 }
 
-img{
-width:100%;
-height:100%;
-border-radius:20px;
-  object-fit: cover;
-  transform-origin:0 0;
-}
 
 
