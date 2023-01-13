@@ -230,6 +230,23 @@ svg {
 
 }
 
+
+header {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.6) 50%, #000 100%), url("https://source.unsplash.com/1L71sPT5XKc");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100vh;
+}
+
+
 h1 {
 
   font-family: var(--font1);
