@@ -1,29 +1,3 @@
-new Vue({
-  el: '#app',
-  data() {
-    return {
-      bg: 'bio'
-    }
-  }
-})
-
-
-
-
-
-
-$(window).scroll(function(){
-  scroll();
-});
-
-scroll();
-
-function scroll(){
-  var top = $('html, body').scrollTop();
-  var el = $("#distort").find("feDisplacementMap");
-  el.attr('scale', top);
-  $("h1").css('opacity', 1 - (top * 0.007))
-}
 
 
 
@@ -32,48 +6,27 @@ function scroll(){
 
   
 
-const options = {
-  root: null,
-  rootMargin: "0px",
-  threshold: 0.9
-};
+gsap.registerPlugin(ScrollTrigger);
 
-let revealCallback = (entries, self) => {
-  entries.forEach((entry) => {
-    let container = entry.target;
-    let img = entry.target.querySelector("img");
-    const easeInOut = "power3.out";
-    const revealAnim = gsap.timeline({ ease: easeInOut });
+let revealContainers = document.querySelectorAll(".item");
 
-    if (entry.isIntersecting) {
-      revealAnim.set(container, {
-        visibility: "visible"
-      });
-      revealAnim.fromTo(
-        container,
-        {
-          clipPath: "polygon(0 0, 0 0, 0 100%, 0% 100%)",
-          webkitClipPath: "polygon(0 0, 0 0, 0 100%, 0% 100%)"
-        },
-        {
-          clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
-          webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
-          duration: 1,
-          ease: easeInOut
-        }
-      );
-      revealAnim.from(img, 4, {
-        scale: 1.4,
-        ease: easeInOut,
-        delay: -1
-      });
-      self.unobserve(entry.target);
+revealContainers.forEach((container) => {
+  let image = container.querySelector("img");
+  let t1 = gsap.timeline({
+    scrollTrigger: {
+      trigger: container,
     }
   });
-};
+  t1.set(container, { autoAlpha: 1 });
+  t1.from(container, 1.5, {
+    xPercent: -100,
+    ease: Power2.out
+  });
 
-let revealObserver = new IntersectionObserver(revealCallback, options);
-
-document.querySelectorAll(".item").forEach((reveal) => {
-  revealObserver.observe(reveal);
-});
+  t1.from(image, 1.5, {
+    xPercent: 100,
+    scale: 1.3,
+    delay: -1.5,
+    ease: Power2.out
+  });
+})
