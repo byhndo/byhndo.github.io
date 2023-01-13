@@ -39,7 +39,7 @@ function scroll(){
 
 gsap.registerPlugin(ScrollTrigger);
 
-let revealContainers = document.querySelectorAll("main");
+let revealContainers = document.querySelectorAll("transition");
 
 revealContainers.forEach((container) => {
   let image = container.querySelector("img");
