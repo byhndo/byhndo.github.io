@@ -25,23 +25,23 @@ AOS.init({
 
 gsap.registerPlugin(ScrollTrigger);
 
-let revealA = document.querySelectorAll(".item");
+let revealContainers = document.querySelectorAll(".item");
 
-revealA.forEach((a) => {
-  let gambar = a.querySelector("img");
+revealContainers.forEach((container) => {
+  let image = container.querySelector("img");
   let tl = gsap.timeline({
     scrollTrigger: {
-      trigger: a,
+      trigger: container,
       toggleActions: "restart none none reset"
     }
   });
 
-  tl.set(a, { autoAlpha: 1 });
-  tl.from(a, 1.5, {
+  tl.set(container, { autoAlpha: 1 });
+  tl.from(container, 1.5, {
     xPercent: -100,
     ease: Power2.out
   });
-  tl.from(gambar, 1.5, {
+  tl.from(image, 1.5, {
     xPercent: 100,
     scale: 1.3,
     delay: -1.5,
