@@ -47,7 +47,7 @@ revealContainers.forEach((container) => {
 
   tl.set(container, { autoAlpha: 1 });
   tl.from(container, 1.5, {
-    xPercent: -100,
+    xPercent: -500,
     ease: Power2.out
   });
   tl.from(image, 1.5, {
