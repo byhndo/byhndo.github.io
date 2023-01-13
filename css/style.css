@@ -174,6 +174,13 @@ a {
 
   transform-origin: 0 0;
 
+
+background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.6) 50%, #000 100%), url("https://source.unsplash.com/1L71sPT5XKc");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+
 }
 
 .transition-projects {
@@ -229,20 +236,6 @@ svg {
   display: none;
 
 }
-
-
-header {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.6) 50%, #000 100%), url("https://source.unsplash.com/1L71sPT5XKc");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
- 
-}
-
 
 h1 {
 
