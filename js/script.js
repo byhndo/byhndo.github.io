@@ -25,7 +25,7 @@ AOS.init({
 
 gsap.registerPlugin(ScrollTrigger);
 
-let revealA = document.querySelectorAll("img");
+let revealA = document.querySelectorAll(".item");
 
 revealA.forEach((a) => {
   let image = a.querySelector("img");
