@@ -37,7 +37,7 @@ gsap.registerPlugin(ScrollTrigger);
 let revealContainers = document.querySelectorAll(".item");
 
 revealContainers.forEach((container) => {
-  let image = container.querySelector("img");
+  let img = container.querySelector("img");
   let tl = gsap.timeline({
     scrollTrigger: {
       trigger: container,
@@ -50,7 +50,7 @@ revealContainers.forEach((container) => {
     xPercent: -500,
     ease: Power2.out
   });
-  tl.from(image, 1.5, {
+  tl.from(img, 1.5, {
     xPercent: 100,
     scale: 1.3,
     delay: -1.5,
