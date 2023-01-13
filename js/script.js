@@ -37,7 +37,7 @@ window.addEventListener("load", function () {
   gsap.registerPlugin(ScrollTrigger);
 
   // Wrap every letter
-  const textRevealElements = document.querySelectorAll("p.sub1");
+  const textRevealElements = document.querySelectorAll(".sub1");
 
   textRevealElements.forEach((element) => {
     element.innerHTML = element.textContent.replace(
