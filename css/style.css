@@ -10,6 +10,8 @@
 
   --dusk: #00adb5;
 
+  --red: #d01d16;
+
   --sub1: #00adb5;
 
   --sub2: #333;
@@ -287,7 +289,7 @@ h1 span.c{
 }
 
 .bio h1 span{
-  background-color: var(--light);
+  background-color: var(--red);
 }
 
 .projects h1{
@@ -295,13 +297,15 @@ h1 span.c{
 }
 
 .projects h1 span{
-  background-color: var(--dusk);
+  background-color: var(--red);
 }
 
 .find-me h1, .find-me h1 span {
-
   background-color: var(--light);
+}
 
+.find-me h1 span{
+  background-color: var(--dark);
 }
 
 .find-me h1 span.c{
