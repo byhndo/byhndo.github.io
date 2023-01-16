@@ -62,45 +62,27 @@ a {
 }
 
 .projects {
-
   color: var(--dark);
-
 }
 
 .bg:after {
-
   content: "";
-
   position: fixed;
-
   left: 0;
-
   top: 0;
-
   bottom: 0;
-
   right: 0;
-
   z-index: 12;
-
   pointer-events: none;
-
   transition: 1s;
-
 }
 
-.bio,
-
-.link-bio {
-
+.bio, .link-bio {
   background: var(--dark);
-
 }
 
 .bio h1 {
-
   background-color: var(--dusk);
-
 }
 
 .projects,
