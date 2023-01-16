@@ -47,6 +47,9 @@ body {
 
   -webkit-font-smoothing: antialiased;
 
+  height: 100vh;
+  overflow-y: auto;
+
 }
 
 a {
