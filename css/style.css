@@ -1,47 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-
   --colorbase:#000000;
-
   --dark: #222831;
-
-//  --light: #f8f5ee;
-
---light: #fef3e9;
-
+  --light: #fef3e9;
   --dusk: #00adb5;
-
   --red: #d01d16;
-
   --sub1: #00adb5;
-
-  --sub2: #222831;
-  
+  --sub2: #222831; 
   --sub3: #f8f5ee;
-
   --psub1: #FFFFFF;
-
   --psub2: #333;
- 
   --psub3: #fcfcfc;
-
   --sizefontbase: 12px;
-
   --sizetitle: calc(35vw + 1rem);
-  
   --sizetitle2: 5vw;
-
   --sizesubtitle: 8vw;
-
   --fontnav: 'Barlow Condensed', sans-serif;
-
   --font1: 'Barlow Condensed', sans-serif;
-
   --font2: 'Barlow Condensed', sans-serif;
-
   --font3: 'Raleway', sans-serif;
-
 }
 
 *,
@@ -302,16 +280,16 @@ h1 span.c{
   background-color: var(--red);
 }
 
-.find-me h1, .find-me h1 span {
-  background-color: var(--light);
-}
-
-.find-me h1 span{
+.find-me h1{
   background-color: var(--dark);
 }
 
+.find-me h1 span{
+  background-color: var(--light);
+}
+
 .find-me h1 span.c{
-  background-color: #222831!important;
+  background-color: var(--light)!important;
 }
 
 nav {
