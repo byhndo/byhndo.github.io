@@ -622,6 +622,8 @@ img{
 
   text-transform: uppercase;
 
+  transition: all ease-out 1.5s;
+
 }
 
 .projects .footer span, .projects .footer span a{
