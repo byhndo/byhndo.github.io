@@ -243,7 +243,7 @@ h1 {
 
 h1 span{
   font-family: var(--font2);
-  background-color: #d01d16;
+  background-color: #555;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: background-position 1.5s, background-color 1.5s;
