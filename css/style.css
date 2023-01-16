@@ -305,7 +305,7 @@ h1 span.c{
 }
 
 .find-me h1 span.c{
-  background-color: #000;
+  background-color: #000!important;
 }
 
 nav {
@@ -633,10 +633,13 @@ img{
 }
 
 .footer span.fc{
-  color:#000!important;
+  color: #FF6E31!important;
   font-family: var(--font1);
   font-size: 12px;
   font-weight:700;
 }
 
+.find-me span.fc{
+  color: #000!important;
+}
 
