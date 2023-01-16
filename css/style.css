@@ -46,10 +46,6 @@ body {
   word-wrap: break-word;
 
   -webkit-font-smoothing: antialiased;
-
-  height: 100vh;
-  overflow-y: auto;
-
 }
 
 a {
@@ -61,6 +57,8 @@ a {
 .bg {
   background: inherit;
   min-height: 100vh;
+  height: 100vh;
+  max-height:100vh;
   padding: 10vh 0 .3rem;
   transition: background 0s 1s, color 0.6s;
 }
