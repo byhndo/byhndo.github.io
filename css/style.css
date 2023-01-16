@@ -8,9 +8,7 @@
 
   --light: #f8f5ee;
 
- // --dusk: #d01d16;
-
---dusk: #00adb5;
+  --dusk: #00adb5;
 
   --sub1: #d01d16;
 
@@ -304,6 +302,10 @@ h1 span.c{
 
   background-color: var(--light);
 
+}
+
+.find-me h1 span c{
+  background-color: #d01d16;
 }
 
 nav {
