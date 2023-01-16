@@ -466,7 +466,7 @@ p.sub3 {
 }
 
 .grid {
-  --auto-grid-min-size: 50vh;
+  --auto-grid-min-size: 15rem;
   display: grid;
   grid-gap: .3rem;
   grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
