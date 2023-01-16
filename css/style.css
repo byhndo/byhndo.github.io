@@ -583,47 +583,28 @@ img{
 }
 
 .projects .soc a {
-
   color: var(--dusk);
-
 }
 
 .find-me .soc a {
-
   color: var(--light);
-
 }
 
 .footer {
-
   position:relative;
-
   bottom: 0;
-
   left: 0;
-
   right: 0;
-
   margin: 1rem 0 1rem 0;
-
 }
 
 .footer span {
-
   font-family: var(--font1);
-
   color: var(--light);
-
   font-size: 12px;
-
   font-weight: 700;
-
   text-decoration: none;
-
   text-transform: uppercase;
-
-  transition: all ease-out 1.5s;
-
 }
 
 .projects .footer span, .projects .footer span a{
@@ -636,6 +617,7 @@ img{
 
 .footer span, .footer span a{
   text-decoration:none;
+  transition: all ease-out 1.5s;
 }
 
 .footer span.fc{
