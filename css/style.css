@@ -20,7 +20,7 @@
   --font1: 'Barlow Condensed', sans-serif;
   --font2: 'Barlow Condensed', sans-serif;
   --font3: 'Nunito', sans-serif;
-  $radius: 1rem;
+  --radius: 1rem;
 }
 
 *,
@@ -477,13 +477,13 @@ p.sub3 {
   padding: 0;
   background: transparent;
   display:inline-flex;
-  border-radius:$radius;
+  border-radius:var(--radius);
 }
 
 img{
   width:100%;
   height:auto;
-  border-radius:$radius;
+  border-radius:var(--radius);
 }
 
 [data-aos=blur] {
