@@ -523,6 +523,9 @@ img{
 }
 
 @media(min-width:576px){
+.bg{
+  padding-top: 10vh;
+}
 main{
   max-width:90%;
 }
