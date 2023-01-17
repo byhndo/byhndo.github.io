@@ -462,7 +462,7 @@ p.sub3 {
 
 img{
   width:100%;
-  height:100vh;
+  height:200px;
   border-radius:var(--radius);
 }
 
