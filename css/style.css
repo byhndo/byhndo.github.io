@@ -494,7 +494,7 @@ img{
   font-family: var(--fontnav);
   transition: all ease-out 1.6s;
   opacity:.6;
-  border:1px solid inherit;
+  border:1px solid var(--dusk);
   border-radius:50%;
 }
 
