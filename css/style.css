@@ -492,7 +492,7 @@ img{
 
 .soc a {
   display: block;
-  padding: .2rem;
+  padding:0 .2rem;
   color: var(--dusk);
   text-decoration: none;
   text-transform: uppercase;
