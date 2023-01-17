@@ -34,24 +34,16 @@
 }
 
 body {
-
   font-family: var(--font3);
-
   color: var(--colorbase);
-
   font-size: var(--sizefontbase);
-
   line-height: 1.5;
-
   word-wrap: break-word;
-
   -webkit-font-smoothing: antialiased;
 }
 
 a {
-
   color: inherit;
-
 }
 
 .bg {
@@ -207,6 +199,7 @@ h1 {
   text-transform: uppercase; 
   letter-spacing:-2px;  
   min-height:100vh;
+  justify-content: center;
 }
 
 h1 span{
@@ -309,7 +302,7 @@ nav a {
 
   font-family: var(--fontnav);
 
-  font-weight: 400;
+  font-weight: 500;
   
   letter-spacing: 1px;
 
