@@ -184,6 +184,7 @@ svg {
 }
 
 header{
+  height:100vh;
   justify-content: center;
   align-items: center;
   text-align:center;
@@ -203,7 +204,7 @@ h1 {
   font-weight: 800;
   text-transform: uppercase; 
   letter-spacing:-2px; 
-  line-height:0;
+  line-height:.01;
 }
 
 span.subtitle{
