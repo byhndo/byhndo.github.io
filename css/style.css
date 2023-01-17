@@ -188,6 +188,7 @@ svg {
   justify-content: center;
   align-items: center;
   text-align:center;
+  flex-direction: column;
   flex-wrap:wrap;
   position:absolute;
   top:50%;
