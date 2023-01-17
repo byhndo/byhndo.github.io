@@ -205,7 +205,7 @@ h1 {
   letter-spacing:-2px; 
 }
 
-.subtitle{
+span.subtitle{
   font-family: var(--font2);
   background-color: var(--grey);
   -webkit-background-clip: text;
