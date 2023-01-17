@@ -483,6 +483,8 @@ img{
 .soc li.ico {
   display: inline-flex;
   margin: 0 12px;
+  border:1px solid var(--dusk);
+  border-radius:50%;
 }
 
 .soc a {
@@ -495,8 +497,6 @@ img{
   font-family: var(--fontnav);
   transition: all ease-out 1.6s;
   opacity:.6;
-  border:1px solid var(--dusk);
-  border-radius:100%;
 }
 
 .soc a:hover, .soc a:active{
