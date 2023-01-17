@@ -2,8 +2,7 @@
 
 :root {
   --colorbase:#000000;
- // --dark: #222831;
---dark: #111831;
+ // --dark: #333831;
   --light: #fef3e9;
   --dusk: #00adb5;
   --grey: rgba(255,255,255, .2);
