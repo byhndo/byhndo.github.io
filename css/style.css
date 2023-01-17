@@ -186,9 +186,8 @@ svg {
 h1 {
   font-family: var(--font1);
   filter: url("#distort");
-  text-align: center;
   margin:0 0 3vh 0;
-  padding: 5vh 0 1vh 0;
+  padding: 0vh 0 0vh 0;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: background-position 1.5s, background-color 1.5s;
@@ -200,6 +199,8 @@ h1 {
   letter-spacing:-2px;  
   min-height:100vh;
   justify-content: center;
+  align-items: center;
+  text-align:center;
 }
 
 h1 span{
