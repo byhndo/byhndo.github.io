@@ -232,7 +232,7 @@ h1 span.c{
   background-color: var(--light);
 }
 
-.bio h1 span{
+.bio span.subtitle{
   background-color: var(--grey);
 }
 
@@ -240,7 +240,7 @@ h1 span.c{
   background-color: var(--dark);
 }
 
-.projects h1 span{
+.projects span.subtitle{
   background-color: var(--grey);
 }
 
@@ -248,7 +248,7 @@ h1 span.c{
   background-color: var(--dark);
 }
 
-.find-me h1 span{
+.find-me span.subtitle{
   background-color: var(--grey);
 }
 
