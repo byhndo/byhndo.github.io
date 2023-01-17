@@ -419,35 +419,25 @@ p.sub1,
 p.sub2,
 
 p.sub3 {
-
   font-family: var(--font3);
-
   font-size: var(--sizefontbase);
-
   font-weight: 400;
-
   text-transform:none;
-
   text-align: left;
-
+  margin-top:1.4285714285714286em;
+  margin-bottom:1.4285714285714286em
 }
 
 p.sub1 {
-
   color: var(--psub1);
-
 }
 
 p.sub2 {
-
   color: var(--psub2);
-
 }
 
 p.sub3 {
-
   color: var(--psub3);
-
 }
 
 .grid {
