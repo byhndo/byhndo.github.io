@@ -476,6 +476,8 @@ img{
   padding:0 .3rem;
   border:1px solid var(--dusk);
   border-radius:50%;
+  width: 1rem;
+  height: 1rem;
 }
 
 .soc a {
