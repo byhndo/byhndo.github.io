@@ -185,7 +185,7 @@ h1 {
   font-family: var(--font1);
   filter: url("#distort");
   margin: 0;
-  padding: 2vh 0;
+  padding: 5vh 0;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: background-position 1.5s, background-color 1.5s;
@@ -453,8 +453,8 @@ img{
   padding:0 .3rem;
   border:1px solid var(--dusk);
   border-radius:50%;
-  width: 1rem;
-  height: 1rem;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 .soc a {
