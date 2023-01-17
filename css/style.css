@@ -185,7 +185,6 @@ h1 {
   font-family: var(--font1);
   filter: url("#distort");
   margin: 0;
-  padding: 0;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: background-position 1.5s, background-color 1.5s;
@@ -193,14 +192,12 @@ h1 {
   font-weight: 800;
   text-transform: uppercase; 
   letter-spacing:-2px; 
-  line-height:.7;
-  justify-content: center;
-  align-items: center;
+  line-height:1;
   text-align:center;
-  flex-wrap: wrap;
 }
 
-span.subtitle{
+
+h1 span.subtitle{
   font-family: var(--font2);
   background-color: var(--grey);
   -webkit-background-clip: text;
