@@ -183,6 +183,14 @@ svg {
 
 }
 
+.center{
+  height:100vh;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  flex-wrap:wrap;
+}
+
 h1 {
   font-family: var(--font1);
   filter: url("#distort");
@@ -196,12 +204,6 @@ h1 {
   flex-wrap: wrap; 
   text-transform: uppercase; 
   letter-spacing:-2px; 
-  height:100vh;
-  justify-content: center;
-  align-items: center;
-  text-align:center;
-  line-height:-10;
-  flex-wrap:wrap;
 }
 
 .subtitle{
@@ -214,7 +216,6 @@ h1 {
   text-transform:uppercase;
   font-weight:700;
   letter-spacing:2px;
-  flex-wrap:wrap;
 }
 
 h1 span.c{
