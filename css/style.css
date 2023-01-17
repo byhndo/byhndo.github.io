@@ -3,9 +3,8 @@
 :root {
   --colorbase:#000000;
   --dark: #222831;
- // --light: #fef3e9;
+  --light: #fef3e9;
   --dusk: #00adb5;
---light: #a8b7be;
   --grey: rgba(255,255,255, .3);
   --sub1: #00adb5;
   --sub2: #222831; 
