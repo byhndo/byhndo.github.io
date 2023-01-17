@@ -314,7 +314,7 @@ main {
 
   position: relative;
 
-  max-width: 90%;
+  max-width: 95%;
 
   padding: 0 1rem;
 
@@ -520,4 +520,10 @@ img{
 
 .find-me span.fc{
   color: #FFEA20!important;
+}
+
+@media(min-width:576px){
+main{
+  max-width:90%;
+}
 }
