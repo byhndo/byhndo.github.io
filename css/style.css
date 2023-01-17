@@ -487,7 +487,7 @@ img{
 
 .soc a {
   display: block;
-  padding: 0.75rem 0 0.5rem;
+  padding: .2rem;
   color: var(--dusk);
   text-decoration: none;
   text-transform: uppercase;
@@ -496,7 +496,7 @@ img{
   transition: all ease-out 1.6s;
   opacity:.6;
   border:1px solid var(--dusk);
-  border-radius:50%;
+  border-radius:100%;
 }
 
 .soc a:hover, .soc a:active{
