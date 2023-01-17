@@ -203,7 +203,7 @@ h1 {
   line-height:-10;
 }
 
-h1 span{
+span.subtitle{
   font-family: var(--font2);
   background-color: var(--grey);
   -webkit-background-clip: text;
