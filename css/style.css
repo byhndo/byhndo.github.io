@@ -201,7 +201,6 @@ h1 {
   transition: background-position 1.5s, background-color 1.5s;
   font-size: var(--sizetitle);
   font-weight: 800;
-  flex-wrap: wrap; 
   text-transform: uppercase; 
   letter-spacing:-2px; 
 }
