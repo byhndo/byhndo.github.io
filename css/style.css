@@ -204,7 +204,7 @@ h1 {
   font-weight: 800;
   text-transform: uppercase; 
   letter-spacing:-2px; 
-  display:flex;
+  line-height:.1;
 }
 
 span.subtitle{
