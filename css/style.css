@@ -270,7 +270,7 @@ h1 span.c{
 }
 
 .find-me h1 span.c{
-  background-color: var(--light)!important;
+  background-color: #FFEA20!important;
 }
 
 nav {
