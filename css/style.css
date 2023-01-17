@@ -201,9 +201,10 @@ h1 {
   align-items: center;
   text-align:center;
   line-height:-10;
+  flex-wrap:wrap;
 }
 
-span.subtitle{
+.subtitle{
   font-family: var(--font2);
   background-color: var(--grey);
   -webkit-background-clip: text;
@@ -213,6 +214,7 @@ span.subtitle{
   text-transform:uppercase;
   font-weight:700;
   letter-spacing:2px;
+  flex-wrap:wrap;
 }
 
 h1 span.c{
