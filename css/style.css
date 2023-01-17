@@ -459,7 +459,7 @@ p.sub3 {
   display:inline-flex;
   border-radius:var(--radius);
   width:auto;
-  height:15rem;
+  height:auto;
 }
 
 img{
