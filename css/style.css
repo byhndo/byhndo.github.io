@@ -192,35 +192,21 @@ svg {
 }
 
 h1 {
-
   font-family: var(--font1);
-
   filter: url("#distort");
-
   text-align: center;
-
   margin:0 0 3vh 0;
-
   padding: 5vh 0 1vh 0;
-
   -webkit-background-clip: text;
-
   -webkit-text-fill-color: transparent;
-
   transition: background-position 1.5s, background-color 1.5s;
-
   font-size: var(--sizetitle);
-
   font-weight: 800;
-
   line-height:.3;
-
-  word-wrap: break-word;
-  
-  text-transform: uppercase;
-  
+  word-wrap: break-word; 
+  text-transform: uppercase; 
   letter-spacing:-2px;  
-  
+  min-height:100vh;
 }
 
 h1 span{
