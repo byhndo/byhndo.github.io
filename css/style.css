@@ -196,7 +196,6 @@ h1 {
   word-wrap: break-word; 
   text-transform: uppercase; 
   letter-spacing:-2px; 
-  display: flex; 
   height:100vh;
   justify-content: center;
   align-items: center;
