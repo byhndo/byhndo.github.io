@@ -485,14 +485,15 @@ img{
 
 .soc li.ico {
   display: inline-flex;
-  margin:12px;
+  margin:0;
+  padding:.2rem;
   border:1px solid var(--dusk);
   border-radius:50%;
 }
 
 .soc a {
   display: block;
-  padding:0 .2rem;
+  padding:0;
   color: var(--dusk);
   text-decoration: none;
   text-transform: uppercase;
