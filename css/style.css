@@ -388,7 +388,7 @@ main {
 
   margin:3vh 0;
 
-  text-align:left;
+  text-align:center;
 
 }
 
@@ -424,7 +424,7 @@ p.sub3 {
   font-size: var(--sizefontbase);
   font-weight: 400;
   text-transform:none;
-  text-align: left;
+  text-align: justify;
   margin-top:1.4285714285714286em;
   margin-bottom:1.4285714285714286em
 }
