@@ -475,7 +475,7 @@ img{
 
 .soc li.ico {
   display: inline-flex;
-  margin: 0 12px;
+  margin: 0;
   padding:0 .2rem;
   border:1px solid var(--dusk);
   border-radius:50%;
