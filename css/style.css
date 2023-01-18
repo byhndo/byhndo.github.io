@@ -207,15 +207,16 @@ a {
 }
 
 h1 {
-  font-family: var(--font1);
+  font-family: 'Barlow Condensed', sans-serif;
   text-align: left;
   margin: 0;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: background-position 1s, background-color 1s;
   font-size: var(--sizetitle);
+  text-transform: uppercase;
   font-weight: 800;
-  line-height: 1;
+  line-height: .3;
 }
 
 
