@@ -208,7 +208,7 @@ h1 span.subtitle{
   text-transform:uppercase;
   font-weight:700;
   letter-spacing:2px;
-  padding-left: .3rem;
+  padding-left: 30px;
 }
 
 h1 span.c{
@@ -458,7 +458,7 @@ img{
 
 .soc a {
   display: block;
-  padding:1px 5px;
+  padding:2px 5px;
   color: var(--dusk);
   text-decoration: none;
   text-transform: uppercase;
