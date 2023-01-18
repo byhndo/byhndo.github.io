@@ -451,7 +451,7 @@ img{
 .soc li.ico {
   display: inline-flex;
   margin: 0 .5rem 0 0;
-  padding:.05rem .3rem;
+  padding:.05rem .3rem .05rem 0;
   text-align:center;
 }
 
