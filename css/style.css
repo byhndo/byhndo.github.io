@@ -121,7 +121,7 @@ a {
 
 .transition-bio {
   left: 0;
-  background: var(--dark) url('../img/bg-1.png') no-repeat 100% 0;
+  background: var(--dark);
   transform-origin: 0 0;
 }
 
