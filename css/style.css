@@ -208,7 +208,7 @@ a {
 
 h1 {
   font-family: var(--font1);
-  text-align: left;
+  text-align: center;
   margin: 0 auto;
   padding: 80px 0 30px 0;
   -webkit-background-clip: text;
