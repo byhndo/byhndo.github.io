@@ -195,6 +195,7 @@ h1 {
   letter-spacing:-2px; 
   line-height:.3;
   text-align:left;
+  max-width:96vw;
 }
 
 
