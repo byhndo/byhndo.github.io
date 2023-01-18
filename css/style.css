@@ -527,6 +527,6 @@ img{
 
 @media(min-width:576px){
 main{
-  max-width:80%;
+  max-width:80vw;
 }
 }
