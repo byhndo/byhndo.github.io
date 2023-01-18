@@ -49,7 +49,7 @@ a {
 .bg {
   background: inherit;
   min-height: 100vh;
-  padding: 15vh 0 .3rem;
+  padding: 11vh 0 .3rem;
   transition: background 0s 1s, color 0.6s;
 }
 
@@ -450,11 +450,14 @@ img{
 .soc li.ico {
   display: inline-flex;
   margin: 0 .75rem;
-  padding:0 .3rem;
+  padding:.1rem .3rem;
   border:1px solid var(--dusk);
   border-radius:50%;
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2.1rem;
+  height: 2.1rem;
+  text-align:center;
+  justify-content: center;
+  align-item: center;
 }
 
 .soc a {
@@ -524,9 +527,9 @@ img{
 
 @media(min-width:576px){
 .bg{
-  padding-top: 10vh;
+  padding-top: 8vh;
 }
 main{
-  max-width:90%;
+  max-width:80%;
 }
 }
