@@ -8,12 +8,6 @@ new Vue({
 })
 
 
-
-
-
-
-
-
 AOS.init();
 
 AOS.init({
@@ -24,6 +18,16 @@ AOS.init({
 });
 
 
+$(function() {
+    var $window = $(window),
+        $body = $('body'),
+        $section = $('.bg');
+    $window.on("scroll", function() {
+        var distance = $(this).scrollTop();
+        $body.css('background-position', '0 -' + distance + 'px');
+        $section.css('background-position', '0 -' + distance * 2 + 'px');
+    });
+});
 
 
 
