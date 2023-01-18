@@ -458,7 +458,7 @@ img{
 
 .soc a {
   display: block;
-  padding:0 5px;
+  padding:1px 5px;
   color: var(--dusk);
   text-decoration: none;
   text-transform: uppercase;
@@ -467,8 +467,8 @@ img{
   transition: all ease-out 1.6s;
   border:1px solid var(--dusk);
   border-radius:50%;
-  width: 27px;
-  height: 27px;
+  width: 28px;
+  height: 28px;
   opacity:.6;
 }
 
