@@ -33,53 +33,55 @@
     <meta name="twitter:creator" content="@byuhnd" />
     <meta name="robots" content="noindex,nofollow">
   </head>
-  <body>
-    <div id="app">
-      <div :class="['bg', bg]">
- <header>
-<nav>
-            <ul>
-              <li>
-                <a class="link-bio" href="#bio" @click="bg = 'bio'">Bio</a>
-              </li>
-              <li>
-                <a class="link-projects" href="#projects" @click="bg = 'projects'">Projects</a>
-              </li>
-              <li>
-                <a class="link-find-me" href="#findme" @click="bg = 'find-me'">Find Me</a>
-              </li>
-            </ul>
-          </nav>
+<body>
+  <div id="app">
+    <div :class="['bg', bg]">
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <a class="link-bio" href="#bio" @click="bg = 'bio'">Bio</a>
+        </li>
+        <li>
+          <a class="link-projects" href="#projects" @click="bg = 'projects'">Projects</a>
+        </li>
+        <li>
+          <a class="link-find-me" href="#findme" @click="bg = 'find-me'">Find Me</a>
+        </li>
+        </ul>
+    </nav>
           <div class="transition transition-bio"></div>
           <div class="transition transition-projects"></div>
           <div class="transition transition-find-me"></div>
           <h1>Bayu<span class="c">.</span>
-<span class="subtitle">Handono</span>
-</h1>         
-         </header>                 
-        <main>
-          <transition name="slide-fade" mode="out-in">
-            <div key="bio" v-if="bg==='bio'">
-            <div class="sub1" data-aos="blur">Hi!</div>                  
-              <p class="sub1" data-aos="blur"><span class="prolog" data-aos="blur">Saya Bayu, Saya lahir di Bandung, Jawa Barat, Indonesia, Asia Tenggara, Asia, Planet Bumi, Tata Surya, Bima Sakti, Jagat raya.</span> </p>
-<p class="sub1" data-aos="blur">Selamat datang dan terima kasih sudah mau berkunjung ke sini. Semoga anda sehat dan bahagia selalu. Senantiasa semua makhluk berbahagia. Jangan minta motivasi, tidak ada kata-kata dan kalimat motivasi, karena saya bukan motivator. Motivasilah dirimu sendiri.
-              </p>
+            <span class="subtitle">Handono</span>
+          </h1>         
+  </header>                 
+  <main>
+    <transition name="slide-fade" mode="out-in">          
+      <div key="bio" v-if="bg==='bio'">
+        <div class="sub1" data-aos="blur">Hi!</div>                  
+          <p class="sub1" data-aos="blur"><span class="prolog" data-aos="blur">Saya Bayu, Saya lahir di Bandung, Jawa Barat, Indonesia, Asia Tenggara, Asia, Planet Bumi, Tata Surya, Bima Sakti, Jagat raya.</span> </p>
+            <p class="sub1" data-aos="blur">Selamat datang dan terima kasih sudah mau berkunjung ke sini. Semoga anda sehat dan bahagia selalu. Senantiasa semua makhluk berbahagia. Jangan minta motivasi, tidak ada kata-kata dan kalimat motivasi, karena saya bukan motivator. Motivasilah dirimu sendiri.
+          </p>
+      </div>
+      <div key="projects" v-if="bg==='projects'"><div class="sub2" data-aos="blur">Fuck</div>
+        <p class="sub2">
+          <div class="grid">
+            <div class="item" data-aos="blur"><img src="../img/me1.jpg"></div>
+            <div class="item" data-aos="blur"><img src="../img/me2.jpg"></div>
+            <div class="item" data-aos="blur"><img src="../img/me3.jpg"></div>
+            <div class="item" data-aos="blur"><img src="../img/me4.jpg"></div>
+          </div>
+        </p>
             </div>
-            <div key="projects" v-if="bg==='projects'"><div class="sub2" data-aos="blur">Fuck</div>
-<p class="sub2">
-<div class="grid">
-<div class="item" data-aos="blur"><img src="../img/me1.jpg"></div>
-<div class="item" data-aos="blur"><img src="../img/me2.jpg"></div>
-<div class="item" data-aos="blur"><img src="../img/me3.jpg"></div>
-<div class="item" data-aos="blur"><img src="../img/me4.jpg"></div>
-</div>
-</p>
-            </div>
-            <div key="find-me" v-if="bg==='find-me'"><div class="sub3" data-aos="blur">It's fucking me</div> <p class="sub3"> 
-              </p>
-            </div>
-         </transition>
-          <div class="soc">
+      <div key="find-me" v-if="bg==='find-me'"><div class="sub3" data-aos="blur">It's fucking me</div> 
+        <p class="sub3"> 
+
+        </p>
+       </div>
+    </transition>
+  <div class="soc">
             <ul class="ico">
               <li class="ico">
                 <a href="https://facebook.com/byuhnd" rel="noopener noreferrer" title="Facebook">
@@ -102,17 +104,17 @@
                 </a>
               </li>
             </ul>
-          </div>
-          <div class="footer">
+  </div>
+    <div class="footer">
             <span>&copy; <a href="/">Bayu<span class="fc">.</span></a> </span>
-          </div>
-        </main>
-      </div>
-    </div>    
+    </div>
+  </main>
+  </div>
+  </div>    
     
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.min.js"></script> 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script src="js/script.js"></script>
- </body>
+</body>
 </html>
