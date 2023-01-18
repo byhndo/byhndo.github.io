@@ -451,7 +451,6 @@ img{
   display: inline-flex;
   margin: 0 .5rem;
   padding:.05rem .3rem;
-  border:1px solid var(--dusk);
   border-radius:50%;
   width: 1.5rem;
   height: 1.5rem;
@@ -469,6 +468,7 @@ img{
   font-size: 15px;
   font-family: var(--fontnav);
   transition: all ease-out 1.6s;
+  border:1px solid var(--dusk);
   opacity:.6;
 }
 
