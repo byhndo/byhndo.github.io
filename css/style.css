@@ -466,7 +466,7 @@ img{
   color: var(--dusk);
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 18px;
   font-family: var(--fontnav);
   transition: all ease-out 1.6s;
   opacity:.6;
