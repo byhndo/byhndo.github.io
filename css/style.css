@@ -711,7 +711,7 @@ img{
 
 @media(min-width:576px){
 
-h1,.sub1, .sub2, .sub3, .footer {
+h1, .footer {
 
   text-align: center;
 
