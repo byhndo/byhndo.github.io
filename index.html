@@ -74,7 +74,8 @@
 
       <div :class="['bg', bg]">
 
-   <nav>
+ <header>
+<nav>
             <ul>
               <li>
                 <a class="link-bio" href="#bio" @click="bg = 'bio'">Bio</a>
@@ -87,13 +88,6 @@
               </li>
             </ul>
           </nav>
-               
-    
-        <main>
-
-          <transition name="slide-fade" mode="out-in">
-
-<header>
           <div class="transition transition-bio"></div>
           <div class="transition transition-projects"></div>
           <div class="transition transition-find-me"></div>
@@ -101,6 +95,13 @@
 <span class="subtitle">Handono</span>
 </h1>         
          </header>
+               
+    
+        <main>
+
+          <transition name="slide-fade" mode="out-in">
+
+
 
 
             <div key="bio" v-if="bg==='bio'">
