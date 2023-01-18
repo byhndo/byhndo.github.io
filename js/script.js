@@ -20,8 +20,8 @@ AOS.init({
 
 $(function() {
     var $window = $(window),
-        $body = $('.transition-bio'),
-        $section = $('.bio');
+        $body = $('body'),
+        $section = $('.transition-bio');
     $window.on("scroll", function() {
         var distance = $(this).scrollTop();
         $body.css('background-position', '0 -' + distance + 'px');
