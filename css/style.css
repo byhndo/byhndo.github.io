@@ -214,7 +214,7 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: background-position 1s, background-color 1s;
-  -webkit-mask-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,transparent),color-stop(.5,transparent),color-stop(1,transparent));
+  -webkit-mask-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#000),color-stop(.5,#000),color-stop(1,#000));
   font-size: var(--sizetitle);;
   text-transform: uppercase;
   font-weight: 800;
