@@ -207,13 +207,14 @@ a {
 }
 
 h1 {
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: var(--font1);
   text-align: left;
   margin: 0;
-  padding: 50px 0 50px 0;
+  padding: 150px 0 30px 0;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: background-position 1s, background-color 1s;
+  -webkit-mask-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,transparent),color-stop(.5,transparent),color-stop(1,transparent));
   font-size: var(--sizetitle);;
   text-transform: uppercase;
   font-weight: 800;
