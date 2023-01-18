@@ -711,7 +711,7 @@ img{
 
 @media(min-width:576px){
 
-h1,.sub1, .sub2, .sub3, .soc ul.ico, .footer {
+h1,.sub1, .sub2, .sub3, .footer {
 
   text-align: center;
 
@@ -722,7 +722,7 @@ h1{
 
 main{
 
-  max-width:70vw;
+  max-width:75vw;
 
   margin: 0 auto;
 
@@ -734,6 +734,9 @@ p.sub1,p.sub2, p.sub3{
 
   text-align: left;
 
+}
+.soc{
+  margin: 0 auto
 }
 
 }
