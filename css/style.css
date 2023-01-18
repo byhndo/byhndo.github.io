@@ -533,5 +533,9 @@ h1,.sub1, .sub2, .sub3, .soc ul.ico {
 main{
   max-width:80vw;
   margin: 0 auto;
+  text-align: center;
+}
+p.sub1,p.sub2, p.sub3{
+  text-align: left;
 }
 }
