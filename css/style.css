@@ -483,6 +483,7 @@ img{
 
 .find-me .soc a {
   color: var(--light);
+  border-color: var(--light);
 }
 
 .footer {
