@@ -209,6 +209,7 @@ h1 span.subtitle{
   text-transform:uppercase;
   font-weight:700;
   letter-spacing:2px;
+  padding-left: 20px;
 }
 
 h1 span.c{
@@ -457,7 +458,7 @@ img{
 
 .soc a {
   display: block;
-  padding:1.8px 5px;
+  padding:1.7px 5px;
   color: var(--dusk);
   text-decoration: none;
   text-transform: uppercase;
@@ -526,7 +527,11 @@ img{
 }
 
 @media(min-width:576px){
+h1,.sub1, .sub2, .sub3, .soc ul.ico {
+  text-align: center;
+}
 main{
   max-width:80vw;
+  margin: 0 auto;
 }
 }
