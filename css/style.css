@@ -460,7 +460,7 @@ img{
 
 .soc a {
   display: block;
-  padding:0 10px;
+  padding:0 5px;
   color: var(--dusk);
   text-decoration: none;
   text-transform: uppercase;
