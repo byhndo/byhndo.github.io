@@ -208,7 +208,6 @@ h1 span.subtitle{
   text-transform:uppercase;
   font-weight:700;
   letter-spacing:2px;
-  padding-left:.8rem;
 }
 
 h1 span.c{
@@ -467,8 +466,8 @@ img{
   transition: all ease-out 1.6s;
   border:1px solid var(--dusk);
   border-radius:50%;
-  width: 25px;
-  height: 25px;
+  width: 27px;
+  height: 27px;
   opacity:.6;
 }
 
