@@ -20,7 +20,7 @@ AOS.init({
 
 $(function() {
     var $window = $(window),
-        $body = $('.bio'),
+        $body = $('.transition-bio'),
         $section = $('.bio');
     $window.on("scroll", function() {
         var distance = $(this).scrollTop();
