@@ -465,8 +465,8 @@ img{
   transition: all ease-out 1.6s;
   border:1px solid var(--dusk);
   border-radius:50%;
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 22px;
+  height: 22px;
   opacity:.6;
 }
 
