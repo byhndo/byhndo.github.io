@@ -18,19 +18,13 @@ AOS.init({
 });
 
 
-$(function() {
-    var $window = $(window),
-        $body = $('body'),
-        $section = $('.transition-bio');
-    $window.on("scroll", function() {
-        var distance = $(this).scrollTop();
-        $body.css('background-position', '0 -' + distance + 'px');
-        $section.css('background-position', '0 -' + distance * 2 + 'px');
-    });
-});
-
-
-
-
-
-
+(function() {
+    var bgLayer = document.getElementsByTagName('img');
+    window.onscroll = function() {
+        var top = pageYOffset;
+        document.body.style.backgroundPosition = '0 ' + (top*2) + 'px';
+        bgLayer[0].style.backgroundPosition = '0 ' + (top*0.5) + 'px';
+        bgLayer[1].style.backgroundPosition = '0 ' + (top*1.5) + 'px';
+        
+    };
+})();
