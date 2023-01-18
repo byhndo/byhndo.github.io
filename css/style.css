@@ -184,7 +184,7 @@ svg {
 h1 {
   font-family: var(--font1);
   filter: url("#distort");
-  margin: 0 1rem;
+  margin: 0 1.5em;
   padding: 15vh 0 5vh 0;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -316,7 +316,7 @@ main {
 
   max-width: 96%;
 
-  padding: 0 1rem;
+  padding: 0 1.5em;
 
   margin: 0 auto 0;
 
