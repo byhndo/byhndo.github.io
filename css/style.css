@@ -185,7 +185,7 @@ h1 {
   font-family: var(--font1);
   filter: url("#distort");
   margin: 0;
-  padding: 15vh .7rem 5vh .7rem;
+  padding: 12vh .8rem 5vh .8rem;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: background-position 1.5s, background-color 1.5s;
@@ -316,7 +316,7 @@ main {
 
   max-width: 96%;
 
-  padding: 0 .7rem;
+  padding: 0 .8rem;
 
   margin: 0 auto 0;
 
