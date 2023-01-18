@@ -458,7 +458,7 @@ img{
 
 .soc a {
   display: block;
-  padding:2px 5px;
+  padding:1.8px 5px;
   color: var(--dusk);
   text-decoration: none;
   text-transform: uppercase;
