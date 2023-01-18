@@ -194,7 +194,7 @@ h1 {
   text-transform: uppercase; 
   letter-spacing:-2px; 
   line-height:.3;
-  text-align:center;
+  text-align:left;
 }
 
 
@@ -381,7 +381,7 @@ p.sub3 {
   font-size: var(--sizefontbase);
   font-weight: 400;
   text-transform:none;
-  text-align: justify;
+  text-align: left;
   margin-top:1.4285714285714286em;
   margin-bottom:1.4285714285714286em
 }
