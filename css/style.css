@@ -673,13 +673,13 @@ img{
 
 .projects .footer span, .projects .footer span a{
 
-  color: var(--dusk);
+  color: var(--dark);
 
 }
 
 .find-me .footer span, .find-me .footer span a{
 
-  color: var(--light);
+  color: var(--dusk);
 
 }
 
