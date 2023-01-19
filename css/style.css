@@ -98,13 +98,13 @@ a {
 
 .bio, .link-bio {
 
-  background: var(--dusk);
+  background: var(--dark);
 
 }
 
 .bio h1 {
 
-  background-color: var(--dark);
+  background-color: var(--dusk);
 
 }
 
@@ -112,7 +112,7 @@ a {
 
 .link-projects {
 
-  background: var(--dark);
+  background: var(--dusk);
 
 }
 
@@ -154,7 +154,7 @@ a {
 
   left: 0;
 
-  background: var(--dusk);
+  background: var(--dark);
 
   transform-origin: 0 0;
 
@@ -164,7 +164,7 @@ a {
 
   left: 0;
 
-  background: var(--dark);
+  background: var(--dusk);
 
   transform-origin: 50% 0;
 
