@@ -310,7 +310,7 @@ h1 span.c{
 
 nav {
 
-  position: absolute;
+  position: fixed;
 
   top: 0;
 
