@@ -16,9 +16,8 @@
 
   --sub2: #00adb5; 
 
-//  --sub3: #FFEA20;
-  --sub3: gold;
-
+  --sub3: #FFEA20;
+  
   --psub1: #fef3e9;
 
   --psub2: #333;
@@ -306,9 +305,8 @@ h1 span.c{
 
 .find-me h1 span.c{
 
-  // background-color: #FFEA20!important;
+  background-color: #FFEA20!important;
 
-  background-color: gold!important;
 }
 
 nav {
