@@ -495,7 +495,7 @@ p.sub3 {
 
 .grid {
 
-  --auto-grid-min-size: 10rem;
+  --auto-grid-min-size: 15rem;
 
   display: grid;
 
