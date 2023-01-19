@@ -20,7 +20,7 @@
   
   --psub1: #333;
 
-  --psub2: #222831;
+  --psub2: #fef3e9;
 
   --psub3: #fef3f9;
 
@@ -302,7 +302,7 @@ h1 span.c{
 
 }
 
-.bio h1 span.c{
+.project h1 span.c{
 
   background-color: #FFEA20!important;
 
@@ -673,13 +673,13 @@ img{
 
 .projects .footer span, .projects .footer span a{
 
-  color: var(--dark);
+  color: var(--light);
 
 }
 
 .find-me .footer span, .find-me .footer span a{
 
-  color: var(--dusk);
+  color: var(--dark);
 
 }
 
