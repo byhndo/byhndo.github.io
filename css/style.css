@@ -363,7 +363,9 @@ nav a {
   letter-spacing: 1px;
 
 }
-
+nav .link-bio{
+  color: var(--dusk);
+}
 nav .link-projects {
 
   color: var(--light);
