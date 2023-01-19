@@ -268,7 +268,7 @@ h1 span.c{
 
 .bio h1{
 
-  background-color: var(--dark);
+  background-color: var(--light);
 
 }
 
@@ -661,7 +661,7 @@ img{
 
   font-family: var(--font1);
 
-  color: var(--dark);
+  color: var(--light);
 
   font-size: 12px;
 
