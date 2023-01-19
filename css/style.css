@@ -630,7 +630,7 @@ img{
 
 .projects .soc a {
 
-  color: var(--dusk);
+  color: var(--light);
 
 }
 
@@ -716,11 +716,10 @@ img{
 h1 {
 
   text-align: center;
+padding-top:150px;
 
 }
-h1{
-  padding-top:150px;
-}
+
 
 main{
 
