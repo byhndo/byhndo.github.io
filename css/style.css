@@ -305,9 +305,9 @@ h1 span.c{
 
 .find-me h1 span.c{
 
- // background-color: #FFEA20!important;
+  // background-color: #FFEA20!important;
 
-background-color: gold!important;
+  background-color: gold!important;
 }
 
 nav {
