@@ -96,7 +96,7 @@ a {
 
 .bio, .link-bio {
 
-  background: var(--dark);
+  background: var(--light);
 
 }
 
@@ -110,7 +110,7 @@ a {
 
 .link-projects {
 
-  background: var(--light);
+  background: var(--dark);
 
 }
 
@@ -267,7 +267,7 @@ h1 span.c{
 
 .bio h1{
 
-  background-color: var(--light);
+  background-color: var(--dark);
 
 }
 
@@ -279,7 +279,7 @@ h1 span.c{
 
 .projects h1{
 
-  background-color: var(--dark);
+  background-color: var(--light);
 
 }
 
