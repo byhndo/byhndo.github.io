@@ -525,9 +525,9 @@ img{
 
   border-radius:var(--radius);
 
-  width:100%;
+  width:50%;
 
-  height:100%;
+  height:auto;
 
   object-fit: cover;
 
