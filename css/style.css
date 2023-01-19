@@ -652,6 +652,7 @@ img{
   right: 0;
 
   margin: 20px 0 20px 0;
+  text-align: center;
 
 }
 
@@ -711,7 +712,7 @@ img{
 
 @media(min-width:576px){
 
-h1, .footer {
+h1 {
 
   text-align: center;
 
