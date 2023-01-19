@@ -6,7 +6,7 @@ new Vue({
 
     return {
 
-      bg: 'projects'
+      bg: 'bio'
 
     }
 
