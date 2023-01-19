@@ -66,7 +66,9 @@ body {
 
   flex-wrap: wrap;
 
-  -webkit-font-smoothing: antialiased;
+
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
 
 }
 
