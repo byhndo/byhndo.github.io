@@ -4,10 +4,12 @@
 
   --colorbase:#000000;
  
-  --light: #fef3e9;
+  
   --dark: #222831;
     
   --dusk: #00adb5;
+ 
+  --light: #fef3e9;
 
   --grey: rgba(255,255,255, .7);
 
@@ -96,13 +98,13 @@ a {
 
 .bio, .link-bio {
 
-  background: var(--light);
+  background: var(--dusk);
 
 }
 
 .bio h1 {
 
-  background-color: var(--dusk);
+  background-color: var(--dark);
 
 }
 
@@ -118,7 +120,7 @@ a {
 
 .link-find-me {
 
-  background: var(--dusk);
+  background: var(--light);
 
 }
 
@@ -152,7 +154,7 @@ a {
 
   left: 0;
 
-  background: var(--light);
+  background: var(--dusk);
 
   transform-origin: 0 0;
 
@@ -172,7 +174,7 @@ a {
 
   left: 0;
 
-  background: var(--dusk);
+  background: var(--light);
 
   transform-origin: 100% 0;
 
@@ -301,7 +303,7 @@ h1 span.c{
 
 }
 
-.find-me h1 span.c{
+.bio h1 span.c{
 
   background-color: #FFEA20!important;
 
