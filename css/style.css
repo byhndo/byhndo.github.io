@@ -254,7 +254,7 @@ h1 span.subtitle{
   background-color: var(--h1sub3);
 }
 
-h1 span.c{
+.bio h1 span.c{
   background-color: #fec803!important;
   font-family: var(--font2);
   -webkit-background-clip: text;
@@ -262,6 +262,14 @@ h1 span.c{
   transition: background-position 1.5s, background-color 1.5s;
   font-size: var(--sizetitle);
   font-weight:700;
+}
+
+.projects h1 span.c{
+  background-color: var(--dusk);
+}
+
+.find-me h1 span c{
+  background-color: var(--light);
 }
 
 .bio h1{
@@ -293,12 +301,6 @@ h1 span.c{
 .find-me span.subtitle{
 
   background-color: var(--grey);
-
-}
-
-.projects h1 span.c{
-
-  background-color: #FF6E31!important;
 
 }
 
