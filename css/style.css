@@ -265,7 +265,8 @@ h1 span.subtitle{
 
 h1 span.c{
 
-  background-color:#FF6E31!important;
+  // background-color:#FF6E31!important;
+background-color: #fec803!important;
 
   font-family: var(--font2);
 
