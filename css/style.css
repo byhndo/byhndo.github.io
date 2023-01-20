@@ -10,11 +10,9 @@
     
  // --dusk: #00adb5;
 
---dusk: #fec803;
+  --dusk: #fec803;
  
-//  --light: #fef3e9;
-
- --light: #fff;
+  --light: #fef3e9;
 
   --h1sub1: #fef3e9;
   
@@ -390,7 +388,7 @@ nav .link-bio{
 }
 nav .link-projects {
 
-  color: var(--light);
+  color: var(--dark);
 
 }
 
