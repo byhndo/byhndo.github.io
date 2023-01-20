@@ -265,11 +265,11 @@ h1 span.subtitle{
 }
 
 .projects h1 span.c{
-  background-color: var(--dusk);
+  background-color: #000;
 }
 
 .find-me h1 span c{
-  background-color: var(--light);
+  background-color: #000;
 }
 
 .bio h1{
