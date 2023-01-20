@@ -593,7 +593,7 @@ img{
 
   padding:1.7px 5px 1.7px 4.9px;
 
-  color: var(--dusk);
+  color: var(--light);
 
   text-decoration: none;
 
@@ -605,7 +605,7 @@ img{
 
   transition: all ease-out 1.6s;
 
-  border:1px solid var(--dusk);
+  border:1px solid var(--light);
 
   border-radius:50%;
 
@@ -625,17 +625,17 @@ img{
 
 .projects .soc a {
 
-  color: var(--light);
+  color: var(--dusk);
   
-  border-color: var(--light);
+  border-color: var(--dusk);
 
 }
 
 .find-me .soc a {
 
-  color: var(--dusk);
+  color: var(--light);
 
-  border-color: var(--dusk);
+  border-color: var(--light);
 
 }
 
