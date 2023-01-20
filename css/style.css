@@ -40,7 +40,7 @@
 
   --sizetitle2: 8vw;
 
-  --sizesubtitle: 300%;
+  --sizesubtitle: 350%;
 
   --fontnav: 'Barlow Condensed', sans-serif;
 
@@ -442,7 +442,7 @@ main {
 
   font-weight: 700;  
 
-  text-transform: capitalize;
+  text-transform:uppercase;
 
   margin:23px 0;
 
