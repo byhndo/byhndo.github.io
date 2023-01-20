@@ -35,7 +35,7 @@
 
   --sizetitle2: 8vw;
 
-  --sizesubtitle: 350%;
+  --sizeh3: 350%;
 
   --fontnav: 'Barlow Condensed', sans-serif;
 
@@ -57,6 +57,16 @@
 
   box-sizing: border-box;
 
+}
+
+h1{
+  font-size: var(--sizetitle);
+}
+
+h3{
+ font-size: var(--sizeh3);
+ margin-top: 23px;
+ margin-bottom: 23px;
 }
 
 body {
@@ -223,7 +233,6 @@ h1 {
   -webkit-text-fill-color: transparent;
   transition: background-position 1s, background-color 1s;
   -webkit-mask-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#000),color-stop(.5,#000),color-stop(1,#000));
-  font-size: var(--sizetitle);;
   text-transform: uppercase;
   font-weight: 800;
   line-height: .3;
