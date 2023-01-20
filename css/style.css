@@ -34,7 +34,7 @@
 
   --sizetitle2: 8vw;
 
-  --sizeh3: 350%;
+  --sizeh3: 500%;
 
   --fontnav: 'Barlow Condensed', sans-serif;
 
@@ -450,21 +450,13 @@ p.sub1,
 p.sub2,
 
 p.sub3 {
-
   font-family: var(--font3);
-
   font-size: var(--sizefontbase);
-
   font-weight: 400;
-
   text-transform:none;
-
   text-align: left;
-
   margin-top: 23px;
-
   margin-bottom:23px;
-
 }
 
 p.sub1 {
