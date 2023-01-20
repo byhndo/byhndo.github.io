@@ -58,6 +58,12 @@
 
 }
 
+h1, h2, h3, h4, h5, h6, h7{
+  font-weight: 800;  
+  text-transform:uppercase;
+  text-align:left;
+}
+
 h1{
   font-size: var(--sizetitle);
 }
@@ -420,9 +426,6 @@ main {
 
 .sub1, .sub2, .sub3 {
   font-family: var(--font2);
-  font-weight: 700;  
-  text-transform:uppercase;
-  text-align:left;
 }
 
 .sub1 {
