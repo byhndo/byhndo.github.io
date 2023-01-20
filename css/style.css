@@ -477,13 +477,10 @@ p.sub3 {
 }
 
 .item {
-
   padding: 0;
-
   background: transparent;
-
   display:inline-flex;
-
+  border-radius: var(--radius);
 }
 
 img{
@@ -491,6 +488,7 @@ img{
   height:auto;
   object-fit: cover; 
   filter: grayscale();
+  border-radius: var(--radius);
 }
 
 [data-aos=blur] {
