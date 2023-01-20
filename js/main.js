@@ -22,7 +22,7 @@ AOS.init({
 
   delay: 0, 
 
-  duration: 1500, 
+  duration: 1200, 
 
   easing: 'ease-out-quad' 
 
