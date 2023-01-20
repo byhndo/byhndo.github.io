@@ -435,7 +435,7 @@ main {
 
   text-transform: capitalize;
 
-  margin:3vh 0;
+  margin:23px 0;
 
   text-align:left;
 
@@ -483,9 +483,9 @@ p.sub3 {
 
   text-align: left;
 
-  margin-top:1.4285714285714286em;
+  margin-top: 23px;
 
-  margin-bottom:1.4285714285714286em
+  margin-bottom:23px;
 
 }
 
@@ -519,7 +519,7 @@ p.sub3 {
 
   box-sizing: border-box;
 
-  margin-bottom:1.4285714285714286em;
+  margin-bottom:23px;
 
 }
 
