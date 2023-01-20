@@ -9,7 +9,6 @@
   --light: #fec803;
     
   --dusk: #D9534F;
- 
 
   --h1sub1: #fef3e9;
   
@@ -267,38 +266,27 @@ h1 span.subtitle{
 .projects h1 span.subtitle{
   background-color: var(--h1sub2);
 }
+
 .find-me h1 span.subtitle{
   background-color: var(--h1sub3);
 }
 
 h1 span.c{
-
-background-color: #fec803!important;
-
+  background-color: #fec803!important;
   font-family: var(--font2);
-
   -webkit-background-clip: text;
-
   -webkit-text-fill-color: transparent;
-
   transition: background-position 1.5s, background-color 1.5s;
-
   font-size: var(--sizetitle);
-
   font-weight:700;
-
 }
 
 .bio h1{
-
   background-color: var(--light);
-
 }
 
 .bio span.subtitle{
-
   background-color: var(--grey);
-
 }
 
 .projects h1{
