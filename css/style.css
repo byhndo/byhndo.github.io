@@ -254,7 +254,7 @@ h1 span.subtitle{
   background-color: var(--h1sub3);
 }
 
-.bio h1 span.c{
+h1 span.c{
   background-color: #fec803!important;
   font-family: var(--font2);
   -webkit-background-clip: text;
