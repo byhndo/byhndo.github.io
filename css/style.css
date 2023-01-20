@@ -2,15 +2,11 @@
 
 :root {
 
-  --colorbase:#000000;
-  
- // --dark: #222831;
+  --colorbase:#000000;  
 
---dark: #000;
+  --dark: #000;
     
- // --dusk: #00adb5;
-
-  --dusk: #fec803;
+  --dusk: #674747;
  
   --light: #444;
 
