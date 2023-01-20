@@ -487,77 +487,45 @@ p.sub3 {
 }
 
 img{
-
-  border-radius:var(--radius);
-
   width:100%;
-
   height:auto;
-
-  object-fit: cover;
-  
+  object-fit: cover; 
   filter: grayscale();
-
 }
 
 [data-aos=blur] {
-
   filter: blur(1rem);
-
   opacity: 0;
-
   transition-property: filter, opacity;
-
 }
 
 [data-aos=blur].aos-animate {
-
   filter: blur(0);
-
   opacity: 1;
-
 }
 
 .soc {
-
   position: relative;
-
   bottom: 0;
-
   left: 0;
-
   right: 0;
-
   z-index: 10;
-
   margin: 60px 0 0 0;
-
 }
 
 .soc ul.ico {
-
   list-style: none;
-
   display: flex;
-
   text-align: left;
-
   margin: 0;
-
   padding: 0;
-
 }
 
 .soc li.ico {
-
   display: inline-flex;
-
   margin: 0 .5rem 0 0;
-
   padding:.05rem .3rem .05rem 0;
-
   text-align:center;
-
 }
 
 .soc a {
