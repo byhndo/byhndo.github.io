@@ -544,6 +544,8 @@ img{
   height:auto;
 
   object-fit: cover;
+  
+  filter: grayscale();
 
 }
 
