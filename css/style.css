@@ -176,7 +176,7 @@ a {
 
   left: 0;
 
-  background: var(--dusk);
+  background: var(--light);
 
   transform-origin: 50% 0;
 
@@ -186,7 +186,7 @@ a {
 
   left: 0;
 
-  background: var(--light);
+  background: var(--dusk);
 
   transform-origin: 100% 0;
 
