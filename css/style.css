@@ -280,7 +280,7 @@ h1 span.c{
 
 .projects h1{
 
-  background-color: var(--light);
+  background-color: var(--dark);
 
 }
 
@@ -677,7 +677,7 @@ img{
 
 .projects .footer span, .projects .footer span a{
 
-  color: var(--light);
+  color: var(--dark);
 
 }
 
