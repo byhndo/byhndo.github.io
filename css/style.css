@@ -277,31 +277,23 @@ h1 span.c{
 }
 
 .bio span.subtitle{
-  background-color: var(--grey);
+  background-color: inherir;
 }
 
 .projects h1{
-
   background-color: var(--dark);
-
 }
 
 .projects span.subtitle{
-
-  background-color: var(--grey);
-
+  background-color: inherit;
 }
 
 .find-me h1{
-
   background-color: var(--dark);
-
 }
 
 .find-me span.subtitle{
-
-  background-color: var(--grey);
-
+  background-color: inherit;
 }
 
 nav {
