@@ -5,10 +5,11 @@
   --colorbase:#000000;  
 
   --dark: #000;
+
+  --light: #fec803;
     
   --dusk: #674747;
  
-  --light: #444;
 
   --h1sub1: #fef3e9;
   
@@ -103,7 +104,7 @@ a {
 
 .bio, .link-bio {
 
-  background: var(--dark);
+  background: var(--light);
 
 }
 
@@ -117,7 +118,7 @@ a {
 
 .link-projects {
 
-  background: var(--dusk);
+  background: var(--light);
 
 }
 
@@ -125,7 +126,7 @@ a {
 
 .link-find-me {
 
-  background: var(--light);
+  background: var(--dusk);
 
 }
 
