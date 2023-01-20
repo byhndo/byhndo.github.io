@@ -631,14 +631,16 @@ img{
 .projects .soc a {
 
   color: var(--light);
+  
+  border-cilro: var(--light);
 
 }
 
 .find-me .soc a {
 
-  color: var(--light);
+  color: var(--dusk);
 
-  border-color: var(--light);
+  border-color: var(--dusk);
 
 }
 
