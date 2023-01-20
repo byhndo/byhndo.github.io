@@ -10,7 +10,11 @@
  
   --light: #fef3e9;
 
-  --grey: rgba(255,255,255, .7);
+  --h1sub1: #fef3e9;
+  
+  --h1sub2: #222831;
+
+  --h1sub3: #222831;
 
   --sub1: #00adb5;
 
@@ -230,8 +234,6 @@ h1 span.subtitle{
 
   font-family: var(--font2);
 
-  background-color: var(--grey);
-
   -webkit-background-clip: text;
 
   -webkit-text-fill-color: transparent;
@@ -246,6 +248,17 @@ h1 span.subtitle{
 
   letter-spacing:2px;
 
+}
+
+.bio h1 span.subtitle{
+  background-color: var(--h1sub1);
+}
+
+.projects h1 span.subtitle{
+  background-color: var(--h1sub2);
+}
+.find-me h1 span.subtitle{
+  background-color: var(--h1sub3);
 }
 
 h1 span.c{
