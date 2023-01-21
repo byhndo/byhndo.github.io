@@ -466,25 +466,16 @@ img{
 }
 
 .footer span {
-
   font-family: var(--font1);
-
-  color: var(--light);
-
+  color: #fff;
   font-size: 12px;
-
   font-weight: 700;
-
   text-decoration: none;
-
   text-transform: uppercase;
-
 }
 
 .projects .footer span, .projects .footer span a{
-
   color: var(--dark);
-
 }
 
 .find-me .footer span, .find-me .footer span a{
@@ -497,7 +488,7 @@ img{
 }
 
 .footer span.fc{
-  color: var(--dusk)!important;
+  color: var(--light)!important;
   font-family: var(--font1);
   font-size: 12px;
   font-weight:700;
