@@ -77,10 +77,6 @@ a {
 
 }
 
-.bio h1 {
-  background-color: #fff;
-}
-
 .projects,
 
 .link-projects {
@@ -198,8 +194,20 @@ h1 {
   max-width: 90vw;
 }
 
+.bio h1{
+  background-color: #fff;
+}
+
+.projects h1{
+  background-color: var(--dark);
+}
+
+.find-me h1{
+  background-color: var(--light);
+}
+
 h1 span.c{
-  background-color: var(--dusk)!important;
+  background-color: var(--light)!important;
   font-family: var(--font2);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -214,18 +222,6 @@ h1 span.c{
 
 .find-me h1 span.c{
   background-color: var(--dark)!important;
-}
-
-.bio h1{
-  background-color: var(--light);
-}
-
-.projects h1{
-  background-color: var(--dark);
-}
-
-.find-me h1{
-  background-color: var(--light);
 }
 
 nav {
