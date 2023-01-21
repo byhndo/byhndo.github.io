@@ -277,7 +277,7 @@ h1 span.c{
 }
 
 .bio span.subtitle{
-  background-color: inherit;
+  background-color: var(--light);
 }
 
 .projects h1{
@@ -285,7 +285,7 @@ h1 span.c{
 }
 
 .projects span.subtitle{
-  background-color: inherit;
+  background-color: var(--dark);
 }
 
 .find-me h1{
@@ -293,7 +293,7 @@ h1 span.c{
 }
 
 .find-me span.subtitle{
-  background-color: inherit;
+  background-color: var(--dark);
 }
 
 nav {
