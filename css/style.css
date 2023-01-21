@@ -494,8 +494,12 @@ img{
   font-weight:700;
 }
 
+.projects .footer span.fc{
+  color: var(--dusk)!important;
+}
+
 .find-me .footer span.fc{
-  color: var(--dark)!important;
+  color: #fff!important;
 }
 
 @media(min-width:576px){
