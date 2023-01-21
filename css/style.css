@@ -297,13 +297,11 @@ nav a {
   letter-spacing: 1px;
 
 }
-nav .link-bio{
+nav .link-bio, nav .link-find-me{
   color: var(--light);
 }
 nav .link-projects {
-
   color: var(--dark);
-
 }
 
 main {
@@ -321,25 +319,16 @@ main {
 }
 
 .slide-fade-enter-active {
-
   transition: all 1.5s ease;
-
 }
 
 .slide-fade-leave-active {
-
   transition: all 0.5s;
-
 }
 
-.slide-fade-enter,
-
-.slide-fade-leave-to {
-
+.slide-fade-enter, .slide-fade-leave-to {
   transform: translateY(2rem);
-
   opacity: 0;
-
 }
 
 .sub1, .sub2, .sub3 {
@@ -381,37 +370,24 @@ p.sub3 {
 }
 
 p.sub1 {
-
   color: var(--psub1);
-
 }
 
 p.sub2 {
-
   color: var(--psub2);
-
 }
 
 p.sub3 {
-
   color: var(--psub3);
-
 }
 
 .grid {
-
   --auto-grid-min-size: 15rem;
-
   display: grid;
-
   grid-gap: .5rem;
-
   grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
-
   box-sizing: border-box;
-
   margin-bottom:23px;
-
 }
 
 .item {
