@@ -13,7 +13,7 @@
   --psub2: #fef3e9;
   --psub3: #fef3f9;
   --sizefontbase: 13px;
-  --sizetitle: calc(25vw + 1rem);
+  --sizetitle: calc(22vw + 1rem);
   --sizetitle2: 8vw;
   --sizeh3: 350%;
   --fontnav: 'Barlow Condensed', sans-serif;
@@ -206,7 +206,7 @@ h1 {
   -webkit-mask-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#000),color-stop(.5,#000),color-stop(1,#000));
   text-transform: uppercase;
   font-weight: 800;
-  line-height: 1;
+  line-height: .1;
   letter-spacing: -2px;
   position: relative;
   max-width: 90vw;
