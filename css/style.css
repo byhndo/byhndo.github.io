@@ -608,64 +608,42 @@ img{
 }
 
 .find-me .footer span, .find-me .footer span a{
-
   color: var(--dark);
-
 }
 
 .footer span, .footer span a{
-
   text-decoration:none;
-
   transition: all ease-out 1.5s;
-
 }
 
 .footer span.fc{
-
-  color: #fec803!important;
-
+  color: var(--dusk)!important;
   font-family: var(--font1);
-
   font-size: 12px;
-
   font-weight:700;
-
 }
 
-.projects span.fc{
-
-  color: #FF6E31!important;
-
+.find-me .footer span.fc{
+  color: var(--light)!important;
 }
 
 @media(min-width:576px){
-
 h1 {
-
   text-align: center;
-padding-top:150px;
-
+  padding-top:150px;
 }
 
-
 main{
-
   max-width:75vw;
-
   margin: 0 auto;
-
   text-align: center;
-
 }
 
 p.sub1,p.sub2, p.sub3{
-
   text-align: left;
-
 }
+
 .soc{
   margin: 0 auto
 }
-
 }
