@@ -206,7 +206,7 @@ h1 {
   -webkit-mask-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#000),color-stop(.5,#000),color-stop(1,#000));
   text-transform: uppercase;
   font-weight: 800;
-  line-height: .3;
+  line-height: 1;
   letter-spacing: -2px;
   position: relative;
   max-width: 90vw;
@@ -283,7 +283,7 @@ nav a {
 }
 
 nav a .link-projects {
-  color: var(--dark)!important;
+  color: var(--dark);
 }
 
 main {
