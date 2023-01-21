@@ -13,7 +13,7 @@
   --psub2: #fef3e9;
   --psub3: #fef3f9;
   --sizefontbase: 13px;
-  --sizetitle: calc(20vw + 1rem);
+  --sizetitle: calc(25vw + 1rem);
   --sizetitle2: 8vw;
   --sizeh3: 350%;
   --fontnav: 'Barlow Condensed', sans-serif;
@@ -198,8 +198,8 @@ a {
 h1 {
   font-family: var(--font1);
   text-align: center;
-  margin: 0 auto 30px auto;
-  padding: 80px 0 0 0;
+  margin: 0 auto;
+  padding: 80px 0 30px 0;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: background-position 1s, background-color 1s;
