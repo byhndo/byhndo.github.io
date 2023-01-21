@@ -293,7 +293,7 @@ h1 span.c{
 }
 
 .find-me span.subtitle{
-  background-color: var(--dark);
+  background-color: var(--light);
 }
 
 nav {
@@ -608,7 +608,7 @@ img{
 }
 
 .find-me .footer span, .find-me .footer span a{
-  color: var(--dark);
+  color: var(--light);
 }
 
 .footer span, .footer span a{
@@ -624,7 +624,7 @@ img{
 }
 
 .find-me .footer span.fc{
-  color: var(--light)!important;
+  color: var(--dark)!important;
 }
 
 @media(min-width:576px){
