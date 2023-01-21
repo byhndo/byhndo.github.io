@@ -2,7 +2,8 @@
 
 
 :root {
-  --colorbase:#000000;  
+  --colorbase:#000000; 
+  --white: #fff; 
   --dark: #000;
   --light: #fec803;   
   --dusk: #CF1B1B;
@@ -195,7 +196,7 @@ h1 {
 }
 
 .bio h1{
-  background-color: #fff;
+  background-color: var(--white);
 }
 
 .projects h1{
@@ -221,7 +222,7 @@ h1 span.c{
 }
 
 .find-me h1 span.c{
-  background-color: #fff!important;
+  background-color: var(--white)!important;
 }
 
 nav {
@@ -247,14 +248,12 @@ nav ul {
 }
 
 nav li {
-
   flex: 1 0 7.5rem;
-
 }
 
 nav a {
   display: block;
-  color: var(--light);
+  color: var(--white);
   padding: 0.75rem 0 0.5rem;
   text-decoration: none;
   text-transform: uppercase;
@@ -467,7 +466,7 @@ img{
 
 .footer span {
   font-family: var(--font1);
-  color: #fff;
+  color: var(--white);
   font-size: 12px;
   font-weight: 700;
   text-decoration: none;
