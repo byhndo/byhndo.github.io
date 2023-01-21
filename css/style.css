@@ -6,9 +6,6 @@
   --dark: #000;
   --light: #fec803;   
   --dusk: #367E18;
-  --h1sub1: #fec803;  
-  --h1sub2: #000;
-  --h1sub3: #fec803;
   --sub1: #fff;
   --sub2: #000; 
   --sub3: #fec803;  
@@ -220,39 +217,6 @@ h1 {
   max-width: 90vw;
 }
 
-
-h1 span.subtitle{
-
-  font-family: var(--font2);
-
-  -webkit-background-clip: text;
-
-  -webkit-text-fill-color: transparent;
-
-  transition: background-position 1.5s, background-color 1.5s;
-
-  font-size: var(--sizetitle2);
-
-  text-transform:uppercase;
-
-  font-weight:700;
-
-  letter-spacing:2px;
-
-}
-
-.bio h1 span.subtitle{
-  background-color: var(--h1sub1);
-}
-
-.projects h1 span.subtitle{
-  background-color: var(--h1sub2);
-}
-
-.find-me h1 span.subtitle{
-  background-color: var(--h1sub3);
-}
-
 h1 span.c{
   background-color: var(--dusk)!important;
   font-family: var(--font2);
@@ -275,15 +239,7 @@ h1 span.c{
   background-color: var(--light);
 }
 
-.bio span.subtitle{
-  background-color: var(--light);
-}
-
 .projects h1{
-  background-color: var(--dark);
-}
-
-.projects span.subtitle{
   background-color: var(--dark);
 }
 
@@ -291,22 +247,12 @@ h1 span.c{
   background-color: var(--light);
 }
 
-.find-me span.subtitle{
-  background-color: var(--light);
-}
-
 nav {
-
   position: fixed;
-
   top: 0;
-
   left: 0;
-
   right: 0;
-
   z-index: 10;
-
 }
 
 nav ul {
