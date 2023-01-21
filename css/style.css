@@ -273,7 +273,7 @@ h1 span.c{
 }
 
 .bio h1{
-  background-color: var(--light);
+  background-color: #fff;
 }
 
 .bio span.subtitle{
