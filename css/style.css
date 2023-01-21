@@ -267,6 +267,10 @@ nav .link-projects {
   color: var(--dark);
 }
 
+nav .link-find-me{
+  color: var(--light);
+}
+
 main {
   position: relative;
   max-width: 90vw;
