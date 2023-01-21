@@ -281,10 +281,10 @@ nav a {
   letter-spacing: 1px;
 }
 nav a .link-bio, nav a .link-find-me{
-  color: var(--light);
+  color: var(--light)!important;
 }
 nav a .link-projects {
-  color: var(--dark);
+  color: var(--dark)!important;
 }
 
 main {
