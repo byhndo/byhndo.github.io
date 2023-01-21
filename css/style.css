@@ -282,22 +282,16 @@ nav a {
   letter-spacing: 1px;
 }
 
-nav a .link-projects {
+nav .link-projects {
   color: var(--dark);
 }
 
 main {
-
   position: relative;
-
   max-width: 90vw;
-
   padding: 0;
-
   margin: 0 auto;
-
   text-align: left;
-
 }
 
 .slide-fade-enter-active {
