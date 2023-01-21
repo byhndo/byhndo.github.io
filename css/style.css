@@ -44,39 +44,25 @@ h3{
 }
 
 body {
-
   font-family: var(--font3);
-
   color: var(--colorbase);
-
   font-size: var(--sizefontbase);
-
   line-height: 1.5;
-
   flex-wrap: wrap;
   word-wrap: break-word;
-
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
-
 }
 
 a {
-
   color: inherit;
-
 }
 
 .bg {
-
   background: inherit;
-
   min-height: 100vh;
-
   padding: 30px 0 20px 0;
-
   transition: background 0s 1s, color 0.6s;
-
 }
 
 .projects {
