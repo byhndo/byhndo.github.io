@@ -272,6 +272,7 @@ nav li {
 
 nav a {
   display: block;
+  color: var(--light);
   padding: 0.75rem 0 0.5rem;
   text-decoration: none;
   text-transform: uppercase;
@@ -280,9 +281,7 @@ nav a {
   font-weight: 600; 
   letter-spacing: 1px;
 }
-nav a .link-bio, nav a .link-find-me{
-  color: var(--light)!important;
-}
+
 nav a .link-projects {
   color: var(--dark)!important;
 }
