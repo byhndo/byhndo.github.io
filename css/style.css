@@ -13,7 +13,7 @@
   --psub2: #fef3e9;
   --psub3: #fef3f9;
   --sizefontbase: 13px;
-  --sizetitle: calc(30vw + 1rem);
+  --sizetitle: calc(20vw + 1rem);
   --sizetitle2: 8vw;
   --sizeh3: 350%;
   --fontnav: 'Barlow Condensed', sans-serif;
@@ -23,14 +23,8 @@
   --radius: 1rem;
 }
 
-*,
-
-*:before,
-
-*:after {
-
+*, *:before, *:after {
   box-sizing: border-box;
-
 }
 
 h1, h2, h3, h4, h5, h6, h7{
@@ -297,10 +291,10 @@ nav a {
   letter-spacing: 1px;
 
 }
-nav .link-bio, nav .link-find-me{
+nav a .link-bio, nav a .link-find-me{
   color: var(--light);
 }
-nav .link-projects {
+nav a .link-projects {
   color: var(--dark);
 }
 
