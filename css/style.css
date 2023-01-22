@@ -19,6 +19,12 @@
   --psub1: #fff;
   --psub2: #fef3e9;
   --psub3: #fef3f9;
+  --f1: #fff;
+  --f2: #000;
+  --f3: #fec803;
+  --c1: #FF6F41;
+  --c2: #FF6F41;
+  --c3: #FF6F41;
   --sizefontbase: 12px;
   --sizetitle: calc(40vw + 1rem);
   --sizetitle2: 8vw;
@@ -388,7 +394,7 @@ img{
 
 .footer span {
   font-family: var(--font1);
-  color: var(--dusk);
+  color: var(--f1);
   font-size: 12px;
   font-weight: 700;
   text-decoration: none;
@@ -396,11 +402,11 @@ img{
 }
 
 .projects .footer span, .projects .footer span a{
-  color: var(--dark);
+  color: var(--f2);
 }
 
 .find-me .footer span, .find-me .footer span a{
-  color: var(--light);
+  color: var(--f3);
 }
 
 .footer span, .footer span a{
@@ -409,18 +415,18 @@ img{
 }
 
 .footer span.fc{
-  color: var(--light)!important;
+  color: var(--c1)!important;
   font-family: var(--font1);
   font-size: 12px;
   font-weight:700;
 }
 
 .projects .footer span.fc{
-  color: var(--dusk)!important;
+  color: var(--c2)!important;
 }
 
 .find-me .footer span.fc{
-  color: var(--light)!important;
+  color: var(--c3)!important;
 }
 
 @media(min-width:576px){
