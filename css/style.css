@@ -6,7 +6,6 @@
   --white: #fff; 
   --dark: #000;
   --light: #fec803;   
-//  --dusk: #CF1B1B;
   --dusk: #008246;
   --sub1: #fff;
   --sub2: #000; 
@@ -269,7 +268,7 @@ nav .link-projects {
 }
 
 nav .link-find-me{
-  color: var(--light);
+  color: var(--white);
 }
 
 main {
