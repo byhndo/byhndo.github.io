@@ -7,7 +7,7 @@
   --dark: #000;
   --light: #fec803;   
   --dusk: #008246; 
-  --titlecolor1: #008246;
+  --titlecolor1: #fec803;
   --titlecolor2: #000;
   --titlecolor3: #fec803;
   --sub1: #fff;
@@ -164,7 +164,7 @@ h1 {
 }
 
 h1 span.c{
-  background-color: var(--light)!important;
+  background-color: var(--dusk)!important;
   font-family: var(--font2);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
