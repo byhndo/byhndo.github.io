@@ -311,7 +311,6 @@ main {
 span.prolog{
   font-size:120%;
   font-weight:600;
-  text-transform: uppercase;
 }
 
 p.sub1, p.sub2, p.sub3 {
@@ -396,70 +395,42 @@ img{
 }
 
 .soc a {
-
   display: block;
-
   padding:1.7px 5px 1.7px 4.9px;
-
   color: var(--light);
-
   text-decoration: none;
-
   text-transform: uppercase;
-
   font-size: 15px;
-
   font-family: var(--fontnav);
-
   transition: all ease-out 1.6s;
-
   border:1px solid var(--light);
-
   border-radius:50%;
-
   width: 28px;
-
   height: 28px;
-
   opacity:.6;
-
 }
 
 .soc a:hover, .soc a:active{
-
   opacity: 1;
-
 }
 
 .projects .soc a {
-
-  color: var(--dusk);
-  
+  color: var(--dusk); 
   border-color: var(--dusk);
-
 }
 
 .find-me .soc a {
-
   color: var(--light);
-
   border-color: var(--light);
-
 }
 
 .footer {
-
   position:relative;
-
   bottom: 0;
-
   left: 0;
-
   right: 0;
-
   margin: 20px 0 0 0;
   text-align: center;
-
 }
 
 .footer span {
