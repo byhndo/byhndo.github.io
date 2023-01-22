@@ -3,10 +3,13 @@
 
 :root {
   --colorbase:#000000; 
-  --white: #fff; 
+  --white: #fff;
   --dark: #000;
   --light: #fec803;   
-  --dusk: #008246;
+  --dusk: #008246; 
+  --titlecolor1: #008246;
+  --titlecolor2: #000;
+  --titlecolor3: #fec803;
   --sub1: #fff;
   --sub2: #000; 
   --sub3: #fec803;  
@@ -67,115 +70,68 @@ a {
 }
 
 .projects {
-
   color: var(--dark);
-
 }
 
 .bio, .link-bio {
-
   background: var(--dark);
-
 }
 
 .projects,
-
 .link-projects {
-
   background: var(--light);
-
 }
 
-.find-me,
-
-.link-find-me {
-
+.find-me, .link-find-me {
   background: var(--dusk);
-
 }
 
 .transition {
-
   width: 1rem;
-
   height: 1rem;
-
   top: 0;
-
   display: block;
-
   position: absolute;
-
   opacity: 0;
-
   transition: transform 0.6s ease-in-out;
-
   width: 100%;
-
   height: 100vh;
-
   transform: scale(0);
-
   transform-origin: 0 0;
-
 }
 
 .transition-bio {
-
   left: 0;
-
   background: var(--dark);
-
   transform-origin: 0 0;
-
 }
 
 .transition-projects {
-
   left: 0;
-
   background: var(--light);
-
   transform-origin: 50% 0;
-
 }
 
 .transition-find-me {
-
   left: 0;
-
   background: var(--dusk);
-
   transform-origin: 100% 0;
-
 }
 
-.bio .transition-bio,
-
-.projects .transition-projects,
-
-.find-me .transition-find-me {
-
+.bio .transition-bio, .projects .transition-projects, .find-me .transition-find-me {
   opacity: 1;
-
 }
 
 .bio .transition-bio {
-
   transform: scale(1) translateX(0) translateY(0);
-
 }
 
 .projects .transition-projects {
-
   transform: scale(1) translateX(0) translateY(0);
-
 }
 
 .find-me .transition-find-me {
-
   transform: scale(1) translateX(0) translateY(0);
-
 }
 
 h1 {
@@ -196,15 +152,15 @@ h1 {
 }
 
 .bio h1{
-  background-color: var(--white);
+  background-color: var(--titlecolor1);
 }
 
 .projects h1{
-  background-color: var(--dark);
+  background-color: var(--titlecolor2);
 }
 
 .find-me h1{
-  background-color: var(--light);
+  background-color: var(--titlecolor3);
 }
 
 h1 span.c{
@@ -222,7 +178,7 @@ h1 span.c{
 }
 
 .find-me h1 span.c{
-  background-color: var(--white)!important;
+  background-color: var(--light)!important;
 }
 
 nav {
