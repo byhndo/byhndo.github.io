@@ -28,13 +28,13 @@
   --c1: #FF6F41;
   --c2: #FF6F41;
   --c3: #FF6F41;
-  --sizefontbase: 12px;
+  --sizefontbase: 13px;
   --sizetitle: calc(40vw + 1rem);
   --sizetitle2: 8vw;
   --sizeh3: 350%;
   --fontnav: 'Barlow Condensed', sans-serif;
   --font1: 'Barlow Condensed', sans-serif;
-  --font2: 'Figtree', sans-serif;
+  --font2: 'Barlow Condensed', sans-serif;
   --font3: 'Figtree', sans-serif;
   --radius: 1rem;
 }
