@@ -20,7 +20,7 @@
   --psub1: #222;
   --psub2: #fef3e9;
   --psub3: #fef3f9;
-  --f1: #222;
+  --f1: #555;
   --f2: #000;
   --f3: #fec803;
   --c1: #fe911b;
@@ -184,7 +184,7 @@ h1 span.c{
 }
 
 .projects h1 span.c{
-  background-color: var(--orange)!important;
+  background-color: var(--dusk)!important;
 }
 
 .find-me h1 span.c{
