@@ -9,17 +9,17 @@
   --dusk: #008246;
   --n1: #111;
   --n2: #111;
-  --n3: #fff; 
+  --n3: #111; 
   --titlecolor1: #111;
   --titlecolor2: #111;
   --titlecolor3: #fec803;
   --circle1: #FF6F41;
   --circle2: #FF6F41;
   --circle3: #FF6F41;
-  --sub1: #000;
-  --sub2: #000; 
+  --sub1: #111;
+  --sub2: #111; 
   --sub3: #fec803;  
-  --psub1: #000;
+  --psub1: #111;
   --psub2: #fef3e9;
   --psub3: #fef3f9;
   --f1: #fff;
@@ -35,7 +35,7 @@
   --fontnav: 'Barlow Condensed', sans-serif;
   --font1: 'Barlow Condensed', sans-serif;
   --font2: 'Barlow Condensed', sans-serif;
-  --font3: 'Figtree', sans-serif;
+  --font3: 'Montserrat', sans-serif;
   --radius: 1rem;
 }
 
