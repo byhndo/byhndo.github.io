@@ -4,10 +4,10 @@
 :root {
   --colorbase:#000000; 
   --white: #fff;
-  --dark: #000;
+  --dark: #fef3e9;
   --light: #fec803;  
   --dusk: #008246; 
-  --titlecolor1: #fef3e9;
+  --titlecolor1: #333;
   --titlecolor2: #000;
   --titlecolor3: #fec803;
   --circle1: #FF6F41;
