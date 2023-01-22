@@ -149,6 +149,7 @@ h1 {
   letter-spacing: -2px;
   position: relative;
   max-width: 90vw;
+  -webkit-text-stroke: 1px var(--dusk);
 }
 
 .bio h1{
@@ -190,17 +191,11 @@ nav {
 }
 
 nav ul {
-
   list-style: none;
-
   display: flex;
-
   text-align: center;
-
   margin: 0;
-
   padding: 0;
-
 }
 
 nav li {
