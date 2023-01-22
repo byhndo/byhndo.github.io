@@ -380,8 +380,8 @@ img{
 }
 
 .find-me .soc a {
-  color: var(--light);
-  border-color: var(--light);
+  color: var(--orange);
+  border-color: var(--orange);
 }
 
 .footer {
