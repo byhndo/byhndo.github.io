@@ -6,9 +6,12 @@
   --white: #fff;
   --dark: #fef3e9;
   --light: #fec803;  
-  --dusk: #008246; 
-  --titlecolor1: #000;
-  --titlecolor2: #000;
+  --dusk: #008246;
+  --n1: #111;
+  --n2: #111;
+  --n3: #fff; 
+  --titlecolor1: #111;
+  --titlecolor2: #111;
   --titlecolor3: #fec803;
   --circle1: #FF6F41;
   --circle2: #FF6F41;
@@ -212,7 +215,7 @@ nav li {
 
 nav a {
   display: block;
-  color: var(--white);
+  color: var(--n1);
   padding: 0.75rem 0 0.5rem;
   text-decoration: none;
   text-transform: uppercase;
@@ -223,11 +226,11 @@ nav a {
 }
 
 nav .link-projects {
-  color: var(--dark);
+  color: var(--n2);
 }
 
 nav .link-find-me{
-  color: var(--white);
+  color: var(--n3);
 }
 
 main {
