@@ -397,9 +397,10 @@ img{
   font-family: var(--font1);
   color: var(--f1);
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 600;
   text-decoration: none;
   text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .projects .footer span, .projects .footer span a{
