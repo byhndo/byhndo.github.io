@@ -7,9 +7,12 @@
   --dark: #000;
   --light: #fec803;   
   --dusk: #008246; 
-  --titlecolor1: #fec803;
+  --titlecolor1: #fff;
   --titlecolor2: #000;
   --titlecolor3: #fec803;
+  --circle1: #FF6F41;
+  --circle2: #FF6F41;
+  --circle3: #FF6F41;
   --sub1: #fff;
   --sub2: #000; 
   --sub3: #fec803;  
@@ -164,7 +167,7 @@ h1 {
 }
 
 h1 span.c{
-  background-color: #FEAA2B!important;
+  background-color: var(--circle1)!important;
   font-family: var(--font2);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -174,11 +177,11 @@ h1 span.c{
 }
 
 .projects h1 span.c{
-  background-color: #E7272D!important;
+  background-color: var(--circle2)!important;
 }
 
 .find-me h1 span.c{
-  background-color: var(--light)!important;
+  background-color: var(--circle3)!important;
 }
 
 nav {
