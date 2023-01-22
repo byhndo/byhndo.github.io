@@ -4,20 +4,20 @@
 :root {
   --colorbase:#000000; 
   --white: #fff;
-  --dark: #fec803;
-  --light: #222;  
-  --dusk: #008246;
-  --n1: #222;
+  --bg1: #fec803;
+  --bg2: #2d343c;  
+  --bg3: #008246;
+  --n1: #2d343c;
   --n2: #fef3e9;
   --n3: #fef3e9; 
   --titlecolor1: #111;
   --titlecolor2: #fef3e9;
   --titlecolor3: #fec803;
   --orange: #fe911b;
-  --sub1: #222;
+  --sub1: #2d343c;
   --sub2: #fef3e9; 
   --sub3: #fec803;  
-  --psub1: #222;
+  --psub1: #2d343c;
   --psub2: #fef3e9;
   --psub3: #fef3f9;
   --f1: rgba(0, 0, 0, .4);
@@ -80,20 +80,20 @@ a {
 }
 
 .projects {
-  color: var(--dark);
+  color: var(--bg1);
 }
 
 .bio, .link-bio {
-  background: var(--dark);
+  background: var(--bg1);
 }
 
 .projects,
 .link-projects {
-  background: var(--light);
+  background: var(--bg2);
 }
 
 .find-me, .link-find-me {
-  background: var(--dusk);
+  background: var(--bg3);
 }
 
 .transition {
@@ -112,19 +112,19 @@ a {
 
 .transition-bio {
   left: 0;
-  background: var(--dark);
+  background: var(--bg1);
   transform-origin: 0 0;
 }
 
 .transition-projects {
   left: 0;
-  background: var(--light);
+  background: var(--bg2);
   transform-origin: 50% 0;
 }
 
 .transition-find-me {
   left: 0;
-  background: var(--dusk);
+  background: var(--bg3);
   transform-origin: 100% 0;
 }
 
@@ -174,7 +174,7 @@ h1 {
 }
 
 h1 span.c{
-  background-color: var(--dusk)!important;
+  background-color: var(--bg3)!important;
   font-family: var(--font2);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -357,7 +357,7 @@ img{
 .soc a {
   display: block;
   padding:1.7px 5px 1.7px 4.9px;
-  color: var(--dusk);
+  color: var(--bg3);
   text-decoration: none;
   text-transform: uppercase;
   font-size: 15px;
