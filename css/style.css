@@ -4,7 +4,7 @@
 :root {
   --colorbase:#000000; 
   --white: #fff;
-  --dark: #fef3e9;
+  --dark: #323232;
   --light: #fec803;  
   --dusk: #008246;
   --n1: #222;
@@ -14,10 +14,10 @@
   --titlecolor2: #222;
   --titlecolor3: #fec803;
   --orange: #fe911b;
-  --sub1: #222;
+  --sub1: #fef3e9;
   --sub2: #222; 
   --sub3: #fec803;  
-  --psub1: #222;
+  --psub1: #fef3e9;
   --psub2: #fef3e9;
   --psub3: #fef3f9;
   --f1: #555;
