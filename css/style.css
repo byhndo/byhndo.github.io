@@ -149,7 +149,6 @@ h1 {
   letter-spacing: -2px;
   position: relative;
   max-width: 90vw;
-  -webkit-text-stroke: 1px var(--dusk);
 }
 
 .bio h1{
