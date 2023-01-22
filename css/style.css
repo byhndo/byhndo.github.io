@@ -14,8 +14,8 @@
   --titlecolor2: #fef3e9;
   --titlecolor3: #fec803;
   --orange: #fe911b;
-  --sub1: #fef3e9;
-  --sub2: #2f2f2f; 
+  --sub1: #2f2f2f;
+  --sub2: #fef3e9; 
   --sub3: #fec803;  
   --psub1: #fef3e9;
   --psub2: #fef3e9;
@@ -363,7 +363,7 @@ img{
   font-size: 15px;
   font-family: var(--fontnav);
   transition: all ease-out 1.6s;
-  border:1px solid var(--orange);
+  border:1px solid var(--dusk);
   border-radius:50%;
   width: 28px;
   height: 28px;
@@ -376,7 +376,7 @@ img{
 
 .projects .soc a {
   color: var(--orange); 
-  border-color: var(--dusk);
+  border-color: var(--orange);
 }
 
 .find-me .soc a {
