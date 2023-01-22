@@ -391,7 +391,7 @@ img{
 
 .footer span {
   font-family: var(--font1);
-  color: var(--white);
+  color: var(--dusk);
   font-size: 12px;
   font-weight: 700;
   text-decoration: none;
@@ -423,7 +423,7 @@ img{
 }
 
 .find-me .footer span.fc{
-  color: #fff!important;
+  color: var(--light)!important;
 }
 
 @media(min-width:576px){
