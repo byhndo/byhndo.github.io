@@ -4,14 +4,14 @@
 :root {
   --colorbase:#000000; 
   --white: #fff;
-  --dark: #2f2f2f;
-  --light: #fec803;  
+  --dark: #fec803;
+  --light: #1f1f1f;  
   --dusk: #008246;
   --n1: #fef3e9;
   --n2: #2f2f2f;
   --n3: #fef3e9; 
-  --titlecolor1: #fef3e9;
-  --titlecolor2: #2f2f2f;
+  --titlecolor1: #1f1f1f;
+  --titlecolor2: #fef3e9;
   --titlecolor3: #fec803;
   --orange: #fe911b;
   --sub1: #fef3e9;
@@ -174,7 +174,7 @@ h1 {
 }
 
 h1 span.c{
-  background-color: var(--orange)!important;
+  background-color: var(--dusk)!important;
   font-family: var(--font2);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -184,7 +184,7 @@ h1 span.c{
 }
 
 .projects h1 span.c{
-  background-color: var(--dusk)!important;
+  background-color: var(--orange)!important;
 }
 
 .find-me h1 span.c{
@@ -357,7 +357,7 @@ img{
 .soc a {
   display: block;
   padding:1.7px 5px 1.7px 4.9px;
-  color: var(--orange);
+  color: var(--dusk);
   text-decoration: none;
   text-transform: uppercase;
   font-size: 15px;
@@ -375,7 +375,7 @@ img{
 }
 
 .projects .soc a {
-  color: var(--dusk); 
+  color: var(--orange); 
   border-color: var(--dusk);
 }
 
