@@ -157,19 +157,6 @@ h1 {
   max-width: 90vw;
 }
 
-h1:before{
-  content:"Handono";
-  position: absolute;
-  display: block;
-  right:100%;
-  writing-mode: vertical-lr;
-  text-orientation: upright;
-  color: red;
-  font-size: 30px;
-  letter-spacing: 2px;
-  z-index: 999999999;
-}
-
 .bio h1{
   background-color: var(--titlecolor1);
 }
