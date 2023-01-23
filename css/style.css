@@ -317,6 +317,7 @@ img{
   object-fit: cover; 
   filter: grayscale();
   border-radius: var(--radius);
+  background-attachment: fixed;
 }
 
 [data-aos=blur] {
