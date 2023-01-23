@@ -272,7 +272,7 @@ main {
 }
 
 span.prolog, p.sub1, p.sub2, p.sub3{
-  letter-spacing: 1px;
+  letter-spacing: .7px;
 }
 
 span.prolog{
