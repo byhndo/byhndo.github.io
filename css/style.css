@@ -421,7 +421,7 @@ img{
   color: var(--c1)!important;
   font-family: var(--font1);
   font-size: 12px;
-  font-weight:400;
+  font-weight:300;
 }
 
 .projects .footer span.fc{
