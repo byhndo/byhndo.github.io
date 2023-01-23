@@ -184,11 +184,11 @@ h1 span.c{
 }
 
 .projects h1 span.c{
-  background-color: var(--orange)!important;
+  background-color: var(--blue)!important;
 }
 
 .find-me h1 span.c{
-  background-color: var(--orange)!important;
+  background-color: var(--blue)!important;
 }
 
 nav {
@@ -270,7 +270,7 @@ main {
 
 span.prolog{
   font-size:120%;
-  font-weight:600;
+  font-weight:500;
 }
 
 p.sub1, p.sub2, p.sub3 {
