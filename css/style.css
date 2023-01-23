@@ -159,6 +159,11 @@ h1 {
 
 h1::after{
   content:"Handono";
+  position: relative;
+  top:0;
+  right:100%;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
 }
 
 .bio h1{
