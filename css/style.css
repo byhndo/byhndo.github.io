@@ -4,15 +4,13 @@
 :root {
   --colorbase:#000000; 
   --white: #fff;
-//  --bg1: #fec803;
---bg1: #f7f3ef;
+  --bg1: #fec803;
   --bg2: #2d343c;  
   --bg3: #f7f3ef;
   --n1: #2d343c;
   --n2: #fef3e9;
   --n3: #fef3e9; 
-//  --titlecolor1: #2d343c;
---titlecolor1: #de2527;
+  --titlecolor1: #2d343c;
   --titlecolor2: #fef3e9;
   --titlecolor3: #fec803;
   --orange: #fe911b;
