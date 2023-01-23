@@ -6,26 +6,23 @@
   --white: #fff;
   --blue: #8DCBE6;
   --bg1: #eaeaea;
-  --bg2: rgba(0, 0, 0, .6);  
+  --bg2: #373737;  
   --bg3: #afb5b5;
-  --n1: rgba(0, 0, 0, .6);
+  --n1: rgba(0, 0, 0, .7);
   --n2: #eaeaea;
-  --n3: rgba(0, 0, 0, .6);
-  --titlecolor1: rgba(0, 0, 0, .6);
+  --n3: rgba(0, 0, 0, .7);
+  --titlecolor1: rgba(0, 0, 0, .7);
   --titlecolor2: #eaeaea;
-  --titlecolor3: rgba(0, 0, 0, .6);
-  --sub1: rgba(0, 0, 0, .6);
+  --titlecolor3: rgba(0, 0, 0, .7);
+  --sub1: rgba(0, 0, 0, .7);
   --sub2: #eaeaea; 
-  --sub3: rgba(0, 0, 0, .6);  
-  --psub1: rgba(0, 0, 0, .6);
+  --sub3: rgba(0, 0, 0, .7);  
+  --psub1: rgba(0, 0, 0, .7);
   --psub2: #fef3e9;
   --psub3: #fef3f9;
   --f1: rgba(0, 0, 0, .4);
   --f2: rgba(255, 255, 255, .4);
   --f3: rgba(0, 0, 0, .4);
-  --c1: #008246;
-  --c2: #fe911b;
-  --c3: #fe911b;
   --sizefontbase: 13px;
   --sizetitle: calc(38vw + 1rem);
   --sizetitle2: 8vw;
@@ -422,18 +419,18 @@ img{
 }
 
 .footer span.fc{
-  color: var(--c1)!important;
+  color: var(--blue)!important;
   font-family: var(--font1);
   font-size: 12px;
   font-weight:300;
 }
 
 .projects .footer span.fc{
-  color: var(--c2)!important;
+  color: var(--blue)!important;
 }
 
 .find-me .footer span.fc{
-  color: var(--c3)!important;
+  color: var(--blue)!important;
 }
 
 @media(min-width:576px){
