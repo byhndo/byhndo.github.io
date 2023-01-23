@@ -4,11 +4,9 @@
 :root {
   --colorbase:#000000; 
   --white: #fff;
-//  --bg1: #fec803;
- --bg1: #eaeaea;
+  --bg1: #eaeaea;
   --bg2: #2d343c;  
-//  --bg3: #008246;
---bg3: #ffffff;
+  --bg3: #afb5b5;
   --n1: #2d343c;
   --n2: #fef3e9;
   --n3: #fef3e9; 
