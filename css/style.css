@@ -164,6 +164,9 @@ h1::after{
   right:100%;
   writing-mode: vertical-lr;
   text-orientation: upright;
+  color: rgba(0,0,0, .5);
+  font-size: 30px;
+  letter-spacing: 2px;
 }
 
 .bio h1{
