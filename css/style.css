@@ -157,9 +157,10 @@ h1 {
   max-width: 90vw;
 }
 
-h1::after{
+h1:after{
   content:"Handono";
   position: absolute;
+  display: block;
   top:0;
   right:100%;
   writing-mode: vertical-lr;
