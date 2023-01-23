@@ -378,8 +378,8 @@ img{
 
 .soc a:hover, .soc a:active{
   opacity: 1;
-  color: var(--bg2); 
-  border-color: var(--bg2);
+  color: var(--bg3); 
+  border-color: var(--bg3);
 }
 
 .projects .soc a{
@@ -390,6 +390,11 @@ img{
 .projects .soc a:hover, .projects .soc a:active{
   color: var(--bg1); 
   border-color: var(--bg1);
+}
+
+.find-me .soc a{
+  color: var(--bg2); 
+  border-color: var(--bg2);
 }
 
 .find-me .soc a:hover, .find-me .soc a:active{
