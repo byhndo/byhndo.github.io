@@ -419,7 +419,7 @@ img{
   font-family: var(--font1);
   color: var(--f1);
   font-size: 12px;
-  font-weight: 400;
+  font-weight: 300;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -442,7 +442,7 @@ img{
   color: var(--blue)!important;
   font-family: var(--font1);
   font-size: 12px;
-  font-weight:400;
+  font-weight:300;
 }
 
 .projects .footer span.fc{
