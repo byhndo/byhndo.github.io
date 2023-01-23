@@ -363,7 +363,7 @@ img{
 .soc a {
   display: block;
   padding:1.7px 5px 1.7px 4.9px;
-  color: var(--bg2);
+  color: var(--bg3);
   text-decoration: none;
   text-transform: uppercase;
   font-size: 15px;
@@ -378,8 +378,8 @@ img{
 
 .soc a:hover, .soc a:active{
   opacity: 1;
-  color: var(--bg3); 
-  border-color: var(--bg3);
+  color: var(--bg2); 
+  border-color: var(--bg2);
 }
 
 .projects .soc a{
