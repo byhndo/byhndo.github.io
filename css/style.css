@@ -4,6 +4,7 @@
 :root {
   --black:#000000; 
   --white: #fff;
+  --blue: #8DCBE6;
   --bg1: #eaeaea;
   --bg2: #373737;  
   --bg3: #afb5b5;
@@ -12,11 +13,10 @@
   --n3: #373737; 
   --titlecolor1: #373737;
   --titlecolor2: #eaeaea;
-  --titlecolor3: rgba(0, 0, 0, .5);
-  --blue: #8DCBE6;
+  --titlecolor3: rgba(0, 0, 0, .6);
   --sub1: #373737;
   --sub2: #eaeaea; 
-  --sub3: #fec803;  
+  --sub3: rgba(0, 0, 0, .6);  
   --psub1: #373737;
   --psub2: #fef3e9;
   --psub3: #fef3f9;
@@ -174,7 +174,7 @@ h1 {
 }
 
 h1 span.c{
-  background-color: var(--bg3)!important;
+  background-color: var(--blue)!important;
   font-family: var(--font2);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -188,7 +188,7 @@ h1 span.c{
 }
 
 .find-me h1 span.c{
-  background-color: var(--blue)!important;
+  background-color: var(--bg1)!important;
 }
 
 nav {
