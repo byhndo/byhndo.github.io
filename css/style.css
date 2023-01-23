@@ -188,7 +188,7 @@ h1 span.c{
 }
 
 .find-me h1 span.c{
-  background-color: var(--bg1)!important;
+  background-color: var(--blue)!important;
 }
 
 nav {
