@@ -30,7 +30,7 @@
   --font1: 'Barlow Condensed', sans-serif;
   --font2: 'Barlow Condensed', sans-serif;
   --font3: 'Figtree', sans-serif;
-  --radius: 1rem;
+  --radius: 1px;
 }
 
 *, *:before, *:after {
@@ -302,7 +302,7 @@ p.sub3 {
 }
 
 .grid {
-  --auto-grid-min-size: 15rem;
+  --auto-grid-min-size: 10rem;
   display: grid;
   grid-gap: .5rem;
   grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
