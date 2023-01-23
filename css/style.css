@@ -280,13 +280,13 @@ span.prolog, p.sub1, p.sub2, p.sub3{
 
 span.prolog{
   font-size:120%;
-  font-weight:500;
+  font-weight:400;
 }
 
 p.sub1, p.sub2, p.sub3 {
   font-family: var(--font3);
   font-size: var(--sizefontbase);
-  font-weight: 400;
+  font-weight: 300;
   text-transform:none;
   text-align: left;
   margin-top: 23px;
