@@ -159,7 +159,7 @@ h1 {
 
 h1::after{
   content:"Handono";
-  position: relative;
+  position: absolute;
   top:0;
   right:100%;
   writing-mode: vertical-lr;
