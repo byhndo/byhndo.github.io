@@ -166,7 +166,7 @@ h1:before{
   color: red;
   font-size: 30px;
   letter-spacing: 2px;
-  z-index: 999;
+  z-index: 999999999;
 }
 
 .bio h1{
