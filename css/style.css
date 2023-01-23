@@ -6,11 +6,13 @@
   --white: #fff;
   --bg1: #fec803;
   --bg2: #2d343c;  
-  --bg3: #008246;
+ // --bg3: #f7f3ef;
+--bg3: #de2527;
   --n1: #2d343c;
   --n2: #fef3e9;
   --n3: #fef3e9; 
-  --titlecolor1: #2d343c;
+//  --titlecolor1: #2d343c;
+tilecolor1: #de2527;
   --titlecolor2: #fef3e9;
   --titlecolor3: #fec803;
   --orange: #fe911b;
