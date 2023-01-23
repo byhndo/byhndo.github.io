@@ -4,20 +4,22 @@
 :root {
   --colorbase:#000000; 
   --white: #fff;
-  --bg1: #fec803;
+//  --bg1: #fec803;
+ --bg1: #eaeaea;
   --bg2: #2d343c;  
-  --bg3: #008246;
+//  --bg3: #008246;
+--bg3: #ffffff;
   --n1: #2d343c;
   --n2: #fef3e9;
   --n3: #fef3e9; 
-  --titlecolor1: #2d343c;
+  --titlecolor1: #373737;
   --titlecolor2: #fef3e9;
   --titlecolor3: #fec803;
   --orange: #fe911b;
   --sub1: #2d343c;
   --sub2: #fef3e9; 
   --sub3: #fec803;  
-  --psub1: #2d343c;
+  --psub1: #373737;
   --psub2: #fef3e9;
   --psub3: #fef3f9;
   --f1: rgba(0, 0, 0, .4);
