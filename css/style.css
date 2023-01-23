@@ -180,14 +180,6 @@ h1 span.c{
   font-weight:700;
 }
 
-.projects h1 span.c{
-  background-color: var(--blue)!important;
-}
-
-.find-me h1 span.c{
-  background-color: var(--blue)!important;
-}
-
 nav {
   position: fixed;
   top: 0;
@@ -375,16 +367,8 @@ img{
 
 .soc a:hover, .soc a:active{
   opacity: 1;
-}
-
-.projects .soc a {
-  color: var(--bg3); 
-  border-color: var(--bg3);
-}
-
-.find-me .soc a {
-  color: var(--bg1);
-  border-color: var(--bg1);
+  color: var(--blue); 
+  border-color: var(--blue);
 }
 
 .footer {
