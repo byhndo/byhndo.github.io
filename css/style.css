@@ -2,7 +2,7 @@
 
 
 :root {
-  --colorbase:#000000; 
+  --black:#000000; 
   --white: #fff;
   --bg1: #eaeaea;
   --bg2: #373737;  
@@ -59,7 +59,7 @@ h3{
 
 body {
   font-family: var(--font3);
-  color: var(--colorbase);
+  color: var(--black);
   font-size: var(--sizefontbase);
   line-height: 1.5;
   flex-wrap: wrap;
