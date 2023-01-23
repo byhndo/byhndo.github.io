@@ -162,10 +162,10 @@ h1:after{
   position: absolute;
   display: block;
   top:0;
-  left:100%;
+  right:0;
   writing-mode: vertical-lr;
   text-orientation: upright;
-  color: rgba(0,0,0, .5);
+  color: red;
   font-size: 30px;
   letter-spacing: 2px;
 }
