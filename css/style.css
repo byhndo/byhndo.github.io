@@ -364,7 +364,7 @@ img{
 .soc a {
   display: block;
   padding:1.7px 5px 1.7px 4.9px;
-  color: var(--bg3);
+  color: var(--bg2);
   text-decoration: none;
   text-transform: uppercase;
   font-size: 15px;
@@ -394,8 +394,8 @@ img{
 }
 
 .find-me .soc a{
-  color: var(--bg2); 
-  border-color: var(--bg2);
+  color: var(--bg1); 
+  border-color: var(--bg1);
 }
 
 .find-me .soc a:hover, .find-me .soc a:active{
