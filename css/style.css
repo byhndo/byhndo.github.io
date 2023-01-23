@@ -162,7 +162,8 @@ h1:before{
   position: absolute;
   display: block;
   right:100%;
-  
+  writing-mode: vertical-lr;
+  text-orientation: upright;
   color: red;
   font-size: 30px;
   letter-spacing: 2px;
@@ -189,6 +190,20 @@ h1 span.c{
   transition: background-position 2s, background-color 2s;
   font-size: var(--sizetitle);
   font-weight:700;
+}
+
+h1 span.c:before{
+  content:"Handono";
+  position: absolute;
+  display: block;
+  top: 0;
+  right:100%;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  color: red;
+  font-size: 30px;
+  letter-spacing: 2px;
+  z-index: 999999999;
 }
 
 nav {
