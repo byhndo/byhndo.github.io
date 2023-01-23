@@ -364,7 +364,7 @@ img{
   font-size: 15px;
   font-family: var(--fontnav);
   transition: all ease-out 1.6s;
-  border:1px solid var(--bg3);
+  border:1px solid var(--bg2);
   border-radius:50%;
   width: 28px;
   height: 28px;
