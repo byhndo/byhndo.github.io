@@ -1,11 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-
-
-
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-
 
 
 :root {
@@ -39,6 +32,7 @@
   --font1: 'Barlow Condensed', sans-serif;
   --font2: 'Barlow Condensed', sans-serif;
   --font3: 'Figtree', sans-serif;
+  --font4: 'Anonymous Pro', sans-serif;
   --radius: 5px;
 }
 
@@ -279,7 +273,8 @@ span.prolog, p.sub1, p.sub2, p.sub3{
 span.prolog{
   font-size:120%;
   font-weight:400;
-  font-family: 'Anonymous Pro';
+  font-family: var(--font4);
+  letter-spacing: .5px;
 }
 
 p.sub1, p.sub2, p.sub3 {
