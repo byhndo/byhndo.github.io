@@ -24,7 +24,7 @@
   --f1: rgba(0, 0, 0, .4);
   --f2: rgba(255, 255, 255, .4);
   --f3: rgba(0, 0, 0, .4);
-  --sizefontbase: 12px;
+  --sizefontbase: 13px;
   --sizetitle: calc(38vw + 1rem);
   --sizetitle2: 8vw;
   --sizeh3: 350%;
@@ -220,9 +220,10 @@ nav a {
   padding: 0.75rem 0 0.5rem;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 0.8rem;
+  font-size: 11px;
   font-family: var(--fontnav);
   font-weight: 300; 
+  letter-spacing: -1px;
 }
 
 nav .link-projects {
@@ -408,13 +409,13 @@ img{
 }
 
 .footer span {
-  font-family: var(--font1);
+  font-family: var(--fontnav);
   color: var(--f1);
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 300;
   text-decoration: none;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: -1px;
 }
 
 .projects .footer span, .projects .footer span a{
