@@ -12,12 +12,12 @@
   --n3: rgba(0, 0, 0, .7);
   --titlecolor1: rgba(0, 0, 0, .7);
   --titlecolor2: #eaeaea;
-  --titlecolor3: #E1D7C6;
+  --titlecolor3: #BFEAF5;
   --c2: #FFDD93;
   --c3:  #FFBB91;
   --sub1: rgba(0, 0, 0, .7);
   --sub2: #eaeaea; 
-  --sub3: #E1D7C6;  
+  --sub3: #BFEAF5;  
   --psub1: rgba(0, 0, 0, .7);
   --psub2: #eaeaea;
   --psub3: #373737;
@@ -223,7 +223,7 @@ nav a {
   font-size: 11px;
   font-family: var(--fontnav);
   font-weight: 300; 
-  letter-spacing: -1px;
+  letter-spacing: -.5px;
 }
 
 nav .link-projects {
@@ -415,7 +415,7 @@ img{
   font-weight: 300;
   text-decoration: none;
   text-transform: uppercase;
-  letter-spacing: -1px;
+  letter-spacing: -.5px;
 }
 
 .projects .footer span, .projects .footer span a{
