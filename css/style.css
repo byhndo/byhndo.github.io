@@ -221,7 +221,7 @@ nav a {
   font-size: 11px;
   font-family: var(--fontnav);
   font-weight: 300; 
-  letter-spacing: -.5px;
+  letter-spacing: 2px;
 }
 
 nav .link-projects {
@@ -413,7 +413,7 @@ img{
   font-weight: 300;
   text-decoration: none;
   text-transform: uppercase;
-  letter-spacing: -.5px;
+  letter-spacing: 2px;
 }
 
 .projects .footer span, .projects .footer span a{
