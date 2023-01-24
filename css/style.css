@@ -42,6 +42,7 @@ h1, h2, h3, h4, h5, h6, h7{
   text-transform:uppercase;
   text-align:left;
   margin-bottom: 30px;
+  letter-spacing: 2px;
 }
 
 h1{
@@ -259,7 +260,6 @@ main {
 
 .sub1, .sub2, .sub3 {
   font-family: var(--font2);
-  letter-spacing: 1px;
 }
 
 .sub1 {
