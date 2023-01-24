@@ -266,13 +266,13 @@ main {
   color: var(--sub3);
 }
 
-span.prolog, p.sub1, p.sub2, p.sub3{
+p.sub1, p.sub2, p.sub3{
   letter-spacing: .7px;
 }
 
 span.prolog{
   font-size:120%;
-  font-weight:400;
+  font-weight:700;
   font-family: var(--font4);
   letter-spacing: .5px;
 }
