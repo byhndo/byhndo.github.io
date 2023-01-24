@@ -271,13 +271,13 @@ span.prolog, p.sub1, p.sub2, p.sub3{
 
 span.prolog{
   font-size:120%;
-  font-weight:300;
+  font-weight:200;
 }
 
 p.sub1, p.sub2, p.sub3 {
   font-family: var(--font3);
   font-size: var(--sizefontbase);
-  font-weight: 200;
+  font-weight: 100;
   text-transform:none;
   text-align: left;
   margin-top: 23px;
@@ -410,7 +410,7 @@ img{
   font-family: var(--font1);
   color: var(--f1);
   font-size: 12px;
-  font-weight: 300;
+  font-weight: 100;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -433,7 +433,7 @@ img{
   color: var(--blue)!important;
   font-family: var(--font1);
   font-size: 12px;
-  font-weight:300;
+  font-weight:100;
 }
 
 .projects .footer span.fc{
