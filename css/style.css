@@ -38,7 +38,8 @@
 }
 
 h1, h2, h3, h4, h5, h6, h7{
-  font-weight: 300;  
+  font-family: var(--font2);
+  font-weight: 100;  
   text-transform:uppercase;
   text-align:left;
   margin-bottom: 30px;
@@ -256,10 +257,6 @@ main {
 .slide-fade-enter, .slide-fade-leave-to {
   transform: translateY(2rem);
   opacity: 0;
-}
-
-.sub1, .sub2, .sub3 {
-  font-family: var(--font2);
 }
 
 .sub1 {
