@@ -184,18 +184,8 @@ h1 span.c{
   font-weight:700;
 }
 
-h1 span.c:before{
-  content:"Handono";
-  position: absolute;
-  display: block;
-  top: 0;
-  right:100%;
-  writing-mode: vertical-lr;
-  text-orientation: upright;
-  color: red;
-  font-size: 30px;
-  letter-spacing: 2px;
-  z-index: 999999999;
+.find-me h1 span.c{
+  background-color: #88b9b5;
 }
 
 nav {
