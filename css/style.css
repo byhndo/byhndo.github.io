@@ -175,7 +175,7 @@ h1 {
 }
 
 h1 span.c{
-  background-color: var(--blue)!important;
+  background-color: var(--blue);
   font-family: var(--font2);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
