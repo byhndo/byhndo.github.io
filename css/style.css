@@ -222,7 +222,7 @@ nav a {
   text-transform: uppercase;
   font-size: 0.8rem;
   font-family: var(--fontnav);
-  font-weight: 100; 
+  font-weight: 200; 
   letter-spacing: 1px;
 }
 
@@ -412,7 +412,7 @@ img{
   font-family: var(--font1);
   color: var(--f1);
   font-size: 12px;
-  font-weight: 100;
+  font-weight: 200;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -435,7 +435,7 @@ img{
   color: var(--blue)!important;
   font-family: var(--font1);
   font-size: 12px;
-  font-weight:100;
+  font-weight:200;
 }
 
 .projects .footer span.fc{
