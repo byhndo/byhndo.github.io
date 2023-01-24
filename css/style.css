@@ -184,6 +184,10 @@ h1 span.c{
   font-weight:700;
 }
 
+.projects h1 span.c{
+  background-color: #fdb23f;
+}
+
 .find-me h1 span.c{
   background-color: #88b9b5;
 }
