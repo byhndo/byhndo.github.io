@@ -440,11 +440,11 @@ img{
 }
 
 .projects .footer span.fc{
-  color: var(--blue)!important;
+  color: var(--c2)!important;
 }
 
 .find-me .footer span.fc{
-  color: var(--blue)!important;
+  color: var(--c3)!important;
 }
 
 @media(min-width:576px){
