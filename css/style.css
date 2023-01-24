@@ -24,7 +24,7 @@
   --f1: rgba(0, 0, 0, .4);
   --f2: rgba(255, 255, 255, .4);
   --f3: rgba(0, 0, 0, .4);
-  --sizefontbase: 13px;
+  --sizefontbase: 12px;
   --sizetitle: calc(38vw + 1rem);
   --sizetitle2: 8vw;
   --sizeh3: 350%;
@@ -223,7 +223,6 @@ nav a {
   font-size: 0.8rem;
   font-family: var(--fontnav);
   font-weight: 300; 
-  letter-spacing: 1px;
 }
 
 nav .link-projects {
