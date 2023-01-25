@@ -275,10 +275,6 @@ main {
   color: var(--sub3);
 }
 
-p.sub1, p.sub2, p.sub3{
-  letter-spacing: .7px;
-}
-
 span.prolog{
   font-size:120%;
   font-weight:700;
@@ -294,6 +290,7 @@ p.sub1, p.sub2, p.sub3 {
   text-align: left;
   margin-top: 23px;
   margin-bottom:23px;
+  letter-spacing: .7px;
 }
 
 p.sub1 {
