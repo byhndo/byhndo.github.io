@@ -361,8 +361,7 @@ img{
 
 .soc a {
   display: block;
-  justify-content: center;
-  vertical-align: middle;
+  padding:2px;
   color: var(--bg2);
   text-decoration: none;
   text-transform: uppercase;
