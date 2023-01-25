@@ -24,14 +24,17 @@ revealContainers.forEach((container) => {
   });
 });
 
+
+
 new Vue({
   el: '#app',
   data() {
     return {
-      
+      bg: 'bio'
     }
   }
 })
+
 
 
 
