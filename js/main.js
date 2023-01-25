@@ -1,13 +1,13 @@
 gsap.registerPlugin(ScrollTrigger);
 
-let revealContainers = document.querySelectorAll(".item");
+let revealContainers = document.querySelectorAll(".reveal");
 
 revealContainers.forEach((container) => {
   let image = container.querySelector("img");
   let tl = gsap.timeline({
     scrollTrigger: {
-      trigger: container
-      
+      trigger: container,
+      toggleActions: "restart none none reset"
     }
   });
 
@@ -23,7 +23,6 @@ revealContainers.forEach((container) => {
     ease: Power2.out
   });
 });
-
 
 
 
