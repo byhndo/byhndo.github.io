@@ -1,6 +1,6 @@
 gsap.registerPlugin(ScrollTrigger);
 
-let revealContainers = document.querySelectorAll(".reveal");
+let revealContainers = document.querySelectorAll(".item");
 
 revealContainers.forEach((container) => {
   let image = container.querySelector("img");
