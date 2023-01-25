@@ -228,9 +228,9 @@ nav a {
   padding: 0.75rem 0 0.5rem;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 11px;
   font-family: var(--fontnav);
-  font-weight: 200; 
+  font-weight: 300; 
   letter-spacing: 2px;
 }
 
@@ -285,7 +285,7 @@ span.prolog{
 p.sub1, p.sub2, p.sub3 {
   font-family: var(--font3);
   font-size: var(--sizefontbase);
-  font-weight: 200;
+  font-weight: 300;
   text-transform:none;
   text-align: left;
   margin-top: 23px;
@@ -419,8 +419,8 @@ img{
 .footer span {
   font-family: var(--fontnav);
   color: var(--f1);
-  font-size: 12px;
-  font-weight: 200;
+  font-size: 11px;
+  font-weight: 300;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -442,7 +442,7 @@ img{
 .footer span.fc{
   color: var(--blue)!important;
   font-family: var(--fontnav);
-  font-size: 12px;
+  font-size: 11px;
   font-weight:300;
 }
 
