@@ -33,7 +33,7 @@ new Vue({
   }
 })
 
-Resources
+
 
 
 AOS.init();
