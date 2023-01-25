@@ -24,7 +24,16 @@ revealContainers.forEach((container) => {
   });
 });
 
+new Vue({
+  el: '#app',
+  data() {
+    return {
+      
+    }
+  }
+})
 
+Resources
 
 
 AOS.init();
