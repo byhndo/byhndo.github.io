@@ -24,7 +24,7 @@
   --f1: rgba(0, 0, 0, .4);
   --f2: rgba(255, 255, 255, .4);
   --f3: rgba(0, 0, 0, .4);
-  --sizebody: 14px;
+  --sizebody: 13px;
   --sizetitle: calc(38vw + 1rem);
   --sizetitle2: 8vw;
   --sizenav: 11px; 
@@ -284,7 +284,7 @@ main {
 
 span.prolog{
   font-size:120%;
-  font-weight: 400;
+  font-weight: 700;
   font-family: var(--font2);
   letter-spacing: .3px;
 }
