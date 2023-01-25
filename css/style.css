@@ -309,7 +309,7 @@ p.sub3 {
 }
 
 .item {
-  margin: .5rem 1rem;
+  margin: .5rem;
   padding: 0;
   background: transparent;
   display:inline-flex;
