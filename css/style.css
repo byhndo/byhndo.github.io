@@ -127,7 +127,7 @@ body {
   font-family: var(--font3);
   color: var(--black);
   font-size: var(--sizebody);
-  font-weight:400;
+  font-weight:300;
   line-height: 1.5;
   flex-wrap: wrap;
   word-wrap: break-word;
