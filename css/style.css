@@ -32,8 +32,6 @@
   --font1: 'Barlow Condensed', sans-serif;
   --font2: 'Anonymous Pro', sans-serif;
   --font3: 'Figtree', sans-serif;
-  --fontweightnav: 300;
-  --fontweight700: 700;
   --radius: 5px;
   --marginp: 23px;
   --spacingnav: 2px;
@@ -49,7 +47,7 @@ h1, h2, h3, h4, h5, h6, h7{
   text-transform:uppercase;
   text-align:left;
   margin-bottom: 30px;
-  letter-spacing: 2px;
+  letter-spacing: var(--spacingnav);
   line-height: 1;
 }
 
@@ -114,7 +112,7 @@ h1 span.c{
   -webkit-text-fill-color: transparent;
   transition: background-position 2s, background-color 2s;
   font-size: var(--sizetitle);
-  font-weight:var--(fontweight700);
+  font-weight: 800;
 }
 
 .projects h1 span.c{
@@ -212,7 +210,6 @@ a {
   transform: scale(1) translateX(0) translateY(0);
 }
 
-
 nav {
   position: fixed;
   top: 0;
@@ -240,7 +237,7 @@ nav a {
   text-decoration: none;
   text-transform: uppercase;
   font-size: var(--sizenav);
-  font-weight: var(--fontweightnav); 
+  font-weight: 300; 
   letter-spacing: var(--spacingnav);
 }
 
@@ -287,7 +284,7 @@ main {
 
 span.prolog{
   font-size:120%;
-  font-weight:var(--fontweight700);
+  font-weight: 400;
   font-family: var(--font2);
   letter-spacing: .3px;
 }
@@ -425,7 +422,7 @@ img{
 .footer span {
   color: var(--f1);
   font-size: var(--sizenav);
-  font-weight: var(--fontweightnav);
+  font-weight: 300;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: var(--spacingnav);
@@ -447,7 +444,7 @@ img{
 .footer span.fc{
   color: var(--blue)!important;
   font-size: var(--sizenav);
-  font-weight: var(--fontweightnav);
+  font-weight: 300;
 }
 
 .projects .footer span.fc{
