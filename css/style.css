@@ -24,7 +24,7 @@
   --f1: rgba(0, 0, 0, .4);
   --f2: rgba(255, 255, 255, .4);
   --f3: rgba(0, 0, 0, .4);
-  --sizefontbase: 12px;
+  --sizebody: 12px;
   --sizetitle: calc(38vw + 1rem);
   --sizetitle2: 8vw;
   --sizenav: 11px; 
@@ -33,7 +33,7 @@
   --font2: 'Anonymous Pro', sans-serif;
   --font3: 'Figtree', sans-serif;
   --fontweightnav: 300;
-  --fontwwight700: 700;
+  --fontweight700: 700;
   --radius: 5px;
   --marginp: 23px;
 }
@@ -88,7 +88,7 @@ h1{
 
 h1 span.c{
   background-color: var(--blue);
-  font-family: var(--font2);
+  font-family: var(--font1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: background-position 2s, background-color 2s;
