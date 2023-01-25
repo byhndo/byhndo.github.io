@@ -387,8 +387,8 @@ img{
 }
 
 .projects .soc a:hover, .projects .soc a:active{
-  color: var(--bg1); 
-  border-color: var(--bg1);
+  color: var(--bg3); 
+  border-color: var(--bg3);
 }
 
 .find-me .soc a{
