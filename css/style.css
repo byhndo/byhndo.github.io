@@ -24,7 +24,7 @@
   --f1: rgba(0, 0, 0, .4);
   --f2: rgba(255, 255, 255, .4);
   --f3: rgba(0, 0, 0, .4);
-  --sizebody: 12px;
+  --sizebody: 13px;
   --sizetitle: calc(38vw + 1rem);
   --sizetitle2: 8vw;
   --sizenav: 11px; 
@@ -36,6 +36,7 @@
   --fontweight700: 700;
   --radius: 5px;
   --marginp: 23px;
+  --spacingnav: 2px;
 }
 
 *, *:before, *:after {
@@ -240,7 +241,7 @@ nav a {
   text-transform: uppercase;
   font-size: var(--sizenav);
   font-weight: var(--fontweightnav); 
-  letter-spacing: 2px;
+  letter-spacing: var(--spacingnav);
 }
 
 nav .link-projects {
@@ -427,7 +428,7 @@ img{
   font-weight: var(--fontweightnav);
   text-decoration: none;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: var(--spacingnav);
 }
 
 .projects .footer span, .projects .footer span a{
