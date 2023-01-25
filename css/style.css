@@ -228,9 +228,9 @@ nav a {
   padding: 0.75rem 0 0.5rem;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 11px;
+  font-size: 10px;
   font-family: var(--fontnav);
-  font-weight: 200; 
+  font-weight: 100; 
   letter-spacing: 2px;
 }
 
