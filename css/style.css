@@ -1,15 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
-
-
-
-  @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-
-
-
-
 :root {
   --black:#000000; 
   --blue: #8DCBE6;
@@ -36,13 +27,15 @@
   --sizefontbase: 12px;
   --sizetitle: calc(38vw + 1rem);
   --sizetitle2: 8vw;
-  --sizeh3: 350%;
-  --fontnav: 'Poppins', sans-serif;
+  --sizenav: 11px; 
+  --fontnav: 'Figtree', sans-serif;
   --font1: 'Barlow Condensed', sans-serif;
-  --font2: 'Barlow Condensed', sans-serif;
-  --font3: 'Poppins', sans-serif;
-  --font4: 'Anonymous Pro', sans-serif;
+  --font2: 'Anonymous Pro', sans-serif;
+  --font3: 'Figtree', sans-serif;
+  --fontweightnav: 300;
+  --fontwwight700: 700;
   --radius: 5px;
+  --marginp: 23px;
 }
 
 *, *:before, *:after {
@@ -50,7 +43,7 @@
 }
 
 h1, h2, h3, h4, h5, h6, h7{
-  font-family: var(--font2);
+  font-family: var(--font1);
   font-weight: 100;  
   text-transform:uppercase;
   text-align:left;
@@ -58,19 +51,63 @@ h1, h2, h3, h4, h5, h6, h7{
   letter-spacing: 2px;
 }
 
+h3{
+ font-size: 350%;
+ line-height: 1;
+}
+
 h1{
+  text-align: center;
+  margin: 0 auto;
+  padding: 30px 0 30px 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: background-position 1.5s, background-color 1.5s;
+  -webkit-mask-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#000),color-stop(.5,#000),color-stop(1,#000));
+  text-transform: uppercase;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -2px;
+  position: relative;
+  max-width: 90vw;
   font-size: var(--sizetitle);
 }
 
-h3{
- font-size: var(--sizeh3);
- line-height: 1;
+.bio h1{
+  background-color: var(--titlecolor1);
+  transition: background-position 1.5s, background-color 1.5s;
+}
+
+.projects h1{
+  background-color: var(--titlecolor2);
+}
+
+.find-me h1{
+  background-color: var(--titlecolor3);
+}
+
+h1 span.c{
+  background-color: var(--blue);
+  font-family: var(--font2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: background-position 2s, background-color 2s;
+  font-size: var(--sizetitle);
+  font-weight:var--(fontweight700);
+}
+
+.projects h1 span.c{
+  background-color: var(--c2);
+}
+
+.find-me h1 span.c{
+  background-color: var(--c3);
 }
 
 body {
   font-family: var(--font3);
   color: var(--black);
-  font-size: var(--sizefontbase);
+  font-size: var(--sizebody);
   line-height: 1.5;
   flex-wrap: wrap;
   word-wrap: break-word;
@@ -154,53 +191,6 @@ a {
   transform: scale(1) translateX(0) translateY(0);
 }
 
-h1 {
-  font-family: var(--font1);
-  text-align: center;
-  margin: 0 auto;
-  padding: 30px 0 30px 0;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transition: background-position 1.5s, background-color 1.5s;
-  -webkit-mask-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#000),color-stop(.5,#000),color-stop(1,#000));
-  text-transform: uppercase;
-  font-weight: 800;
-  line-height: 1;
-  letter-spacing: -2px;
-  position: relative;
-  max-width: 90vw;
-}
-
-.bio h1{
-  background-color: var(--titlecolor1);
-  transition: background-position 1.5s, background-color 1.5s;
-}
-
-.projects h1{
-  background-color: var(--titlecolor2);
-}
-
-.find-me h1{
-  background-color: var(--titlecolor3);
-}
-
-h1 span.c{
-  background-color: var(--blue);
-  font-family: var(--font2);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transition: background-position 2s, background-color 2s;
-  font-size: var(--sizetitle);
-  font-weight:700;
-}
-
-.projects h1 span.c{
-  background-color: var(--c2);
-}
-
-.find-me h1 span.c{
-  background-color: var(--c3);
-}
 
 nav {
   position: fixed;
@@ -228,9 +218,8 @@ nav a {
   padding: 0.75rem 0 0.5rem;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 11px;
-  font-family: var(--fontnav);
-  font-weight: 100; 
+  font-size: var(--sizenav);
+  font-weight: var(--fontweightnav); 
   letter-spacing: 2px;
 }
 
@@ -277,19 +266,16 @@ main {
 
 span.prolog{
   font-size:120%;
-  font-weight:700;
-  font-family: var(--font4);
+  font-weight:var(--fontweight700);
+  font-family: var(--font2);
   letter-spacing: .3px;
 }
 
 p.sub1, p.sub2, p.sub3 {
-  font-family: var(--font3);
-  font-size: var(--sizefontbase);
-  font-weight: 100;
   text-transform:none;
   text-align: left;
-  margin-top: 23px;
-  margin-bottom:23px;
+  margin-top: var(--marginp);
+  margin-bottom: var(--marginp);
   letter-spacing: .7px;
 }
 
@@ -311,7 +297,7 @@ p.sub3 {
   grid-gap: 0;
   grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
   box-sizing: border-box;
-  margin-bottom:23px;
+  margin-bottom: (--marginp);
 }
 
 .item {
@@ -372,7 +358,6 @@ img{
   text-decoration: none;
   text-transform: uppercase;
   font-size: 15px;
-  font-family: var(--fontnav);
   transition: all ease-out 2s;
   border:1px solid var(--bg2);
   border-radius:50%;
@@ -417,10 +402,9 @@ img{
 }
 
 .footer span {
-  font-family: var(--fontnav);
   color: var(--f1);
-  font-size: 11px;
-  font-weight: 100;
+  font-size: var(--sizenav);
+  font-weight: var(--fontweightnav);
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -441,9 +425,8 @@ img{
 
 .footer span.fc{
   color: var(--blue)!important;
-  font-family: var(--fontnav);
-  font-size: 11px;
-  font-weight:100;
+  font-size: var(--sizenav);
+  font-weight: var(--fontweightnav);
 }
 
 .projects .footer span.fc{
