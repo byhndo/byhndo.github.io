@@ -1,12 +1,3 @@
-new Vue({
-  el: '#app',
-  data() {
-    return {
-      bg: 'bio'
-    }
-  },
-
-
 gsap.registerPlugin(ScrollTrigger);
 
 let revealContainers = document.querySelectorAll(".item");
@@ -15,8 +6,8 @@ revealContainers.forEach((container) => {
   let image = container.querySelector("img");
   let tl = gsap.timeline({
     scrollTrigger: {
-      trigger: container,
-      toggleActions: "restart none none reset"
+      trigger: container
+      
     }
   });
 
@@ -35,10 +26,6 @@ revealContainers.forEach((container) => {
 
 
 
-
-
-
-})
 
 
 AOS.init();
