@@ -44,7 +44,7 @@
 h1, h2, h3, h4, h5, h6, h7{
   font-family: var(--font1);
   font-weight: 100;  
-  text-transform:uppercase;
+  text-transform:none;
   text-align:left;
   margin-bottom: 30px;
   letter-spacing: var(--spacingnav);
