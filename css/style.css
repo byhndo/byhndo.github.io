@@ -4,8 +4,8 @@
 :root {
   --black:#000000; 
   --blue: #8DCBE6;
-//  --bg1: #eaeaea;
---bg1: #e9eef4;
+  --bg1: #eaeaea;
+//--bg1: #e9eef4;
   --bg2: #373737;  
   --bg3: #a8b7be;
   --n1: rgba(0, 0, 0, .7);
