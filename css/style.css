@@ -33,7 +33,7 @@
   --f1: rgba(0, 0, 0, .4);
   --f2: rgba(255, 255, 255, .4);
   --f3: rgba(0, 0, 0, .4);
-  --sizefontbase: 12px;
+  --sizefontbase: 13px;
   --sizetitle: calc(38vw + 1rem);
   --sizetitle2: 8vw;
   --sizeh3: 350%;
@@ -290,7 +290,7 @@ p.sub1, p.sub2, p.sub3 {
   text-align: left;
   margin-top: 23px;
   margin-bottom:23px;
-  letter-spacing: .3px;
+  letter-spacing: .7px;
 }
 
 p.sub1 {
