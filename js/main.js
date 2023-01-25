@@ -10,6 +10,7 @@ new Vue({
 
 AOS.init();
 AOS.init({
+  offset: 120,
   delay: 0, 
   duration: 2000 
 });
