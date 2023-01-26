@@ -76,7 +76,7 @@ h7{
 
 h1{
   text-align: left;
-  margin: 0 auto 0 -5px;
+  margin: 0 auto 0 -4.5px;
   padding: 30px 0 30px 0;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -459,6 +459,7 @@ h1 {
   padding-top:100px;
   max-width: 75vw;
   font-size: calc(18vw + 1rem);
+  margin-left: -5px;
 }
 
 main{
