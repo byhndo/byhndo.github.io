@@ -458,10 +458,9 @@ img{
 @media(min-width:576px){
 h1 {
   padding-top:100px;
-  max-width:75vw;
 }
 
-main{
+h1, main{
   max-width:75vw;
   margin: 0 auto;
   text-align: center;
