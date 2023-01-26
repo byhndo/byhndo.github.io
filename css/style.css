@@ -86,7 +86,7 @@ h1{
   text-transform: uppercase;
   font-weight: 800;
   line-height: 1;
-  letter-spacing: -20px;
+  letter-spacing: -5px;
   position: relative;
   max-width: 90vw;
   font-size: var(--sizetitle);
@@ -458,7 +458,6 @@ img{
 
 @media(min-width:576px){
 h1 {
-  text-align: center;
   padding-top:100px;
 }
 
