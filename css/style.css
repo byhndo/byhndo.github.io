@@ -459,12 +459,12 @@ img{
 h1 {
   padding-top:100px;
   max-width: 75vw;
+  font-size: calc(20vw + 1rem);
 }
 
 main{
   max-width:75vw;
   margin: 0 auto;
-  text-align: center;
 }
 
 p.sub1,p.sub2, p.sub3{
