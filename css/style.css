@@ -87,7 +87,6 @@ h1{
   line-height: 1;
   letter-spacing: -2px;
   position: relative;
-  max-width: 90vw;
   font-size: var(--sizetitle);
 }
 
@@ -459,8 +458,6 @@ img{
 h1 {
   padding-top:100px;
   max-width: 75vw;
-  margin-left:8vw;
-  font-size: calc(17vw + 1rem);
 }
 
 main{
