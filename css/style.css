@@ -86,7 +86,7 @@ h1{
   text-transform: uppercase;
   font-weight: 800;
   line-height: 1;
-  letter-spacing: -7px;
+  letter-spacing: -20px;
   position: relative;
   max-width: 90vw;
   font-size: var(--sizetitle);
