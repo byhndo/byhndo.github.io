@@ -468,7 +468,7 @@ h1 {
   padding-top:100px;
 }
 
-main{
+h1, main{
   max-width:75vw;
   margin: 0 auto;
   text-align: center;
