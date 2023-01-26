@@ -459,7 +459,8 @@ img{
 h1 {
   padding-top:100px;
   max-width: 75vw;
-  font-size: calc(20vw + 1rem);
+  font-size: calc(19vw + 1rem);
+  margin-left:10vw;
 }
 
 main{
