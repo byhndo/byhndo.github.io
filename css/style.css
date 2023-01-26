@@ -25,7 +25,7 @@
   --f2: rgba(255, 255, 255, .4);
   --f3: rgba(0, 0, 0, .4);
   --sizebody: 13px;
-  --sizetitle: calc(22vw + 1rem);
+  --sizetitle: calc(21vw + 1rem);
   --sizetitle2: 8vw;
   --sizenav: 10px; 
   --fontnav: 'Figtree', sans-serif;
