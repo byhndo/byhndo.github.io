@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
 
 :root {
   --black:#000000; 
@@ -27,10 +30,8 @@
   --sizetitle: calc(20vw + 1rem);
   --sizetitle2: 8vw;
   --sizenav: 10px; 
-  --fontnav: 'Figtree', sans-serif;
   --font1: 'Barlow Condensed', sans-serif;
-  --font2: 'Anonymous Pro', sans-serif;
-  --font3: 'Anonymous Pro', sans-serif;
+  --font2: 'Rubik', sans-serif;
   --radius: 5px;
   --marginp: 23px;
   --spacingnav: 2px;
@@ -122,7 +123,7 @@ h1 span.c{
 }
 
 body {
-  font-family: var(--font3);
+  font-family: var(--font2);
   color: var(--black);
   font-size: var(--sizebody);
   font-weight: 300;
@@ -284,7 +285,6 @@ main {
 span.prolog{
   font-size:120%;
   font-weight: 700;
-  font-family: var(--font2);
 }
 
 p.sub1, p.sub2, p.sub3 {
