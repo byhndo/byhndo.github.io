@@ -25,7 +25,7 @@
   --f2: rgba(255, 255, 255, .4);
   --f3: rgba(0, 0, 0, .4);
   --sizebody: 13px;
-  --sizetitle: calc(38vw + 1rem);
+  --sizetitle: calc(30vw + 1rem);
   --sizetitle2: 8vw;
   --sizenav: 10px; 
   --fontnav: 'Figtree', sans-serif;
@@ -76,7 +76,7 @@ h7{
 }
 
 h1{
-  text-align: center;
+  text-align: left;
   margin: 0 auto;
   padding: 30px 0 30px 0;
   -webkit-background-clip: text;
