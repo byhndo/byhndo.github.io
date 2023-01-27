@@ -117,7 +117,7 @@ h1{
 }
 
 h1 span.c{
-  background-color: var(--blue);
+  color: var(--blue);
   font-family: var(--font1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -127,11 +127,11 @@ h1 span.c{
 }
 
 .projects h1 span.c{
-  background-color: var(--c2);
+  color: var(--c2);
 }
 
 .find-me h1 span.c{
-  background-color: var(--c3);
+  color: var(--c3);
 }
 
 body {
