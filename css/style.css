@@ -102,23 +102,20 @@ h1{
   letter-spacing: -2px;
   position: relative;
   font-size: var(--sizetitle);
-  -webkit-mask-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#000),color-stop(.5,#000),color-stop(1,#000));
+  background-color: var(--titlecolor1);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   transition: background-position 1.5s, background-color 1.5s; 
 }
 
-.bio h1{
-  background-color: var(--titlecolor1);
-transition: background-position 1.5s, background-color 1.5s; 
-}
 
 .projects h1{
   background-color: var(--titlecolor2);
+  transition: background-position 1.5s, background-color 1.5s; 
 }
 
 .find-me h1{
   background-color: var(--titlecolor3);
+  transition: background-position 1.5s, background-color 1.5s; 
 }
 
 h1 span.c{
