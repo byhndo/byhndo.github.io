@@ -469,6 +469,77 @@ img{
   color: var(--c3)!important;
 }
 
+
+
+.text-overlap {
+  font-family: "Barlow Condensed", serif;
+  font-weight: 700;
+}
+
+.text-overlap.splitting .char {
+  margin-right: -0.12em;
+  text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+  -webkit-animation: slide-in 2.5s cubic-bezier(0, 0.65, 0.29, 1) 0s both, fade-in 1.25s linear both;
+          animation: slide-in 2.5s cubic-bezier(0, 0.65, 0.29, 1) 0s both, fade-in 1.25s linear both;
+  -webkit-animation-delay: calc(1s + (0.5s * var(--distance-percent)));
+          animation-delay: calc(1s + (0.5s * var(--distance-percent)));
+}
+
+@-webkit-keyframes slide-in {
+  0% {
+    transform: translateX(1em);
+    transform: translateX(calc(0.12em * var(--char-offset))) translateZ(0px);
+  }
+}
+@keyframes slide-in {
+  0% {
+    transform: translateX(1em);
+    transform: translateX(calc(0.12em * var(--char-offset))) translateZ(0px);
+  }
+}
+@-webkit-keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+.text-overlap.splitting b {
+  display: inline-block;
+  color: #CF4647;
+  -webkit-animation-name: slide-in-v, fade-in;
+          animation-name: slide-in-v, fade-in;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-duration: 1.75s, 1s;
+          animation-duration: 1.75s, 1s;
+  -webkit-animation-timing-function: cubic-bezier(0, 0.7, 0.1, 1), linear;
+          animation-timing-function: cubic-bezier(0, 0.7, 0.1, 1), linear;
+}
+@-webkit-keyframes slide-in-v {
+  0% {
+    opacity: 0;
+    transform: translateX(1em);
+    transform: translateY(-50vh);
+  }
+}
+@keyframes slide-in-v {
+  0% {
+    opacity: 0;
+    transform: translateX(1em);
+    transform: translateY(-50vh);
+  }
+}
+.text-overlap.splitting b ~ * .char {
+  z-index: calc(1 * (var(--char-total) - var(--char-index)));
+}
+
+
 @media(min-width:576px){
 h1 {
   padding-top:100px;
