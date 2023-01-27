@@ -472,8 +472,8 @@ img{
 
 
 .text-overlap {
-  font-family: "Barlow Condensed", serif;
-  font-weight: 700;
+  font-family: var(--font1);
+  font-weight: 800;
 }
 
 .text-overlap.splitting .char {
