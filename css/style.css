@@ -469,7 +469,7 @@ img{
 .text-overlap {
   font-family: var(--font1);
   font-weight: 800;
-  color: #fff; 
+  color: #eaeaea; 
   transition: all 1.5s; 
 }
 .projects h1.text-overlap {
