@@ -75,9 +75,9 @@ h7{
   font-size: 150%;
 }
 
-h3{
+.sub1 h3{
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-color:#373737;
   -webkit-text-stroke-width: 1px;
 }
 
