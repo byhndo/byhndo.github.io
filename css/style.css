@@ -13,12 +13,12 @@
   --n2: #eaeaea;
   --n3: rgba(0, 0, 0, .7);
   --titlecolor1: rgba(0, 0, 0, .7);
-  --titlecolor2: #eaeaea;
+  --titlecolor2: #a8b7be;
   --titlecolor3: #5F6F94;
   --c2: #BCEAD5;
   --c3: #FFD365;
   --sub1: rgba(0, 0, 0, .7);
-  --sub2: #eaeaea; 
+  --sub2: #a8b7be; 
   --sub3: #5F6F94;  
   --psub1: rgba(0, 0, 0, .7);
   --psub2: #eaeaea;
@@ -102,27 +102,23 @@ h1{
   letter-spacing: -2px;
   position: relative;
   font-size: var(--sizetitle);
+  -webkit-mask-image: -webkit-gradient(linear,left top,left bottom,color-stop(0,#000),color-stop(.5,#000),color-stop(1,#000));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: background-position 1.5s, background-color 1.5s; 
-  -webkit-text-stroke-color: #373737;
-  -webkit-text-stroke-width: 1px;
-
 }
 
 .bio h1{
-  background-color: transparent;
+  background-color: var(--titlecolor1);
 transition: background-position 1.5s, background-color 1.5s; 
 }
 
 .projects h1{
-  background-color: transparent;
-  -webkit-text-stroke-color: #eaeaea;
+  background-color: var(--titlecolor2);
 }
 
 .find-me h1{
-  background-color: transparent;
-  -webkit-text-stroke-color: #5F6F94;
+  background-color: var(--titlecolor3);
 }
 
 h1 span.c{
