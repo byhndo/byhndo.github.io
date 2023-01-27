@@ -8,6 +8,11 @@ new Vue({
 })
 
 
+Splitting();
+
+
+
+
 AOS.init();
 AOS.init({
   offset: 120,
