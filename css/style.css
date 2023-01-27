@@ -112,16 +112,22 @@ h1{
 
 .bio h1{
   background-color: transparent;
+  transition: background-position 1.5s, background-color 1.5s; 
+
 }
 
 .projects h1{
   background-color: transparent;
   -webkit-text-stroke-color: #eaeaea;
+  transition: background-position 1.5s, background-color 1.5s; 
+
 }
 
 .find-me h1{
   background-color: transparent;
   -webkit-text-stroke-color: #5F6F94;
+  transition: background-position 1.5s, background-color 1.5s; 
+
 }
 
 h1 span.c{
