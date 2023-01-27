@@ -187,6 +187,7 @@ h1{
 .text-overlap.splitting b {
   display: inline-block;
   color: #8DCBE6;
+  transition: all 1.5s;
   -webkit-animation-name: slide-in-v, fade-in;
           animation-name: slide-in-v, fade-in;
   -webkit-animation-fill-mode: both;
@@ -201,6 +202,7 @@ h1{
 .projects h1.text-overlap.splitting b {
   display: inline-block;
   color: #BCEAD5;
+  transition: all 1.5s;
   -webkit-animation-name: slide-in-v, fade-in;
           animation-name: slide-in-v, fade-in;
   -webkit-animation-fill-mode: both;
@@ -215,6 +217,7 @@ h1{
 .find-me h1.text-overlap.splitting b {
   display: inline-block;
   color: #FFD365;
+  transition: all 1.5s;
   -webkit-animation-name: slide-in-v, fade-in;
           animation-name: slide-in-v, fade-in;
   -webkit-animation-fill-mode: both;
