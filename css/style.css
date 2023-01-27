@@ -12,17 +12,17 @@
   --n1: rgba(0, 0, 0, .7);
   --n2: #eaeaea;
   --n3: rgba(0, 0, 0, .7);
-  --titlecolor1: #474747;
-  --titlecolor2: #eaeaea;
-  --titlecolor3: #82AAE3;
+  --titlecolor1: #eaeaea;
+  --titlecolor2: #fff;
+  --titlecolor3: #BAD7E9;
   --c2: #BCEAD5;
   --c3: #FFD365;
-  --sub1: #474747;
-  --sub2: #eaeaea; 
-  --sub3: #5F6F94;  
+  --sub1: #eaeaea;
+  --sub2: #fff; 
+  --sub3: #BAD7E9;  
   --psub1: #474747;
-  --psub2: #eaeaea;
-  --psub3: #5F6F94;
+  --psub2: #fff;
+  --psub3: #BAD7E9;
   --f1: #474747;
   --f2: #eaeaea;
   --f3: #5F6F94;
@@ -119,19 +119,19 @@ h1{
 .text-overlap {
   font-family: var(--font1);
   font-weight: 800;
-  color: #eaeaea; 
+  color: var(--titlecolor1); 
   transition: all 1.5s; 
 }
 .projects h1.text-overlap {
   font-family: var(--font1);
   font-weight: 800;
-  color: #fff; 
+  color: var(--titlecolor2); 
   transition: all 1.5s; 
 }
 .find-me h1.text-overlap {
   font-family: var(--font1);
   font-weight: 800;
-  color: #82AAE3; 
+  color: var(--titlecolor3); 
   transition: all 1.5s; 
 }
 
