@@ -470,6 +470,17 @@ img{
 .text-overlap {
   font-family: var(--font1);
   font-weight: 800;
+  background-color: #fff; 
+}
+.projects h1.text-overlap {
+  font-family: var(--font1);
+  font-weight: 800;
+  background-color: #fff; 
+}
+.find-me h1 .text-overlap {
+  font-family: var(--font1);
+  font-weight: 800;
+  background-color: #fff; 
 }
 
 .text-overlap.splitting .char {
