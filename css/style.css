@@ -144,7 +144,6 @@ h1{
           animation-delay: calc(1s + (0.5s * var(--distance-percent)));
 }
 
-
 .projects h1 .text-overlap.splitting .char {
   margin-right: -0.12em;
   text-shadow: 0px 0px 15px rgba(0,0,0, 5); 
@@ -153,7 +152,6 @@ h1{
   -webkit-animation-delay: calc(1s + (0.5s * var(--distance-percent)));
           animation-delay: calc(1s + (0.5s * var(--distance-percent)));
 }
-
 
 .find-me h1 .text-overlap.splitting .char {
   margin-right: -0.12em;
@@ -200,7 +198,7 @@ h1{
   -webkit-animation-timing-function: cubic-bezier(0, 0.7, 0.1, 1), linear;
           animation-timing-function: cubic-bezier(0, 0.7, 0.1, 1), linear;
 }
-.projects h1 .text-overlap.splitting b {
+.projects h1.text-overlap.splitting b {
   display: inline-block;
   color: #BCEAD5;
   -webkit-animation-name: slide-in-v, fade-in;
@@ -214,7 +212,7 @@ h1{
   -webkit-animation-timing-function: cubic-bezier(0, 0.7, 0.1, 1), linear;
           animation-timing-function: cubic-bezier(0, 0.7, 0.1, 1), linear;
 }
-.find-me h1 .text-overlap.splitting b {
+.find-me h1.text-overlap.splitting b {
   display: inline-block;
   color: #FFD365;
   -webkit-animation-name: slide-in-v, fade-in;
