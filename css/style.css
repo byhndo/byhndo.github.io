@@ -75,7 +75,7 @@ h7{
   font-size: 150%;
 }
 
-h1:nth-child(1){
+h3:nth-child(1){
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-color: white;
   -webkit-text-stroke-width: 1px;
