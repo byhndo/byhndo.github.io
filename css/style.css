@@ -96,17 +96,15 @@ h1{
   text-align: left;
   margin: 0 auto 0 -3px;
   padding: 30px 0 30px 0;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transition: background-position 1.5s, background-color 1.5s;
   text-transform: uppercase;
   font-weight: 800;
   line-height: 1;
   letter-spacing: -2px;
   position: relative;
   font-size: var(--sizetitle);
-
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  transition: background-position 1.5s, background-color 1.5s; 
   -webkit-text-stroke-color: #373737;
   -webkit-text-stroke-width: 1px;
 
@@ -114,15 +112,16 @@ h1{
 
 .bio h1{
   background-color: transparent;
-  transition: background-position 1.5s, background-color 1.5s;
 }
 
 .projects h1{
-  background-color: var(--titlecolor2);
+  background-color: transparent;
+  -webkit-text-stroke-color: #eaeaea;
 }
 
 .find-me h1{
-  background-color: var(--titlecolor3);
+  background-color: transparent;
+  -webkit-text-stroke-color: #5F6F94;
 }
 
 h1 span.c{
