@@ -112,8 +112,6 @@ h1{
 
 .bio h1{
   background-color: transparent;
-  transition: background-position 1.5s, background-color 1.5s; 
-
 }
 
 .projects h1{
