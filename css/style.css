@@ -198,7 +198,7 @@ h1{
 }
 .projects h1.text-overlap.splitting b {
   display: inline-block;
-  color: #BCEAD5;
+  color: var(--c2);
   transition: all 1.5s;
   -webkit-animation-name: slide-in-v, fade-in;
           animation-name: slide-in-v, fade-in;
@@ -213,7 +213,7 @@ h1{
 }
 .find-me h1.text-overlap.splitting b {
   display: inline-block;
-  color: #FFD365;
+  color: var(--c3);
   transition: all 1.5s;
   -webkit-animation-name: slide-in-v, fade-in;
           animation-name: slide-in-v, fade-in;
@@ -580,7 +580,7 @@ h1 {
   padding-top:100px;
   max-width: 75vw;
   margin-left: -6px;
-  font-size: calc(26vw + 1rem);
+  font-size: calc(25vw + 1rem);
 }
 
 main{
