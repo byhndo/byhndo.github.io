@@ -99,7 +99,6 @@ h1{
   text-transform: uppercase;
   font-weight: 800;
   line-height: 1;
-  letter-spacing: -2px;
   position: relative;
   font-size: var(--sizetitle);
   background-color: var(--titlecolor1);
