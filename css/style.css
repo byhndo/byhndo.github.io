@@ -44,7 +44,7 @@
 h1, h2, h3, h4, h5, h6, h7{
   font-family: var(--font1);
   font-weight: 600;  
-  text-transform:none;
+  text-transform:uppercase;
   text-align:left;
   margin-bottom: 30px;
   letter-spacing: var(--spacingnav);
@@ -73,6 +73,12 @@ h6{
 
 h7{
   font-size: 150%;
+}
+
+h1:nth-child(1){
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: 1px;
 }
 
 h1{
