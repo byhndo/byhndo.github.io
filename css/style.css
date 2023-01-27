@@ -9,9 +9,10 @@
   --n1: rgba(0, 0, 0, .7);
   --n2: #eaeaea;
   --n3: rgba(0, 0, 0, .7);
-  --titlecolor1: #9CB4CC;
+  --titlecolor1: #8DCBE6;
   --titlecolor2: #fff;
   --titlecolor3: #BAD7E9;
+  --c1: #8DCBE6;
   --c2: #CF4647;
   --c3: #FFD365;
   --sub1: #575757;
@@ -183,7 +184,7 @@ h1{
 }
 .text-overlap.splitting b {
   display: inline-block;
-  color: #8DCBE6;
+  color: var(--c1);
   transition: all 1.5s;
   -webkit-animation-name: slide-in-v, fade-in;
           animation-name: slide-in-v, fade-in;
@@ -580,7 +581,7 @@ h1 {
   padding-top:100px;
   max-width: 75vw;
   margin-left: -6px;
-  font-size: calc(25vw + 1rem);
+  font-size: calc(24vw + 1rem);
 }
 
 main{
