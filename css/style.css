@@ -78,15 +78,15 @@ h7{
 }
 
 .sub1 h3 span{
-  -webkit-text-stroke-color:#373737;
+  -webkit-text-stroke-color:var(--sub1);
 }
 
 .sub2 h3 span{
-  -webkit-text-stroke-color:#eaeaea;
+  -webkit-text-stroke-color:var(--sub2);
 }
 
 .sub3 h3 span{
-  -webkit-text-stroke-color:#5F6F94;
+  -webkit-text-stroke-color:var(--sub3);
 }
 
 h1{
