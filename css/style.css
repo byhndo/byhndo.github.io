@@ -12,7 +12,7 @@
   --titlecolor1: #8DCBE6;
   --titlecolor2: #fff;
   --titlecolor3: #BAD7E9;
-  --c1: #8DCBE6;
+  --c1: #FF7800;
   --c2: #CF4647;
   --c3: #FFD365;
   --sub1: #575757;
@@ -581,7 +581,7 @@ h1 {
   padding-top:100px;
   max-width: 75vw;
   margin-left: -6px;
-  font-size: calc(24vw + 1rem);
+  font-size: calc(25vw + 1rem);
 }
 
 main{
