@@ -5,9 +5,6 @@
   --bg1: #2A363B;
   --bg2: #a8b7be;  
   --bg3: #3F4E4F;
-  --n1: rgba(0, 0, 0, .7);
-  --n2: #eaeaea;
-  --n3: rgba(0, 0, 0, .7);
   --titlecolor1: #fff;
   --titlecolor2: #FFD365;
   --titlecolor3: #206A5D;
@@ -355,7 +352,7 @@ nav li {
 
 nav a {
   display: block;
-  color: var(--n1);
+  color: var(--sub1);
   padding: 0.75rem 0 0.5rem;
   text-decoration: none;
   text-transform: uppercase;
@@ -365,11 +362,11 @@ nav a {
 }
 
 nav .link-projects {
-  color: var(--n2);
+  color: var(--sub2);
 }
 
 nav .link-find-me{
-  color: var(--n3);
+  color: var(--sub3);
 }
 
 main {
