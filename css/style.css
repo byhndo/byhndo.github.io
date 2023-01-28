@@ -17,10 +17,10 @@
   --c3: #FFD365;
   --sub1: #575757;
   --sub2: #fff; 
-  --sub3: #BAD7E9;  
+  --sub3: #5F6F94;  
   --psub1: #575757;
   --psub2: #fff;
-  --psub3: #BAD7E9;
+  --psub3: #5F6F94;
   --f1: #474747;
   --f2: #eaeaea;
   --f3: #5F6F94;
@@ -581,7 +581,7 @@ h1 {
   padding-top:100px;
   max-width: 75vw;
   margin-left: -6px;
-  font-size: calc(25vw + 1rem);
+  font-size: calc(24vw + 1rem);
 }
 
 main{
