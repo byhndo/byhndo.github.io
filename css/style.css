@@ -2,26 +2,26 @@
 
 :root {
   --black:#000; 
-  --bg1: #a8b7be;
-  --bg2: #2A363B;  
+  --bg1: #2A363B;
+  --bg2: #a8b7be;  
   --bg3: #3F4E4F;
   --n1: rgba(0, 0, 0, .7);
   --n2: #eaeaea;
   --n3: rgba(0, 0, 0, .7);
-  --titlecolor1: #FFD365;
-  --titlecolor2: #fff;
+  --titlecolor1: #fff;
+  --titlecolor2: #FFD365;
   --titlecolor3: #206A5D;
-  --c1: #34857F;
-  --c2: #CF4647;
+  --c1: #CF4647;
+  --c2: #34857F;
   --c3: #FFD365;
-  --sub1: #5F6F94;
-  --sub2: #fff; 
+  --sub1: #fff;
+  --sub2: #5F6F94; 
   --sub3: #575757;  
-  --psub1: #5F6F94;
-  --psub2: #fff;
+  --psub1: #fff;
+  --psub2: #5F6F94;
   --psub3: #575757;
-  --f1: #5F6F94;
-  --f2: #eaeaea;
+  --f1: #fff;
+  --f2: #5F6F94;
   --f3: #575757;
   --sizebody: 13px;
   --sizetitle: calc(27vw + 1rem);
