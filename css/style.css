@@ -2,10 +2,10 @@
 
 :root {
   --black:#000; 
-  --n1: #fff;
+  --n1: #575757;
   --n2: #fff;
   --n3: #575757;
-  --bg1: #e0e0e0;
+  --bg1: #e3e3e3;
   --bg2: #2A363B;  
   --bg3: #a8b7be;
   --titlecolor1: #A5F1E9;
@@ -20,7 +20,7 @@
   --psub1: #575757;
   --psub2: #fff;
   --psub3: #5F6F94;
-  --f1: #fff;
+  --f1: #575757;
   --f2: #fff;
   --f3: #5F6F94;
   --sizebody: 13px;
