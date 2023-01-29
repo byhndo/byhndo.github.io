@@ -492,6 +492,19 @@ p.sub3 {
   mix-blend-mode: lighten;
 }
 
+.green{
+  background-color: #00ff36;
+}
+.green img{
+   mix-blend-mode: multiply;
+  -webkit-filter: grayscale(100%) contrast(1.2);
+  filter: grayscale(100%) contrast(1);
+}
+.green::after{
+  background-color: #23278a;
+  mix-blend-mode: lighten;
+}
+
 .retro{
 background-color: #f1e3a0;
 }
