@@ -446,6 +446,7 @@ p.sub3 {
   display:inline-flex;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   transition: all ease-in-out .3s;
+  border-radius: var(--radius);
 }
 
 .item img{
@@ -454,6 +455,7 @@ p.sub3 {
   object-fit: cover;
   display: block;
   transition: all ease-in-out .5s;
+  border-radius: var(--radius);
 }
 
 .item:hover {
