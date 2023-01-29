@@ -443,7 +443,7 @@ p.sub3 {
 .item {
   position: relative;
   margin: .5rem;
-  padding: 1rem;
+  padding: .7rem;
   background: transparent;
   display:inline-flex;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
