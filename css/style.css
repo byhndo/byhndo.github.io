@@ -651,6 +651,19 @@ background-color: #f1e3a0;
   mix-blend-mode: multiply;
 }
 
+.vintage{
+  background-color: #caeaf2;
+}
+.vintage img{
+   mix-blend-mode: multiply;
+  -webkit-filter: grayscale(100%) contrast(1.5);
+  filter: grayscale(100%) contrast(1.5);
+}
+.vintage::after{
+  background-color: #2cd6e1;
+  mix-blend-mode: lighten;
+}
+
 [data-aos=blur] {
   filter: blur(1rem);
   opacity: 0;
