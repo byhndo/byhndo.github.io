@@ -31,7 +31,7 @@
   --sizenav: 9px; 
   --font1: 'Barlow Condensed', sans-serif;
   --font2: 'Mulish', sans-serif;
-  --radius: 5px;
+  --radius: 0px;
   --marginp: 23px;
   --spacingnav: 2px;
 }
@@ -443,7 +443,7 @@ p.sub3 {
 .item {
   position: relative;
   margin: .5rem;
-  padding: .7rem;
+  padding: .8rem;
   background: transparent;
   display:inline-flex;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
