@@ -455,6 +455,19 @@ img{
   transform-origin: left;
 }
 
+.retro{
+background-color: #f1e3a0;
+}
+.retro img{
+   mix-blend-mode: darken;
+  -webkit-filter: grayscale(100%) contrast(2);
+  filter: grayscale(100%) contrast(2);
+}
+.retro::after{
+  background: linear-gradient(180deg, #f430a9, #f2e782);
+  mix-blend-mode: lighten;
+}
+
 [data-aos=blur] {
   filter: blur(1rem);
   opacity: 0;
