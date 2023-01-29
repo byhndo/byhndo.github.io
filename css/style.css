@@ -46,7 +46,6 @@ h1, h2, h3, h4, h5, h6, h7{
   text-transform:uppercase;
   text-align:left;
   margin-bottom: 30px;
-  letter-spacing: var(--spacingnav);
   line-height: 1;
 }
 
