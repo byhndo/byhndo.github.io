@@ -452,6 +452,7 @@ img{
   object-fit: cover; 
   filter: grayscale();
   border-radius: var(--radius);
+  transform-origin: left;
 }
 
 [data-aos=blur] {
