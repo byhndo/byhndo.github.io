@@ -441,7 +441,7 @@ p.sub3 {
 .item {
   position: relative;
   margin: .5rem;
-  padding: 0;
+  padding: 1rem;
   background: transparent;
   display:inline-flex;
   border-radius: var(--radius);
