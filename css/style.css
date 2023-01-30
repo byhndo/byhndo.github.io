@@ -495,11 +495,11 @@ img{
 }
 .beige::after{
    background-color: #F1CA89;
-  mix-blend-mode: lighten;
+  mix-blend-mode: multiply;
 }
 
 .green{
-  background-color: #54B435;
+  background-color: #82CD47;
 }
 .green img{
    mix-blend-mode: multiply;
@@ -507,7 +507,7 @@ img{
   filter: grayscale(100%) contrast(1);
 }
 .green::after{
-  background-color: #82CD47;
+  background-color: #F0FF42;
   mix-blend-mode: multiply;
 }
 
@@ -645,7 +645,7 @@ background-color: #f1e3a0;
 }
 
 .gold{
-  background-color: #367ABD ;
+  background-color: #FFD57E;
 }
 .gold img{
    mix-blend-mode: lighten;
@@ -653,7 +653,7 @@ background-color: #f1e3a0;
   filter: grayscale(100%) contrast(.8);
 }
 .gold::after{
-  background-color: #F9ED3A;
+  background-color: #FFEFA0;
   mix-blend-mode: multiply;
 }
 
