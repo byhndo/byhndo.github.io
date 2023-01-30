@@ -12,7 +12,7 @@
   --titlecolor1: #FFD365;
   --titlecolor2: #fff;
   --titlecolor3: #65D6CE;
-  --c1: #B6EADA;
+  --c1: #A7FFE4;
   --c2: #CF4647;
   --c3: #FF9494;
   --sub1: #505050;
@@ -499,7 +499,7 @@ img{
 }
 
 .green{
-  background-color: #82CD47;
+  background-color: #52DE97;
 }
 .green img{
    mix-blend-mode: multiply;
@@ -507,7 +507,7 @@ img{
   filter: grayscale(100%) contrast(1);
 }
 .green::after{
-  background-color: #F0FF42;
+  background-color: #C0FFB3;
   mix-blend-mode: multiply;
 }
 
