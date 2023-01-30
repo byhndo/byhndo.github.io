@@ -508,7 +508,7 @@ img{
 }
 .green::after{
   background-color: #00C897;
-  mix-blend-mode: lighten;
+  mix-blend-mode: multiply;
 }
 
 .retro{
@@ -613,7 +613,7 @@ background-color: #f1e3a0;
 }
 .yellow::after{
   background-color: #FFF89A;
-  mix-blend-mode: lighten;
+  mix-blend-mode: multiply;
 }
 
 .orange{
