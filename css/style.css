@@ -502,7 +502,7 @@ img{
   background-color: #52DE97;
 }
 .green img{
-   mix-blend-mode: lighten;
+   mix-blend-mode: multiply;
   -webkit-filter: grayscale(100%) contrast(1.2);
   filter: grayscale(100%) contrast(1);
 }
