@@ -499,7 +499,7 @@ img{
 }
 
 .green{
-  background-color: #00ff36;
+  background-color: #019267;
 }
 .green img{
    mix-blend-mode: multiply;
@@ -507,7 +507,7 @@ img{
   filter: grayscale(100%) contrast(1);
 }
 .green::after{
-  background-color: #23278a;
+  background-color: #00C897;
   mix-blend-mode: lighten;
 }
 
@@ -552,7 +552,7 @@ background-color: #f1e3a0;
 }
 
 .dark-red{
-  background-color: #ed060b;
+  background-color: #F35588;
 }
 .dark-red img{
     -webkit-filter: grayscale(100%) contrast(1.2);
@@ -560,12 +560,12 @@ background-color: #f1e3a0;
     mix-blend-mode: lighten;
 }
 .dark-red::after{
-   background-color: #70e4ee;
+   background-color: #FFBBB4;
    mix-blend-mode: multiply;
 }
 
 .red-purple{
-  background-color: #e41c2d;
+  background-color: #645CBB;
 }
 .red-purple img{
    mix-blend-mode: multiply;
@@ -573,12 +573,12 @@ background-color: #f1e3a0;
   filter: grayscale(100%) contrast(.8);
 }
 .red-purple::after{
-  background-color: #1d3162;
+  background-color: #A084DC;
   mix-blend-mode: lighten;
 }
 
 .teal{
-  background-color: #d7a621;
+  background-color: #7FE9DE;
 }
 .teal img{
    mix-blend-mode: multiply;
@@ -586,25 +586,25 @@ background-color: #f1e3a0;
   filter: grayscale(100%) contrast(1.2);
 }
 .teal::after{
-  background-color: #0c6249;
+  background-color: #7FE9DE;
   mix-blend-mode: lighten;
 }
 
 .pink{
-  background-color: #FCA300;
+  background-color: #FF597B;
 }
 .pink img{
   mix-blend-mode: darken;
 }
 .pink::after{
-  background: #282581;
+  background: #FF8E9E;
   mix-blend-mode: lighten;
   -webkit-filter: contrast(1.1);
   filter: contrast(1.1);
 }
 
 .yellow{
-  background-color: #e0de2c;
+  background-color: #FFC900;
 }
 .yellow img{
    mix-blend-mode: multiply;
@@ -612,7 +612,7 @@ background-color: #f1e3a0;
   filter: grayscale(100%) contrast(.8);
 }
 .yellow::after{
-  background-color: #b71310;
+  background-color: #FFF89A;
   mix-blend-mode: lighten;
 }
 
