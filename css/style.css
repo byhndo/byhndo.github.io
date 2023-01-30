@@ -502,13 +502,13 @@ img{
   background-color: #52DE97;
 }
 .green img{
-   mix-blend-mode: multiply;
+   mix-blend-mode: lighten;
   -webkit-filter: grayscale(100%) contrast(1.2);
   filter: grayscale(100%) contrast(1);
 }
 .green::after{
   background-color: #C0FFB3;
-  mix-blend-mode: lighten;
+  mix-blend-mode: multiply;
 }
 
 .retro{
