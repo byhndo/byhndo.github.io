@@ -3,7 +3,7 @@
 
 :root {
   --black:#000; 
-  --n1: #505050;
+  --n1: #4e4e4e;
   --n2: #ececec;
   --n3: #364E68;
   --bg1: #eaeaea;
@@ -15,13 +15,13 @@
   --c1: #65D6CE;
   --c2: #A5F1E9;
   --c3: #FF9494;
-  --sub1: #505050;
+  --sub1: #4e4e4e;
   --sub2: #fff; 
   --sub3: #364E68;  
-  --psub1: #505050;
+  --psub1: #4e4e4e;
   --psub2: #fff;
   --psub3: #364E68;
-  --f1: #505050;
+  --f1: #4e4e4e;
   --f2: #fff;
   --f3: #364E68;
   --sizebody: 13px;
