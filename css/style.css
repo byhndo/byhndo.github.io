@@ -508,7 +508,7 @@ img{
 }
 .green::after{
   background-color: #C0FFB3;
-  mix-blend-mode: multiply;
+  mix-blend-mode: lighten;
 }
 
 .retro{
