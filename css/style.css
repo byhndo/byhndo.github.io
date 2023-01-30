@@ -565,7 +565,7 @@ background-color: #f1e3a0;
 }
 
 .red-purple{
-  background-color: #645CBB;
+  background-color: #A084DC;
 }
 .red-purple img{
    mix-blend-mode: multiply;
@@ -573,7 +573,7 @@ background-color: #f1e3a0;
   filter: grayscale(100%) contrast(.8);
 }
 .red-purple::after{
-  background-color: #A084DC;
+  background-color: #BFACE2;
   mix-blend-mode: multiply;
 }
 
