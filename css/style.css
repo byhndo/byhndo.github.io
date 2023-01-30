@@ -485,17 +485,17 @@ img{
   background: transparent;
 }
 
-.beige{
-  background-color: #E5BA73;
+.flat-retro{
+  background-color: #FCA300;
 }
-.beige img{
+.flat-retro img{
    mix-blend-mode: darken;
   -webkit-filter: grayscale(100%) contrast(1.5);
   filter: grayscale(100%) contrast(1.5);
 }
-.beige::after{
-   background-color: #FAEAB1;
-  mix-blend-mode: multiply;
+.flat-retro::after{
+   background-color: #e23241;
+  mix-blend-mode: lighten;
 }
 
 .green{
