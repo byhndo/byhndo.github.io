@@ -486,7 +486,7 @@ img{
 }
 
 .beige{
-  background-color: #CC9B6D;
+  background-color: #E5BA73;
 }
 .beige img{
    mix-blend-mode: darken;
@@ -494,7 +494,7 @@ img{
   filter: grayscale(100%) contrast(1.5);
 }
 .beige::after{
-   background-color: #F1CA89;
+   background-color: #FAEAB1;
   mix-blend-mode: multiply;
 }
 
