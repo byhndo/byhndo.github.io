@@ -485,16 +485,16 @@ img{
   background: transparent;
 }
 
-.flat-retro{
-  background-color: #FCA300;
+.mint{
+  background-color: #6FEDD6;
 }
-.flat-retro img{
+.mint img{
    mix-blend-mode: darken;
   -webkit-filter: grayscale(100%) contrast(1.5);
   filter: grayscale(100%) contrast(1.5);
 }
-.flat-retro::after{
-   background-color: #e23241;
+.mint::after{
+   background-color: #B9FFF8;
   mix-blend-mode: lighten;
 }
 
