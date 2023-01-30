@@ -499,7 +499,7 @@ img{
 }
 
 .green{
-  background-color: #019267;
+  background-color: #54B435;
 }
 .green img{
    mix-blend-mode: multiply;
@@ -507,7 +507,7 @@ img{
   filter: grayscale(100%) contrast(1);
 }
 .green::after{
-  background-color: #00C897;
+  background-color: #82CD47;
   mix-blend-mode: multiply;
 }
 
@@ -574,7 +574,7 @@ background-color: #f1e3a0;
 }
 .red-purple::after{
   background-color: #A084DC;
-  mix-blend-mode: lighten;
+  mix-blend-mode: multiply;
 }
 
 .teal{
@@ -598,7 +598,7 @@ background-color: #f1e3a0;
 }
 .pink::after{
   background: #FF8E9E;
-  mix-blend-mode: lighten;
+  mix-blend-mode: multiply;
   -webkit-filter: contrast(1.1);
   filter: contrast(1.1);
 }
