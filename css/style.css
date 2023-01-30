@@ -46,7 +46,6 @@ h1, h2, h3, h4, h5, h6, h7{
   text-align:left;
   margin-bottom: 30px;
   line-height: 1;
-  letter-spacing: -2px;
 }
 
 h2{
@@ -392,6 +391,10 @@ main {
 .slide-fade-enter, .slide-fade-leave-to {
   transform: translateY(2rem);
   opacity: 0;
+}
+
+.sub1, .sub2, .sub3{
+  letter-spacing: -1px;
 }
 
 .sub1 {
