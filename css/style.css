@@ -484,7 +484,7 @@ img{
 }
 
 .green{
-  background-color: #52DE97;
+  background-color: #00ff36;
 }
 .green img{
    mix-blend-mode: multiply;
@@ -492,7 +492,7 @@ img{
   filter: grayscale(100%) contrast(1);
 }
 .green::after{
-  background-color: #C0FFB3;
+  background-color: #23278a;
   mix-blend-mode: lighten;
 }
 
