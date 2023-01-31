@@ -23,8 +23,8 @@
   --psub2: #65D6CE;
   --psub3: #FFD365;
   --f1: #fff;
-  --f2: #65D6CE;
-  --f3: #FFD365;
+  --f2: #fff;
+  --f3: #fff;
   --sizebody: 13px;
   --sizetitle: calc(27vw + 1rem);
   --sizetitle2: 8vw;
@@ -714,7 +714,7 @@ background-color: #f1e3a0;
 }
 
 .projects .soc a{
-  color: var(--psub2); 
+  color: var(--c2); 
   border-color: var(--c2);
 }
 
