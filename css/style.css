@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6, h7{
   font-weight: 600;  
   text-transform:uppercase;
   text-align:left;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   line-height: 1;
 }
 
@@ -249,7 +249,7 @@ a {
 .bg {
   background: inherit;
   min-height: 100vh;
-  padding: 30px 0 20px 0;
+  padding: 40px 0 20px 0;
   transition: background 0s 1.5s, color 1.1s;
 }
 
