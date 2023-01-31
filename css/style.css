@@ -116,7 +116,7 @@ h1.text-overlap {
   transition: all 1.5s; 
 }
 
-.text-overlap.splitting .char {
+h1.text-overlap.splitting .char {
   margin-right: -0.12em;
   text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); 
   -webkit-animation: slide-in 2.5s cubic-bezier(0, 0.65, 0.29, 1) 0s both, fade-in 1.25s linear both;
@@ -125,7 +125,7 @@ h1.text-overlap {
           animation-delay: calc(1s + (0.5s * var(--distance-percent)));
 }
 
-.projects .text-overlap.splitting .char {
+.projects h1.text-overlap.splitting .char {
   margin-right: -0.12em;
   text-shadow: 0px 0px 15px rgba(0,0,0, 5); 
   -webkit-animation: slide-in 2.5s cubic-bezier(0, 0.65, 0.29, 1) 0s both, fade-in 1.25s linear both;
@@ -134,7 +134,7 @@ h1.text-overlap {
           animation-delay: calc(1s + (0.5s * var(--distance-percent)));
 }
 
-.find-me .text-overlap.splitting .char {
+.find-me h1.text-overlap.splitting .char {
   margin-right: -0.12em;
   text-shadow: 0px 0px 15px rgba(0,0,0,.5);
   -webkit-animation: slide-in 2.5s cubic-bezier(0, 0.65, 0.29, 1) 0s both, fade-in 1.25s linear both;
@@ -166,7 +166,7 @@ h1.text-overlap {
   }
 }
 
-.text-overlap.splitting b {
+h1.text-overlap.splitting b {
   display: inline-block;
   color: var(--c1);
   transition: all 1.5s;
@@ -181,7 +181,7 @@ h1.text-overlap {
   -webkit-animation-timing-function: cubic-bezier(0, 0.7, 0.1, 1), linear;
           animation-timing-function: cubic-bezier(0, 0.7, 0.1, 1), linear;
 }
-.projects .text-overlap.splitting b {
+.projects h1.text-overlap.splitting b {
   display: inline-block;
   color: var(--c2);
   transition: all 1.5s;
@@ -196,7 +196,7 @@ h1.text-overlap {
   -webkit-animation-timing-function: cubic-bezier(0, 0.7, 0.1, 1), linear;
           animation-timing-function: cubic-bezier(0, 0.7, 0.1, 1), linear;
 }
-.find-me .text-overlap.splitting b {
+.find-me h1.text-overlap.splitting b {
   display: inline-block;
   color: var(--c3);
   transition: all 1.5s;
@@ -225,7 +225,7 @@ h1.text-overlap {
     transform: translateY(-50vh);
   }
 }
-.text-overlap.splitting b ~ * .char {
+h1.text-overlap.splitting b ~ * .char {
   z-index: calc(1 * (var(--char-total) - var(--char-index)));
 }
 
