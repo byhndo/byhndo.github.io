@@ -777,7 +777,7 @@ background-color: #f1e3a0;
 }
 
 @media(min-width:576px){
-h1 {
+h1.text-overlap {
   padding-top:100px;
   max-width: 75vw;
   margin-left: -6px;
