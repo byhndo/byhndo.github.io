@@ -89,7 +89,7 @@ h7{
   -webkit-text-stroke-color:var(--sub3);
 }
 
-h1.text-overlap {
+h1 .text-overlap {
   text-align: left;
   margin: 0 auto 0 -3px;
   padding: 30px 0 30px 0;
@@ -103,13 +103,13 @@ h1.text-overlap {
   transition: all 1.5s; 
 }
 
-.projects h1.text-overlap {
+.projects h1 .text-overlap {
   font-family: var(--font1);
   font-weight: 800;
   color: var(--titlecolor2); 
   transition: all 1.5s; 
 }
-.find-me h1.text-overlap {
+.find-me h1 .text-overlap {
   font-family: var(--font1);
   font-weight: 800;
   color: var(--titlecolor3); 
@@ -166,7 +166,7 @@ h1.text-overlap {
   }
 }
 
-h1.text-overlap.splitting b {
+h1 .text-overlap.splitting b {
   display: inline-block;
   color: var(--c1);
   transition: all 1.5s;
@@ -181,7 +181,7 @@ h1.text-overlap.splitting b {
   -webkit-animation-timing-function: cubic-bezier(0, 0.7, 0.1, 1), linear;
           animation-timing-function: cubic-bezier(0, 0.7, 0.1, 1), linear;
 }
-.projects h1.text-overlap.splitting b {
+.projects h1 .text-overlap.splitting b {
   display: inline-block;
   color: var(--c2);
   transition: all 1.5s;
@@ -196,7 +196,7 @@ h1.text-overlap.splitting b {
   -webkit-animation-timing-function: cubic-bezier(0, 0.7, 0.1, 1), linear;
           animation-timing-function: cubic-bezier(0, 0.7, 0.1, 1), linear;
 }
-.find-me h1.text-overlap.splitting b {
+.find-me h1 .text-overlap.splitting b {
   display: inline-block;
   color: var(--c3);
   transition: all 1.5s;
