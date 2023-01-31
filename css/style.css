@@ -89,35 +89,27 @@ h7{
   -webkit-text-stroke-color:var(--sub3);
 }
 
-h1{
+h1 .text-overlap{
   text-align: left;
   margin: 0 auto 0 -3px;
   padding: 30px 0 30px 0;
   text-transform: uppercase;
   font-weight: 800;
   line-height: 1;
-  font-size: var(--sizetitle);
-  background-color: var(--titlecolor1);
-  -webkit-background-clip: text;
-  transition: background-position 1.5s, background-color 1.5s; 
-}
-
-
-
-.text-overlap {
   font-family: var(--font1);
-  font-weight: 800;
-  color: var(--titlecolor1); 
+  font-size: var(--sizetitle);
+  color: var(--titlecolor1);
+  -webkit-background-clip: text;
   transition: all 1.5s; 
 }
 
-.projects .text-overlap {
+.projects h1 .text-overlap {
   font-family: var(--font1);
   font-weight: 800;
   color: var(--titlecolor2); 
   transition: all 1.5s; 
 }
-.find-me .text-overlap {
+.find-me h1 .text-overlap {
   font-family: var(--font1);
   font-weight: 800;
   color: var(--titlecolor3); 
