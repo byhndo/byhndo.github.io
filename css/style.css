@@ -120,13 +120,13 @@ h1{
   transition: all 1.5s; 
 }
 
-.projects h1.text-overlap {
+.projects .text-overlap {
   font-family: var(--font1);
   font-weight: 800;
   color: var(--titlecolor2); 
   transition: all 1.5s; 
 }
-.find-me h1.text-overlap {
+.find-me .text-overlap {
   font-family: var(--font1);
   font-weight: 800;
   color: var(--titlecolor3); 
