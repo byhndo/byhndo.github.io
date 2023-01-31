@@ -113,7 +113,7 @@ h1{
   transition: background-position 1.5s, background-color 1.5s; 
 }
 
-h1.text-overlap {
+.text-overlap {
   font-family: var(--font1);
   font-weight: 800;
   color: var(--titlecolor1); 
@@ -132,7 +132,7 @@ h1.text-overlap {
   transition: all 1.5s; 
 }
 
-h1.text-overlap.splitting .char {
+.text-overlap.splitting .char {
   margin-right: -0.12em;
   text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); 
   -webkit-animation: slide-in 2.5s cubic-bezier(0, 0.65, 0.29, 1) 0s both, fade-in 1.25s linear both;
