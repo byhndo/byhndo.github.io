@@ -238,6 +238,7 @@ body {
   line-height: 1.5;
   flex-wrap: wrap;
   word-wrap: break-word;
+  display: flex;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
 }
