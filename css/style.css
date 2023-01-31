@@ -174,8 +174,8 @@ h1.text-overlap.splitting b {
           animation-name: slide-in-v, fade-in;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
   -webkit-animation-duration: 1.75s, 1s;
           animation-duration: 1.75s, 1s;
   -webkit-animation-timing-function: cubic-bezier(0, 0.7, 0.1, 1), linear;
@@ -189,8 +189,8 @@ h1.text-overlap.splitting b {
           animation-name: slide-in-v, fade-in;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
   -webkit-animation-duration: 1.75s, 1s;
           animation-duration: 1.75s, 1s;
   -webkit-animation-timing-function: cubic-bezier(0, 0.7, 0.1, 1), linear;
@@ -204,8 +204,8 @@ h1.text-overlap.splitting b {
           animation-name: slide-in-v, fade-in;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
   -webkit-animation-duration: 1.75s, 1s;
           animation-duration: 1.75s, 1s;
   -webkit-animation-timing-function: cubic-bezier(0, 0.7, 0.1, 1), linear;
