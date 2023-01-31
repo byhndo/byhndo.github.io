@@ -225,7 +225,7 @@ h1.text-overlap.splitting b {
     transform: translateY(-50vh);
   }
 }
-h1.text-overlap.splitting b ~ * .char {
+.text-overlap.splitting b ~ * .char {
   z-index: calc(1 * (var(--char-total) - var(--char-index)));
 }
 
