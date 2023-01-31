@@ -89,7 +89,7 @@ h7{
   -webkit-text-stroke-color:var(--sub3);
 }
 
-h1 .text-overlap {
+h1.text-overlap {
   text-align: left;
   margin: 0 auto 0 -3px;
   padding: 30px 0 30px 0;
@@ -125,7 +125,7 @@ h1 .text-overlap {
           animation-delay: calc(1s + (0.5s * var(--distance-percent)));
 }
 
-.projects h1.text-overlap.splitting .char {
+.projects h1 .text-overlap.splitting .char {
   margin-right: -0.12em;
   text-shadow: 0px 0px 15px rgba(0,0,0, 5); 
   -webkit-animation: slide-in 2.5s cubic-bezier(0, 0.65, 0.29, 1) 0s both, fade-in 1.25s linear both;
@@ -134,7 +134,7 @@ h1 .text-overlap {
           animation-delay: calc(1s + (0.5s * var(--distance-percent)));
 }
 
-.find-me h1.text-overlap.splitting .char {
+.find-me h1 .text-overlap.splitting .char {
   margin-right: -0.12em;
   text-shadow: 0px 0px 15px rgba(0,0,0,.5);
   -webkit-animation: slide-in 2.5s cubic-bezier(0, 0.65, 0.29, 1) 0s both, fade-in 1.25s linear both;
