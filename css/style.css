@@ -2,24 +2,24 @@
 
 :root {
   --black:#000; 
-  --n1: #fff;
-  --n2: #65D6CE;
-  --n3: #FFD365;
-  --bg1: #1F4690;
-  --bg2: #142F43;  
-  --bg3: #1C6758;
-  --titlecolor1: #fff;
-  --titlecolor2: #65D6CE;
-  --titlecolor3: #FFD365;
+  --n1: #FFD365;
+  --n2: #fff;
+  --n3: #65D6CE;
+  --bg1: #1C6758;
+  --bg2: #000;  
+  --bg3: #000;
+  --titlecolor1: #FFD365;
+  --titlecolor2: #fff;
+  --titlecolor3: #65D6CE;
   --c1: #A5F1E9;
-  --c2: #FF9494;
+  --c2: #fff;
   --c3: #65D6CE;
   --sub1: #fff;
-  --sub2: #65D6CE;
+  --sub2: #fff;
   --sub3: #FFD365;  
   --psub1: #fff;
   --psub2: #65D6CE;
-  --psub3: #FFD365;
+  --psub3: #fff;
   --f1: #fff;
   --f2: #65D6CE;
   --f3: #FFD365;
