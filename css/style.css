@@ -562,17 +562,17 @@ background-color: #f1e3a0;
   mix-blend-mode: multiply;
 }
 
-.teal{
-  background-color: #7FE9DE;
+.peach{
+  background-color: #FCA300;
 }
-.teal img{
-   mix-blend-mode: multiply;
-  -webkit-filter: grayscale(100%) contrast(1.2);
-  filter: grayscale(100%) contrast(1.2);
+.peach img{
+  mix-blend-mode: darken;
 }
-.teal::after{
-  background-color: #7FE9DE;
+.peach::after{
+  background: #282581;
   mix-blend-mode: lighten;
+  -webkit-filter: contrast(1.1);
+  filter: contrast(1.1);
 }
 
 .pink{
