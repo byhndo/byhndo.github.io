@@ -166,7 +166,7 @@ h1.text-overlap {
   }
 }
 
-.text-overlap.splitting b {
+h1.text-overlap.splitting b {
   display: inline-block;
   color: var(--c1);
   transition: all 1.5s;
