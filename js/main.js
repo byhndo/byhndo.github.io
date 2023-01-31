@@ -18,7 +18,7 @@ AOS.init({
   offset: 120,
   duration: 200,
   easing: 'ease-out-back',
-  delay: 200
+  delay: 300
 });
 
 
