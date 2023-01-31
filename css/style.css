@@ -103,13 +103,13 @@ h1.text-overlap {
   transition: all 1.5s; 
 }
 
-.projects h1 .text-overlap {
+.projects h1.text-overlap {
   font-family: var(--font1);
   font-weight: 800;
   color: var(--titlecolor2); 
   transition: all 1.5s; 
 }
-.find-me h1 .text-overlap {
+.find-me h1.text-overlap {
   font-family: var(--font1);
   font-weight: 800;
   color: var(--titlecolor3); 
@@ -166,7 +166,7 @@ h1.text-overlap {
   }
 }
 
-h1 .text-overlap.splitting b {
+.text-overlap.splitting b {
   display: inline-block;
   color: var(--c1);
   transition: all 1.5s;
@@ -225,7 +225,7 @@ h1 .text-overlap.splitting b {
     transform: translateY(-50vh);
   }
 }
-h1.text-overlap.splitting b ~ * .char {
+.text-overlap.splitting b ~ * .char {
   z-index: calc(1 * (var(--char-total) - var(--char-index)));
 }
 
