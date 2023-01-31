@@ -5,7 +5,7 @@
   --black:#000; 
   --n1: #fff;
   --n2: #fff;
-  --n3: #364E68;
+  --n3: #65D6CE;
   --bg1: #2E4C6D;
   --bg2: #3F4E4F;  
   --bg3: #1E5128;
@@ -17,13 +17,13 @@
   --c3: #FF9494;
   --sub1: #fff;
   --sub2: #fff; 
-  --sub3: #364E68;  
+  --sub3: #65D6CE;  
   --psub1: #fff;
   --psub2: #fff;
-  --psub3: #364E68;
+  --psub3: #65D6CE;
   --f1: #fff;
   --f2: #fff;
-  --f3: #364E68;
+  --f3: #65D6CE;
   --sizebody: 13px;
   --sizetitle: calc(27vw + 1rem);
   --sizetitle2: 8vw;
