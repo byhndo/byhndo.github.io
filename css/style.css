@@ -704,11 +704,11 @@ background-color: #f1e3a0;
   border-radius:50%;
   width: 28px;
   height: 28px;
-  opacity:.6;
+  opacity:1;
 }
 
 .soc a:hover, .soc a:active{
-  opacity: 1;
+  opacity: .6;
   color: var(--c1); 
   border-color: var(--c1);
 }
