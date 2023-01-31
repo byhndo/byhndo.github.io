@@ -119,18 +119,8 @@ h1{
   color: var(--titlecolor1); 
   transition: all 1.5s; 
 }
-.projects .text-overlap {
-  font-family: var(--font1);
-  font-weight: 800;
-  color: var(--titlecolor2); 
-  transition: all 1.5s; 
-}
-.find-me .text-overlap {
-  font-family: var(--font1);
-  font-weight: 800;
-  color: var(--titlecolor3); 
-  transition: all 1.5s; 
-}
+
+
 
 .text-overlap.splitting .char {
   margin-right: -0.12em;
