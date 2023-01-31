@@ -146,13 +146,13 @@ h1.text-overlap {
 @-webkit-keyframes slide-in {
   0% {
     transform: translateX(1em);
-    transform: translateX(calc(0.12em * var(--char-offset))) translateZ(0px);
+    transform: translateX(calc(0.12em * var(--char-offset))) translateY(0px);
   }
 }
 @keyframes slide-in {
   0% {
     transform: translateX(1em);
-    transform: translateX(calc(0.12em * var(--char-offset))) translateZ(0px);
+    transform: translateX(calc(0.12em * var(--char-offset))) translateY(0px);
   }
 }
 @-webkit-keyframes fade-in {
@@ -238,7 +238,6 @@ body {
   line-height: 1.5;
   flex-wrap: wrap;
   word-wrap: break-word;
-  overflow: hidden;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
 }
