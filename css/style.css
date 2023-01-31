@@ -16,9 +16,9 @@
   --c1: #FFD365;
   --c2: #DD4A48;
   --c3: #65D6CE;
-  --sub1: #FFD365;
+  --sub1: #65D6CE;
   --sub2: #DD4A48;
-  --sub3: #65D6CE;  
+  --sub3: #FFD365;  
   --psub1: #fff;
   --psub2: #fff;
   --psub3: #fff;
@@ -695,12 +695,12 @@ background-color: #f1e3a0;
 .soc a {
   display: block;
   padding:2.4px 1px 0px .5px;
-  color: var(--c1);
+  color: var(--titlecolor1);
   text-decoration: none;
   text-transform: uppercase;
   font-size: 15px;
   transition: all ease-out 2s;
-  border:1px solid var(--c1);
+  border:1px solid var(--titlecolor1);
   border-radius:50%;
   width: 28px;
   height: 28px;
@@ -709,28 +709,28 @@ background-color: #f1e3a0;
 
 .soc a:hover, .soc a:active{
   opacity: .6;
-  color: var(--c1); 
-  border-color: var(--c1);
+  color: var(--titlecolor1); 
+  border-color: var(--titlecolor1);
 }
 
 .projects .soc a{
-  color: var(--c2); 
-  border-color: var(--c2);
+  color: var(--titlecolor2); 
+  border-color: var(--titlecolor2);
 }
 
 .projects .soc a:hover, .projects .soc a:active{
-  color: var(--c2); 
-  border-color: var(--c2);
+  color: var(--titlecolor2); 
+  border-color: var(--titlecolor2);
 }
 
 .find-me .soc a{
-  color: var(--c3); 
-  border-color: var(--c3);
+  color: var(--titlecolor3); 
+  border-color: var(--titlecolor3);
 }
 
 .find-me .soc a:hover, .find-me .soc a:active{
-  color: var(--c3); 
-  border-color: var(--c3);
+  color: var(--titlecolor3); 
+  border-color: var(--titlecolor3);
 }
 
 .footer {
