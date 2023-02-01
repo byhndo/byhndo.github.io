@@ -24,7 +24,7 @@
   --f2: #fff;
   --f3: #FFD365;
   --sizebody: 13px;
-  --sizetitle: calc(16vw + 1rem);
+  --sizetitle: calc(26vw + 1rem);
   --sizetitle2: 8vw;
   --sizenav: 9.5px; 
   --font1: 'Barlow Condensed', sans-serif;
@@ -93,6 +93,7 @@ h1.text-overlap {
   margin: 0 auto 0 -3px;
   padding: 30px 0 30px 0;
   font-weight: 800;
+  text-transform: uppercase;
   line-height: 1;
   font-family: var(--font1);
   font-size: var(--sizetitle);
