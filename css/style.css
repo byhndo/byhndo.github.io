@@ -771,7 +771,7 @@ h1.text-overlap {
   padding-top:70px;
   max-width: 75vw;
   margin-left: -6px;
-  font-size: calc(20vw + 1rem);
+  font-size: calc(21vw + 1rem);
 }
 
 main{
@@ -784,6 +784,6 @@ p.sub1,p.sub2, p.sub3{
 }
 
 .soc{
-  margin: 0 auto
+  margin: 60px auto;
 }
 }
