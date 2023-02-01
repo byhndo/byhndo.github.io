@@ -49,27 +49,27 @@ h1, h2, h3, h4, h5, h6, h7{
 }
 
 h2{
-  font-size: 400%;
+  font-size: 370%;
 }
 
 h3{
- font-size: 350%;
+ font-size: 320%;
 }
 
 h4{
-  font-size: 300%;
+  font-size: 270%;
 }
 
 h5{
-  font-size: 250%;
+  font-size: 220%;
 }
 
 h6{
-  font-size: 200%;
+  font-size: 170%;
 }
 
 h7{
-  font-size: 150%;
+  font-size: 120%;
 }
 
 .sub1 h3 span, .sub2 h3 span, .sub3 h3 span{
