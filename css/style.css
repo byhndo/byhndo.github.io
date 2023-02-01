@@ -25,7 +25,7 @@
   --f2: #fff;
   --f3: #fff;
   --sizebody: 13px;
-  --sizetitle: calc(16vw + 1rem);
+  --sizetitle: calc(10vw + 1rem);
   --sizetitle2: 8vw;
   --sizenav: 9.5px; 
   --font1: 'Bungee Outline', sans-serif;
@@ -40,7 +40,7 @@
 }
 
 h1, h2, h3, h4, h5, h6, h7{
-  font-family: var(--font1);
+  font-family: var(--font2);
   font-weight: 400;  
   text-align:left;
   line-height: 1;
