@@ -114,7 +114,6 @@ h1.text-overlap {
 }
 
 .text-overlap.splitting .char {
-  margin-right: -5px;
   -webkit-animation: slide-in 2.5s cubic-bezier(0, 0.65, 0.29, 1) 0s both, fade-in 1.25s linear both;
           animation: slide-in 2.5s cubic-bezier(0, 0.65, 0.29, 1) 0s both, fade-in 1.25s linear both;
   -webkit-animation-delay: calc(1s + (0.5s * var(--distance-percent)));
@@ -122,7 +121,6 @@ h1.text-overlap {
 }
 
 .projects h1 .text-overlap.splitting .char {
-  margin-right: -5px;
   -webkit-animation: slide-in 2.5s cubic-bezier(0, 0.65, 0.29, 1) 0s both, fade-in 1.25s linear both;
           animation: slide-in 2.5s cubic-bezier(0, 0.65, 0.29, 1) 0s both, fade-in 1.25s linear both;
   -webkit-animation-delay: calc(1s + (0.5s * var(--distance-percent)));
@@ -130,7 +128,6 @@ h1.text-overlap {
 }
 
 .find-me h1 .text-overlap.splitting .char {
-  margin-right: -5px;
   -webkit-animation: slide-in 2.5s cubic-bezier(0, 0.65, 0.29, 1) 0s both, fade-in 1.25s linear both;
           animation: slide-in 2.5s cubic-bezier(0, 0.65, 0.29, 1) 0s both, fade-in 1.25s linear both;
   -webkit-animation-delay: calc(1s + (0.5s * var(--distance-percent)));
