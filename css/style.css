@@ -95,7 +95,7 @@ h1.text-overlap {
   margin: 0 auto 0 -3px;
   padding: 30px 0 30px 0;
   text-transform: uppercase;
-  font-weight: 800;
+  font-weight: 400;
   line-height: 1;
   font-family: var(--font1);
   font-size: var(--sizetitle);
@@ -106,20 +106,16 @@ h1.text-overlap {
 
 .projects h1.text-overlap {
   font-family: var(--font1);
-  font-weight: 800;
   color: var(--titlecolor2); 
   transition: all 1.5s; 
 }
 .find-me h1.text-overlap {
   font-family: var(--font1);
-  font-weight: 800;
   color: var(--titlecolor3); 
   transition: all 1.5s; 
 }
 
 .text-overlap.splitting .char {
-  margin-right: -0.12em;
-  text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); 
   -webkit-animation: slide-in 2.5s cubic-bezier(0, 0.65, 0.29, 1) 0s both, fade-in 1.25s linear both;
           animation: slide-in 2.5s cubic-bezier(0, 0.65, 0.29, 1) 0s both, fade-in 1.25s linear both;
   -webkit-animation-delay: calc(1s + (0.5s * var(--distance-percent)));
@@ -127,8 +123,6 @@ h1.text-overlap {
 }
 
 .projects h1 .text-overlap.splitting .char {
-  margin-right: -0.12em;
-  text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); 
   -webkit-animation: slide-in 2.5s cubic-bezier(0, 0.65, 0.29, 1) 0s both, fade-in 1.25s linear both;
           animation: slide-in 2.5s cubic-bezier(0, 0.65, 0.29, 1) 0s both, fade-in 1.25s linear both;
   -webkit-animation-delay: calc(1s + (0.5s * var(--distance-percent)));
@@ -136,8 +130,6 @@ h1.text-overlap {
 }
 
 .find-me h1 .text-overlap.splitting .char {
-  margin-right: -0.12em;
-  text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
   -webkit-animation: slide-in 2.5s cubic-bezier(0, 0.65, 0.29, 1) 0s both, fade-in 1.25s linear both;
           animation: slide-in 2.5s cubic-bezier(0, 0.65, 0.29, 1) 0s both, fade-in 1.25s linear both;
   -webkit-animation-delay: calc(1s + (0.5s * var(--distance-percent)));
