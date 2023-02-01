@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
 :root {
@@ -28,7 +28,7 @@
   --sizetitle: calc(16vw + 1rem);
   --sizetitle2: 8vw;
   --sizenav: 9.5px; 
-  --font1: 'Abril Fatface', 'Barlow Condensed', sans-serif;
+  --font1: 'Playfair Display', sans-serif;
   --font2: 'Figtree', sans-serif;
   --radius: 0px;
   --marginp: 23px;
