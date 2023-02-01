@@ -100,7 +100,7 @@ h1.text-overlap {
   color: var(--titlecolor1);
   -webkit-background-clip: text;
   transition: all 1.5s; 
-  letter-spacing: -5px;
+  letter-spacing: -2px;
 }
 
 .projects h1.text-overlap {
