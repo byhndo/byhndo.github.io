@@ -25,7 +25,7 @@
   --f2: #fff;
   --f3: #fff;
   --sizebody: 13px;
-  --sizetitle: calc(27vw + 1rem);
+  --sizetitle: calc(20vw + 1rem);
   --sizetitle2: 8vw;
   --sizenav: 9.5px; 
   --font1: 'Abril Fatface', 'Barlow Condensed', sans-serif;
@@ -93,7 +93,6 @@ h1.text-overlap {
   text-align: left;
   margin: 0 auto 0 -3px;
   padding: 30px 0 30px 0;
-  text-transform: uppercase;
   font-weight: 400;
   line-height: 1;
   font-family: var(--font1);
