@@ -682,7 +682,7 @@ background-color: #f1e3a0;
 
 .soc a {
   display: block;
-  padding:2.9px .3px 0 0;
+  padding:3px .2px 0 0;
   color: var(--bg1);
   font-size: 15px;
   transition: all ease-out 2s;
