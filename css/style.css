@@ -682,7 +682,7 @@ background-color: #f1e3a0;
 
 .soc a {
   display: block;
-  padding:3px 1px .3px 0px;
+  padding:2.8px 1px .5px 0px;
   color: var(--bg1);
   text-decoration: none;
   text-transform: uppercase;
