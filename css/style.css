@@ -684,7 +684,7 @@ background-color: #f1e3a0;
   display: block;
   justify-content: center;
   text-align: center;
-  vertical-align: middle;
+  vertical-align: baseline;
   color: var(--bg1);
   text-decoration: none;
   text-transform: uppercase;
