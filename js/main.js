@@ -16,8 +16,8 @@ Splitting();
 AOS.init();
 AOS.init({
   offset: 120,
-  duration: 2100,
-  easing: 'ease-out-back',
+  duration: 3000,
+  easing: 'ease-out-sine',
   delay: 200
 });
 
