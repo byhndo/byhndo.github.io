@@ -683,7 +683,7 @@ background-color: #f1e3a0;
 .soc a {
   display: block;
   padding:2.4px 1px 0px .5px;
-  color: transparent;
+  color: var(--bg1);
   text-decoration: none;
   text-transform: uppercase;
   font-size: 15px;
@@ -697,23 +697,28 @@ background-color: #f1e3a0;
 
 .soc a:hover, .soc a:active{
   opacity: .6;
+  color: var(--bg1);
   background-color: var(--titlecolor1);
 }
 
 .projects .soc a{
   background-color: var(--titlecolor2);
+  color: var(--bg2);
 }
 
 .projects .soc a:hover, .projects .soc a:active{
   background-color: var(--titlecolor2);
+  color: var(--bg2);
 }
 
 .find-me .soc a{ 
   background-color: var(--titlecolor3);
+  color: var(--bg3);
 }
 
 .find-me .soc a:hover, .find-me .soc a:active{ 
   background-color: var(--titlecolor3);
+  color: var(--bg3);
 }
 
 .footer {
