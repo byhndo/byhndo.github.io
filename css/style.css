@@ -662,25 +662,6 @@ background-color: #f1e3a0;
   opacity: 1;
 }
 
-
-[data-aos].animated {
-  visibility: visible;
-  pointer-events: auto;
-}
-
-[data-aos] {
-  @for $i from 1 through 60 {
-    body[data-aos-delay='#{$i * 50}'] &,
-    &[data-aos][data-aos-delay='#{$i * 50}'] {
-      animation-delay: #{$i * 50}ms;
-
-      &.aos-animate {
-        animation-delay: #{$i * 50}ms;
-      }
-    }
-  }
-}
-
 .soc {
   margin: 60px 0 0 0;
 }
