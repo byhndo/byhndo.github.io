@@ -17,7 +17,7 @@ AOS.init();
 AOS.init({
   easing: 'ease-out-sine',
   once: false,
-  offset: 1000
+  offset: 3000
 });
 
 
