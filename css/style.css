@@ -737,7 +737,6 @@ background-color: #f1e3a0;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: var(--spacingnav);
-  transition: all ease-out 2s;
 }
 
 .projects .footer span, .projects .footer span a{
