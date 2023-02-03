@@ -16,7 +16,7 @@ Splitting();
 AOS.init();
 AOS.init({
   offset: 120,
-  easing: 'ease-out-quad'
+  easing: 'ease-out-quart'
 });
 
 
