@@ -15,7 +15,8 @@ Splitting();
 
 AOS.init();
 AOS.init({
-  easing: 'ease-out-sine'
+  easing: 'ease-out-sine',
+  once: false
 });
 
 
