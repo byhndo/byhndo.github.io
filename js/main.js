@@ -15,8 +15,10 @@ Splitting();
 
 AOS.init();
 AOS.init({
-  offset: 150,
-  easing: 'ease-out-sine'
+  offset: 200,
+  easing: 'ease-out-sine',
+  throttleDelay: 99,
+  mirror: true
 });
 
 
