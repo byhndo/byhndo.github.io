@@ -663,7 +663,7 @@ background-color: #f1e3a0;
 }
 
 .soc {
-  margin: 60px 0 0 0;
+  margin: 60px 0 0 -3px;
 }
 
 .soc ul.ico {
@@ -782,5 +782,8 @@ main{
 
 p.sub1,p.sub2, p.sub3{
   text-align: left;
+}
+.soc {
+  margin-left: -6px;
 }
 }
