@@ -71,20 +71,20 @@ h7{
   font-size: 120%;
 }
 
-.sub1 h3 span, .sub2 h3 span, .sub3 h3 span{
+.sub1 h3, .sub2 h3, .sub3 h3 {
   -webkit-text-fill-color: transparent; 
   -webkit-text-stroke-width: 1px;
 }
 
-.sub1 h3 span{
+.sub1 h3 {
   -webkit-text-stroke-color:var(--sub1);
 }
 
-.sub2 h3 span{
+.sub2 h3 {
   -webkit-text-stroke-color:var(--sub2);
 }
 
-.sub3 h3 span{
+.sub3 h3 {
   -webkit-text-stroke-color:var(--sub3);
 }
 
