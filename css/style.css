@@ -727,6 +727,7 @@ background-color: #f1e3a0;
   right: 0;
   margin: 20px 0 0 0;
   text-align: center;
+  transition: all ease-out 2s;
 }
 
 .footer span {
@@ -736,6 +737,7 @@ background-color: #f1e3a0;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: var(--spacingnav);
+  transition: all ease-out 2s;
 }
 
 .projects .footer span, .projects .footer span a{
@@ -748,7 +750,6 @@ background-color: #f1e3a0;
 
 .footer span, .footer span a{
   text-decoration:none;
-  transition: all ease-out 2s;
 }
 
 .footer span.fc{
