@@ -662,9 +662,6 @@ background-color: #f1e3a0;
   opacity: 1;
 }
 
-[data-aos] {
-  visibility: hidden;
-}
 
 [data-aos].animated {
   visibility: visible;
