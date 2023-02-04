@@ -179,6 +179,7 @@ h1.text-overlap {
   color: var(--c1);
   -webkit-background-clip: text;
   top:-120vh;
+  transition: color 1.5s;
 }
 .projects .dot {
   color: var(--c2);
