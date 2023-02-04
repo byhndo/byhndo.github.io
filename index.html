@@ -175,5 +175,18 @@
 <script src="js/aos.js"></script>
 <script src="js/splitting.js"></script>
 <script src="js/main.js"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+<script>
+$(document).ready(function() {
+  $( "h1.text-overlap b" ).animate({
+    height: "toggle"    
+  }, 3000, 'easeOutBounce', function() { // just change this functions' name to use a different easing
+  });
+
+});
+
+</script>
+
 </body>
 </html>
