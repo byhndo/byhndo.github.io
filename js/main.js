@@ -22,6 +22,6 @@ AOS.init({
 
 
 
-  $( ".dot" ).animate({top:"0"},
+  $( ".dot" ).delay(1000).animate({top:"0"},
      2000, 'easeOutBounce'
 )
