@@ -179,6 +179,7 @@ h1.text-overlap {
   -webkit-background-clip: text;
   transition: all 1.5s; 
   top:-120vh;
+  transform: translateY(-30vh);
 }
 .projects .dot {
   display: inline-block;
