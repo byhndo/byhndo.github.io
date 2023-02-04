@@ -81,7 +81,6 @@ h7{
 .sub1 h3, .sub2 h3, .sub3 h3 {
   -webkit-text-fill-color: transparent; 
   -webkit-text-stroke-width: 1px;
-  margin-top: 30vh;
 }
 
 .sub1 h3 {
@@ -248,7 +247,7 @@ a {
 .bg {
   background: inherit;
   min-height: 100vh;
-  padding:30vh 0 20px 0;
+  padding:10vh 0 2vh 0;
   transition: background 0s 2s, color 1.6s;
 }
 
