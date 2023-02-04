@@ -769,7 +769,6 @@ background-color: #f1e3a0;
 
 @media(min-width:576px){
 h1.text-overlap {
-  padding-top:70px;
   max-width: 75vw;
   margin-left: -6px;
   font-size: calc(20vw + 1rem);
