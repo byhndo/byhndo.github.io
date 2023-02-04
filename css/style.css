@@ -166,9 +166,7 @@ h1.text-overlap {
 
 .dot {
   display: inline-block;
-  color: var(--c1);
-  transition: all 1.5s;
-text-align: left;
+  text-align: left;
   margin: 0 auto 0 -3px;
   padding: 0;
   font-weight: 800;
@@ -176,7 +174,7 @@ text-align: left;
   line-height: 1;
   font-family: var(--font1);
   font-size: var(--sizetitle);
-  color: var(--titlecolor1);
+  color: var(--c1);
   -webkit-background-clip: text;
   transition: all 1.5s; 
   top:-120vh;
