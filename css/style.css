@@ -181,10 +181,8 @@ h1.text-overlap {
   top:-120vh;
   -webkit-animation-name: fade-in;
           animation-name: fade-in;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
-  -webkit-animation-duration: 1.75s, 1s;
-          animation-duration: 1.75s, 1s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
 }
 .projects .dot {
   display: inline-block;
@@ -193,10 +191,8 @@ h1.text-overlap {
   top:-120vh;
   -webkit-animation-name: fade-in;
           animation-name: fade-in;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
-  -webkit-animation-duration: 1.75s, 1s;
-          animation-duration: 1.75s, 1s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
 }
 .find-me .dot {
   display: inline-block;
@@ -205,10 +201,8 @@ h1.text-overlap {
   top:-120vh;
   -webkit-animation-name: fade-in;
           animation-name: fade-in;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
-  -webkit-animation-duration: 1.75s, 1s;
-          animation-duration: 1.75s, 1s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
 }
 @-webkit-keyframes slide-in-v {
   0% {
