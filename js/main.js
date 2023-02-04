@@ -22,6 +22,6 @@ AOS.init({
 
 
 
-  $( "h1.dot" ).animate({top:"0"},
+  $( "h1 .dot" ).animate({top:"0"},
      2000, 'easeOutBounce'
 )
