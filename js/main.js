@@ -7,9 +7,7 @@ new Vue({
   }
 })
 
-
 Splitting();
-
 
 AOS.init();
 AOS.init({
@@ -18,11 +16,8 @@ AOS.init({
   offset: 0
 });
 
-
-
-
 $(document).ready(function() {
   $( ".dot" ).delay(200).animate({top:"0"},
-     3000, 'easeOutBounce'
+     3000, 'easeOutElastic'
 )
 });
