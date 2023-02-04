@@ -13,7 +13,7 @@ Splitting();
 
 $(document).ready(function() {
   $( ".dot" ).animate({top:"0"},
-     2000, 'easeOutBounce'
+     300, 'easeOutBounce'
 )
 });
 
