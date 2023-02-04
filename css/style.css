@@ -177,18 +177,13 @@ h1.text-overlap {
   font-size: var(--sizetitle);
   color: var(--c1);
   -webkit-background-clip: text;
-  transition: all 1.5s; 
   top:-120vh;
 }
 .projects .dot {
   color: var(--c2);
-  transition: all 1.5s;
-  top:-120vh;
 }
 .find-me .dot {
   color: var(--c3);
-  transition: all 1.5s;
-  top:-120vh;
 }
 
 body {
