@@ -164,7 +164,7 @@ h1.text-overlap {
   }
 }
 
-h1.text-overlap.splitting b {
+.dot {
   display: inline-block;
   color: var(--c1);
   transition: all 1.5s;
@@ -178,7 +178,7 @@ h1.text-overlap.splitting b {
   -webkit-animation-duration: 1.75s, 1s;
           animation-duration: 1.75s, 1s;
 }
-.projects h1.text-overlap.splitting b {
+.projects .dot {
   display: inline-block;
   color: var(--c2);
   transition: all 1.5s;
@@ -192,7 +192,7 @@ h1.text-overlap.splitting b {
   -webkit-animation-duration: 1.75s, 1s;
           animation-duration: 1.75s, 1s;
 }
-.find-me h1.text-overlap.splitting b {
+.find-me .dot {
   display: inline-block;
   color: var(--c3);
   transition: all 1.5s;
@@ -220,9 +220,7 @@ h1.text-overlap.splitting b {
     transform: translateY(-50vh);
   }
 }
-h1.text-overlap.splitting b ~ * .char {
-  z-index: calc(1 * (var(--char-total) - var(--char-index)));
-}
+
 
 
 body {
