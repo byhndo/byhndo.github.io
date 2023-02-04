@@ -22,7 +22,7 @@ AOS.init({
 
 
 $(document).ready(function() {
-  $( ".dot" ).delay(2000).animate({top:"0"},
-     2000, 'easeOutBounce'
+  $( ".dot" ).delay(1000).animate({top:"0"},
+     1000, 'easeOutBounce'
 )
 });
