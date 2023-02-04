@@ -12,7 +12,7 @@ Splitting();
 
 
 $(document).ready(function() {
-  $( "h3text-overlap .dot" ).animate({top:"0"},
+  $( ".dot" ).animate({top:"0"},
      2000, 'easeOutBounce'
 )
 });
