@@ -179,30 +179,18 @@ h1.text-overlap {
   -webkit-background-clip: text;
   transition: all 1.5s; 
   top:-120vh;
-  -webkit-animation-name: fade-in;
-          animation-name: fade-in;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
 }
 .projects .dot {
   display: inline-block;
   color: var(--c2);
   transition: all 1.5s;
   top:-120vh;
-  -webkit-animation-name: fade-in;
-          animation-name: fade-in;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
 }
 .find-me .dot {
   display: inline-block;
   color: var(--c3);
   transition: all 1.5s;
   top:-120vh;
-  -webkit-animation-name: fade-in;
-          animation-name: fade-in;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
 }
 @-webkit-keyframes slide-in-v {
   0% {
