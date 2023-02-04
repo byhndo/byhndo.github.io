@@ -179,10 +179,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
 <script>
 $(document).ready(function() {
-  $( ".text-overlap b" ).slideDown({
-    bottom: "0"    
-  }, 3000, 'easeOutBounce', function() { // just change this functions' name to use a different easing
-  });
+  $( ".text-overlap b" ).slideDown(
+     3000, 'easeOutBounce'
+);
 
 });
 
