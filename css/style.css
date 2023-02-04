@@ -181,9 +181,11 @@ h1.text-overlap {
 }
 .projects .dot {
   color: var(--c2);
+  top:-120vh;
 }
 .find-me .dot {
   color: var(--c3);
+  top:-120vh;
 }
 
 body {
