@@ -190,22 +190,6 @@ h1.text-overlap {
   transition: all 1.5s;
   top:-120vh;
 }
-@-webkit-keyframes slide-in-v {
-  0% {
-    opacity: 0;
-    transform: translateX(1em);
-    transform: translateY(-50vh);
-  }
-}
-@keyframes slide-in-v {
-  0% {
-    opacity: 0;
-    transform: translateX(1em);
-    transform: translateY(-50vh);
-  }
-}
-
-
 
 body {
   font-family: var(--font2);
