@@ -177,8 +177,6 @@ h1.text-overlap.splitting b {
           animation-delay: 2s;
   -webkit-animation-duration: 1.75s, 1s;
           animation-duration: 1.75s, 1s;
-  -webkit-animation-timing-function: cubic-bezier(0, 0.7, 0.1, 1), linear;
-          animation-timing-function: cubic-bezier(0, 0.7, 0.1, 1), linear;
 }
 .projects h1.text-overlap.splitting b {
   display: inline-block;
@@ -193,8 +191,6 @@ h1.text-overlap.splitting b {
           animation-delay: 2s;
   -webkit-animation-duration: 1.75s, 1s;
           animation-duration: 1.75s, 1s;
-  -webkit-animation-timing-function: cubic-bezier(0, 0.7, 0.1, 1), linear;
-          animation-timing-function: cubic-bezier(0, 0.7, 0.1, 1), linear;
 }
 .find-me h1.text-overlap.splitting b {
   display: inline-block;
@@ -209,8 +205,6 @@ h1.text-overlap.splitting b {
           animation-delay: 2s;
   -webkit-animation-duration: 1.75s, 1s;
           animation-duration: 1.75s, 1s;
-  -webkit-animation-timing-function: cubic-bezier(0, 0.7, 0.1, 1), linear;
-          animation-timing-function: cubic-bezier(0, 0.7, 0.1, 1), linear;
 }
 @-webkit-keyframes slide-in-v {
   0% {
