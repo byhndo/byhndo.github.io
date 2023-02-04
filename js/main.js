@@ -17,7 +17,7 @@ AOS.init({
 });
 
 $(document).ready(function() {
-  $( ".dot" ).delay(500).animate({top:"0"},
-     3000, 'easeOutElastic'
+  $( ".dot" ).delay(1000).animate({top:"0"},
+     3000, 'easeOutBounce'
 )
 });
