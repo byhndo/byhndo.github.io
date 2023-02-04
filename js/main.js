@@ -11,13 +11,6 @@ new Vue({
 Splitting();
 
 
-$(document).ready(function() {
-  $( ".dot" ).animate({top:"0"},
-     300, 'easeOutBounce'
-)
-});
-
-
 AOS.init();
 AOS.init({
   easing: 'ease-out-sine',
@@ -27,3 +20,9 @@ AOS.init({
 
 
 
+
+$(document).ready(function() {
+  $( ".dot" ).animate({top:"0"},
+     2000, 'easeOutBounce'
+)
+});
