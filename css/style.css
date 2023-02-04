@@ -165,6 +165,7 @@ h1.text-overlap {
 }
 
 .dot {
+  display; inline;
   position: relative;
   text-align: left;
   margin: 0 auto 0 -3px;
