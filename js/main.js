@@ -5,21 +5,21 @@ const { createApp } = Vue
         bg: 'bio'
       }
     },
+
 mounted() {
-    AOS.init({
-      offset: 0,   
-      easing: 'ease-out-sine', 
-      once: false    
-    })
-  },
+    $(document).ready(function() {
+     $( ".dot" ).delay(1500).animate({top:"0"},
+      3000, 'easeOutBounce'
+)
+});
+ 
+Splitting();
+
+},
   }).mount('#app')
 
 
-Splitting();
 
 
-$(document).ready(function() {
-  $( ".dot" ).delay(1500).animate({top:"0"},
-     3000, 'easeOutBounce'
-)
-});
+
+
