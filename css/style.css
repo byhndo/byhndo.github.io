@@ -164,7 +164,7 @@ h1.text-overlap {
   }
 }
 
-.dot {
+.ball {
   display: inline-block;
   position: relative;
   text-align: left;
@@ -180,11 +180,11 @@ h1.text-overlap {
   top:-120vh;
   transition: color 1.5s;
 }
-.projects .dot {
+.projects .ball {
   color: var(--c2);
   top:-120vh;
 }
-.find-me .dot {
+.find-me .ball {
   color: var(--c3);
   top:-120vh;
 }
