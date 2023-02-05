@@ -33,13 +33,13 @@ function setupReveal(container) {
 
       tl.set(el, { autoAlpha: 1 });
       tl.from(el,  { 
-        duration: 1.5,
+        duration: 2.5,
         xPercent: -100,
         ease: "power2.out"
       }); 
 
       tl.from(image,  {
-        duration: 1.5,
+        duration: 2.5,
         xPercent: 100,
         scale: 1.3,
         ease: "power2.out"
