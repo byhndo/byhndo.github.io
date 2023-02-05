@@ -1,11 +1,12 @@
-new Vue({
-  el: '#app',
-  data() {
-    return {
-      bg: 'bio'
+const { createApp } = Vue
+  createApp({
+    data() {
+      return {
+        bg: 'bio'
+      }
     }
-  }
-})
+  }).mount('#app')
+
 
 Splitting();
 
