@@ -30,7 +30,6 @@
   --sizenav: 9.5px; 
   --font1: 'Barlow Condensed', sans-serif;
   --font2: 'Figtree', sans-serif;
-  --radius: 0px;
   --marginp: 23px;
   --spacingnav: 2px;
 }
@@ -382,8 +381,8 @@ p.sub3 {
   display: inline-block;
   margin: 0 auto;
   padding:0;
-  width: 90%;
-  max-width: 90%;
+  width: 100%;
+  max-width: 100%;
   height: auto;
   visibility: hidden;
   overflow: hidden;
@@ -394,7 +393,6 @@ img{
   height: 100%;  
   transform-origin: left;
   object-fit: cover;
-  border-radius: var(--radius);
 }
 
 .soc {
