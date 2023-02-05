@@ -9,7 +9,12 @@ const { createApp } = Vue
 
 
 
+Splitting();
 
+$(document).ready(function() {
+     $( ".dot" ).delay(1500).animate({top:"0"},
+      3000, 'easeOutBounce'
+)
 
 
 
