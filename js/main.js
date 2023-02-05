@@ -32,16 +32,16 @@ function setupReveal(container) {
 
       tl.set(el, { autoAlpha: 1 });
       tl.from(el,  { 
-        duration: 3.5,
+        duration: 2.5,
         xPercent: -100,
-        ease: "Elastic.easeOut"
+        ease: "Bounce.easeOut"
       }); 
 
       tl.from(image,  {
-        duration: 3.5,
+        duration: 2.5,
         xPercent: 100,
         scale: 1.3,
-        ease: "Elastic.easeOut"
+        ease: "Bounce.easeOut"
       }, 0); 
     });
   });
