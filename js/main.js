@@ -16,6 +16,7 @@ AOS.init({
   once: false,
   offset: 0
 });
+AOS.refresh();
 
 $(document).ready(function() {
   $( ".dot" ).delay(1500).animate({top:"0"},
