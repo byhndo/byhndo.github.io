@@ -391,7 +391,7 @@ p.sub3 {
 
 img{
   width: 100%;
-  height: auto;  
+  height: 100%;  
   transform-origin: left;
   object-fit: cover;
   border-radius: var(--radius);
