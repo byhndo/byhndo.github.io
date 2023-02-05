@@ -4,17 +4,20 @@ const { createApp } = Vue
       return {
         bg: 'bio'
       }
-    }
-  }).mount('#app')
-
-
-Splitting();
-
+    },
+mounted() {
 AOS.init();
 AOS.init({
   easing: 'ease-out-sine',
   offset: 0
 });
+}
+  }).mount('#app')
+
+
+Splitting();
+
+
 
 
 $(document).ready(function() {
