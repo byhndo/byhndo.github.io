@@ -1,5 +1,4 @@
 const { createApp } = Vue
-
   createApp({
     data() {
       return {
@@ -7,7 +6,9 @@ const { createApp } = Vue
       }
     }
   }).mount('#app')
- 
+
+
+
 Splitting();
 
 $(document).ready(function() {
