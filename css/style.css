@@ -614,17 +614,6 @@ background-color: #f1e3a0;
   mix-blend-mode: lighten;
 }
 
-[data-aos=blur] {
-  filter: blur(1rem);
-  opacity: 0;
-  transition-property: filter, opacity;
-}
-
-[data-aos=blur].aos-animate {
-  filter: blur(0);
-  opacity: 1;
-}
-
 .soc {
   margin: 60px 0 0 0;
 }
