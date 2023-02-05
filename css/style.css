@@ -390,7 +390,8 @@ p.sub3 {
 
 img{
   width: 100%;
-  height: auto;
+  height: auto;  
+  transform-origin: left;
   object-fit: cover;
   display: block;
   transition: all ease-in-out .5s;
