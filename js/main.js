@@ -63,6 +63,20 @@ $( ".dot" ).delay(100).animate({top:"0"},
 
 
 
+var duration = 3;
+var tl = gsap.timeline({delay:0.2});
+
+CustomBounce.create("myBounce", {strength:0.7, squash:5});
+
+tl.to(".ball", { y:100, duration: duration, ease:"myBounce"})
+
+  .to(".ball", {scaleY:0.5, duration: duration, scaleX:1, ease:"myBounce-squash", transformOrigin:"bottom"}, 0)
+
+
+
+
+
+
 
 
 
