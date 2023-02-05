@@ -21,7 +21,7 @@ const { createApp, ref, onMounted } = Vue
 function setupReveal(container) {
   // create a context so that we can easily revert
   container.ctx = gsap.context(() => {
-    let revealContainers = container.querySelectorAll(".reveal");
+    let revealContainers = container.querySelectorAll(".item");
     revealContainers.forEach((el) => {
       let image = el.querySelector("img");
       let tl = gsap.timeline({
