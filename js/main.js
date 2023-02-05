@@ -7,7 +7,7 @@ const { createApp, ref, onMounted } = Vue
         setupReveal(el); 
       },
       afterLeave(el) {
-        el.ctx && el.ctx.revert(); // revert the animations/ScrollTriggers after leaving
+        el.ctx && el.ctx.revert();
       }
     },
     data() {
@@ -19,7 +19,6 @@ const { createApp, ref, onMounted } = Vue
 
 
 function setupReveal(container) {
-  // create a context so that we can easily revert
   container.ctx = gsap.context(() => {
     let revealContainers = container.querySelectorAll(".item");
     revealContainers.forEach((el) => {
