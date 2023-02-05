@@ -27,7 +27,7 @@ function setupReveal(container) {
       let tl = gsap.timeline({
         scrollTrigger:{
           trigger: el,
-          toggleActions: "restart none none none"
+          toggleActions: "play none none none"
         }
       }); 
 
@@ -48,6 +48,15 @@ function setupReveal(container) {
   });
 }
 
+Splitting();
+
+
+$(document).ready(function() {
+$( ".dot" ).delay(100).animate({top:"0"},
+     3000, 'easeInOutBounce'
+
+)
+  });
 
 
 
