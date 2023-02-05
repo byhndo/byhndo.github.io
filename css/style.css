@@ -382,7 +382,8 @@ p.sub3 {
   display: inline-block;
   margin: .5rem;
   padding:0;
-  width: 80vw;
+  width: 90%;
+  max-width: 90%;
   height: auto;
   visibility: hidden;
   overflow: hidden;
