@@ -381,9 +381,8 @@ p.sub3 {
   position: relative;
   margin: .5rem;
   padding:0;
-  background: transparent;
-  display:inline-flex;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  visibility: hidden;
+  overflow: hidden;
   transition: all ease-in-out .3s;
   border-radius: var(--radius);
 }
@@ -393,8 +392,6 @@ img{
   height: auto;  
   transform-origin: left;
   object-fit: cover;
-  display: block;
-  transition: all ease-in-out .5s;
   border-radius: var(--radius);
 }
 
