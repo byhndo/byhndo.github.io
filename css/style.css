@@ -381,12 +381,10 @@ p.sub3 {
   position: relative;
   margin: .5rem;
   padding:0;
-  width: 80vh;
+  width: 80vw;
   height: auto;
   visibility: hidden;
   overflow: hidden;
-  transition: all ease-in-out .3s;
-  border-radius: var(--radius);
 }
 
 img{
