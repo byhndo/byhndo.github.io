@@ -21,13 +21,13 @@ const { createApp, ref, onMounted } = Vue
 function setupReveal(container) {
   // create a context so that we can easily revert
   container.ctx = gsap.context(() => {
-    let revealContainers = container.querySelectorAll(".item");
+    let revealContainers = container.querySelectorAll(".reveal");
     revealContainers.forEach((el) => {
       let image = el.querySelector("img");
       let tl = gsap.timeline({
         scrollTrigger:{
           trigger: el,
-          toggleActions: "play none none none"
+          toggleActions: "restart none none none"
         }
       }); 
 
@@ -47,6 +47,9 @@ function setupReveal(container) {
     });
   });
 }
+
+
+    
 
 Splitting();
 
