@@ -177,7 +177,7 @@ h1.text-overlap {
   font-size: var(--sizetitle);
   color: var(--c1);
   -webkit-background-clip: text;
-  top:-120vh;
+  top:-100vh;
   transition: color 1.5s;
 }
 .projects .ball {
