@@ -24,7 +24,7 @@
   --f2: #f0f0f0;
   --f3: #ecf9f7;
   --sizebody: 13px;
-  --sizetitle: calc(21vw + 1rem);
+  --sizetitle: calc(30vw + 1rem);
   --sizetitle2: 8vw;
   --sizenav: 9.5px; 
   --font1: 'Anton', 'Barlow Condensed', sans-serif;
@@ -36,12 +36,6 @@
 
 *, *:before, *:after {
   box-sizing: border-box;
-}
-
-br{
-  margin:0!important;
-  padding:0!important;
-  text-indent: 0!important;
 }
 
 h1, h2, h3, h4, h5, h6, h7{
