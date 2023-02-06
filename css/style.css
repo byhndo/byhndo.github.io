@@ -509,7 +509,7 @@ img{
 h1.text-overlap {
   max-width: 75vw;
   margin-left: -6px;
-  font-size: calc(19vw + 1rem);
+  font-size: calc(18vw + 1rem);
 }
 
 main{
