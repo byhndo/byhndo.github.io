@@ -393,8 +393,12 @@ img{
   height: 100%;  
   transform-origin: left;
   object-fit: cover;
-  -webkit-filter: saturate(3);
-  filter: saturate(3);
+  filter: url(#sepiatone); 
+  -webkit-filter: sepia(1);
+  -webkit-filter: sepia(100%); 
+  filter: sepia(100%);
+  background-color: #5E2612;
+  filter: alpha(opacity = 50);
 }
 
 .soc {
