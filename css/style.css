@@ -380,10 +380,10 @@ p.sub3 {
 .item {
   position: relative;
   display: inline-block;
-  margin: 0 auto;
+  margin: .5rem auto;
   padding:0;
-  width: 80%;
-  max-width: 80%;
+  width: 90%;
+  max-width: 90%;
   height: auto;
   visibility: hidden;
   overflow: hidden;
