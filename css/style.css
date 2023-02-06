@@ -174,7 +174,7 @@ h1.text-overlap {
   font-weight: 800;
   letter-spacing: -3px;
   line-height: 0;
-  font-family: var(--font2);
+  font-family: var(--font1);
   font-size: var(--sizetitle);
   color: var(--c1);
   -webkit-background-clip: text;
