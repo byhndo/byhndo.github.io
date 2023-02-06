@@ -32,6 +32,7 @@
   --font2: 'Figtree', sans-serif;
   --marginp: 23px;
   --spacingnav: 2px;
+  --fwnav: 500;
 }
 
 *, *:before, *:after {
@@ -304,7 +305,7 @@ nav a {
   text-decoration: none;
   text-transform: uppercase;
   font-size: var(--sizenav);
-  font-weight: 300; 
+  font-weight: var(--fwnav); 
   letter-spacing: var(--spacingnav);
 }
 
@@ -472,7 +473,7 @@ img{
 .footer span {
   color: var(--f1);
   font-size: var(--sizenav);
-  font-weight: 300;
+  font-weight: var(--fwnav);
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: var(--spacingnav);
@@ -494,7 +495,7 @@ img{
 .footer span.fc{
   color: var(--c1)!important;
   font-size: var(--sizenav);
-  font-weight: 300;
+  font-weight: var(--fwnav);
 }
 
 .projects .footer span.fc{
