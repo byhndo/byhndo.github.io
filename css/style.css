@@ -4,8 +4,8 @@
 :root {
   --black:#000; 
   --n1: #373A40;
-  --n2: #ecf9f7;
-  --n3: #f2f2f2;
+  --n2: #f2f2f2;
+  --n3: #ecf9f7;
   --bg1: #f0f0f0;
   --bg2: #061312;
   --bg3: #194d48;
@@ -16,14 +16,14 @@
   --c2: #FFD365;
   --c3: #65D6CE;
   --sub1: #373A40;
-  --sub2: #ecf9f7;
-  --sub3: #f2f2f2;  
+  --sub2: #f2f2f2;
+  --sub3: #ecf9f7;  
   --psub1: #373A40;
-  --psub2: #ecf9f7;
-  --psub3: #f2f2f2;
+  --psub2: #f2f2f2;
+  --psub3: #ecf9f7;
   --f1: #373A40;
-  --f2: #ecf9f7;
-  --f3: #f2f2f2;
+  --f2: #f2f2f2;
+  --f3: #ecf9f7;
   --sizebody: 13px;
   --sizetitle: calc(24vw + 1rem);
   --sizetitle2: 8vw;
