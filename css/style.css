@@ -372,7 +372,6 @@ p.sub3 {
   --auto-grid-min-size: 15rem;
   display: grid;
   grid-gap: .5rem;
-  margin-top: var(--marginp);
   grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
   box-sizing: border-box;
 }
