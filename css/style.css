@@ -109,8 +109,7 @@ h1.text-overlap {
   letter-spacing: -3px;
   line-height: 1;
   font-family: var(--font1);
-  font-size: var(--sizetitle);
-  text-transform: uppercase;
+  font-size: var(--sizetitle1);
   color: var(--titlecolor1);
   -webkit-background-clip: text;
   transition: all 1.5s; 
