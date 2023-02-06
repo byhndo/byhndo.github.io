@@ -3,25 +3,25 @@
 
 :root {
   --black:#000; 
-  --n1: #333;
+  --n1: #373A40;
   --n2: #ecf9f7;
   --n3: #f0f0f0;
   --bg1: #f0f0f0;
   --bg2: #133a36;
   --bg3: #227C70;
-  --titlecolor1: #333;
+  --titlecolor1: #373A40;
   --titlecolor2: #ecf9f7;
   --titlecolor3: #FFD365;
   --c1: #FA4659;
   --c2: #FFD365;
   --c3: #65D6CE;
-  --sub1: #333;
+  --sub1: #373A40;
   --sub2: #ecf9f7;
   --sub3: #FFD365;  
-  --psub1: #333;
+  --psub1: #373A40;
   --psub2: #ecf9f7;
   --psub3: #FFD365;
-  --f1: #333;
+  --f1: #373A40;
   --f2: #ecf9f7;
   --f3: #f0f0f0;
   --sizebody: 13px;
