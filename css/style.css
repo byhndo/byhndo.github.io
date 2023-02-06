@@ -30,7 +30,7 @@
   --f2: #f0f0f0;
   --f3: #ecf9f7;
   --sizebody: 13px;
-  --sizetitle: calc(24vw + 1rem);
+  --sizetitle: calc(20vw + 1rem);
   --sizetitle2: 8vw;
   --sizenav: 9.5px; 
   --font1: 'Anton', 'Barlow Condensed', sans-serif;
@@ -179,7 +179,7 @@ h1.text-overlap {
   font-weight: 800;
   letter-spacing: -3px;
   line-height: 0;
-  font-family: var(--font1);
+  font-family: var(--font2);
   font-size: var(--sizetitle);
   color: var(--c1);
   -webkit-background-clip: text;
