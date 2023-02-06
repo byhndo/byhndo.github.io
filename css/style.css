@@ -393,8 +393,8 @@ img{
   height: 100%;  
   transform-origin: left;
   object-fit: cover;
-  -webkit-filter: contrast(3);
-  filter: contrast(3);
+  -webkit-filter: saturate(3);
+  filter: saturate(3);
 }
 
 .soc {
