@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Qwigley&display=swap');
 
 
 :root {
@@ -28,7 +28,7 @@
   --sizetitle: calc(30vw + 1rem);
   --sizetitle2: 8vw;
   --sizenav: 9.5px; 
-  --font1:  'Oswald', sans-serif;
+  --font1:  'Qwigley', sans-serif;
   --font2: 'Figtree', sans-serif;
   --marginp: 23px;
   --spacingnav: 2px;
