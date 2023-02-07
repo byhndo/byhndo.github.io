@@ -199,7 +199,7 @@ a {
 }
 
 .photos,
-.link-projects {
+.link-photos {
   background: var(--bg2);
 }
 
@@ -286,7 +286,7 @@ nav a {
   letter-spacing: var(--spacingnav);
 }
 
-nav .link-projects {
+nav .link-photos {
   color: var(--n2);
 }
 
