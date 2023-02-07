@@ -92,7 +92,7 @@ function showSubTitle() {
 
 $(document).ready(function() {
 $( ".ball" ).delay(100).animate({top:"0"},
-     3000, 'easeInOutBounce'
+     3000, 'easeOutBounce'
 
 )
   });
