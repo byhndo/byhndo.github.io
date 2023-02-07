@@ -100,9 +100,9 @@ h1.text-overlap {
   text-align: left;
   margin: 0 auto 0 -7px;
   padding: 0;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1;
-  letter-spacing: -5px;
+  letter-spacing: -3px;
   font-family: var(--font1);
   font-size: var(--sizetitle);
   color: var(--titlecolor1);
