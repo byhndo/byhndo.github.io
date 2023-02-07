@@ -95,7 +95,7 @@ h7{
   -webkit-text-stroke-color:var(--sub3);
 }
 
-h1.text-overlap {
+h1 {
   display: inline;
   text-align: left;
   margin: 0 auto 0 -5px;
@@ -110,59 +110,40 @@ h1.text-overlap {
   transition: all 1.5s; 
 }
 
-.projects h1.text-overlap {
+.projects h1 {
   font-family: var(--font1);
   color: var(--titlecolor2); 
   transition: all 1.5s; 
 }
-.find-me h1.text-overlap {
+.find-me h1 {
   font-family: var(--font1);
   color: var(--titlecolor3); 
   transition: all 1.5s; 
 }
 
-.text-overlap.splitting .char {
-  -webkit-animation: slide-in 2.5s cubic-bezier(0, 0.65, 0.29, 1) 0s both, fade-in 1.25s linear both;
-          animation: slide-in 2.5s cubic-bezier(0, 0.65, 0.29, 1) 0s both, fade-in 1.25s linear both;
-  -webkit-animation-delay: calc(1s + (0.5s * var(--distance-percent)));
-          animation-delay: calc(1s + (0.5s * var(--distance-percent)));
+#title {
+  font-weight: 800;
+  display: inline-flex;
+  margin: -5px;
+  padding: 5px;
+} 
+
+.title-letter {
+  font-size: calc(6vw + 1rem);
+  margin-left: -2px;
 }
 
-.projects h1 .text-overlap.splitting .char {
-  -webkit-animation: slide-in 2.5s cubic-bezier(0, 0.65, 0.29, 1) 0s both, fade-in 1.25s linear both;
-          animation: slide-in 2.5s cubic-bezier(0, 0.65, 0.29, 1) 0s both, fade-in 1.25s linear both;
-  -webkit-animation-delay: calc(1s + (0.5s * var(--distance-percent)));
-          animation-delay: calc(1s + (0.5s * var(--distance-percent)));
+#sub-title {
+  font-weight: 400;
+  font-size: calc(0.4vw + 0.5rem);
+  letter-spacing: calc(0.3vw + 0.5rem);
+  text-transform: uppercase;
+  position: relative;
+  top: -5px;
 }
 
-.find-me h1 .text-overlap.splitting .char {
-  -webkit-animation: slide-in 2.5s cubic-bezier(0, 0.65, 0.29, 1) 0s both, fade-in 1.25s linear both;
-          animation: slide-in 2.5s cubic-bezier(0, 0.65, 0.29, 1) 0s both, fade-in 1.25s linear both;
-  -webkit-animation-delay: calc(1s + (0.5s * var(--distance-percent)));
-          animation-delay: calc(1s + (0.5s * var(--distance-percent)));
-}
-
-@-webkit-keyframes slide-in {
-  0% {
-    transform: translateY(1em);
-    transform: translateY(calc(0.12em * var(--char-offset))) translateY(0px);
-  }
-}
-@keyframes slide-in {
-  0% {
-    transform: translateY(1em);
-    transform: translateY(calc(0.12em * var(--char-offset))) translateY(0px);
-  }
-}
-@-webkit-keyframes fade-in {
-  from {
-    opacity: 0;
-  }
-}
-@keyframes fade-in {
-  from {
-    opacity: 0;
-  }
+.title-letter, #sub-title {
+  opacity: 0;   
 }
 
 .ball {
