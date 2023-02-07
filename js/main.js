@@ -56,14 +56,14 @@ setTimeout(() => {
   for (let i = 0; i < letters.length; i++) {
     anime({
       targets: letters[i],
-      easing: 'easeInElastic',
+      easing: 'easeInOutBack',
       translateX: ['5px', '0'],
       delay: 50 * i
     });
 
     anime({
       targets: letters[i],
-      easing: 'easeInElastic',
+      easing: 'easeInOutBack',
       opacity: 1,
       delay: 60 * i,
       complete: function(anim) {
@@ -79,7 +79,7 @@ setTimeout(() => {
 function showSubTitle() {
   anime({
     targets: '#sub-title',
-    easing: 'easeInElastic',
+    easing: 'easeInOutBack',
     opacity: 1,
     duration: 300,
     delay: 1
@@ -93,7 +93,7 @@ function showSubTitle() {
 
 $(document).ready(function() {
 $( ".ball" ).delay(100).animate({top:"0"},
-     3000, 'easeOutBounce'
+     3000, 'easeInOutBounce'
 
 )
   });
