@@ -481,6 +481,7 @@ img{
 @media(min-width:576px){
 .title-letter {
   font-size: calc(20vw + 1rem);
+  margin-left: -3px;
 }
 
 main{
