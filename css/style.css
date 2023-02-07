@@ -135,11 +135,7 @@ h1 {
   letter-spacing: calc(0.3vw + 0.5rem);
   text-transform: uppercase;
   position: relative;
-  top: -5px;
-}
-
-p #sub-title{
-  margin: .5rem 0 23px 0; 
+  top: -23px;
 }
 
 .title-letter, #sub-title {
