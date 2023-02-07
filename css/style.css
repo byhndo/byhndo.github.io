@@ -172,7 +172,6 @@ body {
   font-size: var(--sizebody);
   font-weight: 400;
   line-height: 1.5;
-  flex-wrap: wrap;
   word-wrap: break-word;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
