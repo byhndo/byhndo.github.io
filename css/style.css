@@ -481,7 +481,7 @@ img{
 h1 {
   max-width: 75vw;
   margin-left: -6px;
-  font-size: calc(15vw + 1rem);
+  font-size: calc(10vw + 1rem);
 }
 
 main{
