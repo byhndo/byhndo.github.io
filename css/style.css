@@ -136,7 +136,6 @@ h1 {
   text-transform: uppercase;
   position: relative;
   top: -5px;
-  margin-left: 2px;
 }
 
 .title-letter, #sub-title {
@@ -308,6 +307,14 @@ main {
 
 .fade-enter-from, .fade-leave-to {
   opacity: 0;
+}
+
+.head {
+  position: relative;
+  max-width: 90vw;
+  padding: 0;
+  margin: 0 auto;
+  text-align: left;
 }
 
 .sub1 {
