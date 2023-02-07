@@ -102,7 +102,7 @@ h1 {
   transition: all 1.5s; 
 }
 
-.projects h1 {
+.photos h1 {
   font-family: var(--font1);
   color: var(--titlecolor2); 
   transition: all 1.5s; 
@@ -159,7 +159,7 @@ h1 {
   top:-100vh;
   transition: color 1.5s;
 }
-.projects .ball {
+.photos .ball {
   color: var(--c2);
   top:-120vh;
 }
@@ -190,7 +190,7 @@ a {
   transition: background 0s 2s, color 1.6s;
 }
 
-.projects {
+.photos {
   color: var(--bg1);
 }
 
@@ -198,7 +198,7 @@ a {
   background: var(--bg1);
 }
 
-.projects,
+.photos,
 .link-projects {
   background: var(--bg2);
 }
@@ -227,7 +227,7 @@ a {
   transform-origin: 0 0;
 }
 
-.transition-projects {
+.transition-photos {
   left: 0;
   background: var(--bg2);
   transform-origin: 50% 0;
@@ -239,7 +239,7 @@ a {
   transform-origin: 100% 0;
 }
 
-.bio .transition-bio, .projects .transition-projects, .find-me .transition-find-me {
+.bio .transition-bio, .photos .transition-photos, .find-me .transition-find-me {
   opacity: 1;
 }
 
@@ -247,7 +247,7 @@ a {
   transform: scale(1) translateX(0) translateY(0);
 }
 
-.projects .transition-projects {
+.photos .transition-photos {
   transform: scale(1) translateX(0) translateY(0);
 }
 
@@ -412,12 +412,12 @@ img{
   background-color: var(--titlecolor1);
 }
 
-.projects .soc a{
+.photos .soc a{
   background-color: var(--titlecolor2);
   color: var(--bg2);
 }
 
-.projects .soc a:hover, .projects .soc a:active{
+.photos .soc a:hover, .photos .soc a:active{
   background-color: var(--titlecolor2);
   color: var(--bg2);
 }
@@ -451,7 +451,7 @@ img{
   letter-spacing: var(--spacingnav);
 }
 
-.projects .footer span, .projects .footer span a{
+.photos .footer span, .photos .footer span a{
   color: var(--f2);
 }
 
@@ -470,7 +470,7 @@ img{
   font-weight: var(--fwnav);
 }
 
-.projects .footer span.fc{
+.photos .footer span.fc{
   color: var(--c2)!important;
 }
 
