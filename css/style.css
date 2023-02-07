@@ -185,7 +185,7 @@ a {
 .bg {
   background: inherit;
   min-height: 100vh;
-  padding:6vh 0 2vh 0;
+  padding:3vh 0 2vh 0;
   transition: background 0s 2s, color 1.6s;
 }
 
