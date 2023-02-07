@@ -138,7 +138,7 @@ h1 {
   top: -5px;
 }
 
-p span#sub-title{
+p #sub-title{
   margin: 1rem 0 23px 2px; 
 }
 
@@ -482,7 +482,7 @@ img{
 }
 
 @media(min-width:576px){
-#title {
+.title-letter {
   font-size: calc(15vw + 1rem);
 }
 
