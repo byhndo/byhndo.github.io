@@ -309,14 +309,6 @@ main {
   opacity: 0;
 }
 
-.head {
-  position: relative;
-  max-width: 90vw;
-  padding: 0;
-  margin: 0 auto;
-  text-align: left;
-}
-
 .sub1 {
   color: var(--sub1);
 }
