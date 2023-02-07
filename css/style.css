@@ -482,10 +482,8 @@ img{
 }
 
 @media(min-width:576px){
-h1 {
-  max-width: 75vw;
-  margin-left: -6px;
-  font-size: calc(10vw + 1rem);
+#title {
+  font-size: calc(20vw + 1rem);
 }
 
 main{
