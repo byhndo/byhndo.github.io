@@ -95,16 +95,8 @@ h7{
   -webkit-text-stroke-color:var(--sub3);
 }
 
-h1 {
-  display: inline;
-  text-align: left;
-  margin: 0 auto 0 -5px;
-  padding: 0;
-  font-weight: 800;
-  line-height: 1;
-  letter-spacing: -3px;
-  font-family: var(--font1);
-  font-size: var(--sizetitle);
+h1 { 
+  font-family: var(--font1); 
   color: var(--titlecolor1);
   -webkit-background-clip: text;
   transition: all 1.5s; 
@@ -124,8 +116,13 @@ h1 {
 #title {
   font-weight: 800;
   display: inline-flex;
-  margin: -5px;
-  padding: 5px;
+  text-align: left;
+  margin: 0 auto 0 -5px;
+  padding: 0;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -3px;
+  font-size: var(--sizetitle);
 } 
 
 .title-letter {
