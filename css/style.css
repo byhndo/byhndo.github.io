@@ -138,6 +138,10 @@ h1 {
   top: -5px;
 }
 
+p #sub-title{
+  margin: 1rem 0 23px 0; 
+}
+
 .title-letter, #sub-title {
   opacity: 0;   
 }
