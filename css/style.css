@@ -100,8 +100,7 @@ h1.text-overlap {
   text-align: left;
   margin: 0 auto 0 -6px;
   padding: 0;
-  font-weight: 800;
-  text-transform: uppercase;
+  font-weight: 400;
   line-height: 1;
   font-family: var(--font1);
   font-size: var(--sizetitle);
