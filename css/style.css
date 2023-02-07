@@ -25,7 +25,7 @@
   --f2: #f0f0f0;
   --f3: #ecf9f7;
   --sizebody: 13px;
-  --sizetitle: calc(38vw + 1rem);
+  --sizetitle: calc(50vw + 1rem);
   --sizetitle2: 8vw;
   --sizenav: 9.5px; 
   --font1:  'Bebas Neue', sans-serif;
@@ -98,7 +98,7 @@ h7{
 h1.text-overlap {
   display: inline;
   text-align: left;
-  margin: 0 auto 0 -4px;
+  margin: 0 auto 0 -3px;
   padding: 0;
   font-weight: 800;
   letter-spacing: -10px;
@@ -175,7 +175,7 @@ h1.text-overlap {
   font-weight: 800;
   letter-spacing: -3px;
   line-height: 0;
-  font-family: var(--font1);
+  font-family: var(--font2);
   font-size: var(--sizetitle);
   color: var(--c1);
   -webkit-background-clip: text;
