@@ -136,6 +136,7 @@ h1 {
   text-transform: uppercase;
   position: relative;
   top: -5px;
+  margin-left: 2px;
 }
 
 .title-letter, #sub-title {
