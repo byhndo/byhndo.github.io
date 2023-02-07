@@ -56,14 +56,14 @@ setTimeout(() => {
   for (let i = 0; i < letters.length; i++) {
     anime({
       targets: letters[i],
-      easing: 'easeOutBack',
+      easing: 'easeInBack',
       translateX: ['5px', '0'],
       delay: 50 * i
     });
 
     anime({
       targets: letters[i],
-      easing: 'easeOutBack',
+      easing: 'easeInBack',
       opacity: 1,
       delay: 60 * i,
       complete: function(anim) {
@@ -78,7 +78,7 @@ setTimeout(() => {
 function showSubTitle() {
   anime({
     targets: '#sub-title',
-    easing: 'easeOutBack',
+    easing: 'easeInBack',
     opacity: 1,
     duration: 500,
     delay: 1
