@@ -104,12 +104,10 @@ h1 {
 .photos h1 {
   font-family: var(--font1);
   color: var(--titlecolor2); 
-  transition: all ease-out 1.5s; 
 }
 .find-me h1 {
   font-family: var(--font1);
   color: var(--titlecolor3); 
-  transition: all ease-out 1.5s; 
 }
 
 #title {
@@ -152,14 +150,13 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-color:#FA4659;
-  -webkit-mask-image:-webkit-gradient(linear,25deg, #FA4659,#c70518);
-  transition: all ease-out 1.5s;
+  -webkit-mask-image: -webkit-gradient(linear, #FA4659, #63030c);
 }
 .photos .ball {
   color: var(--c2);
   top:-100vh;
   background-color:#1695fb;
-  background-image:linear-gradient(225deg,#1695fb 25%,#02d6fe);
+  -webkit-mask-image: -webkit-gradient(linear, #1695fb, #02d6fe);
 }
 .find-me .ball {
   color: var(--c3);
