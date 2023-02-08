@@ -154,12 +154,10 @@ h1 {
   transition: background-position 1.5s, background-color 1.5s;
 }
 .photos .ball {
-  color: var(--c2);
   top:-100vh;
   background-image: linear-gradient(to left, #1695fb 0%, #02d6fe 100%);
 }
 .find-me .ball {
-  color: var(--c3);
   top:-100vh;
   background-image: linear-gradient(to left, #2ba199 0%, #65D6CE 100%);
 }
