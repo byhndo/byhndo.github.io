@@ -144,22 +144,21 @@ h1 {
   display: inline-block;
   position: relative;
   margin-left: -2px;
+  color: var(--c1);
   font-size: var(--sizetitle);
   font-family: var(--font1); 
   font-weight: 800;
   top:-100vh;
-  -webkit-transition: background-image 1.5s;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(to left, #c70518 0%, #fb5162 100%);
+  transition: color 1.5s;
 }
+
 .photos .ball {
   top:-100vh;
-  background-image: linear-gradient(to left, #1695fb 0%, #02d6fe 100%);
+  color: var(--c2);
 }
 .find-me .ball {
   top:-100vh;
-  background-image: linear-gradient(to left, #2ba199 0%, #65D6CE 100%);
+  color: var(--c3);
 }
 
 body {
