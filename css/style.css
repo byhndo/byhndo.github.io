@@ -392,7 +392,7 @@ img{
 
 .soc a {
   display: block;
-  padding:2.95px .12px 0 .17px;
+  padding:2.95px .12px 0 .16px;
   color: var(--bg1);
   font-size: 15px;
   transition: all ease-out 2s;
