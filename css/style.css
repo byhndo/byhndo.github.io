@@ -46,6 +46,8 @@ h1, h2, h3, h4, h5, h6, h7{
   line-height: 1;
   margin-top: var(--marginp);
   margin-bottom: var(--marginp);
+  -webkit-mask-image: linear-gradient(to top, transparent 10%, black 95%);
+  mask-image: linear-gradient(to top, transparent 10%, black 95%);
 }
 
 h2{
