@@ -151,7 +151,7 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-image: linear-gradient(to left, #c70518 0%, #FA4659 100%);
-  transition: background-position 1.5s, background-color 1.5s;
+  transition: background-color 1.5s;
 }
 .photos .ball {
   top:-100vh;
