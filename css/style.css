@@ -120,6 +120,7 @@ h1 {
   margin: 0 auto;
   padding: 0;
   line-height: 1;
+  transition: background-position 1s, background-color 1s;
 } 
 
 .title-letter {
@@ -148,12 +149,11 @@ h1 {
   font-size: var(--sizetitle);
   font-family: var(--font1); 
   font-weight: 800;
-  padding: 0;
   top:-100vh;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-color:#FA4659;
-  background:linear-gradient(225deg,#FA4659 25%,#c70518);
+  -webkit-mask-image:-webkit-gradient(linear, 225deg, #FA4659 25%,#c70518);
   transition: background-position 1s, background-color 1s;
 }
 .photos .ball {
