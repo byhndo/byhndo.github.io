@@ -151,7 +151,7 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-color:#FA4659;
-  background-image: linear-gradient(45deg, #FA4659, #63030c);
+  background-image: linear-gradient(225deg,#FA4659 25%,#c70518);
 }
 .photos .ball {
   color: var(--c2);
