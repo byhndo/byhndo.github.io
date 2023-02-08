@@ -151,7 +151,7 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-image: linear-gradient(to left, #FA4659 0%, #c70518 100%);
-  transition:color 1.5s;
+  transition:background-color 1.5s;
 }
 .photos .ball {
   color: var(--c2);
@@ -395,7 +395,8 @@ img{
   color: var(--bg1);
   font-size: 15px;
   transition: all ease-out 2s;
-  background-color: var(--titlecolor1);
+  background-color: #65D6CE;
+  background-image:linear-gradient(225deg,#FA4659 25%,#c70518);
   border-radius:50%;
   width: 28px;
   height: 28px;
@@ -421,7 +422,7 @@ img{
 
 .find-me .soc a{ 
   background-color: #65D6CE;
-  background-image:linear-gradient(225deg,#65D6CE 25%,#207973);  
+  background-image:linear-gradient(225deg,#207973 25%,#65D6CE);  
   color: var(--bg3);
 }
 
