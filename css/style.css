@@ -141,9 +141,9 @@ h1 {
 }
 
 .ball {
-  display: inline;
+  display: inline-block;
   position: relative;
-  margin-left: 2px;
+  margin-left: -2px;
   font-size: var(--sizetitle);
   font-family: var(--font1); 
   font-weight: 800;
@@ -152,7 +152,7 @@ h1 {
   -webkit-text-fill-color: transparent;
   background-color:#FA4659;
   background-image: linear-gradient(225deg, #FA4659 25%, #c70518);
-  transition: color 1.5s;
+  transition: background-color 1.5s;
 }
 .photos .ball {
   color: var(--c2);
