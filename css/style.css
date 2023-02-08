@@ -98,7 +98,7 @@ h7{
 h1 { 
   font-family: var(--font1); 
   color: var(--titlecolor1);
-  transition: background-position 1s, background-color 1s;
+  transition: all 1.5s; 
 }
 
 .photos h1 {
@@ -120,8 +120,8 @@ h1 {
   margin: 0 auto;
   padding: 0;
   line-height: 1;
-  transition: background-position 1s, background-color 1s;
-} 
+  transition: all 1.5s; 
+}
 
 .title-letter {
   font-size: var(--sizetitle);
