@@ -98,18 +98,18 @@ h7{
 h1 { 
   font-family: var(--font1); 
   color: var(--titlecolor1);
-  transition: all 1.5s; 
+  transition: all ease-out 1.5s; 
 }
 
 .photos h1 {
   font-family: var(--font1);
   color: var(--titlecolor2); 
-  transition: all 1.5s; 
+  transition: all ease-out 1.5s; 
 }
 .find-me h1 {
   font-family: var(--font1);
   color: var(--titlecolor3); 
-  transition: all 1.5s; 
+  transition: all ease-out 1.5s; 
 }
 
 #title {
@@ -120,7 +120,6 @@ h1 {
   margin: 0 auto;
   padding: 0;
   line-height: 1;
-  transition: all 1.5s; 
 }
 
 .title-letter {
@@ -153,8 +152,8 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-color:#FA4659;
-  -webkit-mask-image:-webkit-gradient(linear, #FA4659 25%,#c70518);
-  transition: background-position 1s, background-color 1s;
+  -webkit-mask-image:-webkit-gradient(linear,25deg, #FA4659,#c70518);
+  transition: all ease-out 1.5s;
 }
 .photos .ball {
   color: var(--c2);
