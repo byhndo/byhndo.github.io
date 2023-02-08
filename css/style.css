@@ -12,7 +12,7 @@
   --titlecolor1: #373A40;
   --titlecolor2: #f0f0f0;
   --titlecolor3: #ecf9f7;
-  --c1: #FA4659;
+  --c1: #fb5162;
   --c2: #3ec1ff;
   --c3: #65D6CE;
   --sub1: #373A40;
@@ -151,7 +151,7 @@ h1 {
   transition: background-image 1.5s;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(to left, #c70518 0%, #FA4659 100%);
+  background-image: linear-gradient(to left, #c70518 0%, #fb5162 100%);
 }
 .photos .ball {
   top:-100vh;
