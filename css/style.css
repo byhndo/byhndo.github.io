@@ -143,6 +143,7 @@ h1 {
 .ball {
   display: inline;
   position: relative;
+  margin-left: 2px;
   font-size: var(--sizetitle);
   font-family: var(--font1); 
   font-weight: 800;
@@ -150,7 +151,7 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-color:#FA4659;
-  -webkit-mask-image: -webkit-gradient(linear, #FA4659, #63030c);
+  background: -webkit-linear-gradient(#FA4659, #63030c);
 }
 .photos .ball {
   color: var(--c2);
