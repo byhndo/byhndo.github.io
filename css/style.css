@@ -98,7 +98,7 @@ h7{
 h1 { 
   font-family: var(--font1); 
   color: var(--titlecolor1);
-  transition: color 1.5s; 
+  transition: all 1.5s; 
 }
 
 .photos h1 {
