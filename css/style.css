@@ -153,7 +153,7 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-color:#FA4659;
-  -webkit-mask-image:-webkit-gradient(linear, 225deg, #FA4659 25%,#c70518);
+  -webkit-mask-image:-webkit-gradient(linear, #FA4659 25%,#c70518);
   transition: background-position 1s, background-color 1s;
 }
 .photos .ball {
