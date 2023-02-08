@@ -148,6 +148,7 @@ h1 {
   font-family: var(--font1); 
   font-weight: 800;
   top:-100vh;
+  transition: background-image 1.5s;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-image: linear-gradient(to left, #c70518 0%, #FA4659 100%);
