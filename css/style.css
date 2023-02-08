@@ -162,6 +162,8 @@ h1 {
 .find-me .ball {
   color: var(--c3);
   top:-100vh;
+  background-color:#65D6CE;
+  background-image: linear-gradient(225deg, #65D6CE, #30b5ac);
 }
 
 body {
