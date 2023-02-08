@@ -423,12 +423,13 @@ img{
 }
 
 .find-me .soc a{ 
-  background-color: var(--titlecolor3);
+  background-color: #65D6CE;
+  background-image:linear-gradient(225deg,#65D6CE 25%,#207973);  
   color: var(--bg3);
 }
 
 .find-me .soc a:hover, .find-me .soc a:active{ 
-  background-color: var(--titlecolor3);
+  background-color: var(--c3);
   color: var(--bg3);
 }
 
