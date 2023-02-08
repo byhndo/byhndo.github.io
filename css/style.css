@@ -98,8 +98,6 @@ h7{
 h1 { 
   font-family: var(--font1); 
   color: var(--titlecolor1);
-  -webkit-background-clip: text;
-  transition: all 1.5s; 
 }
 
 .photos h1 {
@@ -121,6 +119,7 @@ h1 {
   margin: 0 auto;
   padding: 0;
   line-height: 1;
+  transition: background-position 1s, background-color 1s;
 } 
 
 .title-letter {
@@ -146,13 +145,16 @@ h1 {
 .ball {
   display: inline;
   position: relative;
-  width: 100px;
-  height: 100px;
+  font-size: var(--sizetitle);
+  font-family: var(--font1); 
+  font-weight: 800;
   padding: 0;
   top:-100vh;
-  transition: color 1.5s;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   background-color:#FA4659;
-  background-image:linear-gradient(225deg,#FA4659 25%,#c70518);
+  background-image:-webkit-gradient(linear, 225deg,#FA4659 25%,#c70518);
+  transition: background-position 1s, background-color 1s;
 }
 .photos .ball {
   color: var(--c2);
