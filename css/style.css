@@ -150,18 +150,18 @@ h1 {
   top:-100vh;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(to right, #FA4659 0%, #c70518 100%);
+  background-image: linear-gradient(to left, #FA4659 0%, #c70518 100%);
   transition:color 1.5s;
 }
 .photos .ball {
   color: var(--c2);
   top:-100vh;
-  background-image: linear-gradient(to right, #1695fb 0%, #02d6fe 100%);
+  background-image: linear-gradient(to left, #1695fb 0%, #02d6fe 100%);
 }
 .find-me .ball {
   color: var(--c3);
   top:-100vh;
-  background-image: linear-gradient(to right, #65D6CE 0%, #30b5ac 100%);
+  background-image: linear-gradient(to left, #65D6CE 0%, #30b5ac 100%);
 }
 
 body {
