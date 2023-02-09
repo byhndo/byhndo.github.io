@@ -25,7 +25,8 @@ function setupReveal(container) {
       let image = el.querySelector("img");
       let tl = gsap.timeline({
         scrollTrigger:{
-          trigger: el,       
+          trigger: el,  
+          delay: 1,     
           toggleActions: "restart none none none"
         }
       }); 
