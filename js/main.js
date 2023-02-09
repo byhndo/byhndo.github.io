@@ -42,7 +42,7 @@ function setupReveal(container) {
         duration: 3,
         xPercent: 100,
         scale: 1.3,
-        ease: "Power3.easeOut"
+        ease: "Power3.easeOut",
         delay: 3
       }, 0); 
     });
