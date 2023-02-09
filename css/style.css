@@ -33,6 +33,7 @@
   --marginp: 23px;
   --spacingnav: 2px;
   --fwnav: 300;
+  --rad: 15px;
 }
 
 *, *:before, *:after {
@@ -357,6 +358,7 @@ p.sub3 {
   height: auto;
   visibility: hidden;
   overflow: hidden;
+  border-radius: var(--rad);
 }
 
 img{
@@ -365,6 +367,7 @@ img{
   transform-origin: left;
   object-fit: cover;
   filter: grayscale(100%);
+  border-radius: var(--rad);
 }
 
 .soc {
