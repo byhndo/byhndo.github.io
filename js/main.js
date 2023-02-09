@@ -35,7 +35,7 @@ function setupReveal(container) {
         duration: 3,
         xPercent: -100,
         ease: "Power3.easeOut",
-        delay: 3
+        delay: 1
       }); 
 
       tl.from(image,  {
@@ -43,7 +43,7 @@ function setupReveal(container) {
         xPercent: 100,
         scale: 1.3,
         ease: "Power3.easeOut",
-        delay: 3
+        delay: .5
       }, 0); 
     });
   });
