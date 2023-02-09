@@ -26,6 +26,7 @@ function setupReveal(container) {
       let tl = gsap.timeline({
         scrollTrigger:{
           trigger: el,
+          delay: .5
           toggleActions: "restart none none none"
         }
       }); 
@@ -34,16 +35,14 @@ function setupReveal(container) {
       tl.from(el,  { 
         duration: 3,
         xPercent: -100,
-        ease: "Power3.easeOut",
-        delay: -3
+        ease: "Power3.easeOut"
       }); 
 
       tl.from(image,  {
         duration: 3,
         xPercent: 100,
         scale: 1.3,
-        ease: "Power3.easeOut",
-        delay: -3
+        ease: "Power3.easeOut"     
       }, 0); 
     });
   });
