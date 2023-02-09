@@ -86,7 +86,19 @@ function showSubTitle() {
 }
 
 
-    
+gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
+
+const smoother = ScrollSmoother.create({
+  content: "#scrollsmoother-container",
+  smooth: 3,
+  normalizeScroll: true,
+  ignoreMobileResize: true;
+  effects: true,
+  //preventDefault: true,
+  ease: 'power4.out',
+  smoothTouch: 0.1, 
+});
+ 
 
 
 
