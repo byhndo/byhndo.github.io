@@ -40,8 +40,7 @@ function setupReveal(container) {
       tl.from(image,  {
         duration: 3,
         xPercent: 100,
-        scale: 1.3,
-        delay: 1,
+        scale: 1.3,      
         ease: "Power3.easeOut"     
       }, 0); 
     });
