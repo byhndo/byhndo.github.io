@@ -26,7 +26,7 @@ function setupReveal(container) {
       let tl = gsap.timeline({
         scrollTrigger:{
           trigger: el,  
-          delay: 1,     
+          delay: 3,     
           toggleActions: "restart none none none"
         }
       }); 
