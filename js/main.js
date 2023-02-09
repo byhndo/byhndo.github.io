@@ -34,14 +34,14 @@ function setupReveal(container) {
       tl.from(el,  { 
         duration: 3,
         xPercent: -100,
-        ease: "Power3.easeOut",
-        delay:1
+        ease: "Power3.easeOut"
       }); 
 
       tl.from(image,  {
         duration: 3,
         xPercent: 100,
         scale: 1.3,
+        delay: 1,
         ease: "Power3.easeOut"     
       }, 0); 
     });
