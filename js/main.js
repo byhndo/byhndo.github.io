@@ -25,8 +25,7 @@ function setupReveal(container) {
       let image = el.querySelector("img");
       let tl = gsap.timeline({
         scrollTrigger:{
-          trigger: el,  
-          delay: 3,     
+          trigger: el,               
           toggleActions: "restart none none none"
         }
       }); 
@@ -35,7 +34,8 @@ function setupReveal(container) {
       tl.from(el,  { 
         duration: 3,
         xPercent: -100,
-        ease: "Power3.easeOut"
+        ease: "Power3.easeOut",
+        delay:1
       }); 
 
       tl.from(image,  {
