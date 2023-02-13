@@ -55,7 +55,7 @@ const zoom = element.querySelectorAll(".zoom");
        opacity:0 
     });  
       tl.from(zoom, { 
-       duration:2,
+       duration:.1,
        scale:0.5,
        opacity:0
     }); 
