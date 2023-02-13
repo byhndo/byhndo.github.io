@@ -326,6 +326,7 @@ p.sub1, p.sub2, p.sub3 {
   text-align: left;
   margin-top: var(--marginp);
   margin-bottom: var(--marginp);
+  visibility: hidden;
 }
 
 p.sub1 {
@@ -474,60 +475,35 @@ img{
   color: var(--c3)!important;
 }
 
-.reveal-text {
-
-  visibility: hidden;
-
-}
 .letter {
-
   position: relative;
-
   display: inline-block;
-
   will-change: transform;
-
-  transform-style: preserve-3d;
-
+  transform-style: preserve-3d;  
 }
 
 .letter div {
-
   width: 100%;
-
   backface-visibility: hidden;
-
   transform: translateZ(4vw);
-
   transform-style: preserve-3d;
-
 }
 
 .perspective {
-
   perspective: 20vw;
-
   margin-right: 1.5vw;
-
   position: relative;
-
   display: inline-block;
-
 }
 
 .perspective div {
-
   position: relative;
-
   display: inline-block;
-
 }
 
 .word {
-
   display: inline-block;
-
-}
+  }
 
 @media(min-width:576px){
 .title-letter {
