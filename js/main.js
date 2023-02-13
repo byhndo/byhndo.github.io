@@ -1,4 +1,4 @@
-gsap.registerPlugin(ScrollTrigger, CustomEase);
+gsap.registerPlugin(ScrollTrigger);
 const { createApp, ref, onMounted } = Vue
   createApp({
     methods: {
@@ -99,10 +99,9 @@ function setupReveal(container) {
 
         x: 0,
 
-        stagger: 0.025,
+        stagger: 0.025
 
-        ease: CustomEase.create("custom", "M0,0 C0.425,0.005 0,1 1,1 ")
-
+        
       }
 
     );
