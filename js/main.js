@@ -31,8 +31,8 @@ function setupReveal(container) {
        
 textRevealElements.forEach((element) => {
     
-      const text = element.querySelectorAll(".text, .text span");
-  
+  const text = element.querySelectorAll(".text, .text span");
+  const text2 = element.querySelectorAll(".text2");
   let tl = gsap.timeline({
         scrollTrigger:{
           trigger: element,
@@ -48,7 +48,7 @@ textRevealElements.forEach((element) => {
         ease: "Elastic.easeOut"
       }); 
 
-      tl.from(pg, { 
+      tl.from(text2, { 
        duration: 2,
        yPercent: 0,
        opacity:0 
