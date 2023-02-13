@@ -476,6 +476,7 @@ img{
 
 .text, .text span{
   position:relative;
+  opacity: 1;
 }
 
 @media(min-width:576px){
