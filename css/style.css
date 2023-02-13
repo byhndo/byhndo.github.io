@@ -367,6 +367,7 @@ img{
   transform-origin: left;
   object-fit: cover;
   filter: grayscale(100%);
+  filter: saturate(0);
   border-radius: var(--rad);
 }
 
