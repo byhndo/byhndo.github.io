@@ -1,15 +1,18 @@
 gsap.registerPlugin(ScrollTrigger);
-
 const { createApp, ref, onMounted } = Vue
   createApp({
     methods: {
-      afterEnter(el) {
-        setupReveal(el); 
+      afterEnter(el, element) {
+        setupReveal(el);
+        setupReveal(element);
       },
-      afterLeave(el) {
-        el.ctx && el.ctx.revert();
+
+      afterLeave(el, element) {
+        el.ctx && el.ctx.revert(); 
+        element.ctx && element.ctx.revert();
       }
     },
+    
     data() {
       return {
         bg: 'bio'
@@ -18,37 +21,68 @@ const { createApp, ref, onMounted } = Vue
   }).mount('#app')
 
 
+
 function setupReveal(container) {
   container.ctx = gsap.context(() => {
-    let revealContainers = container.querySelectorAll(".item");
-    revealContainers.forEach((el) => {
-      let image = el.querySelector("img");
+ 
+  const textRevealElements = container.querySelectorAll(".box");
+    
+  let revealContainers = container.querySelectorAll(".item");
+       
+textRevealElements.forEach((element) => {
+    
+      const text = element.querySelectorAll(".text, .text span");
+  
+  let tl = gsap.timeline({
+        scrollTrigger:{
+          trigger: element,
+          toggleActions: "restart none none none"
+        }           
+      }); 
+          
+      tl.from(text,  {      
+        duration: 2,
+        opacity: 0,
+        top: "2rem",
+        delay: .5,
+        stagger: .2,
+        ease: "Elastic.easeOut"
+      });                    
+    });  
+                  
+      revealContainers.forEach((el) => {     
+      let image = el.querySelector("img");         
       let tl = gsap.timeline({
         scrollTrigger:{
-          trigger: el,               
+          trigger: el,
           toggleActions: "restart none none none"
-        }
+        }           
       }); 
-
-      tl.set(el, { autoAlpha: 1 });
-      tl.from(el,  { 
+                 
+tl.set(el, { autoAlpha: 1 });
+      tl.from(el,  {         
         duration: 3,
         xPercent: -100,
-        ease: "Power3.easeOut"
-      }); 
-
-      tl.from(image,  {
+        ease: "power2.out"    
+      });      
+      
+      tl.from(image,  {      
         duration: 3,
         xPercent: 100,
-        scale: 1.3,      
-        ease: "Power3.easeOut"     
-      }, 0); 
-    });
-  });
+        scale: 1.3,
+        ease: "power2.out"       
+      }, 0);                   
+    });           
+   })
 }
 
 
 
+
+
+
+
+  
 
 let letters = document.getElementsByClassName('title-letter');
 
