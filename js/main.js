@@ -45,6 +45,7 @@ textRevealElements.forEach((element) => {
         opacity: 0,
         top: "2rem",     
         stagger: .2,
+        delay:1,
         ease: "Elastic.easeOut"
       });                    
     });  
