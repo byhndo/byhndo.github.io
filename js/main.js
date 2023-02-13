@@ -1,15 +1,16 @@
-gsap.registerPlugin(ScrollTrigger);
-
+gsap.registerPlugin(ScrollTrigger, CustomEase);
 const { createApp, ref, onMounted } = Vue
   createApp({
     methods: {
       afterEnter(el) {
         setupReveal(el); 
       },
+
       afterLeave(el) {
-        el.ctx && el.ctx.revert();
+        el.ctx && el.ctx.revert(); 
       }
     },
+    
     data() {
       return {
         bg: 'bio'
@@ -17,35 +18,147 @@ const { createApp, ref, onMounted } = Vue
     }
   }).mount('#app')
 
-
 function setupReveal(container) {
   container.ctx = gsap.context(() => {
-    let revealContainers = container.querySelectorAll(".item");
-    revealContainers.forEach((el) => {
+ 
+   const textRevealElements = document.querySelectorAll(".reveal-text");
+    
+  let revealContainers = container.querySelectorAll(".item");
+       
+    
+      
+      
+      
+      
+
+
+
+  
+
+  textRevealElements.forEach((el) => {
+
+    el.innerHTML = el.textContent.replace(
+
+      /([-A-Za-z0-9!$#%^&*@()_+|~=`{}\[\]:";'<>?,.\/]+)/g,
+
+      '<div class="word">$1</div>'
+
+    );
+
+    let words = el.querySelectorAll(".word");
+
+    words.forEach((word) => {
+
+      word.innerHTML = word.textContent.replace(
+
+        /[-A-Za-z0-9!$#%^&*@()_+|~=`{}\[\]:";'<>?,.\/]/g,
+
+        "<div class='perspective'><div class='letter'><div>$&</div></div></div>"
+
+      );
+
+    });
+
+    const letters = el.querySelectorAll(".letter");
+
+    let tl = gsap.timeline({
+
+      scrollTrigger: {
+
+        trigger: el,
+
+        toggleActions: "restart none none none"
+
+      }
+
+    });
+      
+      
+      
+      tl.set(el, { autoAlpha: 1 });
+
+    tl.fromTo(
+
+      letters,
+
+      1.6,
+
+      {
+
+        transformOrigin: "center",
+
+        rotationY: 90,
+
+        x: 30
+
+      },
+
+      {
+
+        rotationY: 0.1,
+
+        x: 0,
+
+        stagger: 0.025,
+
+        ease: CustomEase.create("custom", "M0,0 C0.425,0.005 0,1 1,1 ")
+
+      }
+
+    );
+
+  });
+
+      
+      
+      
+      
+      
+      revealContainers.forEach((el) => {
+      
+
       let image = el.querySelector("img");
+          
       let tl = gsap.timeline({
         scrollTrigger:{
-          trigger: el,               
+          trigger: el,
           toggleActions: "restart none none none"
-        }
+        }           
       }); 
-
-      tl.set(el, { autoAlpha: 1 });
-      tl.from(el,  { 
+                 
+tl.set(el, { autoAlpha: 1 });
+      tl.from(el,  {         
         duration: 3,
         xPercent: -100,
-        ease: "Power3.easeOut"
-      }); 
-
-      tl.from(image,  {
+        ease: "power2.out"    
+      });      
+      
+      tl.from(image,  {      
         duration: 3,
         xPercent: 100,
-        scale: 1.3,      
-        ease: "Power3.easeOut"     
-      }, 0); 
-    });
-  });
-}
+        scale: 1.3,
+        ease: "power2.out"       
+      }, 0);                   
+    });           
+    })   
+    }   
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
 
 
 
