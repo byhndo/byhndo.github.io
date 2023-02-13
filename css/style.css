@@ -474,6 +474,10 @@ img{
   color: var(--c3)!important;
 }
 
+.text, .text span{
+  position:relative;
+}
+
 @media(min-width:576px){
 .title-letter {
   font-size: calc(20vw + 1rem);
