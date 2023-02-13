@@ -43,8 +43,7 @@ textRevealElements.forEach((element) => {
       tl.from(text,  {      
         duration: 2,
         opacity: 0,
-        top: "2rem",
-        delay: .5,
+        top: "2rem",     
         stagger: .2,
         ease: "Elastic.easeOut"
       });                    
