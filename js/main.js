@@ -21,100 +21,50 @@ const { createApp, ref, onMounted } = Vue
 function setupReveal(container) {
   container.ctx = gsap.context(() => {
  
-   const textRevealElements = document.querySelectorAll(".reveal-text");
-    
+  const textRevealElements = document.querySelectorAll(".reveal-text");   
   let revealContainers = container.querySelectorAll(".item");
        
-    
-      
-      
-      
-      
-
-
-
-  
-
   textRevealElements.forEach((el) => {
-
     el.innerHTML = el.textContent.replace(
-
       /([-A-Za-z0-9!$#%^&*@()_+|~=`{}\[\]:";'<>?,.\/]+)/g,
-
       '<div class="word">$1</div>'
-
     );
 
     let words = el.querySelectorAll(".word");
 
     words.forEach((word) => {
-
       word.innerHTML = word.textContent.replace(
-
         /[-A-Za-z0-9!$#%^&*@()_+|~=`{}\[\]:";'<>?,.\/]/g,
-
         "<div class='perspective'><div class='letter'><div>$&</div></div></div>"
-
       );
-
     });
 
     const letters = el.querySelectorAll(".letter");
 
     let tl = gsap.timeline({
-
       scrollTrigger: {
-
         trigger: el,
-
         toggleActions: "restart none none none"
-
       }
-
     });
-      
-      
-      
+           
       tl.set(el, { autoAlpha: 1 });
-
-    tl.fromTo(
-
-      letters,
-
-      1.6,
-
-      {
-
+      tl.fromTo(letters,  {
+        duration: 1,
         transformOrigin: "center",
-
         rotationY: 90,
-
         x: 30
-
       },
-
       {
-
         rotationY: 0.1,
-
         x: 0,
-
-        stagger: 0.025
-
-        
+        stagger: 0.025        
       }
-
     );
-
   });
 
-      
-      
-      
-      
-      
-      revealContainers.forEach((el) => {
-      
+          
+      revealContainers.forEach((el) => {      
 
       let image = el.querySelector("img");
           
@@ -141,26 +91,6 @@ tl.set(el, { autoAlpha: 1 });
     });           
     })   
     }   
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
 
 
 
