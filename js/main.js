@@ -41,12 +41,18 @@ textRevealElements.forEach((element) => {
       }); 
           
       tl.from(text,  {      
-        duration: 3,
+        duration: 2,
         opacity: 0,
         top: "2rem",     
         stagger: .2,       
         ease: "Elastic.easeOut"
-      });                    
+      }); 
+
+      tl.from(pg, { 
+       duration: 2,
+       yPercent: 0,
+       opacity:0 
+    });                   
     });  
                   
       revealContainers.forEach((el) => {     
