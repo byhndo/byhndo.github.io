@@ -36,7 +36,7 @@ textRevealElements.forEach((element) => {
   let tl = gsap.timeline({
         scrollTrigger:{
           trigger: element,
-          toggleActions: "restart play restart play"
+          toggleActions: "restart restart restart restart"
         }           
       }); 
           
