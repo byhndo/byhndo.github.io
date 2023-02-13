@@ -41,7 +41,7 @@ textRevealElements.forEach((element) => {
       }); 
           
       tl.from(text,  {      
-        duration: 2,
+        duration: 3,
         opacity: 0,
         top: "2rem",     
         stagger: .2,       
