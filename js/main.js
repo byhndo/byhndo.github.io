@@ -54,12 +54,7 @@ const zoom = element.querySelectorAll(".zoom");
        duration: 2,      
        opacity:0 
     });  
-      tl.from(zoom, { 
-       duration:.1,
-       scale:0.5,
-       opacity:0
-    }); 
-                
+                    
     });  
                   
       revealContainers.forEach((el) => {     
