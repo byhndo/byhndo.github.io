@@ -21,7 +21,7 @@ const { createApp, ref, onMounted } = Vue
 function setupReveal(container) {
   container.ctx = gsap.context(() => {
  
-  const textRevealElements = document.querySelectorAll("p");   
+  const textRevealElements = document.querySelectorAll("p.sub1");   
   let revealContainers = container.querySelectorAll(".item");
        
   textRevealElements.forEach((el) => {
