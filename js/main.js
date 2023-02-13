@@ -50,8 +50,7 @@ textRevealElements.forEach((element) => {
       }); 
 
       tl.from(text2, { 
-       duration: 2,
-       yPercent: 0,
+       duration: 2,      
        opacity:0 
     });                   
     });  
