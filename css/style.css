@@ -491,7 +491,6 @@ img{
 
 .perspective {
   perspective: 20vw;
-  margin-right: 1.5vw;
   position: relative;
   display: inline-block;
 }
