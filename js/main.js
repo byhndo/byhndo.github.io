@@ -130,7 +130,13 @@ function showSubTitle() {
 $(document).ready(function() {
 $( ".ball" ).delay(100).animate({top:"0"},
      3000, 'easeOutBounce'
+)
+  });
 
+
+$(document).ready(function() {
+$( ".soc" ).delay(100).animate({bottom:"0"},
+     3000, 'easeOutBounce'
 )
   });
 
