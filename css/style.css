@@ -393,7 +393,6 @@ img{
   display: block;
   padding:2.95px .12px 0 .16px;
   font-size: 15px;
-  transition: all ease-out 2s;
   background-color: var(--titlecolor1);
   color: var(--bg1);
   border-radius:50%;
