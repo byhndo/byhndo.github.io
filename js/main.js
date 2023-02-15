@@ -47,14 +47,14 @@ const zoom = element.querySelectorAll(".zoom");
         top: "2rem",     
         stagger: .2,  
         delay:1, 
-        ease: "Cubic.easeOut"
+        ease: "Elastic.easeOut"
       }); 
 
       tl.from(text2, { 
        duration: 1,      
        opacity:0,
        top: "2rem",
-       ease: "Cubic.easeOut"
+       ease: "Elastic.easeOut"
     });  
                     
     });  
