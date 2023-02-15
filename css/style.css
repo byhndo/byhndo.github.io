@@ -370,7 +370,7 @@ img{
   border-radius: var(--rad);
 }
 
-img .normal{
+img.normal{
   height:100%;
 }
 
