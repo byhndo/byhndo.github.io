@@ -42,11 +42,11 @@ textRevealElements.forEach((element) => {
       }); 
           
       tl.from(text,  {      
-        duration: 2,
+        duration: 1.5,
         opacity: 0,
         top: "2rem",     
         stagger: .2,  
-        delay:.7, 
+        delay:1, 
         ease: "Elastic.easeOut"
       }); 
       tl.from(text2,  {      
