@@ -2,17 +2,15 @@ gsap.registerPlugin(ScrollTrigger);
 const { createApp, ref, onMounted } = Vue
   createApp({
     methods: {
-      afterEnter(el, element) {
-        setupReveal(el);
-        setupReveal(element);
+      afterEnter(el) {
+        setupReveal(el);           
       },
 
-      afterLeave(el, element) {
-        el.ctx && el.ctx.revert(); 
-        element.ctx && element.ctx.revert();
-      }
+      afterLeave(el) {
+        el.ctx && el.ctx.revert();             
+      }   
     },
-   mounted: function(){         
+    mounted: function(){         
      gsap.to(".ball", {top: 0, delay: 1.45, opacity: 1, duration: 2, ease: Bounce.easeOut});   
       },   
     data() {
@@ -22,69 +20,88 @@ const { createApp, ref, onMounted } = Vue
     }
   }).mount('#app')
 
-
-
 function setupReveal(container) {
-  container.ctx = gsap.context(() => {
- 
-  const textRevealElements = container.querySelectorAll(".box");
-            
-  textRevealElements.forEach((element) => {
+container.ctx = gsap.context(() => {
+        
+const textRevealBoxs1 = container.querySelectorAll(".box1");
+
+textRevealBoxs1.forEach((box1) => {
+
+const text1 = box1.querySelectorAll(".text1, .text1 span");
     
-  const text = element.querySelectorAll(".text, .text span");
-  const text2 = element.querySelectorAll(".text2");
+  let tl = gsap.timeline({
+    scrollTrigger:{
+      trigger: box1, 
+      toggleActions: "restart none none none"
+    }           
+    }); 
+          
+    tl.from(text1,  {      
+     duration: 2,
+     opacity: 0,
+     top: "2rem",     
+     stagger: .2,  
+     delay:1, 
+      ease: "Elastic.easeOut"
+      }); 
+                             
+    });  
+    
+    
+const textRevealBoxs2 = container.querySelectorAll(".box2");
+          
+textRevealBoxs2.forEach((box2) => {
+    
+const text2 = box2.querySelectorAll(".text2, .text2 span");
   
   let tl = gsap.timeline({
-        scrollTrigger:{
-          trigger: element,
-          toggleActions: "restart none none none"
-        }           
-      }); 
+    scrollTrigger:{
+      trigger: box2,
+      toggleActions: "restart none none none"
+    }           
+    }); 
           
-      tl.from(text,  {      
-        duration: 2,
-        opacity: 0,
-        top: "2rem",     
-        stagger: .2,  
-        delay:1, 
-        ease: "Cubic.easeOut"
-      }); 
-      tl.from(text2,  {      
-        duration: 1.5,
-        opacity: 0                   
-      }); 
-                        
-    });  
-   
-  let revealContainers = container.querySelectorAll(".item");               
+    tl.from(text2,  {      
+      opacity:0,
+      duration: 1.5,
+      delay: 1,
+      top: "2rem",          
+      ease: "Elastic.easeOut"
+      });    
+  
+ });
+       
+let revealContainers = container.querySelectorAll(".item");                
+revealContainers.forEach((el) => {     
       
-      revealContainers.forEach((el) => {     
-      let image = el.querySelector("img");         
-      let tl = gsap.timeline({
-        scrollTrigger:{
-          trigger: el,
-          toggleActions: "restart none none none"
-        }           
-      }); 
+  let image = el.querySelector("img");   
+  
+  let tl = gsap.timeline({
+    scrollTrigger:{
+    trigger: el,
+    toggleActions: "restart none none none"        
+    },             
+    }); 
                  
-  tl.set(el, { autoAlpha: 1 });
+    tl.set(el, { autoAlpha: 1 });
       tl.from(el,  {         
         duration: 3,
-        xPercent: -100,
+        xPercent: -100,          
         ease: "power2.out"    
       });      
       
       tl.from(image,  {      
         duration: 3,
         xPercent: 100,
-        scale: 1.3,
+        scale: 1.3,         
         ease: "power2.out"       
       }, 0);                   
-    });           
+      }); 
+    
    })
 }
 
-
+   
 let letters = document.getElementsByClassName('title-letter');
 
 setTimeout(() => {
