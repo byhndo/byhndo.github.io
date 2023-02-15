@@ -12,8 +12,9 @@ const { createApp, ref, onMounted } = Vue
         element.ctx && element.ctx.revert();
       }
     },
-   mounted: function(){
-     gsap.to(".ball", {top: 0, delay: 1, duration: 2, ease: Bounce.easeOut});   
+   mounted: function(){     
+     gsap.to(".ball", {opacity: 0});   
+     gsap.to(".ball", {top: 0, delay: 1, opacity: 1, duration: 2, ease: Bounce.easeOut});   
       },   
     data() {
       return {
