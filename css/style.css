@@ -363,7 +363,7 @@ p.sub3 {
 
 img{
   width: 100%;
-  height: 30vh;  
+  height: 27vh;  
   transform-origin: left;
   object-fit: cover;
   filter: saturate(0);
