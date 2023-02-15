@@ -13,7 +13,7 @@ const { createApp, ref, onMounted } = Vue
       }
     },
    mounted: function(){
-     gsap.to(".ball", {top: 0, delay: .5, duration: 4, ease: Bounce.easeOut});   
+     gsap.to(".ball", {top: 0, delay: .5, duration: 3.5, ease: Bounce.easeOut});   
       },   
     data() {
       return {
