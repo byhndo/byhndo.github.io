@@ -149,7 +149,7 @@ h1 {
   font-size: var(--sizetitle);
   font-family: var(--font1); 
   font-weight: 800;
-  top:-100vh;
+  top:-50vh;
   transition: color 1.5s;
 }
 
