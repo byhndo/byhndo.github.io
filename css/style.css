@@ -363,9 +363,9 @@ p.sub3 {
 
 img{
   width: 100%;
-  height: 50vh;  
+  height: 15vh;  
   transform-origin: left;
-  object-fit: contain;
+  object-fit: cover;
   filter: saturate(0);
   border-radius: var(--rad);
 }
