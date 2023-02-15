@@ -46,14 +46,12 @@ textRevealElements.forEach((element) => {
         opacity: 0,
         top: "2rem",     
         stagger: .2,  
-        delay:1, 
+        delay:.7, 
         ease: "Elastic.easeOut"
       }); 
       tl.from(text2,  {      
         duration: .5,
-        opacity: 0,
-        top: "2rem",            
-        ease: "Elastic.easeOut"
+        opacity: 0                    
       }); 
                         
     });  
