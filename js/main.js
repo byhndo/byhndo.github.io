@@ -41,7 +41,7 @@ const text1 = box1.querySelectorAll(".text1, .text1 span");
      opacity: 0,
      top: "2rem",     
      stagger: .2,  
-     delay:1, 
+     delay: 1.2, 
       ease: "Elastic.easeOut"
       }); 
                              
@@ -64,7 +64,7 @@ const text2 = box2.querySelectorAll(".text2, .text2 span");
     tl.from(text2,  {      
       opacity:0,
       duration: 1.5,
-      delay: 1,
+      delay: 1.2,
       top: "2rem",          
       ease: "Elastic.easeOut"
       });    
