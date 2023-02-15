@@ -50,8 +50,9 @@ textRevealElements.forEach((element) => {
         ease: "Elastic.easeOut"
       }); 
       tl.from(text2,  {      
-        duration: .5,
-        opacity: 0                    
+        duration: 1,
+        opacity: 0,
+        top: "2rem"                    
       }); 
                         
     });  
