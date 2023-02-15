@@ -46,7 +46,7 @@ const zoom = element.querySelectorAll(".zoom");
         opacity: 0,
         top: "2rem",     
         stagger: .2,  
-        delay:1,     
+        delay:1    
         ease: "Cubic.easeOut"
       }); 
 
