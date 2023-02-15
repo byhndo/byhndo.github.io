@@ -363,15 +363,11 @@ p.sub3 {
 
 img{
   width: 100%;
-  height: 25vh;  
+  height: 100%;  
   transform-origin: left;
   object-fit: cover;
   filter: saturate(0);
   border-radius: var(--rad);
-}
-
-img.normal{
-  height:100%;
 }
 
 .soc {
@@ -491,10 +487,6 @@ img.normal{
 main{
   max-width:75vw;
   margin: 0 auto;
-}
-
-img{
-  height:20vh
 }
 
 p.sub1,p.sub2, p.sub3{
