@@ -47,7 +47,7 @@ function setupReveal(container) {
         top: "2rem",     
         stagger: .2,  
         delay:1, 
-        ease: "Elastic.easeOut"
+        ease: "Cubic.easeOut"
       }); 
       tl.from(text2,  {      
         duration: 1.5,
