@@ -475,8 +475,8 @@ img{
   color: var(--c3)!important;
 }
 
-.text, .text span{
-  position:relative;
+.text1, .text1 span, .text2, .text2 span{
+  position:relative; 
 }
 
 @media(min-width:576px){
