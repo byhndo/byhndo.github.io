@@ -12,7 +12,9 @@ const { createApp, ref, onMounted } = Vue
         element.ctx && element.ctx.revert();
       }
     },
-    
+   mounted: function(){
+     gsap.to(".ball", {top: 0, duration: 2, ease: Bounce.easeOut});   
+      },   
     data() {
       return {
         bg: 'bio'
@@ -124,10 +126,3 @@ function showSubTitle() {
     delay: 1
   });
 }
-
-
-$(document).ready(function() {
-$( ".ball" ).delay(100).animate({top:"0"},
-     3000, 'easeOutBounce'
-)
-  });
