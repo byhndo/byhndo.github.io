@@ -51,8 +51,7 @@ textRevealElements.forEach((element) => {
       }); 
       tl.from(text2,  {      
         duration: 1.5,
-        opacity: 0,
-        top: "2rem"                    
+        opacity: 0                   
       }); 
                         
     });  
