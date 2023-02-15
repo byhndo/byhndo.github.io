@@ -155,11 +155,11 @@ h1 {
 }
 
 .photos .ball {
-  top:-100vh;
+  top:-20vh;
   color: var(--c2);
 }
 .find-me .ball {
-  top:-100vh;
+  top:-20vh;
   color: var(--c3);
 }
 
