@@ -28,10 +28,8 @@ function setupReveal(container) {
   container.ctx = gsap.context(() => {
  
   const textRevealElements = container.querySelectorAll(".box");
-    
-  let revealContainers = container.querySelectorAll(".item");
-       
-textRevealElements.forEach((element) => {
+            
+  textRevealElements.forEach((element) => {
     
   const text = element.querySelectorAll(".text, .text span");
   const text2 = element.querySelectorAll(".text2");
@@ -57,7 +55,9 @@ textRevealElements.forEach((element) => {
       }); 
                         
     });  
-                  
+   
+  let revealContainers = container.querySelectorAll(".item");               
+      
       revealContainers.forEach((el) => {     
       let image = el.querySelector("img");         
       let tl = gsap.timeline({
@@ -67,7 +67,7 @@ textRevealElements.forEach((element) => {
         }           
       }); 
                  
-tl.set(el, { autoAlpha: 1 });
+  tl.set(el, { autoAlpha: 1 });
       tl.from(el,  {         
         duration: 3,
         xPercent: -100,
@@ -84,13 +84,6 @@ tl.set(el, { autoAlpha: 1 });
    })
 }
 
-
-
-
-
-
-
-  
 
 let letters = document.getElementsByClassName('title-letter');
 
