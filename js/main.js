@@ -32,7 +32,8 @@ function setupReveal(container) {
 textRevealElements.forEach((element) => {
     
   const text = element.querySelectorAll(".text, .text span");
-  const zoom = element.querySelectorAll(".zoom");
+  const text2 = element.querySelectorAll(".text2");
+  
   let tl = gsap.timeline({
         scrollTrigger:{
           trigger: element,
@@ -46,6 +47,12 @@ textRevealElements.forEach((element) => {
         top: "2rem",     
         stagger: .2,  
         delay:1, 
+        ease: "Elastic.easeOut"
+      }); 
+      tl.from(text2,  {      
+        duration: .5,
+        opacity: 0,
+        top: "2rem",            
         ease: "Elastic.easeOut"
       }); 
                         
