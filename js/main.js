@@ -84,7 +84,7 @@ const three = box2.querySelectorAll(".three");
       ease: "Elastic.easeOut"
       });   
 
-    tl.from(three, {
+    tl.to(three, {
       opacity:0,
       delay: .1,
       duration: 2                      
