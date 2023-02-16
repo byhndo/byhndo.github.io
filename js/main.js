@@ -78,7 +78,7 @@ const text2 = box2.querySelectorAll(".text2, .text2 span");
       opacity:0,
       duration: 2.5,
       delay: 1.3,
-      y: "2rem",          
+      scale: 1.3,          
       ease: "Elastic.easeOut"
       });   
  
