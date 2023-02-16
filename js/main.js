@@ -55,7 +55,7 @@ const text1 = box1.querySelectorAll(".text1, .text1 span");
      duration: 2,
      opacity: 0,
      width: "20px",
-     ease: "bounce"
+     ease: "Bounce.easeOut"
      },"<1");
                              
     });  
