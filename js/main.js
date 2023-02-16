@@ -47,12 +47,12 @@ const text1 = box1.querySelectorAll(".text1, .text1 span");
 
 
     tl.to(".line", {
-     duration: 1,
+     duration: 2,
      width: "100%",
     }, "<");
 
     tl.to(".line", {
-     duration: 1,
+     duration: 2,
      width: "20vw",
      ease: "bounce"
      },"<1");
