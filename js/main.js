@@ -44,6 +44,18 @@ const text1 = box1.querySelectorAll(".text1, .text1 span");
      delay: 1.3, 
       ease: "Elastic.easeOut"
       }); 
+
+
+    tl.to(".line-under", {
+     duration: 1,
+     width: "100%",
+    }, "<");
+
+    tl.to(".line-under", {
+     duration: 1,
+     width: "19.3vw",
+     ease: "bounce"
+     },"<1");
                              
     });  
     
