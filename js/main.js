@@ -49,14 +49,9 @@ const line = box1.querySelectorAll(".line");
     tl.to(line, {
      duration: 2,
      width: "100%",
-    }, "<");
-
-    tl.to(line, {
-     duration: 2,
      delay: 1,
-     width: "27px",
      ease: "Bounce.easeOut"
-     },"<1");
+    }, "<");
                              
     });  
     
