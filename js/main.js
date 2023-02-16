@@ -40,7 +40,7 @@ const line = box1.querySelectorAll(".line");
     tl.from(text1,  {      
      duration: 2.5,
      opacity: 0,
-     y: "2rem",     
+     top: "2rem",     
      stagger: .2,  
      delay: 1.3, 
       ease: "Elastic.easeOut"
