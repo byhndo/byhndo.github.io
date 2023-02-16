@@ -53,8 +53,8 @@ const text1 = box1.querySelectorAll(".text1, .text1 span");
 
     tl.to(".line", {
      duration: 2,
-     width: "10vw",
-     ease: "Elastic.easeOut"
+     width: "5vw",
+     ease: "Bounce.easeOut"
      },"<1");
                              
     });  
