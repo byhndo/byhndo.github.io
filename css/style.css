@@ -472,6 +472,14 @@ img{
   background-color: var(--titlecolor1);
 }
 
+.photos .line {
+  background-color: var(--titlecolor2);
+}
+
+.find-me .line {
+  background-color: var(--titlecolor3);
+}
+
 @media(min-width:576px){
 .title-letter {
   font-size: calc(20vw + 1rem);
