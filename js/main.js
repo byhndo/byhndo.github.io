@@ -84,10 +84,10 @@ const three = box2.querySelectorAll(".three");
       ease: "Elastic.easeOut"
       });   
 
-    tl.fromTo(three, {
-      autoAlpha: 0}, {
-      autoAlpha: 1, 
-      duration: 1.5
+    tl.from(three, {
+      opacity:0,
+      duration: 2,
+      delay: 1.3                  
       }); 
   
  });
