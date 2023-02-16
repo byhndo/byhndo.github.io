@@ -55,7 +55,7 @@ const line = box1.querySelectorAll(".line");
     tl.to(line, {
      duration: 2,
      delay: 1,
-     width: "30px",
+     width: "27px",
      ease: "Bounce.easeOut"
      },"<1");
                              
