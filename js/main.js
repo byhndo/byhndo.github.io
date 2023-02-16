@@ -85,7 +85,7 @@ const fade = box2.querySelectorAll(".fade");
 
     tl.from(fade, {
       opacity:0,
-      y: "2rem", 
+      scale: 1.3, 
       delay: .1,
       duration: 2                      
       }); 
