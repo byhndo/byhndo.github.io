@@ -66,7 +66,7 @@ const textRevealBoxs2 = container.querySelectorAll(".box2");
 textRevealBoxs2.forEach((box2) => {
     
 const text2 = box2.querySelectorAll(".text2, .text2 span");
-const three = box2.querySelectorAll(".three");  
+const fade = box2.querySelectorAll(".fade");  
 
   let tl = gsap.timeline({
     scrollTrigger:{
@@ -83,7 +83,7 @@ const three = box2.querySelectorAll(".three");
       ease: "Elastic.easeOut"
       });   
 
-    tl.from(three, {
+    tl.from(fade, {
       opacity:0,
       y: "2rem", 
       delay: .1,
