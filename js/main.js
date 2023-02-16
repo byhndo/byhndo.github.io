@@ -40,7 +40,7 @@ const line = box1.querySelectorAll(".line");
     tl.from(text1,  {      
      duration: 2.5,
      opacity: 0,
-     top: "2rem",     
+     y: "2rem",     
      stagger: .2,  
      delay: 1.3, 
       ease: "Elastic.easeOut"
@@ -79,13 +79,14 @@ const fade = box2.querySelectorAll(".fade");
       opacity:0,
       duration: 2.5,
       delay: 1.3,
-      top: "2rem",          
+      y: "2rem",          
       ease: "Elastic.easeOut"
       });   
 
     tl.from(fade, {
       opacity:0,
-      scale: 1.3, 
+      scale: 1.3,
+      y: "2rem", 
       delay: .1,
       duration: 2                      
       }); 
