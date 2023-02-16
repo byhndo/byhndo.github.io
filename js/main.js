@@ -150,3 +150,8 @@ function showSubTitle() {
     delay: 1
   });
 }
+
+$(document).ready(function(){
+            $('#soc').load("soc.html");
+            $('#footer').load("footer.html");
+         });
