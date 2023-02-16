@@ -65,8 +65,7 @@ const textRevealBoxs2 = container.querySelectorAll(".box2");
           
 textRevealBoxs2.forEach((box2) => {
     
-const text2 = box2.querySelectorAll(".text2, .text2 span");
-const fade = box2.querySelectorAll(".fade");  
+const text2 = box2.querySelectorAll(".text2, .text2 span");  
 
   let tl = gsap.timeline({
     scrollTrigger:{
@@ -82,15 +81,7 @@ const fade = box2.querySelectorAll(".fade");
       y: "2rem",          
       ease: "Elastic.easeOut"
       });   
-
-    tl.from(fade, {
-      opacity:0,
-      scale: 1.3,
-      y: "2rem", 
-      delay: .1,
-      duration: 2                      
-      }); 
-  
+ 
  });
        
 let revealContainers = container.querySelectorAll(".item");                
