@@ -53,7 +53,7 @@ const text1 = box1.querySelectorAll(".text1, .text1 span");
 
     tl.to(".line-under", {
      duration: 1,
-     width: "19.3vw",
+     width: "20vw",
      ease: "bounce"
      },"<1");
                              
