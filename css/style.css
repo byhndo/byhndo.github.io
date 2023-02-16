@@ -462,6 +462,15 @@ img{
   position:relative; 
 }
 
+.line {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0vw;
+  height: .4vw;
+  background-color: var(--titlecolor1);
+}
+
 @media(min-width:576px){
 .title-letter {
   font-size: calc(20vw + 1rem);
