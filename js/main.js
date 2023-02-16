@@ -50,7 +50,7 @@ const line = box1.querySelectorAll(".line");
      duration: 2,
      width: "100%",
      delay: 1,
-     ease: "Cubic.easeOut"
+     ease: "Power3.easeOut"
     }, "<");
                              
     });  
