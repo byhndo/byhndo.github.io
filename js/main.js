@@ -46,7 +46,6 @@ const line = box1.querySelectorAll(".line");
       ease: "Elastic.easeOut"
       }); 
 
-
     tl.to(line, {
      duration: 2,
      width: "100%",
@@ -86,6 +85,7 @@ const three = box2.querySelectorAll(".three");
 
     tl.to(three, {
       opacity:0,
+      y: "2rem", 
       delay: .1,
       duration: 2                      
       }); 
