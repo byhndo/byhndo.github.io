@@ -162,7 +162,6 @@ a {
 }
 
 .bg {
-  position: relative;
   background: inherit;
   min-height: 100vh;
   padding:3vh 0 2vh 0;
@@ -461,6 +460,10 @@ img{
 
 .text1, .text1 span, .text2, .text2 span{
   position:relative; 
+}
+
+.wrapline{
+  position: relative;
 }
 
 .line {
