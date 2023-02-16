@@ -84,7 +84,7 @@ const three = box2.querySelectorAll(".three");
       ease: "Elastic.easeOut"
       });   
 
-    gsap.fromTo(three, {
+    tl.fromTo(three, {
       autoAlpha: 0}, {
       autoAlpha: 1, 
       duration: 1.5
