@@ -72,6 +72,7 @@
         </p>
     </h1>
 <transition appear name="fade" mode="out-in" @after-enter="afterEnter" @after-leave="afterLeave">        
+/* sub1 */
 <div class="sub1" key="bio" v-if="bg==='bio'">         
   <div class="box1"><h3 class="text1"><span>H</span><span>i</span><span>!</span></h3></div>              
   <div class="box1"><div class="wrapline"><div class="line"></div></div></div>
@@ -88,13 +89,13 @@
   </p>
   </div>
   </div>
-
    
 <div id="soc"></div>
 <div id="footer"></div>
-
 </div>
+/* sub1 */
 
+/* sub2 */
 <div class="sub2" key="photos" v-if="bg==='photos'">
 <div class="box1"><h3 class="text1"><span>P</span><span>h</span><span>o</span><span>t</span><span>o</span><span>s</span><span>.</span></h3></div>           
 <div class="box1"><div class="wrapline"><div class="line"></div></div></div>
@@ -104,7 +105,6 @@
   </p>
 </div>
 </div>
-
 <div class="box2">
 <div class="text2">
 <div class="grid">
@@ -121,13 +121,13 @@
 </div>
 </div>    
 </div>
-
-    
+   
 <div id="soc"></div>
 <div id="footer"></div>
-
 </div>
+/* sub */
 
+/* sub3 */
 <div class="sub3" key="find-me" v-if="bg==='find-me'">
 <div class="box1"><h3 class="text1"><span>F</span><span>i</span><span>n</span><span>d</span> <span>M</span><span>e</span><span>.</span></h3></div> 
 <div class="box1"><div class="wrapline"><div class="line"></div></div></div>
@@ -136,8 +136,8 @@
     
 <div id="soc"></div>
 <div id="footer"></div>
-
 </div>
+/* sub3 */
             
 </transition>    
 </main>
