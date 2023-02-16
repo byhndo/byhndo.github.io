@@ -28,7 +28,8 @@ const textRevealBoxs1 = container.querySelectorAll(".box1");
 textRevealBoxs1.forEach((box1) => {
 
 const text1 = box1.querySelectorAll(".text1, .text1 span");
-    
+const line = box1.querySelectorAll(".line");
+       
   let tl = gsap.timeline({
     scrollTrigger:{
       trigger: box1, 
@@ -46,12 +47,12 @@ const text1 = box1.querySelectorAll(".text1, .text1 span");
       }); 
 
 
-    tl.to(".line", {
+    tl.to(line, {
      duration: 2,
      width: "100%",
     }, "<");
 
-    tl.to(".line", {
+    tl.to(line, {
      duration: 2,
      delay: 1,
      width: "20px",
