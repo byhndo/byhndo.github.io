@@ -87,14 +87,14 @@ revealContainers.forEach((el) => {
       tl.from(el,  {         
         duration: 3,
         xPercent: -100,          
-        ease: "power2.out"    
+        ease: "Circ.easeOut"    
       });      
       
       tl.from(image,  {      
         duration: 3,
         xPercent: 100,
         scale: 1.3,         
-        ease: "power2.out"       
+        ease: "Circ.easeOut"       
       }, 0);                   
       }); 
     
