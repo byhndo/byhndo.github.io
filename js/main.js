@@ -66,7 +66,7 @@ const text2 = box2.querySelectorAll(".text2, .text2 span");
       duration: 2.5,
       delay: 1.3,
       top: "2rem",          
-      ease: "Expo.easeOut"
+      ease: "Circ.easeOut"
       });    
   
  });
