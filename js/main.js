@@ -86,6 +86,7 @@ const three = box2.querySelectorAll(".three");
 
     tl.from(three, {
       opacity:0,
+      delay: .1,
       duration: 2                      
       }); 
   
