@@ -458,7 +458,7 @@ img{
   color: var(--c3)!important;
 }
 
-.text1, .text1 span, .text2, .text2 span, .three{
+.text1, .text1 span, .text2, .text2 span, .fade{
   position:relative; 
 }
 
