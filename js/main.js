@@ -141,10 +141,10 @@ setTimeout(() => {
 function showSubTitle() {
   anime({
     targets: '#sub-title',
-    easing: 'easeInQuad',
+    easing: 'easeOutQuad',
     opacity: 1,
     filter: "blur(0px)",
-    duration: 500,
+    duration: 1500,
     delay: 4
   });
 }
