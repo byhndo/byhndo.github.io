@@ -43,13 +43,15 @@ const line = box1.querySelectorAll(".line");
      filter: "blur(10px)",
      bottom: "2rem",     
      stagger: .2,  
-     delay: 1.3, 
+     delay: 1, 
       ease: "Bounce.easeOut"
       }); 
 
     tl.to(line, {
      duration: 1.5,
      width: "100%",
+     opacity: 0,            
+     filter: "blur(10px)",
      delay: 1,
      ease: "Power3.easeOut"
     }, "<");
@@ -74,7 +76,7 @@ const text2 = box2.querySelectorAll(".text2, .text2 span");
       opacity: 0,         
       filter: "blur(10px)",
       duration: 1.5,
-      delay: 1.3,
+      delay: 1,
       ease: "none"           
       });   
  
