@@ -91,7 +91,7 @@ revealContainers.forEach((el) => {
     }, delay: .3            
     }); 
                  
-    tl.set(el, { autoAlpha: 1 });
+    tl.set(el, { autoAlpha: 0 });
       tl.from(el,  {         
         duration: 3,
         xPercent: -100,                    
@@ -105,7 +105,7 @@ revealContainers.forEach((el) => {
         filter: "blur(0px)",
         scale: 1.3,         
         ease: "Circ.easeOut"       
-      }, 0);                   
+      }, 1);                   
       }); 
     
    })
