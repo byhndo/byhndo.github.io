@@ -69,7 +69,7 @@ const text2 = box2.querySelectorAll(".text2, .text2 span");
     }           
     }); 
           
-    tl.to(text2,  {  
+    tl.from(text2,  {  
       autoAlpha: 0,         
       filter: "blur(0px)",
       duration: 1.5,
