@@ -91,7 +91,7 @@ revealContainers.forEach((el) => {
     scrollTrigger:{
     trigger: el,
     toggleActions: "restart none none none"        
-    },             
+    }, delay: .3            
     }); 
                  
     tl.set(el, { autoAlpha: 1 });
