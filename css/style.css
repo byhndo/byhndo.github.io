@@ -456,7 +456,7 @@ img{
   color: var(--c3)!important;
 }
 
-.text1, .text1 span, .text2, .text2 span{
+.text1, .text1 span, .text2, .text2 span, .line{
   position:relative; 
   filter: blur(0px);
 }
