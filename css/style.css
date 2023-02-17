@@ -354,7 +354,7 @@ img{
   height: 100%;  
   transform-origin: left;
   object-fit: cover;
-  filter: saturate(0);
+  filter: "blur(0px)";
   border-radius: var(--rad);
 }
 
