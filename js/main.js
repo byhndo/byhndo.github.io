@@ -94,7 +94,9 @@ revealContainers.forEach((el) => {
     tl.set(el, { autoAlpha: 1 });
       tl.from(el,  {         
         duration: 3,
-        xPercent: -100,          
+        xPercent: -100,
+        opacity: 0,            
+        filter: "blur(10px)",          
         ease: "Circ.easeOut"    
       });      
       
