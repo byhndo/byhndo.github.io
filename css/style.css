@@ -462,6 +462,10 @@ img{
   position:relative; 
 }
 
+.text2, .text2 span{
+  filter: blur(10px);
+}
+
 .wrapline{
   position: relative;
 }
