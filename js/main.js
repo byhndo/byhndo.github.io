@@ -136,7 +136,7 @@ setTimeout(() => {
       }
     });
   }
-}, 500);
+}, 1500);
 
 function showSubTitle() {
   anime({
