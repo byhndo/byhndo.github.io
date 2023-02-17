@@ -11,7 +11,7 @@ const { createApp, ref, onMounted } = Vue
       }   
     },
     mounted: function(){         
-     gsap.to(".ball", {top: 0, delay: 4, opacity: 1, duration: 2, ease: Bounce.easeOut});   
+     gsap.to(".ball", {top: 0, delay: 4.5, opacity: 1, duration: 2, ease: Bounce.easeOut});   
       },   
     data() {
       return {
@@ -145,6 +145,6 @@ function showSubTitle() {
     opacity: 1,
     filter: "blur(0px)",
     duration: 1500,
-    delay: 4
+    delay: 5
   });
 }
