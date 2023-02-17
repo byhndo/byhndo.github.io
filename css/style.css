@@ -83,6 +83,7 @@ h1 {
   font-family: var(--font1); 
   color: var(--titlecolor1);
   transition: all 1.5s; 
+  transform: translate(-50%, -50%);
 }
 
 .photos h1 {
