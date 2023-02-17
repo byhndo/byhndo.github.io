@@ -460,9 +460,6 @@ img{
 
 .text1, .text1 span, .text2, .text2 span{
   position:relative; 
-}
-
-.text2, .text2 span{
   filter: blur(0px);
 }
 
