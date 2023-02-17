@@ -44,7 +44,7 @@ const line = box1.querySelectorAll(".line");
      bottom: "2rem",     
      stagger: .2,  
      delay: 1, 
-     ease: "Bounce.easeOut"
+     ease: "Power3.easeOut"
       }); 
 
     tl.to(line, {
