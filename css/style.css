@@ -106,6 +106,7 @@ h1 {
 }
 
 .title-letter {
+  position: relative;
   font-size: var(--sizetitle);
   margin-left: -2px;
 }
