@@ -83,7 +83,6 @@ h1 {
   font-family: var(--font1); 
   color: var(--titlecolor1);
   transition: all 1.5s; 
-  position: absolute;
 }
 
 .photos h1 {
