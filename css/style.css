@@ -121,7 +121,8 @@ h1 {
 }
 
 .title-letter, #sub-title {
-  opacity: 0;   
+  opacity: 0; 
+  filter: blur(10px);  
 }
 
 .ball {
