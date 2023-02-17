@@ -51,7 +51,7 @@ const line = box1.querySelectorAll(".line");
      duration: 1.5,
      width: "100%",
      opacity: 1,            
-     filter: "blur(10px)",
+     filter: "blur(0px)",
      delay: 1,
      ease: "Power3.easeOut"
     }, "<");
