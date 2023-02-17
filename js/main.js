@@ -44,14 +44,14 @@ const line = box1.querySelectorAll(".line");
      bottom: "2rem",     
      stagger: .2,  
      delay: 1, 
-      ease: "Bounce.easeOut"
+     ease: "Bounce.easeOut"
       }); 
 
     tl.to(line, {
      duration: 1.5,
      width: "100%",
-     opacity: 1,            
-     filter: "blur(0px)",
+     opacity: 0,            
+     filter: "blur(10px)",
      delay: 1,
      ease: "Power3.easeOut"
     }, "<");
