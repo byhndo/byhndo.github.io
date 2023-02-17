@@ -127,6 +127,7 @@ setTimeout(() => {
       targets: letters[i],
       easing: 'easeInQuad',
       opacity: 1,
+      filter: "blur(0px)",
       delay: 60 * i,
       complete: function(anim) {
         if (i === letters.length - 1) {
@@ -142,6 +143,7 @@ function showSubTitle() {
     targets: '#sub-title',
     easing: 'easeInQuad',
     opacity: 1,
+    filter: "blur(0px)",
     duration: 500,
     delay: 2.5
   });
