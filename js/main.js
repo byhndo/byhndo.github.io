@@ -38,7 +38,7 @@ const line = box1.querySelectorAll(".line");
     }); 
           
     tl.from(text1,  {      
-     duration: 2,
+     duration: 1.5,
      opacity: 0,            
      filter: "blur(10px)",
      bottom: "2rem",     
@@ -48,7 +48,7 @@ const line = box1.querySelectorAll(".line");
       }); 
 
     tl.to(line, {
-     duration: 2,
+     duration: 1.5,
      width: "100%",
      delay: 1,
      ease: "Power3.easeOut"
