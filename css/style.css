@@ -138,7 +138,6 @@ h1 {
   top:-20vh;
   opacity: 0;
   transition: color 1.5s;
-  filter: blur(10px);
 }
 
 .photos .ball {
