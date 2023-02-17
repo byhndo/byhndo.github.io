@@ -472,8 +472,8 @@ img{
   width: 0vw;
   height: .4vw;
   background-color: var(--titlecolor1);
-  filter: blur(0px);
-  opacity; 0;
+  filter: blur(10px);
+  opacity: 0;
 }
 
 .photos .line {
