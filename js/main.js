@@ -72,7 +72,8 @@ const text2 = box2.querySelectorAll(".text2, .text2 span");
     tl.to(text2,  {           
       filter: "blur(0px)",
       duration: 2.5,
-      delay: 1.3            
+      delay: 1.3,
+      ease: "none"           
       });   
  
  });
@@ -97,7 +98,7 @@ revealContainers.forEach((el) => {
       });      
       
       tl.from(image,  {      
-        duration: 3,
+        duration: 3,    
         xPercent: 100,
         scale: 1.3,         
         ease: "Circ.easeOut"       
