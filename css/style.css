@@ -84,6 +84,7 @@ h1 {
   color: var(--titlecolor1);
   transition: all 1.5s; 
   transform: translate(-50%, -50%);
+  position: absolute;
 }
 
 .photos h1 {
@@ -96,7 +97,6 @@ h1 {
 }
 
 #title {
-  position: relative;
   font-family: var(--font1); 
   font-weight: 800;
   display: inline;
@@ -107,7 +107,6 @@ h1 {
 }
 
 .title-letter {
-  position: relative;
   font-size: var(--sizetitle);
   margin-left: -2px;
 }
