@@ -34,7 +34,7 @@ const line = box1.querySelectorAll(".line");
     scrollTrigger:{
       trigger: box1, 
       toggleActions: "restart none none none"
-    }           
+    }, delay: 1           
     }); 
           
     tl.from(text1,  {      
@@ -42,8 +42,7 @@ const line = box1.querySelectorAll(".line");
      opacity: 0,            
      filter: "blur(10px)",
      bottom: "2rem",     
-     stagger: .2,  
-     delay: 1, 
+     stagger: .2,       
      ease: "Power3.easeOut"
       }); 
 
@@ -51,8 +50,7 @@ const line = box1.querySelectorAll(".line");
      duration: 1.5,
      width: "100%",
      opacity: 1,            
-     filter: "blur(0px)",
-     delay: 1,
+     filter: "blur(0px)",     
      ease: "Power3.easeOut"
     }, "<");
                              
@@ -69,14 +67,13 @@ const text2 = box2.querySelectorAll(".text2, .text2 span");
     scrollTrigger:{
       trigger: box2,
       toggleActions: "restart none none none"
-    }           
+    }, delay: 1          
     }); 
           
     tl.from(text2,  {  
       opacity: 0,         
       filter: "blur(10px)",
-      duration: 1.5,
-      delay: 1,
+      duration: 1.5,      
       ease: "none"           
       });   
  
