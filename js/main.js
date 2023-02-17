@@ -101,6 +101,8 @@ revealContainers.forEach((el) => {
       tl.from(image,  {      
         duration: 3,        
         xPercent: 100,
+        opacity: 0,            
+        filter: "blur(10px)",
         scale: 1.3,         
         ease: "Circ.easeOut"       
       }, 0);                   
