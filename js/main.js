@@ -41,10 +41,10 @@ const line = box1.querySelectorAll(".line");
      duration: 2,
      opacity: 0,            
      filter: "blur(10px)",
-     top: "2rem",     
+     bottom: "2rem",     
      stagger: .2,  
      delay: 1.3, 
-      ease: "Elastic.easeOut"
+      ease: "Bounce.easeOut"
       }); 
 
     tl.to(line, {
