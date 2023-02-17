@@ -141,7 +141,7 @@ setTimeout(() => {
 function showSubTitle() {
   anime({
     targets: '#sub-title',
-    easing: 'easeOutQuad',
+    easing: 'easeInQuad',
     opacity: 1,
     filter: "blur(0px)",
     duration: 1500,
