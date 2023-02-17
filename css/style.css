@@ -463,7 +463,7 @@ img{
 }
 
 .text2, .text2 span{
-  filter: blur(10px);
+  filter: blur(0px);
 }
 
 .wrapline{
