@@ -71,7 +71,7 @@ const text2 = box2.querySelectorAll(".text2, .text2 span");
           
     tl.from(text2,  {  
       autoAlpha: 0,         
-      filter: "blur(0px)",
+      filter: "blur(10px)",
       duration: 1.5,
       delay: 1.3,
       ease: "none"           
