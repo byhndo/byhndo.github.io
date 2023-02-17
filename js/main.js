@@ -70,7 +70,7 @@ const text2 = box2.querySelectorAll(".text2, .text2 span");
     }); 
           
     tl.from(text2,  {  
-      autoAlpha: 0,         
+      opacity: 0,         
       filter: "blur(10px)",
       duration: 1.5,
       delay: 1.3,
