@@ -47,7 +47,7 @@ const line = box1.querySelectorAll(".line");
       }); 
 
     tl.to(line, {
-     duration: 1.5,
+     duration: 3,
      width: "100%",
      opacity: 1,            
      filter: "blur(0px)",     
