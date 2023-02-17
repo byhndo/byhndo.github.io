@@ -50,7 +50,7 @@ const line = box1.querySelectorAll(".line");
     tl.to(line, {
      duration: 1.5,
      width: "100%",
-     opacity: 0,            
+     opacity: 1,            
      filter: "blur(10px)",
      delay: 1,
      ease: "Power3.easeOut"
