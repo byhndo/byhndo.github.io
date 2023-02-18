@@ -110,7 +110,7 @@ setTimeout(() => {
     anime({
       targets: letters[i],
       easing: 'easeInQuad',
-      translateY: ['-2rem', '0'],
+      translateY: ['-20rem', '0'],
       delay: 50 * i
     });
 
