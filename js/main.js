@@ -99,7 +99,7 @@ setTimeout(() => {
       targets: letters[i],
       easing: 'easeInQuad',
       translateY: ['-2rem', '0'],
-      delay: 50 * i
+      delay: 10 * i
     });
 
     anime({
@@ -107,7 +107,7 @@ setTimeout(() => {
       easing: 'easeInQuad',
       opacity: 1,
       filter: "blur(0px)",
-      delay: 60 * i,
+      delay: 20 * i,
       complete: function(anim) {
         if (i === letters.length - 1) {
           showSubTitle()
