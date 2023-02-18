@@ -48,9 +48,9 @@ const text1 = box1.querySelectorAll(".text1, .text1 span");
     });  
     
     
-const textRevealBoxs2 = container.querySelectorAll(".box2");
+const RevealBoxs2 = container.querySelectorAll(".box2");
           
-textRevealBoxs2.forEach((box2) => {
+RevealBoxs2.forEach((box2) => {
     
 const line = box2.querySelectorAll(".line");  
 
