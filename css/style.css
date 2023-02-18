@@ -457,6 +457,7 @@ img{
 
 img, .text1, .text1 span{
   position:relative; 
+  margin: 0;
 }
 
 .line {
