@@ -107,7 +107,7 @@ setTimeout(() => {
       easing: 'easeInQuad',
       opacity: 1,
       filter: "blur(0px)",
-      delay: 10 * i,
+      delay: 5 * i,
       complete: function(anim) {
         if (i === letters.length - 1) {
           showSubTitle()
