@@ -38,7 +38,8 @@ const text1 = box1.querySelectorAll(".text1, .text1 span");
           
     tl.from(text1,  {      
      duration: 1.5,
-     opacity: 0,            
+     opacity: 0,    
+     autoAlpha: true,        
      filter: "blur(10px)",
      bottom: "2rem",     
      stagger: .2,       
@@ -62,6 +63,7 @@ const line = box2.querySelectorAll(".line");
     }); 
           
     tl.to(line, {
+      autoAlpha: true,
       duration: 3,
       width: "100%",
       opacity: 1,            
