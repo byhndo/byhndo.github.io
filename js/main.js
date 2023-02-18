@@ -88,13 +88,13 @@ revealContainers.forEach((el) => {
     tl.set(el, { autoAlpha: 1 });
       tl.from(el,  {         
         duration: 3,
-        yPercent: -100,                                      
+        xPercent: -100,                                      
         ease: "Circ.easeOut"    
       });      
       
       tl.from(image,  {      
         duration: 3,        
-        yPercent: 100,                  
+        xPercent: 100,                  
         filter: "blur(10px)",
         scale: 1.3,         
         ease: "Circ.easeOut"       
