@@ -75,7 +75,7 @@ const text2 = box2.querySelectorAll(".text2, .text2 span");
       filter: "blur(10px)",
       duration: 1.5, 
       bottom: "2rem",     
-      ease: "none"           
+      ease: "Power3.easeOut"           
       });   
  
  });
