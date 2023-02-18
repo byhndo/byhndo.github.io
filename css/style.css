@@ -471,6 +471,7 @@ img, .text1, .text1 span, .text2, .text2 span{
   background-color: var(--titlecolor1);
   filter: blur(10px);
   opacity: 0;
+  transition: color 1.5s;
 }
 
 .photos .line {
