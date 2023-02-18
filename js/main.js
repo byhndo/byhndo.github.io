@@ -46,11 +46,11 @@ const line = box1.querySelectorAll(".line");
      ease: "Power3.easeOut"
       }); 
 
-    tl.from(line, {
+    tl.to(line, {
      duration: 3,
      width: "100%",
-     opacity: 0,            
-     filter: "blur(10px)",     
+     opacity: 1,            
+     filter: "blur(0px)",     
      ease: "Power3.easeOut"
     }, ">");
                              
