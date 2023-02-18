@@ -60,10 +60,14 @@ const line = box2.querySelectorAll(".line");
       toggleActions: "restart none none none"
     }, delay: 1          
     }); 
-        
+    
+    tl.to(line, {      
+      autoAlpha: 0
+    });   
     tl.to(line, {      
       duration: 3,
       width: "100%",
+      autoAlpha: 1,
       opacity: 1,            
       filter: "blur(0px)",     
       ease: "Power3.easeOut"
