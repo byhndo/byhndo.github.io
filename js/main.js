@@ -46,13 +46,13 @@ const line = box1.querySelectorAll(".line");
      ease: "Power3.easeOut"
       }); 
 
-    tl.to(line, {
+    tl.from(line, {
      duration: 3,
      width: "100%",
-     opacity: 1,            
-     filter: "blur(0px)",     
+     opacity: 0,            
+     filter: "blur(10px)",     
      ease: "Power3.easeOut"
-    }, "<");
+    }, ">");
                              
     });  
     
