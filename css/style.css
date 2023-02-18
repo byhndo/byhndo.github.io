@@ -461,7 +461,7 @@ img, .text1, .text1 span{
 }
 
 .line {
-  position: relative;
+  position: absolute;
   bottom: 23px;
   margin-bottom: 0;
   width: 0vw;
