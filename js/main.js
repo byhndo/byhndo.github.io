@@ -35,14 +35,10 @@ const text1 = box1.querySelectorAll(".text1, .text1 span");
       toggleActions: "restart none none none"
     }, delay: 1           
     }); 
-
-    tl.from(text1,  {               
-      autoAlpha: 1       
-      });      
+         
     tl.from(text1,  {      
       duration: 1.5,
-      opacity: 0,    
-      autoAlpha: true,        
+      opacity: 0,                 
       filter: "blur(10px)",
       bottom: "2rem",     
       stagger: .2,       
@@ -64,12 +60,8 @@ const line = box2.querySelectorAll(".line");
       toggleActions: "restart none none none"
     }, delay: 1          
     }); 
-      
-    tl.set(line,{
-      autoAlpha:0
-    });    
-    tl.to(line, {
-      autoAlpha: 1,
+        
+    tl.to(line, {      
       duration: 3,
       width: "100%",
       opacity: 1,            
