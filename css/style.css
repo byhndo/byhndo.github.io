@@ -384,7 +384,6 @@ img{
   border-radius:50%;
   width: 28px;
   height: 28px;
-  opacity:1;
 }
 
 .soc a:hover, .soc a:active{
@@ -469,20 +468,14 @@ img, .text1, .text1 span{
   width: 0vw;
   height: .4vw;
   background-color: var(--titlecolor1);
-  filter: blur(10px);
-  opacity: 0;
 }
 
 .photos .line {
   background-color: var(--titlecolor2);
-  filter: blur(10px);
-  opacity: 0;
 }
 
 .find-me .line {
   background-color: var(--titlecolor3);
-  filter: blur(10px);
-  opacity: 0;
 }
 
 @media(min-width:576px){
