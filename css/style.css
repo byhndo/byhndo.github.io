@@ -358,6 +358,8 @@ img{
 .soc {
   position: relative;
   margin: 60px 0 0 0;
+  opacity: 1;
+  filter: blur(0px);
 }
 
 .soc ul.ico {
@@ -468,6 +470,8 @@ img, .text1, .text1 span{
   width: 0vw;
   height: .4vw;
   background-color: var(--titlecolor1);
+  opacity: 0;
+  filter: blur(10px);
 }
 
 .photos .line {
