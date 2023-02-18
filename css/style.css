@@ -455,7 +455,8 @@ img{
   color: var(--c3)!important;
 }
 
-img, .text1, .text1 span{
+
+img, .box1, .box2, .text1, .text1 span{
   position:relative; 
 }
 
