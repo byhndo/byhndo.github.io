@@ -61,9 +61,12 @@ const line = box2.querySelectorAll(".line");
       toggleActions: "restart none none none"
     }, delay: 1          
     }); 
-          
+      
+    tl.set(line,{
+      autoAlpha:0
+    });    
     tl.to(line, {
-      autoAlpha: false,
+      autoAlpha: 1,
       duration: 3,
       width: "100%",
       opacity: 1,            
