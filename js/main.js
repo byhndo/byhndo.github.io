@@ -63,7 +63,7 @@ const line = box2.querySelectorAll(".line");
     }); 
           
     tl.to(line, {
-      autoAlpha: true,
+      autoAlpha: false,
       duration: 3,
       width: "100%",
       opacity: 1,            
