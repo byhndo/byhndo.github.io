@@ -475,10 +475,14 @@ img, .text1, .text1 span{
 
 .photos .line {
   background-color: var(--titlecolor2);
+  filter: blur(10px);
+  opacity: 0;
 }
 
 .find-me .line {
   background-color: var(--titlecolor3);
+  filter: blur(10px);
+  opacity: 0;
 }
 
 @media(min-width:576px){
