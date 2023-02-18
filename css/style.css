@@ -465,7 +465,7 @@ img, .text1, .text1 span{
 
 .line {
   position: relative;
-  top: 22px;
+  bottom: 23px;
   width: 0vw;
   height: .4vw;
   background-color: var(--titlecolor1);
