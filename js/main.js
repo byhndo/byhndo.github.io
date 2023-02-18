@@ -52,7 +52,7 @@ const line = box1.querySelectorAll(".line");
      opacity: 0,            
      filter: "blur(10px)",     
      ease: "Power3.easeOut"
-    }, ">");
+    }, "<");
                              
     });  
     
