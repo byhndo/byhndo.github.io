@@ -462,12 +462,8 @@ img, .text1, .text1 span, .text2, .text2 span{
   filter: blur(0px);
 }
 
-.wrapline{
-  position: relative;
-}
-
 .line {
-  position: absolute;
+  position: relative;
   bottom: 22px;
   left: 0;
   width: 0vw;
