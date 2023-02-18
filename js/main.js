@@ -61,7 +61,7 @@ const line = box2.querySelectorAll(".line");
     }, delay: 1          
     }); 
     
-    tl.to(line, {      
+    tl.set(line, {      
       autoAlpha: 0
     });   
     tl.to(line, {      
