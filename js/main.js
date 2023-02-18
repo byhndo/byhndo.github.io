@@ -35,15 +35,18 @@ const text1 = box1.querySelectorAll(".text1, .text1 span");
       toggleActions: "restart none none none"
     }, delay: 1           
     }); 
-          
+
+    tl.from(text1,  {               
+      autoAlpha: 1       
+      });      
     tl.from(text1,  {      
-     duration: 1.5,
-     opacity: 0,    
-     autoAlpha: true,        
-     filter: "blur(10px)",
-     bottom: "2rem",     
-     stagger: .2,       
-     ease: "Power3.easeOut"
+      duration: 1.5,
+      opacity: 0,    
+      autoAlpha: true,        
+      filter: "blur(10px)",
+      bottom: "2rem",     
+      stagger: .2,       
+      ease: "Power3.easeOut"
       }); 
                              
     });  
