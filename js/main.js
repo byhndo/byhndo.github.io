@@ -28,6 +28,7 @@ const textRevealBoxs1 = container.querySelectorAll(".box1");
 textRevealBoxs1.forEach((box1) => {
 
 const text1 = box1.querySelectorAll(".text1, .text1 span");
+const line = box1.querySelectorAll(".line");
        
   let tl = gsap.timeline({
     scrollTrigger:{
@@ -44,23 +45,7 @@ const text1 = box1.querySelectorAll(".text1, .text1 span");
       stagger: .2,       
       ease: "Power3.easeOut"
       }); 
-                             
-    });  
-    
-    
-const RevealBoxs2 = container.querySelectorAll(".box2");
-          
-RevealBoxs2.forEach((box2) => {
-    
-const line = box2.querySelectorAll(".line");  
 
-  let tl = gsap.timeline({
-    scrollTrigger:{
-      trigger: box2,
-      toggleActions: "restart none none none"
-    }, delay: 1          
-    }); 
-       
     tl.to(line, {      
       duration: 3,
       width: "100%",      
@@ -68,8 +53,11 @@ const line = box2.querySelectorAll(".line");
       filter: "blur(0px)",     
       ease: "Power3.easeOut"
     }, "<");
- 
- });
+                             
+    });  
+    
+    
+
        
 let revealContainers = container.querySelectorAll(".item");                
 revealContainers.forEach((el) => {     
