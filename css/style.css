@@ -443,6 +443,7 @@ img, .box1, .box2, .text1, .text1 span{
 h1 {
   font-size: calc(20vw + 1rem);
   left:-9px;
+  line-height: .5;
 }
 
 p.sub-title{
