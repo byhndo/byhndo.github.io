@@ -90,7 +90,6 @@ h1 {
   margin-top: 23px;
   padding: 0;
   line-height: 1;  
-  left: -3.8px;
 }
 
 h1 span{
@@ -271,8 +270,8 @@ main {
   position: relative;
   width: auto;
   padding:5vh 0 2vh 0;
-  margin-left: 2vh;
-  margin-right: 2vh;
+  margin-left: 2.5vh;
+  margin-right: 2.5vh;
   text-align: left;
 }
 
