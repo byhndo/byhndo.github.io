@@ -116,6 +116,7 @@ p.sub-title {
   position: relative;
   transition: color 2.5s;
   line-height: 2;
+  left: 4px;
 }
 
 .ball {
