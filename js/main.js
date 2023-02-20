@@ -22,7 +22,7 @@ const { createApp, ref, onMounted } = Vue
       ease: "Power3.easeOut"
       }); 
       
-     gsap.from(".sub-title", {
+     gsap.from("p.sub-title", {
       delay: 3.7, 
       duration: 1.5,
       opacity: 0,                 
