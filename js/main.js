@@ -23,7 +23,7 @@ const { createApp, ref, onMounted } = Vue
       }); 
       
      gsap.from(".sub-title", {
-      delay: 1, 
+      delay: 5, 
       duration: 1.5,
       opacity: 0,                 
       filter: "blur(10px)",
