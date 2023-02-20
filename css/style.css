@@ -116,7 +116,6 @@ h1 span{
   text-transform: uppercase;
   position: relative;
   line-height: 2;
-  left: 2px;
   transition: color 3s;
 }
 
