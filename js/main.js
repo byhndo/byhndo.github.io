@@ -53,7 +53,7 @@ const line = box1.querySelectorAll(".line");
     scrollTrigger:{
       trigger: box1, 
       toggleActions: "restart none none none"
-    }, delay: 1           
+    }, delay: 1.1          
     }); 
          
     tl.from(text1,  {      
