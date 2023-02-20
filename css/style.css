@@ -364,45 +364,14 @@ img{
 .soc li.ico {
   display: inline-flex;
   margin: 0 .5rem 0 0;
-  padding:.05rem .3rem .05rem 0;
-  text-align:center;
 }
 
 .soc a {
   display: block;
-  padding:2.95px .12px 0 .16px;
-  font-size: 15px;
-  background-color: var(--titlecolor1);
-  color: var(--bg1);
-  border-radius:50%;
-  width: 28px;
-  height: 28px;
 }
 
-.soc a:hover, .soc a:active{
+.svg :hover, svg:active{
   opacity: .6;
-  background-color: var(--titlecolor1);
-  color: var(--bg1);
-}
-
-.photos .soc a{
-  background-color: var(--titlecolor2);
-  color: var(--bg2);
-}
-
-.photos .soc a:hover, .photos .soc a:active{
-  background-color: var(--titlecolor2);
-  color: var(--bg2);
-}
-
-.find-me .soc a{ 
-  background-color: var(--titlecolor3);
-  color: var(--bg3);
-}
-
-.find-me .soc a:hover, .find-me .soc a:active{ 
-  background-color: var(--titlecolor3);
-  color: var(--bg3);
 }
 
 .footer {
