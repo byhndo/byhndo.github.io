@@ -88,7 +88,7 @@ h1 {
   display: inline;
   text-align: left;
   margin-top: 23px;
-  margin-left: -2px;
+  letter-spacing: -2px;
   padding: 0;
   line-height: 1;  
 }
@@ -473,7 +473,6 @@ img, .box1, .box2, .text1, .text1 span{
 @media(min-width:576px){
 .title-letter {
   font-size: calc(20vw + 1rem);
-  margin-left: -3px;
 }
 
 main{
