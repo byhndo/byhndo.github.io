@@ -97,10 +97,10 @@ h1 span{
   transition: color 1.5s;
 }
 
-.photos h1 span{
+.photos h1 span, .photos .sub-title{
   color: var(--titlecolor2); 
 }
-.find-me h1 span{
+.find-me h1 span, .find-me .sub-title{
   color: var(--titlecolor3); 
 }
 
