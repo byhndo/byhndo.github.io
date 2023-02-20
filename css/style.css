@@ -121,7 +121,7 @@ h1 span{
   letter-spacing: calc(0.3vw + 0.5rem);
   text-transform: uppercase;
   position: relative;
-  left: .8vw;
+  left: .82vw;
   line-height: 2;
   transition: color 2.5s;
 }
