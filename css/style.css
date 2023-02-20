@@ -271,8 +271,8 @@ main {
   position: relative;
   width: auto;
   padding:5vh 0 2vh 0;
-  margin-left: 2.5vh;
-  margin-right: 2.5vh;
+  margin-left: 2.5vw;
+  margin-right: 2.5vw;
   text-align: left;
 }
 
@@ -331,10 +331,10 @@ p.sub3 {
 .item {
   position: relative;
   display: inline-block;
-  margin: 0 auto;
+  margin-left: 2.5vw;
+  margin-right: 2.5vw;
   padding:0;
-  width: 90%;
-  max-width: 90%;
+  width: auto;
   height: auto;
   visibility: hidden;
   overflow: hidden;
