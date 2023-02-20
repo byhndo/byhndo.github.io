@@ -480,7 +480,7 @@ img, .box1, .box2, .text1, .text1 span{
 
 @media(min-width:576px){
 .h1 {
-  font-size: calc(18vw + 1rem);
+  font-size: calc(17vw + 1rem);
 }
 
 main{
