@@ -47,6 +47,7 @@ h1, h2, h3, h4, h5, h6, h7{
   line-height: 1;
   margin-top: var(--marginp);
   margin-bottom: var(--marginp);
+  left: -.9vw;
 }
 
 h2{
@@ -81,7 +82,6 @@ h7{
 
 h1 { 
   position: relative;
-  left: -1vw;
   font-family: var(--font1); 
   color: var(--titlecolor1);
   font-weight: 800;
