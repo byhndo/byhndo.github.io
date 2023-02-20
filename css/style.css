@@ -93,10 +93,10 @@ h1 {
   transition: all 1.5s; 
 }
 
-.photos h1 {
+.photos h1 span{
   color: var(--titlecolor2); 
 }
-.find-me h1 {
+.find-me h1 span{
   color: var(--titlecolor3); 
 }
 
