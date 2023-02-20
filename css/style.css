@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6, h7{
   line-height: 1;
   margin-top: var(--marginp);
   margin-bottom: var(--marginp);
-  left: -2.7px;
+  left: -2.8px;
 }
 
 h2{
@@ -96,7 +96,7 @@ h1 {
   letter-spacing: -2px;
   padding: 0;
   line-height: 1;  
-  left: -2.7px;
+  left: -2.8px;
 }
 
 h1 span{
