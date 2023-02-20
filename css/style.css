@@ -127,7 +127,7 @@ h1 span{
   font-weight: 800;
   top:-20vh;
   opacity: 0;
-  transition: color 1.5s;
+  transition: color 2s;
 }
 
 .photos .ball {
