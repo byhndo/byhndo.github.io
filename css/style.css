@@ -101,9 +101,11 @@ h1 span{
 
 .photos h1 span, .photos .sub-title{
   color: var(--titlecolor2); 
+  transition: color 3s;
 }
 .find-me h1 span, .find-me .sub-title{
   color: var(--titlecolor3); 
+  transition: color 3s;
 }
 
 .sub-title {
@@ -128,7 +130,7 @@ h1 span{
   font-weight: 800;
   top:-20vh;
   opacity: 0;
-  transition: color 2s;
+  transition: color 3s;
 }
 
 .photos .ball {
