@@ -464,7 +464,7 @@ img, .box1, .box2, .text1, .text1 span{
   position: absolute;
   bottom: 23px;
   width: 0vw;
-  height: .4vw;
+  height: .3vw;
   background-color: var(--titlecolor1);
   opacity: 0;
   filter: blur(10px);
