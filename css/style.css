@@ -52,37 +52,32 @@ h1, h2, h3, h4, h5, h6, h7{
   line-height: 1;
   margin-top: var(--marginp);
   margin-bottom: var(--marginp);
+  letter-spacing: -2px;
   left: -2.8px;
 }
 
 h2{
   font-size: 370%;
-  letter-spacing: -2px;
 }
 
 h3{
- font-size: 320%;
-  letter-spacing: -2px;
+  font-size: 320%;
 }
 
 h4{
   font-size: 270%;
-  letter-spacing: -2px;
 }
 
 h5{
   font-size: 220%;
-  letter-spacing: -2px;
 }
 
 h6{
   font-size: 170%;
-  letter-spacing: -2px;
 }
 
 h7{
   font-size: 120%;
-  letter-spacing: -2px;
 }
 
 h1 { 
@@ -93,7 +88,6 @@ h1 {
   display: inline;
   text-align: left;
   margin-top: 23px;
-  letter-spacing: -2px;
   padding: 0;
   line-height: 1;  
   left: -5px;
