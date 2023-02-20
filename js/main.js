@@ -12,7 +12,26 @@ const { createApp, ref, onMounted } = Vue
     },
     mounted: function(){         
      gsap.to(".ball", {top: 0, delay: 3.5, opacity: 1, duration: 2, ease: Bounce.easeOut});   
-      },   
+     
+     gsap.from("h1 span", {     
+      duration: 1.5,
+      opacity: 0,                 
+      filter: "blur(10px)",
+      bottom: "5rem",     
+      stagger: .2,       
+      ease: "Power3.easeOut"
+      }); 
+      
+     gsap.from(".sub-title", {
+      delay: 1, 
+      duration: 1.5,
+      opacity: 0,                 
+      filter: "blur(10px)",
+      bottom: "2rem",     
+      stagger: .2,       
+      ease: "Power3.easeOut"
+      });      
+},   
     data() {
       return {
         bg: 'bio'
@@ -88,42 +107,4 @@ revealContainers.forEach((el) => {
       }); 
     
    })
-}
-
-   
-let letters = document.getElementsByClassName('title-letter');
-
-setTimeout(() => {
-  for (let i = 0; i < letters.length; i++) {
-    anime({
-      targets: letters[i],
-      easing: 'easeInQuad',
-      translateY: ['-2rem', '0'],
-      delay: 0 * i
-    });
-
-    anime({
-      targets: letters[i],
-      easing: 'easeInQuad',
-      opacity: 1,
-      filter: "blur(0px)",
-      delay: 0 * i,
-      complete: function(anim) {
-        if (i === letters.length - 1) {
-          showSubTitle()
-        }
-      }
-    });
-  }
-}, 1500);
-
-function showSubTitle() {
-  anime({
-    targets: '#sub-title',
-    easing: 'easeInQuad',
-    opacity: 1,
-    filter: "blur(0px)",
-    duration: 1500,
-    delay: 5
-  });
 }
