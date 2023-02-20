@@ -96,7 +96,7 @@ h1 {
   letter-spacing: -2px;
   padding: 0;
   line-height: 1;  
-  left: -3.5px;
+  left: -5px;
 }
 
 h1 span{
@@ -120,7 +120,7 @@ h1 span{
   letter-spacing: calc(0.3vw + 0.5rem);
   text-transform: uppercase;
   position: relative;
-  left: 3px;
+  left: 4px;
   line-height: 2;
   transition: color 2.5s;
 }
