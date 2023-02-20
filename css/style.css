@@ -269,6 +269,7 @@ nav .link-find-me{
 
 main {
   position: relative;
+  display: flex;
   justify-content: center;
   width: 90vw;
   max-width: 90vw;
