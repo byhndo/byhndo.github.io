@@ -80,6 +80,7 @@ h7{
 }
 
 h1 { 
+  position: relative;
   font-family: var(--font1); 
   color: var(--titlecolor1);
   font-weight: 800;
