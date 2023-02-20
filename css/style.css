@@ -115,6 +115,7 @@ span.sub-title {
   text-transform: uppercase;
   position: relative;
   transition: color 2.5s;
+  line-height: 0;
 }
 
 .ball {
