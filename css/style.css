@@ -87,10 +87,8 @@ h1 {
   font-weight: 800;
   font-size: var(--sizetitle);
   text-align: left;
-  margin-top: 23px;
   padding: 0;  
   left: -4px;
-  line-height: .8;
 }
 
 h1 span{
