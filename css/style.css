@@ -271,7 +271,8 @@ main {
   position: relative;
   max-width: 90vw;
   padding:5vh 0 2vh 0;
-  margin:0;
+  margin-left: auto;
+  margin-right: auto;
   text-align: left;
 }
 
