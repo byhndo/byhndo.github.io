@@ -478,6 +478,10 @@ h1 {
   left:-7px;
 }
 
+p.sub-title{
+  left: 5px;
+}
+
 main{
   max-width:75vw;
   margin: 0 auto;
