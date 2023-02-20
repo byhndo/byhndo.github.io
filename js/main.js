@@ -27,7 +27,7 @@ const { createApp, ref, onMounted } = Vue
       duration: 1.5,
       opacity: 0,                 
       filter: "blur(10px)",
-      bottom: "-2rem",     
+      bottom: "2rem",     
       stagger: .2,       
       ease: "Power3.easeOut"
       });      
