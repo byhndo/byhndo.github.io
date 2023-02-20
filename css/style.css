@@ -475,11 +475,11 @@ img, .box1, .box2, .text1, .text1 span{
 @media(min-width:576px){
 h1 {
   font-size: calc(20vw + 1rem);
-  left:-10px;
+  left:-9px;
 }
 
 p.sub-title{
-  left: 10px;
+  left: 9px;
 }
 
 main{
