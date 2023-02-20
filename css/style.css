@@ -269,9 +269,10 @@ nav .link-find-me{
 
 main {
   position: relative;
+  justify-content: center;
   max-width: 90vw;
   padding:5vh 0 2vh 0;
-  margin: 0 auto;
+  margin:0;
   text-align: left;
 }
 
