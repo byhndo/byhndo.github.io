@@ -101,16 +101,16 @@ h1 {
 
 h1 span{
   position: relative; 
-  transition: color 3s;
+  transition: color 2.5s;
 }
 
 .photos h1 span, .photos .sub-title{
   color: var(--titlecolor2); 
-  transition: color 3s;
+  transition: color 2.5s;
 }
 .find-me h1 span, .find-me .sub-title{
   color: var(--titlecolor3); 
-  transition: color 3s;
+  transition: color 2.5s;
 }
 
 .sub-title {
@@ -122,7 +122,7 @@ h1 span{
   position: relative;
   left: .7vw;
   line-height: 2;
-  transition: color 3s;
+  transition: color 2.5s;
 }
 
 .ball {
@@ -135,7 +135,7 @@ h1 span{
   font-weight: 800;
   top:-20vh;
   opacity: 0;
-  transition: color 3s;
+  transition: color 2.5s;
 }
 
 .photos .ball {
