@@ -87,6 +87,7 @@ h1 {
   font-size: var(--sizetitle);
   display: inline;
   text-align: left;
+  margin-top: 23px;
   margin-left: -2px;
   letter-spacing: -2px;
   padding: 0;
