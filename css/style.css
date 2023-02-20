@@ -41,7 +41,7 @@
 
 p{
   position: relative;
-  left: -3px;
+  left: -2px;
 }
 
 h1, h2, h3, h4, h5, h6, h7{
@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6, h7{
   line-height: 1;
   margin-top: var(--marginp);
   margin-bottom: var(--marginp);
-  left: -3px;
+  left: -2px;
 }
 
 h2{
