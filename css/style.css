@@ -115,7 +115,6 @@ h1 span{
   position: relative;
   transition: color 2.5s;
   line-height: 2.2;
-  left: 4px;
 }
 
 .ball {
@@ -444,10 +443,6 @@ h1 {
   font-size: calc(20.3vw + 1rem);
   left:-9px;
   line-height: .75;  
-}
-
-p.sub-title{
-  left: 9px;
 }
 
 main{
