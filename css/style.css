@@ -95,7 +95,7 @@ h1 {
 
 h1 span{
   position: relative; 
-  transition: color 2s;
+  transition: color 3s;
 }
 
 .photos h1 span, .photos .sub-title{
@@ -115,7 +115,7 @@ h1 span{
   line-height: 1.5;
   top: 0px;
   left: 2px;
-  transition: color 2s;
+  transition: color 3s;
 }
 
 .ball {
