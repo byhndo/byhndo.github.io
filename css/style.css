@@ -84,7 +84,6 @@ h1 {
   color: var(--titlecolor1);
   font-weight: 800;
   font-size: var(--sizetitle);
-  margin-left: -2px;
   display: inline;
   text-align: left;
   margin: 0 auto;
@@ -102,6 +101,7 @@ h1 {
 
 h1 span{
   position: relative; 
+  margin-left: -2px;
 }
 
 .sub-title {
