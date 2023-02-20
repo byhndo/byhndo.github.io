@@ -370,7 +370,7 @@ img{
   display: block;
 }
 
-.svg :hover, svg:active{
+svg:hover, svg:active{
   opacity: .6;
 }
 
@@ -417,7 +417,6 @@ img{
 .find-me .footer span.fc{
   color: var(--c3)!important;
 }
-
 
 img, .box1, .box2, .text1, .text1 span{
   position:relative; 
