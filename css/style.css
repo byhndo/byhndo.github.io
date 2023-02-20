@@ -441,7 +441,7 @@ img, .box1, .box2, .text1, .text1 span{
 
 @media(min-width:576px){
 h1 {
-  font-size: calc(20.5vw + 1rem);
+  font-size: calc(20.3vw + 1rem);
   left:-9px;
 }
 
