@@ -475,11 +475,11 @@ img, .box1, .box2, .text1, .text1 span{
 @media(min-width:576px){
 h1 {
   font-size: calc(20vw + 1rem);
-  left:-7px;
+  left:-10px;
 }
 
 p.sub-title{
-  left: 5px;
+  left: 7px;
 }
 
 main{
@@ -487,7 +487,4 @@ main{
   margin-right: 10vw;
 }
 
-p.sub1,p.sub2, p.sub3{
-  text-align: left;
-}
 }
