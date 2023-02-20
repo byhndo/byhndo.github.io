@@ -473,7 +473,7 @@ img, .box1, .box2, .text1, .text1 span{
 }
 
 @media(min-width:576px){
-.title-letter {
+.h1 {
   font-size: calc(20vw + 1rem);
 }
 
