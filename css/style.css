@@ -269,10 +269,10 @@ nav .link-find-me{
 
 main {
   position: relative;
-  width: auto;
+  width: 90%;
   padding:5vh 0 2vh 0;
-  margin-left: 2.5vw;
-  margin-right: 2.5vw;
+  margin-left: auto;
+  margin-right: auto;
   text-align: left;
 }
 
@@ -331,10 +331,10 @@ p.sub3 {
 .item {
   position: relative;
   display: inline-block;
-  margin-left: 2.5vw;
-  margin-right: 2.5vw;
+  margin-left: auto;
+  margin-right: auto;
   padding:0;
-  width: auto;
+  width: 100vw;
   height: auto;
   visibility: hidden;
   overflow: hidden;
@@ -483,8 +483,9 @@ p.sub-title{
 }
 
 main{
-  margin-left: 10vw;
-  margin-right: 10vw;
+  max-width: 75vw;
+  margin-left: auto;
+  margin-right: auto
 }
 
 }
