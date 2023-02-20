@@ -119,7 +119,7 @@ p.sub-title {
 }
 
 .ball {
-  display: inline-flex;
+  display: inline;
   position: relative;
   margin-left: -2px;
   color: var(--c1);
