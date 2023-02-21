@@ -29,11 +29,11 @@
     --f1: #373A40;
     --f2: #f0f0f0;
     --f3: #f9f1d2;
-    --sizebody: 13px;
+    --sizebody: 12px;
     --sizetitle: calc(23vw + 1rem);
     --sizetitle2: 8vw;
     --sizenav: 9.5px;
-    --font1: 'Barlow Condensed', sans-serif;
+    --font1: 'AO-Mono', sans-serif;
     --font2: 'AO-Mono', sans-serif;
     --marginp: 23px;
     --spacingnav: 2px;
@@ -53,7 +53,7 @@ p {
 h1, h2, h3, h4, h5, h6, h7 {
     position: relative;
     font-family: var(--font2);
-    font-weight: 800;
+    font-weight: 700;
     text-align: left;
     line-height: 1;
     margin-top: var(--marginp);
@@ -90,7 +90,7 @@ h1 {
     display: inline;
     font-family: var(--font1);
     color: var(--titlecolor1);
-    font-weight: 800;
+    font-weight: 900;
     font-size: var(--sizetitle);
     text-align: left;
     padding: 0;
