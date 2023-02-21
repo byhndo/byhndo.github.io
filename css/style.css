@@ -432,14 +432,10 @@ img, .box1, .box2, .text1, .text1 span {
 
 .photos .line {
     background-color: var(--titlecolor2);
-    opacity: 0;
-    filter: blur(10px);
 }
 
 .find-me .line {
     background-color: var(--titlecolor3);
-    opacity: 0;
-    filter: blur(10px);
 }
 
 @media(min-width:576px) {
