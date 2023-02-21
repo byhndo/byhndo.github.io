@@ -89,7 +89,7 @@ h1 {
     text-align: left;
     padding: 0;
     left: -4px;
-    line-height: 80%;
+    line-height: .8;
 }
 
 h1 span {
