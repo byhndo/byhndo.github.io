@@ -33,8 +33,7 @@ createApp({
             duration: 1.5,
             opacity: 0,
             filter: "blur(10px)",
-            bottom: "-2rem",
-            stagger: .2,
+            bottom: "-2rem",            
             ease: "Power3.easeOut"
         });
     },
