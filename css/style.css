@@ -3,6 +3,7 @@
 @font-face{font-family:AO-Mono;src:url(../fonts/AOMono-Regular.woff) format('woff');font-weight:400;font-style:normal}
 @font-face{font-family:AO-Mono;src:url(../fonts/AOMono-Bold.woff) format('woff');font-weight:700;font-style:normal}
 @font-face{font-family:AO-Mono;src:url(../fonts/AOMono-Black.woff) format('woff');font-weight:900;font-style:normal}
+@font-face{font-family:Arges Black Condensed;src:url(../fonts/Arges-Black-Condensed.woff) format('woff');font-weight:900;font-style:normal}
 
 
 
@@ -33,7 +34,7 @@
     --sizetitle: calc(23vw + 1rem);
     --sizetitle2: 8vw;
     --sizenav: 9.5px;
-    --font1: 'AO-Mono', sans-serif;
+    --font1: 'Arges Black Condensed', sans-serif;
     --font2: 'AO-Mono', sans-serif;
     --marginp: 23px;
     --spacingnav: 2px;
