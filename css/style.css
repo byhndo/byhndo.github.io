@@ -108,11 +108,20 @@ h1 span {
     line-height: 2.2;
 }
 
-.photos h1 span, .photos .sub-title {
+.photos h1 span {
     color: var(--titlecolor2);
 }
-.find-me h1 span, .find-me .sub-title {
+
+.find-me h1 span {
     color: var(--titlecolor3);
+}
+
+.photos .sub-title{
+  color: var(--titlecolor2);
+}
+
+.find-me .sub-title {
+  color: var(--titlecolor3);
 }
 
 .ball {
