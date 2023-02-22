@@ -50,8 +50,7 @@ h1, h2, h3, h4, h5, h6, h7 {
     position: relative;
     font-family: var(--font2);
     font-weight: 800;
-    text-align: left;
-    line-height: 1;
+    text-align: left;    
     margin-top: var(--marginp);
     margin-bottom: var(--marginp);
     letter-spacing: -2.5px;
@@ -91,7 +90,6 @@ h1 {
     text-align: left;
     padding: 0;
     left: -4.5px;
-    line-height: 1;
     letter-spacing: -4px;
 }
 
