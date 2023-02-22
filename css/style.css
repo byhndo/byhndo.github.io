@@ -271,7 +271,7 @@ nav .link-find-me {
 main {
     position: relative;
     max-width: 90%;
-    padding: 60px 0 20px 0;
+    padding: 5.5vh 0 2vh 0;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
@@ -445,7 +445,8 @@ img, .box1, .box2, .text1, .text1 span {
     h1 {
         font-size: calc(20vw + 1rem);
         left: -9.5px;
-        line-height: .5;        
+        line-height: .5;  
+        padding-top: 10vh;      
     }
 
     main {       
