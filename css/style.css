@@ -128,17 +128,17 @@ h1 span {
     font-size: var(--sizetitle);
     font-family: var(--font1);
     font-weight: 800;
-    top: -20vh;
+    top: -20%;
     opacity: 0;
     transition: color 2.5s;
 }
 
 .photos .ball {
-    top: -20vh;
+    top: -20%;
     color: var(--c2);
 }
 .find-me .ball {
-    top: -20vh;
+    top: -20%;
     color: var(--c3);
 }
 
