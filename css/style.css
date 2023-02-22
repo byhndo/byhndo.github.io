@@ -124,7 +124,7 @@ h1 span {
 .ball {
     position: relative;
     display: inline-flex;
-    margin-left: -4px;
+    margin-left: -3px;
     color: var(--c1);
     font-size: var(--sizetitle);
     font-family: var(--font1);
