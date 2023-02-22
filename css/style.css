@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-@font-face{font-family:Chillax-Bold;src:url(../fonts/Chillax-Bold.woff) format('woff');font-weight:700;font-style:normal}
-@font-face{font-family:Lack-Regular;src:url(../fonts/Lack-Regular.woff) format('woff');font-weight:400;font-style:normal}
-
-
 :root {
     --black: #000;
     --n1: #373A40;
@@ -29,11 +25,11 @@
     --f2: #f0f0f0;
     --f3: #f9f1d2;
     --sizebody: 13px;
-    --sizetitle: calc(23vw + 1rem);
+    --sizetitle: calc(25vw + 1rem);
     --sizetitle2: 8vw;
     --sizenav: 9.5px;
-    --font1: 'Chillax-Bold', sans-serif;
-    --font2: 'Lack-Regular', sans-serif;
+    --font1: 'Barlow Condensed', sans-serif;
+    --font2: 'Figtree', sans-serif;
     --marginp: 23px;
     --spacingnav: 2px;
     --fwnav: 300;
@@ -89,7 +85,7 @@ h1 {
     display: inline;
     font-family: var(--font1);
     color: var(--titlecolor1);
-    font-weight: 700;
+    font-weight: 800;
     font-size: var(--sizetitle);
     text-align: left;
     padding: 0;
