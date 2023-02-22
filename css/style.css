@@ -97,6 +97,7 @@ h1 {
 h1 span {
     position: relative;
     transition: color 2.5s;
+    letter-spacing: -4px;
 }
 
 .sub-title {
