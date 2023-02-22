@@ -90,7 +90,7 @@ h1 {
     text-align: left;
     padding: 0;
     left: -4.5px;
-    line-height: .8;
+    line-height: .75;
     letter-spacing: -4px;
     text-transform: capitalize;
 }
@@ -445,7 +445,7 @@ img, .box1, .box2, .text1, .text1 span {
     h1 {
         font-size: calc(20.3vw + 1rem);
         left: -9.5px;
-        line-height: .7;
+        line-height: .65;
     }
 
     main {
