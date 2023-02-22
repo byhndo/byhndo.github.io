@@ -91,7 +91,7 @@ h1 {
     padding: 0;
     left: -4.5px;
     letter-spacing: -4px;
-    line-height: 0;
+    line-height: 1;
 }
 
 h1 span {
@@ -121,6 +121,7 @@ h1 span {
 
 .ball {
     position: relative;
+    display: inline;
     margin-left: -4px;
     color: var(--c1);
     font-size: var(--sizetitle);
