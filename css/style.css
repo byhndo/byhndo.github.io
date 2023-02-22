@@ -446,10 +446,10 @@ img, .box1, .box2, .text1, .text1 span {
         font-size: calc(20vw + 1rem);
         left: -9.5px;
         line-height: .5;
+        margin-top: 5vh;
     }
 
-    main {
-        padding-top: 7vh;
+    main {       
         max-width: 75%;
         margin-left: auto;
         margin-right: auto
