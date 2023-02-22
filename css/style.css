@@ -37,6 +37,7 @@
     --marginp: 23px;
     --spacingnav: 2px;
     --fwnav: 300;
+    --fwtitle: 400;
     --rad: 15px;
 }
 
@@ -89,7 +90,7 @@ h1 {
     display: inline;
     font-family: var(--font1);
     color: var(--titlecolor1);
-    font-weight: 800;
+    font-weight: var(--fwtitle);
     font-size: var(--sizetitle);
     text-align: left;
     padding: 0;
