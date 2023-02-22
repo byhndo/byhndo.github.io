@@ -446,7 +446,7 @@ img, .box1, .box2, .text1, .text1 span {
         font-size: calc(20vw + 1rem);
         left: -9.5px;
         line-height: .5;  
-        padding-top: 10vh;      
+        padding-top: 20vh;      
     }
 
     main {       
