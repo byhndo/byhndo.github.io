@@ -91,6 +91,7 @@ h1 {
     padding: 0;
     left: -4px;
     line-height: .8;
+    letter-spacing: -4px;
 }
 
 h1 span {
