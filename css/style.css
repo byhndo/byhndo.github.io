@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5, h6, h7 {
     line-height: 1;
     margin-top: var(--marginp);
     margin-bottom: var(--marginp);
-    letter-spacing: -3px;
+    letter-spacing: -2.5px;
     left: -2.5px;
 }
 
@@ -89,7 +89,7 @@ h1 {
     font-size: var(--sizetitle);
     text-align: left;
     padding: 0;
-    left: -4px;
+    left: -5px;
     line-height: .8;
     letter-spacing: -4px;
     text-transform: capitalize;
@@ -444,7 +444,7 @@ img, .box1, .box2, .text1, .text1 span {
 @media(min-width:576px) {
     h1 {
         font-size: calc(20.3vw + 1rem);
-        left: -9px;
+        left: -10px;
         line-height: .7;
     }
 
