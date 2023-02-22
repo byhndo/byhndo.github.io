@@ -90,7 +90,7 @@ h1 {
     text-align: left;
     padding: 0;
     left: -4.5px;
-    line-height: .75;
+    line-height: 1;
     letter-spacing: -4px;
     text-transform: capitalize;
 }
@@ -444,14 +444,12 @@ img, .box1, .box2, .text1, .text1 span {
 @media(min-width:576px) {
     h1 {
         font-size: calc(20vw + 1rem);
-        left: -9.5px;
-        line-height: .5;                
+        left: -9.5px;                        
     }
 
     main {       
         max-width: 75%;
         margin-left: auto;
-        margin-right: auto; 
-        padding-top: 20vh;     
+        margin-right: auto;       
     }
 }
