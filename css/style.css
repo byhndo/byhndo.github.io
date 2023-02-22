@@ -89,6 +89,8 @@ h1 {
     font-weight: var(--fwtitle);
     font-size: var(--sizetitle);
     text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
     padding: 0;
     left: -4.5px;
     letter-spacing: -4px;
