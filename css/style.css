@@ -445,13 +445,13 @@ img, .box1, .box2, .text1, .text1 span {
     h1 {
         font-size: calc(20vw + 1rem);
         left: -9.5px;
-        line-height: .5;  
-        padding-top: 20vh;      
+        line-height: .5;                
     }
 
     main {       
         max-width: 75%;
         margin-left: auto;
-        margin-right: auto;      
+        margin-right: auto; 
+        padding-top: 20vh;     
     }
 }
