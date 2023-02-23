@@ -109,7 +109,7 @@ h1 span {
     text-transform: uppercase;
     position: relative;
     transition: color 2.5s;
-    line-height: 2.5;
+    line-height: 2.2;
 }
 
 .photos h1 span, .photos .sub-title {
