@@ -11,19 +11,14 @@
     --bg3: #f3f0eb;
     --titlecolor1: #373A40;
     --titlecolor2: #ebebeb;
-    --titlecolor3: #c6bfb7;
     --c1: #cf3c4b;
     --c2: #3ec1ff;
-    --c3: #ffd166;
     --sub1: #373A40;
     --sub2: #ebebeb;
-    --sub3: #c6bfb7;
     --psub1: #373A40;
     --psub2: #ebebeb;
-    --psub3: #c6bfb7;
     --f1: #373A40;
     --f2: #ebebeb;
-    --f3: #c6bfb7;
     --sizebody: 13px;
     --sizetitle: calc(24vw + 1rem);
     --sizetitle2: 8vw;
@@ -116,10 +111,6 @@ h1 span {
     color: var(--titlecolor2);
 }
 
-.find-me h1 span, .find-me .sub-title {
-    color: var(--titlecolor3);
-}
-
 .ball {
     position: relative;
     display: inline-flex;
@@ -136,10 +127,6 @@ h1 span {
 .photos .ball {
     top: -20%;
     color: var(--c2);
-}
-.find-me .ball {
-    top: -20%;
-    color: var(--c3);
 }
 
 body {
@@ -177,10 +164,6 @@ a {
     background: var(--bg2);
 }
 
-.find-me, .link-find-me {
-    background: var(--bg3);
-}
-
 .transition {
     width: 1rem;
     height: 1rem;
@@ -207,13 +190,7 @@ a {
     transform-origin: 50% 0;
 }
 
-.transition-find-me {
-    left: 0;
-    background: var(--bg3);
-    transform-origin: 100% 0;
-}
-
-.bio .transition-bio, .photos .transition-photos, .find-me .transition-find-me {
+.bio .transition-bio, .photos .transition-photos{
     opacity: 1;
 }
 
@@ -222,10 +199,6 @@ a {
 }
 
 .photos .transition-photos {
-    transform: scale(1) translateX(0) translateY(0);
-}
-
-.find-me .transition-find-me {
     transform: scale(1) translateX(0) translateY(0);
 }
 
@@ -264,10 +237,6 @@ nav .link-photos {
     color: var(--n2);
 }
 
-nav .link-find-me {
-    color: var(--n3);
-}
-
 main {
     position: relative;
     max-width: 90%;
@@ -293,16 +262,12 @@ main {
     color: var(--sub2);
 }
 
-.sub3 {
-    color: var(--sub3);
-}
-
 span.prolog {
     font-size: 120%;
     font-weight: 700;
 }
 
-p.sub1, p.sub2, p.sub3 {
+p.sub1, p.sub2 {
     text-transform: none;
     text-align: left;
     margin-top: var(--marginp);
@@ -315,10 +280,6 @@ p.sub1 {
 
 p.sub2 {
     color: var(--psub2);
-}
-
-p.sub3 {
-    color: var(--psub3);
 }
 
 .grid {
@@ -379,10 +340,6 @@ path{
   fill: var(--titlecolor2);
 }
 
-.find-me path{
-  fill: var(--titlecolor3);
-}
-
 svg:hover, svg:active {
     opacity: .6;
 }
@@ -409,10 +366,6 @@ svg:hover, svg:active {
     color: var(--f2);
 }
 
-.find-me .footer span, .find-me .footer span a {
-    color: var(--f3);
-}
-
 .footer span, .footer span a {
     text-decoration: none;
 }
@@ -425,10 +378,6 @@ svg:hover, svg:active {
 
 .photos .footer span.fc {
     color: var(--c2)!important;
-}
-
-.find-me .footer span.fc {
-    color: var(--c3)!important;
 }
 
 img, .box1, .box2, .text1, .text1 span {
@@ -447,10 +396,6 @@ img, .box1, .box2, .text1, .text1 span {
 
 .photos .line {
     background-color: var(--titlecolor2);
-}
-
-.find-me .line {
-    background-color: var(--titlecolor3);
 }
 
 @media(min-width:500px) {
