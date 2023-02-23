@@ -371,8 +371,16 @@ img {
     display: block;
 }
 
+path{
+  fill: var(--titlecolor1);
+}
+
+.photos path{
+  fill: var(--titlecolor2);
+}
+
 .find-me path{
-  fill: #222;
+  fill: var(--titlecolor3);
 }
 
 svg:hover, svg:active {
