@@ -183,9 +183,9 @@ a {
 }
 
 .transition-photos {
-    right: 0;
+    left: 0;
     background: var(--bg2);
-    transform-origin: 0 0;
+    transform-origin: 100% 100%;
 }
 
 .bio .transition-bio, .photos .transition-photos{
