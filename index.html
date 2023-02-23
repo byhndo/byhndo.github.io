@@ -33,18 +33,16 @@
 </head>
 <body>
     <div id="app">
-        <div :class="['bg', bg]">
-            <header>
+        <div :class="['bg', bg]">                          
+                <div class="transition transition-bio"></div>
+                <div class="transition transition-photos"></div>                           
                 <nav>
                     <ul>
                         <li><a class="link-bio" href="#" @click="bg = 'bio'">Bio</a></li>
                         <li><a class="link-photos" href="#" @click="bg = 'photos'">Photos</a></li>                       
                     </ul>
-                </nav>
-                <div class="transition transition-bio"></div>
-                <div class="transition transition-photos"></div>                
-            </header>
-            <main>
+                </nav>       
+          <main>
                 <h1><span>B</span><span>a</span><span>y</span><span>u</span><br><span>H</span><span>a</span><span>n</span><span>d</span><span>o</span><span>n</span><span>o</span>              
                 <div class="ball">.</div>
                 </h1>            
