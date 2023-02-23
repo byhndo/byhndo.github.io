@@ -16,7 +16,7 @@ createApp({
     },
     mounted: function() {
         gsap.to(".ball", {
-            top: 0, delay: 3, opacity: 1, duration: 2, ease: Bounce.easeOut
+            top: 0, delay: 4, opacity: 1, duration: 2, ease: Bounce.easeOut
         });
 
         gsap.from("h1 span", {
@@ -29,7 +29,7 @@ createApp({
         });
 
         gsap.from(".sub-title", {
-            delay: 3.7,
+            delay: 4,
             duration: 1.5,
             opacity: 0,
             filter: "blur(10px)",
