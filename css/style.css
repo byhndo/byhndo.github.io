@@ -5,25 +5,25 @@
     --black: #000;
     --n1: #373A40;
     --n2: #ececec;
-    --n3: #444;
+    --n3: #111;
     --bg1: #ebebeb;
     --bg2: #1b1b1b;
     --bg3: #7F8487;
     --titlecolor1: #373A40;
     --titlecolor2: #ececec;
-    --titlecolor3: #444;
+    --titlecolor3: #111;
     --c1: #cf3c4b;
     --c2: #3ec1ff;
     --c3: #FFD56F;
     --sub1: #373A40;
     --sub2: #ececec;
-    --sub3: #444;
+    --sub3: #111;
     --psub1: #373A40;
     --psub2: #ececec;
-    --psub3: #444;
+    --psub3: #111;
     --f1: #373A40;
     --f2: #ececec;
-    --f3: #444;
+    --f3: #111;
     --sizebody: 13px;
     --sizetitle: calc(24vw + 1rem);
     --sizetitle2: 8vw;
@@ -371,7 +371,7 @@ img {
     display: block;
 }
 
-.find-me svg{
+.find-me path{
   fill: #222;
 }
 
