@@ -5,7 +5,7 @@
     --black: #000;
     --n1: #373A40;
     --n2: #ececec;
-    --n3: #CFFDE1;
+    --n3: #666;
     --bg1: #ebebeb;
     --bg2: #232529;
     --bg3: #fff;
@@ -20,10 +20,10 @@
     --sub3: #000;
     --psub1: #373A40;
     --psub2: #ececec;
-    --psub3: #555;
+    --psub3: #666;
     --f1: #373A40;
     --f2: #ececec;
-    --f3: #555;
+    --f3: #666;
     --sizebody: 13px;
     --sizetitle: calc(24vw + 1rem);
     --sizetitle2: 8vw;
