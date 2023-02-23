@@ -92,7 +92,7 @@ h1 {
     padding: 0;
     left: -4.5px;
     letter-spacing: calc(-0.1vw + -0.3rem);
-    line-height: .7;
+    line-height: 50%;
 }
 
 h1 span {
@@ -456,8 +456,7 @@ img, .box1, .box2, .text1, .text1 span {
 @media(min-width:500px) {
     h1 {   
         font-size: calc(20vw + 1rem);    
-        left: -9.5px;    
-        line-height: .5;                          
+        left: -9.5px;                                   
     }
 
     main {       
