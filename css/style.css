@@ -5,7 +5,7 @@
     --black: #000;
     --n1: #373A40;
     --n2: #ececec;
-    --n3: #f9f1d2;
+    --n3: #CFFDE1;
     --bg1: #ebebeb;
     --bg2: #232529;
     --bg3: #1f605a;
@@ -17,13 +17,13 @@
     --c3: #fcaf3b;
     --sub1: #373A40;
     --sub2: #ececec;
-    --sub3: #f9f1d2;
+    --sub3: #CFFDE1;
     --psub1: #373A40;
     --psub2: #ececec;
-    --psub3: #f9f1d2;
+    --psub3: #CFFDE1;
     --f1: #373A40;
     --f2: #ececec;
-    --f3: #f9f1d2;
+    --f3: #CFFDE1;
     --sizebody: 13px;
     --sizetitle: calc(24vw + 1rem);
     --sizetitle2: 8vw;
