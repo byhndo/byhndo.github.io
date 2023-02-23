@@ -127,6 +127,7 @@ h1 span {
 }
 
 body {
+    background-color: var(--bg1);
     font-family: var(--font2);
     color: var(--titlecolor1);
     font-size: var(--sizebody);
