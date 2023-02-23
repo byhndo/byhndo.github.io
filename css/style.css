@@ -149,10 +149,6 @@ a {
     transition: background 0s 2s, color 1.6s;
 }
 
-.photos {
-    color: var(--bg1);
-}
-
 .bio, .link-bio {
     background: var(--bg1);
 }
