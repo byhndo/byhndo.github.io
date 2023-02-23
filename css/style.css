@@ -91,8 +91,8 @@ h1 {
     text-align: left;
     padding: 0;
     left: -4.5px;
-    letter-spacing: calc(-0.1vw + -0.25rem);
-    line-height: 60%;
+    letter-spacing: calc(-0.1vw + -0.23rem);
+    line-height: 62%;
 }
 
 h1 span {
