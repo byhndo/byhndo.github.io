@@ -90,6 +90,11 @@ h1 {
 h1 span {
     position: relative;
     transition: color 2.5s;
+    color: var(--titlecolor1);
+}
+
+.photos h1 span{
+    color: var(--titlecolor2);
 }
 
 .sub-title {
