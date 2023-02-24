@@ -14,8 +14,6 @@
     --sub2: #fff;
     --psub1: #373A40;
     --psub2: #fff;
-    --f1: #373A40;
-    --f2: #88888a;
     --sizebody: 13px;
     --sizetitle: calc(24vw + 1rem);
     --sizetitle2: 8vw;
@@ -351,7 +349,7 @@ svg:hover, svg:active {
 }
 
 .footer span {
-    color: var(--f1);
+    color: var(--n1);
     font-size: var(--sizenav);
     font-weight: var(--fwnav);
     text-decoration: none;
@@ -360,7 +358,7 @@ svg:hover, svg:active {
 }
 
 .photos .footer span, .photos .footer span a {
-    color: var(--f2);
+    color: var(--n2);
 }
 
 .footer span, .footer span a {
