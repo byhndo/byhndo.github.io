@@ -3,19 +3,19 @@
 
 :root {
     --n1: #373A40;
-    --n2: #ebebeb;
+    --n2: #fff;
     --bg1: #ebebeb;
     --bg2: #23272A;
     --titlecolor1: #373A40;
-    --titlecolor2: #ebebeb;
+    --titlecolor2: #fff;
     --c1: #cf3c4b;
     --c2: #3ec1ff;
     --sub1: #373A40;
-    --sub2: #ebebeb;
+    --sub2: #fff;
     --psub1: #373A40;
     --psub2: #ebebeb;
     --f1: #373A40;
-    --f2: #ebebeb;
+    --f2: #fff;
     --sizebody: 13px;
     --sizetitle: calc(24vw + 1rem);
     --sizetitle2: 8vw;
