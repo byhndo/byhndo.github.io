@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-    --n1: #555;
+    --n1: #444;
     --n2: #bbb;
     --bg1: #ebebeb;
     --bg2: #23272A;
@@ -12,7 +12,7 @@
     --c2: #3ec1ff;
     --sub1: #373A40;
     --sub2: #ebebeb;
-    --psub1: #555;
+    --psub1: #444;
     --psub2: #bbb;
     --sizebody: 13px;
     --sizetitle: calc(24vw + 1rem);
