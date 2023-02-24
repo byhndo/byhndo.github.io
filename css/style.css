@@ -386,12 +386,12 @@ img, .box1, .box2, .text1, .text1 span {
     bottom: 23px;
     width: 0vw;
     height: .3vw;
-    background-color: var(--titlecolor1);
+    background-color: #555;
     opacity: 0;
     filter: blur(10px);
 }
 
 .photos .line {
-    background-color: var(--titlecolor2);
+    background-color: #88888a;
 }
 
