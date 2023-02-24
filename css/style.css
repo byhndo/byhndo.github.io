@@ -105,7 +105,7 @@ h1 span {
 }
 
 .photos h1 span, .photos .sub-title {
-    color: var(--titlecolor2);
+    color: #88888a;
 }
 
 .ball {
