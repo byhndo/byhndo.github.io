@@ -386,7 +386,7 @@ img, .box1, .box2, .text1, .text1 span {
     bottom: 23px;
     width: 0vw;
     height: .3vw;
-    background-color: #ccc;
+    background-color: var(--titlecolor1);
     opacity: 0;
     filter: blur(10px);
 }
