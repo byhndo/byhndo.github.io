@@ -110,7 +110,7 @@ h1 span {
 }
 
 .photos .sub-title {
-    color: color: var(--subtitle2);
+    color: var(--subtitle2);
 }
 
 .ball {
