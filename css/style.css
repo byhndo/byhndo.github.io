@@ -3,17 +3,17 @@
 
 :root {
     --n1: #373A40;
-    --n2: #bbb;
+    --n2: #999;
     --bg1: #ebebeb;
     --bg2: #23272A;
     --titlecolor1: #373A40;
-    --titlecolor2: #fff;
+    --titlecolor2: #ebebeb;
     --c1: #cf3c4b;
     --c2: #3ec1ff;
     --sub1: #373A40;
-    --sub2: #fff;
+    --sub2: #ebebeb;
     --psub1: #373A40;
-    --psub2: #fff;
+    --psub2: #ebebeb;
     --sizebody: 13px;
     --sizetitle: calc(24vw + 1rem);
     --sizetitle2: 8vw;
