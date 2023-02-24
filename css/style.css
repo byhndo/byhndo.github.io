@@ -3,7 +3,7 @@
 
 :root {
     --n1: #373A40;
-    --n2: #999;
+    --n2: #bbb;
     --bg1: #ebebeb;
     --bg2: #23272A;
     --titlecolor1: #373A40;
@@ -13,7 +13,7 @@
     --sub1: #373A40;
     --sub2: #ebebeb;
     --psub1: #373A40;
-    --psub2: #ebebeb;
+    --psub2: #bbb;
     --sizebody: 13px;
     --sizetitle: calc(24vw + 1rem);
     --sizetitle2: 8vw;
