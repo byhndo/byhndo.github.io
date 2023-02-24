@@ -17,7 +17,7 @@
     --f1: #373A40;
     --f2: #ebebeb;
     --sizebody: 13px;
-    --sizetitle: calc(24vw + 1rem);
+    --sizetitle: calc(23vw + 1rem);
     --sizetitle2: 8vw;
     --sizenav: 9.5px;
     --font1: 'Barlow Condensed', sans-serif;
@@ -82,7 +82,7 @@ h1 {
     font-size: var(--sizetitle);
     text-align: left;
     padding: 0;
-    left: -1%;
+    left: -1.1%;
     letter-spacing: calc(-0.1vw + -0.23rem);
     line-height: 66%;
 }
