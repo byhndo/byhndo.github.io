@@ -342,7 +342,7 @@ path.focus, path.focus:hover, path.focus:active{
     fill: var(--n1);
 }
 
-path.camera, path.camera:hover, path.camera:active{
+path.camera, path.camera:hover, path.camera:active, g.camera, g.camera:hover, g.camera:active{
     fill: var(--n2);
 }
 
