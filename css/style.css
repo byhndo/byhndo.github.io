@@ -338,14 +338,6 @@ path:hover, path:active {
     opacity: .6;
 }
 
-path.focus, path.focus:hover, path.focus:active{
-    fill: var(--n1);
-}
-
-path.camera, path.camera:hover, path.camera:active{
-    fill: var(--n2);
-}
-
 .footer {
     position: relative;
     bottom: 0;
