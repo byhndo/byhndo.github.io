@@ -326,6 +326,14 @@ img {
     display: block;
 }
 
+.bio svg{
+  color: var(--titlecolor1);
+}
+
+.photos svg{
+  color: var(--titlecolor2);
+}
+
 svg:hover, svg:active{
     opacity: .6;
 }
