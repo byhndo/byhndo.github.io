@@ -327,11 +327,11 @@ img {
 }
 
 .bio svg{
-  color: var(--titlecolor1);
+  fill: var(--titlecolor1);
 }
 
 .photos svg{
-  color: var(--titlecolor2);
+  fill: var(--titlecolor2);
 }
 
 svg:hover, svg:active{
