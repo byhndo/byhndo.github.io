@@ -326,29 +326,22 @@ img {
     display: block;
 }
 
-svg{
+img.twitter, img.instagram, img.facebook, img.behance{
 width: 10px;
 height: 10px;
-}
-
-.bio img svg{
 fill: var(--titlecolor1);
 }
 
-.photos img svg{
+.photos img.twitter, .photos img.instagram, .photos img.facebook, .photos img.behance{
 fill: var(--titlecolor2);
 }
 
-.link-bio img svg{
+.link-bio img.dot{
     fill: var(--n1);
 }
 
-.link-photos svg{
+.link-photos img.camera{
     fill: var(--n2);
-}
-
-svg:hover, svg:active {
-    opacity: .6;
 }
 
 .footer {
