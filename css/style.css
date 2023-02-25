@@ -326,6 +326,10 @@ img {
     display: block;
 }
 
+svg:hover, svg:active{
+    opacity: .6;
+}
+
 .footer {
     position: relative;
     bottom: 0;
