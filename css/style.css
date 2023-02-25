@@ -333,15 +333,21 @@ fill: var(--titlecolor1);
 }
 
 .photos img.twitter, .photos img.instagram, .photos img.facebook, .photos img.behance{
+width: 10px;
+height: 10px;
 fill: var(--titlecolor2);
 }
 
 .link-bio img.dot{
     fill: var(--n1);
+width: 10px;
+height: 10px;
 }
 
 .link-photos img.camera{
     fill: var(--n2);
+width: 10px;
+height: 10px;
 }
 
 .footer {
