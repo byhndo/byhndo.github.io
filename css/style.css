@@ -346,6 +346,10 @@ path:hover, path:active {
     fill: #b3b3b3;
 }
 
+g#evaBehanceFill0, g#evaBehanceFill1, g#evaBehanceFill2{
+fill: var(--titlecolor1);
+}
+
 .footer {
     position: relative;
     bottom: 0;
