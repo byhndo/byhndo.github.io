@@ -327,15 +327,19 @@ img {
 }
 
 path{
-  fill: var(--titlecolor1);
+    fill: var(--titlecolor1);
 }
 
 .photos path{
-  fill: var(--titlecolor2);
+    fill: var(--titlecolor2);
 }
 
 path:hover, path:active {
     opacity: .6;
+}
+
+.link-photos path{
+    fill: #b3b3b3;
 }
 
 .footer {
