@@ -326,30 +326,6 @@ img {
     display: block;
 }
 
-img.twitter, img.instagram, img.facebook, img.behance{
-width: 25px;
-height: 25px;
-fill: var(--titlecolor1);
-}
-
-.photos img.twitter, .photos img.instagram, .photos img.facebook, .photos img.behance{
-width: 25px;
-height: 25px;
-fill: var(--titlecolor2);
-}
-
-.link-bio img.dot{
-    fill: var(--n1);
-width: 15px;
-height: 15px;
-}
-
-.link-photos img.camera{
-    fill: var(--n2);
-width: 15px;
-height: 15px;
-}
-
 .footer {
     position: relative;
     bottom: 0;
