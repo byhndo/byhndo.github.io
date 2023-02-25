@@ -326,6 +326,11 @@ img {
     display: block;
 }
 
+svg{
+width: 10px;
+height: 10px;
+}
+
 .bio img svg{
 fill: var(--titlecolor1);
 }
