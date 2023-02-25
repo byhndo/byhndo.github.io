@@ -231,6 +231,14 @@ nav .link-photos {
     color: var(--n2);
 }
 
+path.focus{
+    fill: var(--n1);
+}
+
+path.aperture{
+    fill: var(--n2);
+}
+
 main {
     position: relative;
     max-width: 90%;
