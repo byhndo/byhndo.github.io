@@ -334,15 +334,15 @@ path{
   fill: var(--titlecolor2);
 }
 
-svg:hover, svg:active {
+path:hover, path:active {
     opacity: .6;
 }
 
-path.focus{
+path.focus, path.focus:hover, path.focus:active{
     fill: var(--n1);
 }
 
-path.aperture{
+path.aperture, path.aperture:hover, path.aperture:active{
     fill: var(--n2);
 }
 
