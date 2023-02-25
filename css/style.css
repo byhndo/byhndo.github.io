@@ -326,28 +326,24 @@ img {
     display: block;
 }
 
-path{
-    fill: var(--titlecolor1);
-}
-
-.photos path{
-    fill: var(--titlecolor2);
-}
-
-path:hover, path:active {
-    opacity: .6;
-}
-
-.link-bio path{
-    fill: #3b3e45;
-}
-
-.link-photos path{
-    fill: #b3b3b3;
-}
-
-g#evaBehanceFill0, g#evaBehanceFill1, g#evaBehanceFill2{
+.bio img svg{
 fill: var(--titlecolor1);
+}
+
+.photos img svg{
+fill: var(--titlecolor2);
+}
+
+.link-bio img svg{
+    fill: var(--n1);
+}
+
+.link-photos svg{
+    fill: var(--n2);
+}
+
+svg:hover, svg:active {
+    opacity: .6;
 }
 
 .footer {
