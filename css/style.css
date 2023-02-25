@@ -338,11 +338,11 @@ path:hover, path:active {
     opacity: .6;
 }
 
-.link-bio path{
+.link-bio svg{
     fill: #3b3e45;
 }
 
-.link-photos path{
+.link-photos svg{
     fill: #b3b3b3;
 }
 
