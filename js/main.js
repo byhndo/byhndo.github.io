@@ -72,7 +72,7 @@ function setupReveal(container) {
 
             tl.to(line, {
                 duration: 3,
-                width: "90%",
+                width: "100%",
                 opacity: 1,
                 filter: "blur(0px)",
                 ease: "Power3.easeOut"
