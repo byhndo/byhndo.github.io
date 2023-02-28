@@ -346,12 +346,12 @@ svg:hover, svg:active{
     margin: 20px 0 0 0;
     text-align: center;
     font-family: var(--font1);
+    font-weight: var(--fwnav);
 }
 
 .footer span {
     color: var(--n1);
     font-size: var(--sizenav);
-    font-weight: var(--fwnav);
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: var(--spacingnav);
