@@ -27,6 +27,7 @@ createApp({
 
         gsap.from("h1 span", {
             duration: 1.5,
+            delay: 1.2,
             opacity: 0,
             filter: "blur(10px)",
             bottom: "5rem",
@@ -98,7 +99,7 @@ function setupReveal(container) {
                 scrollTrigger: {
                     trigger: el,
                     toggleActions: "restart none none none"
-                }, delay: .3
+                }, delay: .5
             });
 
             tl.set(el, {
