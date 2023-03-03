@@ -15,6 +15,12 @@ createApp({
         }
     },
     mounted: function() {
+       $(document).ready(function() { 
+       $('#status').delay(1000).fadeOut(); 
+       $('#preloader').delay(1000).fadeOut('slow'); 
+       $('body').delay(1000).css({'overflow':'visible'});
+       });
+        
         gsap.to(".ball", {
             top: 0, delay: 4, opacity: 1, duration: 2, ease: Bounce.easeOut
         });
@@ -116,9 +122,3 @@ function setupReveal(container) {
     })
 }
 
-
-$(window).on('load', function() { 
-  $('#status').delay(1000).fadeOut(); 
-  $('#preloader').delay(1000).fadeOut('slow'); 
-  $('body').delay(1000).css({'overflow':'visible'});
-})
