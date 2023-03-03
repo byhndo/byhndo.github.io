@@ -135,14 +135,13 @@ h1 span {
   bottom: 0;
   background-color: #000;
   z-index: 1000000;
-  overflow: hidden;
+  overflow: hidden;    
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 svg.load{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
   width: 100px;
   height: 100px;
   margin: 20px;
