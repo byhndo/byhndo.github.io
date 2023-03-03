@@ -138,11 +138,13 @@ h1 span {
   overflow: hidden;
 }
 
-svg.load{
+#status{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
+}
+svg.load{
   width: 100px;
   height: 100px;
   margin: 20px;
