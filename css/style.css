@@ -133,7 +133,7 @@ h1 span {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #23272A;
+  background-color: #000;
   z-index: 1000000;
   overflow: hidden;
 }
@@ -147,7 +147,7 @@ svg.load{
   height: 100px;
   margin: 20px;
   display:inline-block;
-  fill: #ebebeb;
+  fill: #fff;
 }
 
 body {
