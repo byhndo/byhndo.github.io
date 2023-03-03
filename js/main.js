@@ -119,6 +119,6 @@ function setupReveal(container) {
 
 $(window).on('load', function() { 
   $('#status').fadeOut(); 
-  $('#preloader').delay(1000).fadeOut('slow'); 
-  $('body').delay(1000).css({'overflow':'visible'});
+  $('#preloader').delay(350).fadeOut('slow'); 
+  $('body').delay(350).css({'overflow':'visible'});
 })
