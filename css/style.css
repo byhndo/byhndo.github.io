@@ -135,6 +135,7 @@ h1 span {
   bottom: 0;
   background-color: #000;
   z-index: 1000000;
+  overflow: hidden;
 }
 
 svg.load{
