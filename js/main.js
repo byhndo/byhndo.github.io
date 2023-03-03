@@ -16,9 +16,9 @@ createApp({
     },
     mounted: function() {
        $(document).ready(function() { 
-       $('#status').delay(1000).fadeOut(); 
-       $('#preloader').delay(1000).fadeOut('slow'); 
-       $('body').delay(1000).css({'overflow':'visible'});
+       $('#status').delay(750).fadeOut(); 
+       $('#preloader').delay(750).fadeOut('slow'); 
+       $('body').delay(750).css({'overflow':'visible'});
        });
         
         gsap.to(".ball", {
