@@ -127,6 +127,27 @@ h1 span {
     color: var(--c2);
 }
 
+ #preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000;
+  z-index: 1000000;
+}
+
+svg{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  display:inline-block;
+}
+
 body {
     background-color: var(--bg1);
     font-family: var(--font2);
