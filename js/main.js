@@ -14,7 +14,15 @@ createApp({
             el.ctx && el.ctx.revert();
         }
     },
-    mounted: function() {            
+    mounted: function() { 
+        gsap.from("nav",  {
+            delay: 5,
+            duration: 2,
+            y: "-3rem",
+            ease: Elastic.easeOut,
+            scale: 1.5      
+        }); 
+        
         gsap.to(".ball", {
             top: 0, delay: 4, opacity: 1, duration: 2, ease: Bounce.easeOut
         });
