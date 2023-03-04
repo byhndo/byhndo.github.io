@@ -14,13 +14,7 @@ createApp({
             el.ctx && el.ctx.revert();
         }
     },
-    mounted: function() {
-       $(document).ready(function() { 
-       $('#status').delay(750).fadeOut(); 
-       $('#preloader').delay(750).fadeOut('slow'); 
-       $('body').delay(750).css({'overflow':'visible'});
-       });
-        
+    mounted: function() {            
         gsap.to(".ball", {
             top: 0, delay: 4, opacity: 1, duration: 2, ease: Bounce.easeOut
         });
