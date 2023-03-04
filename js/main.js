@@ -16,7 +16,7 @@ createApp({
     },
     mounted: function() { 
         gsap.from("nav",  {
-            delay: 5,
+            delay: 6,
             duration: 2,
             y: "-3rem",
             ease: Elastic.easeOut,
