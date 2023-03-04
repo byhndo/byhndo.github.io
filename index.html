@@ -33,13 +33,17 @@
 </head>
 <body>                                                                                   
 <div id="app">
-        <div :class="['bg', bg]">     
+        <div :class="['bg', bg]">  
+        <div class="box1">
+        <div class="text1">
                 <nav>
                     <ul>
                         <li><a class="link-bio" href="#" @click="bg = 'bio'">Bio</a></li>
                         <li><a class="link-photos" href="#" @click="bg = 'photos'">Foto</a></li>                       
                     </ul>
-                </nav>                     
+                </nav> 
+         </div>
+         </div>
                 <div class="transition transition-bio"></div>
                 <div class="transition transition-photos"></div>                                                
           <main>
