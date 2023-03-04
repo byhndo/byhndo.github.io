@@ -3,15 +3,19 @@
 
 :root {
     --n1: #3b3e45;
-    --n2: #b3b3b3;
+//    --n2: #b3b3b3;
+    --n2: #585858;
     --bg1: #ebebeb;
-    --bg2: #23272A;
+//    --bg2: #23272A;
+    --bg2: #000;
     --titlecolor1: #373A40;
-    --titlecolor2: #ebebeb;
+//    --titlecolor2: #ebebeb;
+    --titlecolor2: #fff;
     --c1: #cf3c4b;
     --c2: #FED049;
     --sub1: #373A40;
-    --sub2: #ebebeb;
+//    --sub2: #ebebeb;
+  --sub2: #fff;  
     --psub1: #3b3e45;
     --psub2: #b3b3b3;
     --sizebody: 13px;
