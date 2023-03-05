@@ -1,3 +1,4 @@
+Splitting();
 gsap.registerPlugin(ScrollTrigger);
 const {
     createApp,
@@ -15,8 +16,7 @@ createApp({
         }
     },
     mounted: function() { 
-        Splitting();
-        
+                
         gsap.from("nav",  {
             delay: 3,
             duration: 2,
