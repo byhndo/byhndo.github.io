@@ -88,7 +88,7 @@ function setupReveal(container) {
                 scrollTrigger: {
                     trigger: el,
                     toggleActions: "restart none none none"
-                }, delay: .5
+                }, delay: 1
             });
 
             tl.set(el, {
@@ -97,15 +97,15 @@ function setupReveal(container) {
             tl.from(el, {
                 duration: 3,
                 xPercent: -100,
-                ease: "Circ.easeOut"
+                ease: "Power2.easeOut"
             });
 
             tl.from(image, {
                 duration: 3,
                 xPercent: 100,
                 filter: "blur(10px)",
-                scale: 2,
-                ease: "Circ.easeOut"
+                scale: 1.3,
+                ease: "Power2.easeOut"
             }, 0);
         });
 
