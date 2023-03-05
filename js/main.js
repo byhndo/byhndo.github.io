@@ -63,8 +63,8 @@ function setupReveal(container) {
                 }, delay: 1.2
             });
               
-            const tw = new TimelineMax({delay: 1});
-            tw.staggerFrom('.char', 3, {
+            const time = new TimelineMax({delay: 1});
+            time.staggerFrom(tw, 3, {
             y: "-2rem",
             delay: 1.2,
             rotation:90,
