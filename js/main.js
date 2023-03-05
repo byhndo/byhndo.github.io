@@ -41,7 +41,7 @@ createApp({
         
         Splitting();
         TweenMax.staggerFrom('.char', 3, {
-            y: 70,
+            y: "3rem",
             delay: 1.2,
             rotation:90,
             rotationX:-50, 
@@ -63,7 +63,7 @@ function setupReveal(container) {
 
         textRevealBoxs1.forEach((box1) => {
 
-            const text1 = box1.querySelectorAll(".text1, .text1 span");
+            const text1 = box1.querySelectorAll(".text1");
             const line = box1.querySelectorAll(".line");
 
             let tl = gsap.timeline({
@@ -81,6 +81,16 @@ function setupReveal(container) {
                 stagger: .2,
                 ease: "Power3.easeOut"
             });
+            
+            const text1 = 
+            
+            TweenMax.staggerFrom(text1, 3, {
+            y: "-2rem",           
+            rotation:90,
+            rotationX:-50, 
+            transformOrigin:"50% 50%",
+            opacity: 0,        
+            ease: Elastic.easeOut.config(1.7)} ,0.05);
 
             tl.to(line, {
                 duration: 3,
