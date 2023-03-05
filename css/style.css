@@ -91,6 +91,7 @@ h1 {
 
 .sub-title {
     position: relative;
+    display: inline-block; 
     color: var(--n1);
     font-family: var(--font2);
     font-weight: 400;
