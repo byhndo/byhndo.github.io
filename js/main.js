@@ -43,7 +43,7 @@ createApp({
             opacity: 0,
             filter: "blur(10px)",
             bottom: "-2rem",            
-            ease: Back.easeInOut.config(1.7)}, 0.05);
+            ease: Back.easeInOut,
             stagger: .2
         });
     },
