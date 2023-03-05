@@ -81,9 +81,7 @@ function setupReveal(container) {
                 stagger: .2,
                 ease: "Power3.easeOut"
             });
-            
-            const text1 = 
-            
+                             
             TweenMax.staggerFrom(text1, 3, {
             y: "-2rem",           
             rotation:90,
