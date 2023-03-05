@@ -1,4 +1,3 @@
-Splitting();
 gsap.registerPlugin(ScrollTrigger);
 const {
     createApp,
@@ -42,6 +41,8 @@ createApp({
         }
     }
 }).mount('#app')
+
+Splitting();
 
 function setupReveal(container) {
     container.ctx = gsap.context(() => {
