@@ -40,15 +40,14 @@ createApp({
         });
         
         Splitting();
-        gsap.from(".char", {
-            delay: 4,
-            duration: 1.5,
-            opacity: 0,
-            filter: "blur(10px)",
-            bottom: "-2rem",            
-            ease: Back.easeInOut,
-            stagger: .2         
-        }, 0.05);
+        TweenMax.staggerFrom('.char', 3, {
+            y: 70,
+            delay: 1,
+            rotation:90,
+            rotationX:-50, 
+            transformOrigin:"50% 50%",
+            opacity: 0,        
+            ease: Elastic.easeOut.config(1.7)} ,0.05);
     },
     data() {
         return {
