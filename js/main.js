@@ -18,9 +18,9 @@ createApp({
         Splitting();
         
         gsap.from("nav",  {
-            delay: 6,
+            delay: 3,
             duration: 2,
-            y: "-3rem",
+            y: "-2rem",
             ease: Elastic.easeOut
         }); 
         
@@ -29,7 +29,7 @@ createApp({
         });
                     
         TweenMax.staggerFrom('.char', 3, {
-            y: "-2rem",
+            y: "2rem",
             delay: 1.2,
             rotation:90,
             rotationX:-50, 
