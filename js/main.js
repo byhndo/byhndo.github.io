@@ -27,21 +27,7 @@ createApp({
         gsap.to(".ball", {
             top: 0, delay: 4, opacity: 1, duration: 2, ease: Bounce.easeOut
         });
-
-        gsap.from("h1 span", {
-            duration: 1.5,
-            delay: 1.2,
-            opacity: 0,
-            filter: "blur(10px)",
-            bottom: "5rem",
-            stagger: .2,
-            ease: "Power3.easeOut",
-            transformOrigin:"50% 50%",
-            rotation:90,
-            rotationX:-50
-        });
-        
-        
+                    
         TweenMax.staggerFrom('.char', 3, {
             y: "-2rem",
             delay: 1.2,
@@ -65,7 +51,7 @@ function setupReveal(container) {
 
         textRevealBoxs1.forEach((box1) => {
 
-            const text1 = box1.querySelectorAll(".char");
+            const text1 = box1.querySelectorAll(".text1");
             const line = box1.querySelectorAll(".line");
 
             let tl = gsap.timeline({
@@ -75,9 +61,18 @@ function setupReveal(container) {
                 }, delay: 1.2
             });
 
-            
+            gsap.from(text1, {
+            duration: 1.5,           
+            opacity: 0,
+            filter: "blur(10px)",
+            bottom: "2rem",
+            stagger: .2,
+            ease: "Power3.easeOut",
+            transformOrigin:"50% 50%",
+            rotation:90,
+            rotationX:-50
+            });
            
-
             tl.to(line, {
                 duration: 3,
                 width: "100%",
@@ -87,9 +82,6 @@ function setupReveal(container) {
             }, "<");
 
         });
-
-
-
 
         let revealContainers = container.querySelectorAll(".item");
         revealContainers.forEach((el) => {
