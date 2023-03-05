@@ -61,7 +61,7 @@ function setupReveal(container) {
                 }, delay: 1.2
             });
                                 
-            gsap.from(text1, {
+            tl.from(text1, {
             duration: 3,           
             opacity: 0,
             filter: "blur(10px)",
