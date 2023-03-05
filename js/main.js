@@ -22,7 +22,7 @@ createApp({
             duration: 2,
             opacity: 0,
             y: "-5rem",
-            ease: Elastic.easeOut
+            ease: "Elastic.easeOut"
         }); 
         
         gsap.from("h1 span", {
