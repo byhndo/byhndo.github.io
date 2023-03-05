@@ -28,7 +28,8 @@ createApp({
             duration: 1.5,           
             opacity: 0,           
             y: "-3rem",
-            ease: "Elastic.easeOut"            
+            ease: "Elastic.easeOut",
+            stagger: .02
             });
         
         gsap.to(".ball", {
