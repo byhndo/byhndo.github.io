@@ -42,7 +42,7 @@ createApp({
         Splitting();
         TweenMax.staggerFrom('.char', 3, {
             y: 70,
-            delay: 1,
+            delay: 1.2,
             rotation:90,
             rotationX:-50, 
             transformOrigin:"50% 50%",
