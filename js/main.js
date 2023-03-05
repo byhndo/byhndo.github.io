@@ -35,7 +35,8 @@ createApp({
             stagger: .2,
             ease: "Power3.easeOut"
         });
-
+        
+let split = SplitText.create(".sub-title", {type: "chars,words"});
         gsap.from(".sub-title", {
             delay: 4,
             duration: 1.5,
