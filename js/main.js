@@ -60,13 +60,20 @@ function setupReveal(container) {
                     toggleActions: "restart none none none"
                 }, delay: 1.2
             });
-
+            TweenMax.staggerFrom('.char', 3, {
+            y: "-2rem",
+            delay: 1.2,
+            rotation:90,
+            rotationX:-50, 
+            transformOrigin:"50% 50%",
+            opacity: 0,        
+            ease: Elastic.easeOut.config(1.7)} ,0.05);
+                     
             gsap.from(text1, {
             duration: 1.5,           
             opacity: 0,
             filter: "blur(10px)",
             bottom: "-2rem",
-            stagger: .2,
             ease: "Power3.easeOut"
             });
            
