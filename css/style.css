@@ -362,13 +362,8 @@ svg:hover, svg:active{
 }
 
 .footer span.fc {
-    color: var(--c1)!important;
     font-size: var(--sizenav);
     font-weight: var(--fwnav);
-}
-
-.photos .footer span.fc {
-    color: var(--c2)!important;
 }
 
 img, .box1, .box2, .text1, .text1 span {
