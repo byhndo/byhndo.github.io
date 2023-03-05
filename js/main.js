@@ -107,7 +107,7 @@ function setupReveal(container) {
                 duration: 3,
                 xPercent: 100,
                 filter: "blur(10px)",
-                scale: 1.3,
+                scale: 1.5,
                 ease: "Power2.easeOut"
             }, 0);
         });
