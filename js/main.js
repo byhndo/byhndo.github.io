@@ -25,7 +25,7 @@ createApp({
             ease: "Elastic.easeOut"
         }); 
         
-        gsap.from("h1", {
+        gsap.from(".char", {
             duration: 1.5,           
             opacity: 0,
             filter: "blur(10px)",
