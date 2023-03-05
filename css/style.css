@@ -94,6 +94,7 @@ h1 span {
 }
 
 .sub-title {
+    position: relative;
     color: var(--n1);
     font-family: var(--font2);
     font-weight: 400;
