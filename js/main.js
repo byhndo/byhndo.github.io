@@ -27,8 +27,7 @@ createApp({
         
         gsap.from(".char", {
             duration: 1.5,           
-            opacity: 0,
-            filter: "blur(10px)",
+            opacity: 0,           
             y: "-3rem",
             ease: "Elastic.easeOut"       
             });
