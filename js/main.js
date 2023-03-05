@@ -32,7 +32,7 @@ createApp({
             });
         
         gsap.to(".ball", {
-            top: 0, delay: 4, opacity: 1, duration: 2, ease: Bounce.easeOut
+            top: 0, delay: 4, opacity: 1, duration: 2, ease: "Bounce.easeOut"
         });
                           
     data() {
