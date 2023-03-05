@@ -25,19 +25,22 @@ createApp({
             ease: Elastic.easeOut
         }); 
         
+        gsap.from("h1 span", {
+            duration: 1.5,           
+            opacity: 0,
+            filter: "blur(10px)",
+            y: "-3rem",
+            ease: "Elastic.easeOut",
+            scale: 0,
+            rotationX: 180,
+            transformOrigin: "0% 50% -50",
+            stagger: 0.02
+            });
+        
         gsap.to(".ball", {
             top: 0, delay: 4, opacity: 1, duration: 2, ease: Bounce.easeOut
         });
-                    
-        TweenMax.staggerFrom('.char', 3, {
-            y: "2rem",
-            delay: 1.2,
-            rotation:90,
-            rotationX:-50, 
-            transformOrigin:"50% 50%",
-            opacity: 0,        
-            ease: Elastic.easeOut.config(1.7)} ,0.05);
-    },
+                          
     data() {
         return {
             bg: 'bio'
@@ -49,10 +52,8 @@ function setupReveal(container) {
     container.ctx = gsap.context(() => {
 
         const textRevealBoxs1 = container.querySelectorAll(".box1");
-
         textRevealBoxs1.forEach((box1) => {
 
-            const tw = box1.querySelectorAll(".char");
             const text1 = box1.querySelectorAll(".text1");
             const line = box1.querySelectorAll(".line");
            
@@ -62,17 +63,7 @@ function setupReveal(container) {
                     toggleActions: "restart none none none"
                 }, delay: 1.2
             });
-              
-            const time = new TimelineMax({delay: 1});
-            time.staggerFrom(tw, 3, {
-            y: "-2rem",
-            delay: 1.2,
-            rotation:90,
-            rotationX:-50, 
-            transformOrigin:"50% 50%",
-            opacity: 0,        
-            ease: Elastic.easeOut.config(1.7)} ,0.05);
-            
+                  
             tl.from(text1, {
             duration: 1.5,           
             opacity: 0,
