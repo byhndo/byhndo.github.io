@@ -85,7 +85,7 @@ h1 {
     left: -1.1%;
 }
 
-.photos h1 span{
+.photos h1 {
     color: var(--titlecolor2);
 }
 
