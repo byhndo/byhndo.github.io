@@ -47,8 +47,8 @@ createApp({
             filter: "blur(10px)",
             bottom: "-2rem",            
             ease: Back.easeInOut,
-            stagger: .2
-        });
+            stagger: .2         
+        }, 0.05);
     },
     data() {
         return {
