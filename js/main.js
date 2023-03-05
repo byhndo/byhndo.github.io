@@ -52,16 +52,27 @@ function setupReveal(container) {
 
         textRevealBoxs1.forEach((box1) => {
 
+            const tw = box1.querySelectorAll(".char");
             const text1 = box1.querySelectorAll(".text1");
             const line = box1.querySelectorAll(".line");
-
+           
             let tl = gsap.timeline({
                 scrollTrigger: {
                     trigger: box1,
                     toggleActions: "restart none none none"
                 }, delay: 1.2
             });
-                                
+              
+            var tw = new TimelineMax({delay: 1});
+            tw.staggerFrom('.char', 3, {
+            y: "-2rem",
+            delay: 1.2,
+            rotation:90,
+            rotationX:-50, 
+            transformOrigin:"50% 50%",
+            opacity: 0,        
+            ease: Elastic.easeOut.config(1.7)} ,0.05);
+            
             tl.from(text1, {
             duration: 3,           
             opacity: 0,
