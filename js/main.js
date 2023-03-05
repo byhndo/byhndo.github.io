@@ -33,7 +33,10 @@ createApp({
             filter: "blur(10px)",
             bottom: "5rem",
             stagger: .2,
-            ease: "Power3.easeOut"
+            ease: "Power3.easeOut",
+            transformOrigin:"50% 50%",
+            rotation:90,
+            rotationX:-50
         });
         
         Splitting();
