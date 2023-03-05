@@ -15,6 +15,8 @@ createApp({
         }
     },
     mounted: function() { 
+        Splitting();
+        
         gsap.from("nav",  {
             delay: 6,
             duration: 2,
@@ -39,9 +41,9 @@ createApp({
             rotationX:-50
         });
         
-        Splitting();
+        
         TweenMax.staggerFrom('.char', 3, {
-            y: "3rem",
+            y: "2rem",
             delay: 1.2,
             rotation:90,
             rotationX:-50, 
@@ -80,7 +82,7 @@ function setupReveal(container) {
             rotationX:-50, 
             transformOrigin:"50% 50%",
             opacity: 0,        
-            ease: Elastic.easeOut.config(1.7)} ,0.05);
+            ease: Back.easeOut.config(1.7)} ,0.05);
 
             tl.to(line, {
                 duration: 3,
