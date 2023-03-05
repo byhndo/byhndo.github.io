@@ -28,7 +28,7 @@ createApp({
         gsap.from(".char", {
             duration: 3,           
             opacity: 0,           
-            y: "-3rem",
+            y: "3rem",
             ease: Elastic.easeOut.config(1.7),
             stagger: .02,
             rotation:90,
