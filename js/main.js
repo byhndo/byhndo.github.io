@@ -73,15 +73,7 @@ function setupReveal(container) {
                 }, delay: 1.2
             });
 
-            tl.from(text1, {
-                duration: 1.5,
-                opacity: 0,
-                filter: "blur(10px)",
-                bottom: "2rem",
-                stagger: .2,
-                ease: "Power3.easeOut"
-            });
-                             
+            
             TweenMax.staggerFrom(text1, 3, {
             y: "-2rem",           
             rotation:90,
