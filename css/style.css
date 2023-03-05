@@ -72,7 +72,6 @@ h7 {
 
 h1 {
     position: relative;
-    display: inline;
     transition: color 2.5s;
     font-family: var(--font1);
     color: var(--titlecolor1);
@@ -91,7 +90,7 @@ h1 {
 
 .sub-title {
     position: relative;
-    display: inline-block; 
+    display: inline; 
     color: var(--n1);
     font-family: var(--font2);
     font-weight: 400;
