@@ -89,7 +89,7 @@ h1 {
 
 .sub-title {
     position: relative;
-    display: inline; 
+    display: block; 
     color: var(--n1);
     font-family: var(--font2);
     font-weight: 400;
@@ -106,6 +106,7 @@ h1 {
 
 .ball {
     position: relative;
+    display: inline;
     margin-left: -2px;
     color: var(--c1);
     font-size: var(--sizetitle);
