@@ -43,7 +43,7 @@ createApp({
         
         
         TweenMax.staggerFrom('.char', 3, {
-            y: "2rem",
+            y: "-2rem",
             delay: 1.2,
             rotation:90,
             rotationX:-50, 
@@ -76,13 +76,7 @@ function setupReveal(container) {
             });
 
             
-            TweenMax.staggerFrom(text1, 3, {
-            y: "-2rem",           
-            rotation:90,
-            rotationX:-50, 
-            transformOrigin:"50% 50%",
-            opacity: 0,        
-            ease: Back.easeOut.config(1.7)} ,0.05);
+           
 
             tl.to(line, {
                 duration: 3,
