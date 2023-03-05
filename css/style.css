@@ -71,7 +71,9 @@ h7 {
 }
 
 h1 {
+    position: relative;
     display: inline;
+    transition: color 2.5s;
     font-family: var(--font1);
     color: var(--titlecolor1);
     font-weight: var(--fwtitle);
@@ -79,14 +81,8 @@ h1 {
     text-align: left;
     padding: 0;
     letter-spacing: calc(-0.1vw + -0.23rem);
-    line-height: 66%;
+    line-height: 10%;
     left: -1.1%;
-}
-
-h1 span {
-    position: relative;
-    transition: color 2.5s;
-    color: var(--titlecolor1);
 }
 
 .photos h1 span{
