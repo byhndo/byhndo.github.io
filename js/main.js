@@ -66,7 +66,7 @@ function setupReveal(container) {
             duration: 3,           
             opacity: 0,
             filter: "blur(10px)",
-            bottom: "2rem",
+            y: "-3rem",
             ease: "Power3.easeOut"
             });
            
