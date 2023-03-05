@@ -20,7 +20,7 @@ createApp({
             delay: 5,
             duration: 2,
             opacity: 0,
-            y: "-5rem",
+            y: "-3rem",
             ease: "Elastic.easeOut"
         }); 
         
@@ -28,10 +28,7 @@ createApp({
             duration: 1.5,           
             opacity: 0,           
             y: "-3rem",
-            ease: "Elastic.easeOut",
-            rotation:90,
-            rotationX:-50,
-            transformOrigin:"50% 50%"
+            ease: "Elastic.easeOut"            
             });
         
         gsap.to(".ball", {
