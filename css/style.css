@@ -81,7 +81,7 @@ h1 {
     text-align: left;
     padding: 0;
     letter-spacing: calc(-0.1vw + -0.23rem);
-    line-height: 10%;
+    line-height: 66%;
     left: -1.1%;
 }
 
@@ -107,7 +107,7 @@ h1 {
 
 .ball {
     position: relative;
-    display: inline-flex;
+    display: inline;
     margin-left: -2px;
     color: var(--c1);
     font-size: var(--sizetitle);
