@@ -74,7 +74,7 @@ function setupReveal(container) {
             ease: Elastic.easeOut.config(1.7)} ,0.05);
             
             tl.from(text1, {
-            duration: 3,           
+            duration: 1.5,           
             opacity: 0,
             filter: "blur(10px)",
             y: "-3rem",
