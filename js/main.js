@@ -30,7 +30,10 @@ createApp({
             opacity: 0,           
             y: "-3rem",
             ease: "Elastic.easeOut",
-            stagger: .02
+            stagger: .02,
+            rotation:90,
+            rotationX:-50,           
+            transformOrigin:"50% 50%" 
             });
         
         gsap.to(".ball", {
