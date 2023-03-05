@@ -37,7 +37,7 @@ createApp({
         });
         
         Splitting();
-        gsap.from(".sub-title", {
+        gsap.from(".char", {
             delay: 4,
             duration: 1.5,
             opacity: 0,
