@@ -20,7 +20,7 @@ createApp({
         gsap.from("nav",  {
             delay: 3,
             duration: 2,
-            y: "-2rem",
+            y: "-5rem",
             ease: Elastic.easeOut
         }); 
         
