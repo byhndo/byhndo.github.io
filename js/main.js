@@ -62,7 +62,7 @@ function setupReveal(container) {
             });
                                 
             gsap.from(text1, {
-            duration: 1.5,           
+            duration: 3,           
             opacity: 0,
             filter: "blur(10px)",
             bottom: "-2rem",
