@@ -111,7 +111,6 @@ h1 {
     width: calc(3vw + .5rem);
     height: calc(3vw + .5rem);
     border-radius: 50%;
-    margin-left: -3px;
     background-color: var(--c1);  
     top: -20%;
     opacity: 0;
