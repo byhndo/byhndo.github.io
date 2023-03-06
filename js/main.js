@@ -61,20 +61,16 @@ createApp({
 function setupReveal(container) {
     container.ctx = gsap.context(() => {
 
-        const textRevealBoxs1 = container.querySelectorAll(".box1");
-        textRevealBoxs1.forEach((box1) => {
-
-            const textscale = box1.querySelectorAll(".textscale, .textscale span");
-            const text1 = box1.querySelectorAll(".text1, .text1 span");            
-            const line = box1.querySelectorAll(".line");
-           
-            let tl = gsap.timeline({
-                scrollTrigger: {
-                    trigger: box1,
-                    toggleActions: "restart none none none"
-                }, delay: .5
-            });
-              
+        const textRevealBoxs = container.querySelectorAll(".box");
+        textRevealBoxs.forEach((box) => {
+        const textscale = box.querySelectorAll(".textscale, .textscale span");
+        let tl = gsap.timeline({
+          scrollTrigger: {
+            trigger: box,
+            toggleActions: "restart none none none"
+          }, delay: .5
+            }); 
+            
             tl.from(textscale, {
             duration: 3,           
             opacity: 0, 
@@ -84,7 +80,20 @@ function setupReveal(container) {
             stagger: {
             amount: .8
             }            
-            });
+            });                         
+        
+        const textRevealBoxs1 = container.querySelectorAll(".box1");
+        textRevealBoxs1.forEach((box1) => {
+
+            const text1 = box1.querySelectorAll(".text1, .text1 span");            
+            const line = box1.querySelectorAll(".line");
+           
+            let tl = gsap.timeline({
+                scrollTrigger: {
+                    trigger: box1,
+                    toggleActions: "restart none none none"
+                }, delay: .5
+            });                      
                       
             tl.from(text1, {
             duration: 3,           
