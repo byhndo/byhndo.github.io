@@ -270,7 +270,6 @@ span.prolog {
 p.sub1, p.sub2 {
     text-transform: none;
     text-align: left;
-    margin-bottom: var(--marginp);
 }
 
 p.sub1 {
