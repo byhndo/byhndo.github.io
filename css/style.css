@@ -356,13 +356,17 @@ img, .box, .box1, .textscale, .textscale span, .text1, .text1 span {
 }
 
 .line {
-    position: absolute;
-    bottom: 23px;
-    width: 0vw;
-    height: .3vw;
-    background-color: var(--psub1);
-    opacity: 0;
-    filter: blur(10px);
+  position: absolute;
+  bottom: 23px;
+  width: 0vw;
+  height: .3vw;
+  background-color: var(--psub1);
+  opacity: 0;
+  filter: blur(10px);
+}
+
+.photos .line {
+  background-color: var(--psub2);
 }
 
 .footer {
@@ -396,8 +400,3 @@ img, .box, .box1, .textscale, .textscale span, .text1, .text1 span {
   font-size: var(--sizenav);
   font-weight: var(--fwnav);
 }
-
-.photos .line {
-    background-color: var(--psub2);
-}
-
