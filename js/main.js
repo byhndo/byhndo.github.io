@@ -45,7 +45,7 @@ createApp({
         });
         
         gsap.to(".ball", {
-            top: 0, delay: 5, filter: "blur(0px)", opacity: 1, duration: 2, ease: "Bounce.easeOut"
+            top: 0, delay: 5, opacity: 1, duration: 2, ease: "Bounce.easeOut"
         });
 },                          
     data() {
