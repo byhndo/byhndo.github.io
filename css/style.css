@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 :root {
     --n1: #3b3e45;
@@ -19,12 +18,12 @@
     --sizetitle: calc(24vw + .5rem);
     --sizetitle2: 8vw;
     --sizenav: 9.5px;
-    --font1: 'Anton', sans-serif;
+    --font1: 'Barlow Condensed', sans-serif;
     --font2: 'Figtree', sans-serif;
     --marginp: 23px;
     --spacingnav: 2px;
     --fwnav: 300;
-    --fwtitle: 400;
+    --fwtitle: 800;
     --rad: 15px;
 }
 
