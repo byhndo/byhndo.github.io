@@ -119,7 +119,6 @@ h1 span {
     background-color: var(--c1); 
     margin-left: calc(-0.05vw + -0.05rem);
     top: -20%;
-    filter: blur(10px);
     opacity: 0;
     transition: background-color 2.5s;
 }
