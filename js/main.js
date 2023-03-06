@@ -45,7 +45,7 @@ createApp({
         });
         
         gsap.to(".ball", {
-            top: 0, delay: 4, opacity: 1, duration: 2, ease: "Bounce.easeOut"
+            top: 0, delay: 5, opacity: 1, duration: 2, ease: "Bounce.easeOut"
         });
 },                          
     data() {
@@ -62,7 +62,7 @@ function setupReveal(container) {
         const textRevealBoxs1 = container.querySelectorAll(".box1");
         textRevealBoxs1.forEach((box1) => {
 
-            const text1 = box1.querySelectorAll(".text1");            
+            const text1 = box1.querySelectorAll(".text1, .text1 span");            
             const line = box1.querySelectorAll(".line");
            
             let tl = gsap.timeline({
