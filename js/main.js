@@ -30,7 +30,8 @@ createApp({
             delay: 1.2,
             opacity: 0, 
             filter: "blur(10px)",
-            bottom: "5rem",           
+            bottom: "5rem", 
+            stagger: .7,
             ease: "Elastic.easeOut"
         });
 
@@ -78,7 +79,7 @@ function setupReveal(container) {
             bottom: "3rem",
             ease: "Elastic.easeOut",
             stagger: {
-            amount: 0.7
+            amount: .7
             }
             });
                      
