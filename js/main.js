@@ -77,7 +77,7 @@ function setupReveal(container) {
             opacity: 0,
             filter: "blur(10px)",
             bottom: "3rem",
-            ease: "Elastic.easeOut",
+            ease: "Bounce.easeOut",
             stagger: {
             amount: 0.2
             }
