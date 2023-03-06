@@ -376,7 +376,7 @@ svg:hover, svg:active{
   font-weight: var(--fwnav);
 }
 
-img, .box1, .box2, .textscale, .textscale span, .text1, .text1 span {
+img, .box, .box1, .textscale, .textscale span, .text1, .text1 span {
   position: relative;
 }
 
