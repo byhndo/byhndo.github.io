@@ -51,7 +51,9 @@ h2 {
 }
 
 h3 {
-    font-size: 320%;
+  font-size: 320%;
+  transform-origin: 50% 100%;
+  display: inline-block;
 }
 
 h4 {
@@ -378,8 +380,6 @@ svg:hover, svg:active{
 
 img, .box1, .box2, .text1, .text1 span {
   position: relative;
-  display: inline-block;
-  transform-origin: 50% 100%;
 }
 
 .line {
