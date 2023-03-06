@@ -73,7 +73,7 @@ function setupReveal(container) {
             });
                   
             tl.from(text1, {
-            duration: 1.5,           
+            duration: 2,           
             opacity: 0,
             filter: "blur(10px)",
             bottom: "3rem",
