@@ -369,10 +369,7 @@ img, .box, .box1, .textscale, .textscale span, .text1, .text1 span {
 
 .footer {
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 20px 0 0 0;
+  margin: 0 auto;
   text-align: center;
   font-family: var(--font1);
   font-weight: var(--fwnav);
