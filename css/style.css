@@ -39,7 +39,8 @@ h1, h2, h3, h4, h5, h6, h7 {
     position: relative;
     font-family: var(--font1);
     font-weight: var(--fwtitle);
-    text-align: left;    
+    text-align: left; 
+    line-height:1;
     margin-top: var(--marginp);
     margin-bottom: var(--marginp);
     letter-spacing: calc(-0.05vw + -0.10rem);
@@ -80,6 +81,7 @@ h1 {
     padding: 0;
     letter-spacing: calc(-0.1vw + -0.23rem);
     left: -1.1%;
+    line-height: 66%;
 }
 
 .photos h1 {
