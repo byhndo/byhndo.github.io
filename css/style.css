@@ -307,6 +307,7 @@ img {
     transform-origin: left;
     object-fit: cover;
     border-radius: var(--rad);
+    margin-top: 23px;
 }
 
 .soc {
