@@ -107,8 +107,8 @@ h1 {
 .ball {
     position: relative;
     display: inline-flex;
-    width: 10px;
-    height: 10px;
+    width: calc(24vw + .5rem);
+    height: calc(24vw + .5rem);
     border-radius: 50%;
     margin-left: -5px;
     background-color: var(--c1);  
