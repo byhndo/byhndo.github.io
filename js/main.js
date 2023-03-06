@@ -25,7 +25,7 @@ createApp({
             ease: "Elastic.easeOut"
         }); 
          
-        gsap.from(".char", {
+        gsap.from("h1 span", {
             duration: 3,           
             opacity: 0,           
             y: "3rem",
@@ -72,19 +72,7 @@ function setupReveal(container) {
             y: "-3rem",
             ease: "Power3.easeOut"
             });
-           
-            split = new SplitText("h3", {type:"chars"}),
-            tl.from(split.chars, {
-            duration: 1.5,           
-            opacity: 0,           
-            y: "3rem",
-            ease: Elastic.easeOut.config(1.7),
-            stagger: .02,
-            rotation:90,
-            rotationX:-50,           
-            transformOrigin:"50% 50%" 
-            }, 0.05);
-            
+                     
             tl.to(line, {
                 duration: 3,
                 width: "100%",
