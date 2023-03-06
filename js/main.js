@@ -91,10 +91,7 @@ function setupReveal(container) {
             opacity: 0, 
             bottom: "3rem",
             filter: "blur(10px)",           
-            ease: "Elastic.easeOut",
-            stagger: {
-            amount: .8
-            }            
+            ease: "Elastic.easeOut"           
             });
                      
             tl.to(line, {
