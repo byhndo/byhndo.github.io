@@ -355,6 +355,7 @@ img, .box, .box1, .textscale, .textscale span, .text1, .text1 span {
 .textscale, .textscale span{
   transform-origin: 50% 100%;
   display: inline-block;
+  margin-bottom: 0;
 }
 
 .line {
