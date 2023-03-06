@@ -72,6 +72,17 @@ function setupReveal(container) {
             ease: "Power3.easeOut"
             });
            
+            gsap.from(".char", {
+            duration: 1.5,           
+            opacity: 0,           
+            y: "3rem",
+            ease: Elastic.easeOut.config(1.7),
+            stagger: .02,
+            rotation:90,
+            rotationX:-50,           
+            transformOrigin:"50% 50%" 
+            }, 0.05);
+            
             tl.to(line, {
                 duration: 3,
                 width: "100%",
