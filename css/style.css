@@ -84,16 +84,13 @@ h1 {
     line-height: 60%;
 }
 
-.photos h1 {
-  color: var(--titlecolor2);
+h1 span {
+    position: relative;
+    transition: color 2.5s;
+    color: var(--titlecolor1);
 }
-
-h1 span{
-  position: relative;
-}
-
 .photos h1 span{
-  color: var(--titlecolor2);
+    color: var(--titlecolor2);
 }
 
 .sub-title {
