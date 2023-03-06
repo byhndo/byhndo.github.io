@@ -250,7 +250,7 @@ main {
 }
 
 .slide-fade-enter-from, .slide-fade-leave-to {
-  transform: translateY(20px);
+  transform: translateY(3rem);
   opacity: 0;
 }
 
