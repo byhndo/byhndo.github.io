@@ -344,35 +344,6 @@ svg:hover, svg:active{
     opacity: .6;
 }
 
-.footer {
-    position: relative;
-    margin: 20px auto;
-    text-align: center;
-    font-family: var(--font1);
-    font-weight: var(--fwnav);
-}
-
-.footer span {
-    color: var(--n1);
-    font-size: var(--sizenav);
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: var(--spacingnav);
-}
-
-.photos .footer span, .photos .footer span a {
-  color: var(--n2);
-}
-
-.footer span, .footer span a {
-  text-decoration: none;
-}
-
-.footer span.fc {
-  font-size: var(--sizenav);
-  font-weight: var(--fwnav);
-}
-
 img, .box, .box1, .textscale, .textscale span, .text1, .text1 span {
   position: relative;
 }
@@ -390,6 +361,38 @@ img, .box, .box1, .textscale, .textscale span, .text1, .text1 span {
     background-color: var(--psub1);
     opacity: 0;
     filter: blur(10px);
+}
+
+.footer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0 0 0;
+  text-align: center;
+  font-family: var(--font1);
+  font-weight: var(--fwnav);
+}
+
+.footer span {
+  color: var(--n1);
+  font-size: var(--sizenav);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: var(--spacingnav);
+}
+
+.photos .footer span, .photos .footer span a {
+  color: var(--n2);
+}
+
+.footer span, .footer span a {
+  text-decoration: none;
+}
+
+.footer span.fc {
+  font-size: var(--sizenav);
+  font-weight: var(--fwnav);
 }
 
 .photos .line {
