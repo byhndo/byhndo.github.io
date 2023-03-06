@@ -109,7 +109,7 @@ h1 {
     display: inline-flex;
     width: 20px;
     height: 20px;
-    border-radius: 50%;;
+    border-radius: 50%;
     margin-left: -5px;
     background-color: var(--c1);  
     top: -20%;
