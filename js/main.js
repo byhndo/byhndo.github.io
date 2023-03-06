@@ -79,7 +79,7 @@ function setupReveal(container) {
             bottom: "3rem",
             ease: "Elastic.easeOut",
             stagger: {
-            amount: 0.5
+            amount: 0.7
             }
             });
                      
