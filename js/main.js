@@ -31,7 +31,9 @@ createApp({
             opacity: 0, 
             filter: "blur(10px)",
             bottom: "5rem", 
-            stagger: .2,
+            stagger: {
+            amount: .3
+            },
             ease: "Elastic.easeOut"
         });
 
