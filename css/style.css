@@ -52,6 +52,7 @@ h2 {
 
 h3 {
   font-size: 320%;  
+  margin-bottom: 0;
 }
 
 h4 {
@@ -312,7 +313,7 @@ img {
 }
 
 img.hand{
-  margin-top: 23px;
+  margin-top: 0;
 }
 
 .soc {
@@ -355,7 +356,6 @@ img, .box, .box1, .textscale, .textscale span, .text1, .text1 span {
 .textscale, .textscale span{
   transform-origin: 50% 100%;
   display: inline-block;
-  margin-bottom: 0;
 }
 
 .line {
