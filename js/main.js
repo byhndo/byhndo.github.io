@@ -30,10 +30,7 @@ createApp({
             delay: 1.2,
             opacity: 0, 
             filter: "blur(10px)",
-            bottom: "5rem",
-            stagger: {
-            amount: 0.7
-            }
+            bottom: "5rem",           
             ease: "Elastic.easeOut"
         });
 
