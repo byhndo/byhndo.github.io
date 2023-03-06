@@ -30,7 +30,7 @@ createApp({
             delay: 1.2,
             opacity: 0, 
             filter: "blur(10px)",
-            bottom: "5rem", 
+            bottom: "3rem", 
             stagger: {
             amount: .3
             },
