@@ -309,10 +309,6 @@ img {
     border-radius: var(--rad);
 }
 
-img, p.sub1, p.sub2{
-  margin-top: 0;
-}
-
 .soc {
     margin: 50px 0 0 0;
 }
