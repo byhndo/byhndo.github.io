@@ -32,7 +32,7 @@ createApp({
             filter: "blur(10px)",
             bottom: "5rem",
             stagger: .2,
-            ease: "Elastic.easeOut"
+            ease: "Bounce.easeOut"
         });
 
         gsap.from(".sub-title", {
