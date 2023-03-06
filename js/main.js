@@ -35,6 +35,17 @@ createApp({
             transformOrigin:"50% 50%" 
             }, 0.05);
         
+        gsap.from(".sub-title", {
+            duration: 3,           
+            opacity: 0,           
+            y: "3rem",
+            ease: Elastic.easeOut.config(1.7),
+            stagger: .02,
+            rotation:90,
+            rotationX:-50,           
+            transformOrigin:"50% 50%" 
+            }, 0.05);
+        
         gsap.to(".ball", {
             top: 0, delay: 4, opacity: 1, duration: 2, ease: "Bounce.easeOut"
         });
