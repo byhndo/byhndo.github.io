@@ -346,10 +346,7 @@ svg:hover, svg:active{
 
 .footer {
     position: relative;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 20px 0 0 0;
+    margin: 20px auto;
     text-align: center;
     font-family: var(--font1);
     font-weight: var(--fwnav);
@@ -386,7 +383,7 @@ img, .box, .box1, .textscale, .textscale span, .text1, .text1 span {
 }
 
 .line {
-    position: relative;
+    position: absolute;
     bottom: 0;
     width: 0vw;
     height: .3vw;
