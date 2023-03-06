@@ -69,7 +69,7 @@ function setupReveal(container) {
                 scrollTrigger: {
                     trigger: box1,
                     toggleActions: "restart none none none"
-                }, delay: 1.2
+                }, delay: .5
             });
                   
             tl.from(text1, {
