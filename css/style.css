@@ -24,7 +24,7 @@
     --marginp: 23px;
     --spacingnav: 2px;
     --fwnav: 300;
-    --fwtitle: 800;
+    --fwtitle: 400;
     --rad: 15px;
 }
 
@@ -39,7 +39,7 @@ p {
 h1, h2, h3, h4, h5, h6, h7 {
     position: relative;
     font-family: var(--font1);
-    font-weight: 800;
+    font-weight: var(--fwtitle);
     text-align: left;    
     margin-top: var(--marginp);
     margin-bottom: var(--marginp);
@@ -76,7 +76,6 @@ h1 {
     transition: color 2.5s;
     font-family: var(--font1);
     color: var(--titlecolor1);
-    font-weight: var(--fwtitle);
     font-size: var(--sizetitle);
     text-align: left;
     padding: 0;
