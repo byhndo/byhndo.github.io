@@ -79,7 +79,7 @@ h1 {
   font-size: var(--sizetitle);
   text-align: left;
   padding: 0;
-  letter-spacing: calc(-0.1vw + -0.3rem);
+  letter-spacing: calc(-0.1vw + -0.25rem);
   left: -1.1%;
   line-height: 63%;
 }
@@ -113,8 +113,8 @@ h1 span {
 .ball {
     position: relative;
     display: inline-flex;
-    width: calc(2vw + 1rem);
-    height: calc(2vw + 1rem);
+    width: calc(5vw + .3rem);
+    height: calc(5vw + .3rem);
     border-radius: 50%;
     background-color: var(--c1); 
     margin-left: calc(-0.2vw + -0.05rem);
