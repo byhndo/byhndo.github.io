@@ -88,7 +88,7 @@ function setupReveal(container) {
                 width: "100%",
                 opacity: 1,
                 filter: "blur(0px)",
-                ease: "Power3.easeOut"
+                ease: "Power2.easeOut"
             }, "<");
 
         });
