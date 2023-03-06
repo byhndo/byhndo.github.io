@@ -21,13 +21,15 @@ createApp({
             duration: 2,
             opacity: 0,
             y: "-3rem",
+            filter: "blur(10px)",
             ease: "Elastic.easeOut"
         }); 
          
         gsap.from("h1 span", {
             duration: 1.5,
             delay: 1.2,
-            opacity: 0,        
+            opacity: 0, 
+            filter: "blur(10px)",
             bottom: "5rem",
             stagger: .2,
             ease: "Elastic.easeOut"
@@ -37,7 +39,8 @@ createApp({
             delay: 4,
             duration: 1.5,
             opacity: 0,         
-            bottom: "-3rem",            
+            bottom: "-3rem", 
+            filter: "blur(10px)",
             ease: "Elastic.easeOut"
         });
         
