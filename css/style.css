@@ -113,8 +113,8 @@ h1 span {
 .ball {
     position: relative;
     display: inline-flex;
-    width: calc(5vw + .3rem);
-    height: calc(5vw + .3rem);
+    width: calc(4vw + .3rem);
+    height: calc(4vw + .3rem);
     border-radius: 50%;
     background-color: var(--c1); 
     margin-left: calc(-0.2vw + -0.05rem);
