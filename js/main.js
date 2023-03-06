@@ -76,8 +76,7 @@ function setupReveal(container) {
                   
             tl.from(text1, {
             duration: 3,           
-            opacity: 0,
-            scale: [0,1],
+            opacity: 0,          
             filter: "blur(10px)",           
             ease: "Elastic.easeOut",
             stagger: {
