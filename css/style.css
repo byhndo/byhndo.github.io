@@ -311,6 +311,10 @@ img {
     border-radius: var(--rad);
 }
 
+img.hand{
+  margin-top: 23px;
+}
+
 .soc {
     margin: 50px 0 0 0;
 }
