@@ -43,7 +43,6 @@ h1, h2, h3, h4, h5, h6, h7 {
     margin-top: var(--marginp);
     margin-bottom: var(--marginp);
     letter-spacing: calc(-0.05vw + -0.10rem);
-    line-height: 1;
 }
 
 h2 {
