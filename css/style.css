@@ -354,7 +354,7 @@ img, .box, .box1, .textscale, .textscale span, .text1, .text1 span {
 }
 
 .line {
-  position: relative;
+  position: absolute;
   bottom: 0;
   width: 0vw;
   height: .3vw;
