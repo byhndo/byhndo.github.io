@@ -29,7 +29,7 @@ createApp({
             duration: 3,           
             opacity: 0,           
             y: "3rem",
-            ease: Bounce.easeOut.config(1.7),
+            ease: Elastic.easeOut.config(1.7),
             stagger: .02,
             rotation:90,
             rotationX:-50,           
