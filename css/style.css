@@ -114,7 +114,7 @@ h1 {
     background-color: var(--c1);  
     top: -20%;
     opacity: 0;
-    transition: color 2.5s;
+    transition: background-color 2.5s;
 }
 
 .photos .ball {
