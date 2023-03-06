@@ -108,8 +108,8 @@ h1 {
 .ball {
     position: relative;
     display: inline-flex;
-    width: calc(12vw + .5rem);
-    height: calc(12vw + .5rem);
+    width: calc(5vw + .5rem);
+    height: calc(5vw + .5rem);
     border-radius: 50%;
     margin-left: -5px;
     background-color: var(--c1);  
