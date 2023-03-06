@@ -374,7 +374,7 @@ img, .box, .box1, .textscale, .textscale span, .text1, .text1 span {
   position: relative; 
   display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: center;
   margin: 20px 0 0 0;
   text-align: center;
   font-family: var(--font1);
