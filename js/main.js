@@ -41,11 +41,11 @@ createApp({
             opacity: 0,         
             bottom: "-3rem", 
             filter: "blur(10px)",
-            ease: "Elastic.easeOut"
+            ease: "Bounce.easeOut"
         });
         
         gsap.to(".ball", {
-            top: 0, delay: 5, opacity: 1, duration: 2, ease: "Bounce.easeOut"
+            top: 0, delay: 5, opacity: 1, duration: 1.5, ease: "Bounce.easeOut"
         });
 },                          
     data() {
