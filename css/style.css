@@ -345,8 +345,8 @@ img, .box, .box1, .textscale, .textscale span, .text1, .text1 span {
 .textscale, .textscale span{
   transform-origin: 50% 100%;
   display: inline-block;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: -23px;
+  margin-bottom: -23px;
 }
 
 .line {
