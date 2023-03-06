@@ -80,7 +80,8 @@ function setupReveal(container) {
             stagger: {
             amount: .8
             }            
-            });                         
+            });   
+       });
         
         const textRevealBoxs1 = container.querySelectorAll(".box1");
         textRevealBoxs1.forEach((box1) => {
