@@ -24,7 +24,7 @@ createApp({
             ease: "Elastic.easeOut"
         }); 
          
-        gsap.from("h1 span", {
+        gsap.from("h1, h1 span", {
             duration: 3,           
             opacity: 0,           
             y: "3rem",
