@@ -37,7 +37,7 @@ createApp({
             delay: 4,
             duration: 1.5,
             opacity: 0,         
-            bottom: "-2rem",            
+            bottom: "-3rem",            
             ease: "Elastic.easeOut"
         });
         
