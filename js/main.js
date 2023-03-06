@@ -34,6 +34,7 @@ createApp({
             stagger: {
             amount: .3
             },
+            scale: 2,
             ease: "Elastic.easeOut"
         });
 
@@ -77,12 +78,13 @@ function setupReveal(container) {
             tl.from(text1, {
             duration: 3,           
             opacity: 0,
+            scale: 2,
             filter: "blur(10px)",
             bottom: "3rem",
             ease: "Elastic.easeOut",
             stagger: {
             amount: .8
-            }
+            }            
             });
                      
             tl.to(line, {
