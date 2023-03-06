@@ -77,7 +77,10 @@ function setupReveal(container) {
             opacity: 0,
             filter: "blur(10px)",
             bottom: "-3rem",
-            ease: "Power3.easeOut"
+            ease: "Elastic.easeOut",
+            stagger: {
+            amount: 0.2
+            }
             });
                      
             tl.to(line, {
