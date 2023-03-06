@@ -29,7 +29,7 @@ createApp({
             duration: 3,           
             opacity: 0,           
             y: "3rem",
-            ease: Elastic.easeOut.config(1.7),
+            ease: Back.easeOut.config(1.7),
             stagger: .02,
             rotation:90,
             rotationX:-50,           
