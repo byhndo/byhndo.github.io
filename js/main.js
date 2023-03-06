@@ -73,7 +73,8 @@ function setupReveal(container) {
             ease: "Power3.easeOut"
             });
            
-            tl.from(text2, {
+            split = new SplitText("h3", {type:"chars"}),
+            tl.from(split.chars, {
             duration: 1.5,           
             opacity: 0,           
             y: "3rem",
