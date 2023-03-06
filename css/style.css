@@ -37,8 +37,6 @@ p {
 
 h1, h2, h3, h4, h5, h6, h7 {
     position: relative;
-    display: inline-block;
-    transform-origin: 0 0;
     font-family: var(--font1);
     font-weight: var(--fwtitle);
     text-align: left; 
@@ -366,20 +364,22 @@ svg:hover, svg:active{
 }
 
 .photos .footer span, .photos .footer span a {
-    color: var(--n2);
+  color: var(--n2);
 }
 
 .footer span, .footer span a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .footer span.fc {
-    font-size: var(--sizenav);
-    font-weight: var(--fwnav);
+  font-size: var(--sizenav);
+  font-weight: var(--fwnav);
 }
 
 img, .box1, .box2, .text1, .text1 span {
   position: relative;
+  display: inline-block;
+  transform-origin: 50% 100%;
 }
 
 .line {
