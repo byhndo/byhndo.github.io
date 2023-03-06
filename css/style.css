@@ -355,7 +355,7 @@ img, .box, .box1, .textscale, .textscale span, .text1, .text1 span {
 
 .line {
   position: absolute;
-  bottom: 0;
+  bottom: 23px;
   width: 0vw;
   height: .3vw;
   background-color: var(--psub1);
