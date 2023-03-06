@@ -18,7 +18,7 @@ createApp({
                 
         gsap.from("nav",  {
             delay: 4,
-            duration: 2,
+            duration: 3,
             opacity: 0,
             y: "-3rem",
             filter: "blur(10px)",
@@ -69,11 +69,11 @@ function setupReveal(container) {
                 scrollTrigger: {
                     trigger: box1,
                     toggleActions: "restart none none none"
-                }, delay: 1
+                }, delay: .5
             });
                   
             tl.from(text1, {
-            duration: 2,           
+            duration: 3,           
             opacity: 0,
             filter: "blur(10px)",
             bottom: "3rem",
