@@ -241,12 +241,16 @@ main {
     text-align: left;
 }
 
-.fade-enter-active, .fade-leave-active {
-    transition: 0s;
+.slide-fade-enter-active {
+  transition: all 0.3s ease-out;
 }
 
-.fade-enter-from, .fade-leave-to {
-    opacity: 0;
+.slide-fade-leave-active {
+  transition: all 0.8s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.slide-fade-enter-from, .slide-fade-leave-to {
+  opacity: 0;
 }
 
 .sub1 {
