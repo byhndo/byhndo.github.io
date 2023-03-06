@@ -64,6 +64,7 @@ function setupReveal(container) {
         const textRevealBoxs1 = container.querySelectorAll(".box1");
         textRevealBoxs1.forEach((box1) => {
 
+            const textscale = box1.querySelectorAll(".textscale, .textscale span");
             const text1 = box1.querySelectorAll(".text1, .text1 span");            
             const line = box1.querySelectorAll(".line");
            
@@ -73,7 +74,18 @@ function setupReveal(container) {
                     toggleActions: "restart none none none"
                 }, delay: .5
             });
-                  
+              
+            tl.from(textscale, {
+            duration: 3,           
+            opacity: 0, 
+            scale: [0,1],
+            filter: "blur(10px)",           
+            ease: "Elastic.easeOut",
+            stagger: {
+            amount: .8
+            }            
+            });
+                      
             tl.from(text1, {
             duration: 3,           
             opacity: 0,          
