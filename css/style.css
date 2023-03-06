@@ -71,26 +71,26 @@ h7 {
 }
 
 h1 {
-    position: relative;
-    display: inline;
-    transition: color 2.5s;
-    font-family: var(--font1);
-    color: var(--titlecolor1);
-    font-size: var(--sizetitle);
-    text-align: left;
-    padding: 0;
-    letter-spacing: calc(-0.1vw + -0.23rem);
-    left: -1.1%;
-    line-height: 61%;
+  position: relative;
+  display: inline;
+  transition: color 2.5s;
+  font-family: var(--font1);
+  color: var(--titlecolor1);
+  font-size: var(--sizetitle);
+  text-align: left;
+  padding: 0;
+  letter-spacing: calc(-0.1vw + -0.23rem);
+  left: -1.1%;
+  line-height: 62%;
 }
 
 h1 span {
-    position: relative;
-    transition: color 2.5s;
-    color: var(--titlecolor1);
+  position: relative;
+  transition: color 2.5s;
+  color: var(--titlecolor1);
 }
 .photos h1 span{
-    color: var(--titlecolor2);
+  color: var(--titlecolor2);
 }
 
 .sub-title {
@@ -117,7 +117,7 @@ h1 span {
     height: calc(2.5vw + .5rem);
     border-radius: 50%;
     background-color: var(--c1); 
-    margin-left: calc(-0.1vw + -0.05rem);
+    margin-left: calc(-0.05vw + -0.05rem);
     top: -20%;
     opacity: 0;
     transition: background-color 2.5s;
