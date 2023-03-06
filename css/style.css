@@ -107,7 +107,6 @@ h1 {
 
 .ball {
     position: relative;
-    display: none;
     margin-left: -10px;
     color: var(--c1);
     font-size: var(--sizetitle);
