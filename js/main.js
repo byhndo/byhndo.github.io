@@ -24,7 +24,7 @@ createApp({
             y: "-3rem",
             ease: "Elastic.easeOut"
         }); 
-        
+         
         gsap.from(".char", {
             duration: 3,           
             opacity: 0,           
@@ -55,6 +55,7 @@ function setupReveal(container) {
         textRevealBoxs1.forEach((box1) => {
 
             const text1 = box1.querySelectorAll(".text1");
+            const text2 = box1.querySelectorAll(".char");
             const line = box1.querySelectorAll(".line");
            
             let tl = gsap.timeline({
@@ -72,7 +73,7 @@ function setupReveal(container) {
             ease: "Power3.easeOut"
             });
            
-            gsap.from(".char", {
+            tl.from(text2, {
             duration: 1.5,           
             opacity: 0,           
             y: "3rem",
