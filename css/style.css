@@ -37,6 +37,8 @@ p {
 
 h1, h2, h3, h4, h5, h6, h7 {
     position: relative;
+    display: inline-block;
+    transform-origin: 0 0;
     font-family: var(--font1);
     font-weight: var(--fwtitle);
     text-align: left; 
@@ -377,7 +379,7 @@ svg:hover, svg:active{
 }
 
 img, .box1, .box2, .text1, .text1 span {
-    position: relative;
+  position: relative;
 }
 
 .line {
