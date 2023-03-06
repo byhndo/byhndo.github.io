@@ -24,27 +24,22 @@ createApp({
             ease: "Elastic.easeOut"
         }); 
          
-        gsap.from("h1, h1 span", {
-            duration: 3,           
-            opacity: 0,           
-            y: "3rem",
-            ease: Elastic.easeOut.config(1.7),
-            stagger: .02,
-            rotation:90,
-            rotationX:-50,           
-            transformOrigin:"50% 50%" 
-            }, 0.05);
-        
+        gsap.from("h1 span", {
+            duration: 1.5,
+            delay: 1.2,
+            opacity: 0,        
+            bottom: "5rem",
+            stagger: .2,
+            ease: "Elastic.easeOut"
+        });
+
         gsap.from(".sub-title", {
-            duration: 3,           
-            opacity: 0,           
-            y: "3rem",
-            ease: Elastic.easeOut.config(1.7),
-            stagger: .02,
-            rotation:90,
-            rotationX:-50,           
-            transformOrigin:"50% 50%" 
-            }, 0.05);
+            delay: 4,
+            duration: 1.5,
+            opacity: 0,         
+            bottom: "-2rem",            
+            ease: "Elastic.easeOut"
+        });
         
         gsap.to(".ball", {
             top: 0, delay: 4, opacity: 1, duration: 2, ease: "Bounce.easeOut"
