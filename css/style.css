@@ -72,7 +72,6 @@ h7 {
 
 h1 {
     position: relative;
-    display: inline;
     transition: color 2.5s;
     font-family: var(--font1);
     color: var(--titlecolor1);
@@ -108,7 +107,7 @@ h1 {
 
 .ball {
     position: relative;
-    display: inline-flex;
+    display: none;
     margin-left: -10px;
     color: var(--c1);
     font-size: var(--sizetitle);
