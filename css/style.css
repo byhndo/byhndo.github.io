@@ -67,6 +67,7 @@ h7 {
 }
 
 h1 {
+  position: relative;
   display: inline;
   font-family: var(--font1);
   color: var(--titlecolor1);
