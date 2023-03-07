@@ -67,7 +67,7 @@ function setupReveal(container) {
 
         const textRevealBoxs = container.querySelectorAll(".box");
         textRevealBoxs.forEach((box) => {
-        const textscale = box.querySelectorAll(".textscale, .textscale span");
+        const split2 = box.querySelectorAll(".split2");
         let tl = gsap.timeline({
           scrollTrigger: {
             trigger: box,
@@ -75,12 +75,15 @@ function setupReveal(container) {
           }, delay: .5
             }); 
             
-            tl.from(textscale, {
+        $('.split2').each(function(){
+        $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+        });   
+            tl.from(split2, {
             duration: 3,           
             opacity: 0, 
             scale: [0,1],
             filter: "blur(10px)",           
-            ease: "Elastic.easeOut",
+            ease: "Bounce.easeOut",
             stagger: {
             amount: .8
             }            
