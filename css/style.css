@@ -350,7 +350,7 @@ img, .box, .box1, .split2, .text1 {
 
 .line {
   position: absolute;
-  bottom: 0;
+  bottom: 23px;
   width: 0vw;
   height: .3vw;
   background-color: var(--psub1);
