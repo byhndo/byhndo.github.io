@@ -60,13 +60,13 @@ createApp({
 function setupReveal(container) {
     container.ctx = gsap.context(() => {
        
-        const textRevealBoxs = container.querySelectorAll(".box");
-        textRevealBoxs.forEach((box) => {
+        const textRevealBoxs1 = container.querySelectorAll(".box1");
+        textRevealBoxs1.forEach((box1) => {
                 
         const one = box.querySelectorAll(".one, .one span");
         let tl = gsap.timeline({
           scrollTrigger: {
-            trigger: box,
+            trigger: box1,
             toggleActions: "restart none none none"
           }, delay: .5
             }); 
@@ -83,15 +83,15 @@ function setupReveal(container) {
             });   
        });
         
-        const textRevealBoxs1 = container.querySelectorAll(".box1");
-        textRevealBoxs1.forEach((box1) => {
+        const textRevealBoxs2 = container.querySelectorAll(".box2");
+        textRevealBoxs2.forEach((box1) => {
             
-            const two = box1.querySelectorAll(".two");            
-            const line = box1.querySelectorAll(".line");
+            const two = box2.querySelectorAll(".two");            
+            const line = box2.querySelectorAll(".line");
            
             let tl = gsap.timeline({
                 scrollTrigger: {
-                    trigger: box1,
+                    trigger: box2,
                     toggleActions: "restart none none none"
                 }, delay: .5
             });                      
