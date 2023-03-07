@@ -90,12 +90,6 @@ h1 {
   color: var(--titlecolor2);
 }
 
-.split2{
-  transform-origin: 50% 100%;
-  margin-top: 0;
-  margin-bottom: -23px;
-}
-
 .sub-title {
   position: relative;
   display: block; 
