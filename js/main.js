@@ -25,11 +25,7 @@ createApp({
             ease: "Elastic.easeOut"
         }); 
          
-        $('.split').each(function(){
-        $(this).html($(this).text().replace(/\S/g, "<span class='letter'>$&</span>"));
-        });
-
-        gsap.from(".split .letter", {
+        gsap.from("h1 span", {
           duration: 3,           
           delay: 1.2,
           scale: [0, 1],
@@ -38,7 +34,7 @@ createApp({
           stagger: {
             amount: 0.5
           },
-          ease: "Bounce.easeOut"
+          ease: "Elastic.easeOut"
          });
 
         gsap.from(".sub-title", {
@@ -67,10 +63,7 @@ function setupReveal(container) {
         const textRevealBoxs = container.querySelectorAll(".box");
         textRevealBoxs.forEach((box) => {
                 
-        $('.split2').each(function(){
-          $(this).html($(this).text().replace(/\S/g, "<span class='letter'>$&</span>"));
-          });
-        const split2 = box.querySelectorAll(".split2 .letter");
+        const one = box.querySelectorAll(".one, .one span");
         let tl = gsap.timeline({
           scrollTrigger: {
             trigger: box,
@@ -78,7 +71,7 @@ function setupReveal(container) {
           }, delay: .5
             }); 
                         
-            tl.from(split2, {
+            tl.from(one, {
             duration: 3,           
             opacity: 0, 
             scale: [0,1],
@@ -93,7 +86,7 @@ function setupReveal(container) {
         const textRevealBoxs1 = container.querySelectorAll(".box1");
         textRevealBoxs1.forEach((box1) => {
             
-            const text1 = box1.querySelectorAll(".text1");            
+            const two = box1.querySelectorAll(".two");            
             const line = box1.querySelectorAll(".line");
            
             let tl = gsap.timeline({
@@ -103,7 +96,7 @@ function setupReveal(container) {
                 }, delay: .5
             });                      
                       
-            tl.from(text1, {
+            tl.from(two, {
             duration: 3,           
             opacity: 0, 
             bottom: "3rem",
