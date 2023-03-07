@@ -66,10 +66,10 @@ function setupReveal(container) {
        
         const textRevealBoxs = container.querySelectorAll(".box");
         textRevealBoxs.forEach((box) => {
-            
+                
         $('.split2').each(function(){
           $(this).html($(this).text().replace(/\S/g, "<span class='letter'>$&</span>"));
-          });    
+          });
         const split2 = box.querySelectorAll(".split2 .letter");
         let tl = gsap.timeline({
           scrollTrigger: {
