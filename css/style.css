@@ -66,7 +66,7 @@ h7 {
     font-size: 120%;
 }
 
-h1 {
+.split {
   position: relative;
   display: inline;
   transition: color 2.5s;
@@ -78,14 +78,13 @@ h1 {
   letter-spacing: calc(-0.1vw + -0.25rem);
   left: -1.1%;
   line-height: 63%;
+  transition: color 2.5s;
 }
 
-h1 span {
-  position: relative;
-  transition: color 2.5s;
-  color: var(--titlecolor1);
+.split .letter {
+  display: inline-block;
 }
-.photos h1 span{
+.photos h1 {
   color: var(--titlecolor2);
 }
 
