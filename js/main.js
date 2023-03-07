@@ -61,9 +61,7 @@ createApp({
     }
 }).mount('#app')
 
-('.split2').each(function(){
-  $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
-  });   
+
 
 
 function setupReveal(container) {
@@ -78,7 +76,10 @@ function setupReveal(container) {
             toggleActions: "restart none none none"
           }, delay: .5
             }); 
-               
+              
+            $('.split2').each(function(){
+            $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+            });   
             tl.from(split2, {
             duration: 3,           
             opacity: 0, 
