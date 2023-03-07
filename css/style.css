@@ -350,6 +350,11 @@ img, .box1, .box2, .one, .one span, .two{
   transform-origin: 50% 100%;
 }
 
+.one{
+  margin-top:0;
+  margin-bottom:0;
+}
+
 .line {
   position: absolute;
   bottom: 23px;
