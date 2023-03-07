@@ -84,7 +84,7 @@ function setupReveal(container) {
        });
         
         const textRevealBoxs2 = container.querySelectorAll(".box2");
-        textRevealBoxs2.forEach((box1) => {
+        textRevealBoxs2.forEach((box2) => {
             
             const two = box2.querySelectorAll(".two");            
             const line = box2.querySelectorAll(".line");
