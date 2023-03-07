@@ -67,9 +67,7 @@ h7 {
 }
 
 h1 {
-  position: relative;
   display: inline;
-  transition: color 2.5s;
   font-family: var(--font1);
   color: var(--titlecolor1);
   font-size: var(--sizetitle);
