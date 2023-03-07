@@ -82,12 +82,19 @@ h1 {
   transition: color 2.5s;
 }
 
-.split .letter {
+.split .letter, .split2 .letter {
   display: inline-block;
 }
 
 .photos h1 {
   color: var(--titlecolor2);
+}
+
+.split2{
+  transform-origin: 50% 100%;
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: -23px;
 }
 
 .sub-title {
@@ -346,13 +353,6 @@ svg:hover, svg:active{
 
 img, .box, .box1, .textscale, .textscale span, .text1, .text1 span {
   position: relative;
-}
-
-.textscale, .textscale span{
-  transform-origin: 50% 100%;
-  display: inline-block;
-  margin-top: 0;
-  margin-bottom: -23px;
 }
 
 .line {
