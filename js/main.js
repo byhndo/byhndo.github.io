@@ -63,7 +63,7 @@ function setupReveal(container) {
         const textRevealBoxs1 = container.querySelectorAll(".box1");
         textRevealBoxs1.forEach((box1) => {
                 
-        const one = box.querySelectorAll(".one, .one span");
+        const one = box1.querySelectorAll(".one, .one span");
         let tl = gsap.timeline({
           scrollTrigger: {
             trigger: box1,
