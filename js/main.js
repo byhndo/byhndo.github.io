@@ -26,7 +26,7 @@ createApp({
         }); 
          
         $('.split').each(function(){
-        $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+        $(this).html($(this).text().replace(/\S/g, "<span class='letter'>$&</span>"));
         });
 
         gsap.from(".split .letter", {
@@ -68,7 +68,7 @@ function setupReveal(container) {
         textRevealBoxs.forEach((box) => {
             
         $('.split2').each(function(){
-          $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+          $(this).html($(this).text().replace(/\S/g, "<span class='letter'>$&</span>"));
           });    
         const split2 = box.querySelectorAll(".split2 .letter");
         let tl = gsap.timeline({
