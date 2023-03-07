@@ -346,6 +346,10 @@ img, .box1, .box2, .one, .two{
   position: relative;
 }
 
+.one{
+  display: inline-block;
+}
+
 .line {
   position: absolute;
   bottom: 23px;
