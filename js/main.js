@@ -64,6 +64,10 @@ createApp({
 function setupReveal(container) {
     container.ctx = gsap.context(() => {
 
+       ('.split2').each(function(){
+         $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+         });
+        
         const textRevealBoxs = container.querySelectorAll(".box");
         textRevealBoxs.forEach((box) => {
         const split2 = box.querySelectorAll(".split2 .letter");
@@ -88,10 +92,6 @@ function setupReveal(container) {
         
         const textRevealBoxs1 = container.querySelectorAll(".box1");
         textRevealBoxs1.forEach((box1) => {
-
-            $('.split2').each(function(){
-            $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
-            });
             
             const text1 = box1.querySelectorAll(".text1");            
             const line = box1.querySelectorAll(".line");
