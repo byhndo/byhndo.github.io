@@ -78,6 +78,7 @@ h1 {
   left: -1.1%;
   line-height: 63%;
   transition: color 2.5s;
+  transform-origin: 50% 100%;
 }
 
 h1 span{
@@ -349,6 +350,7 @@ img, .box1, .box2, .one, .two{
 
 .one{
   display: inline-block;
+  transform-origin: 50% 100%;
 }
 
 .line {
