@@ -63,13 +63,13 @@ createApp({
 
 function setupReveal(container) {
     container.ctx = gsap.context(() => {
-
-       ('.split2').each(function(){
-         $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
-         });
-        
+       
         const textRevealBoxs = container.querySelectorAll(".box");
         textRevealBoxs.forEach((box) => {
+            
+        $('.split2').each(function(){
+          $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
+          });    
         const split2 = box.querySelectorAll(".split2 .letter");
         let tl = gsap.timeline({
           scrollTrigger: {
