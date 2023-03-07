@@ -82,8 +82,8 @@ h1 {
   transition: color 2.5s;
 }
 
-.split .letter, .split2 .letter {
-  display: inline-block;
+h1 span{
+  position: relative;
 }
 
 .photos h1 {
