@@ -93,7 +93,7 @@ function setupReveal(container) {
         const textRevealBoxs1 = container.querySelectorAll(".box1");
         textRevealBoxs1.forEach((box1) => {
 
-            const text1 = box1.querySelectorAll(".text1, .text1 span");            
+            const text1 = box1.querySelectorAll(".text1");            
             const line = box1.querySelectorAll(".line");
            
             let tl = gsap.timeline({
