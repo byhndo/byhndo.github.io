@@ -348,7 +348,7 @@ img, .box1, .box2, .one, .two{
   position: relative;
 }
 
-.one{
+.one, .one span{
   display: inline-block;
   transform-origin: 50% 100%;
 }
