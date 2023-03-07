@@ -92,7 +92,6 @@ h1 {
 
 .split2{
   transform-origin: 50% 100%;
-  display: inline-block;
   margin-top: 0;
   margin-bottom: -23px;
 }
