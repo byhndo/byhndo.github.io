@@ -25,17 +25,21 @@ createApp({
             ease: "Elastic.easeOut"
         }); 
          
-        gsap.from("h1 span", {
-            duration: 1.5,
-            delay: 1.2,
-            opacity: 0, 
-            filter: "blur(10px)",
-            bottom: "3rem", 
-            stagger: {
-            amount: .3
-            },          
-            ease: "Elastic.easeOut"
+        $('.split').each(function(){
+        $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
         });
+
+        gsap.from(".split .letter", {
+          duration: 3,           
+          delay: 1.2,
+          scale: [0, 1],
+          opacity: 0,
+          filter: "blur(10px)",                 
+          stagger: {
+            amount: 0.5
+          },
+          ease: "Elastic.easeOut"
+         });
 
         gsap.from(".sub-title", {
             delay: 5.5,
