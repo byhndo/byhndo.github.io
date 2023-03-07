@@ -43,32 +43,32 @@
                 <div class="transition transition-bio"></div>
                 <div class="transition transition-photos"></div>                                                
           <main>
-                <h1 class="split">Bayu</h1><br><h1 class="split">Handono</h1><div class="ball"></div>                                               
+                <h1><span>B</span><span>a</span><span>y</span><span>u</span></h1><br><h1><span>H</span><span>a</span></span>n</span><span>d</span><span>o</span><span>n</span><span>o</span></h1><div class="ball"></div>                                               
                 <div class="sub-title">
                    Satu persen manusia sembilan puluh sembilan persen sampah.
                 </div>
                 <transition appear name="slide-fade" mode="out-in" @after-enter="afterEnter" @after-leave="afterLeave">
                     <!-- sub1 -->
                     <div class="sub1" key="bio" v-if="bg==='bio'">
-                        <div class="box">
-                            <h3 class="split2">Hi!</h3>
-                        </div>
                         <div class="box1">
+                            <h3 class="one"><span>H</span><span>i</span><span>!</span></h3>
+                        </div>
+                        <div class="box2">
                             <div class="line"></div>
                         </div>
-                        <div class="box1">
-                            <div class="text1">
+                        <div class="box2">
+                            <div class="two">
                                 <img class="hand" src="../img/hand.png">
                             </div>
                         </div>
-                        <div class="box1">
+                        <div class="box2">
                             <div class="text1">
                                 <p class="sub1">
                                     <span class="prolog">Saya Bayu, Saya lahir di Bandung, Jawa Barat, Indonesia, Asia Tenggara, Asia, Planet Bumi, Tata Surya, Bima Sakti, Jagat raya.</span>
                                 </p>
                             </div>
                         </div>
-                        <div class="box1">
+                        <div class="box2">
                             <div class="text1">
                                 <p class="sub1">
                                     Selamat datang dan terima kasih sudah mau berkunjung ke sini. Semoga anda sehat dan bahagia selalu. Senantiasa semua makhluk berbahagia. Jangan minta motivasi, tidak ada kata-kata dan kalimat motivasi, karena saya bukan motivator. Motivasilah dirimu sendiri.
@@ -76,14 +76,14 @@
                             </div>
                         </div>                       
                                 
-                        <div class="box">
-                            <h3 class="split2">Tentang Saya.</h3>
-                        </div>
                         <div class="box1">
+                            <h3 class="one"><span>T</span><span>e</span><span>n</span><span>t</span><span>a</span><span>n</span><span>g</span> <span>S</span><span>a</span><span>y</span><span>a</span>.</h3>
+                        </div>
+                        <div class="box2">
                             <div class="line"></div>
                         </div>
-                        <div class="box1">
-                            <div class="text1">
+                        <div class="box2">
+                            <div class="two">
                                 <p class="sub1">
                                     1. Percaya reinkarnasi <br>
                                     2. Percaya karma <br>
@@ -94,8 +94,8 @@
                         </div>
 
                         <!-- soc -->
-                        <div class="box1">
-                            <div class="text1">
+                        <div class="box2">
+                            <div class="two">
                                 <div class="soc">
                                     <ul class="ico">
                                         <li class="ico">
@@ -113,8 +113,8 @@
                         </div>
                         <!-- soc -->
                         <!-- footer -->
-                        <div class="box1">
-                            <div class="text1">
+                        <div class="box2">
+                            <div class="two">
                                 <div class="footer">
                                     <span>&copy; <a href="/">Bayu Handono<span class="fc">.</span></a> </span>
                                 </div>
@@ -127,21 +127,21 @@
 
                     <!-- sub2 -->
                     <div class="sub2" key="photos" v-if="bg==='photos'">
-                        <div class="box">
-                            <h3 class="split2">Foto.</h3>
-                        </div>
                         <div class="box1">
+                            <h3 class="one"><span>F</span><span>o</span><span>t</span><span>o</span><span>.</span></h3>
+                        </div>
+                        <div class="box2">
                             <div class="line"></div>
                         </div>
-                        <div class="box1">
-                            <div class="text1">
+                        <div class="box2">
+                            <div class="two">
                                 <p class="sub2">
                                     Koleksi beberapa foto momen berharga, setidaknya untuk saya, yang berhasil saya abadikan. Lebih tepatnya yang berhasil diabadikan oleh teman saya.
                                 </p>
                             </div>
                         </div>
-                        <div class="box1">
-                            <div class="text1">
+                        <div class="box2">
+                            <div class="two">
                                 <div class="grid">
                                     <div class="item">
                                         <img src="../img/1.jpg">
@@ -178,8 +178,8 @@
                         </div>
 
                         <!-- soc -->
-                        <div class="box1">
-                            <div class="text1">
+                        <div class="box2">
+                            <div class="two">
                                 <div class="soc">
                                     <ul class="ico">
                                         <li class="ico">
@@ -197,8 +197,8 @@
                         </div>
                         <!-- soc -->
                         <!-- footer -->
-                        <div class="box1">
-                            <div class="text1">
+                        <div class="box2">
+                            <div class="two">
                                 <div class="footer">
                                     <span>&copy; <a href="/">Bayu Handono<span class="fc">.</span></a> </span>
                                 </div>
@@ -213,7 +213,6 @@
         </div>
     </div>
     <script src="js/vue.js"></script>
-    <script src="js/jquery363.js"></script>
     <script src="js/gsap.js"></script>
     <script src="js/scrolltrigger.js"></script> 
     <script src="js/main.js"></script>
