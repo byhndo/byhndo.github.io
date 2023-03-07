@@ -78,12 +78,12 @@ h1 {
   left: -1.1%;
   line-height: 63%;
   transition: color 2.5s;
-  transform-origin: 50% 100%;
 }
 
 h1 span{
   position: relative;
   display: inline-block;
+  transform-origin: 50% 100%;
 }
 
 .photos h1 {
