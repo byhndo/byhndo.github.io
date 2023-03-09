@@ -85,7 +85,6 @@ function setupReveal(container) {
         
         const textRevealBoxs2 = container.querySelectorAll(".box2");
         textRevealBoxs2.forEach((box2) => {
-            const path = box2.querySelectorAll("path#elastic");            
             const two = box2.querySelectorAll(".two");            
             const line = box2.querySelectorAll(".line");
            
@@ -95,16 +94,7 @@ function setupReveal(container) {
                     toggleActions: "restart none none none"
                 }, delay: .5
             });                      
-                   
-            tl.from(path, {
-            scale: 0,
-            transformOrigin: "center center",
-            stagger: 0.3,
-            ease: "Elastic.easeOut",
-            duration:2,
-            yoyo:true
-            });
-                      
+                                       
             tl.from(two, {
             duration: 3,           
             opacity: 0, 
