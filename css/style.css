@@ -345,7 +345,7 @@ svg:hover, svg:active{
     opacity: .6;
 }
 
-img, .box1, .box2, .box3, .one, .one span, .two, .dot{
+img, .box1, .box2, .one, .one span, .two{
   position: relative;
 }
 
@@ -370,22 +370,6 @@ img, .box1, .box2, .box3, .one, .one span, .two, .dot{
 }
 
 .photos .line {
-  background-color: var(--psub2);
-}
-
-.dot {
-  position: relative;
-  display: inline-flex;
-  width: calc(.1vw + .3rem);
-  height: calc(.1vw + .3rem);
-  border-radius: 50%;
-  background-color: var(--psub1);
-  margin-left: calc(-0.28vw + -0.03rem); 
-  opacity: 0;
-  transform: scale(0);
-}
-
-.photos .dot {
   background-color: var(--psub2);
 }
 
