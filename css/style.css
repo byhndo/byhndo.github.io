@@ -308,9 +308,13 @@ img {
     border-radius: var(--rad);
 }
 
-img.hand{
+svg#elastic {
+  width: 100%;
+  height: auto;
   margin-top: 23px;
 }
+
+
 
 .soc {
     margin: 50px 0 0 0;
