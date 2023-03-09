@@ -95,6 +95,15 @@ function setupReveal(container) {
                     toggleActions: "restart none none none"
                 }, delay: .5
             });                      
+                   
+            tl.from("path#elastic", {
+            scale: 0,
+            transformOrigin: "center center",
+            stagger: 0.3,
+            ease: "Elastic.easeOut",
+            duration:2,
+            yoyo:true
+            });
                       
             tl.from(two, {
             duration: 3,           
