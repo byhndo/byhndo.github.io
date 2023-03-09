@@ -112,28 +112,7 @@ function setupReveal(container) {
             }, "<");
                                                                                                                 
         });
-        
-        
-        const RevealBoxs3 = container.querySelectorAll(".box3");
-        RevealBoxs3.forEach((box3) => {
-            const dot = box3.querySelectorAll(".dot");
-            let tl = gsap.timeline({
-                scrollTrigger: {
-                    trigger: box3,
-                    toggleActions: "restart none none none"
-                }, delay: .5
-            });                      
-                                      
-            tl.to(dot,              
-               opacity: 1 , 
-               duration: 1.5,
-               ease: "Elastic.easeOut", 
-               scale: 1
-            });
-                                                                                                                                          
-        });
-        
-        
+                                     
         let revealContainers = container.querySelectorAll(".item");
         revealContainers.forEach((el) => {
 
