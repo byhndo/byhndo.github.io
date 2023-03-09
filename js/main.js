@@ -164,6 +164,6 @@ function setupReveal(container) {
             }, 0);
         });
 
-    })
+    });
 }
 
