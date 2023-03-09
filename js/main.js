@@ -83,6 +83,29 @@ function setupReveal(container) {
             });   
        });
         
+        const textRevealBoxs3 = container.querySelectorAll(".box3");
+
+        textRevealBoxs2.forEach((box3) => {
+            const two = box2.querySelectorAll(".dot");            
+            const dot = box2.querySelectorAll(".dot");
+            let tl = gsap.timeline({
+                scrollTrigger: {
+                    trigger: box3,
+                    toggleActions: "restart none none none"
+                }, delay: .5
+            });                      
+
+                                      
+            tl.from(dot, {
+            duration: 3,           
+            opacity: 0, 
+            bottom: "3rem",
+            filter: "blur(10px)",           
+            ease: "Elastic.easeOut"           
+            });
+                                                                                                                                            
+        });
+        
         const textRevealBoxs2 = container.querySelectorAll(".box2");
         textRevealBoxs2.forEach((box2) => {
             const two = box2.querySelectorAll(".two");            
