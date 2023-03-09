@@ -309,7 +309,7 @@ img {
 }
 
 img.hand {
-  margin-top: 23px;
+  margin-top: var(--marginp);
 }
 
 .soc {
