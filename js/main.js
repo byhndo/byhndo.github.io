@@ -87,7 +87,8 @@ function setupReveal(container) {
         textRevealBoxs2.forEach((box2) => {
             const two = box2.querySelectorAll(".two");            
             const line = box2.querySelectorAll(".line");
-           
+            const dot = box2.querySelectorAll(".dot");            
+        
             let tl = gsap.timeline({
                 scrollTrigger: {
                     trigger: box2,
@@ -110,6 +111,14 @@ function setupReveal(container) {
                 filter: "blur(0px)",
                 ease: "Power2.easeOut"
             }, "<");
+            
+            tl.to(dot, 
+               delay:1,  
+               opacity: 1 , 
+               duration: 1.5,
+               ease: "Elastic.easeOut", 
+               scale: 1
+            });
 
         });
 
