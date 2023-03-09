@@ -60,8 +60,8 @@ createApp({
 function setupReveal(container) {
     container.ctx = gsap.context(() => {
        
-        const textRevealBoxs1 = container.querySelectorAll(".box1");
-        textRevealBoxs1.forEach((box1) => {
+        const RevealBoxs1 = container.querySelectorAll(".box1");
+        RevealBoxs1.forEach((box1) => {
                 
         const one = box1.querySelectorAll(".one, .one span");
         let tl = gsap.timeline({
@@ -83,8 +83,8 @@ function setupReveal(container) {
             });   
        });
                     
-        const textRevealBoxs2 = container.querySelectorAll(".box2");
-        textRevealBoxs2.forEach((box2) => {
+        const RevealBoxs2 = container.querySelectorAll(".box2");
+        RevealBoxs2.forEach((box2) => {
             const two = box2.querySelectorAll(".two");            
             const line = box2.querySelectorAll(".line");
                        
@@ -114,8 +114,8 @@ function setupReveal(container) {
         });
         
         
-        const textRevealBoxs3 = container.querySelectorAll(".box3");
-        textRevealBoxs3.forEach((box3) => {
+        const RevealBoxs3 = container.querySelectorAll(".box3");
+        RevealBoxs3.forEach((box3) => {
             const dot = box3.querySelectorAll(".dot");
             let tl = gsap.timeline({
                 scrollTrigger: {
