@@ -379,10 +379,14 @@ img, .box1, .box2, .box3, .one, .one span, .two, .dot{
   width: calc(.1vw + .3rem);
   height: calc(.1vw + .3rem);
   border-radius: 50%;
-  background-color: white; 
+  background-color: var(--psub1);
   margin-left: calc(-0.28vw + -0.03rem); 
   opacity: 0;
   transform: scale(0);
+}
+
+.photos .dot {
+  background-color: var(--psub2);
 }
 
 .footer {
