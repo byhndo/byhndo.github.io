@@ -314,7 +314,13 @@ svg#elastic {
   margin-top: 23px;
 }
 
+clipPath#theClipPath{
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
 
+path.split{
+  clip-path: polygon(0% 5%,100% 5%,100% 25%,0% 25%,0% 40%,100% 40%,100% 60%,0% 60%,0% 75%,100% 75%,100% 95%,0% 95%);
+}
 
 .soc {
     margin: 50px 0 0 0;
