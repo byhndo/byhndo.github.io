@@ -345,7 +345,7 @@ svg:hover, svg:active{
     opacity: .6;
 }
 
-img, .box1, .box2, .one, .one span, .two{
+img, .box1, .box2, .box3, .one, .one span, .two, .dot{
   position: relative;
 }
 
