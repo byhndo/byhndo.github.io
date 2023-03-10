@@ -123,7 +123,7 @@ function setupReveal(container) {
                     trigger: el,
                     ease: easeInOut,
                     toggleActions: "restart none none none"
-                }, delay: -1
+                }, delay: -2
             });
 
             tl.set(el, {
