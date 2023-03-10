@@ -24,7 +24,7 @@ createApp({
             opacity: 0,
             y: "-3rem",
             filter: "blur(10px)",
-            ease: "Bounce.easeInOut"
+            ease: "Elastic.easeIn"
         }); 
          
         gsap.from("h1 span", {
@@ -101,7 +101,7 @@ function setupReveal(container) {
             opacity: 0, 
             scale: [0,1],
             filter: "blur(10px)",           
-            ease: "Bounce.easeOut"           
+            ease: "Elastic.easeIn"           
             });
                      
             tl.to(line, {
