@@ -1,74 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Bayu Handono</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">      
-    <link rel="stylesheet" href="css/splitting.css">         
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="title" content="Bayu Handono">
-    <meta name="description" content="Ini Websiteku Mana Websitemu?">
-    <meta name="keywords" content="Bayu Handono, Web, 100% Sans-Serif">
-    <meta name="language" content="English">
-    <meta name="author" content="Bayu Handono">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <meta property="og:url" content="http://byhnd.pw">
-    <meta property="og:site_name" content="Bayu Handono">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Bayu Handono">
-    <meta property="og:description" content="Ini Websiteku Mana Websitemu?">
-    <meta property="og:image" content="http://byhnd.pw/img/unnamed.jpg">
-    <meta property="og:image:type" content="image/jpeg">
-    <meta property="og:image:width" content="300">
-    <meta property="og:image:height" content="300">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta property="twitter:domain" content="byhnd.pw">
-    <meta property="twitter:url" content="http://byhnd.pw">
-    <meta name="twitter:title" content="Bayu Handono">
-    <meta name="twitter:description" content="Ini Websiteku Mana Websitemu?">
-    <meta name="twitter:image" content="http://byhnd.pw/img/unnamed.jpg">
-    <meta name="twitter:site" content="@byuhnd" />
-    <meta name="twitter:creator" content="@byuhnd" />
-    <meta name="robots" content="noindex,nofollow">
+  <meta charset="UTF-8">
+  <title>Bayu Handono</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">      
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="title" content="Bayu Handono">
+  <meta name="description" content="Ini Websiteku Mana Websitemu?">
+  <meta name="keywords" content="Bayu Handono, Web, 100% Sans-Serif">
+  <meta name="language" content="English">
+  <meta name="author" content="Bayu Handono">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <meta property="og:url" content="http://byhnd.pw">
+  <meta property="og:site_name" content="Bayu Handono">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Bayu Handono">
+  <meta property="og:description" content="Ini Websiteku Mana Websitemu?">
+  <meta property="og:image" content="http://byhnd.pw/img/unnamed.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="300">
+  <meta property="og:image:height" content="300">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="byhnd.pw">
+  <meta property="twitter:url" content="http://byhnd.pw">
+  <meta name="twitter:title" content="Bayu Handono">
+  <meta name="twitter:description" content="Ini Websiteku Mana Websitemu?">
+  <meta name="twitter:image" content="http://byhnd.pw/img/unnamed.jpg">
+  <meta name="twitter:site" content="@byuhnd" />
+  <meta name="twitter:creator" content="@byuhnd" />
+  <meta name="robots" content="noindex,nofollow">
 </head>
 <body>                                                                                   
 <div id="app">
-        <div :class="['bg', bg]">  
-                <nav>
-                    <ul>         
-                        <li><a class="link-bio" href="#" @click="bg = 'bio'">Bio</a></li>                        
-                        <li><a class="link-photos" href="#" @click="bg = 'photos'">Foto</a></li>                                           
-                    </ul>
-                </nav> 
-                <div class="transition transition-bio"></div>
-                <div class="transition transition-photos"></div>                                                
-          <main>
-                <h1 data-splitting>Bayu</h1><br><h1 data-splitting>Handono</h1><div class="ball"></div>                                               
-                <div class="sub-title">
-                   Satu persen manusia sembilan puluh sembilan persen sampah.
-                </div>
-                <transition appear name="slide-fade" mode="out-in" @after-enter="afterEnter" @after-leave="afterLeave">
-                    <!-- sub1 -->
-                    <div class="sub1" key="bio" v-if="bg==='bio'">
-                        <div class="box1">
-                            <h3 class="one" data-splitting>Hi!</h3>
-                        </div>
-                        <div class="box2">
-                            <div class="line"></div>			
-                        </div>		    
-                        <div class="box2">
-                          <div class="two">
-	<img class="hand" src="../img/hand.png">
-	</div>                              
-                        </div>
-                        <div class="box2">
-                            <div class="two">
-                                <p class="sub1">
-                                    <span class="prolog">Saya Bayu, Saya lahir di Bandung, Jawa Barat, Indonesia, Asia Tenggara, Asia, Planet Bumi, Tata Surya, Bima Sakti, Jagat raya.</span>
-                                </p>
-                            </div>
-                        </div>
+  <div :class="['bg', bg]">  
+    <nav>
+      <ul>         
+        <li><a class="link-bio" href="#" @click="bg = 'bio'">Bio</a></li>                        
+        <li><a class="link-photos" href="#" @click="bg = 'photos'">Foto</a></li>                                           
+      </ul>
+     </nav> 
+<div class="transition transition-bio"></div>
+<div class="transition transition-photos"></div>                                                
+<main>
+<h1 data-splitting>Bayu</h1><br><h1 data-splitting>Handono</h1><div class="ball"></div>                                               
+<div class="sub-title">Satu persen manusia sembilan puluh sembilan persen sampah.</div>
+<transition appear name="slide-fade" mode="out-in" @after-enter="afterEnter" @after-leave="afterLeave">
+<!-- sub1 -->
+<div class="sub1" key="bio" v-if="bg==='bio'">
+<div class="box1">
+<h3 class="one" data-splitting>Hi!</h3>
+</div>
+<div class="box2">
+<div class="line"></div>			
+</div>		    
+<div class="box2">
+<div class="two">
+<img class="hand" src="../img/hand.png">
+</div>                              
+</div>
+<div class="box2">
+<div class="two">
+<p class="sub1">
+<span class="prolog">Saya Bayu, Saya lahir di Bandung, Jawa Barat, Indonesia, Asia Tenggara, Asia, Planet Bumi, Tata Surya, Bima Sakti, Jagat raya.</span>
+</p>
+</div>
+</div>
                         <div class="box2">
                             <div class="two">
                                 <p class="sub1">
@@ -212,8 +209,7 @@
                 </transition>
             </main>
         </div>
-    </div>
-    <script src="js/splitting.js"></script>
+    </div>  
     <script src="js/vue.js"></script>
     <script src="js/gsap.js"></script>
     <script src="js/scrolltrigger.js"></script> 
