@@ -76,7 +76,7 @@ function setupReveal(container) {
             opacity: 0, 
             scale: [0,1],            
             filter: "blur(10px)",           
-            ease: "Back.easeOut",
+            ease: "Elastic.easeOut",
             stagger: {
             amount: .9
             }            
@@ -100,7 +100,7 @@ function setupReveal(container) {
             opacity: 0,
             y: "-3rem",
             filter: "blur(10px)",           
-            ease: "Elastic.easeOut"           
+            ease: "Back.easeIn"           
             });
                      
             tl.to(line, {
