@@ -91,7 +91,7 @@ function setupReveal(container) {
                 scrollTrigger: {
                     trigger: box2,
                     toggleActions: "restart none none none"
-                }, delay: .5
+                }
             });                      
                                        
             tl.from(two, {
@@ -99,7 +99,7 @@ function setupReveal(container) {
             opacity: 0,
             y: "-3rem",
             filter: "blur(10px)",           
-            ease: "Elastic.easeOut"           
+            ease: "Expo.easeInOut"           
             });
                      
             tl.to(line, {
@@ -113,7 +113,7 @@ function setupReveal(container) {
         });
                                      
         let revealContainers = container.querySelectorAll(".item");
-        const easeInOut = "Power3.easeOut";
+        const easeInOut = "Expo.easeOut";
         revealContainers.forEach((el) => {
 
             let image = el.querySelector("img");
