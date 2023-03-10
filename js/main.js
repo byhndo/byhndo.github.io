@@ -130,9 +130,8 @@ function setupReveal(container) {
                 autoAlpha: 1
             });
             tl.from(el, {
-                duration: 3,
-                xPercent: -100,
-                ease: "Bounce.easeOut"
+                duration: 3,          
+                ease: "Elastic.easeOut"
             });
 
             tl.from(image, {
@@ -140,7 +139,7 @@ function setupReveal(container) {
                 xPercent: 100,
                 filter: "blur(10px)",
                 scale: 1.5,
-                ease: "Bounce.easeOut"
+                ease: "Elastic.easeOut"
             }, 0);
         });
 
