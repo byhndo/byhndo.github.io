@@ -101,7 +101,7 @@ function setupReveal(container) {
             opacity: 0, 
             scale: [0,1],
             filter: "blur(10px)",           
-            ease: "Back.easeIn"           
+            ease: "Power2.easeOut"           
             });
                      
             tl.to(line, {
@@ -109,7 +109,7 @@ function setupReveal(container) {
                 width: "100%",
                 opacity: 1,
                 filter: "blur(0px)",
-                ease: "Bounce.easeOut"
+                ease: "Bounce.easeInOut"
             }, "<");
                                                                                                                 
         });
@@ -130,7 +130,7 @@ function setupReveal(container) {
                 autoAlpha: 1
             });
             tl.from(el, {
-                duration: 3,
+                duration: 2,
                 xPercent: -100,
                 ease: "Bounce.easeOut"
             });
