@@ -37,16 +37,16 @@ createApp({
          });
 
         gsap.from(".sub-title", {
-            delay: 1,
+            delay: 2.5,
             duration: 3,
             opacity: 0,         
             bottom: "-3rem", 
             filter: "blur(10px)",
-            ease: "Back.easeIn"
+            ease: "Expo.easeOut"
         });
         
         gsap.to(".ball", {
-            top: 0, delay: 2.5, opacity: 1, duration: 3, ease: "Bounce.easeOut"
+            top: 0, delay: 2, opacity: 1, duration: 3, ease: "Bounce.easeOut"
         });
 },                          
     data() {
