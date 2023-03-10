@@ -114,6 +114,7 @@ function setupReveal(container) {
         });
                                      
         let revealContainers = container.querySelectorAll(".item");
+        const easeInOut = "Power3.easeOut";
         revealContainers.forEach((el) => {
 
             let image = el.querySelector("img");
@@ -121,24 +122,30 @@ function setupReveal(container) {
             let tl = gsap.timeline({
                 scrollTrigger: {
                     trigger: el,
+                    ease: easeInOut,
                     toggleActions: "restart none none none"
                 }, delay: .5
             });
 
             tl.set(el, {
-                autoAlpha: 1
+              autoAlpha: 1
             });
             tl.from(el, {
-                duration: 3,
-                scale: [0,1],
-                ease: "Power3.easeOut"
+              clipPath: "polygon(0 0, 0 0, 0 100%, 0% 100%)",
+              webkitClipPath: "polygon(0 0, 0 0, 0 100%, 0% 100%)"
+            },
+            {
+              clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
+              webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
+              duration: 3,     
+              ease: easeInOut
             });
 
             tl.from(image, {
-                duration: 3,      
-                filter: "blur(10px)",
-                scale: 1.5,
-                ease: "Power3.easeOut"
+              duration: 6,      
+              filter: "blur(10px)",
+              scale: 1.5,
+              ease: easeInOut
             }, 0);
         });
 
