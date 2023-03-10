@@ -46,7 +46,7 @@ createApp({
         });
         
         gsap.to(".ball", {
-            top: 0, delay: 4, opacity: 1, duration: 3, ease: "Bounce.easeOut"
+            top: 0, delay: 5, opacity: 1, duration: 3, ease: "Bounce.easeOut"
         });
 },                          
     data() {
@@ -129,7 +129,7 @@ function setupReveal(container) {
             tl.set(el, {
               autoAlpha: 1
             });
-            tl.from(el, {
+            tl.fromTo(el, {
               clipPath: "polygon(0 0, 0 0, 0 100%, 0% 100%)",
               webkitClipPath: "polygon(0 0, 0 0, 0 100%, 0% 100%)"
             },
