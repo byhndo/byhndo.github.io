@@ -141,8 +141,7 @@ function setupReveal(container) {
             });
 
             tl.from(image, {
-              duration: 7,      
-              filter: "blur(10px)",
+              duration: 7,                   
               scale: 1.5,
               ease: easeInOut
             }, 0);
