@@ -109,7 +109,7 @@ function setupReveal(container) {
                 width: "100%",
                 opacity: 1,
                 filter: "blur(0px)",
-                ease: "Back.easeIn"
+                ease: "Bounce.easeOut"
             }, "<");
                                                                                                                 
         });
@@ -132,7 +132,7 @@ function setupReveal(container) {
             tl.from(el, {
                 duration: 3,
                 xPercent: -100,
-                ease: "Back.easeIn"
+                ease: "Bounce.easeOut"
             });
 
             tl.from(image, {
@@ -140,7 +140,7 @@ function setupReveal(container) {
                 xPercent: 100,
                 filter: "blur(10px)",
                 scale: 1.5,
-                ease: "Back.easeIn"
+                ease: "Bounce.easeOut"
             }, 0);
         });
 
