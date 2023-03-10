@@ -38,7 +38,7 @@ createApp({
          });
 
         gsap.from(".sub-title", {
-            delay: 3.6,
+            delay: 4,
             duration: 3,
             opacity: 0,         
             bottom: "-3rem", 
@@ -47,7 +47,7 @@ createApp({
         });
         
         gsap.to(".ball", {
-            top: 0, delay: 5.5, opacity: 1, duration: 3, ease: "Bounce.easeOut"
+            top: 0, delay: 4, opacity: 1, duration: 3, ease: "Bounce.easeOut"
         });
 },                          
     data() {
