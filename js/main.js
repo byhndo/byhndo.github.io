@@ -22,7 +22,7 @@ createApp({
             opacity: 0,
             y: "-3rem",
             filter: "blur(10px)",
-            ease: "Elastic.easeOut"
+            ease: "Expo.easeInOut"
         }); 
          
         gsap.from("h1 span", {
