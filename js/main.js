@@ -17,7 +17,7 @@ createApp({
     mounted: function() { 
                 
         gsap.from("nav",  {
-            delay: 3,
+            delay: 2.5,
             duration: 3,
             opacity: 0,
             y: "-3rem",
@@ -37,7 +37,7 @@ createApp({
          });
 
         gsap.from(".sub-title", {
-            delay: 4,
+            delay: 2,
             duration: 3,
             opacity: 0,         
             bottom: "-3rem", 
@@ -46,7 +46,7 @@ createApp({
         });
         
         gsap.to(".ball", {
-            top: 0, delay: 5, opacity: 1, duration: 3, ease: "Bounce.easeOut"
+            top: 0, delay: 2, opacity: 1, duration: 3, ease: "Bounce.easeOut"
         });
 },                          
     data() {
@@ -141,7 +141,7 @@ function setupReveal(container) {
             });
 
             tl.from(image, {
-              duration: 6,      
+              duration: 7,      
               filter: "blur(10px)",
               scale: 1.5,
               ease: easeInOut
