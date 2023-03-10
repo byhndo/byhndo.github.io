@@ -129,13 +129,13 @@ function setupReveal(container) {
                 autoAlpha: 1
             });
             tl.from(el, {
-                duration: 3,          
+                duration: 3,
+                scale: [0,1],
                 ease: "Elastic.easeOut"
             });
 
             tl.from(image, {
-                duration: 3,
-                xPercent: 100,
+                duration: 3,      
                 filter: "blur(10px)",
                 scale: 1.5,
                 ease: "Elastic.easeOut"
