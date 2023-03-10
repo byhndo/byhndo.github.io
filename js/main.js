@@ -38,7 +38,7 @@ createApp({
          });
 
         gsap.from(".sub-title", {
-            delay: 3.7,
+            delay: 3.5,
             duration: 3,
             opacity: 0,         
             bottom: "-3rem", 
