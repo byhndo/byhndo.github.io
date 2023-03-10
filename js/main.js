@@ -19,7 +19,7 @@ createApp({
     mounted: function() { 
                 
         gsap.from("nav",  {
-            delay: 3,
+            delay: 2,
             duration: 3,
             opacity: 0,
             y: "-3rem",
