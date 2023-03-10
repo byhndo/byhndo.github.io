@@ -122,7 +122,7 @@ function setupReveal(container) {
                 scrollTrigger: {
                     trigger: el,
                     toggleActions: "restart none none none"
-                }, delay: .7
+                }, delay: .5
             });
 
             tl.set(el, {
