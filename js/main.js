@@ -1,4 +1,3 @@
-Splitting();
 
 gsap.registerPlugin(ScrollTrigger);
 const {
