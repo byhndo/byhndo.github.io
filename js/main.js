@@ -141,9 +141,8 @@ function setupReveal(container) {
             });
 
             tl.from(image, {
-              duration: 8,                   
-              scale: 1.5,
-              delay: -1,
+              duration: 6,                   
+              scale: 1.5, 
               ease: easeInOut
             }, 0);
         });
