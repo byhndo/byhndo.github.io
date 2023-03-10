@@ -79,8 +79,11 @@ function setupReveal(container) {
             duration: 3,           
             opacity: 0, 
             scale: [0,1],
+            rotation:90,
+            rotationX:-50,
+            transformOrigin:"50% 50%",
             filter: "blur(10px)",           
-            ease: "Elastic.easeOut",
+            ease: "Back.easeIn.config(1.5)",
             stagger: {
             amount: .9
             }            
@@ -103,8 +106,11 @@ function setupReveal(container) {
             duration: 3,           
             opacity: 0, 
             bottom: "3rem",
+            rotation:90,
+            rotationX:-50,
+            transformOrigin:"50% 50%",
             filter: "blur(10px)",           
-            ease: "Elastic.easeOut"           
+            ease: "Back.easeIn.config(1.5)"           
             });
                      
             tl.to(line, {
@@ -112,7 +118,7 @@ function setupReveal(container) {
                 width: "100%",
                 opacity: 1,
                 filter: "blur(0px)",
-                ease: "Power2.easeOut"
+                ease: "Back.easeIn.config(1.5)"
             }, "<");
                                                                                                                 
         });
