@@ -35,7 +35,7 @@ createApp({
           stagger: {
             amount: 0.9
           },
-          ease: "Elastic.easeIn"
+          ease: "Elastic.easeOut"
          });
 
         gsap.from(".sub-title", {
@@ -77,7 +77,7 @@ function setupReveal(container) {
             opacity: 0, 
             scale: [0,1],            
             filter: "blur(10px)",           
-            ease: "Elastic.easeIn",
+            ease: "Elastic.easeOut",
             stagger: {
             amount: .9
             }            
@@ -101,7 +101,7 @@ function setupReveal(container) {
             opacity: 0, 
             scale: [0,1],
             filter: "blur(10px)",           
-            ease: "Elastic.easeIn"           
+            ease: "Bounce.easeOut"           
             });
                      
             tl.to(line, {
@@ -109,7 +109,7 @@ function setupReveal(container) {
                 width: "100%",
                 opacity: 1,
                 filter: "blur(0px)",
-                ease: "Bounce.easeInOut"
+                ease: "Bounce.easeOut"
             }, "<");
                                                                                                                 
         });
@@ -132,7 +132,7 @@ function setupReveal(container) {
             tl.from(el, {
                 duration: 3,
                 xPercent: -100,
-                ease: "Back.easeIn"
+                ease: "Bounce.easeOut"
             });
 
             tl.from(image, {
@@ -140,7 +140,7 @@ function setupReveal(container) {
                 xPercent: 100,
                 filter: "blur(10px)",
                 scale: 1.5,
-                ease: "Back.easeIn"
+                ease: "Bounce.easeOut"
             }, 0);
         });
 
