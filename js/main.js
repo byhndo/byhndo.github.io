@@ -131,14 +131,14 @@ function setupReveal(container) {
             tl.from(el, {
                 duration: 3,
                 scale: [0,1],
-                ease: "Elastic.easeOut"
+                ease: "Bounce.easeOut"
             });
 
             tl.from(image, {
                 duration: 3,      
                 filter: "blur(10px)",
                 scale: 1.5,
-                ease: "Elastic.easeOut"
+                ease: "Bounce.easeOut"
             }, 0);
         });
 
