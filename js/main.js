@@ -24,16 +24,13 @@ createApp({
             opacity: 0,
             y: "-3rem",
             filter: "blur(10px)",
-            ease: "Elastic.easeOut"
+            ease: "Back.easeIn.config(1.5)"
         }); 
          
         gsap.from("h1 span", {
           duration: 3,          
           scale: [0, 1],
-          opacity: 0,
-          rotation:90,
-          rotationX:-50,
-          transformOrigin:"50% 50%",
+          opacity: 0,          
           filter: "blur(10px)",                 
           stagger: {
             amount: 0.9
@@ -78,10 +75,7 @@ function setupReveal(container) {
             tl.from(one, {
             duration: 3,           
             opacity: 0, 
-            scale: [0,1],
-            rotation:90,
-            rotationX:-50,
-            transformOrigin:"50% 50%",
+            scale: [0,1],            
             filter: "blur(10px)",           
             ease: "Back.easeIn.config(1.5)",
             stagger: {
@@ -106,9 +100,6 @@ function setupReveal(container) {
             duration: 3,           
             opacity: 0, 
             bottom: "3rem",
-            rotation:90,
-            rotationX:-50,
-            transformOrigin:"50% 50%",
             filter: "blur(10px)",           
             ease: "Back.easeIn.config(1.5)"           
             });
