@@ -39,7 +39,7 @@ createApp({
           stagger: {
             amount: 0.9
           },
-          ease: "Back.easeIn"
+          ease: "Back.easeIn.config(1.5)"
          });
 
         gsap.from(".sub-title", {
