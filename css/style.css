@@ -24,7 +24,7 @@
     --spacingnav: 2px;
     --fwnav: 300;
     --fwtitle: 800;
-    --rad: 0;
+    --rad: 10px;
 }
 
 *, *:before, *:after {
