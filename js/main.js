@@ -113,7 +113,7 @@ function setupReveal(container) {
         });
                                      
         let revealContainers = container.querySelectorAll(".item");
-        const easeInOut = "Expo.easeInOut";
+        const easeInOut = "Expo.easeOut";
         revealContainers.forEach((el) => {
 
             let image = el.querySelector("img");
@@ -123,7 +123,7 @@ function setupReveal(container) {
                     trigger: el,
                     ease: easeInOut,
                     toggleActions: "restart none none none"
-                }, delay: -2
+                }, delay: .5
             });
 
             tl.set(el, {
