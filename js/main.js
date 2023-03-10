@@ -19,12 +19,12 @@ createApp({
     mounted: function() { 
                 
         gsap.from("nav",  {
-            delay: 2,
+            delay: 3,
             duration: 3,
             opacity: 0,
             y: "-3rem",
             filter: "blur(10px)",
-            ease: "Bounce.easeInOut"
+            ease: "Bounce.easeOut"
         }); 
          
         gsap.from("h1 span", {
