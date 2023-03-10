@@ -28,8 +28,7 @@ createApp({
         }); 
          
         gsap.from("h1 span", {
-          duration: 3,           
-          delay: 1.2,
+          duration: 3,          
           scale: [0, 1],
           opacity: 0,
           rotation:90,
