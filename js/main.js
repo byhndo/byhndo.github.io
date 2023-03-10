@@ -39,7 +39,7 @@ createApp({
          });
 
         gsap.from(".sub-title", {
-            delay: 4.5,
+            delay: 5,
             duration: 3,
             opacity: 0,         
             bottom: "-3rem", 
@@ -48,7 +48,7 @@ createApp({
         });
         
         gsap.to(".ball", {
-            top: 0, delay: 4.5, opacity: 1, duration: 3, ease: "Bounce.easeOut"
+            top: 0, delay: 5, opacity: 1, duration: 3, ease: "Bounce.easeOut"
         });
 },                          
     data() {
@@ -130,9 +130,9 @@ function setupReveal(container) {
                 autoAlpha: 1
             });
             tl.from(el, {
-                duration: 2,
+                duration: 3,
                 xPercent: -100,
-                ease: "Power2.easeOut"
+                ease: "Back.easeIn"
             });
 
             tl.from(image, {
@@ -140,7 +140,7 @@ function setupReveal(container) {
                 xPercent: 100,
                 filter: "blur(10px)",
                 scale: 1.5,
-                ease: "Power2.easeOut"
+                ease: "Back.easeIn"
             }, 0);
         });
 
