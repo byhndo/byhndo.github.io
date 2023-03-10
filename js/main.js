@@ -113,7 +113,7 @@ function setupReveal(container) {
         });
                                      
         let revealContainers = container.querySelectorAll(".item");
-        const easeInOut = "Expo.easeInOut";
+        const easeInOut = "Expo.easeOut";
         revealContainers.forEach((el) => {
 
             let image = el.querySelector("img");
