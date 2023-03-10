@@ -98,8 +98,8 @@ function setupReveal(container) {
                                        
             tl.from(two, {
             duration: 3,           
-            opacity: 0, 
-            scale: [0,1],
+            opacity: 0,
+            y: "-3rem",
             filter: "blur(10px)",           
             ease: "Power2.easeOut"           
             });
