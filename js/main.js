@@ -17,12 +17,12 @@ createApp({
     mounted: function() { 
                 
         gsap.from("nav",  {
-            delay: 2,
+            delay: 3,
             duration: 3,
             opacity: 0,
             y: "-3rem",
             filter: "blur(10px)",
-            ease: "Expo.easeInOut"
+            ease: "Expo.easeOut"
         }); 
          
         gsap.from("h1 span", {
@@ -46,7 +46,7 @@ createApp({
         });
         
         gsap.to(".ball", {
-            top: 0, delay: 2, opacity: 1, duration: 3, ease: "Bounce.easeOut"
+            top: 0, delay: 4, opacity: 1, duration: 3, ease: "Bounce.easeOut"
         });
 },                          
     data() {
