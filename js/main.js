@@ -100,7 +100,7 @@ function setupReveal(container) {
             opacity: 0,
             y: "-3rem",
             filter: "blur(10px)",           
-            ease: "Back.easeIn"           
+            ease: "Power2.easeOut"           
             });
                      
             tl.to(line, {
@@ -131,14 +131,14 @@ function setupReveal(container) {
             tl.from(el, {
                 duration: 3,
                 scale: [0,1],
-                ease: "Power2.easeOut"
+                ease: "Power3.easeOut"
             });
 
             tl.from(image, {
                 duration: 3,      
                 filter: "blur(10px)",
                 scale: 1.5,
-                ease: "Power2.easeOut"
+                ease: "Power3.easeOut"
             }, 0);
         });
 
