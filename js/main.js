@@ -40,7 +40,7 @@ createApp({
 
         gsap.from(".sub-title", {
             delay: 4.5,
-            duration: 1.5,
+            duration: 3,
             opacity: 0,         
             bottom: "-3rem", 
             filter: "blur(10px)",
@@ -48,7 +48,7 @@ createApp({
         });
         
         gsap.to(".ball", {
-            top: 0, delay: 4.5, opacity: 1, duration: 1.5, ease: "Bounce.easeOut"
+            top: 0, delay: 4.5, opacity: 1, duration: 3, ease: "Bounce.easeOut"
         });
 },                          
     data() {
@@ -109,7 +109,7 @@ function setupReveal(container) {
                 width: "100%",
                 opacity: 1,
                 filter: "blur(0px)",
-                ease: "Bounce.easeInOut"
+                ease: "Power2.easeInOut"
             }, "<");
                                                                                                                 
         });
