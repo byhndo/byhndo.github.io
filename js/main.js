@@ -1,4 +1,3 @@
-
 gsap.registerPlugin(ScrollTrigger);
 const {
     createApp,
@@ -100,7 +99,7 @@ function setupReveal(container) {
             opacity: 0,
             y: "-3rem",
             filter: "blur(10px)",           
-            ease: "Power2.easeOut"           
+            ease: "Back.easeIn"           
             });
                      
             tl.to(line, {
