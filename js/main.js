@@ -24,7 +24,7 @@ createApp({
             opacity: 0,
             y: "-3rem",
             filter: "blur(10px)",
-            ease: "Elastic.easeIn"
+            ease: "Elastic.easeInOut"
         }); 
          
         gsap.from("h1 span", {
@@ -101,7 +101,7 @@ function setupReveal(container) {
             opacity: 0, 
             scale: [0,1],
             filter: "blur(10px)",           
-            ease: "Elastic.easeIn"           
+            ease: "Back.easeIn"           
             });
                      
             tl.to(line, {
@@ -132,7 +132,7 @@ function setupReveal(container) {
             tl.from(el, {
                 duration: 3,
                 xPercent: -100,
-                ease: "Elastic.easeIn"
+                ease: "Bounce.easeOut"
             });
 
             tl.from(image, {
@@ -140,7 +140,7 @@ function setupReveal(container) {
                 xPercent: 100,
                 filter: "blur(10px)",
                 scale: 1.5,
-                ease: "Elastic.easeIn"
+                ease: "Bounce.easeOut"
             }, 0);
         });
 
