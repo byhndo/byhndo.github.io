@@ -17,7 +17,7 @@ createApp({
     mounted: function() { 
                 
         gsap.from("nav",  {
-            delay: 2,
+            delay: 2.5,
             duration: 3,
             opacity: 0,
             y: "-3rem",
@@ -37,7 +37,7 @@ createApp({
          });
 
         gsap.from(".sub-title", {
-            delay: 1.5,
+            delay: 1,
             duration: 3,
             opacity: 0,         
             bottom: "-3rem", 
@@ -46,7 +46,7 @@ createApp({
         });
         
         gsap.to(".ball", {
-            top: 0, delay: 2, opacity: 1, duration: 3, ease: "Bounce.easeOut"
+            top: 0, delay: 3, opacity: 1, duration: 3, ease: "Bounce.easeOut"
         });
 },                          
     data() {
