@@ -107,7 +107,7 @@ function setupReveal(container) {
                 width: "100%",
                 opacity: 1,
                 filter: "blur(0px)",
-                ease: "Expo.easeInOut"
+                ease: "Elastic.easeIn"
             }, "<");
                                                                                                                 
         });
