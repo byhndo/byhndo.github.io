@@ -32,6 +32,9 @@ createApp({
           delay: 1.2,
           scale: [0, 1],
           opacity: 0,
+          rotation:90,
+          rotationX:-50,
+          transformOrigin:"50% 50%",
           filter: "blur(10px)",                 
           stagger: {
             amount: 0.9
