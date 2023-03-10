@@ -24,7 +24,7 @@ createApp({
             opacity: 0,
             y: "-3rem",
             filter: "blur(10px)",
-            ease: "Back.easeIn.config(1.5)"
+            ease: "Back.easeIn"
         }); 
          
         gsap.from("h1 span", {
@@ -35,7 +35,7 @@ createApp({
           stagger: {
             amount: 0.9
           },
-          ease: "Back.easeIn.config(1.5)"
+          ease: "Back.easeIn"
          });
 
         gsap.from(".sub-title", {
@@ -77,7 +77,7 @@ function setupReveal(container) {
             opacity: 0, 
             scale: [0,1],            
             filter: "blur(10px)",           
-            ease: "Back.easeIn.config(1.5)",
+            ease: "Back.easeIn",
             stagger: {
             amount: .9
             }            
@@ -101,7 +101,7 @@ function setupReveal(container) {
             opacity: 0, 
             bottom: "3rem",
             filter: "blur(10px)",           
-            ease: "Back.easeIn.config(1.5)"           
+            ease: "Back.easeIn"           
             });
                      
             tl.to(line, {
@@ -109,7 +109,7 @@ function setupReveal(container) {
                 width: "100%",
                 opacity: 1,
                 filter: "blur(0px)",
-                ease: "Back.easeIn.config(1.5)"
+                ease: "Back.easeIn"
             }, "<");
                                                                                                                 
         });
