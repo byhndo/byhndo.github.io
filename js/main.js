@@ -48,7 +48,7 @@ createApp({
         });
         
         gsap.to(".ball", {
-            top: 0, delay: 5, opacity: 1, duration: 3, ease: "Bounce.easeOut"
+            top: 0, delay: 5.5, opacity: 1, duration: 3, ease: "Bounce.easeOut"
         });
 },                          
     data() {
@@ -109,7 +109,7 @@ function setupReveal(container) {
                 width: "100%",
                 opacity: 1,
                 filter: "blur(0px)",
-                ease: "Power2.easeInOut"
+                ease: "Back.easeIn"
             }, "<");
                                                                                                                 
         });
