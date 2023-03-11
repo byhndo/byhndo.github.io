@@ -77,6 +77,7 @@ h1 {
   text-align: left;
   padding: 0;
   line-height: 70%;
+  letter-spacing: calc(-0.01vw + -0.25rem);
   transition: color 2.5s;
 }
 
