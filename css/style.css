@@ -360,8 +360,8 @@ img, .box1, .box2, .one, .one span, .two{
 }
 
 .line {
-  position: relative;
-  bottom: 7px;
+  position: absolute;
+  bottom: 0;
   width: 0vw;
   height: .3vw;
   background-color: var(--psub1);
@@ -378,7 +378,7 @@ img, .box1, .box2, .one, .one span, .two{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 20px 0 0 0;
+  margin: 23px 0 0 0;
   text-align: center;
   font-family: var(--font1);
   font-weight: var(--fwnav);
