@@ -76,7 +76,7 @@ h1 {
   font-weight: var(--fwtitle);
   text-align: left;
   padding: 0;
-  line-height: 1;
+  line-height: 70%;
   transition: color 2.5s;
 }
 
