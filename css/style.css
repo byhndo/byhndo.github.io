@@ -40,8 +40,7 @@ h1, h2, h3, h4, h5, h6, h7 {
     text-align: left; 
     line-height:1;
     margin-top: var(--marginp);
-    margin-bottom: var(--marginp);
-    letter-spacing: calc(-0.05vw + -0.10rem);
+    margin-bottom: var(--marginp);  
 }
 
 h2 {
