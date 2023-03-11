@@ -143,6 +143,7 @@ function setupReveal(container) {
             tl.from(image, {
               duration: 6,                   
               scale: 1.5, 
+              delay: .5,
               ease: easeInOut
             }, 0);
         });
