@@ -102,6 +102,7 @@ h1 span{
   text-transform: uppercase;
   transition: color 2.5s;
   line-height: 2.2;
+  bottom: 10px;
   margin-bottom: 23px;
 }
 
@@ -359,8 +360,8 @@ img, .box1, .box2, .one, .one span, .two{
 }
 
 .line {
-  position: absolute;
-  bottom: 7px;
+  position: relative;
+  bottom: 0;
   width: 0vw;
   height: .3vw;
   background-color: var(--psub1);
