@@ -16,7 +16,7 @@
     --psub1: #3b3e45;
     --psub2: #b3b3b3;
     --sizebody: 13px;
-    --sizetitle: calc(31vw + .5rem);
+    --sizetitle: calc(32vw + .5rem);
     --sizetitle2: 8vw;
     --sizenav: 9.5px;
     --font1: 'Thunder', sans-serif;
@@ -75,7 +75,7 @@ h1 {
   font-weight: var(--fwtitle);
   text-align: left;
   padding: 0;
-  left: -1%;
+  left: -.8%;
   line-height: 78%;
   letter-spacing: calc(-0.1vw + -0.05rem);
   transition: color 2.5s;
