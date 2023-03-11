@@ -75,9 +75,9 @@ h1 {
   font-weight: var(--fwtitle);
   text-align: left;
   padding: 0;
-  left: -.8%;
+  left: -.5%;
   line-height: 78%;
-  letter-spacing: calc(-0.5vw + -0.05rem);
+  letter-spacing: calc(-0.3vw + -0.05rem);
   transition: color 2.5s;
 }
 
@@ -102,6 +102,7 @@ h1 span{
   text-transform: uppercase;
   transition: color 2.5s;
   line-height: 2.2;
+  bottom: 20px;
   margin-bottom: 23px;
 }
 
