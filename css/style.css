@@ -76,8 +76,8 @@ h1 {
   text-align: left;
   padding: 0;
   left: -1%;
-  line-height: 80%;
-  letter-spacing: calc(-0.1vw + -0.01rem);
+  line-height: 78%;
+  letter-spacing: calc(-0.1vw + -0.05rem);
   transition: color 2.5s;
 }
 
@@ -116,7 +116,7 @@ h1 span{
     height: calc(4vw + .3rem);
     border-radius: 50%;
     background-color: var(--c1); 
-    margin-left: calc(-0.1vw + -0.03rem);
+    margin-left: calc(-0.5vw + -0.03rem);
     top: -20%;
     opacity: 0;
     transition: background-color 2.5s;
