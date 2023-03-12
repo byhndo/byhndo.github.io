@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@font-face{font-family:Humane;src:url(../fonts/Humane-Bold.woff) format('woff');font-weight:700;font-style:normal}
-@font-face{font-family:Humane;src:url(../fonts/Humane-Light.woff) format('woff');font-weight:300;font-style:normal}
+@font-face{font-family:Thunder;src:url(../fonts/Thunder-ExtraBoldLC.woff) format('woff');font-weight:800;font-style:normal}
+@font-face{font-family:Thunder;src:url(../fonts/Thunder-LightLC.woff) format('woff');font-weight:300;font-style:normal}
 
 :root {
     --n1: #3b3e45;
@@ -16,7 +16,7 @@
     --psub1: #3b3e45;
     --psub2: #b3b3b3;
     --sizebody: 13px;
-    --sizetitle: calc(53.5vw + .5rem);
+    --sizetitle: calc(30vw + .5rem);
     --sizetitle2: 8vw;
     --sizenav: 9.5px;
     --font1: 'Humane', sans-serif;
@@ -24,7 +24,7 @@
     --marginp: 23px;
     --spacingnav: 2px;
     --fwnav: 300;
-    --fwtitle: 700;
+    --fwtitle: 800;
     --rad: 10px;
 }
 
@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6, h7 {
   line-height:1;
   margin-top: var(--marginp);
   margin-bottom: var(--marginp); 
-  letter-spacing: calc(-0.02vw + -0.03rem);
+  letter-spacing: calc(-0.3vw + -0.03rem);
 }
 
 h2 {
@@ -79,7 +79,7 @@ h1 {
   left: -.5%;
   line-height: 75%;
   transition: color 2.5s;
-  letter-spacing: calc(-0.3vw + -0.05rem);
+  letter-spacing: calc(-0.5vw + -0.5rem);
 }
 
 h1 span{
