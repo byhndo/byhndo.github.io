@@ -16,7 +16,7 @@
     --psub1: #3b3e45;
     --psub2: #b3b3b3;
     --sizebody: 13px;
-    --sizetitle: calc(30vw + .5rem);
+    --sizetitle: calc(35vw + .5rem);
     --sizetitle2: 8vw;
     --sizenav: 9.5px;
     --font1: 'Thunder', sans-serif;
@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6, h7 {
   line-height:1;
   margin-top: var(--marginp);
   margin-bottom: var(--marginp); 
-  letter-spacing: calc(-0.3vw + -0.03rem);
+  letter-spacing: calc(-0.1vw + -0.05rem);
 }
 
 h2 {
@@ -79,7 +79,7 @@ h1 {
   left: -.5%;
   line-height: 75%;
   transition: color 2.5s;
-  letter-spacing: calc(-0.5vw + -0.5rem);
+  letter-spacing: calc(-0.1vw + -0.5rem);
 }
 
 h1 span{
