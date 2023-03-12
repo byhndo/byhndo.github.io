@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@font-face{font-family:Humane;src:url(../fonts/Humane-Bold.woff) format('woff');font-weight:900;font-style:normal}
+@font-face{font-family:Humane;src:url(../fonts/Humane-Bold.woff) format('woff');font-weight:700;font-style:normal}
 @font-face{font-family:Humane;src:url(../fonts/Humane-Light.woff) format('woff');font-weight:300;font-style:normal}
 
 :root {
@@ -24,7 +24,7 @@
     --marginp: 23px;
     --spacingnav: 2px;
     --fwnav: 300;
-    --fwtitle: 900;
+    --fwtitle: 700;
     --rad: 10px;
 }
 
