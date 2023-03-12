@@ -16,7 +16,7 @@
     --psub1: #3b3e45;
     --psub2: #b3b3b3;
     --sizebody: 13px;
-    --sizetitle: calc(51vw + .5rem);
+    --sizetitle: calc(52vw + .5rem);
     --sizetitle2: 8vw;
     --sizenav: 9.5px;
     --font1: 'Humane', sans-serif;
@@ -39,7 +39,8 @@ h1, h2, h3, h4, h5, h6, h7 {
   text-align: left; 
   line-height:1;
   margin-top: var(--marginp);
-  margin-bottom: var(--marginp);  
+  margin-bottom: var(--marginp); 
+  letter-spacing: calc(-0.01vw + -0.03rem);
 }
 
 h2 {
