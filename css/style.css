@@ -78,7 +78,7 @@ h1 {
   left: -.5%;
   line-height: 75%;
   transition: color 2.5s;
-  letter-spacing: calc(-0.7vw + -0.05rem);
+  letter-spacing: calc(-0.6vw + -0.05rem);
 }
 
 h1 span{
