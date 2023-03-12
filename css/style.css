@@ -44,27 +44,27 @@ h1, h2, h3, h4, h5, h6, h7 {
 }
 
 h2 {
-    font-size: 450%;
+    font-size: 400%;
 }
 
 h3 {
-  font-size: 400%;  
+  font-size: 350%;  
 }
 
 h4 {
-    font-size: 350%;
-}
-
-h5 {
     font-size: 300%;
 }
 
-h6 {
+h5 {
     font-size: 250%;
 }
 
-h7 {
+h6 {
     font-size: 200%;
+}
+
+h7 {
+    font-size: 150%;
 }
 
 h1 {
