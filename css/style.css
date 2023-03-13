@@ -379,7 +379,7 @@ img, .box1, .box2, .one, .one span, .two{
 }
 
 .footer span {
-  color: var(--color4);
+  color: var(--color3);
   font-size: var(--sizenav);
   text-decoration: none;
   text-transform: uppercase;
@@ -387,7 +387,7 @@ img, .box1, .box2, .one, .one span, .two{
 }
 
 .photos .footer span, .photos .footer span a {
-  color: var(--color3);
+  color: var(--color4);
 }
 
 .footer span, .footer span a {
