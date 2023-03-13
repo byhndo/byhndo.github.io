@@ -3,7 +3,7 @@
 @font-face{font-family:Thunder;src:url(../fonts/Thunder-LightLC.woff) format('woff');font-weight:300;font-style:normal}
 
 :root {  
-    --color1: #e7e7e7;
+    --color1: #ccc;
     --color2: #333;   
     --c1: #cf3c4b;
     --c2: #FED049;
