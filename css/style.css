@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @font-face{font-family:Thunder;src:url(../fonts/Thunder-ExtraBoldLC.woff) format('woff');font-weight:800;font-style:normal}
+@font-face{font-family:Thunder;src:url(../fonts/Thunder-BoldLC.woff) format('woff');font-weight:700;font-style:normal}
 @font-face{font-family:Thunder;src:url(../fonts/Thunder-LightLC.woff) format('woff');font-weight:300;font-style:normal}
 
 :root {
@@ -24,7 +25,6 @@
     --marginp: 23px;
     --spacingnav: 2px;
     --fwnav: 300;
-    --fwtitle: 800;
     --rad: 10px;
 }
 
@@ -35,7 +35,7 @@
 h1, h2, h3, h4, h5, h6, h7 {
   position: relative;
   font-family: var(--font1);
-  font-weight: var(--fwtitle);
+  font-weight: 700;
   text-align: left; 
   line-height:1;
   margin-top: var(--marginp);
@@ -73,7 +73,7 @@ h1 {
   font-family: var(--font1);
   color: var(--titlecolor1);
   font-size: var(--sizetitle);
-  font-weight: var(--fwtitle);
+  font-weight: 800;
   text-align: left;
   padding: 0;
   left: -.5%;
