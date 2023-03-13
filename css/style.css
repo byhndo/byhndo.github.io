@@ -118,7 +118,7 @@ h1 span{
     height: calc(4vw + .3rem);
     border-radius: 50%;
     background-color: var(--c1); 
-    margin-left: calc(-.3vw + -.1rem);
+    margin-left: calc(-.5vw + -.1rem);
     top: -20%;
     opacity: 0;
     transition: background-color 2.5s;
