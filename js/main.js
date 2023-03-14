@@ -140,7 +140,7 @@ function setupReveal(container) {
             });
 
             tl.from(image, {
-              duration: 6,                   
+              duration: 7,                   
               scale: 1.8, 
               delay: .3,
               ease: Expo.easeOut
