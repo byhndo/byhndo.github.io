@@ -135,7 +135,7 @@ body {
     font-family: var(--font2);
     color: var(--color2);
     font-size: var(--sizebody);
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.5;
     word-wrap: break-word;
     text-rendering: optimizeLegibility !important;
