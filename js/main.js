@@ -141,7 +141,7 @@ function setupReveal(container) {
             });
 
             tl.from(image, {
-              duration: 7,                   
+              duration: 8,                   
               scale: 2,              
               ease: easeInOut
             }, 0);
