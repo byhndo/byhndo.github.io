@@ -13,7 +13,7 @@
     --sizetitle: calc(32vw + .5rem);
     --sizetitle2: 8vw;
     --sizenav: 9.5px;
-    --font1: 'Anton', sans-serif;
+    --font1: 'Thunder', sans-serif;
     --font2: 'Figtree', sans-serif;
     --marginp: 23px;
     --spacingnav: 2px;
@@ -38,11 +38,11 @@ h1, h2, h3, h4, h5, h6, h7 {
 }
 
 h2 {
-    font-size: 380%;
+    font-size: calc(27vw + .5rem)
 }
 
 h3 {
-  font-size: 330%;  
+  font-size: 300%;  
 }
 
 h4 {
