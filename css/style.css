@@ -35,6 +35,7 @@ h1, h2, h3, h4, h5, h6, h7 {
   margin-top: var(--marginp);
   margin-bottom: var(--marginp); 
   letter-spacing: calc(-0.01vw + -0.03rem);
+  z-index: 2000;
 }
 
 h2 {
@@ -195,7 +196,7 @@ nav {
     top: 0;
     left: 0;
     right: 0;
-    z-index: 10;
+    z-index: 3000;
     font-family: var(--font1);
 }
 
@@ -360,6 +361,7 @@ img, .box1, .box2, .one, .one span, .two{
   background-color: var(--color3);
   opacity: 0;
   filter: blur(10px);
+  z-index: 1000;
 }
 
 .photos .line {
