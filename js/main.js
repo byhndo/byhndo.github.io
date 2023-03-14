@@ -120,7 +120,7 @@ function setupReveal(container) {
             let tl = gsap.timeline({
                 scrollTrigger: {
                     trigger: el,
-                    ease: Expo.easeOut,
+                    ease: "Expo.easeOut",
                     toggleActions: "restart none none none"
                 }, delay: .5
             });
@@ -135,15 +135,15 @@ function setupReveal(container) {
             {
               clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
               webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
-              duration: 3,     
-              ease: Expo.easeOut
+              duration: 2,     
+              ease: "Bounce.easeOut"
             });
 
             tl.from(image, {
-              duration: 6,                   
-              scale: 1.8, 
+              duration: 7,                   
+              scale: 1.7, 
               delay: .3,
-              ease: Expo.easeOut
+              ease: "Expo.easeOut"
             }, 0);
         });
 
