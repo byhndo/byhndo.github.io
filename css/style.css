@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
 
 
 
@@ -16,12 +17,12 @@
     --c2: #FED049;
     --color3: #3b3e45;
     --color4: #b3b3b3;
-    --sizebody: 10px;
+    --sizebody: 12px;
     --sizetitle: calc(32vw + .5rem);
     --sizetitle2: 8vw;
     --sizenav: 9.5px;
-    --font1: 'Bebas Neue', sans-serif;
-    --font2: 'Montserrat', sans-serif;
+    --font1: 'Anton', sans-serif;
+    --font2: 'Figtree', sans-serif;
     --marginp: 23px;
     --spacingnav: 2px;
     --fwnav: 300;
@@ -42,7 +43,6 @@ h1, h2, h3, h4, h5, h6, h7 {
   margin-top: var(--marginp);
   margin-bottom: var(--marginp); 
   letter-spacing: calc(-0.01vw + -0.03rem);
-  z-index:100000;
   text-transform: capitalize;
 }
 
@@ -370,6 +370,7 @@ img, .box1, .box2, .one, .one span, .two{
   background-color: var(--color3);
   opacity: 0;
   filter: blur(10px);
+  z-index: -1;
 }
 
 .photos .line {
