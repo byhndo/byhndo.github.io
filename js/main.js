@@ -136,7 +136,7 @@ function setupReveal(container) {
               clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
               webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
               duration: 2,     
-              ease: "Expo.easeOut"
+              ease: "Quad.easeOut"
             });
 
             tl.from(image, {
