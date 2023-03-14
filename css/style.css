@@ -38,11 +38,11 @@ h1, h2, h3, h4, h5, h6, h7 {
 }
 
 h2 {
-    font-size: calc(30vw + .5rem)
+    font-size: 380%;
 }
 
 h3 {
-  font-size: 300%;  
+  font-size: 330%;
 }
 
 h4 {
