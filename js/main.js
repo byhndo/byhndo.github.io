@@ -141,9 +141,9 @@ function setupReveal(container) {
             });
 
             tl.from(image, {
-              duration: 8,                   
+              duration: 5,                   
               scale: 2,              
-              ease: easeInOut
+              ease: Expo.easeInOut
             }, 0);
         });
 
