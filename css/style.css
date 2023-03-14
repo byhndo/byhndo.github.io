@@ -370,7 +370,6 @@ img, .box1, .box2, .one, .one span, .two{
   background-color: var(--color3);
   opacity: 0;
   filter: blur(10px);
-  z-index: -1;
 }
 
 .photos .line {
