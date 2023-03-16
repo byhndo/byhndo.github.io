@@ -4,8 +4,7 @@
 
 :root {  
     --color1: #ebebeb;
-    --color2: #373A40;  
-    --h1color1: #464a53;
+    --color2: #464a53;      
     --c1: #cf3c4b;
     --c2: #FED049;
     --color3: #3b3e45;
@@ -67,7 +66,7 @@ h1 {
   position: relative;
   display: inline;
   font-family: var(--font1);
-  color: var(--h1color1);
+  color: var(--color2);
   font-size: var(--sizetitle);
   text-align: left;
   padding: 0;
