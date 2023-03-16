@@ -301,6 +301,7 @@ img {
     height: 100%;
     object-fit: cover;
     border-radius: var(--rad);
+    opacity: .95;
 }
 
 img.hand {
