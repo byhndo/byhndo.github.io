@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @font-face{font-family:Thunder;src:url(../fonts/Thunder-ExtraBoldLC.woff) format('woff');font-weight:800;font-style:normal}
 @font-face{font-family:Thunder;src:url(../fonts/Thunder-LightLC.woff) format('woff');font-weight:300;font-style:normal}
 
@@ -9,12 +9,12 @@
     --color4: #b3b3b3;
     --c1: #cf3c4b;
     --c2: #FED049;
-    --sizebody: 12px;
+    --sizebody: 13px;
     --sizetitle: calc(32vw + .5rem);
     --sizetitle2: 8vw;
     --sizenav: 9.5px;
     --font1: 'Thunder', sans-serif;
-    --font2: 'Inter', sans-serif;
+    --font2: 'Figtree', sans-serif;
     --marginp: 23px;
     --spacingnav: 2px;
     --fwnav: 300;
