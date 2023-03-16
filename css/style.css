@@ -301,11 +301,11 @@ img {
     height: 100%;
     object-fit: cover;
     border-radius: var(--rad);
-    opacity: .80;
 }
 
 img.hand {
   margin-top: var(--marginp);
+  opacity: .75;
 }
 
 .soc {
