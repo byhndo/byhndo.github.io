@@ -4,10 +4,10 @@
 
 :root {  
     --color1: #ebebeb;
-    --color2: #464a53;      
+    --color2: #3b3e45;      
     --c1: #cf3c4b;
     --c2: #FED049;
-    --color3: #525760;
+    --color3: #464a53;
     --color4: #b3b3b3;
     --sizebody: 13px;
     --sizetitle: calc(32vw + .5rem);
