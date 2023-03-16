@@ -3,12 +3,12 @@
 @font-face{font-family:Thunder;src:url(../fonts/Thunder-LightLC.woff) format('woff');font-weight:300;font-style:normal}
 
 :root {  
-    --color1: #e3e5e8;
-    --color2: #373A40;   
+    --color1: #e6e6e6;
+    --color2: #2f2f2f;   
     --c1: #cf3c4b;
     --c2: #FED049;
     --color3: #3b3e45;
-    --color4: #babec4;
+    --color4: #b3b3b3;
     --sizebody: 13px;
     --sizetitle: calc(32vw + .5rem);
     --sizetitle2: 8vw;
