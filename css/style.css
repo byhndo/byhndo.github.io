@@ -85,7 +85,8 @@ h1 {
   left: -.5%;
   line-height: 75%;
   transition: color 2.5s;
-  letter-spacing: calc(-0.05vw + -0.1rem);
+  letter-spacing: calc(-0.05vw + -0.1rem);   
+  text-transform: uppercase;  
 }
 
 h1 span{
