@@ -2,18 +2,6 @@
 @font-face{font-family:Thunder;src:url(../fonts/Thunder-ExtraBoldLC.woff) format('woff');font-weight:800;font-style:normal}
 @font-face{font-family:Thunder;src:url(../fonts/Thunder-LightLC.woff) format('woff');font-weight:300;font-style:normal}
 
-
-
-
-
-@font-face{font-family:Mango;src:url(../fonts/MangoGrotesque-Black.woff) format('woff');font-weight:900;font-style:normal}
-
-
-
-
-
-
-
 :root {  
     --color1: #eee;
     --color2: #464a53;      
@@ -25,7 +13,7 @@
     --sizetitle: calc(32vw + .5rem);
     --sizetitle2: 8vw;
     --sizenav: 9.5px;
-    --font1: 'Mango', sans-serif;
+    --font1: 'Thunder', sans-serif;
     --font2: 'Figtree', sans-serif;
     --marginp: 23px;
     --spacingnav: 2px;
@@ -86,7 +74,6 @@ h1 {
   line-height: 75%;
   transition: color 2.5s;
   letter-spacing: calc(-0.05vw + -0.1rem);   
-  text-transform: uppercase;  
 }
 
 h1 span{
