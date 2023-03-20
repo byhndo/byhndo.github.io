@@ -1,3 +1,8 @@
+import "splitting/css/splitting.css";
+import Splitting from "splitting";
+Splitting();
+
+
 gsap.registerPlugin(ScrollTrigger);
 const {
     createApp,
