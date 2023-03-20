@@ -101,26 +101,30 @@ h1 span{
   margin-bottom: 23px;
 }
 
+.sub-title span{
+  position: relative;
+}
+
 .photos .sub-title {
-    color: var(--color4);
+  color: var(--color4);
 }
 
 .ball {
-    position: relative;
-    display: inline-flex;
-    width: calc(4.2vw + .3rem);
-    height: calc(4.2vw + .3rem);
-    border-radius: 50%;
-    background-color: var(--c1); 
-    margin-left: calc(-.08vw + -.1rem);
-    top: -20%;
-    opacity: 0;
-    transition: background-color 2.5s;
+  position: relative;
+  display: inline-flex;
+  width: calc(4.2vw + .3rem);
+  height: calc(4.2vw + .3rem);
+  border-radius: 50%;
+  background-color: var(--c1); 
+  margin-left: calc(-.08vw + -.1rem);
+  top: -20%;
+  opacity: 0;
+  transition: background-color 2.5s;
 }
 
 .photos .ball {
-    top: -20%;
-    background-color: var(--c2);
+  top: -20%;
+  background-color: var(--c2);
 }
 
 body {
