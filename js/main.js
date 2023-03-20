@@ -15,7 +15,8 @@ createApp({
         }
     },
     mounted: function() { 
-                
+        Splitting(); 
+        
         gsap.from("nav",  {
             delay: 2,
             duration: 3,
@@ -152,5 +153,3 @@ function setupReveal(container) {
 
     });
 }
-
-Splitting();
