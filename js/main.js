@@ -36,7 +36,7 @@ createApp({
           ease: "Elastic.easeOut"
          });
 
-        gsap.from(".sub-title", {
+        gsap.from(".sub-title span", {
             delay: 2,
             duration: 3,
             opacity: 0,         
