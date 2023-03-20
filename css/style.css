@@ -76,7 +76,7 @@ h1 {
   letter-spacing: calc(-0.05vw + -0.1rem);   
 }
 
-h1 .letter{
+#split .letter{
   position: relative;
   display: inline-block;
   transform-origin: 50% 100%;
@@ -99,12 +99,6 @@ h1 .letter{
   line-height: 2.2;
   bottom: 10px;
   margin-bottom: 23px;
-}
-
-.sub-title .letter{
-  position: relative;
-  display: inline-block;
-  transform-origin: 50% 100%;
 }
 
 .photos .sub-title {
