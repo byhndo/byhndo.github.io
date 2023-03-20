@@ -1,8 +1,3 @@
-var textWrapper = document.querySelector('h1');
-textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class="letter">$&</span>");
-
-
-
 gsap.registerPlugin(ScrollTrigger);
 const {
     createApp,
@@ -30,7 +25,7 @@ createApp({
             ease: "Expo.easeOut"
         }); 
          
-        gsap.from("h1 .letter", {
+        gsap.from("h1 span", {
           duration: 3,          
           scale: [0, 1],
           bottom: "-3rem",
