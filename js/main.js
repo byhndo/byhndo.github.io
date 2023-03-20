@@ -99,9 +99,10 @@ function setupReveal(container) {
                                        
             tl.from(two, {
             duration: 3,           
-            opacity: 0,            
+            opacity: 0,    
+            y: -50,
             filter: "blur(10px)",           
-            ease: "Expo.easeOut"           
+            ease: "Elastic.easeOut"           
             });
                      
             tl.to(line, {
