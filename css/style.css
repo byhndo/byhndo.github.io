@@ -76,7 +76,7 @@ h1 {
   letter-spacing: calc(-0.05vw + -0.1rem);   
 }
 
-h1 span{
+h1 .letter{
   position: relative;
   display: inline-block;
   transform-origin: 50% 100%;
@@ -101,7 +101,7 @@ h1 span{
   margin-bottom: 23px;
 }
 
-.sub-title span{
+.sub-title .letter{
   position: relative;
   display: inline-block;
   transform-origin: 50% 100%;
