@@ -1,5 +1,3 @@
-Splitting();
-
 gsap.registerPlugin(ScrollTrigger);
 const {
     createApp,
@@ -155,3 +153,4 @@ function setupReveal(container) {
     });
 }
 
+Splitting();
