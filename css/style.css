@@ -103,6 +103,8 @@ h1 span{
 
 .sub-title span{
   position: relative;
+  display: inline-block;
+  transform-origin: 50% 100%;
 }
 
 .photos .sub-title {
