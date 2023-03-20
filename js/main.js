@@ -1,4 +1,4 @@
-import "splitting/css/splitting.css";
+import "../css/splitting.css";
 import Splitting from "splitting";
 Splitting();
 
