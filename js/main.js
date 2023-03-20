@@ -40,7 +40,7 @@ createApp({
             delay: 2,
             duration: 3,
             opacity: 0,         
-            y: 100, 
+            y: 50, 
             stagger: {
             amount: .9
           },
