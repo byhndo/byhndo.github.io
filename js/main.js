@@ -20,14 +20,14 @@ createApp({
             delay: 2,
             duration: 3,
             opacity: 0,
-            y: "-3rem",
+            y: -100,
             filter: "blur(10px)",
             ease: "Expo.easeOut"
         }); 
          
         gsap.from("h1 span", {
           duration: 3,                  
-          y: 100,
+          y: -100,
           opacity: 0,          
           filter: "blur(10px)",                 
           stagger: {
@@ -40,7 +40,7 @@ createApp({
             delay: 2,
             duration: 3,
             opacity: 0,         
-            y: "3rem", 
+            y: 100, 
             stagger: {
             amount: 0.9
           },
