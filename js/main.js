@@ -99,8 +99,7 @@ function setupReveal(container) {
                                        
             tl.from(two, {
             duration: 3,           
-            opacity: 0,
-            y: -50,
+            opacity: 0,           
             filter: "blur(10px)",           
             ease: "Expo.easeOut"           
             });
