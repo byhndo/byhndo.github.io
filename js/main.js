@@ -102,7 +102,7 @@ function setupReveal(container) {
             y: 50,
             opacity: 0,    
             filter: "blur(10px)",           
-            ease: "none"           
+            ease: "Elastic.easeOut"           
             });
                      
             tl.to(line, {
