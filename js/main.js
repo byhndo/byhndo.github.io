@@ -40,7 +40,10 @@ createApp({
             delay: 2,
             duration: 3,
             opacity: 0,         
-            bottom: "-3rem", 
+            y: [100,0], 
+            stagger: {
+            amount: 0.9
+          },
             filter: "blur(10px)",
             ease: "Expo.easeOut"
         });
