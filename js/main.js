@@ -30,7 +30,7 @@ createApp({
             ease: "Expo.easeOut"
         }); 
          
-        gsap.from("h1 .letter", {
+        gsap.from("h1#split .letter", {
           duration: 3,          
           scale: [0, 1],
           bottom: "-3rem",
@@ -42,7 +42,7 @@ createApp({
           ease: "Expo.easeOut"
          });
 
-        gsap.from(".sub-title .letter", {
+        gsap.from(".sub-title #split .letter", {
             delay: 2,
             duration: 3,
             opacity: 0,         
