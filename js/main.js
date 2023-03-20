@@ -1,4 +1,4 @@
-var textWrapper = document.querySelector('.sub-title');
+var textWrapper = document.querySelector('#split');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
 
