@@ -1,5 +1,5 @@
 import "../css/splitting.css";
-import Splitting from "./js/splitting.js";
+import Splitting from "https://unpkg.com/splitting/dist/splitting.min.js";
 Splitting();
 
 
