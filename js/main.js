@@ -3,7 +3,6 @@ import "https://unpkg.com/splitting/dist/splitting-cells.css";
 import Splitting from "https://unpkg.com/splitting/dist/splitting.min.js";
 Splitting();
 
-
 gsap.registerPlugin(ScrollTrigger);
 const {
     createApp,
