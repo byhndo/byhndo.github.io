@@ -76,7 +76,7 @@ h1 {
   letter-spacing: calc(-0.05vw + -0.1rem);   
 }
 
-#split .letter{
+h1 .letter{
   position: relative;
   display: inline-block;
   transform-origin: 50% 100%;
