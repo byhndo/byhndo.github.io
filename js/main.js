@@ -1,5 +1,5 @@
-var textWrapper = document.querySelector('#split');
-textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+var textWrapper = document.querySelector('h1');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class="letter">$&</span>");
 
 
 
@@ -30,7 +30,7 @@ createApp({
             ease: "Expo.easeOut"
         }); 
          
-        gsap.from("h1#split .letter", {
+        gsap.from("h1 .letter", {
           duration: 3,          
           scale: [0, 1],
           bottom: "-3rem",
@@ -42,7 +42,7 @@ createApp({
           ease: "Expo.easeOut"
          });
 
-        gsap.from(".sub-title #split .letter", {
+        gsap.from(".sub-title", {
             delay: 2,
             duration: 3,
             opacity: 0,         
