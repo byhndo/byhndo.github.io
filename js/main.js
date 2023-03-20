@@ -1,5 +1,5 @@
 import "../css/splitting.css";
-import Splitting from "splitting";
+import Splitting from "../js/splitting.js";
 Splitting();
 
 
