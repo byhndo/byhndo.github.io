@@ -33,7 +33,7 @@ createApp({
           stagger: {
             amount: 0.9
           },
-          ease: "Elastic.easeOut"
+          ease: "Expo.easeOut"
          });
 
         gsap.from(".sub-title span", {
