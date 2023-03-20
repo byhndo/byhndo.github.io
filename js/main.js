@@ -152,5 +152,3 @@ function setupReveal(container) {
 
     });
 }
-
-Splitting();
