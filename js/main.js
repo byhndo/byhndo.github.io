@@ -20,7 +20,7 @@ createApp({
             delay: 2,
             duration: 3,
             opacity: 0,
-            y: -100,
+            y: -50,
             filter: "blur(10px)",
             ease: "Expo.easeOut"
         }); 
@@ -100,7 +100,7 @@ function setupReveal(container) {
             tl.from(two, {
             duration: 3,           
             opacity: 0,
-            y: -100,
+            y: -50,
             filter: "blur(10px)",           
             ease: "Expo.easeOut"           
             });
