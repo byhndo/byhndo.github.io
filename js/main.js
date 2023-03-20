@@ -27,7 +27,7 @@ createApp({
          
         gsap.from("h1 span", {
           duration: 3,   
-          y: 100,
+          y: -100,
           opacity: 0,          
           filter: "blur(10px)",                 
           stagger: {
