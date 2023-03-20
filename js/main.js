@@ -98,11 +98,11 @@ function setupReveal(container) {
             });                      
                                        
             tl.from(two, {
-            duration: 3,           
+            duration: 3, 
+            scale: [.5,1],
             opacity: 0,    
-            y: -50,
             filter: "blur(10px)",           
-            ease: "Elastic.easeOut"           
+            ease: "none"           
             });
                      
             tl.to(line, {
