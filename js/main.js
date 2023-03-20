@@ -32,7 +32,7 @@ createApp({
           opacity: 0,          
           filter: "blur(10px)",                 
           stagger: {
-            amount: 0.9
+            amount: .9
           },
           ease: "Expo.easeOut"
          });
@@ -43,7 +43,7 @@ createApp({
             opacity: 0,         
             y: 100, 
             stagger: {
-            amount: 0.9
+            amount: .9
           },
             filter: "blur(10px)",
             ease: "Expo.easeOut"
