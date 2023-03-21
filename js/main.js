@@ -1,3 +1,9 @@
+import '../css/normalize.css';
+import '../css/style.css';
+
+
+
+
 gsap.registerPlugin(ScrollTrigger);
 const {
     createApp,
