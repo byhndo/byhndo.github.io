@@ -296,7 +296,6 @@ p.sub2 {
 }
 
 img {
-  posituon: relative;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -306,19 +305,6 @@ img {
 img.hand {
   margin-top: var(--marginp);
   opacity: .8;
-}
-
-img::after {
-  content: '';	
-  background: blue;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  mix-blend-mode: color-dodge;
-  opacity: 0;
-  transition: opacity 0.3s;
 }
 
 .soc {
