@@ -307,7 +307,7 @@ img.hand {
   opacity: .8;
 }
 
-.grid__item-img::after {
+img::after {
   content: '';	
   background: blue;
   position: absolute;
