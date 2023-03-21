@@ -307,7 +307,7 @@ img.hand {
   opacity: .8;
 }
 
-img::after {
+.item img::after {
   content: '';	
   background: blue;
   position: absolute;
