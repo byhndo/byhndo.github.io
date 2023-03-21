@@ -144,8 +144,8 @@ function setupReveal(container) {
 
             tl.from(image, {
               duration: 7,                   
-              scale: 1.7, 
-              delay: .5,
+              scale: 1.5, 
+              delay: .3,
               ease: "Expo.easeOut"
             }, 0);
         });
