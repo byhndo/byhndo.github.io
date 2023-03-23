@@ -2,6 +2,10 @@
 @font-face{font-family:Thunder;src:url(../fonts/Thunder-ExtraBoldLC.woff) format('woff');font-weight:800;font-style:normal}
 @font-face{font-family:Thunder;src:url(../fonts/Thunder-LightLC.woff) format('woff');font-weight:300;font-style:normal}
 
+@font-face{font-family:Obrazec;src:url(../fonts/Obrazec-2.woff) format('woff');font-weight:800;font-style:normal}
+
+
+
 :root {  
     --color1: #eee;
     --color2: #464a53;      
@@ -13,7 +17,7 @@
     --sizetitle: calc(32vw + .5rem);
     --sizetitle2: 8vw;
     --sizenav: 9.5px;
-    --font1: 'Thunder', sans-serif;
+    --font1: 'Obrazec', sans-serif;
     --font2: 'Figtree', sans-serif;
     --marginp: 23px;
     --spacingnav: 2px;
