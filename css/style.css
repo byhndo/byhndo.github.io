@@ -194,6 +194,10 @@ a {
     transform: scale(1) translateX(0) translateY(0);
 }
 
+#goey {
+ outline: 100px solid transparent;
+}
+
 nav {
     position: fixed;
     top: 0;
