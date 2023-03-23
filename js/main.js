@@ -152,3 +152,38 @@ function setupReveal(container) {
 
     });
 }
+
+
+
+const turbulence = document.querySelector("feTurbulence");
+const durationTime = 3;
+document.addEventListener("mouseover", (e) => {
+
+  if (!e.target.matches("#goey")) return;
+  const goey = e.target.parentNode.querySelector("#goey");
+
+  gsap.to(goey, {
+    duration: 0,
+    startAt: { css: { filter: "none" } },
+    css: { filter: "url(#distortion)" }
+  });
+
+  gsap.to(turbulence, {
+    duration: durationTime,
+    startAt: { attr: { baseFrequency: 0.08 } },
+    attr: { baseFrequency: 0 }
+  });
+});
+
+document.addEventListener("mouseout", (e) => {
+  if (!e.target.matches("#goey")) return;
+  const goey = e.target.parentNode.querySelector("#goey");
+
+  gsap.to(goey, {
+    duration: 0,
+    startAt: { css: { filter: "url(#distortion)" } },
+    css: { filter: "none" }
+  });
+});
+
+
