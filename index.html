@@ -33,7 +33,16 @@
 </head>
 <body>                                                                                   
 <div id="app">
-  <div :class="['bg', bg]">  
+  <div :class="['bg', bg]"> 
+      <svg>
+      <defs>
+        <filter id="distortion">
+          <feTurbulence type="fractalNoise" baseFrequency="0" numOctaves="1" result="warp"></feTurbulence>
+          <feOffset dx="-90" result="warpOffset"></feOffset>
+          <feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="30" in="SourceGraphic" in2="warpOffset"></feDisplacementMap>
+        </filter>
+      </defs>
+    </svg>
     <nav>
       <ul>         
         <li><a class="link-bio" id="goey" href="#" @click="bg = 'bio'">Bio</a></li>                        
