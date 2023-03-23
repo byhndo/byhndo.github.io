@@ -405,3 +405,8 @@ img, .box1, .box2, .one, .one span, .two{
   font-size: var(--sizenav);
   font-weight: var(--fwnav);
 }
+@media(min-width: 500px){
+    main{
+    margin-top:150px;          
+    }
+}
