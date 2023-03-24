@@ -170,7 +170,7 @@ document.addEventListener("mouseover", (e) => {
 
   gsap.to(turbulence, {
     duration: durationTime,
-    startAt: { attr: { baseFrequency: 0.04 } },
+    startAt: { attr: { baseFrequency: 0.03 } },
     attr: { baseFrequency: 0 }
   });
 });
