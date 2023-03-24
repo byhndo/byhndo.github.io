@@ -156,7 +156,7 @@ function setupReveal(container) {
 
 
 const turbulence = document.querySelector("feTurbulence");
-const durationTime = 3;
+const durationTime = 4.5;
 document.addEventListener("mouseover", (e) => {
 
   if (!e.target.matches("#goey")) return;
