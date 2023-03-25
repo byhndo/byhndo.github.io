@@ -25,7 +25,7 @@ createApp({
             ease: "Quad.easeOut"
         }); 
          
-        gsap.from("h1", {
+        gsap.from("h1 span", {
           duration: 3,   
           scale: [0.1],
           y: 50,
