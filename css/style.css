@@ -67,11 +67,6 @@ h1 {
   text-transform: capitalize;
 }
 
-h1 span{
-  position: relative;
-  transform-origin: 50% 100%;
-}
-
 .photos h1 {
   color: var(--color1);
 }
