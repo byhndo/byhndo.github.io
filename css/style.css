@@ -5,8 +5,6 @@
 :root {  
     --color1: #eee;
     --color2: #464a53;      
-    --color3: #525660;
-    --color4: #bbb;
     --c1: #cf3c4b;
     --c2: #FED049;
     --sizebody: 13px;
@@ -88,7 +86,7 @@ h1 span{
 
 .sub-title {
   position: relative;
-  color: var(--color3);
+  color: var(--color2);
   font-family: var(--font2);
   font-weight: 400;
   font-size: calc(0.4vw + 0.5rem);
@@ -101,7 +99,7 @@ h1 span{
 }
 
 .photos .sub-title {
-  color: var(--color4);
+  color: var(--color1);
 }
 
 .ball {
@@ -272,11 +270,11 @@ p.sub1, p.sub2 {
 }
 
 p.sub1 {
-    color: var(--color3);
+    color: var(--color2);
 }
 
 p.sub2 {
-    color: var(--color4);
+    color: var(--color1);
 }
 
 .grid {
@@ -364,14 +362,14 @@ img, .box1, .box2, .one, .one span, .two{
   margin-top: -8px;
   width: 0vw;
   height: .3vw;
-  background-color: var(--color3);
+  background-color: var(--color2);
   opacity: 0;
   filter: blur(10px);
   z-index: 1000;
 }
 
 .photos .line {
-  background-color: var(--color4);
+  background-color: var(--color1);
 }
 
 .footer {
