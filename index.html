@@ -30,9 +30,7 @@
   <meta name="robots" content="noindex,nofollow">
   <link rel="stylesheet" href="../css/normalize.css">
   <link rel="stylesheet" href="../css/style.css">
-  <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css" />
-  <link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting-cells.css" />
-</head>
+  </head>
 <body>                                                                                   
 <div id="app">
   <div :class="['bg', bg]"> 
@@ -54,8 +52,8 @@
 <div class="transition transition-bio"></div>
 <div class="transition transition-photos"></div>                                                
 <main>
-<h1 data-splitting>Bayu<br>Handono</h1><div class="ball"></div>                                               
-<div class="sub-title" data-splitting>Who am I? it depends on your attitude.</div>
+<h1>Bayu<br>Handono</h1><div class="ball"></div>                                               
+<div class="sub-title">Who am I? it depends on your attitude.</div>
 <transition appear name="slide-fade" mode="out-in" @after-enter="afterEnter" @after-leave="afterLeave">
 <!-- sub1 -->
 <div class="sub1" key="bio" v-if="bg==='bio'">
@@ -224,7 +222,6 @@
   <script src="js/vue.js"></script>
   <script src="js/gsap.js"></script>
   <script src="js/scrolltrigger.js"></script> 
-  <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
