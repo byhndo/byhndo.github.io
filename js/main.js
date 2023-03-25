@@ -111,7 +111,7 @@ function setupReveal(container) {
                 width: "100%",
                 opacity: 1,
                 filter: "blur(0px)",
-                ease: "Quad.easeInOut"
+                ease: "Quad.easeOut"
             }, "<");
                                                                                                                 
         });
