@@ -69,7 +69,6 @@ h1 {
 
 h1 span{
   position: relative;
-  display: inline-block;
   transform-origin: 50% 100%;
 }
 
