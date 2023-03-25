@@ -349,7 +349,7 @@ img, .box1, .box2, .one, .one span, .two{
   height: .3vw;
   background-color: var(--color2);
   opacity: 0;
-  filter: blur(2px);
+  filter: blur(10px);
   z-index: 1000;
 }
 
