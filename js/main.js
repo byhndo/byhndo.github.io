@@ -21,7 +21,7 @@ createApp({
             duration: 1,
             opacity: 0,
             y: -30,
-            filter: "blur(10px)",
+            filter: "blur(2px)",
             ease: "Quad.easeOut"
         }); 
          
@@ -29,7 +29,7 @@ createApp({
           duration: 1,            
           bottom: 30,
           opacity: 0,    
-          filter: "blur(10px)",                 
+          filter: "blur(2px)",                 
           stagger: {
             amount: .9
           },
@@ -44,7 +44,7 @@ createApp({
             stagger: {
             amount: .9
           },
-            filter: "blur(10px)",
+            filter: "blur(2px)",
             ease: "Quad.easeOut"
         });
         
@@ -77,7 +77,7 @@ function setupReveal(container) {
             duration: 1,           
             opacity: 0, 
             scale: [0,1],            
-            filter: "blur(10px)",           
+            filter: "blur(2px)",           
             ease: "Quad.easeOut",
             stagger: {
             amount: .9
@@ -101,7 +101,7 @@ function setupReveal(container) {
             duration: 1, 
             y:-30,
             opacity: 0,    
-            filter: "blur(10px)",           
+            filter: "blur(2px)",           
             ease: "Quad.easeOut"           
             });
                      
