@@ -8,7 +8,7 @@
     --c1: #cf3c4b;
     --c2: #FED049;
     --sizebody: 13px;
-    --sizetitle: calc(30vw + 1rem);
+    --sizetitle: calc(29vw + 1rem);
     --sizetitle2: 8vw;
     --sizenav: 9.5px;
     --font1: 'Thunder', sans-serif;
@@ -34,19 +34,19 @@ h1, h2, h3, h4, h5 {
 }
 
 h2 {
-    font-size: 320%;
+    font-size: 330%;
 }
 
 h3 {
-  font-size: 270%;
+  font-size: 280%;
 }
 
 h4 {
-    font-size: 220%;
+    font-size: 230%;
 }
 
 h5 {
-    font-size: 170%;
+    font-size: 180%;
 }
 
 h1 {
