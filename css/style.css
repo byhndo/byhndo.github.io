@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5 {
   margin-top: var(--marginp);
   margin-bottom: var(--marginp); 
   z-index: 2000;
-  letter-spacing: calc(-.005vw + -.05rem);
+  letter-spacing: calc(-.005vw + -.01rem);
 }
 
 h2 {
@@ -61,7 +61,7 @@ h1 {
   left:-1%;
   line-height: .75;
   text-transform: capitalize;
-  letter-spacing: calc(-.1vw + -.05rem);
+  letter-spacing: calc(-.3vw + -.05rem);
 }
 
 .photos h1 {
@@ -78,7 +78,7 @@ h1 {
   text-transform: uppercase;
   transition: color 2.5s;
   line-height: 2.2;
-  bottom: 23px;
+  bottom: 15px;
 }
 
 .photos .sub-title {
@@ -341,7 +341,7 @@ img, .box1, .box2, .one, .one span, .two{
   position: relative;
   width: 0vw;
   height: .3vw;
-  bottom: 8px;
+  bottom: 15px;
   background-color: var(--color2);
   opacity: 0;
   filter: blur(10px);
