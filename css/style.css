@@ -31,6 +31,7 @@ h1, h2, h3, h4, h5 {
   margin-top: var(--marginp);
   margin-bottom: var(--marginp); 
   z-index: 2000;
+  letter-spacing: calc(.05vw + .1rem);
 }
 
 h2 {
@@ -344,7 +345,7 @@ img, .box1, .box2, .one, .one span, .two{
   position: relative;
   width: 0vw;
   height: .3vw;
-  bottom: -8px;
+  bottom: 8px;
   background-color: var(--color2);
   opacity: 0;
   filter: blur(10px);
