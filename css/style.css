@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6, h7 {
   line-height:1;
   margin-top: var(--marginp);
   margin-bottom: var(--marginp); 
-  letter-spacing: calc(-0.01vw + -0.03rem);
+  letter-spacing: calc(-.5vw + -.5rem);
   z-index: 2000;
   text-transform: uppercase;
 }
