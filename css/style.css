@@ -64,7 +64,7 @@ h1 {
   transition: color 2.5s; 
   left:-1%;
   line-height: 1;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 h1 span{
