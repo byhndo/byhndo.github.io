@@ -325,6 +325,7 @@ img.hand {
 
 svg:hover, svg:active{
     opacity: .6;
+    filter: blur(10px);
 }
 
 img, .box1, .box2, .one, .one span, .two{
