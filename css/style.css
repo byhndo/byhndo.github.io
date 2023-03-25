@@ -64,10 +64,6 @@ h1 {
   letter-spacing: calc(-.1vw + -.05rem);
 }
 
-h1 span{
-position: relative;
-}
-
 .photos h1 {
   color: var(--color1);
 }
