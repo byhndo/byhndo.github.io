@@ -64,7 +64,7 @@ h1 {
   color: var(--color2);
   font-size: var(--sizetitle);
   padding: 0;
-  line-height: 75%;
+  line-height: 1;
   transition: color 2.5s;  
 }
 
