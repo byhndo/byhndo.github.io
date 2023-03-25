@@ -20,14 +20,14 @@ createApp({
             delay: 2,
             duration: 1,
             opacity: 0,
-            y: -50,
+            y: -30,
             filter: "blur(10px)",
             ease: "Quad.easeOut"
         }); 
          
         gsap.from("h1 span", {
           duration: 1,            
-          bottom: 50,
+          bottom: 30,
           opacity: 0,    
           filter: "blur(10px)",                 
           stagger: {
@@ -40,7 +40,7 @@ createApp({
             delay: 2,
             duration: 1,
             opacity: 0,         
-            y: 50, 
+            y: 30, 
             stagger: {
             amount: .9
           },
@@ -99,7 +99,7 @@ function setupReveal(container) {
                                        
             tl.from(two, {
             duration: 1, 
-            y:-50,
+            y:-30,
             opacity: 0,    
             filter: "blur(10px)",           
             ease: "Quad.easeOut"           
