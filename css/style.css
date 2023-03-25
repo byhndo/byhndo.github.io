@@ -344,7 +344,7 @@ img, .box1, .box2, .one, .one span, .two{
 
 .line {
   position: relative;
-  bottom: -23px;
+  bottom: 0;
   width: 0vw;
   height: .3vw;
   background-color: var(--color2);
