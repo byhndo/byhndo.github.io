@@ -33,8 +33,6 @@ h1, h2, h3, h4, h5 {
   position: relative;
   font-family: var(--font1);
   font-weight: var(--fwtitle);
-  text-align: center; 
-  line-height:1;
   margin-top: var(--marginp);
   margin-bottom: var(--marginp); 
   z-index: 2000;
@@ -66,6 +64,8 @@ h1 {
   padding: 0;
   line-height: 1;
   transition: color 2.5s; 
+  left:-1%;
+  line-height: .75;
 }
 
 h1 span{
@@ -227,7 +227,7 @@ main {
   max-width: 90%;
   padding: 0 0 10px 0;
   margin: -90px auto 0 auto;
-  text-align: center;
+  text-align: left;
 }
 
 .slide-fade-enter-active {
