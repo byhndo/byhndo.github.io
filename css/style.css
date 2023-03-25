@@ -31,6 +31,7 @@ h1, h2, h3, h4, h5 {
   margin-top: var(--marginp);
   margin-bottom: var(--marginp); 
   z-index: 2000;
+  text-transform: capitalize;
   letter-spacing: calc(-.005vw + -.01rem);
 }
 
@@ -59,7 +60,6 @@ h1 {
   transition: color 2.5s; 
   left:-.9%;
   line-height: .75;
-  text-transform: capitalize;
   letter-spacing: calc(-.3vw + -.05rem);
 }
 
