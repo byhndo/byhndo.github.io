@@ -100,7 +100,7 @@ function setupReveal(container) {
                                        
             tl.from(two, {
             duration: 1, 
-            y: 50,
+            y:-50,
             opacity: 0,    
             filter: "blur(10px)",           
             ease: "Quad.easeOut"           
