@@ -18,7 +18,7 @@ createApp({
                  
         gsap.from("nav",  {
             delay: 2,
-            duration: 2,
+            duration: 1,
             opacity: 0,
             y: -50,
             filter: "blur(10px)",
@@ -26,7 +26,7 @@ createApp({
         }); 
          
         gsap.from("h1, h1 span", {
-          duration: 3,            
+          duration: 1,            
           y: 50,
           opacity: 0,          
           filter: "blur(10px)",                 
@@ -38,7 +38,7 @@ createApp({
 
         gsap.from(".sub-title", {
             delay: 2,
-            duration: 2,
+            duration: 1,
             opacity: 0,         
             y: 50, 
             stagger: {
@@ -98,7 +98,7 @@ function setupReveal(container) {
             });                      
                                        
             tl.from(two, {
-            duration: 3, 
+            duration: 1, 
             y: -50,
             opacity: 0,    
             filter: "blur(10px)",           
@@ -106,7 +106,7 @@ function setupReveal(container) {
             });
                      
             tl.to(line, {
-                duration: 3,
+                duration: 1,
                 width: "100%",
                 opacity: 1,
                 filter: "blur(0px)",
