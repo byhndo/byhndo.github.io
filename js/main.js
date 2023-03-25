@@ -18,7 +18,7 @@ createApp({
                  
         gsap.from("nav",  {
             delay: 2,
-            duration: 3,
+            duration: 2,
             opacity: 0,
             y: -50,
             filter: "blur(10px)",
@@ -39,7 +39,7 @@ createApp({
 
         gsap.from(".sub-title", {
             delay: 2,
-            duration: 3,
+            duration: 2,
             opacity: 0,         
             y: 50, 
             stagger: {
