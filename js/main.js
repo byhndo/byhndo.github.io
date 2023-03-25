@@ -106,7 +106,7 @@ function setupReveal(container) {
             });
                      
             tl.to(line, {
-                duration: 1,
+                duration: 2,
                 width: "100%",
                 opacity: 1,
                 filter: "blur(0px)",
