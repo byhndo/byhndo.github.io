@@ -82,6 +82,7 @@ position: relative;
   text-transform: uppercase;
   transition: color 2.5s;
   line-height: 2.2;
+  bottom: 23px;
 }
 
 .photos .sub-title {
@@ -344,7 +345,7 @@ img, .box1, .box2, .one, .one span, .two{
   position: relative;
   width: 0vw;
   height: .3vw;
-  bottom: 12px;
+  bottom: 8px;
   background-color: var(--color2);
   opacity: 0;
   filter: blur(10px);
