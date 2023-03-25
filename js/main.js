@@ -22,7 +22,7 @@ createApp({
             opacity: 0,
             y: -50,
             filter: "blur(10px)",
-            ease: "Expo.easeOut"
+            ease: "Quad.easeOut"
         }); 
          
         gsap.from("h1", {
@@ -46,7 +46,7 @@ createApp({
             amount: .9
           },
             filter: "blur(10px)",
-            ease: "Expo.easeOut"
+            ease: "Quad.easeOut"
         });
         
         gsap.to(".ball", {
