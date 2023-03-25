@@ -25,7 +25,7 @@ createApp({
             ease: "Expo.easeOut"
         }); 
          
-        gsap.from("h1", {
+        gsap.from("h1 span", {
           duration: 3,   
           scale: [0.1],
           opacity: 0,          
@@ -138,12 +138,12 @@ function setupReveal(container) {
             {
               clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
               webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
-              duration: 2,     
+              duration: 1,     
               ease: "Quad.easeOut"
             });
 
             tl.from(image, {
-              duration: 5,                   
+              duration: 4,                   
               scale: 1.5, 
               delay: .3,
               ease: "Quad.easeOut"
