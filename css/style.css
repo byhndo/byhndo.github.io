@@ -90,8 +90,8 @@ position: relative;
 .ball {
   position: relative;
   display: inline-flex;
-  width: calc(3vw + .3rem);
-  height: calc(3vw + .3rem);
+  width: calc(4vw + .3rem);
+  height: calc(4vw + .3rem);
   background-color: var(--c1); 
   margin-left: calc(-.08vw + -.1rem);
   top: -20%;
