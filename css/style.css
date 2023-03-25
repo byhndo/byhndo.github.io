@@ -65,7 +65,8 @@ h1 {
   font-size: var(--sizetitle);
   padding: 0;
   line-height: 1;
-  transition: color 2.5s;  
+  transition: color 2.5s; 
+  text-align: center;
 }
 
 h1 span{
