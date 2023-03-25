@@ -13,7 +13,7 @@
     --c1: #cf3c4b;
     --c2: #FED049;
     --sizebody: 13px;
-    --sizetitle: calc(32vw + .5rem);
+    --sizetitle: calc(20vw + .5rem);
     --sizetitle2: 8vw;
     --sizenav: 9.5px;
     --font1: 'Chakra Petch', sans-serif;
@@ -37,7 +37,6 @@ h1, h2, h3, h4, h5, h6, h7 {
   line-height:1;
   margin-top: var(--marginp);
   margin-bottom: var(--marginp); 
-  letter-spacing: calc(-.5vw + -.5rem);
   z-index: 2000;
   text-transform: uppercase;
 }
@@ -76,8 +75,7 @@ h1 {
   padding: 0;
   left: -.5%;
   line-height: 75%;
-  transition: color 2.5s;
-  letter-spacing: calc(-.5vw + -.5rem);   
+  transition: color 2.5s;  
 }
 
 h1 span{
@@ -101,7 +99,6 @@ h1 span{
   text-align: center;
   transition: color 2.5s;
   line-height: 2.2;
-  bottom: 10px;
   margin-bottom: 23px;
 }
 
