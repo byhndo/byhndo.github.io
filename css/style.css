@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5 {
   margin-top: var(--marginp);
   margin-bottom: var(--marginp); 
   z-index: 2000;
-  letter-spacing: calc(-.05vw + -.1rem);
+  letter-spacing: calc(-.05vw + -.01rem);
 }
 
 h2 {
