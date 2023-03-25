@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5 {
   margin-top: var(--marginp);
   margin-bottom: var(--marginp); 
   z-index: 2000;
-  letter-spacing: calc(-.05vw + -.05rem);
+  letter-spacing: calc(-.005vw + -.05rem);
 }
 
 h2 {
@@ -61,7 +61,7 @@ h1 {
   left:-1%;
   line-height: .75;
   text-transform: capitalize;
-  letter-spacing: calc(-.05vw + -.05rem);
+  letter-spacing: calc(-.1vw + -.05rem);
 }
 
 h1 span{
@@ -94,7 +94,7 @@ position: relative;
   width: calc(4vw + .3rem);
   height: calc(4vw + .3rem);
   background-color: var(--c1); 
-  margin-left: calc(-.1vw + -.1rem);
+  margin-left: calc(-.5vw + -.1rem);
   top: -20%;
   opacity: 0;
   transition: background-color 2.5s;
