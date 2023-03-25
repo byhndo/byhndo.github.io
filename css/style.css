@@ -231,8 +231,8 @@ nav .link-photos {
 main {
   position: relative;
   max-width: 90%;
-  padding: 0;
-  margin: -90px auto 2vh auto;
+  padding: 0 0 23px 0;
+  margin: -90px auto 0 auto;
   text-align: left;
 }
 
