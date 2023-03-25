@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5 {
   position: relative;
   font-family: var(--font1);
   font-weight: var(--fwtitle);
-  text-align: center; 
+  text-align: center!important; 
   line-height:1;
   margin-top: var(--marginp);
   margin-bottom: var(--marginp); 
@@ -99,9 +99,8 @@ h1 span{
 .ball {
   position: relative;
   display: inline-flex;
-  width: calc(4.2vw + .3rem);
-  height: calc(4.2vw + .3rem);
-  border-radius: 50%;
+  width: calc(4vw + .3rem);
+  height: calc(4vw + .3rem);
   background-color: var(--c1); 
   margin-left: calc(-.08vw + -.1rem);
   top: -20%;
