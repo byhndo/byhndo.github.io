@@ -187,3 +187,5 @@ document.addEventListener("mouseout", (e) => {
 });
 
 
+Splitting();
+
