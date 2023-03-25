@@ -60,6 +60,7 @@ h1 {
   left:-1%;
   line-height: .75;
   text-transform: capitalize;
+  letter-spacing: calc(.1vw + .1rem);
 }
 
 h1 span{
