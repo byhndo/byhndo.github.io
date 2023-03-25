@@ -25,9 +25,9 @@ createApp({
             ease: "Quad.easeOut"
         }); 
          
-        gsap.from("h1, h1 span", {
+        gsap.from("h1 span", {
           duration: 1,            
-          y: 50,
+          y: -50,
           opacity: 0,          
           filter: "blur(10px)",                 
           stagger: {
