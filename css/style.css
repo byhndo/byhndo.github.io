@@ -36,7 +36,6 @@ h1, h2, h3, h4, h5 {
   margin-top: var(--marginp);
   margin-bottom: var(--marginp); 
   z-index: 2000;
-  text-transform: capitalize;
 }
 
 h2 {
