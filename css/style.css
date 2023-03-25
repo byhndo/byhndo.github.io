@@ -8,7 +8,7 @@
     --c1: #cf3c4b;
     --c2: #FED049;
     --sizebody: 13px;
-    --sizetitle: calc(18vw + 1rem);
+    --sizetitle: calc(30vw + 1rem);
     --sizetitle2: 8vw;
     --sizenav: 9.5px;
     --font1: 'Thunder', sans-serif;
@@ -60,6 +60,10 @@ h1 {
   left:-1%;
   line-height: .75;
   text-transform: capitalize;
+}
+
+h1 span{
+position: relative;
 }
 
 .photos h1 {
@@ -339,7 +343,7 @@ img, .box1, .box2, .one, .one span, .two{
   position: relative;
   width: 0vw;
   height: .3vw;
-  bottom: 3px;
+  bottom: 8px;
   background-color: var(--color2);
   opacity: 0;
   filter: blur(10px);
