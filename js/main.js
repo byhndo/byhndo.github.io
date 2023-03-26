@@ -74,12 +74,11 @@ function setupReveal(container) {
             }); 
                         
             tl.from(one, {
-            duration: 3,           
+            duration: 4,           
             opacity: 0, 
             scale: [0,1], 
             rotation:90,
-            rotationX:-50, 
-            transformOrigin:"50% 50%",
+            rotationX:-50,            
             filter: "blur(10px)",           
             ease: "Elastic.easeOut",
             stagger: {
