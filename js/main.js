@@ -74,7 +74,7 @@ function setupReveal(container) {
             }); 
                         
             tl.from(one, {
-            duration: 1,           
+            duration: 3,           
             opacity: 0, 
             scale: [0,1], 
             rotation:90,
