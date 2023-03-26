@@ -17,7 +17,6 @@
     --spacingnav: 2px;
     --fwnav: 300;
     --fwtitle: 800;
-    --rad: 10px;
 }
 
 *, *:before, *:after {
@@ -287,7 +286,6 @@ img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: var(--rad);
 }
 
 img.hand {
