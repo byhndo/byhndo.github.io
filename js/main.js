@@ -79,7 +79,7 @@ function setupReveal(container) {
             scale: [0,1], 
             rotation:90,
             rotationX:-50,    
-            transformOrigin:"0% 50%",
+            transformOrigin:"100% 50%",
             filter: "blur(10px)",           
             ease: "Elastic.easeOut",
             stagger: {
