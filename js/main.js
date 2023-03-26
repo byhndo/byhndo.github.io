@@ -26,14 +26,17 @@ createApp({
         }); 
          
         gsap.from("h1 span", {
-          duration: 1,            
-          bottom: 30,
-          opacity: 0,    
+          duration: 3,                     
+          opacity: 0, 
+          scale: [0,1], 
+          rotation:90,
+          rotationX:-50,    
+          transformOrigin:"50% 50%",
           filter: "blur(10px)",                 
           stagger: {
             amount: .9
           },
-          ease: "Quad.easeOut"
+          ease: "Elastic.easeOut"
          });
 
         gsap.from(".sub-title", {
