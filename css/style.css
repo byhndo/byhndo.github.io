@@ -232,6 +232,7 @@ main {
 }
 
 .slide-fade-enter-from, .slide-fade-leave-to {
+  transform: translateY(-2rem);
   opacity: 0;
   filter : blur(10px);
 }
@@ -252,7 +253,7 @@ span.prolog {
 p.sub1, p.sub2 {
     text-transform: none;
     text-align: left;
-    letter-spacing: .1rem;
+    letter-spacing: .03rem;
 }
 
 p.sub1 {
