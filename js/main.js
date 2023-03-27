@@ -26,7 +26,7 @@ createApp({
         }); 
          
         gsap.from("h1 span", {
-          duration: 1,                     
+          duration: 3,                     
           opacity: 0, 
           scale: [0,1],   
           transformOrigin:"50% 50%",
@@ -75,7 +75,7 @@ function setupReveal(container) {
             }); 
                         
             tl.from(one, {
-            duration: 1,           
+            duration: 3,           
             opacity: 0, 
             scale: [0,1],            
             filter: "blur(10px)",           
