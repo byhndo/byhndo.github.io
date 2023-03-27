@@ -232,7 +232,6 @@ main {
 }
 
 .slide-fade-enter-from, .slide-fade-leave-to {
-  transform: translateY(-30);
   opacity: 0;
   filter : blur(10px);
 }
