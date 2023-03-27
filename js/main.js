@@ -26,15 +26,16 @@ createApp({
         }); 
          
         gsap.from("h1 span", {
-          duration: 1,                     
+          duration: 2,                     
           opacity: 0, 
-          scale: [0,1],   
+          scale: [0,1],
+          y: "3rem",
           transformOrigin:"50% 50%",
           filter: "blur(10px)",                 
           stagger: {
             amount: .9
           },
-          ease: "Expo.easeOut"
+          ease: "Back.easeOut"
          });
 
         gsap.from(".sub-title", {
@@ -75,11 +76,12 @@ function setupReveal(container) {
             }); 
                         
             tl.from(one, {
-            duration: 1,           
+            duration: 2,           
             opacity: 0, 
-            scale: [0,1],            
+            scale: [0,1],
+            y: "3rem",
             filter: "blur(10px)",           
-            ease: "Expo.easeOut",
+            ease: "Back.easeOut",
             stagger: {
             amount: .9
             }            
