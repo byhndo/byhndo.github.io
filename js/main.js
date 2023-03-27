@@ -34,7 +34,7 @@ createApp({
           stagger: {
             amount: .9
           },
-          ease: "Back.easeOut"
+          ease: "Bounce.easeOut"
          });
 
         gsap.from(".sub-title", {
@@ -80,7 +80,7 @@ function setupReveal(container) {
             scale: [0,1],
             y: "-3rem",
             filter: "blur(10px)",           
-            ease: "Back.easeOut",
+            ease: "Bounce.easeOut",
             stagger: {
             amount: .9
             }            
