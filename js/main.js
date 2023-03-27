@@ -29,8 +29,7 @@ createApp({
           duration: 2,                     
           opacity: 0, 
           scale: [0,1],
-          y: "3rem",
-          transformOrigin:"50% 50%",
+          y: "3rem",      
           filter: "blur(10px)",                 
           stagger: {
             amount: .9
