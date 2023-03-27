@@ -28,10 +28,7 @@ createApp({
         gsap.from("h1 span", {
           duration: 3,                     
           opacity: 0, 
-          scale: [0,1], 
-          rotation:90,
-          rotationX:-50,    
-          transformOrigin:"50% 50%",
+          scale: [0,1],           
           filter: "blur(10px)",                 
           stagger: {
             amount: .9
