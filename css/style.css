@@ -82,6 +82,7 @@ h1 span{
   transition: color 2.5s;
   line-height: 2.2;
   bottom: 12px;
+  margin-bottom: var(--marginp);
 }
 
 .photos .sub-title {
