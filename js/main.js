@@ -29,7 +29,7 @@ createApp({
           duration: 2,                     
           opacity: 0, 
           scale: [0,1],
-          y: "3rem",      
+          y: "-3rem",      
           filter: "blur(10px)",                 
           stagger: {
             amount: .9
@@ -78,7 +78,7 @@ function setupReveal(container) {
             duration: 2,           
             opacity: 0, 
             scale: [0,1],
-            y: "3rem",
+            y: "-3rem",
             filter: "blur(10px)",           
             ease: "Back.easeOut",
             stagger: {
