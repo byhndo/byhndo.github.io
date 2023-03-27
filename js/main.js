@@ -20,7 +20,7 @@ createApp({
             delay: 2,
             duration: 1,
             opacity: 0,
-            y: "-2rem",
+            y: "-3rem",
             filter: "blur(10px)",
             ease: "Quad.easeOut"
         }); 
@@ -43,7 +43,7 @@ createApp({
             delay: 2,
             duration: 1,
             opacity: 0,         
-            y: "2rem", 
+            y: "3rem", 
             stagger: {
             amount: .9
           },
@@ -105,7 +105,7 @@ function setupReveal(container) {
                                        
             tl.from(two, {
             duration: 1, 
-            y: "-2rem",
+            y: "-3rem",
             opacity: 0,    
             filter: "blur(10px)",           
             ease: "Quad.easeOut"           
