@@ -26,14 +26,14 @@ createApp({
         }); 
          
         gsap.from("h1 span", {
-          duration: 3,                     
+          duration: 1,                     
           opacity: 0, 
           scale: [0,1],           
           filter: "blur(10px)",                 
           stagger: {
             amount: .9
           },
-          ease: "Elastic.easeOut"
+          ease: "Back.easeOut"
          });
 
         gsap.from(".sub-title", {
@@ -74,11 +74,11 @@ function setupReveal(container) {
             }); 
                         
             tl.from(one, {
-            duration: 4,           
+            duration: 1,           
             opacity: 0, 
             scale: [0,1],            
             filter: "blur(10px)",           
-            ease: "Elastic.easeOut",
+            ease: "Back.easeOut",
             stagger: {
             amount: .9
             }            
