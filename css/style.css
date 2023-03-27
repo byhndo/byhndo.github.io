@@ -252,6 +252,7 @@ span.prolog {
 p.sub1, p.sub2 {
     text-transform: none;
     text-align: left;
+    letter-spacing: .1rem;
 }
 
 p.sub1 {
