@@ -232,7 +232,7 @@ main {
 }
 
 .slide-fade-enter-from, .slide-fade-leave-to {
-  transform: translateY(2rem);
+  transform: translateY(3rem);
   opacity: 0;
   filter : blur(10px);
 }
