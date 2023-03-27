@@ -26,7 +26,7 @@ createApp({
         }); 
          
         gsap.from("h1 span", {
-          duration: 3,                     
+          duration: 1,                     
           opacity: 0, 
           scale: [0,1],   
           transformOrigin:"50% 50%",
@@ -34,7 +34,7 @@ createApp({
           stagger: {
             amount: .9
           },
-          ease: "Back.easeOut"
+          ease: "Expo.easeOut"
          });
 
         gsap.from(".sub-title", {
@@ -75,11 +75,11 @@ function setupReveal(container) {
             }); 
                         
             tl.from(one, {
-            duration: 3,           
+            duration: 1,           
             opacity: 0, 
             scale: [0,1],            
             filter: "blur(10px)",           
-            ease: "Back.easeOut",
+            ease: "Expo.easeOut",
             stagger: {
             amount: .9
             }            
