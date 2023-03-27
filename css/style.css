@@ -7,7 +7,7 @@
     --color2: #464a53;      
     --c1: #cf3c4b;
     --c2: #FED049;
-    --sizebody: 12.5px;
+    --sizebody: 12px;
     --sizetitle: calc(27vw + 1rem);
     --sizetitle2: 8vw;
     --sizenav: 9.5px;
@@ -253,7 +253,7 @@ span.prolog {
 p.sub1, p.sub2 {
     text-transform: none;
     text-align: left;
-    letter-spacing: .02rem;
+    letter-spacing: .03rem;
 }
 
 p.sub1 {
@@ -346,7 +346,7 @@ img, .box1, .box2, .one, .one span, .two{
 
 .line {
   position: relative;
-  margin-top: -18px;
+  margin-top: -15px;
   width: 0vw;
   height: .3vw;
   background-color: var(--color2);
