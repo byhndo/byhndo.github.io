@@ -299,7 +299,7 @@ img {
 
 .me {
   filter: url("#filter");
-  margin:0;
+  margin:-23px 0 -50px 0;
 }
 
 .soc {
