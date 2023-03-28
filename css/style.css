@@ -298,7 +298,6 @@ img {
 }
 
 img.me {
-  margin-top: -23px;
   filter: grayscale(1);
  }
 
