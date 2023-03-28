@@ -297,7 +297,7 @@ img {
   border-radius: 10px;
 }
 
-.me {
+img.me {
   filter: grayscale(1);
  }
 
