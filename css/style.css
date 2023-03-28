@@ -297,9 +297,8 @@ img {
   border-radius: 10px;
 }
 
-img.me {
+.me {
   filter: url("#filter");
-  display: block;
   margin-top: var(--marginp);
 }
 
