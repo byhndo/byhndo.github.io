@@ -300,7 +300,6 @@ img {
 .me {
   filter: url("#filter");
   margin:-23px 0 -150px 0;
-  border-radius: 50%;
  }
 
 .soc {
