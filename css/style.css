@@ -298,8 +298,7 @@ img {
 }
 
 .me {
-  filter: grayscale(1);
-  margin: -23px 0 150px 0;
+  margin: 23px 0 -150px 0;
   border-radius: 0;
  }
 
