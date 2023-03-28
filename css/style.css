@@ -297,7 +297,7 @@ img {
   border-radius: 10px;
 }
 
-.me {
+img.me {
   margin: 23px 0 -100px 0;
   border-radius: 0;
  }
