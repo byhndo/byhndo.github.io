@@ -54,7 +54,7 @@ h5 {
 h1 {
   display: inline;
   font-family: var(--font1);
-  color: var(--color2);
+  color: var(--color3);
   font-size: var(--sizetitle);
   padding: 0;
   transition: color 2.5s; 
@@ -70,7 +70,7 @@ h1 span{
 }
 
 .photos h1 {
-  color: var(--color1);
+  color: var(--color4);
 }
 
 .sub-title {
