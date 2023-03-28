@@ -291,7 +291,6 @@ img {
   height: 100%;
   object-fit: cover;
   border-radius: 10px;
-  filter : grayscale(.9);
 }
 
 img.hand {
