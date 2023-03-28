@@ -4,7 +4,9 @@
 
 :root {  
     --color1: #fffbf3;
-    --color2: #eadcc8;      
+    --color2: #eadcc8;   
+    --color3: #414141;
+    --color4: #414141;
     --c1: #cf3c4b;
     --c2: #FED049;
     --sizebody: 12px;
@@ -131,12 +133,14 @@ a {
 }
 
 .bio, .link-bio {
-    background: var(--color1);
+  background: var(--color1);
+  color: var(--color3);
 }
 
 .photos,
 .link-photos {
-    background: var(--color2);
+  background: var(--color2);
+  color: var(--color4);
 }
 
 .transition {
