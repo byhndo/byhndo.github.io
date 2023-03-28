@@ -291,6 +291,8 @@ p.sub2 {
 }
 
 img {
+  filter: url("#filter");
+  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
