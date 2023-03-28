@@ -299,7 +299,7 @@ img {
 
 .me {
   filter: grayscale(1);
-  margin: 0 0 -150px 0;
+  margin: 0 0 150px 0;
  }
 
 .soc {
