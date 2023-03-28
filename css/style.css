@@ -262,11 +262,11 @@ p.sub1, p.sub2 {
 }
 
 p.sub1 {
-    color: var(--color2);
+    color: var(--color3);
 }
 
 p.sub2 {
-    color: var(--color1);
+    color: var(--color4);
 }
 
 .grid {
