@@ -18,11 +18,11 @@ createApp({
                  
         gsap.from("nav",  {
             delay: 2,
-            duration: 1,
+            duration: 3,
             opacity: 0,
             y: "-3rem",
             filter: "blur(10px)",
-            ease: "Quad.easeOut"
+            ease: "Elastic.easeOut"
         }); 
          
         gsap.from("h1 span", {
