@@ -3,8 +3,8 @@
 @font-face{font-family:Thunder;src:url(../fonts/Thunder-LightLC.woff) format('woff');font-weight:300;font-style:normal}
 
 :root {  
-    --color1: #eee;
-    --color2: #464a53;      
+    --color1: #fffbf3;
+    --color2: #eadcc8;      
     --c1: #cf3c4b;
     --c2: #FED049;
     --sizebody: 12px;
