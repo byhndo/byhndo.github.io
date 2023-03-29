@@ -336,16 +336,6 @@ svg:hover, svg:active{
     filter: blur(2px);
 }
 
-svg.water{ 
-  display: block;
-  margin: 0 auto 0 auto;
-}
-
-svg.water:hover, svg.water:active{
-  filter: none;
-  opacity: 1;
-}
-
 img, .box1, .box2, .one, .one span, .two{
   position: relative;
 }
