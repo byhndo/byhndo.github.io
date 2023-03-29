@@ -347,7 +347,7 @@ svg.water:hover, svg.water:active{
   opacity: 1;
 }
 
-.blend img.me{
+.blend img.me:fist-child{
   position: absolute;
   mix-blend-mode: screen; 
 }
