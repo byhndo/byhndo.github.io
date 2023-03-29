@@ -300,8 +300,7 @@ img {
 img.me {
   margin: 0;
   border-radius: 0;
-  clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
- }
+}
 
 .soc {
     margin: 50px 0 0 0;
@@ -340,6 +339,7 @@ svg:hover, svg:active{
 svg.water{ 
   display: block;
   margin: -8% auto 0 auto;
+  clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
 }
 
 svg.water:hover, svg.water:active{
