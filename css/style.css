@@ -303,15 +303,6 @@ img.me {
   clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
  }
 
-svg.water{ 
-  display: block;
-  margin: 0 auto;
-}
-
-svg.water:hover, svg.water:active{
-  filter: none;
-}
-
 .soc {
     margin: 50px 0 0 0;
 }
@@ -344,6 +335,16 @@ svg.water:hover, svg.water:active{
 svg:hover, svg:active{
     opacity: .6;
     filter: blur(2px);
+}
+
+svg.water{ 
+  display: block;
+  margin: 0 auto;
+}
+
+svg.water:hover, svg.water:active{
+  filter: none;
+  opacity: 1;
 }
 
 img, .box1, .box2, .one, .one span, .two{
