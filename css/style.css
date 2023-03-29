@@ -304,6 +304,8 @@ img.me {
  }
 
 svg.water{
+  display: grid;
+  place-items: center;
   margin-top: -10%;
 }
 
