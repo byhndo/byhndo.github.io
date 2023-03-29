@@ -347,6 +347,11 @@ svg.water:hover, svg.water:active{
   opacity: 1;
 }
 
+img.me:first-child {
+  position: absolute;
+  mix-blend-mode: soft-light; 
+}
+
 img, .box1, .box2, .one, .one span, .two{
   position: relative;
 }
