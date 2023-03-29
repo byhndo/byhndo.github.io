@@ -338,7 +338,7 @@ svg:hover, svg:active{
 
 svg.water{ 
   display: block;
-  margin: 23px auto 0 auto;
+  margin: 0 auto 0 auto;
 }
 
 svg.water:hover, svg.water:active{
