@@ -337,10 +337,10 @@ svg:hover, svg:active{
 }
 
 svg.water{ 
-  background-color: #464a53;
+  background-color: #fff;
   display: block;
   margin: 23px auto 0 auto;
-  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }
 
 svg.water:hover, svg.water:active{
