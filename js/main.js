@@ -110,7 +110,7 @@ function setupReveal(container) {
             tl.to(line, {
                 duration: 2,
                 width: "100%",
-                opacity: 1,
+                opacity: .5,
                 filter: "blur(0px)",
                 ease: "Quad.easeInOut"
             }, "<");
@@ -146,8 +146,7 @@ function setupReveal(container) {
 
             tl.from(image, {
               duration: 3,                   
-              scale: 1.5,
-              filter: "grayscale(1)",
+              scale: 1.5,              
               filter: "blur(2px)",
               delay: .3,
               ease: "Quad.easeOut"
