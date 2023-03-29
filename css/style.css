@@ -364,6 +364,7 @@ img, .box1, .box2, .one, .one span, .two{
   opacity: 0;
   filter: blur(10px);
   z-index: 1000;
+  opacity: .5;
 }
 
 .photos .line {
