@@ -340,7 +340,6 @@ svg.water{
   background-color: #fff;
   display: block;
   margin: 23px auto 0 auto;
-  border-radius: 50%;
 }
 
 svg.water:hover, svg.water:active{
