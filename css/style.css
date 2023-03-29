@@ -349,7 +349,7 @@ svg.water:hover, svg.water:active{
 
 .blend img.me:fist-child{
   position: absolute;
-  mix-blend-mode: screen; 
+  mix-blend-mode: soft-light; 
 }
 
 img, .box1, .box2, .one, .one span, .two{
