@@ -340,7 +340,7 @@ svg.water{
   background-color: #fff;
   display: block;
   margin: 23px auto 0 auto;
-  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  border-radius: 50%;
 }
 
 svg.water:hover, svg.water:active{
