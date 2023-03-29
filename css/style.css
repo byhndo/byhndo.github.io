@@ -262,7 +262,7 @@ p.sub1, p.sub2 {
 }
 
 p.sub1 {
-    color: var(--color3);
+    color: var(--color2);
 }
 
 p.sub2 {
