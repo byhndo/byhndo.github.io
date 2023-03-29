@@ -109,8 +109,7 @@ function setupReveal(container) {
                      
             tl.to(line, {
                 duration: 2,
-                width: "100%",
-                opacity: .5,
+                width: "100%",             
                 filter: "blur(0px)",
                 ease: "Quad.easeInOut"
             }, "<");
