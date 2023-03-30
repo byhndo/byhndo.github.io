@@ -83,11 +83,12 @@ h1 span{
   line-height: 2.2;
   bottom: 12px;
   margin-bottom: var(--marginp);
-  opacity: .7;
+  opacity: .8;
 }
 
 .photos .sub-title {
   color: var(--c1);
+  opacity: .7;
 }
 
 .ball {
