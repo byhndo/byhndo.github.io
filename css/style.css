@@ -138,7 +138,7 @@ a {
 .photos,
 .link-photos {
   background: var(--c2);
-  color: var(--1);
+  color: var(--c1);
 }
 
 .transition {
