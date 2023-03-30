@@ -3,7 +3,8 @@
 @font-face{font-family:Thunder;src:url(../fonts/Thunder-LightLC.woff) format('woff');font-weight:300;font-style:normal}
 
 :root {  
-    --color1: #eee;
+    --bg1: #eee;
+    --bg2: #2f3137;
     --color2: #3b3e45;   
     --color3: #464a53;
     --color4: #ccc;
@@ -139,7 +140,7 @@ a {
 
 .photos,
 .link-photos {
-  background: var(--color2);
+  background: var(--bg2);
   color: var(--color4);
 }
 
