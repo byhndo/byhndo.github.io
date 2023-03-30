@@ -51,10 +51,10 @@
      </nav> 
 <div class="transition transition-bio"></div>
 <div class="transition transition-photos"></div>                                                
-<main id="particles-js">
+<main>
 <h1><span>B</span><span>a</span><span>y</span><span>u</span><br><span>H</span><span>a</span><span>n</span><span>d</span><span>o</span><span>n</span><span>o</span></h1><div class="ball"></div>                                               
 <div class="sub-title">Who am I? it depends on your attitude.</div>
-<transition appear name="slide-fade" mode="out-in" @after-enter="afterEnter" @after-leave="afterLeave">
+<transition id="particles-js" appear name="slide-fade" mode="out-in" @after-enter="afterEnter" @after-leave="afterLeave">
 <!-- sub1 -->
 <div class="sub1" key="bio" v-if="bg==='bio'">
 <div class="box1">
