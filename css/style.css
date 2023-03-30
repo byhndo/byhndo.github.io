@@ -83,6 +83,7 @@ h1 span{
   line-height: 2.2;
   bottom: 12px;
   margin-bottom: var(--marginp);
+  opacity: .5;
 }
 
 .photos .sub-title {
