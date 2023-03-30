@@ -258,7 +258,6 @@ p.sub1, p.sub2 {
   text-transform: none;
   text-align: left;
   letter-spacing: .03rem;
-  opacity: .7;
 }
 
 p.sub1 {
@@ -267,6 +266,7 @@ p.sub1 {
 
 p.sub2 {
   color: var(--c1);
+  opacity: .7;
 }
 
 .grid {
