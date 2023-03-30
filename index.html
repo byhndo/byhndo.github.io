@@ -54,9 +54,9 @@
 <main>
 <h1><span>B</span><span>a</span><span>y</span><span>u</span><br><span>H</span><span>a</span><span>n</span><span>d</span><span>o</span><span>n</span><span>o</span></h1><div class="ball"></div>                                               
 <div class="sub-title">Who am I? it depends on your attitude.</div>
-<transition id="particles-js" appear name="slide-fade" mode="out-in" @after-enter="afterEnter" @after-leave="afterLeave">
+<transition appear name="slide-fade" mode="out-in" @after-enter="afterEnter" @after-leave="afterLeave">
 <!-- sub1 -->
-<div class="sub1" key="bio" v-if="bg==='bio'">
+<div id="particles-js" class="sub1" key="bio" v-if="bg==='bio'">
 <div class="box1">
 <h3 class="one"><span>H</span><span>i</span><span>!</span></h3>
 </div>
