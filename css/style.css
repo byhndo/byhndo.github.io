@@ -364,6 +364,7 @@ img, .box1, .box2, .one, .one span, .two{
 
 .photos .line {
   background-color: var(--c1);
+  opacity:.3;
 }
 
 .footer {
