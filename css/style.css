@@ -299,39 +299,6 @@ img {
   border-radius: 10px;
 }
 
-@keyframes scribble {
-  to {
-    stroke-dashoffset: 0;
-  }
-}
-
-#stripped {
-  max-width: 100%;
-  margin: 0 auto;
-  background: #e3e4e8;
-  background-image: url(https://byhnd.pw/img/hand.png);
-  background-size: cover;
-  font-size: 0;
-}
-
-#stripped svg {
-  background: #e3e4e8;
-  mix-blend-mode: lighten;  
-}
-
-#stripped svg polyline {
-  fill: none;
-  stroke: #2f3137;
-  stroke-width: 300;
-  stroke-dasharray: 20000;
-  stroke-dashoffset: 20000;
-  animation: scribble 3s linear forwards;
-}
-
-svg#hand {
-  pointer-events: none;
-}
-
 .soc {
   margin: 50px 0 0 0;
   display: grid;
