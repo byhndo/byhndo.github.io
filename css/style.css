@@ -301,6 +301,7 @@ img {
 
 img.hand{
   opacity:.9;
+  pointer-events: none;
 }
 
 .soc {
