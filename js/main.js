@@ -68,17 +68,18 @@ function setupReveal(container) {
 	    
 	    
 	    
-	 var bt = document.querySelector('img.me'),
+	 
+var bt = document.querySelector('img.me'),
 
-	turbVal1 = { val: 0.000001 },
-
-  body = document.querySelector('body'),
+	turbVal1 = { val: 0.000001 },  body = document.querySelector('body'),
 
   turbVal2 = { val: 0.000001 }
 
 	turb = document.querySelectorAll('#noise feTurbulence')[0],
 
-	   	btTl = new TimelineLite({ paused: true, onUpdate: function() {
+	
+
+	btTl = new TimelineLite({ paused: true, onUpdate: function() {
 
   turb.setAttribute('baseFrequency', turbVal2.val + ' ' + turbVal1.val);
 
@@ -92,7 +93,7 @@ btTl.to(turbVal1, 5, { val: 0.05 })
 
     .to(turbVal2, 5, {val: 0.000001},"-=5")
 
-body.addEventListener('hover', function() {
+body.addEventListener('click', function() {
 
   btTl.restart();
 
