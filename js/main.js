@@ -193,6 +193,37 @@ document.addEventListener("mouseout", (e) => {
 
 
 
+var bt = document.querySelector('img.me'),
+
+	turbVal1 = { val: 0.000001 },  body = document.querySelector('body'),
+
+  turbVal2 = { val: 0.000001 }
+
+	turb = document.querySelectorAll('#noise feTurbulence')[0],
+
+	
+
+	btTl = new TimelineLite({ paused: true, onUpdate: function() {
+
+  turb.setAttribute('baseFrequency', turbVal2.val + ' ' + turbVal1.val);
+
+} });
+
+btTl.to(turbVal1, 5, { val: 0.05 })
+
+    .to(turbVal1, 5, { val: 0.000001 })
+
+    .to(turbVal2, 5, {val: 0.005}, "-=10")
+
+    .to(turbVal2, 5, {val: 0.000001},"-=5")
+
+body.addEventListener('click', function() {
+
+  btTl.restart();
+
+});
+
+
 
 
 
