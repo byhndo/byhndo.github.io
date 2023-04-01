@@ -309,7 +309,7 @@ img.me {
 .soc ul.ico {
   list-style: none;
   display: flex;
-  text-align: left;
+  text-align: center;
   margin: 0;
   padding: 0;
 }
