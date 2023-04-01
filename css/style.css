@@ -310,6 +310,8 @@ img.me {
 
 .soc {
   margin: 50px 0 0 0;
+  display: grid;
+  place-items: center;
 }
 
 .soc ul.ico {
