@@ -72,7 +72,7 @@ function setupReveal(container) {
 
 	turbVal1 = { val: 0.000001 },
 
-  body = document.querySelector('.box2'),
+  body = document.querySelector('body'),
 
   turbVal2 = { val: 0.000001 }
 
