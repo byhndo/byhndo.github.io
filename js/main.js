@@ -107,11 +107,11 @@ function setupReveal(container) {
             ease: "Quad.easeOut"           
             });
                      
-            tl.to(line, {
+            tl.from(line, {
                 duration: 2,
-                width: "100%",  
-                opacity: 1,
-                filter: "blur(0px)",
+                width: "0%",  
+                opacity: 0,
+                filter: "blur(10px)",
                 ease: "Quad.easeInOut"
             }, "<");
                                                                                                                 
