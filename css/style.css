@@ -23,6 +23,10 @@
     box-sizing: border-box;
 }
 
+a:hover, a:active{
+  filter: blur(2px);
+}
+
 h1, h2, h3, h4, h5 {
   position: relative;
   font-family: var(--font1);
