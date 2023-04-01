@@ -310,7 +310,7 @@ img.me {
   }
 }
 
-div#stripped {
+#stripped {
   max-width: 100%;
   margin: 0 auto;
   background: #e3e4e8;
@@ -319,14 +319,14 @@ div#stripped {
   font-size: 0;
 }
 
-div#stripped svg {
+#stripped svg {
   background: #e3e4e8;
   mix-blend-mode: lighten;  
 }
 
-div#stripped svg polyline {
+#stripped svg polyline {
   fill: none;
-  stroke: #2f3137;
+  stroke: #464953;
   stroke-width: 300;
   stroke-dasharray: 20000;
   stroke-dashoffset: 20000;
