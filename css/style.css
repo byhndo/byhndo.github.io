@@ -302,6 +302,13 @@ img {
 img.me {
   margin:14px 0 0 0;
   border-radius: 0;
+  -webkit-filter: url(#noise);
+  filter: url(#noise);
+  display: block;
+}
+
+svg.me{
+  display: none;
 }
 
 .soc {
