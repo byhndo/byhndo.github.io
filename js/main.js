@@ -90,7 +90,7 @@ function setupReveal(container) {
         const RevealBoxs2 = container.querySelectorAll(".box2");
         RevealBoxs2.forEach((box2) => {
             const two = box2.querySelectorAll(".two, .two span");            
-            const line = box2.querySelectorAll(".line");
+            const ln = box2.querySelectorAll(".ln");
                        
             let tl = gsap.timeline({
                 scrollTrigger: {
@@ -107,7 +107,7 @@ function setupReveal(container) {
             ease: "Quad.easeOut"           
             });
                      
-            tl.from(line, {
+            tl.from(ln, {
                 duration: 2,
                 width: "0%",  
                 opacity: 0,
