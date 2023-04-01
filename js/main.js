@@ -250,19 +250,23 @@ window.addEventListener("load", function () {
 
         toggleActions: "restart none none reset"
 
-      }
+      }, delay: .5
 
     });
 
     tl.set(element, { autoAlpha: 1 });
 
-    tl.from(lines, 1, {
-
+    tl.from(lines, {
+duration: 2,
       yPercent: 100,
 
-      ease: Power3.out,
+      ease: Quad.easeOut,
 
-      stagger: 0.25,
+      stagger: {
+
+            amount: .9
+
+            },           
 
       delay: 0.2
 
