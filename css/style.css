@@ -271,6 +271,10 @@ p.sub2 {
   opacity: .7;
 }
 
+.reveal-text {
+  visibility: hidden;
+}
+
 .grid {
   --auto-grid-min-size: 15rem;
   display: grid;
