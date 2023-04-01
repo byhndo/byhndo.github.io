@@ -121,6 +121,11 @@ body {
     -webkit-font-smoothing: antialiased !important;
 }
 
+p{
+  margin-top: var(--marginp);
+  margin-bottom: var(--marginp);
+}
+
 a {
     color: inherit;
 }
