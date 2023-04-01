@@ -65,7 +65,14 @@
 </div>		    
 <div class="box2">
 <div class="two">
-<img class="me" src="../img/hand.png"/>
+<svg class="me">
+    <filter id="noise" x="0%" y="0%" width="100%" height="100%">
+        <feTurbulence baseFrequency="0 0" result="NOISE" numOctaves="2" type="fractalNoise" />
+        <feDisplacementMap in="SourceGraphic" in2="NOISE" scale="70" xChannelSelector="R" yChannelSelector="R"></feDisplacementMap>
+    </filter>
+  <image class="me" xlink:href="../img/hand.png" x="0" y="0" width="100%" height="100%" filter="url(#noise)"></image> 
+</svg>
+  <img class="me" src="../img/hand.png" alt="">
 </div>                             
 </div>
 <div class="box2">
