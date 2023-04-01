@@ -248,7 +248,7 @@ window.addEventListener("load", function () {
 
         trigger: element,
 
-        toggleActions: "restart none none reset"
+        toggleActions: "restart none none none"
 
       }, delay: .5
 
@@ -266,9 +266,9 @@ duration: 2,
 
             amount: .9
 
-            },           
+            }         
 
-      delay: 0.2
+      
 
     });
 
