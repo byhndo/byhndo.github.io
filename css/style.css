@@ -365,6 +365,7 @@ img, .box1, .box2, .one, .one span, .two{
 
 .line{
   display: flex;
+  position: relative;
 }
 
 .ln {
