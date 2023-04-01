@@ -27,8 +27,6 @@ h1, h2, h3, h4, h5 {
   position: relative;
   font-family: var(--font1);
   font-weight: var(--fwtitle);
-  margin-top: var(--marginp);
-  margin-bottom: var(--marginp); 
   z-index: 2000;
   letter-spacing: calc(-.005vw + -.01rem);
 }
@@ -119,11 +117,6 @@ body {
     word-wrap: break-word;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
-}
-
-p{
-  margin-top: var(--marginp);
-  margin-bottom: var(--marginp);
 }
 
 a {
@@ -356,6 +349,11 @@ img, .box1, .box2, .one, .one span, .two{
 .one{
   margin-top:0;
   margin-bottom:0;
+}
+
+.two{
+  margin-top: var(--marginp);
+  margin-bottom: var(--marginp);
 }
 
 .line {
