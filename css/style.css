@@ -363,8 +363,11 @@ img, .box1, .box2, .one, .one span, .two{
   margin-bottom: var(--marginp);
 }
 
-.line {
+.line{
   display: flex;
+}
+
+.ln {
   position: relative;
   margin-top: -15px;
   width: 100%;
@@ -375,7 +378,7 @@ img, .box1, .box2, .one, .one span, .two{
   z-index: 1000;
 }
 
-.photos .line {
+.photos .ln {
   background-color: var(--c1);
   opacity: .2;
 }
