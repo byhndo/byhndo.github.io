@@ -106,20 +106,13 @@ function setupReveal(container) {
             filter: "blur(10px)",           
             ease: "Quad.easeOut"           
             });
-            
-            tl1 = new TimelineMax({
-                scrollTrigger: {
-                    trigger: box2,
-                    toggleActions: "restart none none none"
-                },delay: .5
-            });
-            
-            tl1.from(ln, {
+                            
+            tl.from(ln, {
                 duration: 2,
                 width: "0%",  
                 opacity: 0,
                 filter: "blur(10px)",
-                ease:SlowMo.ease.config(0.7, 0.7)}, 0)
+                ease:Cubic.ease.config(0.7, 0.7)}, 0)
             }, "<");
                                                                                                                 
         });
