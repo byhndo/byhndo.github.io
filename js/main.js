@@ -106,8 +106,10 @@ function setupReveal(container) {
             filter: "blur(10px)",           
             ease: "Quad.easeOut"           
             });
-                     
-            tl.from(ln, {
+            
+            tl1 = new TimelineMax({delay: .5})
+            
+            tl1.from(ln, {
                 duration: 2,
                 width: "0%",  
                 opacity: 0,
