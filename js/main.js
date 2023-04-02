@@ -107,7 +107,12 @@ function setupReveal(container) {
             ease: "Quad.easeOut"           
             });
             
-            tl1 = new TimelineMax({delay: .5})
+            tl1 = new TimelineMax({
+                scrollTrigger: {
+                    trigger: box2,
+                    toggleActions: "restart none none none"
+                },delay: .5
+            });
             
             tl1.from(ln, {
                 duration: 2,
