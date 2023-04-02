@@ -112,7 +112,7 @@ function setupReveal(container) {
                 width: "0%",  
                 opacity: 0,
                 filter: "blur(10px)",
-                ease: new SlowMo(.26, 1.02, 1, -.62)
+                ease:new Ease(BezierEasing(0.2, 0.7, 0.8, 0.3))
             }, "<");
                                                                                                                 
         });
