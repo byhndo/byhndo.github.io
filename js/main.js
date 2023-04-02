@@ -112,7 +112,7 @@ function setupReveal(container) {
                 width: "0%",  
                 opacity: 0,
                 filter: "blur(10px)",
-                ease:Cubic.easeOut.config(.26, 1.02, 1, -.62)
+                ease: SlowMo.ease.config(0.7, 0.7, false)
             }, "<");
                                                                                                                 
         });
