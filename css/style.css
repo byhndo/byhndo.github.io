@@ -303,11 +303,8 @@ img.hand{
   opacity: .9;
   pointer-events: none;
   filter: url("#filter");
+  margin-top: -150px;
 }
-
-svg#svg-filters{
-  margin-bottom: -50px;
-} 
 
 .soc {
   margin: 50px 0 0 0;
