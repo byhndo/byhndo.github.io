@@ -51,8 +51,11 @@ h5 {
     font-size: 180%;
 }
 
-h1 {
+header{
   filter:url("#distort");
+}
+
+h1 {
   display: inline;
   font-family: var(--font1);
   color: var(--c2);
