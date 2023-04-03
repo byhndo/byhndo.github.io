@@ -74,6 +74,10 @@ h1 span{
   color: var(--c1);
 }
 
+svg.turb{
+  display:none;
+}
+
 .sub-title {
   position: relative;
   color: var(--c2);
