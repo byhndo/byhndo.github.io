@@ -52,6 +52,7 @@ h5 {
 }
 
 h1 {
+  filter:url("#distort");
   display: inline;
   font-family: var(--font1);
   color: var(--c2);
