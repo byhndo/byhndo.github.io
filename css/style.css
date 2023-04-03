@@ -51,7 +51,7 @@ h5 {
     font-size: 180%;
 }
 
-header{
+.header{
   filter:url("#distort");
 }
 
