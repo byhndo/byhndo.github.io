@@ -279,7 +279,6 @@ p.sub1 {
 
 p.sub2 {
   color: var(--psub2);
-  opacity: .7;
 }
 
 .grid {
