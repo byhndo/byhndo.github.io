@@ -9,6 +9,8 @@
     --sc2: #babfc4;
     --b1: #cf3c4b;
     --b2: #FED049;
+    --psub1: #464953;
+    --psub2: #babfc4;
     --sizebody: 12px;
     --sizetitle: calc(27vw + 1rem);
     --sizetitle2: 8vw;
@@ -272,11 +274,11 @@ p.sub1, p.sub2 {
 }
 
 p.sub1 {
-  color: var(--c2);
+  color: var(--psub1);
 }
 
 p.sub2 {
-  color: var(--c1);
+  color: var(--psub2);
   opacity: .7;
 }
 
