@@ -32,7 +32,7 @@ createApp({
           y: "3rem",      
           filter: "blur(10px)",                 
           stagger: {
-            amount: .9
+            amount: .3
           },
           ease: "Bounce.easeOut"
          });
@@ -81,7 +81,7 @@ function setupReveal(container) {
             filter: "blur(10px)",           
             ease: "Elastic.easeOut",
             stagger: {
-            amount: .9
+            amount: .3
             }            
             });   
        });
