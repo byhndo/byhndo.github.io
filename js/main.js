@@ -26,6 +26,7 @@ createApp({
         }); 
          
         gsap.from("h1 span", {
+          delay: 5,
           duration: 3,                     
           opacity: 0, 
           scale: [0,1],
@@ -38,7 +39,7 @@ createApp({
          });
 
         gsap.from(".sub-title", {
-            delay: 2,
+            delay: 10,
             duration: 1,
             opacity: 0,         
             y: "3rem", 
