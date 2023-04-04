@@ -27,9 +27,8 @@ createApp({
          
         gsap.from("h1 span", {
           delay: 5,
-          duration: 3,                     
-          opacity: 0, 
-          scale: [0,1],
+          duration: 5,                     
+          opacity: 0,         
           y: "3rem",      
           filter: "blur(10px)",                 
           stagger: {
@@ -51,7 +50,7 @@ createApp({
         });
         
         gsap.to(".ball", {
-            top: 0, delay: 5, opacity: 1, duration: 3, ease: "Bounce.easeOut"
+            top: 0, delay: 12, opacity: 1, duration: 3, ease: "Bounce.easeOut"
         });
 },                          
     data() {
