@@ -5,6 +5,8 @@
 :root {  
     --c1: #f1f2f3;
     --c2: #212121;
+    --sc1: #212121;
+    --sc2: #424242;
     --b1: #cf3c4b;
     --b2: #FED049;
     --sizebody: 12px;
@@ -83,7 +85,7 @@ svg.turb{
 
 .sub-title {
   position: relative;
-  color: var(--c2);
+  color: var(--sc1);
   font-family: var(--font2);
   font-weight: 400;
   font-size: calc(0.4vw + 0.5rem);
@@ -93,11 +95,10 @@ svg.turb{
   line-height: 2.2;
   bottom: 12px;
   margin-bottom: var(--marginp);
-  opacity: .9;
 }
 
 .photos .sub-title {
-  color: var(--c1);
+  color: var(--sc2);
 }
 
 .ball {
