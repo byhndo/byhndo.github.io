@@ -26,13 +26,13 @@ createApp({
         }); 
          
         gsap.from("h1 span", {
-          delay: 3,
+          delay: 1,
           duration: 10,                     
           opacity: 0,         
           y: "3rem",      
           filter: "blur(10px)",                 
           stagger: {
-            amount: .3
+            amount: 1
           },
           ease: "Bounce.easeOut"
          });
@@ -43,7 +43,7 @@ createApp({
             opacity: 0,         
             y: "3rem", 
             stagger: {
-            amount: .9
+            amount: 1
           },
             filter: "blur(10px)",
             ease: "Quad.easeOut"
@@ -81,7 +81,7 @@ function setupReveal(container) {
             filter: "blur(10px)",           
             ease: "Elastic.easeOut",
             stagger: {
-            amount: .3
+            amount: 1
             }            
             });   
        });
