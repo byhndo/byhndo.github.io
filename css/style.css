@@ -376,14 +376,14 @@ img, .box1, .box2, .one, .one span, .two{
   margin-top: -17px;
   width: 100%;
   height: 1px;
-  background-color: var(--c2);
+  background-color: var(--psub1);
   opacity: 1;
   filter: blur(0px);
   z-index: 1000;
 }
 
 .photos .ln {
-  background-color: var(--c1);
+  background-color: var(--psub2);
   opacity: .2;
 }
 
