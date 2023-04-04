@@ -4,7 +4,7 @@
 
 :root {  
     --c1: #f1f2f3;
-    --c2: #232629;
+    --c2: #2A363B;
     --c3: #464953;
     --c4: #cacaca;    
     --b1: #cf3c4b;
@@ -60,7 +60,7 @@ h5 {
 h1 {
   display: inline;
   font-family: var(--font1);
-  color: var(--c3);
+  color: var(--c2);
   font-size: var(--sizetitle);
   padding: 0;
   transition: color 2.5s; 
