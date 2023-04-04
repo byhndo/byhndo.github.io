@@ -26,7 +26,7 @@ createApp({
         }); 
          
         gsap.from("h1 span", {
-          delay: 1,
+          delay: 2,
           duration: 5,                     
           opacity: 0,         
           y: "3rem",      
@@ -34,7 +34,7 @@ createApp({
           stagger: {
             amount: 1
           },
-          ease: "Bounce.easeOut"
+          ease: "Elastic.easeOut"
          });
 
         gsap.from(".sub-title", {
