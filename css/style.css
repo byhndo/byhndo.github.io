@@ -307,7 +307,6 @@ img {
 }
 
 img.hand{
-  opacity: .9;
   pointer-events: none;
   filter: url("#filter");
   margin-top: -150px;
