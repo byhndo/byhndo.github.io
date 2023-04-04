@@ -27,7 +27,7 @@ createApp({
          
         gsap.from("h1 span", {
           delay: 1,
-          duration: 10,                     
+          duration: 5,                     
           opacity: 0,         
           y: "3rem",      
           filter: "blur(10px)",                 
