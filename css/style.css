@@ -6,7 +6,7 @@
     --c1: #f1f2f3;
     --c2: #222534;
     --c3: #464953;
-    --c4: #acb3b9;
+    --c4: #cacaca;    
     --b1: #cf3c4b;
     --b2: #FED049;
     --sizebody: 12px;
@@ -60,7 +60,7 @@ h5 {
 h1 {
   display: inline;
   font-family: var(--font1);
-  color: var(--c2);
+  color: var(--c3);
   font-size: var(--sizetitle);
   padding: 0;
   transition: color 2.5s; 
@@ -76,7 +76,7 @@ h1 span{
 }
 
 .photos h1 {
-  color: var(--c1);
+  color: var(--c4);
 }
 
 svg.turb{
