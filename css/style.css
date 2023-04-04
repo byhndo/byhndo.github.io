@@ -5,8 +5,7 @@
 :root {  
     --c1: #f1f2f3;
     --c2: #2A363B;
-    --c3: #464953;
-    --c4: #cacaca;    
+    --c3: #babfc4;   
     --b1: #cf3c4b;
     --b2: #FED049;
     --sizebody: 12px;
@@ -85,7 +84,7 @@ svg.turb{
 
 .sub-title {
   position: relative;
-  color: var(--c3);
+  color: var(--c2);
   font-family: var(--font2);
   font-weight: 400;
   font-size: calc(0.4vw + 0.5rem);
@@ -98,7 +97,7 @@ svg.turb{
 }
 
 .photos .sub-title {
-  color: var(--c4);
+  color: var(--c3);
 }
 
 .ball {
@@ -252,11 +251,11 @@ main {
 }
 
 .sub1 {
-  color: var(--c3);
+  color: var(--c2);
 }
 
 .sub2 {
-  color: var(--c4);
+  color: var(--c1);
 }
 
 span.prolog {
@@ -272,11 +271,11 @@ p.sub1, p.sub2 {
 }
 
 p.sub1 {
-  color: var(--c3);
+  color: var(--c2);
 }
 
 p.sub2 {
-  color: var(--c4);
+  color: var(--c3);
 }
 
 .grid {
@@ -374,14 +373,14 @@ img, .box1, .box2, .one, .one span, .two{
   margin-top: -17px;
   width: 100%;
   height: 1px;
-  background-color: var(--c3);
+  background-color: var(--c2);
   opacity: 1;
   filter: blur(0px);
   z-index: 1000;
 }
 
 .photos .ln {
-  background-color: var(--c4);
+  background-color: var(--c3);
   opacity: .1;
 }
 
