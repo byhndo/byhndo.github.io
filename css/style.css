@@ -19,6 +19,10 @@
     --fwnav: 300;
     --fwtitle: 800;
 }
+html{
+  background: #ececec;
+}
+
 
 *, *:before, *:after {
     box-sizing: border-box;
