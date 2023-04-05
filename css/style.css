@@ -310,7 +310,7 @@ img {
   border-radius: 10px;
 }
 
-img:hover, img:active{
+.item img:hover, .item img:active{
   filter: grayscale(1);
 }
 
