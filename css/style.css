@@ -310,10 +310,6 @@ img {
   border-radius: 10px;
 }
 
-.item img:hover, .item img:active{
-  filter: grayscale(1);
-}
-
 img.hand{
   pointer-events: none;
   filter: url("#filter");
