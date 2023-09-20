@@ -147,6 +147,7 @@ a {
 
 .bio, .link-bio {
   background: var(--c1);
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/567707/paper_fibers.png) repeat;
   color: var(--c2);
 }
 
