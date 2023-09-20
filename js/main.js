@@ -147,7 +147,7 @@ function setupReveal(container) {
             tl.from(image, {
               duration: 3,                   
               scale: 1.5, 
-              filter: "saturate(0)", 
+              filter: "grayscale(1)", 
               filter: "blur(2px)",
               delay: .3,
               ease: "Quad.easeOut"
