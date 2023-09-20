@@ -99,7 +99,7 @@ function setupReveal(container) {
             });                      
                                        
             tl.from(two, {
-            duration: 1, 
+            duration: 2, 
             y: "-3rem",
             opacity: 0,    
             filter: "blur(10px)",           
