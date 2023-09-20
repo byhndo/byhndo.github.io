@@ -146,9 +146,9 @@ function setupReveal(container) {
 
             tl.from(image, {
               duration: 3,                   
-              scale: 1.5,              
-              filter: "blur(2px)",
-              filter: saturate(0),
+              scale: 1.5, 
+              filter: "saturate(0)",
+              filter: "blur(2px)",              
               delay: .3,
               ease: "Quad.easeOut"
             }, 0);
