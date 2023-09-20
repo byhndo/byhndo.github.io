@@ -148,6 +148,7 @@ function setupReveal(container) {
               duration: 3,                   
               scale: 1.5,              
               filter: "blur(2px)",
+              filter: saturate(0),
               delay: .3,
               ease: "Quad.easeOut"
             }, 0);
