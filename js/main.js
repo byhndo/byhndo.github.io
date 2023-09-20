@@ -103,7 +103,7 @@ function setupReveal(container) {
             y: "-3rem",
             opacity: 0,    
             filter: "blur(10px)",           
-            ease: "Expo.easeOut"           
+            ease: "Quart.easeOut"           
             });
                             
             tl.from(ln, {
