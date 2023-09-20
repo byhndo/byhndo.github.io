@@ -77,7 +77,7 @@ function setupReveal(container) {
             tl.from(one, {
             duration: 3,           
             opacity: 0,             
-            y: "3rem",
+            y: "-3rem",
             filter: "blur(10px)",           
             ease: "Elastic.easeOut",
             stagger: {
