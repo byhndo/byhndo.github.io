@@ -20,7 +20,7 @@
     --fwtitle: 800;
 }
 html{
-  background: #ececec;
+  background: var(--c1);
 }
 
 
