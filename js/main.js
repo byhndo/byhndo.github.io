@@ -188,3 +188,17 @@ document.addEventListener("mouseout", (e) => {
     css: { filter: "none" }
   });
 });
+
+$(window).scroll(function(){
+  scroll();
+});
+
+scroll();
+function scroll(){
+  var top = $('html, body').scrollTop();
+  var el = $("#distort").find("feDisplacementMap");  
+  el.attr('scale', top);
+  $(".header").css('opacity', 1 - (top * 0.007))
+}
+
+
