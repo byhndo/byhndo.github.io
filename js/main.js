@@ -198,7 +198,7 @@ function scroll(){
   var top = $('html, body').scrollTop();
   var el = $("#distort").find("feDisplacementMap");  
   el.attr('scale', top);
-  $(".header").css('opacity', 1 - (top * 0.007))
+  $(".header").css('blur', 1 - (top * 0.007))
 }
 
 
