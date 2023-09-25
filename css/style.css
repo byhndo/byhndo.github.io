@@ -82,10 +82,6 @@ h1 span{
   color: var(--c1);
 }
 
-svg.turb{
-  display:none;
-}
-
 .sub-title {
   position: relative;
   color: var(--c2);
@@ -231,7 +227,7 @@ main {
   position: relative;
   max-width: 90%;
   padding: 0 0 15px 0;
-  margin: -90px auto 0 auto;
+  margin: 0 auto 0 auto;
   text-align: left;
 }
 
