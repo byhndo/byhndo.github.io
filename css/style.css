@@ -23,7 +23,6 @@ html{
   background: var(--c1);
 }
 
-
 *, *:before, *:after {
     box-sizing: border-box;
 }
@@ -252,13 +251,11 @@ main {
 span.prolog {
   font-size: 120%;
   font-weight: 700;
-  letter-spacing: .03rem;
 }
 
 p.sub1, p.sub2 {
   text-transform: none;
   text-align: left;
-  letter-spacing: .03rem;
 }
 
 p.sub1 {
