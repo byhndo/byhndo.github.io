@@ -32,6 +32,8 @@ a:hover, a:active{
   filter: blur(2px);
 }
 
+
+
 h1, h2, h3, h4, h5 {
   position: relative;
   font-family: var(--font1);
@@ -221,6 +223,10 @@ nav a {
 
 nav .link-photos {
     color: var(--c1);
+}
+
+nav .link-bio:hover, nav . link-photos:hover, nav .link-bio:active, nav .link-photos:active{
+    filter: blur(0px);
 }
 
 main {
