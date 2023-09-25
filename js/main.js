@@ -169,4 +169,17 @@ function scroll(){
   $(".header").css('opacity', 1 - (top * 0.007))
 }
 
+initBt8();
+function initBt8() {
+  var bt = document.querySelectorAll('#component-8')[0];
+  var turb = document.querySelectorAll('#filter-ripple-1 feImage')[0];
+  var dm = document.querySelectorAll('#filter-ripple-1 feDisplacementMap')[0];
+  
+  bt.addEventListener('click', function(e) {
+    TweenLite.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 10, y: isFF ? e.offsetY : e.offsetY + 10, width: 0, height: 0 } });
+    TweenLite.to(turb, 3, { attr: { x: '-=300', y: '-=300', width: 600, height: 600 } });
+    TweenLite.fromTo(dm, 2, { attr: { scale: 30 } }, { attr: { scale: 0 } });
+  });
+}
+
 
