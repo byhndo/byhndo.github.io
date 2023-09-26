@@ -128,7 +128,9 @@ body {
 a {
     color: inherit;
 }
-
+a:hover, a:active{
+    filter: blur(2px);
+}
 .bg {
     background: inherit;
     min-height: 100vh;
@@ -216,6 +218,10 @@ nav a {
 
 nav .link-photos {
     color: var(--c1);
+}
+
+nav li a:not:hover, nav li a:not:active{
+    filter : blur(0);
 }
 
 main {
