@@ -36,7 +36,14 @@
   <div :class="['bg', bg]">  	
     <nav>	            
       <ul>  	      
-       <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
+	<li><a class="link-bio" href="#" @click="bg = 'bio'">Bio</a></li>                                
+        <li><a class="link-photos" href="#" @click="bg = 'photos'">Foto</a></li>                                           
+      </ul>
+     </nav> 
+<div class="transition transition-bio"></div>
+<div class="transition transition-photos"></div>                                                
+<main>
+	<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
 						<defs>
 							<filter id="filter-ripple-1">
 								<feImage xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/ripple.png" x="30" y="20" width="0" height="0" result="ripple"></feImage>
@@ -45,15 +52,8 @@
 								<feComposite in2="SourceGraphic"></feComposite>
 							</filter>
 						</defs>
-       </svg>
-	<li><a class="link-bio" href="#" @click="bg = 'bio'" id="water" style="filter: url('#filter-ripple-1')">Bio</a></li>                                
-        <li><a class="link-photos" href="#" @click="bg = 'photos'" id="water" style="filter: url('#filter-ripple-1')">Foto</a></li>                                           
-      </ul>
-     </nav> 
-<div class="transition transition-bio"></div>
-<div class="transition transition-photos"></div>                                                
-<main>
-<div class="header">
+	</svg>
+<div class="header" id="water" style="filter: url('#filter-ripple-1')">
 <h1><span>B</span><span>a</span><span>y</span><span>u</span><br><span>H</span><span>a</span><span>n</span><span>d</span><span>o</span><span>n</span><span>o</span></h1><div class="ball"></div>                                               
 <div class="sub-title">Who am I? it depends on your attitude.</div>
 </div>
