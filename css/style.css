@@ -197,8 +197,6 @@ nav {
     right: 0;
     z-index: 3000;
     font-family: var(--font1);
-    position: relative;
-    outline: 10px solid transparent !important;
 }
 
 nav ul {
