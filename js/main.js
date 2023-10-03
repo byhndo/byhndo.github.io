@@ -200,16 +200,3 @@ function initBt1() {
   });
                                  }
 
-initBt2();
-function initBt2() {
-  var bt2 = document.querySelectorAll('#water')[0];
-  var turb = document.querySelectorAll('#filter-ripple-2 feImage')[0];
-  var dm = document.querySelectorAll('#filter-ripple-2 feDisplacementMap')[0];
-  
-  bt2.addEventListener('click', function(e) {
-    TweenLite.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 10, y: isFF ? e.offsetY : e.offsetY + 10, width: 0, height: 0 } });
-    TweenLite.to(turb, 3, { attr: { x: '-=300', y: '-=300', width: 600, height: 600 } });
-    TweenLite.fromTo(dm, 2, { attr: { scale: 30 } }, { attr: { scale: 0 } });
-  });
-}
-
