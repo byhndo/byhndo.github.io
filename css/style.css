@@ -203,6 +203,7 @@ nav ul {
 
 nav li {
     flex: 1 0 7.5rem;
+    outline: 10px solid transparent !important;
 }
 
 nav a {
