@@ -180,6 +180,13 @@ function getRandom(min, max){
   return Math.random() * (max - min) + min;
 }
 
+var isSafari = /constructor/i.test(window.HTMLElement);
+var isFF = !!navigator.userAgent.match(/firefox/i);
+
+if (isSafari) {
+  document.getElementsByTagName('html')[0].classList.add('safari');
+}
+
 initBt();
 function initBt() {
   var bt = document.querySelectorAll('#water')[0];
