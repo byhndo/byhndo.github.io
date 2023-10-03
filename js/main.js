@@ -170,33 +170,3 @@ function scroll(){
 }
 
 
-
-
-
-
-
-
-function getRandom(min, max){
-  return Math.random() * (max - min) + min;
-}
-
-var isSafari = /constructor/i.test(window.HTMLElement);
-var isFF = !!navigator.userAgent.match(/firefox/i);
-
-if (isSafari) {
-  document.getElementsByTagName('html')[0].classList.add('safari');
-}
-
-initBt1();
-function initBt1() {
-  var bt1 = document.querySelectorAll('#water')[0];
-  var turb = document.querySelectorAll('#filter-ripple-1 feImage')[0];
-  var dm = document.querySelectorAll('#filter-ripple-1 feDisplacementMap')[0];
-  
-  bt1.addEventListener('click', function(e) {
-    TweenLite.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 20, y: isFF ? e.offsetY : e.offsetY + 20, width: 0, height: 0 } });
-    TweenLite.to(turb, 5, { attr: { x: '-=300', y: '-=300', width: 600, height: 600 } });
-    TweenLite.fromTo(dm, 3, { attr: { scale: 30 } }, { attr: { scale: 0 } });
-  });
-                                 }
-
