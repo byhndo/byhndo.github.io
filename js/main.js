@@ -189,7 +189,7 @@ function initBt1() {
   
   bt.addEventListener('click', function(e) {
     TweenLite.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 10, y: isFF ? e.offsetY : e.offsetY + 10, width: 0, height: 0 } });
-    TweenLite.to(turb, 3, { attr: { x: '-=300', y: '-=300', width: 600, height: 600 } });
+    TweenLite.to(turb, 3, { attr: { x: '-=50', y: '-=50', width: 100, height: 100 } });
     TweenLite.fromTo(dm, 2, { attr: { scale: 30 } }, { attr: { scale: 0 } });
   });
 }
