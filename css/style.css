@@ -8,7 +8,7 @@
     --c3: #babfc4;   
     --b1: #cf3c4b;
     --b2: #FED049;
-    --sizebody: 12px;
+    --sizebody: 13px;
     --sizetitle: calc(27vw + 1rem);
     --sizetitle2: 8vw;
     --sizenav: 9.5px;
@@ -36,19 +36,19 @@ h1, h2, h3, h4, h5 {
 }
 
 h2 {
-    font-size: 330%;
+    font-size: 320%;
 }
 
 h3 {
-  font-size: 280%;
+  font-size: 270%;
 }
 
 h4 {
-    font-size: 230%;
+    font-size: 220%;
 }
 
 h5 {
-    font-size: 180%;
+    font-size: 170%;
 }
 
 .header{
