@@ -175,6 +175,17 @@ function scroll(){
 
 
 
+
+function getRandom(min, max){
+  return Math.random() * (max - min) + min;
+}
+
+
+
+
+
+
+
 initBt();
 function initBt() {
   var bt = document.querySelectorAll('#water')[0];
