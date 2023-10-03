@@ -187,8 +187,8 @@ if (isSafari) {
   document.getElementsByTagName('html')[0].classList.add('safari');
 }
 
-Array.prototype.slice.call(document.querySelectorAll('ul'), 0).forEach(function(bt) {
-  bt.addEventListener('click', function(e) {
+Array.prototype.slice.call(document.querySelectorAll('nav'), 0).forEach(function(bt1) {
+  bt1.addEventListener('click', function(e) {
     e.preventDefault();
   });
 });
