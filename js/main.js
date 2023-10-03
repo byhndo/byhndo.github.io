@@ -187,7 +187,7 @@ if (isSafari) {
   document.getElementsByTagName('html')[0].classList.add('safari');
 }
 
-Array.prototype.slice.call(document.querySelectorAll('nav'), 0).forEach(function(bt) {
+Array.prototype.slice.call(document.querySelectorAll('.header'), 0).forEach(function(bt) {
   bt.addEventListener('click', function(e) {
     e.preventDefault();
   });
