@@ -189,7 +189,7 @@ function initBt1() {
   
   bt.addEventListener('click', function(e) {
     TweenLite.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 10, y: isFF ? e.offsetY : e.offsetY + 10, width: 0, height: 0 } });
-    TweenLite.to(turb, 3, { attr: { x: '-=200', y: '-=200', width: 400, height: 400 } });
+    TweenLite.to(turb, 3, { attr: { x: '-=250', y: '-=250', width: 500, height: 500 } });
     TweenLite.fromTo(dm, 2, { attr: { scale: 30 } }, { attr: { scale: 0 } });
   });
 }
@@ -202,7 +202,7 @@ function initBt2() {
   
   bt.addEventListener('click', function(e) {
     TweenLite.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 10, y: isFF ? e.offsetY : e.offsetY + 10, width: 0, height: 0 } });
-    TweenLite.to(turb, 3, { attr: { x: '-=200', y: '-=200', width: 400, height: 400 } });
+    TweenLite.to(turb, 3, { attr: { x: '-=250', y: '-=250', width: 500, height: 500 } });
     TweenLite.fromTo(dm, 2, { attr: { scale: 30 } }, { attr: { scale: 0 } });
   });
 }
