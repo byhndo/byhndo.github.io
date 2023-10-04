@@ -189,7 +189,20 @@ function initBt1() {
   
   bt.addEventListener('click', function(e) {
     TweenLite.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 10, y: isFF ? e.offsetY : e.offsetY + 10, width: 0, height: 0 } });
-    TweenLite.to(turb, 3, { attr: { x: '-=50', y: '-=50', width: 100, height: 100 } });
+    TweenLite.to(turb, 3, { attr: { x: '-=200', y: '-=200', width: 400, height: 400 } });
+    TweenLite.fromTo(dm, 2, { attr: { scale: 30 } }, { attr: { scale: 0 } });
+  });
+}
+
+initBt2();
+function initBt2() {
+  var bt = document.querySelectorAll('#wtr2')[0];
+  var turb = document.querySelectorAll('#filter-ripple-2 feImage')[0];
+  var dm = document.querySelectorAll('#filter-ripple-2 feDisplacementMap')[0];
+  
+  bt.addEventListener('click', function(e) {
+    TweenLite.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 10, y: isFF ? e.offsetY : e.offsetY + 10, width: 0, height: 0 } });
+    TweenLite.to(turb, 3, { attr: { x: '-=200', y: '-=200', width: 400, height: 400 } });
     TweenLite.fromTo(dm, 2, { attr: { scale: 30 } }, { attr: { scale: 0 } });
   });
 }
