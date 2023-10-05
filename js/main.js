@@ -183,7 +183,7 @@ if (isSafari) {
 
 
 
-Array.prototype.slice.call(document.querySelectorAll('li'), 0).forEach(function(bt) {
+Array.prototype.slice.call(document.querySelectorAll('a.link-bio'), 0).forEach(function(bt) {
   bt.addEventListener('click', function(e) {
     e.preventDefault();
   });
