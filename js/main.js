@@ -181,19 +181,6 @@ if (isSafari) {
   document.getElementsByTagName('html')[0].classList.add('safari');
 }
 
-
-
-Array.prototype.slice.call(document.querySelectorAll('a.link-bio'), 0).forEach(function(bt) {
-  bt.addEventListener('click', function(e) {
-    e.preventDefault();
-  });
-});
-
-
-
-
-
-
 initBt1();
 function initBt1() {
   var bt = document.querySelectorAll('#wtr')[0];
@@ -201,7 +188,7 @@ function initBt1() {
   var dm = document.querySelectorAll('#filter-ripple-1 feDisplacementMap')[0];
   
   bt.addEventListener('click', function(e) {
-    TweenLite.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 10, y: isFF ? e.offsetY : e.offsetY + 10, width: 0, height: 0 } });
+    TweenLite.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 100, y: isFF ? e.offsetY : e.offsetY + 10, width: 0, height: 0 } });
     TweenLite.to(turb, 5, { attr: { x: '-=300', y: '-=300', width: 600, height: 600 } });
     TweenLite.fromTo(dm, 3, { attr: { scale: 30 } }, { attr: { scale: 0 } });
   });
