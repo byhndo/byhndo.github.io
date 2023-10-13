@@ -33,7 +33,7 @@ createApp({
           stagger: {
             amount: 1
           },
-          ease: "Expo.easeOut"
+          ease: "Quad.easeOut"
          });
 
         gsap.from(".sub-title", {
@@ -78,7 +78,7 @@ function setupReveal(container) {
             opacity: 0,             
             y: "-3rem",
             filter: "blur(10px)",           
-            ease: "Expo.easeOut",
+            ease: "Quad.easeOut",
             stagger: {
             amount: 1
             }            
@@ -162,7 +162,7 @@ $(window).scroll(function(){
 
 scroll();
 function scroll(){
-    var filterVal = 'blur(2px)';
+    var filterVal = 'blur(0px)';
   var top = $('html, body').scrollTop();
   var el = $("#distort").find("feDisplacementMap");  
   el.attr('scale', top);
