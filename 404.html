@@ -149,6 +149,12 @@ function initBthome() {
 
 
 
+
+Array.prototype.slice.call(document.querySelectorAll('.button'), 0).forEach(function(bt) {
+  bt.addEventListener('click', function(e) {
+    e.preventDefault();
+  });
+});
 	
 	
 		  $('.button--1').click(function(e) { e.preventDefault(); var linkUrl = $(this).attr('href'); setTimeout(function(url) { window.location = url; }, 5000, linkUrl); });
