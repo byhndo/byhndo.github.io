@@ -162,11 +162,10 @@ $(window).scroll(function(){
 
 scroll();
 function scroll(){
-    var filterVal = 'blur(2px)';
   var top = $('html, body').scrollTop();
   var el = $("#distort").find("feDisplacementMap");  
   el.attr('scale', top);
-  $(".header").css('filter',filterVal - (top * 0.007))
+  $(".header").css('opacity', 1 - (top * 0.007))
 }
 
 
