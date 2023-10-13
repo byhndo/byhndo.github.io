@@ -99,6 +99,10 @@ html, body{
                          
 <script src="js/tweenmax.js"></script>	
 <script>
+function getRandom(min, max){
+  return Math.random() * (max - min) + min;
+}
+	
 var isSafari = /constructor/i.test(window.HTMLElement);
 var isFF = !!navigator.userAgent.match(/firefox/i);
 
