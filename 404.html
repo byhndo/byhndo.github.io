@@ -38,26 +38,30 @@ html, body{
 		    color:white;
 		    text-align:center;
 	    }
-
-	  .button--1{
-  -webkit-transition: all 0.45s ease-out;
-  -moz-transition: all 0.45s ease-out;
-  transition: all 0.45s ease-out;
-  background-image: -webkit-radial-gradient(60% 20%, circle, #FF6023 0%, #DA305D);
-  background-image: radial-gradient(  circle at 60% 20%, #FF6023 0%, #DA305D);
-  box-shadow: 0 0 0 20px #f6f6f6;
-  border-radius: 80px;
-  color: #FFF;
-  width: 80px;
-  height: 80px;
-  line-height: 80px;
-  padding: 0; }
-  .button--1:focus {
-    color: #FFF; }
+button--1 {
+  -webkit-font-smoothing: antialiased;
+  background-color: #222;
+  border: none;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.85em;
+  font-weight: 700;
+  text-decoration: none;
+  user-select: none;
+  letter-spacing: 0.1em;
+  color: white;
+  padding: 20px 40px;
+  text-transform: uppercase;
+  -webkit-transition: background-color 0.1s ease-out;
+  -moz-transition: background-color 0.1s ease-out;
+  transition: background-color 0.1s ease-out; }
   .button--1:hover {
-    background-image: -webkit-radial-gradient(60% 20%, circle, #FF6023 0%, #DA305D);
-    background-image: radial-gradient(  circle at 60% 20%, #FF6023 0%, #DA305D);
-    color: #FFF; }
+    background-color: #2CD892;
+    color: #fff; }
+  .button--1:focus {
+    outline: none;
+    color: #fff; }
+
         
     </style>
   </head>
@@ -87,9 +91,9 @@ if (isSafari) {
 
 initBthome();
 function initBthome() {
-  var bt = document.querySelectorAll('#wtr')[0];
-  var turb = document.querySelectorAll('#filter-ripple-1 feImage')[0];
-  var dm = document.querySelectorAll('#filter-ripple-1 feDisplacementMap')[0];
+  var bt = document.querySelectorAll('#component-1')[0];
+  var turb = document.querySelectorAll('#filter-ripple-home feImage')[0];
+  var dm = document.querySelectorAll('#filter-ripple-home feDisplacementMap')[0];
   
   bt.addEventListener('click', function(e) {
     TweenLite.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 10, y: isFF ? e.offsetY : e.offsetY + 10, width: 0, height: 0 } });
