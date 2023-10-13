@@ -114,7 +114,7 @@ html, body{
 							</filter>
 						</defs>
 					</svg>
-					<a class="link-home" href="/"><button id="component-1" class="button button--1" style="filter: url('#filter-ripple-home')">Home</button></a>	 
+					<a href="/"><button id="component-1" class="button button--1" style="filter: url('#filter-ripple-home')">Home</button></a>	 
 	</main>
                          
 <script src="js/tweenmax.js"></script>	
@@ -147,7 +147,7 @@ function initBthome() {
 
 	
 	
-		  $('.link-home').click(function(e) {
+		  $('.button--1').click(function(e) {
   e.preventDefault();
   setTimeout(function(url) { window.location = url }, 5000, this.href);
 });
