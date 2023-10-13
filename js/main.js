@@ -33,11 +33,11 @@ createApp({
           stagger: {
             amount: 1
           },
-          ease: "Quad.easeOut"
+          ease: "Expo.easeOut"
          });
 
         gsap.from(".sub-title", {
-            delay: 7,
+            delay: 6,
             duration: 1,
             opacity: 0,         
             y: "3rem", 
@@ -49,7 +49,7 @@ createApp({
         });
         
         gsap.to(".ball", {
-            top: 0, delay: 8, opacity: 1, duration: 2, ease: "Bounce.easeOut"
+            top: 0, delay: 7, opacity: 1, duration: 2, ease: "Bounce.easeOut"
         });
 },                          
     data() {
@@ -74,11 +74,11 @@ function setupReveal(container) {
             }); 
                         
             tl.from(one, {
-            duration: .5,           
+            duration: .7,           
             opacity: 0,             
             y: "-3rem",
             filter: "blur(10px)",           
-            ease: "Quad.easeOut",
+            ease: "Expo.easeOut",
             stagger: {
             amount: 1
             }            
