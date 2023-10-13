@@ -26,7 +26,7 @@ createApp({
          
         gsap.from("h1 span", {
           delay: 4,
-          duration: 1,                     
+          duration: .1,                     
           opacity: 0,         
           y: "-3rem",      
           filter: "blur(10px)",                 
@@ -74,7 +74,7 @@ function setupReveal(container) {
             }); 
                         
             tl.from(one, {
-            duration: 1,           
+            duration: .3,           
             opacity: 0,             
             y: "-3rem",
             filter: "blur(10px)",           
