@@ -114,7 +114,7 @@ html, body{
 							</filter>
 						</defs>
 					</svg>
-					<button id="component-1" class="button button--1" style="filter: url('#filter-ripple-home')">Home</button>	 
+					<a class="link-home" href="/"><button id="component-1" class="button button--1" style="filter: url('#filter-ripple-home')">Home</button></a>	 
 	</main>
                          
 <script src="js/tweenmax.js"></script>	
@@ -138,10 +138,19 @@ function initBthome() {
   
   bt.addEventListener('click', function(e) {
     TweenLite.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 20, y: isFF ? e.offsetY : e.offsetY + 20, width: 0, height: 0 } });
-    TweenLite.to(turb, 5, { attr: { x: '-=300', y: '-=300', width: 300, height: 300 } });
+    TweenLite.to(turb, 5, { attr: { x: '-=0', y: '-=0', width: 500, height: 500 } });
     TweenLite.fromTo(dm, 3, { attr: { scale: 30 } }, { attr: { scale: 0 } });
   });
 				 }	
+
+
+
+	
+	
+		  $('.link-home').click(function(e) {
+  e.preventDefault();
+  setTimeout(function(url) { window.location = url }, 5000, this.href);
+});
 </script>
 </body>
                                 </html>
