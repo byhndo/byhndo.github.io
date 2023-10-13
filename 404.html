@@ -36,6 +36,9 @@
   visibility: hidden;
   width: 1px;
   height: 1px; }
+	    a:hover,  a:active{
+    filter : blur(0);
+	    }
 html, body{
     background: #23272a
 }
@@ -151,15 +154,8 @@ function initBthome() {
 
 
 
-
-Array.prototype.slice.call(document.querySelectorAll('.button'), 0).forEach(function(bt) {
-  bt.addEventListener('click', function(e) {
-    e.preventDefault();
-  });
-});
-	
 	
 		
 </script>
 </body>
-                                </html>
+</html>
