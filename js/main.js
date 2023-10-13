@@ -181,7 +181,7 @@ if (isSafari) {
 
 initBt1();
 function initBt1() {
-  var bt = document.querySelectorAll('#wtr')[0];
+  var bete1 = document.querySelectorAll('#wtr')[0];
   var turb = document.querySelectorAll('#filter-ripple-1 feImage')[0];
   var dm = document.querySelectorAll('#filter-ripple-1 feDisplacementMap')[0];
   
@@ -194,7 +194,7 @@ function initBt1() {
 
 initBt2();
 function initBt2() {
-  var bt = document.querySelectorAll('#wtr2')[0];
+  var bete2 = document.querySelectorAll('#wtr2')[0];
   var turb = document.querySelectorAll('#filter-ripple-2 feImage')[0];
   var dm = document.querySelectorAll('#filter-ripple-2 feDisplacementMap')[0];
   
