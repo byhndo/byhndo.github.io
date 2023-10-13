@@ -52,7 +52,7 @@ html, body{
   transform: translateX(-50%) translateY(-50%);
 	    }
 	    h2{			    
-		    font-size:30vw;
+		    font-size:50vw;
 		    color:white;
 		    text-align:center;
 		    text-transform:uppercase;
@@ -61,6 +61,7 @@ html, body{
 	    h2 span{
 		font-size: 10vw;
 		    font-weight:300;
+		    font-family:figtree;
 	    }
 .button--1 {
 	justify-content: center;
@@ -116,7 +117,7 @@ html, body{
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
 						<defs>
 							<filter id="filter-ripple-home">
-								<feImage xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/ripple.png" x="30" y="20" width="0" height="0" result="ripple"></feImage>
+								<feImage xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/ripple.png" x="30" y="20" width="300" height="300" result="ripple"></feImage>
 								<feDisplacementMap xChannelSelector="R" yChannelSelector="G" color-interpolation-filters="sRGB" in="SourceGraphic" in2="ripple" scale="20" result="dm"></feDisplacementMap>
 								<feComposite operator="in" in2="ripple"></feComposite>
 								<feComposite in2="SourceGraphic"></feComposite>
@@ -146,7 +147,7 @@ function initBthome() {
   var dm = document.querySelectorAll('#filter-ripple-home feDisplacementMap')[0];
   
   bt.addEventListener('click', function(e) {
-    TweenLite.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 0, y: isFF ? e.offsetY : e.offsetY + 0, width: 0, height: 0 } });
+    TweenLite.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 20, y: isFF ? e.offsetY : e.offsetY + 20, width: 0, height: 0 } });
     TweenLite.to(turb, 5, { attr: { x: '-=300', y: '-=300', width: 600, height: 600 } });
     TweenLite.fromTo(dm, 3, { attr: { scale: 30 } }, { attr: { scale: 0 } });
   });
