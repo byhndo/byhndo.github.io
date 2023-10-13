@@ -38,12 +38,42 @@ html, body{
 		    color:white;
 		    text-align:center;
 	    }
+
+	  .button--1{
+  -webkit-transition: all 0.45s ease-out;
+  -moz-transition: all 0.45s ease-out;
+  transition: all 0.45s ease-out;
+  background-image: -webkit-radial-gradient(60% 20%, circle, #FF6023 0%, #DA305D);
+  background-image: radial-gradient(  circle at 60% 20%, #FF6023 0%, #DA305D);
+  box-shadow: 0 0 0 20px #f6f6f6;
+  border-radius: 80px;
+  color: #FFF;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  padding: 0; }
+  .button--9:focus {
+    color: #FFF; }
+  .button--9:hover {
+    background-image: -webkit-radial-gradient(60% 20%, circle, #FF6023 0%, #DA305D);
+    background-image: radial-gradient(  circle at 60% 20%, #FF6023 0%, #DA305D);
+    color: #FFF; }
         
     </style>
   </head>
 <body> 
-<h3>Page Not Found Back to <a href="/">Home</a></h3>
-	 
+<h3>Page Not Found</h3>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
+						<defs>
+							<filter id="filter-ripple-2">
+								<feImage xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://tympanus.net/Development/DistortedButtonEffects/img/ripple.png" x="30" y="20" width="0" height="0" result="ripple"></feImage>
+								<feDisplacementMap xChannelSelector="R" yChannelSelector="G" color-interpolation-filters="sRGB" in="SourceGraphic" in2="ripple" scale="20" result="dm"></feDisplacementMap>
+								<feComposite operator="in" in2="ripple"></feComposite>
+								<feComposite in2="SourceGraphic"></feComposite>
+							</filter>
+						</defs>
+					</svg>
+					<button id="component-9" class="button button--1" style="filter: url('#filter-ripple-2')"><a href="/">Home</a></button>	 
 
                          
 
