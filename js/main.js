@@ -75,7 +75,6 @@ gsap.to(".ball", {
   delay: 7, 
   opacity: 1, 
   filter: "blur(0px)",
-  scaleX: 1,
   scaleY: 1,
   duration: 3, 
   ease: "Elastic.easeOut"
