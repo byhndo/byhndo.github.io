@@ -72,13 +72,16 @@ gsap.to(".ball", {
 
 
 gsap.from(".sub-title", {
+	opacity: 0,		
+	y: "3rem",	
+});
+gsap.to(".sub-title", {
 	opacity: 1,
 	duration: 1,	
 	y: 0,
 	ease: "Quad.easeOut"
 });
-
-	
+		
 },                          
     data() {
         return {
