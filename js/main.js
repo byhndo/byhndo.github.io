@@ -23,8 +23,7 @@ gsap.set("nav", {
 	yPercent: -60, 
 	transformOrigin: "50% 0%"
 });
-gsap.to("nav", {
-	delay: 2,	
+gsap.to("nav", {		
 	duration: .7,	
 	ease: Back.easeOut.config(2.15),
 	yPercent: 0
