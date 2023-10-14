@@ -78,7 +78,7 @@ gsap.to(".sub-title, {
   opacity: 1,
   delay: 5,
 });      
-gsap.to(".ball", {
+gsap.to(".sub-title", {
   duration: 3, 
   ease: "Quad.easeOut"
 }, "<+=0.2");
