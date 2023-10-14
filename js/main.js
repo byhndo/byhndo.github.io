@@ -115,7 +115,7 @@ function setupReveal(container) {
 tl.set(one, {	
 	filter: "blur(10px)",
 	scaleY: 2, 
-	y: "5rem", 
+	y: "-5rem", 
 	transformOrigin: "50% 0%"
 });
 tl.to(one, {
@@ -149,7 +149,7 @@ tl.to(one, {
                                        
             tl.from(two, {
             duration: 1.5, 
-            y: "5rem",
+            y: "-5rem",
             opacity: 0,    
             filter: "blur(10px)",           
             ease: "Quad.easeOut"           
