@@ -25,6 +25,8 @@ gsap.set("h1 span", {
 });
 
 gsap.to("h1 span", {
+	delay: 4,
+	filter: "blur(0px)",
 	duration: .7,
 	stagger: .1,
 	ease: Back.easeOut.config(2.15),
