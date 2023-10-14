@@ -31,7 +31,7 @@ gsap.to("nav", {
 gsap.to("nav", {
 	duration: 3,
 	filter: "blur(0px)",
-	ease: "Elastic.easeOut",
+	ease: "Quad.easeOut",
 	opacity: 1,
 	scaleY: 1
 }, "<+=0.2");
@@ -54,7 +54,7 @@ gsap.to("h1 span", {
 	duration: 3,
 	stagger: .1,
 	filter: "blur(0px)",
-	ease: "Elastic.easeOut",
+	ease: "Quad.easeOut",
 	opacity: 1,
 	scaleY: 1
 }, "<+=0.2");
@@ -62,7 +62,7 @@ gsap.to("h1 span", {
 gsap.set(".ball", {	     
   opacity: 0, 
   scaleX: 1,  
-  transformOrigin: "0 50%"
+  transformOrigin: "50% 0"
 });	
 gsap.to(".ball", {
   duration: .7,
@@ -129,7 +129,7 @@ tl.to(one, {
 	duration: 3.5,
 	stagger: .1,
 	filter: "blur(0px)",
-	ease: "Elastic.easeOut",
+	ease: "Quad.easeOut",
 	scaleY: 1
 }, "<+=0.2");
 
