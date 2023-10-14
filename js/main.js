@@ -42,13 +42,13 @@ gsap.set("h1 span", {
 gsap.to("h1 span", {
 	delay: 2.5,	
 	duration: .7,
-	stagger: .1,
-	opacity: 1,
+	stagger: .1,	
 	ease: Back.easeOut.config(2.15),
 	y: 0
 });
 gsap.to("h1 span", {
 	duration: 3,
+	opacity: 1,
 	stagger: .1,
 	ease: "Elastic.easeOut",	
 	scaleY: 1
