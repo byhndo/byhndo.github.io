@@ -14,9 +14,17 @@ createApp({
             el.ctx && el.ctx.revert();
         }
     },
-    mounted: function() {   
+mounted: function() {   
 
-
+gsap.from("nav",  {        
+            delay: 2,
+            duration: 2,
+            opacity: 0,
+            y: "-3rem",
+            filter: "blur(10px)",
+            ease: "Bounce.easeInOut"
+        }); 
+	    
 gsap.set("h1 span", {	     
 	opacity: 0, 
 	filter: "blur(10px)",
@@ -39,16 +47,22 @@ gsap.to("h1 span", {
 	opacity: 1,
 	scaleY: 1
 }, "<+=0.2");
-        
-gsap.from("nav",  {        
-            delay: 2,
-            duration: 2,
-            opacity: 0,
-            y: "-3rem",
-            filter: "blur(10px)",
-            ease: "Bounce.easeInOut"
-        }); 
-                 
+
+gsap.set(".ball", {	     
+  opacity: 0, 
+  filter: "blur(10px)",
+  scaleY: 2, 
+  yPercent: 60, 
+  transformOrigin: "50% 0%"
+});
+gsap.to(".ball", {
+  top: 0, 
+  delay: 7, 
+  opacity: 1, 
+  duration: 2, 
+  ease: "Bounce.easeOut"
+});
+                         
 gsap.from(".sub-title", {
             delay: 6,
             duration: 1,
@@ -59,11 +73,7 @@ gsap.from(".sub-title", {
           },
             filter: "blur(10px)",
             ease: "Quad.easeOut"
-        });
-        
-gsap.to(".ball", {
-            top: 0, delay: 7, opacity: 1, duration: 2, ease: "Bounce.easeOut"
-        });
+        });        
 },                          
     data() {
         return {
