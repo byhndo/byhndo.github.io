@@ -54,7 +54,6 @@ gsap.set(".ball", {
   transformOrigin: "50% 0"
 });	
 gsap.to(".ball", {
-  filter: "blur(0px)",
   duration: .7,
   scaleX: 2,
   ease: Back.easeOut.config(2.15),
