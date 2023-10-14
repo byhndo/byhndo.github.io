@@ -67,6 +67,7 @@ gsap.set(".ball", {
 });	
 gsap.to(".ball", {
   duration: .7,
+  scaleX: 2,
   scaleY: 2,
   ease: Back.easeOut.config(2.15),
 });
@@ -75,6 +76,7 @@ gsap.to(".ball", {
   delay: 7, 
   opacity: 1, 
   filter: "blur(0px)",
+  scaleX: 1,
   scaleY: 1,
   duration: 3, 
   ease: "Elastic.easeOut"
