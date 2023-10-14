@@ -40,7 +40,7 @@ gsap.to("h1 span", {
 	yPercent: 0
 });
 gsap.to("h1 span", {
-	duration: 10,
+	duration: 5,
 	stagger: .1,
 	filter: "blur(0px)",
 	ease: "Elastic.easeOut",
@@ -65,7 +65,7 @@ gsap.to(".ball", {
   opacity: 1, 
   filter: "blur(0px)",
   scaleX: 1,
-  duration: 2, 
+  duration: 3, 
   ease: "Elastic.easeOut"
 }, "<+=0.2");
                          
