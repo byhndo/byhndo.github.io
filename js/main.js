@@ -18,7 +18,6 @@ mounted: function() {
 
 gsap.set("nav", {	     
 	opacity: 0, 
-	filter: "blur(10px)",
 	scaleY: 2, 	
 	transformOrigin: "50% 0%"
 });
@@ -29,16 +28,14 @@ gsap.to("nav", {
 	y: 0
 });
 gsap.to("nav", {
-	duration: 3,
-	filter: "blur(0px)",
+	duration: 3,	
 	ease: "Elastic.easeOut",
 	opacity: 1,
 	scaleY: 1
 }, "<+=0.2");
 	
 gsap.set("h1 span", {	     
-	opacity: 0, 
-	filter: "blur(10px)",
+	opacity: 0, 	
 	scaleY: 2, 
 	y: "5rem", 
 	transformOrigin: "50% 0%"
@@ -53,7 +50,6 @@ gsap.to("h1 span", {
 gsap.to("h1 span", {
 	duration: 3,
 	stagger: .1,
-	filter: "blur(0px)",
 	ease: "Elastic.easeOut",
 	opacity: 1,
 	scaleY: 1
@@ -73,7 +69,6 @@ gsap.to(".ball", {
   top: 0, 
   delay: 6, 
   opacity: 1, 
-  filter: "blur(0px)",
   scaleY: 1,
   duration: 3, 
   ease: "Elastic.easeOut"
@@ -86,8 +81,7 @@ gsap.from(".sub-title", {
             y: "3rem", 
             stagger: {
             amount: 1
-          },
-            filter: "blur(10px)",
+          },            
             ease: "Quad.easeOut"
         });        
 },                          
@@ -112,8 +106,7 @@ function setupReveal(container) {
           }, delay: .5
             }); 
                         
-tl.set(one, {	
-	filter: "blur(10px)",
+tl.set(one, {		
 	scaleY: 2, 
 	y: "-3rem", 
 	transformOrigin: "50% 0%"
@@ -127,8 +120,7 @@ tl.to(one, {
 });
 tl.to(one, {
 	duration: 3.5,
-	stagger: .1,
-	filter: "blur(0px)",
+	stagger: .1,	
 	ease: "Elastic.easeOut",
 	scaleY: 1
 }, "<+=0.2");
@@ -150,16 +142,14 @@ tl.to(one, {
             tl.from(two, {
             duration: 1.5, 
             y: "-3rem",
-            opacity: 0,    
-            filter: "blur(10px)",           
+            opacity: 0,                           
             ease: "Quad.easeOut"           
             });
                             
             tl.from(ln, {
                 duration: 2,
                 width: "0%",  
-                opacity: 0,
-                filter: "blur(10px)",
+                opacity: 0,                
                 ease: "Bounce.easeInOut"
             }, "<");
                                                                                                                 
@@ -195,8 +185,7 @@ tl.to(one, {
 
             tl.from(image, {
               duration: 3,                   
-              scale: 1.5,              
-              filter: "blur(2px)",
+              scale: 1.5,                     
               delay: .3,
               ease: "Quad.easeOut"
             }, 0);
