@@ -55,14 +55,13 @@ gsap.to("h1 span", {
 
 gsap.set(".ball", {
   opacity: 0,
-  scaleY: 1,  
+  scaleY: 2,  
   transformOrigin: "50% 0"
 });	
 gsap.to(".ball", {
   delay: 6, 
   duration: .7,
   top: 0,  
-  scaleY: 2,
   opacity: 1,
   ease: Back.easeOut.config(2.15)
 });
