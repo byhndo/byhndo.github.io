@@ -103,6 +103,7 @@ h1 span{
 
 .ball {
   position: relative;
+  z-index:100;
   display: inline-flex;
   width: calc(4vw + .3rem);
   height: calc(4vw + .3rem);
@@ -195,7 +196,7 @@ nav {
     top: 0;
     left: 0;
     right: 0;
-    z-index: 3000;
+    z-index: 10000;
     font-family: var(--font1);
 }
 
