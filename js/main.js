@@ -115,13 +115,13 @@ function setupReveal(container) {
             }); 
                         
 tl.set(one, {	
-	opacity: 0,
 	filter: "blur(10px)",
 	scaleY: 2, 
 	y: "3rem", 
 	transformOrigin: "50% 0%"
 });
-tl.to(one, {		
+tl.to(one, {
+	opacity: 1,
 	duration: .7,
 	stagger: .1,
 	ease: Back.easeOut.config(2.15),
@@ -132,7 +132,6 @@ tl.to(one, {
 	stagger: .1,
 	filter: "blur(0px)",
 	ease: "Elastic.easeOut",
-	opacity: 1,
 	scaleY: 1
 }, "<+=0.2");
 
