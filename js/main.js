@@ -45,7 +45,7 @@ gsap.set("h1 span", {
 	transformOrigin: "50% 0%"
 });
 gsap.to("h1 span", {
-	delay: 2,	
+	delay: 2.5,	
 	duration: .7,
 	stagger: .1,
 	ease: Back.easeOut.config(2.15),
@@ -134,9 +134,7 @@ tl.to(one, {
 	scaleY: 1
 }, "<+=0.2");
 
-
-		
-       });
+});
                     
         const RevealBoxs2 = container.querySelectorAll(".box2");
         RevealBoxs2.forEach((box2) => {
