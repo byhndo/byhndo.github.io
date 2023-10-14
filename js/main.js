@@ -14,7 +14,35 @@ createApp({
             el.ctx && el.ctx.revert();
         }
     },
-    mounted: function() {                  
+    mounted: function() {   
+
+
+gsap.set("h1 span", {
+	opacity: 0, 
+	scaleY: 2, 
+	yPercent: 60, 
+	transformOrigin: "50% 0%"
+});
+
+gsap.to("h1 span", {
+	duration: .8,
+	stagger: .03,
+	ease: Back.easeOut.config(2.15),
+	yPercent: 0
+});
+gsap.to("h1 span", {
+	duration: 2,
+	stagger: .03,
+	ease: "Elastic.easeOut",
+	opacity: 1,
+	scaleY: 1
+}, "<+=0.2");
+
+
+
+
+
+        
         gsap.from("nav",  {        
             delay: 2,
             duration: 2,
@@ -24,17 +52,7 @@ createApp({
             ease: "Bounce.easeInOut"
         }); 
          
-        gsap.from("h1 span", {
-          delay: 4,
-          duration: .7,                     
-          opacity: 0,         
-          y: "-3rem",      
-          filter: "blur(10px)",                 
-          stagger: {
-            amount: 1
-          },
-          ease: "Power2.InOut"
-         });
+        
 
         gsap.from(".sub-title", {
             delay: 6,
@@ -78,7 +96,7 @@ function setupReveal(container) {
             opacity: 0,             
             y: "-3rem",
             filter: "blur(10px)",           
-            ease: "Power2.InOut",
+            ease: "Quad.easeOut",
             stagger: {
             amount: 1
             }            
