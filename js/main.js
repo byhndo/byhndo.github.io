@@ -53,7 +53,7 @@ gsap.set(".ball", {
   scaleX: 1,  
   transformOrigin: "0 0"
 });	
-gsap.to("h1 span", {
+gsap.to(".ball", {
   filter: "blur(0px)",
   duration: .7,
   scaleX: 2,
