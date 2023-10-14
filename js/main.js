@@ -113,20 +113,20 @@ function setupReveal(container) {
           }, delay: .5
             }); 
                         
-tl.set("one", {	     
+tl.set(one, {	     
 	opacity: 0, 
 	filter: "blur(10px)",
 	scaleY: 2, 
 	yPercent: 60, 
 	transformOrigin: "50% 0%"
 });
-tl.to("one", {		
+tl.to(one, {		
 	duration: .7,
 	stagger: .1,
 	ease: Back.easeOut.config(2.15),
 	yPercent: 0
 });
-tl.to("one", {
+tl.to(one, {
 	duration: 3,
 	stagger: .1,
 	filter: "blur(0px)",
