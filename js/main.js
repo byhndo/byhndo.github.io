@@ -25,14 +25,14 @@ gsap.set("h1 span", {
 });
 
 gsap.to("h1 span", {
-	duration: .8,
-	stagger: .03,
+	duration: .7,
+	stagger: .1,
 	ease: Back.easeOut.config(2.15),
 	yPercent: 0
 });
 gsap.to("h1 span", {
 	duration: 2,
-	stagger: .03,
+	stagger: .1,
 	ease: "Elastic.easeOut",
 	opacity: 1,
 	scaleY: 1
