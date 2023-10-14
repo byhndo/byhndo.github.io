@@ -142,7 +142,7 @@ tl.set(two, {
 });
 tl.to(two, {
 	opacity: 1,
-	duration: 1.5,	
+	duration: 1,	
 	y: 0,
 	ease: "Quad.easeOut"
 });                                                  
