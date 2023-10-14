@@ -123,16 +123,30 @@ function setupReveal(container) {
           }, delay: .5
             }); 
                         
-            tl.from(one, {
-            duration: .7,           
-            opacity: 0,             
-            y: "-3rem",
-            filter: "blur(10px)",           
-            ease: "Quad.easeOut",
-            stagger: {
-            amount: 1
-            }            
-            });   
+tl.set("one", {	     
+	opacity: 0, 
+	filter: "blur(10px)",
+	scaleY: 2, 
+	yPercent: 60, 
+	transformOrigin: "50% 0%"
+});
+tl.to("one", {		
+	duration: .7,
+	stagger: .1,
+	ease: Back.easeOut.config(2.15),
+	yPercent: 0
+});
+tl.to("one", {
+	duration: 3,
+	stagger: .1,
+	filter: "blur(0px)",
+	ease: "Elastic.easeOut",
+	opacity: 1,
+	scaleY: 1
+}, "<+=0.2");
+
+
+		
        });
                     
         const RevealBoxs2 = container.querySelectorAll(".box2");
