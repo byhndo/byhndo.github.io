@@ -23,7 +23,7 @@ gsap.set("nav", {
 	transformOrigin: "50% 0%"
 });
 gsap.to("nav", {
-	delay:.5,
+	delay:1,
 	duration: .7,	
 	ease: Back.easeOut.config(2.15),
 	y: 0
@@ -115,7 +115,7 @@ function setupReveal(container) {
 tl.set(one, {	
 	filter: "blur(10px)",
 	scaleY: 2, 
-	y: "-5rem", 
+	y: "-3rem", 
 	transformOrigin: "50% 0%"
 });
 tl.to(one, {
@@ -149,7 +149,7 @@ tl.to(one, {
                                        
             tl.from(two, {
             duration: 1.5, 
-            y: "-5rem",
+            y: "-3rem",
             opacity: 0,    
             filter: "blur(10px)",           
             ease: "Quad.easeOut"           
