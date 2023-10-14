@@ -34,7 +34,7 @@ gsap.to("h1 span", {
 	yPercent: 0
 });
 gsap.to("h1 span", {
-	duration: 2,
+	duration: 3,
 	stagger: .1,
 	ease: "Elastic.easeOut",
 	opacity: 1,
