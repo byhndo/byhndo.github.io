@@ -130,7 +130,7 @@ tl.to(one, {
             });                      
                                        
 tl.set(two, {			
-	y: "-3rem", 
+	y: "-3rem"
 });
 tl.to(two, {
 	opacity: 1,
