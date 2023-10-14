@@ -60,13 +60,13 @@ gsap.set(".ball", {
 gsap.to(".ball", {
   delay: 6, 
   duration: .7,
-  scaleX:2,
+  scaleX:1,
   top: 0,  
   opacity: 1,
   ease: Back.easeOut.config(2.15)
 });
 gsap.to(".ball", {
-  scaleX: 1,
+  scaleX: 2,
   duration: 3, 
   ease: "Elastic.easeOut"
 }, "<+=0.2");
