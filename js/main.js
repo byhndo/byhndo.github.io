@@ -53,7 +53,8 @@ gsap.to("h1 span", {
 	scaleY: 1
 }, "<+=0.2");
 
-gsap.set(".ball", {	     
+gsap.set(".ball", {
+  opacity: 0,
   scaleY: 1,  
   transformOrigin: "50% 0"
 });	
