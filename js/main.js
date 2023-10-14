@@ -29,7 +29,7 @@ gsap.to("nav", {
 	yPercent: 0
 });
 gsap.to("nav", {
-	duration: 3,
+	duration: 5,
 	filter: "blur(0px)",
 	ease: "Elastic.easeOut",
 	opacity: 1,
