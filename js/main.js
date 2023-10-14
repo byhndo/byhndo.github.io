@@ -20,14 +20,14 @@ gsap.set("nav", {
 	opacity: 0, 
 	filter: "blur(10px)",
 	scaleY: 2, 
-	yPercent: -60, 
+	y: "-3rem", 
 	transformOrigin: "50% 0%"
 });
 gsap.to("nav", {
 	delay:1,
 	duration: .7,	
 	ease: Back.easeOut.config(2.15),
-	yPercent: 0
+	y: 0
 });
 gsap.to("nav", {
 	duration: 5,
@@ -41,7 +41,7 @@ gsap.set("h1 span", {
 	opacity: 0, 
 	filter: "blur(10px)",
 	scaleY: 2, 
-	yPercent: 60, 
+	y: "3rem", 
 	transformOrigin: "50% 0%"
 });
 gsap.to("h1 span", {
@@ -49,7 +49,7 @@ gsap.to("h1 span", {
 	duration: .7,
 	stagger: .1,
 	ease: Back.easeOut.config(2.15),
-	yPercent: 0
+	y: 0
 });
 gsap.to("h1 span", {
 	duration: 3,
@@ -119,14 +119,14 @@ tl.set(one, {
 	opacity: 0,
 	filter: "blur(10px)",
 	scaleY: 2, 
-	yPercent: 60, 
+	y: "3rem", 
 	transformOrigin: "50% 0%"
 });
 tl.to(one, {		
 	duration: .7,
 	stagger: .1,
 	ease: Back.easeOut.config(2.15),
-	yPercent: 0
+	y: 0
 });
 tl.to(one, {
 	duration: 3,
