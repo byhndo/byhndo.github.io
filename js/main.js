@@ -55,7 +55,7 @@ gsap.set(".ball", {
 });	
 gsap.to(".ball", {
   duration: .7,
-  scaleX: 2,
+  scaleY: 2,
   ease: Back.easeOut.config(2.15),
 });
 gsap.to(".ball", {
