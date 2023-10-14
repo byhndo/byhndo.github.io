@@ -71,6 +71,7 @@ h1 {
   left: -.5%;
   line-height: .75;
   letter-spacing: calc(-.3vw + -.05rem);
+  opacity: 0;
 }
 
 h1 span{
@@ -85,6 +86,7 @@ h1 span{
 
 .sub-title {
   position: relative;
+  opacity: 0;
   color: var(--c2);
   font-family: var(--font2);
   font-weight: 400;
