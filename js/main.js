@@ -17,10 +17,9 @@ createApp({
     mounted: function() {   
 
 
-gsap.set("h1 span", {
-	delay: 4,
-	filter: "blur(10px)",     
-	opacity: 0, 
+gsap.set("h1 span", {	     
+	opacity: 0, 	
+	filter: "blur(10px)",
 	scaleY: 2, 
 	yPercent: 60, 
 	transformOrigin: "50% 0%"
