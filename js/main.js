@@ -16,21 +16,20 @@ createApp({
     },
 mounted: function() {   
 
-gsap.set("nav", {	     
-	opacity: 0, 
+gsap.set("nav", {	      
 	scaleY: 2, 	
 	transformOrigin: "50% 0%"
 });
 gsap.to("nav", {
 	delay:1,
-	duration: .7,	
+	duration: .7,
+	opacity: 1,
 	ease: Back.easeOut.config(2.15),
 	y: 0
 });
 gsap.to("nav", {
 	duration: 3,	
-	ease: "Elastic.easeOut",
-	opacity: 1,
+	ease: "Elastic.easeOut",	
 	scaleY: 1
 }, "<+=0.2");
 	
@@ -42,13 +41,13 @@ gsap.set("h1 span", {
 gsap.to("h1 span", {
 	delay: 2.5,	
 	duration: .7,
+	opacity: 1,
 	stagger: .1,	
 	ease: Back.easeOut.config(2.15),
 	y: 0
 });
 gsap.to("h1 span", {
 	duration: 3,
-	opacity: 1,
 	stagger: .1,
 	ease: "Elastic.easeOut",	
 	scaleY: 1
@@ -61,12 +60,12 @@ gsap.set(".ball", {
 gsap.to(".ball", {
   duration: .7,
   scaleY: 2,
+  opacity: 1,
   ease: Back.easeOut.config(2.15),
 });
 gsap.to(".ball", {
   top: 0, 
-  delay: 6, 
-  opacity: 1, 
+  delay: 6,  
   scaleY: 1,
   duration: 3, 
   ease: "Elastic.easeOut"
