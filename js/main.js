@@ -31,7 +31,7 @@ gsap.to("nav", {
 gsap.to("nav", {
 	duration: 3,
 	filter: "blur(0px)",
-	ease: "Quad.easeOut",
+	ease: "Bounce.easeOut",
 	opacity: 1,
 	scaleY: 1
 }, "<+=0.2");
@@ -54,7 +54,7 @@ gsap.to("h1 span", {
 	duration: 3,
 	stagger: .1,
 	filter: "blur(0px)",
-	ease: "Quad.easeOut",
+	ease: "Bounce.easeOut",
 	opacity: 1,
 	scaleY: 1
 }, "<+=0.2");
@@ -129,7 +129,7 @@ tl.to(one, {
 	duration: 3.5,
 	stagger: .1,
 	filter: "blur(0px)",
-	ease: "Quad.easeOut",
+	ease: "Bounce.easeOut",
 	scaleY: 1
 }, "<+=0.2");
 
