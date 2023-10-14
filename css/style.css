@@ -136,7 +136,7 @@ a {
     color: inherit;
 }
 a:hover, a:active{
-    filter: blur(2px);
+    opacity:.3;
 }
 .bg {
     background: inherit;
