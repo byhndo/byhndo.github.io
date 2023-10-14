@@ -20,11 +20,11 @@ gsap.set("nav", {
 	opacity: 0, 
 	filter: "blur(10px)",
 	scaleY: 2, 
-	yPercent: 60, 
+	yPercent: -60, 
 	transformOrigin: "50% 0%"
 });
 gsap.to("nav", {
-	delay: 4,	
+	delay: 2,	
 	duration: .7,	
 	ease: Back.easeOut.config(2.15),
 	yPercent: 0
