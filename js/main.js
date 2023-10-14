@@ -43,7 +43,7 @@ gsap.to("h1 span", {
 gsap.to("h1 span", {
 	duration: 3,
 	stagger: .1,
-	ease: "Quad.easeOut",
+	ease: "Bounce.easeOut",
 	opacity: 1,
 	scaleY: 1
 }, "<+=0.2");
@@ -54,14 +54,15 @@ gsap.set(".ball", {
   scaleY: 2, 
   yPercent: 60, 
   transformOrigin: "50% 0%"
-});
+});	
 gsap.to(".ball", {
   top: 0, 
   delay: 7, 
   opacity: 1, 
+  scaleY: 1,
   duration: 2, 
   ease: "Bounce.easeOut"
-});
+}, "<+=0.2");
                          
 gsap.from(".sub-title", {
             delay: 6,
