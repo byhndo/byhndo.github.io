@@ -111,7 +111,6 @@ h1 span{
   background-color: var(--b1); 
   margin-left: calc(-.08vw + -.1rem);
   top: -20%;
-  opacity: 0;
   transition: background-color 2.5s;
   border-radius: 50%;
 }
