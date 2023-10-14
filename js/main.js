@@ -31,7 +31,7 @@ gsap.to("nav", {
 gsap.to("nav", {
 	duration: 3,
 	filter: "blur(0px)",
-	ease: "Bounce.easeOut",
+	ease: "Elastic.easeOut",
 	opacity: 1,
 	scaleY: 1
 }, "<+=0.2");
@@ -54,19 +54,19 @@ gsap.to("h1 span", {
 	duration: 3,
 	stagger: .1,
 	filter: "blur(0px)",
-	ease: "Bounce.easeOut",
+	ease: "Elastic.easeOut",
 	opacity: 1,
 	scaleY: 1
 }, "<+=0.2");
 
 gsap.set(".ball", {	     
   opacity: 0, 
-  scaleX: 1,  
+  scaleY: 1,  
   transformOrigin: "50% 0"
 });	
 gsap.to(".ball", {
   duration: .7,
-  scaleX: 2,
+  scaleY: 2,
   ease: Back.easeOut.config(2.15),
 });
 gsap.to(".ball", {
@@ -74,7 +74,7 @@ gsap.to(".ball", {
   delay: 6, 
   opacity: 1, 
   filter: "blur(0px)",
-  scaleX: 1,
+  scaleY: 1,
   duration: 3, 
   ease: "Elastic.easeOut"
 }, "<+=0.2");
@@ -129,7 +129,7 @@ tl.to(one, {
 	duration: 3.5,
 	stagger: .1,
 	filter: "blur(0px)",
-	ease: "Bounce.easeOut",
+	ease: "Elastic.easeOut",
 	scaleY: 1
 }, "<+=0.2");
 
