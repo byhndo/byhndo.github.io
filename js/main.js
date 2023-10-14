@@ -142,16 +142,12 @@ tl.set(two, {
 tl.to(two, {
 	opacity: 1,
 	duration: .7,	
-	ease: Back.easeOut.config(2.15),
 	y: 0
 });
 tl.to(two, {
 	duration: 1.5,	
 	ease: "Quad.easeOut"	
-});
-
-});           
-                                        
+});                                                  
 
 tl.set(ln, {			
 	y: "-3rem", 
@@ -159,8 +155,7 @@ tl.set(ln, {
 }, "<");
 tl.to(ln, {
 	opacity: 1,
-	duration: 2,	
-	ease: Back.easeOut.config(2.15),
+	duration: 2,		
 	y: 0
 });
 tl.to(ln, {
@@ -168,7 +163,7 @@ tl.to(ln, {
 	ease: "Bounce.easeInOut"	
 });
 	                                                                                                                  
-        });
+});
       
                                                        
         let revealContainers = container.querySelectorAll(".item");
