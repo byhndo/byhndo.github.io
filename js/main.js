@@ -40,7 +40,7 @@ gsap.to("h1 span", {
 	yPercent: 0
 });
 gsap.to("h1 span", {
-	duration: 5,
+	duration: 3,
 	stagger: .1,
 	filter: "blur(0px)",
 	ease: "Elastic.easeOut",
@@ -50,12 +50,12 @@ gsap.to("h1 span", {
 
 gsap.set(".ball", {	     
   opacity: 0, 
-  scaleX: 1,  
+  scaleY: 1,  
   transformOrigin: "50% 0"
 });	
 gsap.to(".ball", {
   duration: .7,
-  scaleX: 2,
+  scaleY: 2,
   ease: Back.easeOut.config(2.15),
 });
 gsap.to(".ball", {
@@ -63,7 +63,7 @@ gsap.to(".ball", {
   delay: 7, 
   opacity: 1, 
   filter: "blur(0px)",
-  scaleX: 1,
+  scaleY: 1,
   duration: 3, 
   ease: "Elastic.easeOut"
 }, "<+=0.2");
