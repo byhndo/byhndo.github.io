@@ -71,12 +71,15 @@ gsap.to(".ball", {
 }, "<+=0.2");
 
 
-gsap.to(".sub-title, {
-  y:0,
-  duration:3,
-  opacity: 1,
-  delay: 5,
-});      
+gsap.set(".sub-title", {			
+	y: "-3rem"
+});
+gsap.to(".sub-title", {
+	opacity: 1,
+	duration: 1,	
+	y: 0,
+	ease: "Quad.easeOut"
+});
 
 	
 },                          
