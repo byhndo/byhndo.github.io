@@ -151,14 +151,12 @@ tl.to(two, {
 });                                                  
 
 tl.set(ln, {			
-	y: "-3rem", 
 	width: "0%"
 }, "<");
 tl.to(ln, {
 	opacity: 1,
 	duration: 2,	
 	width: "100%",
-	y: 0,
 	ease: "Bounce.easeInOut"
 });
 	                                                                                                                  
