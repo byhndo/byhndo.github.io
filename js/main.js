@@ -147,7 +147,7 @@ tl.to(two, {
 });
 tl.to(two, {
 	duration: 1.5,	
-	ease: "Quad.easeOut",	
+	ease: "Quad.easeOut"	
 });
 
 });           
@@ -165,7 +165,7 @@ tl.to(ln, {
 });
 tl.to(ln, {
 	duration: 1.5,	
-	ease: "Bounce.easeInOut",	
+	ease: "Bounce.easeInOut"	
 });
 	                                                                                                                  
         });
