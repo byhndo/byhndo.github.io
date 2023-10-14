@@ -136,7 +136,7 @@ a {
     color: inherit;
 }
 a:hover, a:active{
-    opacity:.3;
+    opacity:.6;
 }
 .bg {
     background: inherit;
@@ -346,7 +346,6 @@ img.hand{
 
 svg:hover, svg:active{
   opacity: .6;
-  filter: blur(2px);
 }
 
 img, .box1, .box2, .one, .one span, .two{
