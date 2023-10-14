@@ -71,13 +71,13 @@ h1 {
   left: -.5%;
   line-height: .75;
   letter-spacing: calc(-.3vw + -.05rem);
-  opacity: 0;
 }
 
 h1 span{
   position: relative;
   display: inline-block;
   transform-origin: 50% 100%;
+  opacity: 0;
 }
 
 .photos h1 {
