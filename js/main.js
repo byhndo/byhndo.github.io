@@ -153,7 +153,7 @@ tl.to(one, {
                                        
             tl.from(two, {
             duration: 1.5, 
-            y: "-3rem",
+            y: "3rem",
             opacity: 0,    
             filter: "blur(10px)",           
             ease: "Quad.easeOut"           
