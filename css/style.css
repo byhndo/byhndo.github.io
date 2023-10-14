@@ -94,8 +94,8 @@ h1 span{
   text-transform: uppercase;
   transition: color 2.5s;
   line-height: 2.2;
-  bottom: 12px;
   margin-bottom: var(--marginp);
+  opacity: 0;
 }
 
 .photos .sub-title {
