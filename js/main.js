@@ -54,13 +54,14 @@ gsap.to("h1 span", {
 }, "<+=0.2");
 
 gsap.set(".ball", {
-  scaleY: 2,  
+  scaleY: 1,  
   transformOrigin: "50% 0"
 });	
 gsap.to(".ball", {
   delay: 6, 
   duration: .7,
   top: 0,  
+  scaleY: 2,
   opacity: 1,
   ease: Back.easeOut.config(2.15)
 });
@@ -77,7 +78,8 @@ gsap.from(".sub-title", {
 });
 gsap.to(".sub-title", {
 	opacity: 1,
-	duration: 1,	
+	delay:3,
+	duration: 2,	
 	y: 0,
 	ease: "Quad.easeOut"
 });
