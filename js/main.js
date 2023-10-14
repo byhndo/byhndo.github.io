@@ -70,7 +70,15 @@ gsap.to(".ball", {
   ease: "Elastic.easeOut"
 }, "<+=0.2");
 
-                
+gsap.set(".sub-title", {                                          
+  y: "3rem"        
+}); 
+gsap.to(".sub-title, {
+  y:0,
+  delay: 5,
+  duration: 3, 
+  ease: "Quad.easeOut"
+});             
 	
 },                          
     data() {
