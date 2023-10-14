@@ -24,7 +24,29 @@ gsap.from("nav",  {
             filter: "blur(10px)",
             ease: "Bounce.easeInOut"
         }); 
-	    
+
+
+gsap.set("nav", {	     
+	opacity: 0, 
+	filter: "blur(10px)",
+	scaleY: 2, 
+	yPercent: 60, 
+	transformOrigin: "50% 0%"
+});
+gsap.to("nav", {
+	delay: 4,	
+	duration: .7,	
+	ease: Back.easeOut.config(2.15),
+	yPercent: 0
+});
+gsap.to("nav", {
+	duration: 3,
+	filter: "blur(0px)",
+	ease: "Elastic.easeOut",
+	opacity: 1,
+	scaleY: 1
+}, "<+=0.2");
+	
 gsap.set("h1 span", {	     
 	opacity: 0, 
 	filter: "blur(10px)",
