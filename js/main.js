@@ -45,7 +45,7 @@ gsap.set("h1 span", {
 	transformOrigin: "50% 0%"
 });
 gsap.to("h1 span", {
-	delay: 3,	
+	delay: 2,	
 	duration: .7,
 	stagger: .1,
 	ease: Back.easeOut.config(2.15),
@@ -74,7 +74,7 @@ gsap.to(".ball", {
 });
 gsap.to(".ball", {
   top: 0, 
-  delay: 7, 
+  delay: 6, 
   opacity: 1, 
   filter: "blur(0px)",
   scaleX: 1,
@@ -84,7 +84,7 @@ gsap.to(".ball", {
 }, "<+=0.2");
                          
 gsap.from(".sub-title", {
-            delay: 6,
+            delay: 5,
             duration: 1,
             opacity: 0,         
             y: "3rem", 
@@ -130,7 +130,7 @@ tl.to(one, {
 	y: 0
 });
 tl.to(one, {
-	duration: 5,
+	duration: 4,
 	stagger: .1,
 	filter: "blur(0px)",
 	ease: "Elastic.easeOut",
