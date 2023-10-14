@@ -129,7 +129,7 @@ tl.to(one, {
 	y: 0
 });
 tl.to(one, {
-	duration: 3,
+	duration: 5,
 	stagger: .1,
 	filter: "blur(0px)",
 	ease: "Elastic.easeOut",
