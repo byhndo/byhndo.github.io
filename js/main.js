@@ -30,7 +30,7 @@ gsap.to("nav", {
 	y: 0
 });
 gsap.to("nav", {
-	duration: 5,
+	duration: 3,
 	filter: "blur(0px)",
 	ease: "Elastic.easeOut",
 	opacity: 1,
