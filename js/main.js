@@ -66,7 +66,7 @@ gsap.to(".ball", {
   filter: "blur(0px)",
   scaleX: 1,
   duration: 2, 
-  ease: "Bounce.easeOut"
+  ease: "Elastic.easeOut"
 }, "<+=0.2");
                          
 gsap.from(".sub-title", {
