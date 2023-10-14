@@ -350,7 +350,6 @@ svg:hover, svg:active{
 
 img, .box1, .box2, .one, .one span, .two{
   position: relative;
-  opacity: 0;
 }
 
 .one, .one span{
