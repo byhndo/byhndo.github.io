@@ -114,7 +114,6 @@ function setupReveal(container) {
             }); 
                         
 tl.set(one, {	     
-	opacity: 0, 
 	filter: "blur(10px)",
 	scaleY: 2, 
 	yPercent: 60, 
