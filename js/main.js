@@ -19,8 +19,7 @@ mounted: function() {
 gsap.set("nav", {	     
 	opacity: 0, 
 	filter: "blur(10px)",
-	scaleY: 2, 
-	y: "-5rem", 
+	scaleY: 2, 	
 	transformOrigin: "50% 0%"
 });
 gsap.to("nav", {
