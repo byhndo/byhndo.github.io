@@ -55,12 +55,13 @@ gsap.to("h1 span", {
 
 gsap.set(".ball", {
   opacity: 0,
-  scaleX: 2,  
+  scaleX: 1,  
   transformOrigin: "50% 0"
 });	
 gsap.to(".ball", {
   delay: 6, 
   duration: .7,
+  scaleX:2,
   top: 0,  
   opacity: 1,
   ease: Back.easeOut.config(2.15)
@@ -141,26 +142,20 @@ tl.set(two, {
 });
 tl.to(two, {
 	opacity: 1,
-	duration: .7,	
-	y: 0
-});
-tl.to(two, {
 	duration: 1.5,	
-	ease: "Quad.easeOut"	
+	y: 0,
+	ease: "Quad.easeOut"
 });                                                  
 
 tl.set(ln, {			
 	y: "-3rem", 
-	width: "0"
+	width: "0%"
 }, "<");
 tl.to(ln, {
 	opacity: 1,
 	duration: 2,		
-	y: 0
-});
-tl.to(ln, {
-	duration: 1.5,	
-	ease: "Bounce.easeInOut"	
+	y: 0,
+	ease: "Bounce.easeInOut"
 });
 	                                                                                                                  
 });
