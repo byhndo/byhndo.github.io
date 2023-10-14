@@ -114,6 +114,7 @@ h1 span{
   top: -20%;
   transition: background-color 2.5s;
   border-radius: 50%;
+  opacity: 0;
 }
 
 .photos .ball {
