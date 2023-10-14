@@ -20,7 +20,7 @@ gsap.set("nav", {
 	opacity: 0, 
 	filter: "blur(10px)",
 	scaleY: 2, 
-	y: "-3rem", 
+	y: "-5rem", 
 	transformOrigin: "50% 0%"
 });
 gsap.to("nav", {
@@ -41,7 +41,7 @@ gsap.set("h1 span", {
 	opacity: 0, 
 	filter: "blur(10px)",
 	scaleY: 2, 
-	y: "3rem", 
+	y: "5rem", 
 	transformOrigin: "50% 0%"
 });
 gsap.to("h1 span", {
@@ -116,7 +116,7 @@ function setupReveal(container) {
 tl.set(one, {	
 	filter: "blur(10px)",
 	scaleY: 2, 
-	y: "3rem", 
+	y: "5rem", 
 	transformOrigin: "50% 0%"
 });
 tl.to(one, {
