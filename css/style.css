@@ -368,6 +368,7 @@ img, .box1, .box2, .one, .one span, .two{
 .two{
   margin-top: var(--marginp);
   margin-bottom: var(--marginp);
+  opacity:0;
 }
 
 .ln {
