@@ -73,6 +73,7 @@ gsap.to(".ball", {
 
 gsap.to(".sub-title, {
   y:0,
+  duration:3,
   opacity: 1,
   delay: 5,
 });      
