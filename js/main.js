@@ -50,7 +50,7 @@ gsap.to("h1 span", {
 
 gsap.set(".ball", {	     
   opacity: 0, 
-  scaleY: 1,  
+  scaleX: 1,  
   transformOrigin: "50% 50%"
 });	
 gsap.to(".ball", {
@@ -63,7 +63,7 @@ gsap.to(".ball", {
   delay: 7, 
   opacity: 1, 
   filter: "blur(0px)",
-  scaleY: 1,
+  scaleX: 1,
   duration: 3, 
   ease: "Elastic.easeOut"
 }, "<+=0.2");
