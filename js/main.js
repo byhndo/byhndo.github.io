@@ -16,16 +16,6 @@ createApp({
     },
 mounted: function() {   
 
-gsap.from("nav",  {        
-            delay: 2,
-            duration: 2,
-            opacity: 0,
-            y: "-3rem",
-            filter: "blur(10px)",
-            ease: "Bounce.easeInOut"
-        }); 
-
-
 gsap.set("nav", {	     
 	opacity: 0, 
 	filter: "blur(10px)",
