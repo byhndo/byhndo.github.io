@@ -71,10 +71,7 @@ gsap.to(".ball", {
 }, "<+=0.2");
 
 
-gsap.set(".sub-title", {			
-	y: "-3rem"
-});
-gsap.to(".sub-title", {
+gsap.from(".sub-title", {
 	opacity: 1,
 	duration: 1,	
 	y: 0,
