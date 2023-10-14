@@ -23,7 +23,8 @@ gsap.set("nav", {
 	yPercent: -60, 
 	transformOrigin: "50% 0%"
 });
-gsap.to("nav", {		
+gsap.to("nav", {
+	delay:1,
 	duration: .7,	
 	ease: Back.easeOut.config(2.15),
 	yPercent: 0
@@ -114,7 +115,8 @@ function setupReveal(container) {
           }, delay: .5
             }); 
                         
-tl.set(one, {	     
+tl.set(one, {	
+	opacity: 0,
 	filter: "blur(10px)",
 	scaleY: 2, 
 	yPercent: 60, 
