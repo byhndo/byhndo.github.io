@@ -355,6 +355,7 @@ img, .box1, .box2, .one, .one span, .two{
 .one, .one span{
   display: inline-block;
   transform-origin: 50% 100%;
+  opacity:0;
 }
 
 .one{
