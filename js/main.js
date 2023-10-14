@@ -69,7 +69,7 @@ gsap.to(".ball", {
 gsap.to(".ball", {
   scaleY: 1,
   duration: 3, 
-  ease: "Elastic.easeOut"
+  ease: "Bounce.easeOut"
 }, "<+=0.2");
                          
 gsap.from(".sub-title", {
