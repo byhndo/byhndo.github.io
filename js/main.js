@@ -55,7 +55,7 @@ gsap.to("h1 span", {
 
 gsap.set(".ball", {
   opacity: 0,
-  scaleY: 2,  
+  scaleX: 2,  
   transformOrigin: "50% 0"
 });	
 gsap.to(".ball", {
@@ -66,9 +66,9 @@ gsap.to(".ball", {
   ease: Back.easeOut.config(2.15)
 });
 gsap.to(".ball", {
-  scaleY: 1,
+  scaleX: 1,
   duration: 3, 
-  ease: "Bounce.easeOut"
+  ease: "Elastic.easeOut"
 }, "<+=0.2");
                          
 gsap.from(".sub-title", {
@@ -136,20 +136,38 @@ tl.to(one, {
                 }, delay: .5
             });                      
                                        
-            tl.from(two, {
-            duration: 1.5, 
-            y: "-3rem",
-            opacity: 0,                           
-            ease: "Quad.easeOut"           
-            });
-                            
-            tl.from(ln, {
-                duration: 2,
-                width: "0%",  
-                opacity: 0,                
-                ease: "Bounce.easeInOut"
-            }, "<");
-                                                                                                                
+tl.set(two, {			
+	y: "-3rem", 
+});
+tl.to(two, {
+	opacity: 1,
+	duration: .7,	
+	ease: Back.easeOut.config(2.15),
+	y: 0
+});
+tl.to(two, {
+	duration: 1.5,	
+	ease: "Quad.easeOut",	
+});
+
+});           
+                                        
+
+tl.set(ln, {			
+	y: "-3rem", 
+	width: "0"
+}, "<");
+tl.to(ln, {
+	opacity: 1,
+	duration: 2,	
+	ease: Back.easeOut.config(2.15),
+	y: 0
+});
+tl.to(ln, {
+	duration: 1.5,	
+	ease: "Bounce.easeInOut",	
+});
+	                                                                                                                  
         });
       
                                                        
