@@ -51,11 +51,11 @@ gsap.to("h1 span", {
 gsap.set(".ball", {	     
   opacity: 0, 
   scaleY: 1,  
-  transformOrigin: "0 50%"
+  transformOrigin: "50% 50%"
 });	
 gsap.to(".ball", {
   duration: .7,
-  scaleY: 2,
+  scaleX: 2,
   ease: Back.easeOut.config(2.15),
 });
 gsap.to(".ball", {
