@@ -146,7 +146,14 @@ tl.to(two, {
 	duration: 1,	
 	y: 0,
 	ease: "Quad.easeOut"
-});                                                  
+});   
+
+tl.to(ln, {
+	opacity: 1,
+	duration: 2,	
+	width: "100%",
+	ease: "Bounce.easeInOut"
+},">");		
 	                                                                                                                  
 });
       
