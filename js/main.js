@@ -152,7 +152,7 @@ tl.to(ln, {
 	opacity: 1,
 	duration: 2,	
 	width: "100%",
-	ease: "Bounce.easeInOut"
+	ease: "Bounce.easeOut"
 },">");		
 	                                                                                                                  
 });
