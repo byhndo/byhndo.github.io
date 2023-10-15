@@ -58,7 +58,7 @@ gsap.set(".ball", {
   transformOrigin: "50% 0"
 });	
 gsap.to(".ball", {
-  delay: 6.5, 
+  delay: 7, 
   duration: .7,
   top: 0,  
   scaleY: 2,
