@@ -150,7 +150,7 @@ tl.to(two, {
 
 tl.to(ln, {
 	opacity: 1,
-	duration: 2,	
+	duration: 1,	
 	width: "100%",
 	ease: "Bounce.easeOut"
 },">");		
