@@ -42,22 +42,22 @@ h1, h2, h3, h4, h5, h6, h7 {
 }
 
 h2 {
-    font-size: 9vw;
+    font-size: 300%;
 }
 h3 {
-  font-size: 8vw;
+  font-size: 280%;
 }
 h4 {
-    font-size: 7vw;
+    font-size: 260%;
 }
 h5 {
-    font-size: 6vw;
+    font-size: 240%;
 }
 h6 {
-    font-size: 5vw;
+    font-size: 220%;
 }
 h7 {
-    font-size: 4vw;
+    font-size: 200%;
 }
 
 .header{
