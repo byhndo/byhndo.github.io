@@ -42,15 +42,15 @@ h1, h2, h3, h4, h5 {
 }
 
 h2 {
-    font-size: 15vw;
+    font-size: 12vw;
 }
 
 h3 {
-  font-size: 13vw;
+  font-size: 11vw;
 }
 
 h4 {
-    font-size: 11vw;
+    font-size: 10vw;
 }
 
 h5 {
@@ -374,7 +374,7 @@ img, .box1, .box2, .one, .one span, .two{
 .ln {
   position: relative;
   width:0;
-  margin-top: -17px;
+  margin-top: -1rem;
   height:.3vw;
   background-color: var(--c2);
   opacity: 0;
