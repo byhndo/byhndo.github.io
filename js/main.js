@@ -80,7 +80,7 @@ gsap.to(".sub-title", {
 	delay:5,
 	duration:1,	
 	y: 0,
-	ease: "Sine.easeOut"
+	ease: "Quad.easeOut"
 });
 		
 },                          
@@ -145,7 +145,7 @@ tl.to(two, {
 	opacity: 1,
 	duration: 1,	
 	y: 0,	
-	ease: "Sine.easeOut"
+	ease: "Quad.easeOut"
 });   
 
 tl.to(ln, {
