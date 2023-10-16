@@ -29,7 +29,7 @@ gsap.to("nav", {
 });
 gsap.to("nav", {
 	duration: 3,	
-	ease: "Bounce.easeInOut",	
+	ease: "Bounce.easeIn",	
 	scaleY: 1
 }, "<+=0.2");
 	
