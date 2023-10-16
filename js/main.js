@@ -54,21 +54,21 @@ gsap.to("h1 span", {
 }, "<+=0.2");
 
 gsap.set(".ball", {
-  scaleX: 1,  
+  scaleY: 1,  
   transformOrigin: "center bottom"
 });	
 gsap.to(".ball", {
   delay:6, 
   duration:.7,
   top: 0,  
-  scaleX: 2,
+  scaleY: 2,
   opacity: 1,
   ease: Back.easeOut.config(2.15)	
 });
 gsap.to(".ball", {
-  scaleX: 1,
+  scaleY: 1,
   duration: 3, 
-  ease: "Bounce.easeOut"
+  ease: "Elastic.easeOut"
 }, "<+=0.2");
 
 
