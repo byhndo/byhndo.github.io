@@ -33,7 +33,7 @@ html{
     box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6, h7 {
   position: relative;
   font-family: var(--font1);
   font-weight: var(--fwtitle);
@@ -44,17 +44,20 @@ h1, h2, h3, h4, h5 {
 h2 {
     font-size: 12vw;
 }
-
 h3 {
   font-size: 11vw;
 }
-
 h4 {
     font-size: 10vw;
 }
-
 h5 {
     font-size: 9vw;
+}
+h6 {
+    font-size: 8vw;
+}
+h7 {
+    font-size: 7vw;
 }
 
 .header{
