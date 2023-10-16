@@ -120,8 +120,7 @@ tl.to(one, {
 tl.to(one, {
 	duration: 3,
 	stagger: .1,	
-	ease: "sine.out",
-	"--mask": 'linear-gradient(-45deg, transparent -50%, black 0%)',
+	ease: "Elastic.easeOut",
 	scaleY: 1
 }, "<+=0.2");
 
@@ -145,8 +144,9 @@ tl.set(two, {
 tl.to(two, {
 	opacity: 1,
 	duration: 1,	
-	y: 0,
-	ease: "Quad.easeOut"
+	y: 0,	
+	ease: "sine.out",
+	"--mask": 'linear-gradient(-45deg, transparent -50%, black 0%)'
 });   
 
 tl.to(ln, {
