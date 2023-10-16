@@ -145,8 +145,7 @@ tl.to(two, {
 	opacity: 1,
 	duration: 1,	
 	y: 0,	
-	ease: "sine.out",
-	"--mask": 'linear-gradient(-45deg, transparent -50%, black 0%)'
+	ease: "Sine.easeOut"
 });   
 
 tl.to(ln, {
