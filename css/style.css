@@ -372,9 +372,6 @@ img, .box1, .box2, .one, .one span, .two{
   margin-top: var(--marginp);
   margin-bottom: var(--marginp);
   opacity:0;
-  --mask: linear-gradient(-45deg, transparent 100%, black 150%);
-  -webkit-mask-image: var(--mask);
-  mask-image: var(--mask);
 }
 
 .ln {
