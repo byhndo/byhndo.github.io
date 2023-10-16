@@ -377,7 +377,7 @@ img, .box1, .box2, .one, .one span, .two{
 .ln {
   position: relative;
   width:0;
-  margin-top: -12px;
+  margin-top: -15px;
   height:.3vw;
   background-color: var(--c2);
   opacity: 0;
