@@ -76,11 +76,11 @@ gsap.set(".sub-title", {
 	y: "3rem",	
 });
 gsap.to(".sub-title", {
-	opacity: 1,
+	opacity:1,
 	delay:5,
-	duration: 2,	
+	duration:2,	
 	y: 0,
-	ease: "Quad.easeOut"
+	ease: "Expo.easeOut"
 });
 		
 },                          
