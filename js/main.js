@@ -120,7 +120,8 @@ tl.to(one, {
 tl.to(one, {
 	duration: 3,
 	stagger: .1,	
-	ease: "Elastic.easeOut",
+	ease: "sine.out",
+	"--mask": 'linear-gradient(-45deg, transparent -50%, black 0%)',
 	scaleY: 1
 }, "<+=0.2");
 
