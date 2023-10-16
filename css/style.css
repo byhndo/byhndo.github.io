@@ -42,19 +42,19 @@ h1, h2, h3, h4, h5 {
 }
 
 h2 {
-    font-size: 20vw;
+    font-size: 15vw;
 }
 
 h3 {
-  font-size: 17vw;
+  font-size: 13vw;
 }
 
 h4 {
-    font-size: 14vw;
+    font-size: 11vw;
 }
 
 h5 {
-    font-size: 11vw;
+    font-size: 9vw;
 }
 
 .header{
