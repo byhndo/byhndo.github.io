@@ -63,7 +63,17 @@ gsap.to(".ball", {
   top: 0,  
   scaleY: 2,
   opacity: 1,
-  ease: Back.easeOut.config(2.15)
+  ease: Back.easeOut.config(2.15),
+keyframes: {
+			"0%": { yPercent: 0, scaleX: 1, scaleY: 1, ease: "sine.out" },
+			"7%": { yPercent: 5, scaleY: 0.9, scaleX: 1.1, ease: "sine.in" },
+			"25%": { yPercent: 100, scaleY: 1.15, scaleX: 0.9, ease: "sine.in" },
+			"50%": { yPercent: 500, scaleX: 1, scaleY: 1, ease: "none" },
+			"60%": { scaleX: 1.6, scaleY: 0.4, ease: "none" },
+			"65%": { yPercent: 500, scaleX: 1, scaleY: 1, ease: "sine.out" },
+			"100%": { yPercent: 0, scaleX: 1, scaleY: 1, ease: "sine.out" }
+		}
+	
 });
 gsap.to(".ball", {
   scaleY: 1,
