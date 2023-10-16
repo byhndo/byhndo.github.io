@@ -22,9 +22,9 @@ gsap.set("nav", {
 });
 gsap.to("nav", {
 	delay:.5,
-	duration:2,
+	duration:.7,
 	opacity: 1,
-	ease:Elastic.easeInOut.config(2.15),
+	ease:Back.easeInOut.config(2.15),
 	y: 0
 });
 gsap.to("nav", {
@@ -40,10 +40,10 @@ gsap.set("h1 span", {
 });
 gsap.to("h1 span", {
 	delay: 2.5,	
-	duration: 2,
+	duration:.7,
 	opacity: 1,
 	stagger: .1,	
-	ease: Elastic.easeOut.config(2.15),
+	ease: Back.easeOut.config(2.15),
 	y: 0
 });
 gsap.to("h1 span", {
@@ -59,11 +59,11 @@ gsap.set(".ball", {
 });	
 gsap.to(".ball", {
   delay:6, 
-  duration: 2,
+  duration:.7,
   top: 0,  
   scaleY: 2,
   opacity: 1,
-  ease: Elastic.easeOut.config(2.15)
+  ease: Back.easeOut.config(2.15)
 });
 gsap.to(".ball", {
   scaleY: 1,
@@ -112,9 +112,9 @@ tl.set(one, {
 });
 tl.to(one, {
 	opacity: 1,
-	duration: 2,
+	duration:.7,
 	stagger: .1,
-	ease: Elastic.easeOut.config(2.15),
+	ease: Back.easeOut.config(2.15),
 	y: 0
 });
 tl.to(one, {
