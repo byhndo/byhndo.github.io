@@ -55,7 +55,7 @@ gsap.to("h1 span", {
 
 gsap.set(".ball", {
   scaleX: 1,  
-  transformOrigin: "50% 50%"
+  transformOrigin: "center bottom"
 });	
 gsap.to(".ball", {
   delay:6, 
