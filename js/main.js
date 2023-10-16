@@ -24,12 +24,12 @@ gsap.to("nav", {
 	delay:1,
 	duration: .7,
 	opacity: 1,
-	ease: Back.easeOut.config(2.15),
+	ease: Back.easeInOut.config(2.15),
 	y: 0
 });
 gsap.to("nav", {
 	duration: 3,	
-	ease: "Bounce.easeOut",	
+	ease: "Elastic.easeOut",	
 	scaleY: 1
 }, "<+=0.2");
 	
