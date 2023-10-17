@@ -102,7 +102,7 @@ main {
 						</defs>
 	</svg>
 	<main>
-<h2>4<button id="component-1" class="button--1" style="filter: url('#filter-ripple-home')"></button>4</h2>
+<h2>4<div id="component-1" class="button--1" style="filter: url('#filter-ripple-home')"></div>4</h2>
 		
 		
 </main>
@@ -127,7 +127,7 @@ function initBthome() {
   var dm = document.querySelectorAll('#filter-ripple-home feDisplacementMap')[0];
   
   bt.addEventListener('click', function(e) {
-    TweenLite.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 2000, y: isFF ? e.offsetY : e.offsetY + 2000, width: 0, height: 0 } });
+    TweenLite.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 0, y: isFF ? e.offsetY : e.offsetY + 0, width: 0, height: 0 } });
     TweenLite.to(turb, 3, { attr: { x: '-=300', y: '-=300', width: 600, height: 600 } });
     TweenLite.fromTo(dm, 2, { attr: { scale: 30 } }, { attr: { scale: 0 } });
   });
