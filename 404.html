@@ -108,7 +108,7 @@ main {
 </main>
 	
                
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 
 
 <script>	
@@ -120,12 +120,11 @@ function initBthome() {
   var dm = document.querySelectorAll('#filter-ripple-home feDisplacementMap')[0];
   
   bt.addEventListener('click', function(e) {
-    TweenLite.set(turb, { attr: { x: e.offsetX + 0, y: e.offsetY + 0, width: 0, height: 0 } });
-    TweenLite.to(turb, 5, { attr: { x: '-=300', y: '-=300', width: 600, height: 600 } });
-    TweenLite.fromTo(dm, 3, { attr: { scale: 30 } }, { attr: { scale: 0 } });
+    gsap.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 0, y: isFF ? e.offsetY : e.offsetY + 0, width: 0, height: 0 } });
+    gsap.to(turb, 5, { attr: { x: '-=300', y: '-=300', width: 600, height: 600 } });
+    gsap.fromTo(dm, 3, { attr: { scale: 30 } }, { attr: { scale: 0 } });
   });
-				 }	
-
+}
 		
 </script>
 </body>
