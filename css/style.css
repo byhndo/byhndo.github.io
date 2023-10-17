@@ -14,7 +14,7 @@
     --sizetitle2: 8vw;
     --sizenav: 9.5px;
     --font1: 'Neopixel', sans-serif;
-    --font2: 'Figtree', sans-serif;
+    --font2: 'Neopixel', sans-serif;
     --marginp: 14px;
     --spacingnav: 2px;
     --fwnav: 400;
@@ -404,7 +404,7 @@ img, .box1, .box2, .one, .one span, .two{
   color: var(--c2);
   font-size: var(--sizenav);
   text-decoration: none;
-  text-transform: uppercase;
+  text-transform: lowercase;
   letter-spacing: var(--spacingnav);
 }
 
