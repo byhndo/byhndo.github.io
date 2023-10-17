@@ -18,20 +18,20 @@ mounted: function() {
 
 gsap.set("nav", {	      
 	scaleY: 2, 	
-	transformOrigin: "50% 100%"
+	transformOrigin: "0 0"
 });
 gsap.to("nav", {
 	delay:.5,
 	duration:.7,
 	opacity: 1,
-	ease:Back.easeOut.config(2.15),
+	ease: Back.easeOut.config(2.15),
 	y: 0
 });
 gsap.to("nav", {
 	duration:2,	
 	ease: "Elastic.easeOut",	
 	scaleY: 1
-}, "<+=0.9");
+}, "<+=0.2");
 	
 gsap.set("h1 span", {	     		
 	scaleY: 2, 
