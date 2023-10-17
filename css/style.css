@@ -10,7 +10,7 @@
     --b1: #cf3c4b;
     --b2: #FED049;
     --sizebody: 13px;
-    --sizetitle: calc(27vw + 1rem);
+    --sizetitle: calc(20vw + 1rem);
     --sizetitle2: 8vw;
     --sizenav: 9.5px;
     --font1: 'Neopixel', sans-serif;
@@ -18,7 +18,7 @@
     --marginp: 14px;
     --spacingnav: 2px;
     --fwnav: 300;
-    --fwtitle: 800;
+    --fwtitle: 400;
 }
 .svg-filters {
   position: absolute;
