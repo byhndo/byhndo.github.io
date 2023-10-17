@@ -18,7 +18,7 @@ mounted: function() {
 
 gsap.set("nav", {	      
 	scaleY: 2, 	
-	transformOrigin: "0 0"
+	transformOrigin: "top bottom"
 });
 gsap.to("nav", {
 	delay:.5,
