@@ -4,8 +4,8 @@
 @font-face{font-family:Neopixel;src:url(https://bayu.monster/fonts/NEOPIXEL-Regular.woff) format('woff');font-weight:400;font-style:normal}
 
 :root {  
-    --c1: #f0f1f5;
-    --c2: #3b3d45;
+    --c1: #c3ff00;
+    --c2: ##1a1a1a;
     --c3: #babfc4;   
     --b1: #cf3c4b;
     --b2: #FED049;
