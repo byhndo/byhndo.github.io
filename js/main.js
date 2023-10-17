@@ -17,7 +17,7 @@ createApp({
 mounted: function() {   
 
 gsap.set("nav", {	      
-	scaleY: 1.5, 	
+	scaleY: 1.3, 	
 	transformOrigin: "50% 0"
 });
 gsap.to("nav", {
