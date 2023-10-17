@@ -121,7 +121,7 @@ if (isSafari) {
   document.getElementsByTagName('html')[0].classList.add('safari');
 }
 
-Array.prototype.slice.call(document.querySelectorAll('.button--1'), 0).forEach(function(bt) {
+Array.prototype.slice.call(document.querySelectorAll('#component-1'), 0).forEach(function(bt) {
   bt.addEventListener('click', function(e) {
     e.preventDefault();
   });
@@ -136,7 +136,7 @@ function initBthome() {
   bt.addEventListener('click', function(e) {
     TweenLite.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 0, y: isFF ? e.offsetY : e.offsetY + 0, width: 0, height: 0 } });
     TweenLite.to(turb, 5, { attr: { x: '-=300', y: '-=300', width: 600, height: 600 } });
-    TweenLite.fromTo(dm, 1, { attr: { scale: 30 } }, { attr: { scale: 0 } });
+    TweenLite.fromTo(dm, 3, { attr: { scale: 30 } }, { attr: { scale: 0 } });
   });
 				 }	
 
