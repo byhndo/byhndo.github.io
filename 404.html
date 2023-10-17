@@ -108,16 +108,10 @@ main {
 </main>
 	
                
-<script	src="js/tweenmax.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
 
 <script>	
-var isSafari = /constructor/i.test(window.HTMLElement);
-var isFF = !!navigator.userAgent.match(/firefox/i);
-
-if (isSafari) {
-  document.getElementsByTagName('html')[0].classList.add('safari');
-}
-
 
 initBthome();
 function initBthome() {
@@ -126,7 +120,7 @@ function initBthome() {
   var dm = document.querySelectorAll('#filter-ripple-home feDisplacementMap')[0];
   
   bt.addEventListener('click', function(e) {
-    TweenLite.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 0, y: isFF ? e.offsetY : e.offsetY + 0, width: 0, height: 0 } });
+    TweenLite.set(turb, { attr: { x: e.offsetX + 0, y: e.offsetY + 0, width: 0, height: 0 } });
     TweenLite.to(turb, 5, { attr: { x: '-=300', y: '-=300', width: 600, height: 600 } });
     TweenLite.fromTo(dm, 3, { attr: { scale: 30 } }, { attr: { scale: 0 } });
   });
