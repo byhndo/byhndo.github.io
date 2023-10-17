@@ -222,11 +222,11 @@ if (isSafari) {
 
 initBt1();
 function initBt1() {
-  var bete1 = document.querySelectorAll('#wtr')[0];
+  var bt = document.querySelectorAll('#wtr')[0];
   var turb = document.querySelectorAll('#filter-ripple-1 feImage')[0];
   var dm = document.querySelectorAll('#filter-ripple-1 feDisplacementMap')[0];
   
-  bete1.addEventListener('click', function(e) {
+  bt.addEventListener('click', function(e) {
     gsap.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 0, y: isFF ? e.offsetY : e.offsetY + 0, width: 0, height: 0 } });
     gsap.to(turb, { duration: 5, attr: { x: '-=300', y: '-=300', width: 600, height: 600 } });
     gsap.fromTo(dm, { duration: 3, attr: { scale: 30 } }, { attr: { scale: 0 } });
@@ -235,11 +235,11 @@ function initBt1() {
 
 initBt2();
 function initBt2() {
-  var bete2 = document.querySelectorAll('#wtr2')[0];
+  var bt = document.querySelectorAll('#wtr2')[0];
   var turb = document.querySelectorAll('#filter-ripple-2 feImage')[0];
   var dm = document.querySelectorAll('#filter-ripple-2 feDisplacementMap')[0];
   
-  bete2.addEventListener('click', function(e) {
+  bt.addEventListener('click', function(e) {
     gsap.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 0, y: isFF ? e.offsetY : e.offsetY + 0, width: 0, height: 0 } });
     gsap.to(turb, { duration:5, attr: { x: '-=300', y: '-=300', width: 600, height: 600 } });
     gsap.fromTo(dm, { duration:3, attr: { scale: 30 } }, { attr: { scale: 0 } });
