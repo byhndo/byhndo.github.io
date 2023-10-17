@@ -17,7 +17,7 @@
     --font2: 'Figtree', sans-serif;
     --marginp: 14px;
     --spacingnav: 2px;
-    --fwnav: 300;
+    --fwnav: 400;
     --fwtitle: 400;
 }
 .svg-filters {
@@ -224,7 +224,7 @@ nav a {
     color: var(--c2);
     padding: 0.75rem 0 0.5rem;
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: lowercase;
     font-size: var(--sizenav);
     font-weight: var(--fwnav);
     letter-spacing: var(--spacingnav);    
