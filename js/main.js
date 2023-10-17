@@ -152,7 +152,7 @@ tl.to(ln, {
 	opacity: 1,
 	duration: 1,	
 	width: "100%",
-	ease: ease:SlowMo.ease.config(0.7, 0.7)
+	ease: SlowMo.ease.config(0.7, 0.7)
 },">");		
 	                                                                                                                  
 });
