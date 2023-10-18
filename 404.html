@@ -106,7 +106,7 @@ main {
 						</defs>
 </svg>	
 <main>
-<div class="box">4<div id="component-1" class="button--1" style="filter: url('#filter-ripple-home')"></div>4</box>				
+<div class="box">4<div id="component-1" class="button--1" style="filter: url('#filter-ripple-home')"></div>4</div>				
 </main>
 	
 <script src="js/tweenmax.js"></script>
@@ -138,12 +138,12 @@ function initBthome() {
 	}
 
 
-gsap.from(".box", {
+gsap.to(".box", {
 	delay:.5,
 	opacity: 1,
 	duration:.7,
-	rotateY: 180,	
-	y: 0,
+	rotateY: 180,
+	y:0,
 	ease: "Elastic.easeOut"
 });
 	
