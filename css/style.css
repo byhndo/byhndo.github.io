@@ -149,13 +149,13 @@ a:hover, a:active{
     transition: background 0s 2s, color 1.6s;
 }
 
-.bio, .link-photos{
+.bio, .link-bio{
   background: var(--c1);
   color: var(--c2);
 }
 
 .photos,
-.link-bio {
+.link-photos {
   background: var(--c2);
   color: var(--c1);
 }
@@ -220,7 +220,7 @@ nav li {
 nav a {    
     display: block;
     color: var(--c2);
-    padding: .8rem 0 .3rem;
+    padding: .9rem 0 .5rem;
     text-decoration: none;
     text-transform: uppercase;
     font-size: var(--sizenav);
