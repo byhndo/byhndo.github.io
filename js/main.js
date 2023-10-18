@@ -28,8 +28,9 @@ gsap.to("nav", {
 	y: 0
 });
 gsap.to("nav", {
-	duration:2,	
-	ease: "slow(0.5, 0.8, true)",	
+	duration:2,
+	rotateX: 180,
+	ease: "Elastic.easeOut",	
 	scaleY: 1
 }, "<+=0.2");
 	
