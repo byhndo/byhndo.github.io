@@ -394,7 +394,7 @@ img, .box1, .box2, .one, .one span, .two{
   place-items: center;
   margin: 23px 0 -14px 0;
   text-align: center;
-  font-family: var(--font1);
+  font-family: var(--font2);
   font-weight: var(--fwnav);
 }
 
@@ -415,7 +415,6 @@ img, .box1, .box2, .one, .one span, .two{
 }
 
 .footer span a{
-  font-family: var(--font2);
   font-weight: var(--fwtitle);     
 }
 
