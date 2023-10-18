@@ -135,15 +135,29 @@ function initBthome() {
   });
 	}
 
-gsap.from('.notfound', {
-    rotateY: 180,
-    opacity: 0,
-    stagger: {
-        amount: 1,
+
+
+gsap.set(".notfound", {	      
+	scaleY: 1.3, 	
+	transformOrigin: "top center"
+});
+gsap.to(".notfound", {
+	delay:.5,
+	duration:.7,
+	rotateY: 180,
+	stagger: {
+        amount: 1
     }, 
-    duration: 1,
-    ease: 'power3.Out',
-})		
+	opacity: 1,	
+	ease: Back.easeOut.config(2.15),
+	y: 0
+});
+gsap.to(".notfound", {
+	duration:2,	
+	ease: "Elastic.easeOut",	
+	scaleY: 1
+}, "<+=0.2");
+	
 </script>
 </body>
 </html>
