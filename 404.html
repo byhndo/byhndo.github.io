@@ -44,7 +44,7 @@ main {
 		    font-size:45vw;
 		    color:white;
 		    text-align:center;
-		    line-height:1;
+		    line-height:.7;
 		    text-transform:uppercase;
 		    font-weight:800;
 		    -webkit-box-reflect: below -14px linear-gradient(transparent 45%, white);
@@ -135,7 +135,15 @@ function initBthome() {
   });
 	}
 
-		
+gsap.from('h2.notfound', {
+    rotateY: 180,
+    opacity: 0,
+    stagger: {
+        amount: 1,
+    }, 
+    duration: 1,
+    ease: 'power3.Out',
+})		
 </script>
 </body>
 </html>
