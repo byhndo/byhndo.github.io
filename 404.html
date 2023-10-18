@@ -41,7 +41,7 @@ main {
   z-index:100;
 	    }
 	    h2{			    
-		    font-size:50vw;
+		    font-size:52vw;
 		    color:white;
 		    text-align:center;
 		    line-height:.75;
@@ -81,8 +81,8 @@ main {
   background-image: radial-gradient(  circle at 60% 20%, #ff5b1a 0%, #d92656);
   border-radius: 100%;
   color: #FFF;
-  width: 32vw;
-  height: 32vw;
+  width: 35vw;
+  height: 35vw;
   padding: 0; }
   .button--1:focus {
     color: #FFF; }
@@ -131,7 +131,7 @@ function initBthome() {
     bt.addEventListener('click', function(e) {
     TweenLite.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 10, y: isFF ? e.offsetY : e.offsetY + 10, width: 0, height: 0 } });
     TweenLite.to(turb, 5, { attr: { x: '-=300', y: '-=300',  width: 600, height: 600 } });
-    TweenLite.fromTo(dm, 3, { attr: { scale: 60 } }, { attr: { scale: 0 } });
+    TweenLite.fromTo(dm, 3, { attr: { scale: 70 } }, { attr: { scale: 0 } });
   });
 	}
 
