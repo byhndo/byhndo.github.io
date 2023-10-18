@@ -229,7 +229,7 @@ function initBt1() {
   bt.addEventListener('click', function(e) {
     gsap.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 0, y: isFF ? e.offsetY : e.offsetY + 0, width: 0, height: 0 } });
     gsap.to(turb, 5, { attr: { x: '-=300', y: '-=300', width: 600, height: 600 } });
-    gsap.fromTo(dm, 3, { attr: { scale: 30 } }, { attr: { scale: 0 } });
+    gsap.fromTo(dm, 3, { attr: { scale: 40 } }, { attr: { scale: 0 } });
   });
 }
 
@@ -242,7 +242,7 @@ function initBt2() {
   bt.addEventListener('click', function(e) {
     gsap.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 0, y: isFF ? e.offsetY : e.offsetY + 0, width: 0, height: 0 } });
     gsap.to(turb, 5, { attr: { x: '-=300', y: '-=300', width: 600, height: 600 } });
-    gsap.fromTo(dm, 3, { attr: { scale: 30 } }, { attr: { scale: 0 } });
+    gsap.fromTo(dm, 3, { attr: { scale: 40 } }, { attr: { scale: 0 } });
   });
 }
 
