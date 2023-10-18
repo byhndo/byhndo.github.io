@@ -41,7 +41,7 @@ gsap.set("h1 span", {
 gsap.to("h1 span", {
 	rotateY: -180,
 	delay: 2.5,	
-	duration:2,
+	duration:3,
 	opacity: 1,
 	stagger: .1,	
 	ease: Back.easeOut.config(2.15),
