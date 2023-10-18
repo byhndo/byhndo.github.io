@@ -218,7 +218,7 @@ nav li {
 }
 
 nav a {    
-    display: inline-block;
+    display: block;
     color: var(--c2);
     padding: .95rem 0 .62rem;
     text-decoration: none;
