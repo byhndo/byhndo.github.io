@@ -48,7 +48,6 @@ gsap.to("h1 span", {
 });
 gsap.to("h1 span", {
 	duration: 3,
-	rotateX:180,
 	stagger: .1,
 	ease: "Elastic.easeOut",	
 	scaleY: 1
