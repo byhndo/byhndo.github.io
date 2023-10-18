@@ -39,8 +39,8 @@ main {
   justify-content: center;
   align-items: center; 
   z-index:100;
-	    }
-	    h2{			    
+}
+h2{			    
 		    font-size:52vw;
 		    color:white;
 		    text-align:center;
@@ -49,6 +49,9 @@ main {
 		    font-weight:800;
 		    -webkit-box-reflect: below -14px linear-gradient(transparent 45%, white);
 	    }
+.notfound{
+  opacity: 0;		
+}
 	    
 .button--1 {
   -webkit-font-smoothing: antialiased;
@@ -142,12 +145,12 @@ gsap.set(".notfound", {
 });
 gsap.to(".notfound", {
 	delay:.5,
+	opacity:1,
 	duration:.7,
 	rotateY: 180,
 	stagger: {
         amount: 1
-    }, 
-	opacity: 1,	
+    }, 		
 	ease: Back.easeOut.config(2.15),
 	y: 0
 });
