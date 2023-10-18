@@ -39,9 +39,6 @@ gsap.set("h1 span", {
 	transformOrigin: "50% 0%"
 });
 gsap.to("h1 span", {
-	x: "random(-100, 100)",
-	y: "random(-100, 100)",
-	rotate: "random(-90, 90)",
 	delay: 2.5,	
 	duration:.7,
 	opacity: 1,
@@ -50,6 +47,9 @@ gsap.to("h1 span", {
 	y: 0
 });
 gsap.to("h1 span", {
+	x: "random(-100, 100)",
+	y: "random(-100, 100)",
+	rotate: "random(-90, 90)",
 	duration: 3,	
 	stagger: .1,
 	ease: "Elastic.easeOut",	
