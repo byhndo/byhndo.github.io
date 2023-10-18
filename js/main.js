@@ -40,8 +40,7 @@ gsap.set("h1 span", {
 	transformOrigin: "50% 0%"
 });
 gsap.to("h1 span", {
-	delay: 2.5,
-	rotateX: -180,
+	delay: 2.5,	
 	duration:.7,
 	opacity: 1,
 	stagger: .1,	
@@ -50,6 +49,7 @@ gsap.to("h1 span", {
 });
 gsap.to("h1 span", {
 	duration: 3,
+	rotateX: -180,
 	stagger: .1,
 	ease: "Elastic.easeOut",	
 	scaleY: 1
