@@ -18,7 +18,6 @@ mounted: function() {
 
 gsap.set("nav", {	      
 	scaleY: 1.3, 	
-	rotateX: 180,
 	transformOrigin: "top center"
 });
 gsap.to("nav", {
