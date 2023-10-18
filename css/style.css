@@ -420,7 +420,7 @@ img, .box1, .box2, .one, .one span, .two{
 
 .footer span.fc {
   font-size: var(--sizenav);
-  font-weight: var(--fwnav);
+  font-weight: var(--fwtitle);
 }
 @media(min-width: 500px){
     main{
