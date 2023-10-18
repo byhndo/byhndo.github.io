@@ -149,13 +149,13 @@ a:hover, a:active{
     transition: background 0s 2s, color 1.6s;
 }
 
-.bio, .link-bio {
+.bio, .link-photos{
   background: var(--c1);
   color: var(--c2);
 }
 
 .photos,
-.link-photos {
+.link-bio {
   background: var(--c2);
   color: var(--c1);
 }
