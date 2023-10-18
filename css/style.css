@@ -415,6 +415,7 @@ img, .box1, .box2, .one, .one span, .two{
 }
 
 .footer span a{
+  font-family: var(--font2);
   font-weight: var(--fwtitle);     
 }
 
