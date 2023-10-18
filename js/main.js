@@ -18,13 +18,13 @@ mounted: function() {
 
 gsap.set("nav", {	      
 	scaleY: 1.3, 	
+	rotateX: 180,
 	transformOrigin: "top center"
 });
 gsap.to("nav", {
 	delay:.5,
 	duration:.7,
-	opacity: 1,
-	rotateX: 180,
+	opacity: 1,	
 	ease: Back.easeOut.config(2.15),
 	y: 0
 });
