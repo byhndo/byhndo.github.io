@@ -78,7 +78,7 @@ gsap.set(".sub-title span", {
 });
 gsap.to(".sub-title span", {
   delay:3,
-  duration: 1.5,
+  duration: 3,
   y: 0,
   opacity: 1,	
   stagger: .1,
