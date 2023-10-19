@@ -87,6 +87,12 @@ h1 span{
   color: var(--c1);
 }
 
+.sub-title{
+  margin-top: -14px;
+  margin-bottom: var(--marginp);
+}
+
+    
 .sub-title span{
   display:inline-block;
   color: var(--c2);
@@ -97,8 +103,6 @@ h1 span{
   text-transform: uppercase;
   transition: color 2.5s;
   line-height: 2.2;
-  margin-top: -14px;
-  margin-bottom: var(--marginp);
   opacity: 0; 
 }
 
