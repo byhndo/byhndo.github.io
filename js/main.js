@@ -83,7 +83,7 @@ gsap.to(".sub-title span", {
   y: 0,
   opacity: 1,	
   stagger: .1,
-  ease: "Power3.easeOut"				 
+  ease: Back.easeOut.config(2.15)				 
 });
 gsap.to(".sub-title span",  {
   duration: 3,
