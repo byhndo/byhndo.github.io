@@ -80,6 +80,7 @@ gsap.to(".sub-title span", {
   opacity:1,
   delay:2,
   duration:2,
+  y: 0,
   opacity: 1,	
   stagger: .1,
   ease: Power3.easeOut					 
