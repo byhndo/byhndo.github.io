@@ -92,7 +92,7 @@ gsap.to(".sub-title span",  {
   rotate: 0,
   stagger: .1,			
   ease: "Elastic.easeOut"
-}, "-=1");	
+}, "=1");	
 		
 },                          
     data() {
