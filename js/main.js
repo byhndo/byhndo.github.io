@@ -81,16 +81,11 @@ gsap.to(".sub-title span", {
   duration:1.5,	
   x: 0,
   y: 0,
+  rotate: 0,
   opacity: 1,	
   stagger: .1,
   ease: "Elastic.easeOut"				 
-});
-gsap.to(".sub-title span",  {
-  x: 0,
-  y: 0,
-  rotate: 0,
-  stagger: .1	
-}, "-=1");	
+}, "-=1");
 		
 },                          
     data() {
