@@ -87,7 +87,7 @@ h1 span{
   color: var(--c1);
 }
 
-.sub-title {
+.sub-title span {
   position: relative;
   color: var(--c2);
   font-family: var(--font2);
@@ -102,7 +102,7 @@ h1 span{
   opacity: 0;
 }
 
-.photos .sub-title {
+.photos .sub-title span {
   color: var(--c3);
 }
 
