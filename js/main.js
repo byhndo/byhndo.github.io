@@ -71,12 +71,12 @@ gsap.to(".ball", {
   ease: "Elastic.easeOut"
 }, "<+=0.2");
 
-gsap.set(".sub-title", {		
+gsap.set(".sub-title span", {		
   x: "random(-30, 30)",
   y: "random(-200, 200)",
   rotate: "random(-180, 180)"	
 });
-gsap.to(".sub-title", {
+gsap.to(".sub-title span", {
   opacity:1,
   delay:5,
   duration:1.5,
@@ -85,7 +85,7 @@ gsap.to(".sub-title", {
   stagger: .1,
   ease: Power3.easeOut					 
 });
-gsap.to(".sub-title",  {
+gsap.to(".sub-title span",  {
   x: 0,
   y: 0,
   rotate: 0,
