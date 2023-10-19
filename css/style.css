@@ -87,7 +87,7 @@ h1 span{
   color: var(--c1);
 }
 
-.subtitle{
+.sub-title span{
   color: var(--c2);
   font-family: var(--font2);
   font-weight: 400;
@@ -99,11 +99,6 @@ h1 span{
   margin-top: -14px;
   margin-bottom: var(--marginp);
   opacity: 0; 
-}
-
-.sub-title span {
-  position: relative;
-  display: inline-block;
 }
 
 .photos .sub-title span {
