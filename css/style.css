@@ -88,12 +88,12 @@ h1 span{
 }
 
 .sub-title{
+  display:inline-block;
   margin-top: -14px;
   margin-bottom: var(--marginp);
 }
    
-.sub-title span{  
-  display:inline-block;  
+.sub-title span{    
   line-height: 2.2;
   font-size: calc(0.4vw + 0.5rem);
   letter-spacing: calc(0.3vw + 0.5rem);
