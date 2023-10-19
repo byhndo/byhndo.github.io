@@ -78,7 +78,7 @@ gsap.set(".sub-title span", {
 });
 gsap.to(".sub-title span", {
   delay:5,
-  duration:1,	
+  duration:1.5,	
   x: 0,
   y: 0,
   opacity: 1,	
@@ -86,7 +86,7 @@ gsap.to(".sub-title span", {
   ease: "Power3.easeOut"				 
 });
 gsap.to(".sub-title span",  {
-  duration: 3,
+  duration: 2,
   x: 0,
   y: 0,
   rotate: 0,
