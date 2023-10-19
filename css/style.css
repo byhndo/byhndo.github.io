@@ -88,6 +88,7 @@ h1 span{
 }
 
 .sub-title{
+  display:inline-block;
   margin-top: -14px;
   margin-bottom: var(--marginp);
   line-height: 2.2;
@@ -96,8 +97,7 @@ h1 span{
   font-family: var(--font2);
 }
    
-.sub-title span{
-  display:inline-block;
+.sub-title span{  
   color: var(--c2);
   font-weight: 400;
   text-transform: uppercase;
