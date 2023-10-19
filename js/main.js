@@ -71,20 +71,30 @@ gsap.to(".ball", {
   ease: "Elastic.easeOut"
 }, "<+=0.2");
 
-gsap.set(".sub-title span", {		
-  x: "random(-30, 30)",
-  y: "random(-200, 200)",
-  rotate: "random(-180, 180)"	
+gsap.set(".sub-title span", {	     
+	scaleY: 2, 	
+	x: "random(-30, 30)",
+	y: "random(-200, 200)",
+	rotate: "random(-180, 180)", 
+	transformOrigin: "50% 0%"
 });
 gsap.to(".sub-title span", {
-  duration:2,	
-  x: 0,
-  y: 0,
-  rotate: 0,
-  opacity: 1,	
-  stagger: .1,
-  ease: "Elastic.easeOut"				 
-}, "-=1");
+	delay: 5,	
+	duration:.7,
+	opacity: 1,
+	stagger: .1,	
+	ease: Back.easeOut.config(2.15),
+	y: 0	
+});
+gsap.to(".sub-title span", {
+	duration: 3,	
+	stagger: .1,
+	ease: "Elastic.easeOut",	
+	scaleY: 1,
+	x:0,
+	y:0,
+	rotate:0
+}, "<+=0.2");
 		
 },                          
     data() {
