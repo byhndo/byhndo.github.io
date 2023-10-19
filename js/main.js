@@ -77,6 +77,7 @@ gsap.set(".sub-title span", {
   rotate: "random(-180, 180)"	
 });
 gsap.to(".sub-title span", {
+  delay:5,
   duration:1,
   y: 0,
   opacity: 1,	
@@ -84,12 +85,12 @@ gsap.to(".sub-title span", {
   ease: "Power3.easeOut"				 
 });
 gsap.to(".sub-title span",  {
+  duration: 3,
   x: 0,
   y: 0,
   rotate: 0,
   stagger: .1,			
-  ease: "Elastic.easeOut",
-  duration:2
+  ease: "Elastic.easeOut"
 }, "-=1");	
 		
 },                          
