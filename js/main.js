@@ -58,7 +58,7 @@ gsap.set(".ball", {
   transformOrigin: "center bottom"
 });	
 gsap.to(".ball", {
-  delay:4, 
+  delay:5, 
   duration:.7,
   top: 0,  
   scaleY: 2,
@@ -78,7 +78,7 @@ gsap.set(".sub-title span", {
 });
 gsap.to(".sub-title span", {
   opacity:1,
-  delay:5,
+  delay:6,
   duration:1,
   opacity: 1,	
   y: 0,
