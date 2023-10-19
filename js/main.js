@@ -85,7 +85,7 @@ gsap.to(".sub-title", {
   stagger: .1,
   ease: Power3.easeOut					 
 });
-gsap.to(".sub-title"  {
+gsap.to(".sub-title",  {
   x: 0,
   y: 0,
   rotate: 0,
