@@ -79,7 +79,7 @@ gsap.set(".sub-title span", {
 gsap.to(".sub-title span", {
   opacity:1,
   delay:4,
-  duration:5,
+  duration:1.5,
   y: 0,
   opacity: 1,	
   stagger: .1,
@@ -91,7 +91,7 @@ gsap.to(".sub-title span",  {
   rotate: 0,
   stagger: .1,			
   ease: "Elastic.easeOut",
-  duration:2.5
+  duration:3
 }, "-=1");	
 		
 },                          
