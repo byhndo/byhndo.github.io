@@ -83,15 +83,13 @@ gsap.to(".sub-title span", {
   y: 0,
   opacity: 1,	
   stagger: .1,
-  ease: "Power3.easeOut"				 
+  ease: "Elastic.easeOut"				 
 });
 gsap.to(".sub-title span",  {
-  duration: 2,
   x: 0,
   y: 0,
   rotate: 0,
-  stagger: .1,			
-  ease: "Elastic.easeOut"
+  stagger: .1	
 }, "-=1");	
 		
 },                          
