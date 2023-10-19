@@ -71,17 +71,28 @@ gsap.to(".ball", {
   ease: "Elastic.easeOut"
 }, "<+=0.2");
 
-
 gsap.set(".sub-title", {		
-	y: "3rem",	
+  x: "random(-30, 30)",
+  y: "random(-200, 200)",
+  rotate: "random(-180, 180)"	
 });
 gsap.to(".sub-title", {
-	opacity:1,
-	delay:5,
-	duration:1,	
-	y: 0,
-	ease: "Quad.easeOut"
+  opacity:1,
+  delay:5,
+  duration:1.5,
+  opacity: 1,	
+  y: 0,
+  stagger: .1,
+  ease: Power3.easeOut					 
 });
+gsap.to(".sub-title"  {
+  x: 0,
+  y: 0,
+  rotate: 0,
+  stagger: .1,			
+  ease: "Elastic.easeOut",
+  duration: 3
+}, "-=1");	
 		
 },                          
     data() {
