@@ -77,7 +77,9 @@ gsap.set(".sub-title span", {
   rotate: "random(-180, 180)"	
 });
 gsap.to(".sub-title span", {
-  delay:5,
+  delay:5				 
+});
+gsap.to(".sub-title span", {
   duration:1.5,	
   x: 0,
   y: 0,
