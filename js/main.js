@@ -16,18 +16,21 @@ createApp({
     },
 mounted: function() {   
 
-gsap.set("nav", {	      
+
+var timeline = new TimelineLite();
+	
+timeline.set("nav", {	      
 	scaleY: 1.3, 	
 	transformOrigin: "top center"
 });
-gsap.to("nav", {
+timeline.to("nav", {
 	delay:.5,
 	duration:.7,
 	opacity: 1,	
 	ease: Back.easeOut.config(2.15),
 	y: 0
 });
-gsap.to("nav", {
+timeline.to("nav", {
 	duration:2,	
 	ease: "Elastic.easeOut",	
 	scaleY: 1
