@@ -17,20 +17,20 @@ createApp({
 mounted: function() {   
 
 
-var timeline = new TimelineLite();
+const tl = gsap.timeline({ paused: true });
 	
-timeline.set("nav", {	      
+tl.set("nav", {	      
 	scaleY: 1.3, 	
 	transformOrigin: "top center"
 });
-timeline.to("nav", {
+tl.to("nav", {
 	delay:.5,
 	duration:.7,
 	opacity: 1,	
 	ease: Back.easeOut.config(2.15),
 	y: 0
 });
-timeline.to("nav", {
+tl.to("nav", {
 	duration:2,	
 	ease: "Elastic.easeOut",	
 	scaleY: 1
@@ -259,3 +259,9 @@ function initBt2() {
   });
 }
 
+
+
+
+window.addEventListener("load", function () {
+  tl.play();
+});
