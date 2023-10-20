@@ -73,7 +73,7 @@ gsap.to(".ball", {
 
 gsap.set(".sub-title span", {	     
 	scaleY: 2, 	
-	x: "random(-30, 30)",
+	x: "random(-10, 10)",
 	y: "random(-200, 200)",
 	rotate: "random(-180, 180)", 
 	transformOrigin: "50% 0%"
