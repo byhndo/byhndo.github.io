@@ -16,21 +16,18 @@ createApp({
     },
 mounted: function() {   
 
-
-const tl = gsap.timeline({ paused: true });
-	
-tl.set("nav", {	      
+gsap.set("nav", {	      
 	scaleY: 1.3, 	
 	transformOrigin: "top center"
 });
-tl.to("nav", {
+gsap.to("nav", {
 	delay:.5,
 	duration:.7,
 	opacity: 1,	
 	ease: Back.easeOut.config(2.15),
 	y: 0
 });
-tl.to("nav", {
+gsap.to("nav", {
 	duration:2,	
 	ease: "Elastic.easeOut",	
 	scaleY: 1
@@ -259,9 +256,3 @@ function initBt2() {
   });
 }
 
-
-
-
-window.addEventListener("load", function () {
-  tl.play();
-});
