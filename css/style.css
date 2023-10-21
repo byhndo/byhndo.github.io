@@ -19,7 +19,10 @@
     --fwnav: 300;
     --fwtitle: 800;
 }
-
+.intro span{
+opacity:0; 
+color: white;  	
+}
 .loader {
 	position: fixed;
 	left: 0px;
