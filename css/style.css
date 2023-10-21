@@ -19,23 +19,6 @@
     --fwnav: 300;
     --fwtitle: 800;
 }
-.loader {
-	position: fixed;
-	left: 0px;
-	top: 0px;
-	width: 100%;
-	height: 100%;
-	z-index: 9999;
-	background: black;
-	text-align:center;
-	color:white;
-}
-.intro span{
-opacity:0; 
-font-family: var(--font1);
-font-weight: var(--fwtitle);
-font-size: 10vw;
-}
 
 .svg-filters {
   position: absolute;
