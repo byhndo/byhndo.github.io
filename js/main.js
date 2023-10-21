@@ -1,7 +1,4 @@
 gsap.registerPlugin(ScrollTrigger, CustomEase, EasePack);
-
-window.requestAnimationFrame(function() {
-
 const {
     createApp,
     ref,
@@ -31,12 +28,10 @@ data() {
 
 
 
-const tl = gsap.timeline();
+const tl = gsap.timeline(paised:true);
 
 	
 gsap.fromTo(".intro span", { opacity: 0 }, { opacity: 1, duration: 2, stagger:1, ease:Power3.easeOut });
-
-
 tl.to(".loader", {delay:5, opacity:0,duration:1,ease:Power3.easeOut
 });
 
@@ -230,16 +225,10 @@ tl.to(ln, {
     });
 	
 }
-
-
-
-
-
-
 	
 });
 
-
+tl.resume();
 
 
 
