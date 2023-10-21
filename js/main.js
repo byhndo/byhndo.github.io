@@ -31,7 +31,7 @@ const tl = gsap.timeline({ paused: true });
 gsap.fromTo(".intro span", { opacity: 0 }, { opacity: 1, duration: 2, stagger:1, ease:Power3.easeOut });
 
 
-tl.to(".loader", {delay:3, opacity:0,duration:1,ease:Power3.easeOut
+tl.to(".loader", { opacity:0,duration:1,ease:Power3.easeOut
 });
 
 tl.set("nav", {	      
