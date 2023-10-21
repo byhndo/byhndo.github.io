@@ -110,7 +110,7 @@ tl.to(".sub-title span", {
 	rotate:0
 }, "<+=0.2");
 		
-tl.play();                   
+                   
     
 
 function setupReveal(container) {
@@ -217,6 +217,11 @@ tl.to(ln, {
 
     });
 }
+
+tl.play();
+
+
+
 
 
 $(window).scroll(function(){
