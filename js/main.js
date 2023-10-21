@@ -116,7 +116,6 @@ tl.to(".sub-title span", {
 		
                    
     
-const tl2 = gsap.timeline({ paused: true });
 function setupReveal(container) {
   container.ctx = gsap.context(() => {
        	       			    	  	    	 	    	    	   	    	    	    	 	  	    
@@ -223,7 +222,7 @@ tl2.to(ln, {
 }
 
 tl.play();
-tl2.play();
+
 
 
 
