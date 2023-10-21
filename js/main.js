@@ -26,8 +26,11 @@ data() {
 
 
 
-const tl = gsap.timeline({ paused: true });
+window.requestAnimationFrame(function() {
 
+const tl = gsap.timeline();
+
+	
 gsap.fromTo(".intro span", { opacity: 0 }, { opacity: 1, duration: 2, stagger:1, ease:Power3.easeOut });
 
 
@@ -115,7 +118,7 @@ tl.to(".sub-title span", {
 }, "<+=0.2");
 		
                    
-window.requestAnimationFrame(function() {
+
         
 function setupReveal(container) {	
   container.ctx = gsap.context(() => {
@@ -226,13 +229,19 @@ tl.to(ln, {
 }
 
 
+
+
+
+
 	
 });
 
 
 
 
-tl.play();
+
+
+
 
 
 
