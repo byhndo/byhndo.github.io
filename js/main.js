@@ -150,9 +150,11 @@ tl2.to(one, {
 	scaleY: 1
 }, "<+=0.2");
 
+tl2.play();
+
 });
 
-tl2.play();
+
                     
         const RevealBoxs2 = container.querySelectorAll(".box2");
         RevealBoxs2.forEach((box2) => {
@@ -182,10 +184,12 @@ tl2.to(ln, {
 	width: "100%",
 	ease: SlowMo.ease.config(0.7, 0.7)
 },">");		
-	                                                                                                                  
-});
 
 tl2.play();
+		
+});
+
+
 
 	
                                                        
@@ -224,9 +228,9 @@ tl2.play();
             }, 0);
         });
 
-    });
-
 tl2.play();
+	  
+    });
 	
 }
 
