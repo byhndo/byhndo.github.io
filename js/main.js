@@ -26,15 +26,6 @@ data() {
 
 
 
-
-
-
-
-	
-gsap.fromTo(".intro span", { opacity: 0 }, { opacity: 1, duration: 2, stagger:1, ease:Power3.easeOut });
-gsap.to(".loader", {delay:5, opacity:0,duration:1,ease:Power3.easeOut
-});
-
 gsap.set("nav", {	      
 	scaleY: 1.3, 	
 	transformOrigin: "top center"
