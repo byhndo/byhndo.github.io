@@ -124,7 +124,7 @@ function setupReveal(container) {
                 
         const one = box1.querySelectorAll(".one, .one span");
 		
-        let tl2 = gsap.timeline({puased:true,
+        let tl2 = gsap.timeline({paused:true,
           scrollTrigger: {
             trigger: box1,
             toggleActions: "restart none none none"
