@@ -228,7 +228,7 @@ tl.to(ln, {
 	
 });
 
-tl.resume();
+tl.play();
 
 
 
