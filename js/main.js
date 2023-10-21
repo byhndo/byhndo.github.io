@@ -124,26 +124,26 @@ function setupReveal(container) {
                 
         const one = box1.querySelectorAll(".one, .one span");
 		
-        let tl2 = gsap.timeline({
+        let tl = gsap.timeline({
           scrollTrigger: {
             trigger: box1,
             toggleActions: "restart none none none"
           }, delay: .5
             }); 
                         
-tl2.set(one, {		
+tl.set(one, {		
 	scaleY: 2, 
 	y: "-3rem", 
 	transformOrigin: "50% 0%"
 });
-tl2.to(one, {
+tl.to(one, {
 	opacity: 1,
 	duration:.7,
 	stagger: .1,
 	ease: Back.easeOut.config(2.15),
 	y: 0
 });
-tl2.to(one, {
+tl.to(one, {
 	duration: 3,
 	stagger: .1,	
 	ease: "Elastic.easeOut",
@@ -159,24 +159,24 @@ tl2.to(one, {
             const two = box2.querySelectorAll(".two, .two span");            
             const ln = box2.querySelectorAll(".ln");
                        
-            let tl2 = gsap.timeline({
+            let tl = gsap.timeline({
                 scrollTrigger: {
                     trigger: box2,
                     toggleActions: "restart none none none"
                 }, delay: .5
             });                      
                                        
-tl2.set(two, {			
+tl.set(two, {			
 	y: "-3rem"
 });
-tl2.to(two, {
+tl.to(two, {
 	opacity: 1,
 	duration: 1,	
 	y: 0,	
 	ease: "Quad.easeOut"
 });   
 
-tl2.to(ln, {
+tl.to(ln, {
 	opacity: 1,
 	duration: 1,	
 	width: "100%",
@@ -191,7 +191,7 @@ tl2.to(ln, {
 
             let image = el.querySelector("img");
 
-            let tl2 = gsap.timeline({
+            let tl = gsap.timeline({
                 scrollTrigger: {
                     trigger: el,
                     ease: "Expo.easeOut",
@@ -199,10 +199,10 @@ tl2.to(ln, {
                 }, delay: .5
             });
 
-            tl2.set(el, {
+            tl.set(el, {
               autoAlpha: 1
             });
-            tl2.fromTo(el, {
+            tl.fromTo(el, {
               clipPath: "polygon(0 0, 0 0, 0 100%, 0% 100%)",
               webkitClipPath: "polygon(0 0, 0 0, 0 100%, 0% 100%)"
             },
@@ -213,7 +213,7 @@ tl2.to(ln, {
               ease: "Quad.easeOut"
             });
 
-            tl2.from(image, {
+            tl.from(image, {
               duration: 3,                   
               scale: 1.5,                     
               delay: .3,
