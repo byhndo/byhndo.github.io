@@ -19,13 +19,6 @@
     --fwnav: 300;
     --fwtitle: 800;
 }
-.intro span{
-opacity:0; 
-color: white!important;  
-font-family: var(--font1);
-font-weight: var(--fwtitle);
-font-size: 10vw;
-}
 .loader {
 	position: fixed;
 	left: 0px;
@@ -35,6 +28,13 @@ font-size: 10vw;
 	z-index: 9999;
 	background: black;
 	text-align:center;
+}
+.intro span{
+opacity:0; 
+color: white!important;  
+font-family: var(--font1);
+font-weight: var(--fwtitle);
+font-size: 10vw;
 }
 
 .svg-filters {
