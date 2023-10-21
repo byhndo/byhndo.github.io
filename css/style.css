@@ -21,7 +21,10 @@
 }
 .intro span{
 opacity:0; 
-color: white;  	
+color: white!important;  
+font-family: var(--font1);
+font-weight: var(--fwtitle);
+font-size: 10vw;
 }
 .loader {
 	position: fixed;
