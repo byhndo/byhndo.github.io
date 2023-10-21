@@ -1,4 +1,7 @@
 gsap.registerPlugin(ScrollTrigger, CustomEase, EasePack);
+
+window.requestAnimationFrame(function() {
+
 const {
     createApp,
     ref,
@@ -26,7 +29,7 @@ data() {
 
 
 
-window.requestAnimationFrame(function() {
+
 
 const tl = gsap.timeline();
 
