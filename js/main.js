@@ -115,7 +115,8 @@ tl.to(".sub-title span", {
 }, "<+=0.2");
 		
                    
-   
+window.requestAnimationFrame(function() {
+        
 function setupReveal(container) {	
   container.ctx = gsap.context(() => {
        	       			    	  	    	 	    	    	   	    	    	    	 	  	    
@@ -223,6 +224,11 @@ tl.to(ln, {
     });
 	
 }
+
+
+	
+});
+
 
 
 
