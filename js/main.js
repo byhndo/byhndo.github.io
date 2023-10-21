@@ -27,7 +27,7 @@ data() {
 
 
 const tl = gsap.timeline({ paused: true });
-tl.to(".loader", {delay:3, opacity:0,duration:1,ease:Power3.easeOut
+tl.to(".loader", {delay:0, opacity:0,duration:1,ease:Power3.easeOut
 });
 
 tl.set("nav", {	      
