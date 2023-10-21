@@ -33,14 +33,12 @@ gsap.to("nav", {
 	scaleY: 1
 }, "<+=0.2");
 	
-gsap.set("h1 span", {	
-	autoAlpha:0,
+gsap.set("h1 span", {		
 	scaleY: 2, 	
 	y: "5rem", 
 	transformOrigin: "50% 0%"
 });
-gsap.to("h1 span", {
-	autoAlpha:1,
+gsap.to("h1 span", {	
 	delay: 2.5,	
 	duration:.7,
 	opacity: 1,
