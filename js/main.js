@@ -116,7 +116,7 @@ tl.to(".sub-title span", {
 		
                    
     
-
+const tl2 = gsap.timeline({ paused: true });
 function setupReveal(container) {
   container.ctx = gsap.context(() => {
        	       			    	  	    	 	    	    	   	    	    	    	 	  	    
@@ -124,26 +124,26 @@ function setupReveal(container) {
         RevealBoxs1.forEach((box1) => {
                 
         const one = box1.querySelectorAll(".one, .one span");
-        let tl = gsap.timeline({
+        let tl2 = gsap.timeline({
           scrollTrigger: {
             trigger: box1,
             toggleActions: "restart none none none"
           }, delay: .5
             }); 
                         
-tl.set(one, {		
+tl2.set(one, {		
 	scaleY: 2, 
 	y: "-3rem", 
 	transformOrigin: "50% 0%"
 });
-tl.to(one, {
+tl2.to(one, {
 	opacity: 1,
 	duration:.7,
 	stagger: .1,
 	ease: Back.easeOut.config(2.15),
 	y: 0
 });
-tl.to(one, {
+tl2.to(one, {
 	duration: 3,
 	stagger: .1,	
 	ease: "Elastic.easeOut",
@@ -157,24 +157,24 @@ tl.to(one, {
             const two = box2.querySelectorAll(".two, .two span");            
             const ln = box2.querySelectorAll(".ln");
                        
-            let tl = gsap.timeline({
+            let tl2 = gsap.timeline({
                 scrollTrigger: {
                     trigger: box2,
                     toggleActions: "restart none none none"
                 }, delay: .5
             });                      
                                        
-tl.set(two, {			
+tl2.set(two, {			
 	y: "-3rem"
 });
-tl.to(two, {
+tl2.to(two, {
 	opacity: 1,
 	duration: 1,	
 	y: 0,	
 	ease: "Quad.easeOut"
 });   
 
-tl.to(ln, {
+tl2.to(ln, {
 	opacity: 1,
 	duration: 1,	
 	width: "100%",
@@ -189,7 +189,7 @@ tl.to(ln, {
 
             let image = el.querySelector("img");
 
-            let tl = gsap.timeline({
+            let tl2 = gsap.timeline({
                 scrollTrigger: {
                     trigger: el,
                     ease: "Expo.easeOut",
@@ -197,10 +197,10 @@ tl.to(ln, {
                 }, delay: .5
             });
 
-            tl.set(el, {
+            tl2.set(el, {
               autoAlpha: 1
             });
-            tl.fromTo(el, {
+            tl2.fromTo(el, {
               clipPath: "polygon(0 0, 0 0, 0 100%, 0% 100%)",
               webkitClipPath: "polygon(0 0, 0 0, 0 100%, 0% 100%)"
             },
@@ -211,7 +211,7 @@ tl.to(ln, {
               ease: "Quad.easeOut"
             });
 
-            tl.from(image, {
+            tl2.from(image, {
               duration: 3,                   
               scale: 1.5,                     
               delay: .3,
@@ -221,7 +221,7 @@ tl.to(ln, {
 
     });
 }
-
+tl2.play();
 tl.play();
 
 
