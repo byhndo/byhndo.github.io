@@ -116,10 +116,7 @@ tl.to(".sub-title span", {
 		
                    
    
-function setupReveal(container) {
-
-const tl2 = gsap.timeline({ paused: true });
-	
+function setupReveal(container) {	
   container.ctx = gsap.context(() => {
        	       			    	  	    	 	    	    	   	    	    	    	 	  	    
         const RevealBoxs1 = container.querySelectorAll(".box1");
@@ -224,8 +221,6 @@ tl2.to(ln, {
             }, 0);
         });	  
     });
-
-tl2.play();
 	
 }
 
