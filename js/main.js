@@ -124,7 +124,7 @@ function setupReveal(container) {
                 
         const one = box1.querySelectorAll(".one, .one span");
 		
-        let tl2 = gsap.timeline({paused:true,
+        let tl2 = gsap.timeline({
           scrollTrigger: {
             trigger: box1,
             toggleActions: "restart none none none"
@@ -150,8 +150,6 @@ tl2.to(one, {
 	scaleY: 1
 }, "<+=0.2");
 
-tl2.play();
-
 });
 
 
@@ -161,7 +159,7 @@ tl2.play();
             const two = box2.querySelectorAll(".two, .two span");            
             const ln = box2.querySelectorAll(".ln");
                        
-            let tl2 = gsap.timeline({paused:true,
+            let tl2 = gsap.timeline({
                 scrollTrigger: {
                     trigger: box2,
                     toggleActions: "restart none none none"
@@ -184,21 +182,16 @@ tl2.to(ln, {
 	width: "100%",
 	ease: SlowMo.ease.config(0.7, 0.7)
 },">");		
-
-tl2.play();
 		
 });
 
-
-
-	
                                                        
         let revealContainers = container.querySelectorAll(".item");
         revealContainers.forEach((el) => {
 
             let image = el.querySelector("img");
 
-            let tl2 = gsap.timeline({paused:true,
+            let tl2 = gsap.timeline({
                 scrollTrigger: {
                     trigger: el,
                     ease: "Expo.easeOut",
@@ -226,17 +219,12 @@ tl2.play();
               delay: .3,
               ease: "Quad.easeOut"
             }, 0);
-        });
-
-tl2.play();
-	  
+        });	  
     });
 	
 }
 
 tl.play();
-
-
 
 
 
