@@ -221,8 +221,9 @@ tl2.to(ln, {
 
     });
 }
-tl2.play();
+
 tl.play();
+tl2.play();
 
 
 
