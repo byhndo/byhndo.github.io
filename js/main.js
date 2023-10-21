@@ -28,36 +28,36 @@ data() {
 
 
 
-const tl = gsap.timeline({paused:true});
+
 
 	
 gsap.fromTo(".intro span", { opacity: 0 }, { opacity: 1, duration: 2, stagger:1, ease:Power3.easeOut });
-tl.to(".loader", {delay:5, opacity:0,duration:1,ease:Power3.easeOut
+gsap.to(".loader", {delay:5, opacity:0,duration:1,ease:Power3.easeOut
 });
 
-tl.set("nav", {	      
+gsap.set("nav", {	      
 	scaleY: 1.3, 	
 	transformOrigin: "top center"
 });
-tl.to("nav", {
+gsap.to("nav", {
 	delay:.5,
 	duration:.7,
 	opacity: 1,	
 	ease: Back.easeOut.config(2.15),
 	y: 0
 });
-tl.to("nav", {
+gsap.to("nav", {
 	duration:2,	
 	ease: "Elastic.easeOut",	
 	scaleY: 1
 }, "<+=0.2");
 	
-tl.set("h1 span", {	     
+gsap.set("h1 span", {	     
 	scaleY: 2, 	
 	y: "5rem", 
 	transformOrigin: "50% 0%"
 });
-tl.to("h1 span", {
+gsap.to("h1 span", {
 	delay: 2.5,	
 	duration:.7,
 	opacity: 1,
@@ -65,18 +65,18 @@ tl.to("h1 span", {
 	ease: Back.easeOut.config(2.15),
 	y: 0
 });
-tl.to("h1 span", {
+gsap.to("h1 span", {
 	duration: 3,	
 	stagger: .1,
 	ease: "Elastic.easeOut",	
 	scaleY: 1
 }, "<+=0.2");
 
-tl.set(".ball", {
+gsap.set(".ball", {
   scaleY: 1,  
   transformOrigin: "center bottom"
 });	
-tl.to(".ball", {
+gsap.to(".ball", {
   delay:8, 
   duration:.7,
   top: 0,  
@@ -84,20 +84,20 @@ tl.to(".ball", {
   opacity: 1,
   ease: Back.easeOut.config(2.15)	
 });
-tl.to(".ball", {
+gsap.to(".ball", {
   scaleY: 1,
   duration: 2.5, 
   ease: "Elastic.easeOut"
 }, "<+=0.2");
 
-tl.set(".sub-title span", {	     
+gsap.set(".sub-title span", {	     
 	scaleY: 2, 	
 	x: "random(-10, 10)",
 	y: "random(-200, 200)",
 	rotate: "random(-180, 180)", 
 	transformOrigin: "50% 0%"
 });
-tl.to(".sub-title span", {
+gsap.to(".sub-title span", {
 	delay: 5,	
 	duration:.7,
 	opacity: 1,
@@ -105,7 +105,7 @@ tl.to(".sub-title span", {
 	ease: Back.easeOut.config(2.15),
 	y: 0	
 });
-tl.to(".sub-title span", {
+gsap.to(".sub-title span", {
 	duration: 3,	
 	stagger: .1,
 	ease: "Elastic.easeOut",	
@@ -115,7 +115,7 @@ tl.to(".sub-title span", {
 	rotate:0
 }, "<+=0.2");
 		
-tl.play();                 
+                
 
         
 function setupReveal(container) {	
