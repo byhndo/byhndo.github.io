@@ -5,7 +5,7 @@ gsap.registerPlugin(ScrollTrigger, CustomEase, EasePack);
 window.addEventListener("load", () => {
   const tl = gsap.timeline();
   tl.to(".loader", {
-    delay: 10,
+    delay: 1,
     opacity: 0,
     duration: 1,
     ease: Power3.easeOut
