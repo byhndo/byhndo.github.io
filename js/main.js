@@ -124,6 +124,7 @@ tl.set(one, {
 	transformOrigin: "50% 0%"
 });
 tl.to(one, {
+	delay:1,
 	opacity: 1,
 	duration:.7,
 	stagger: .1,
