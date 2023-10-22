@@ -128,7 +128,7 @@ function setupReveal(container) {
     xPercent: -100,
     ease: Power2.out
   });
-  tl.from(image, 1.5, {
+  tl.from(one, 1.5, {
     xPercent: 100,
     scale: 1.3,
     delay: -1.5,
@@ -141,17 +141,18 @@ let revealContainers = container.querySelectorAll(".reveal-scroll");
         let tl = gsap.timeline({
           scrollTrigger: {
 	    paused:true,
-            trigger: box1,
+            trigger: container,
             toggleActions: "restart none none none"
           }, delay: .5
             }); 
                         
-tl.set(container, {		
+tl.set(container, {	
 	scaleY: 2, 
 	y: "-3rem", 
 	transformOrigin: "50% 0%"
 });
 tl.to(container, {
+	autoAlpha:1,
 	opacity: 1,
 	duration:.7,
 	stagger: .1,
