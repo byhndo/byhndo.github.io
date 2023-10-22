@@ -366,17 +366,18 @@ svg:hover, svg:active{
   opacity: .6;
 }
 
-img, .box1, .box2, .one, .one span, .two{
+img, .container, .container2, .reveal, .reveal span, .two{
   position: relative;
 }
 
-.one, .one span{
+.reveal, .reveal span{
   display: inline-block;
   transform-origin: 50% 100%;
   opacity:0;
+  autoAlpha:0;
 }
 
-.one{
+.reveal{
   margin-top:0;
   margin-bottom:0;
 }
