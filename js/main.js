@@ -1,4 +1,16 @@
 gsap.registerPlugin(ScrollTrigger, CustomEase, EasePack);
+
+
+
+window.addEventListener("load", () => {
+  const tl = gsap.timeline();
+  tl.to(".loader", {
+    delay: 10,
+    opacity: 0,
+    duration: 1,
+    ease: Power3.easeOut
+  });
+
 const {
     createApp,
     ref,
@@ -16,29 +28,29 @@ createApp({
     },
 mounted: function() {   
 
-gsap.set("nav", {	      
+tl.set("nav", {	      
 	scaleY: 1.3, 	
 	transformOrigin: "top center"
 });
-gsap.to("nav", {
+tl.to("nav", {
 	delay:.5,
 	duration:.7,
 	opacity: 1,	
 	ease: Back.easeOut.config(2.15),
 	y: 0
 });
-gsap.to("nav", {
+tl.to("nav", {
 	duration:2,	
 	ease: "Elastic.easeOut",	
 	scaleY: 1
 }, "<+=0.2");
 	
-gsap.set("h1 span", {		
+tl.set("h1 span", {		
 	scaleY: 2, 	
 	y: "5rem", 
 	transformOrigin: "50% 0%"
 });
-gsap.to("h1 span", {	
+tl.to("h1 span", {	
 	delay: 2.5,	
 	duration:.7,
 	opacity: 1,
@@ -46,18 +58,18 @@ gsap.to("h1 span", {
 	ease: Back.easeOut.config(2.15),
 	y: 0
 });
-gsap.to("h1 span", {
+tl.to("h1 span", {
 	duration: 3,	
 	stagger: .1,
 	ease: "Elastic.easeOut",	
 	scaleY: 1
 }, "<+=0.2");
 
-gsap.set(".ball", {
+tl.set(".ball", {
   scaleY: 1,  
   transformOrigin: "center bottom"
 });	
-gsap.to(".ball", {
+tl.to(".ball", {
   delay:8, 
   duration:.7,
   top: 0,  
@@ -65,20 +77,20 @@ gsap.to(".ball", {
   opacity: 1,
   ease: Back.easeOut.config(2.15)	
 });
-gsap.to(".ball", {
+tl.to(".ball", {
   scaleY: 1,
   duration: 2.5, 
   ease: "Elastic.easeOut"
 }, "<+=0.2");
 
-gsap.set(".sub-title span", {	     
+tl.set(".sub-title span", {	     
 	scaleY: 2, 	
 	x: "random(-10, 10)",
 	y: "random(-200, 200)",
 	rotate: "random(-180, 180)", 
 	transformOrigin: "50% 0%"
 });
-gsap.to(".sub-title span", {
+tl.to(".sub-title span", {
 	delay: 5,	
 	duration:.7,
 	opacity: 1,
@@ -86,7 +98,7 @@ gsap.to(".sub-title span", {
 	ease: Back.easeOut.config(2.15),
 	y: 0	
 });
-gsap.to(".sub-title span", {
+tl.to(".sub-title span", {
 	duration: 3,	
 	stagger: .1,
 	ease: "Elastic.easeOut",	
@@ -255,3 +267,8 @@ function initBt2() {
     TweenLite.fromTo(dm, 3, { attr: { scale: 40 } }, { attr: { scale: 0 } });
   });
 }
+
+
+});  /*close bracket window load*/
+
+			
