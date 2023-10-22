@@ -121,7 +121,7 @@ function setupReveal(container) {
 
 
   let container = document.querySelector(".reveal-inview");
-  let image = container.querySelector("img");
+  let one = container.querySelector(".one");
 
   tl.set(container, { autoAlpha: 1 });
   tl.from(container, 1.5, {
@@ -134,9 +134,6 @@ function setupReveal(container) {
     delay: -1.5,
     ease: Power2.out
   });
-
-
-
 	  
 let revealContainers = container.querySelectorAll(".reveal-scroll");
   revealContainers.forEach((container) => {                
