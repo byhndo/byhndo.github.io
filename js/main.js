@@ -132,7 +132,7 @@ tl.to(one, {
 	y: 0
 });
 tl.to(one, {
-	duration: 3,
+	duration: 3.5,
 	stagger: .1,	
 	ease: "Elastic.easeOut",
 	scaleY: 1
