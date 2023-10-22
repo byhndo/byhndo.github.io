@@ -118,24 +118,43 @@ tl.to(".sub-title span", {
 
 function setupReveal(container) {
   container.ctx = gsap.context(() => {
-       	       			    	  	    	 	    	    	   	    	    	    	 	  	    
-        const RevealBoxs1 = container.querySelectorAll(".box1");
-        RevealBoxs1.forEach((box1) => {
-                
-        const one = box1.querySelectorAll(".one, .one span");
+
+
+  let container = document.querySelector(".reveal-inview");
+  let image = container.querySelector("img");
+
+  tl.set(container, { autoAlpha: 1 });
+  tl.from(container, 1.5, {
+    xPercent: -100,
+    ease: Power2.out
+  });
+  tl.from(image, 1.5, {
+    xPercent: 100,
+    scale: 1.3,
+    delay: -1.5,
+    ease: Power2.out
+  });
+
+
+
+	  
+let revealContainers = container.querySelectorAll(".reveal-scroll");
+  revealContainers.forEach((container) => {                
+        let one = container.querySelectorAll(".one, .one span");
         let tl = gsap.timeline({
           scrollTrigger: {
+	    paused:true,
             trigger: box1,
             toggleActions: "restart none none none"
           }, delay: .5
             }); 
                         
-tl.set(one, {		
+tl.set(container, {		
 	scaleY: 2, 
 	y: "-3rem", 
 	transformOrigin: "50% 0%"
 });
-tl.to(one, {
+tl.to(container, {
 	opacity: 1,
 	duration:.7,
 	stagger: .1,
