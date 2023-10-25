@@ -186,7 +186,6 @@ a:hover, a:active{
     left: 0;
     background: var(--c2);
     transform-origin: 100% 0;
-    clipPath: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
 
 .bio .transition-bio, .photos .transition-photos{
@@ -199,6 +198,7 @@ a:hover, a:active{
 
 .photos .transition-photos {
     transform: scale(1) translateX(0) translateY(0);
+    clipPath: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
 nav {
     position: fixed;
