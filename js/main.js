@@ -117,7 +117,7 @@ function setupReveal(container) {
                         
 tl.set(one, {		
 	scaleY: 2, 	
-	y: "3rem", 
+	y: "1rem", 
 	transformOrigin: "50% 0%"
 });
 tl.to(one, {
@@ -132,10 +132,8 @@ tl.to(one, {
 	duration: 3,
 	stagger: .1,	
 	ease: "Elastic.easeOut",
-	scaleY: 1,
-	x:0,
-	y:0,
-	rotate:0
+	scaleY: 1,	
+	y:0
 }, "<+=0.2");
 
 });
