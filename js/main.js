@@ -154,7 +154,7 @@ tl.to(one, {
             });                      
                                        
 tl.set(two, {			
-	y: ".5rem"
+	y: "2rem"
 });
 tl.to(two, {
 	opacity: 1,
