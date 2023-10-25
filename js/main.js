@@ -119,8 +119,10 @@ function setupReveal(container) {
             }); 
                         
 tl.set(one, {		
-	scaleY: 2, 
-	y: "-3rem", 
+	scaleY: 2, 	
+	x: "random(-10, 10)",
+	y: "random(-200, 200)",
+	rotate: "random(-180, 180)", 
 	transformOrigin: "50% 0%"
 });
 tl.to(one, {
@@ -132,10 +134,13 @@ tl.to(one, {
 	y: 0
 });
 tl.to(one, {
-	duration: 3.5,
+	duration: 3,
 	stagger: .1,	
 	ease: "Elastic.easeOut",
-	scaleY: 1
+	scaleY: 1,
+	x:0,
+	y:0,
+	rotate:0
 }, "<+=0.2");
 
 });
