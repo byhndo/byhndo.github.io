@@ -16,7 +16,7 @@ createApp({
     },
 mounted: function() {   
 
-gsap.to(".light", ".dark", {
+gsap.to(".light, .dark", {
   clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)"
 })
 
