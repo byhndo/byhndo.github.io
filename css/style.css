@@ -19,9 +19,7 @@
     --fwnav: 300;
     --fwtitle: 800;
 }
-.dark, .light{
-  clip-path: circle(0% at 100% 0%);
-}
+
 .svg-filters {
   position: absolute;
   visibility: hidden;
