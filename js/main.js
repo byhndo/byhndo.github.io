@@ -117,7 +117,7 @@ function setupReveal(container) {
                         
 tl.set(one, {		
 	scaleY: 2, 	
-	y: "1rem", 
+	y: ".5rem", 
 	transformOrigin: "50% 0%"
 });
 tl.to(one, {
