@@ -34,14 +34,16 @@ gsap.to("nav", {
 }, "<+=0.2");
 	
 gsap.set("h1 span", {		
-	scaleY: 2, 	 
+	scaleY: 2, 
+	y:"-5rem",
 	transformOrigin: "50% 0%"
 });
 gsap.to("h1 span", {	
 	delay: 2.5,	
 	duration:.7,
 	opacity: 1,
-	stagger: .1,	
+	stagger: .1,
+	y:0,
 	ease: Back.easeOut.config(2.15)
 });
 gsap.to("h1 span", {
