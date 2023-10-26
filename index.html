@@ -65,7 +65,7 @@
 <main>
 	<svg class="story__svg">
          <filter id="distort">
-            <feTurbulence type="fractalNoise" baseFrequency=".01" numOctaves="1" result="perlin-noise" />
+            <feTurbulence type="fractalNoise" baseFrequency=".01" numOctaves="3" result="perlin-noise" />
             <feDisplacementMap id="dissolve" in="SourceGraphic" in2="perlin-noise" scale="0" xChannelSelector="R" yChannelSelector="B" />
          </filter>
 	</svg>
