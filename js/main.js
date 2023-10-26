@@ -215,18 +215,6 @@ tl.to(ln, {
     });
 }
 	 
-$(window).scroll(function(){
-  scroll();
-});
-
-scroll();
-function scroll(){
-  var top = $('html, body').scrollTop();
-  var el = $("#distort").find("feDisplacementMap");  
-  el.attr('scale', top);
-  $(".header").css('opacity', 1 - (top * 0.007))
-}
-
 
 var isSafari = /constructor/i.test(window.HTMLElement);
 var isFF = !!navigator.userAgent.match(/firefox/i);
