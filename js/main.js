@@ -36,7 +36,8 @@ gsap.to("nav", {
 gsap.set("h1 span", {		
 	scaleY: 2, 
 	x: "random(-30, 30)",
-	y: "random(-50, 30)",
+	y: "random(-100, 100)",
+	rotate:"random(-100, 100)",
 	transformOrigin: "50% 0%"
 });
 gsap.to("h1 span", {	
