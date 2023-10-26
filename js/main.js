@@ -104,7 +104,7 @@ gsap.to(".sub-title span", {
     }
 }).mount('#app')   
 
-function setupReveal(container) {
+gsap.add(function setupReveal(container) {
   container.ctx = gsap.context(() => {
        	       			    	  	    	 	    	    	   	    	    	    	 	  	    
         const RevealBoxs1 = container.querySelectorAll(".box1");
@@ -216,6 +216,10 @@ tl.to(ln, {
 }
 
 
+)
+
+
+	 
 $(window).scroll(function(){
   scroll();
 });
