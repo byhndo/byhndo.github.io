@@ -19,9 +19,6 @@
     --fwnav: 300;
     --fwtitle: 800;
 }
-.story__svg {
-   max-height: 0;
-}
 .svg-filters {
   position: absolute;
   visibility: hidden;
@@ -246,7 +243,7 @@ nav li a:hover, nav li a:active{
 main {
   position: relative;
   max-width: 90%;
-  padding: 0 0 20px 0;
+  padding: -30px 0 20px 0;
   margin: 0 auto 0 auto;
   text-align: left;
 }
