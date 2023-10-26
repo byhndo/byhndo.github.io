@@ -19,6 +19,10 @@
     --fwnav: 300;
     --fwtitle: 800;
 }
+.story__svg {
+   max-height: 0; 
+}
+
 .svg-filters {
   position: absolute;
   visibility: hidden;
