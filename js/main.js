@@ -35,7 +35,7 @@ gsap.to("nav", {
 	
 gsap.set("h1 span", {		
 	scaleY: 2, 
-	y:"-5rem",
+	translateY: ['50%', '0%'],
 	transformOrigin: "50% 0%"
 });
 gsap.to("h1 span", {	
