@@ -26,9 +26,6 @@
   width: 1px;
   height: 1px; 
 }
-.story__svg {
-   max-height: 0; // Remove SVG's empty space
-}
 
 html{
   background: var(--c1);
