@@ -51,7 +51,7 @@ gsap.to("h1 span", {
 gsap.to("h1 span", {
 	duration: 2,	
 	stagger: .1,
-	ease: "Bounce.easeOut",	
+	ease: "Quad.easeOut",	
 	scaleY: 1,
 	rotateX:1
 }, "<+=0.2");
@@ -140,7 +140,7 @@ tl.to(one, {
 tl.to(one, {
 	duration: 1,
 	stagger: .1,	
-	ease: "Bounce.easeOut",
+	ease: "Quad.easeOut",
 	scaleY: 1,
 	x:0,
 	y:0,
