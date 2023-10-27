@@ -15,30 +15,38 @@ createApp({
         }
     },
 mounted: function() {   
+window.addEventListener("load", () => {
+  const tm = gsap.timeline();
+  tm.to(".loader", {
+    delay: 2,
+    opacity: 0,
+    duration: 1,
+    ease: Power3.easeOut
+  });
 	
-gsap.set("nav", {	      
+tm.set("nav", {	      
 	scaleY: 1.3, 	
 	transformOrigin: "top center"
 });
-gsap.to("nav", {
+tm.to("nav", {
 	delay:.5,
 	duration:.7,
 	opacity: 1,	
 	ease: Back.easeOut.config(2.15),
 	y: 0
 });
-gsap.to("nav", {
+tm.to("nav", {
 	duration:2,	
 	ease: "Elastic.easeOut",	
 	scaleY: 1
 }, "<+=0.2");
 	
-gsap.set("h1 span", {		
+tm.set("h1 span", {		
 	scaleY: 2, 	
 	y:"-5rem",
 	transformOrigin: "50% 0%"
 });
-gsap.to("h1 span", {	
+tm.to("h1 span", {	
 	delay: 2.5,	
 	duration:.7,
 	opacity: 1,
@@ -47,18 +55,18 @@ gsap.to("h1 span", {
 	y:0,
 	ease: Back.easeOut.config(2.15)
 });
-gsap.to("h1 span", {
+tm.to("h1 span", {
 	duration: 2,	
 	stagger: .1,
 	ease: "Elastic.easeOut",	
 	scaleY: 1
 }, "<+=0.2");
 
-gsap.set(".ball", {
+tm.set(".ball", {
   scaleY: 1,  
   transformOrigin: "center bottom"
 });	
-gsap.to(".ball", {
+tm.to(".ball", {
   delay:8, 
   duration:.7,
   top: 0,  
@@ -66,20 +74,20 @@ gsap.to(".ball", {
   opacity: 1,
   ease: Back.easeOut.config(2.15)	
 });
-gsap.to(".ball", {
+tm.to(".ball", {
   scaleY: 1,
   duration: 2.5, 
   ease: "Elastic.easeOut"
 }, "<+=0.2");
 
-gsap.set(".sub-title span", {	     
+tm.set(".sub-title span", {	     
 	scaleY: 2, 	
 	x: "random(-10, 10)",
 	y: "random(-200, 200)",
 	rotate: "random(-180, 180)", 
 	transformOrigin: "50% 0%"
 });
-gsap.to(".sub-title span", {
+tm.to(".sub-title span", {
 	delay: 5,	
 	duration:.7,
 	opacity: 1,
@@ -87,7 +95,7 @@ gsap.to(".sub-title span", {
 	ease: Back.easeOut.config(2.15),
 	y: 0	
 });
-gsap.to(".sub-title span", {
+tm.to(".sub-title span", {
 	duration: 3,	
 	stagger: .1,
 	ease: "Elastic.easeOut",	
@@ -96,6 +104,8 @@ gsap.to(".sub-title span", {
 	y:0,
 	rotate:1
 }, "<+=0.2");
+
+}); //windowload
 		
 },                          
     data() {
