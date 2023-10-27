@@ -138,7 +138,7 @@ tl.to(one, {
 tl.to(one, {
 	duration: 2,
 	stagger: .1,	
-	ease: "Elastic.easeOut",
+	ease: "Quad.easeOut",
 	scaleY: 1,
 	x:0,
 	y:0,
