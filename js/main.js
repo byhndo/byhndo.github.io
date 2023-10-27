@@ -136,7 +136,7 @@ tl.to(one, {
 	y: 0
 });
 tl.to(one, {
-	duration: 2,
+	duration: 1,
 	stagger: .1,	
 	ease: "Quad.easeOut",
 	scaleY: 1,
