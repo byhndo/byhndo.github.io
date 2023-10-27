@@ -159,8 +159,11 @@ tl.to(one, {
 
 });
 
+}); //windowload
 
-                    
+
+window.addEventListener("load", () => {
+	  
         const RevealBoxs2 = container.querySelectorAll(".box2");
         RevealBoxs2.forEach((box2) => {
             const two = box2.querySelectorAll(".two, .two span");            
@@ -191,8 +194,12 @@ tl.to(ln, {
 },">");		
 	                                                                                                                  
 });
-      
-                                                       
+
+}); //windowload
+	
+
+	  
+window.addEventListener("load", () => {
         let revealContainers = container.querySelectorAll(".item");
         revealContainers.forEach((el) => {
 
@@ -228,9 +235,7 @@ tl.to(ln, {
             }, 0);
         });
 
-
 }); //windowload
-
 	
     });
 }
