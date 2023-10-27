@@ -16,8 +16,6 @@ createApp({
     },
 mounted: function() {   
 
-	
-window.addEventListener("load", () => {
 const tm = gsap.timeline();	
 tm.set("nav", {	      
 	scaleY: 1.3, 	
@@ -99,8 +97,6 @@ tm.to(".sub-title span", {
 	y:0,
 	rotate:1
 }, "<+=0.2");
-
-});
 	
 },                          
     data() {
@@ -118,7 +114,7 @@ function setupReveal(container) {
                 
         const one = box1.querySelectorAll(".one, .one span");
         let tl = gsap.timeline({
-          scrollTrigger: {paused:true,
+          scrollTrigger: {
             trigger: box1,
             toggleActions: "restart none none none"
           }, delay: .5
@@ -157,7 +153,7 @@ tl.to(one, {
             const ln = box2.querySelectorAll(".ln");
                        
             let tl = gsap.timeline({
-                scrollTrigger: {paused:true,
+                scrollTrigger: {
                     trigger: box2,
                     toggleActions: "restart none none none"
                 }, delay: .5
@@ -188,7 +184,7 @@ tl.to(ln, {
             let image = el.querySelector("img");
 
             let tl = gsap.timeline({
-                scrollTrigger: {paused:true,
+                scrollTrigger: {
                     trigger: el,
                     ease: "Expo.easeOut",
                     toggleActions: "restart none none none"
