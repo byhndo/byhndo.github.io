@@ -170,7 +170,7 @@ window.addEventListener("load", () => {
             const ln = box2.querySelectorAll(".ln");
                        
             let tl = gsap.timeline({
-                scrollTrigger: {
+                scrollTrigger: {paused:true,
                     trigger: box2,
                     toggleActions: "restart none none none"
                 }, delay: .5
@@ -206,7 +206,7 @@ window.addEventListener("load", () => {
             let image = el.querySelector("img");
 
             let tl = gsap.timeline({
-                scrollTrigger: {
+                scrollTrigger: {paused:true,
                     trigger: el,
                     ease: "Expo.easeOut",
                     toggleActions: "restart none none none"
