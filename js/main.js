@@ -33,10 +33,11 @@ gsap.to("nav", {
 	scaleY: 1
 }, "<+=0.2");
 	
-gsap.set("h1 span", {		
+gsap.set("h1 span", {	
+	perspective:400,
 	scaleY: 2, 	
 	y:"-5rem",
-	transformOrigin: "50% 0%"
+	transformOrigin: "50% 0 50%"
 });
 gsap.to("h1 span", {	
 	delay: 2.5,	
