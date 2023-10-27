@@ -125,7 +125,7 @@ tl.set(one, {
 	scaleY: 2,
 	perspective:400,
 	x: "random(-10, 10)",
-	y: "random(-30, 30)",
+	y: "random(-50, 50)",
 	rotate: "random(-180, 180)", 
 	transformOrigin: "0 50% -50"
 });
