@@ -149,7 +149,7 @@ tl.to(one, {
 
 });
 
-});	
+
                     
         const RevealBoxs2 = container.querySelectorAll(".box2");
         RevealBoxs2.forEach((box2) => {
@@ -218,6 +218,10 @@ tl.to(ln, {
             }, 0);
         });
 
+
+}); //windowload
+
+	
     });
 }
 	 
