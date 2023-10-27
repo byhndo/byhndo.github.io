@@ -107,13 +107,16 @@ gsap.to(".sub-title span", {
 
 function setupReveal(container) {
   container.ctx = gsap.context(() => {
-       	       			    	  	    	 	    	    	   	    	    	    	 	  	    
+
+
+window.addEventListener("load", () => {
+	  
         const RevealBoxs1 = container.querySelectorAll(".box1");
         RevealBoxs1.forEach((box1) => {
                 
         const one = box1.querySelectorAll(".one, .one span");
         let tl = gsap.timeline({
-          scrollTrigger: {
+          scrollTrigger: {paused:true,
             trigger: box1,
             toggleActions: "restart none none none"
           }, delay: .5
@@ -145,6 +148,8 @@ tl.to(one, {
 }, "<+=0.2");
 
 });
+
+});	
                     
         const RevealBoxs2 = container.querySelectorAll(".box2");
         RevealBoxs2.forEach((box2) => {
