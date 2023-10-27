@@ -16,14 +16,9 @@ createApp({
     },
 mounted: function() {   
 
-  const tm = gsap.timeline();
-  tm.to(".loader", {
-    delay: 2,
-    opacity: 0,
-    duration: 1,
-    ease: Power3.easeOut
-  });
 	
+window.addEventListener("load", () => {
+const tm = gsap.timeline();	
 tm.set("nav", {	      
 	scaleY: 1.3, 	
 	transformOrigin: "top center"
@@ -105,7 +100,8 @@ tm.to(".sub-title span", {
 	rotate:1
 }, "<+=0.2");
 
-		
+});
+	
 },                          
     data() {
         return {
