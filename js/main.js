@@ -15,7 +15,7 @@ createApp({
         }
     },
 mounted: function() {   
-window.addEventListener("load", () => {
+
   const tm = gsap.timeline();
   tm.to(".loader", {
     delay: 2,
@@ -105,7 +105,6 @@ tm.to(".sub-title span", {
 	rotate:1
 }, "<+=0.2");
 
-}); //windowload
 		
 },                          
     data() {
@@ -117,9 +116,6 @@ tm.to(".sub-title span", {
 
 function setupReveal(container) {
   container.ctx = gsap.context(() => {
-
-
-window.addEventListener("load", () => {
 	  
         const RevealBoxs1 = container.querySelectorAll(".box1");
         RevealBoxs1.forEach((box1) => {
@@ -158,11 +154,6 @@ tl.to(one, {
 }, "<+=0.2");
 
 });
-
-}); //windowload
-
-
-window.addEventListener("load", () => {
 	  
         const RevealBoxs2 = container.querySelectorAll(".box2");
         RevealBoxs2.forEach((box2) => {
@@ -193,13 +184,8 @@ tl.to(ln, {
 	ease: SlowMo.ease.config(0.7, 0.7)
 },">");		
 	                                                                                                                  
-});
+});	
 
-}); //windowload
-	
-
-	  
-window.addEventListener("load", () => {
         let revealContainers = container.querySelectorAll(".item");
         revealContainers.forEach((el) => {
 
@@ -234,8 +220,6 @@ window.addEventListener("load", () => {
               ease: "Quad.easeOut"
             }, 0);
         });
-
-}); //windowload
 	
     });
 }
