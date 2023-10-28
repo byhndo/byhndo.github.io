@@ -97,7 +97,7 @@ gsap.to(".sub-title span", {
 	scaleY: 1,
 	x: 0,
 	y:0,
-	rotate:1
+	rotate:0
 }, "<+=0.2");
 	
 },                          
@@ -134,16 +134,16 @@ tl.to(one, {
 	opacity: 1,
 	duration:1,
 	stagger: .1,
+	y:0,
+	rotateX:0,
+	rotateY:0,
 	ease: Back.easeOut.config(2.15)
 });
 tl.to(one, {
 	duration: 1,
 	stagger: .1,	
 	ease: "Quad.easeOut",
-	scaleY: 1,
-	y:0,
-	rotateX:0,
-	rotateY:0
+	scaleY: 1
 }, "<+=0.2");
 
 });
