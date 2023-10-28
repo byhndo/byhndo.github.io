@@ -52,7 +52,7 @@ gsap.to("h1 span", {
 	duration:1.5,	
 	stagger: .1,
 	ease: "Quad.easeOut",	
-	scaleY: 1,
+	scaleY: 2,
 	x:0,
 	y:0,
 	rotateX:0,
