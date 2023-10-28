@@ -128,6 +128,8 @@ tl.set(one, {
 	scaleY: 2,
 	x:"random(-100, 100)",
 	y:"random(-100, 100)",
+	rotateX:"random(-100, 100)",
+	rotateY:"random(-100, 100)",
 	transformOrigin: "0 50% -50"
 });
 tl.to(one, {
@@ -143,7 +145,9 @@ tl.to(one, {
 	scaleY: 1,
 	x:0,
 	y:0,
-	ease: "Quad.easeOut"
+	ease: "Quad.easeOut",
+	rotateX:0,
+	rotateY:0
 }, "<+=0.2");
 
 });
