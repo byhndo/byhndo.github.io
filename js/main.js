@@ -134,7 +134,8 @@ tl.to(one, {
 	delay:1,
 	opacity: 1,
 	duration:1,
-	stagger: .1,	
+	stagger: .1,
+	x:0,
 	y:0,
 	ease: Back.easeOut.config(2.15)
 });
