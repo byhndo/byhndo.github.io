@@ -87,15 +87,14 @@ gsap.to(".sub-title span", {
 	duration:1,
 	opacity: 1,
 	stagger: .1,	
-	ease: Back.easeOut.config(2.15),
-	y: 0	
+	ease: Back.easeOut.config(2.15)		
 });
 gsap.to(".sub-title span", {
 	duration: 3,	
 	stagger: .1,
 	ease: "Elastic.easeOut",	
 	scaleY: 1,
-	x: 0,
+	x:0,
 	y:0,
 	rotate:0
 }, "<+=0.2");
@@ -133,14 +132,14 @@ tl.to(one, {
 	delay:1,
 	opacity: 1,
 	duration:1,
-	stagger: .1,
-	y:0,	
+	stagger: .1,	
 	ease: Back.easeOut.config(2.15)
 });
 tl.to(one, {
 	duration:1.5,
 	stagger: .1,	
 	ease: "Quad.easeOut",
+	y:0, 
 	scaleY: 1,
 	rotateX:0,
 	rotateY:0
