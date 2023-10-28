@@ -22,7 +22,7 @@ gsap.set("nav", {
 });
 gsap.to("nav", {
 	delay:.5,
-	duration:.7,
+	duration:1,
 	opacity: 1,	
 	ease: Back.easeOut.config(2.15),
 	y: 0
@@ -41,7 +41,7 @@ gsap.set("h1 span", {
 });
 gsap.to("h1 span", {	
 	delay: 2.5,	
-	duration:.7,
+	duration:1,
 	opacity: 1,
 	stagger: .1,
 	x:0,
@@ -83,7 +83,7 @@ gsap.set(".sub-title span", {
 });
 gsap.to(".sub-title span", {
 	delay: 5,	
-	duration:.7,
+	duration:1,
 	opacity: 1,
 	stagger: .1,	
 	ease: Back.easeOut.config(2.15),
@@ -132,7 +132,7 @@ tl.set(one, {
 tl.to(one, {
 	delay:1,
 	opacity: 1,
-	duration:.7,
+	duration:1,
 	stagger: .1,
 	ease: Back.easeOut.config(2.15),
 	y: 0
