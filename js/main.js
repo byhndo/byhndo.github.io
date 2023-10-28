@@ -33,7 +33,8 @@ gsap.to("nav", {
 	scaleY: 1
 }, "<+=0.2");
 	
-gsap.set("h1 span", {	
+gsap.set("h1 span", {
+	perspective:400,
 	scaleY: 2, 	
 	y: "random(-200, 200)",
 	rotateX: "random(-180, 180)",
@@ -122,7 +123,8 @@ function setupReveal(container) {
           }, delay: .5
             }); 
                         
-tl.set(one, {		
+tl.set(one, {
+	perspective:400,
 	scaleY: 2,
 	y: "random(-100, 100)",
 	rotateX: "random(-180, 180)",
