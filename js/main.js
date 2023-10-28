@@ -45,6 +45,7 @@ gsap.to("h1 span", {
 	duration:1,
 	opacity: 1,
 	stagger: .1,
+	y:0,
 	ease: Back.easeOut.config(2.15)
 });
 gsap.to("h1 span", {
@@ -53,7 +54,6 @@ gsap.to("h1 span", {
 	scaleY:1,
 	rotateX:0,
 	rotateY:0,
-	y:0,
 	ease: "Quad.easeOut"
 }, "<+=0.2");
 
