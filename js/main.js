@@ -143,6 +143,7 @@ tl.to(one, {
 	scaleY: 1,
 	rotateX:0,
 	rotateY:0,
+	transformOrigin: "50% 50%",
 	ease: "Quad.easeOut"	
 }, "<+=0.2");
 
