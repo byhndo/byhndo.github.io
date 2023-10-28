@@ -140,9 +140,9 @@ tl.to(one, {
 	y:0
 });
 tl.to(one, {
-	duration: 2,
+	duration: 1,
 	stagger: .1,	
-	ease: "Bounce.easeOut",
+	ease: "Expo.easeOut",
 	scaleY: 1,	
 	rotateX:0,
 	rotateY:0
