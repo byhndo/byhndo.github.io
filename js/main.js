@@ -34,7 +34,6 @@ gsap.to("nav", {
 }, "<+=0.2");
 	
 gsap.set("h1 span", {
-	perspective:400,
 	scaleY: 2, 	
 	y: "random(-200, 200)",
 	rotateX: "random(-180, 180)",
@@ -55,7 +54,8 @@ gsap.to("h1 span", {
 	stagger: .1,
 	ease: "Quad.easeOut",	
 	scaleY: 1,
-	rotate:0
+	rotateX:0,
+	rotateY:0
 }, "<+=0.2");
 
 gsap.set(".ball", {
@@ -124,7 +124,6 @@ function setupReveal(container) {
             }); 
                         
 tl.set(one, {
-	perspective:400,
 	scaleY: 2,
 	y: "random(-100, 100)",
 	rotateX: "random(-180, 180)",
@@ -144,7 +143,8 @@ tl.to(one, {
 	stagger: .1,	
 	y:0, 
 	scaleY: 1,
-	rotate:0,
+	rotateX:0,
+	rotateY:0
 	ease: "Quad.easeOut"
 }, "<+=0.2");
 
