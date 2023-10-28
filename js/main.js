@@ -142,8 +142,10 @@ tl.to(one, {
 tl.to(one, {
 	duration: 1,
 	stagger: .1,	
-	ease: "Expo.easeOut",
+	ease: "Quad.easeOut",
 	scaleY: 1,	
+	x:0,
+	y:0,
 	rotateX:0,
 	rotateY:0
 }, "<+=0.2");
