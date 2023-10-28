@@ -124,11 +124,12 @@ function setupReveal(container) {
             }); 
                         
 tl.set(one, {
+	perspective:800,
 	scaleY: 2,
 	y:"random(-100, 100)",
 	rotateX:"random(-100, 100)",
 	rotateY:"random(-100, 100)",
-	transformOrigin: "50% 50%"
+	transformOrigin: "0 50% 50%"
 });
 tl.to(one, {
 	delay:1,
