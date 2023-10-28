@@ -141,11 +141,7 @@ tl.to(one, {
 tl.to(one, {
 	duration:1.5,
 	stagger: .1,
-	x:0,
-	y:0, 
 	scaleY: 1,
-	rotateX:0,
-	rotateY:0,
 	ease: "Quad.easeOut"
 }, "<+=0.2");
 
