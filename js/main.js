@@ -136,8 +136,6 @@ tl.to(one, {
 	opacity: 1,
 	duration:1,
 	stagger: .1,
-	x:0,
-	y:0,
 	ease: Back.easeOut.config(2.15)
 });
 tl.to(one, {
