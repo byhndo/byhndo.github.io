@@ -136,15 +136,14 @@ tl.to(one, {
 	duration:1,
 	stagger: .1,
 	ease: Back.easeOut.config(2.15),
-	y: 0
+	x:0,
+	y:0
 });
 tl.to(one, {
 	duration: 2,
 	stagger: .1,	
 	ease: "Bounce.easeOut",
-	scaleY: 1,
-	x:0,
-	y:0,
+	scaleY: 1,	
 	rotateX:1,
 	rotateY:1
 }, "<+=0.2");
