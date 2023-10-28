@@ -35,7 +35,7 @@ gsap.to("nav", {
 	
 gsap.set("h1 span", {	
 	scaleY: 2, 	
-	y: "random(-100, 100)",
+	y: "random(-200, 200)",
 	rotateX: "random(-180, 180)",
 	rotateY: "random(-180, 180)",
 	transformOrigin: "0 50% -50"
@@ -45,6 +45,8 @@ gsap.to("h1 span", {
 	duration:1,
 	opacity: 1,
 	stagger: .1,
+	x:0,
+	y:0,
 	ease: Back.easeOut.config(2.15)
 });
 gsap.to("h1 span", {
@@ -52,7 +54,6 @@ gsap.to("h1 span", {
 	stagger: .1,
 	ease: "Quad.easeOut",	
 	scaleY: 1,
-	y:0,
 	rotateX:0,
 	rotateY:0
 }, "<+=0.2");
@@ -141,6 +142,7 @@ tl.to(one, {
 	duration:1.5,
 	stagger: .1,	
 	ease: "Quad.easeOut",
+	x:0,
 	y:0, 
 	scaleY: 1,
 	rotateX:0,
