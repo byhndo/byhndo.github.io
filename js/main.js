@@ -124,7 +124,8 @@ function setupReveal(container) {
             }); 
                         
 tl.set(one, {
-	scaleY: 2,	
+	scaleY: 2,
+	x:"random(-100, 100)",
 	y:"random(-100, 100)",
 	rotateX:"random(-100, 100)",
 	rotateY:"random(-100, 100)",
@@ -143,6 +144,7 @@ tl.to(one, {
 	scaleY: 1,
 	rotateX:0,
 	rotateY:0,
+	x:0,
 	y:0,
 	ease: "Quad.easeOut"	
 }, "<+=0.2");
