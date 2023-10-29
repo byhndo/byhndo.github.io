@@ -145,7 +145,7 @@ tl.to(one, {
 	scaleY: 1,
 	rotateX:0,
 	rotateY:0,
-        transformOrigin: "0 50% 0",
+        transformOrigin: "0 0 0",
 	ease: "Quad.easeOut"	
 }, "<+=0.2");
 
