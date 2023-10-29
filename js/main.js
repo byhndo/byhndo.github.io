@@ -35,10 +35,9 @@ gsap.to("nav", {
 	
 gsap.set("h1 span", {
 	scaleY: 2, 	
-	y: "random(-200, 200)",
+	y: "random(-100, 100)",
 	rotateX: "random(-180, 180)",
-	rotateY: "random(-180, 180)", 
-	rotateZ: "random(-180, 180)", 
+	rotateY: "random(-180, 180)",  
 	transformOrigin: "0 50% -50"
 });
 gsap.to("h1 span", {	
@@ -55,7 +54,6 @@ gsap.to("h1 span", {
 	scaleY:1,
 	rotateX:0,
 	rotateY:0,
-	rotateZ:0,
 	ease: "Quad.easeOut"
 }, "<+=0.9");
 
@@ -126,6 +124,7 @@ function setupReveal(container) {
                         
 tl.set(one, {
 	scaleY: 2,
+	x:"random(-100, 100)",
 	y:"random(-100, 100)",
 	rotateX:"random(-180, 180)",
 	rotateY:"random(-180, 180)",
@@ -136,6 +135,7 @@ tl.to(one, {
 	opacity: 1,
 	duration:1,
 	stagger: .1,
+	x:0,
 	y:0,
 	ease: Back.easeOut.config(2.15)
 });
@@ -146,7 +146,7 @@ tl.to(one, {
 	rotateX:0,
 	rotateY:0,
 	ease: "Quad.easeOut"	
-});
+}, "<+=0.3");
 
 });
 	  
