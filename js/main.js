@@ -127,8 +127,7 @@ function setupReveal(container) {
 tl.set(one, {
 	scaleY: 2,
 	y:"random(-100, 100)",
-	z:"random(-100, 100)",
-	rotate:"random(-180, 180)",
+	rotateZ:"random(-180, 180)",
 	transformOrigin: "0 50% -50"
 });
 tl.to(one, {
@@ -137,14 +136,13 @@ tl.to(one, {
 	duration:1,
 	stagger: .1,
 	y:0,
-	z:0,
 	ease: Back.easeOut.config(2.15)
 });
 tl.to(one, {
 	duration:1.5,
 	stagger: .1,
 	scaleY: 1,
-	rotate:0,
+	rotateZ:0,
 	ease: "Quad.easeOut"	
 }, "<+=0.2");
 
