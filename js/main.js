@@ -127,8 +127,8 @@ tl.set(one, {
 	perspective:800,
 	scaleY: 2,
 	y:"random(-100, 100)",
-	rotateY:"random(-100, 100)",
-	transformOrigin: "0 50% 50%"
+	rotate:"random(-100, 100)",
+	transformOrigin: "top left"
 });
 tl.to(one, {
 	delay:1,
@@ -142,7 +142,7 @@ tl.to(one, {
 	duration:1.5,
 	stagger: .1,
 	scaleY: 1,
-	rotateY:0,
+	rotate:0,
 	ease: "Quad.easeOut"	
 }, "<+=0.2");
 
