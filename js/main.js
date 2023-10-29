@@ -57,7 +57,7 @@ gsap.to("h1 span", {
 	rotateY:0,
 	rotateZ:0,
 	ease: "Quad.easeOut"
-}, "<+=0.7");
+}, "<+=0.8");
 
 gsap.set(".ball", {
   scaleY: 1,  
@@ -100,7 +100,7 @@ gsap.to(".sub-title span", {
 	x:0,
 	y:0,
 	rotate:0
-}, "<+=0.7");
+}, "<+=0.8");
 	
 },                          
     data() {
@@ -144,7 +144,7 @@ tl.to(one, {
 	scaleY: 1,
 	rotate:0,
 	ease: "Quad.easeOut"	
-}, "<+=0.7");
+}, "<+=0.8");
 
 });
 	  
