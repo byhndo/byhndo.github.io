@@ -140,7 +140,7 @@ tl.to(one, {
 	duration:1.5,
 	stagger: .1,
 	scaleY: 1,
-	rotateY:0,
+	rotate:0,
 	ease: "Quad.easeOut"	
 }, "<+=0.3");
 
