@@ -128,7 +128,7 @@ tl.set(one, {
 	scaleY: 2,
 	y:"random(-100, 100)",
 	rotate:"random(-100, 100)",
-	transformOrigin: "0 50% 50%"
+	transformOrigin: "0 50% 50"
 });
 tl.to(one, {
 	delay:1,
