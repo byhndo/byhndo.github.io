@@ -100,7 +100,7 @@ gsap.to(".sub-title span", {
 	x:0,
 	y:0,
 	rotate:0
-}, "<+=0.8");
+}, "<+=0.2");
 	
 },                          
     data() {
