@@ -57,7 +57,7 @@ gsap.to("h1 span", {
 	rotateY:0,
 	rotateZ:0,
 	ease: "Quad.easeOut"
-}, "<+=0.8");
+}, "<+=0.5");
 
 gsap.set(".ball", {
   scaleY: 1,  
@@ -142,9 +142,9 @@ tl.to(one, {
 	duration:1.5,
 	stagger: .1,
 	scaleY: 1,
-	rotateX:0,
+	rotate:0,
 	ease: "Quad.easeOut"	
-}, "<+=0.8");
+}, "<+=0.5");
 
 });
 	  
