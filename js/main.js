@@ -137,6 +137,8 @@ tl.to(one, {
 	duration:1,
 	stagger: .1,
 	y:0,
+	rotateX:0,
+	rotateY:0,
 	ease: Back.easeOut.config(2.15)
 });
 tl.to(one, {
@@ -145,7 +147,6 @@ tl.to(one, {
 	scaleY: 1,
 	rotateX:0,
 	rotateY:0,
-        transformOrigin: "0 0 0",
 	ease: "Quad.easeOut"	
 }, "<+=0.2");
 
