@@ -42,7 +42,7 @@ gsap.set("h1 span", {
 	transformOrigin: "0 50% -50"
 });
 gsap.to("h1 span", {	
-	delay: 2.5,	
+	delay: 3,	
 	duration:1,
 	opacity: 1,
 	stagger: .1,
