@@ -73,7 +73,7 @@ gsap.to(".ball", {
 });
 gsap.to(".ball", {
   scaleY: 1,
-  duration: 2.5, 
+  duration: 2, 
   ease: "Elastic.easeOut"
 }, "<+=0.2");
 
