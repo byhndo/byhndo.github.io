@@ -126,10 +126,9 @@ function setupReveal(container) {
 tl.set(one, {
 	perspective:800,
 	scaleY: 2,
-	y:"random(-200, 200)",
+	y:"random(-100, 100)",
 	rotateX:"random(-180, 180)",
 	rotateY:"random(-180, 180)",
-	transformOrigin: "50% -50"
 });
 tl.to(one, {
 	delay:1,
