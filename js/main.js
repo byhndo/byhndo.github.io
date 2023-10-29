@@ -35,7 +35,7 @@ gsap.to("nav", {
 	
 gsap.set("h1 span", {
 	scaleY: 2, 	
-	y: "random(-100, 100)",
+	y: "random(-300, 300)",
 	rotateX: "random(-180, 180)",
 	rotateY: "random(-180, 180)",  
 	transformOrigin: "0 50% -50"
@@ -143,6 +143,8 @@ tl.to(one, {
 	duration:1.5,
 	stagger: .1,
 	scaleY: 1,
+	x:0,
+	y:0,
 	rotateX:0,
 	rotateY:0,
 	ease: "Quad.easeOut"	
