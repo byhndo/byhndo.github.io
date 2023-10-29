@@ -34,7 +34,7 @@ gsap.to("nav", {
 }, "<+=0.2");
 	
 gsap.set("h1 span", {
-	scaleY:.1, 
+	scaleY:.5, 
 	y:"random(-300, 300)",
 	rotateX: "random(-180, 180)",
 	rotateY: "random(-180, 180)",  
