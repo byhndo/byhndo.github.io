@@ -127,6 +127,8 @@ function setupReveal(container) {
 tl.set(one, {
 	scaleY: 2,
 	y:"random(-100, 100)",
+	rotateX:"random(-180, 180)",
+	rotateY:"random(-180, 180)",
 	rotateZ:"random(-180, 180)",
 	transformOrigin: "0 50% -50"
 });
@@ -142,6 +144,8 @@ tl.to(one, {
 	duration:1.5,
 	stagger: .1,
 	scaleY: 1,
+	rotateX:0,
+	rotateY:0,
 	rotateZ:0,
 	ease: "Quad.easeOut"	
 }, "<+=0.2");
