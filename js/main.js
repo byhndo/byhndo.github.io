@@ -142,7 +142,7 @@ tl.to(one, {
 	scaleY: 1,
 	rotateY:0,
 	ease: "Quad.easeOut"	
-}, "-=0.3");
+}, "<+=0.3");
 
 });
 	  
