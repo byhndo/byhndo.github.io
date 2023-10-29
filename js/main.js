@@ -34,12 +34,10 @@ gsap.to("nav", {
 }, "<+=0.2");
 	
 gsap.set("h1 span", {
-	perspective:800,
 	scaleY: 2, 	
 	y: "random(-200, 200)",
 	rotateX: "random(-180, 180)",
-	rotateY: "random(-180, 180)",
-	transformOrigin: "0 50% -50"
+	rotateY: "random(-180, 180)"
 });
 gsap.to("h1 span", {	
 	delay: 2.5,	
@@ -127,8 +125,8 @@ tl.set(one, {
 	perspective:800,
 	scaleY: 2,
 	y:"random(-100, 100)",
-	rotateX:"random(-180, 180)",
-	rotateY:"random(-180, 180)",
+	rotate:"random(-180, 180)",
+	transformOrigin: "0 50% -50"
 });
 tl.to(one, {
 	delay:1,
@@ -142,6 +140,7 @@ tl.to(one, {
 	duration:1.5,
 	stagger: .1,
 	scaleY: 1,
+	rotate:0,
 	ease: "Quad.easeOut"	
 }, "<+=0.2");
 
