@@ -129,7 +129,7 @@ tl.set(one, {
 	y:"random(-200, 200)",
 	rotateX:"random(-180, 180)",
 	rotateY:"random(-180, 180)",
-	transformOrigin: "0 50% -50"
+	transformOrigin: "50% -50"
 });
 tl.to(one, {
 	delay:1,
@@ -137,8 +137,6 @@ tl.to(one, {
 	duration:1,
 	stagger: .1,
 	y:0,
-	rotateX:0,
-	rotateY:0,
 	ease: Back.easeOut.config(2.15)
 });
 tl.to(one, {
