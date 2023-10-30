@@ -15,6 +15,9 @@ createApp({
         }
     },
 mounted: function() {   
+gsap.to(".slide-fade-enter-from", {
+	delay:1
+})
 	
 gsap.set("nav", {	      
 	scaleY: 1.3, 	
