@@ -72,7 +72,7 @@
 <!-- sub1 -->
 <div class="sub1" key="bio" v-if="bg==='bio'">
 <div class="box1">
-<h3 class="one" id="liquid" style="filter: url('#liquify')"><span>H</span><span>i</span><span>!</span></h3>
+<h3 class="one"><span>H</span><span>i</span><span>!</span></h3>
 </div>
 <div class="box2">
 <div class="ln"></div>			
@@ -104,7 +104,7 @@
 </div>
 </div>                                                                        
 <div class="box1">
-<h3 class="one" id="liquid" style="filter: url('#liquify')"><span>T</span><span>e</span><span>n</span><span>t</span><span>a</span><span>n</span><span>g</span> <span>S</span><span>a</span><span>y</span><span>a</span><span>.</span></h3>
+<h3 class="one"><span>T</span><span>e</span><span>n</span><span>t</span><span>a</span><span>n</span><span>g</span> <span>S</span><span>a</span><span>y</span><span>a</span><span>.</span></h3>
 </div>
                         <div class="box2">
                             <div class="ln"></div>
@@ -159,7 +159,7 @@
                     <!-- sub2 -->
                     <div class="sub2" key="photos" v-if="bg==='photos'">
                         <div class="box1">
-                            <h3 class="one" id="liquid" style="filter: url('#liquify')"><span>F</span><span>o</span><span>t</span><span>o</span><span>.</span></h3>
+                            <h3 class="one"><span>F</span><span>o</span><span>t</span><span>o</span><span>.</span></h3>
                         </div>
                         <div class="box2">
                             <div class="ln"></div>
@@ -247,12 +247,6 @@
             </main> 
         </div>
     </div>  
-<svg style="height: 0; opacity: 0; visibility: hidden;">
-  <filter id="liquify">
-      <feTurbulence baseFrequency=".015" numOctaves="3" result="warp" type="fractalNoise"></feTurbulence>
-      <feDisplacementMap id="liquid" in="SourceGraphic" in2="warp" scale="300" xChannelSelector="R" yChannelSelector="B"></feDisplacementMap>
-    </filter>
-</svg>
 <script	src="js/tweenmax.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>	
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
