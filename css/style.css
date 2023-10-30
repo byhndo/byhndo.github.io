@@ -25,6 +25,10 @@
   width: 1px;
   height: 1px; 
 }
+#liquid{  
+  filter: url('#liquify');
+  opacity: 0;  
+}
 
 html{
   background: var(--c1);
