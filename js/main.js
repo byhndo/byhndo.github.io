@@ -122,7 +122,7 @@ function setupReveal(container) {
             }); 
 
 tl.set(one, {
-	scaleY: 1,
+	scaleY: 1
 });
 
 tl.to(one, {
