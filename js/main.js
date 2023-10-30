@@ -121,7 +121,17 @@ function setupReveal(container) {
             toggleActions: "restart none none none"
           }, delay: .7
             }); 
-                        
+
+tl.set(one, {
+	scaleY: 2,
+});
+
+tl.to(one, {
+	duration:1.5,
+	scaleY: 1,
+	rotation:0		
+});
+		
 tl.to('#liquid', {
   attr: {
       scale: '0'
