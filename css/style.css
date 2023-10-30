@@ -364,11 +364,13 @@ img, .box1, .box2, .one, .one span, .two{
   display: inline-block;
   transform-origin: 50% 100%;
   filter: url('#liquify');
+  opacity:0;
 }
 
 .one{
   margin-top:0;
   margin-bottom:0;
+  opacity:0;
 }
 
 .two{
