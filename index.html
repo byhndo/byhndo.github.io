@@ -63,12 +63,6 @@
 <div class="transition transition-bio"></div>
 <div class="transition transition-photos"></div>                                                
 <main>	
-<svg style="height: 0; opacity: 0; visibility: hidden;">
-  <filter id="liquify">
-      <feTurbulence baseFrequency=".015" numOctaves="3" result="warp" type="fractalNoise"></feTurbulence>
-      <feDisplacementMap id="liquid" in="SourceGraphic" in2="warp" scale="300" xChannelSelector="R" yChannelSelector="B"></feDisplacementMap>
-    </filter>
-</svg>
 <div class="header">
 <h1><span>B</span><span>a</span><span>y</span><span>u</span><br><span>H</span><span>a</span><span>n</span><span>d</span><span>o</span><span>n</span><span>o</span></h1>						
 	<div class="ball"></div>                                               
@@ -253,6 +247,12 @@
             </main> 
         </div>
     </div>  
+<svg style="height: 0; opacity: 0; visibility: hidden;">
+  <filter id="liquify">
+      <feTurbulence baseFrequency=".015" numOctaves="3" result="warp" type="fractalNoise"></feTurbulence>
+      <feDisplacementMap id="liquid" in="SourceGraphic" in2="warp" scale="300" xChannelSelector="R" yChannelSelector="B"></feDisplacementMap>
+    </filter>
+</svg>
 <script	src="js/tweenmax.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>	
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
