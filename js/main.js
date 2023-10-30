@@ -126,8 +126,8 @@ tl.set(one, {
 });
 
 tl.to(one, {
-	opacity: 1,
-	duration:1,		
+
+	duration:1		
 });
 		
 tl.to(liquid, {
