@@ -120,7 +120,7 @@ function setupReveal(container) {
           scrollTrigger: {
             trigger: box1,
             toggleActions: "restart none none none"
-          }, delay: 1
+          }, delay: .7
             }); 
                         
 tl.set(one, {
@@ -156,7 +156,7 @@ tl.to(one, {
                 scrollTrigger: {
                     trigger: box2,
                     toggleActions: "restart none none none"
-                }, delay: 1
+                }, delay: .7
             });                      
                                        
 tl.set(two, {			
@@ -188,7 +188,7 @@ tl.to(ln, {
                     trigger: el,
                     ease: "Expo.easeOut",
                     toggleActions: "restart none none none"
-                }, delay: 1
+                }, delay: .7
             });
 
             tl.set(el, {
