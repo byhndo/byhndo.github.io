@@ -130,7 +130,7 @@ tl.to(one, {
 	duration:1,		
 });
 		
-tl.to('liquid', {
+tl.to(liquid, {
   attr: {
       scale: '0'
     },
