@@ -150,7 +150,7 @@ a:hover, a:active{
     background: inherit;
     min-height: 100vh;
     padding: 0;
-    transition: background 0s 2.5s, color 2s;
+    transition: background 0s 2s, color 1.5s;
 }
 
 .bio, .link-bio{
@@ -169,7 +169,7 @@ a:hover, a:active{
     display: block;
     position: absolute;
     opacity: 0;
-    transition: transform 2s ease-in-out;
+    transition: transform 1.5s ease-in-out;
     width: 100%;
     height: 100vh;
     transform: scale(0);
