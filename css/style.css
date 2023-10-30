@@ -250,6 +250,7 @@ main {
 
 .slide-fade-enter-active {
   transition: 0s;
+  transition-delay: 1s;
 }
 
 .slide-fade-leave-active {
@@ -259,7 +260,6 @@ main {
 .slide-fade-enter-from, .slide-fade-leave-to {
   transform: translateY(3rem);
   opacity: 0;
-  transition-delay: 1s;
 }
 
 .sub1 {
