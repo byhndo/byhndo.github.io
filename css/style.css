@@ -25,11 +25,6 @@
   width: 1px;
   height: 1px; 
 }
-h3#liquid{
-  opacity:0;
-  filter: url('#liquify');
-}
-
 html{
   background: var(--c1);
 }
@@ -363,9 +358,7 @@ img, .box1, .box2, .one, .one span, .two{
 
 .one, .one span{
   display: inline-block;
-  transform-origin: 50% 100%;
-  filter: url('#liquify');
-  opacity:0;
+  transform-origin: top left;
 }
 
 .one{
