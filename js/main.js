@@ -123,13 +123,12 @@ function setupReveal(container) {
             }); 
 
 tl.set(one, {
-	scaleY: 2,
+	scaleY: 1,
 });
 
 tl.to(one, {
-	duration:1.5,
-	scaleY: 1,
-	rotation:0		
+	opacity: 1,
+	duration:1,		
 });
 		
 tl.to('#liquid', {
