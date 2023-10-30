@@ -15,6 +15,12 @@ createApp({
         }
     },
 mounted: function() {   
+#liquid{  
+  filter: url('#liquify');
+  opacity: 0;  
+}
+
+
 	
 gsap.set("nav", {	      
 	scaleY: 1.3, 	
