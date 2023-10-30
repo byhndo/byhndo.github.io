@@ -125,7 +125,7 @@ tl.to(one, {
 	opacity:1
 });
 		
-tl.to("h3#liquid", {
+tl.to("#liquid", {
   attr: {
       scale: '0'
     },
