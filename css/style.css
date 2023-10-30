@@ -26,7 +26,6 @@
   height: 1px; 
 }
 #liquid{  
-  filter: url('#liquify');
   opacity: 0;  
 }
 
@@ -86,6 +85,7 @@ h1 span{
   display: inline-block;
   transform-origin: 50% 100%;
   opacity: 0;
+  filter: url('#liquify');
 }
 
 .photos h1 {
