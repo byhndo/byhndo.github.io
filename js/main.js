@@ -47,30 +47,7 @@ gsap.to("nav", {
 	scaleY: 1
 }, "<+=0.2");
 	
-gsap.set("h1 span", {
-	perspective:500,
-	scaleY:.5, 
-	y:"random(-300, 300)",
-	rotateX: "random(-360, 360)",
-	rotateY: "random(-360, 360)",  
-	transformOrigin: "0 50% -50"
-});
-gsap.to("h1 span", {	
-	delay: 3.5,	
-	duration:1,
-	opacity: 1,
-	stagger: .1,
-	y:0,
-	ease: Back.easeOut.config(2.15)
-});
-gsap.to("h1 span", {
-	duration:1.5,	
-	stagger: .1,
-	scaleY:1,
-	rotateX:0,
-	rotateY:0,
-	ease: "Quad.easeOut"
-}, "<+=0.9");
+
 
 gsap.set(".ball", {
   scaleY: 1,  
