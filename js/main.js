@@ -107,7 +107,6 @@ tl.to('#liquid', {
   attr: {
       scale: '0'
     },
-  delay:5,
   opacity:1,
   duration:2,  
   ease: Power4.easeOut     
