@@ -63,10 +63,6 @@ h6 {
 h7 {
     font-size: 200%;
 }
-
-.header{
-  filter:url("#distort");
-}
  
 h1 {
   display: inline;
@@ -84,7 +80,7 @@ h1 span{
   position: relative;
   display: inline-block;
   transform-origin: 50% 100%;
-  filter: url('#liquify');
+  opacity:0;
 }
 
 .photos h1 {
@@ -367,7 +363,7 @@ img, .box1, .box2, .one, .one span, .two{
 .one, .one span{
   display: inline-block;
   transform-origin: 50% 100%;
-  opacity:0;
+  filter: url('#liquify');
 }
 
 .one{
