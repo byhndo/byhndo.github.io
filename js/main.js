@@ -121,12 +121,9 @@ function setupReveal(container) {
           }, delay: .7
             }); 
 
-tl.set(one, {
-	scaleY: 1
-});
-
 tl.to(one, {
-	duration:1		
+	duration:1,	
+	opacity:1
 });
 		
 tl.to(lq, {
