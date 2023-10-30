@@ -112,8 +112,9 @@ function setupReveal(container) {
         const RevealBoxs1 = container.querySelectorAll(".box1");
         RevealBoxs1.forEach((box1) => {
                 
-        const one = box1.querySelectorAll(".one, .one span");
-        let tl = gsap.timeline({
+       const one = box1.querySelectorAll(".one, .one span");
+       const one = box1.querySelectorAll("#liquid");
+	let tl = gsap.timeline({
           scrollTrigger: {
             trigger: box1,
             toggleActions: "restart none none none"
@@ -128,7 +129,7 @@ tl.to(one, {
 	duration:1		
 });
 		
-tl.to("#liquid", {
+tl.to(one, {
   attr: {
       scale: '0'
     },
