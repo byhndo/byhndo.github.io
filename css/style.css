@@ -260,9 +260,7 @@ main {
   transform: translateY(3rem);
   opacity: 0;
 }
-.slide-fade-enter-from{
-    transition-delay: 1s;
-}
+
 .sub1 {
   color: var(--c2);
 }
