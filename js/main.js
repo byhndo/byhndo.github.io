@@ -120,19 +120,27 @@ function setupReveal(container) {
           }, delay: .7
             }); 
 
-tl.to(one, {
-	duration:1,	
-	opacity:1
+tl.set(one, {
+	scaleY: 2,
+	y:"random(-100, 100)",
+	rotation:"random(-180, 180)",
+	transformOrigin: "0 50% -50"
 });
-		
-tl.to("#liquid", {
-  attr: {
-      scale: '0'
-    },
-  opacity:1,
-  duration:2,  
-  ease: Power4.easeOut     
-})
+tl.to(one, {
+	delay:1,
+	opacity: 1,
+	duration:1,
+	stagger: .1,
+	y:0,
+	ease: Back.easeOut.config(2.15)
+});
+tl.to(one, {
+	duration:1.5,
+	stagger: .1,
+	scaleY: 1,
+	rotation:0,
+	ease: "Quad.easeOut"	
+}, "<+=0.3");
 
 });
 	  
