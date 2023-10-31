@@ -402,7 +402,6 @@ img, .box1, .box2, .one, .one span, .two{
   font-size: 8px;
   text-decoration: none;
   text-transform: uppercase;
-  letter-spacing: var(--spacingnav);
 }
 
 .photos .footer span, .photos .footer span a {
