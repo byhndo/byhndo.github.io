@@ -128,7 +128,7 @@ tl.to(one, {
 });
 
 tl.to(one, {
-  delay: 3.5,	
+  delay: 1,	
   duration:1.5,
   opacity: 1,
   rotateX:0,
