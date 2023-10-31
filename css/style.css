@@ -323,21 +323,21 @@ img.hand{
 }
 
 .soc {
+ display:grid;
  margin: 50px auto;
- text-align: center;
 }
 
 .soc ul.ico {
   list-style: none;
   display: flex;
-  text-align: center;
-  margin: 0;
-  padding: 0;
+  margin:0;
+  padding:0;
 }
 
 .soc li.ico {
  display: inline-flex;
- margin: 0;
+ margin:0;
+ padding:0 1rem;
 }
 
 .soc a {
