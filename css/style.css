@@ -42,28 +42,28 @@ h1, h2, h3, h4, h5, h6, h7 {
 }
 
 h2 {
- font-size: 270%;
-}
-h3 {
  font-size: 250%;
 }
-h4 {
+h3 {
  font-size: 230%;
 }
-h5 {
+h4 {
  font-size: 210%;
 }
-h6 {
+h5 {
  font-size: 190%;
 }
-h7 {
+h6 {
  font-size: 170%;
+}
+h7 {
+ font-size: 150%;
 }
 h2,h3,h4,h5,h6,h7{
  font-family: var(--font2);
- font-weight:800;
+ font-weight:900;
  text-transform:uppercase;
- letter-spacing: calc(-.01vw + -.01rem);
+ letter-spacing: calc(-.05vw + -.01rem);
 }
  
 h1 {
