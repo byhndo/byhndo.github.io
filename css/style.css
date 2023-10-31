@@ -42,27 +42,28 @@ h1, h2, h3, h4, h5, h6, h7 {
 }
 
 h2 {
- font-size: 300%;
+ font-size: 270%;
 }
 h3 {
- font-size: 280%;
+ font-size: 250%;
 }
 h4 {
- font-size: 260%;
+ font-size: 230%;
 }
 h5 {
- font-size: 240%;
+ font-size: 210%;
 }
 h6 {
- font-size: 220%;
+ font-size: 190%;
 }
 h7 {
- font-size: 200%;
+ font-size: 170%;
 }
 h2,h3,h4,h5,h6,h7{
- font-weight:300;
+ font-family: var(--font2);
+ font-weight:800;
  text-transform:uppercase;
-  letter-spacing: calc(-.01vw + -.01rem);
+ letter-spacing: calc(-.01vw + -.01rem);
 }
  
 h1 {
