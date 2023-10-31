@@ -339,8 +339,9 @@ img.hand{
 }
 
 .soc li.ico {
-  display: inline-flex;
-  margin: 0 1rem 0 0;
+ display: inline-flex;
+ margin: 0;
+ padding-right:1rem;
 }
 
 .soc a {
