@@ -121,26 +121,20 @@ function setupReveal(container) {
           }, delay: .7
             }); 
 
-tl.set(one, {
-	scaleY: 2,
-	y:"random(-50, 50)",
-	rotate:"random(-180, 180)"
-});
 tl.to(one, {
-	delay:1,
-	opacity: 1,
-	duration:1,
-	stagger: .1,
-	y:0,
-	ease: Back.easeOut.config(2.15)
+  rotateX: "random(-360, 360)",
+  rotateY: "random(-360, 360)",  
+  transformOrigin: "0 50% -50"
 });
+
 tl.to(one, {
-	duration:1.5,
-	stagger: .1,
-	scaleY: 1,
-	rotate:0,
-	ease: "Quad.easeOut"	
-}, "<+=0.3");
+  delay: 3.5,	
+  duration:1.5,
+  opacity: 1,
+  rotateX:0,
+  rotateY:0,
+  ease: "Quad.easeOut"	
+});			
 
 });
 	  
