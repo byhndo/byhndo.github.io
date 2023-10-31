@@ -48,6 +48,7 @@ gsap.to("h1 span", {
 	ease: Back.easeOut.config(2.15)
 });
 gsap.to("h1 span", {
+	delay:1.5,
 	duration:1.5,	
 	stagger: .1,
 	rotateX:0,
