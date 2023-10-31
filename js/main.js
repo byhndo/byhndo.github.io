@@ -122,6 +122,7 @@ function setupReveal(container) {
             }); 
 
 tl.to(one, {
+  y:"random(-50, 50)",
   rotateX: "random(-360, 360)",
   rotateY: "random(-360, 360)",  
   transformOrigin: "0 50% -50"
@@ -129,8 +130,9 @@ tl.to(one, {
 
 tl.to(one, {
   delay: 1,	
-  duration:1.5,
+  duration:2,
   opacity: 1,
+  y:0,
   rotateX:0,
   rotateY:0,
   ease: "Quad.easeOut"	
