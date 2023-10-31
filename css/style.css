@@ -326,16 +326,18 @@ img.hand{
 }
 
 .soc {
- display:grid;
- margin: 50px auto;
+ margin: 50px 0 0 0;
+ display: grid;
+ align-items: center;
+ justify-items: center;
 }
 
 .soc ul.ico {
  list-style: none;
  display: flex;
- display: grid;
- margin:0 auto;
- padding:0;
+ text-align: center;
+ margin: 0;
+ padding: 0;
 }
 
 .soc li.ico {
@@ -344,7 +346,7 @@ img.hand{
 }
 
 .soc a {
- padding: 0 .5rem;
+ display: block;
 }
 
 .bio svg{
