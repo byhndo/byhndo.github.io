@@ -128,9 +128,8 @@ tl.to(one, {
   transformOrigin: "0 50% -50"
 });
 
-tl.to(one, {
-  delay: 1,	
-  duration:2.5,
+tl.to(one, {	
+  duration:2.3,
   opacity: 1,
   y:0,
   rotateX:0,
