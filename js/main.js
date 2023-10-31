@@ -122,6 +122,7 @@ function setupReveal(container) {
             }); 
 
 tl.to(one, {
+  perspective:500,
   y:"random(-70, 70)",
   rotateX: "random(-360, 360)",
   rotateY: "random(-360, 360)",  
