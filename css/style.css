@@ -337,11 +337,11 @@ img.hand{
 .soc li.ico {
  display: inline-flex;
  margin:0;
- padding:0 1rem;
 }
 
 .soc a {
-  display: block;
+ display: block;
+ padding: 0 .5rem;
 }
 
 .bio svg{
