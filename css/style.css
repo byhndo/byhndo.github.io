@@ -67,7 +67,6 @@ h1 {
   font-size: var(--sizetitle);
   padding: 0;
   transition: color 2.5s; 
-  text-align:center;
   left: -.5%;
   line-height: .75;
   letter-spacing: calc(-.3vw + -.05rem);
@@ -78,6 +77,7 @@ h1 span{
   display: inline-block;
   transform-origin: top left;
   opacity:0;
+  text-align:center;
 }
 
 .photos h1 {
