@@ -62,6 +62,8 @@ h7 {
 h2,h3,h4,h5,h6,h7{
  font-family: var(--font2);
  font-weight:500;
+ text-transform:uppercase;
+  letter-spacing: calc(-.007vw + -.01rem);
 }
  
 h1 {
