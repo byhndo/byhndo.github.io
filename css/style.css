@@ -61,7 +61,7 @@ h7 {
 }
 h2,h3,h4,h5,h6,h7{
  font-family: var(--font1);
- font-weight:400;
+ font-weight:500;
  text-transform:lowercase;
  letter-spacing: calc(-.1vw + -.01rem);
 }
@@ -382,7 +382,7 @@ img, .box1, .box2, .one, .one span, .two{
 .ln {
   position: relative;
   width:0;
-  margin-top: -18px;
+  margin-top: -10px;
   height:1px;
   background-color: var(--c2);
   opacity: 0;
