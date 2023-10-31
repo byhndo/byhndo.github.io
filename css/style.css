@@ -60,10 +60,9 @@ h7 {
  font-size: 200%;
 }
 h2,h3,h4,h5,h6,h7{
- font-family: var(--font2);
- font-weight:500;
+ font-weight:300;
  text-transform:uppercase;
-  letter-spacing: calc(-.007vw + -.01rem);
+  letter-spacing: calc(-.01vw + -.01rem);
 }
  
 h1 {
