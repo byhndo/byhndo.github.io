@@ -62,7 +62,8 @@ h7 {
 h2,h3,h4,h5,h6,h7{
  font-family: var(--font2);
  font-weight:700;
- letter-spacing: calc(.5vw + -.01rem);
+ text-transform:uppercase;
+ letter-spacing:calc(.5vw + -.01rem);
 }
  
 h1 {
@@ -75,7 +76,7 @@ h1 {
   left: -.45%;
   line-height: .75;
   text-align:center;
-  letter-spacing: calc(-.3vw + -.05rem);
+  letter-spacing:calc(-.3vw + -.05rem);
 }
 
 h1 span{
@@ -340,7 +341,8 @@ img.hand{
 }
 
 .soc a {
- display: block;
+ display: grid;
+ margin:0 auto;
  padding: 0 .5rem;
 }
 
@@ -400,6 +402,8 @@ img, .box1, .box2, .one, .one span, .two{
 }
 
 .footer span {
+ display:grid;
+ margin: 0 auto;
  color: var(--c2);
  font-size: 8px;
  text-decoration: none;
