@@ -399,17 +399,18 @@ img, .box1, .box2, .one, .one span, .two{
  display: grid;
  align-items: center;
  justify-items: center;
- margin: 23px 0 -14px 0;
+ margin: 23px auto -14px auto;
  text-align: center;
  font-family: var(--font2);
  font-weight: var(--fwnav);
 }
 
 .footer span {
-  color: var(--c2);
-  font-size: 8px;
-  text-decoration: none;
-  text-transform: lowercase;
+ color: var(--c2);
+ text-align: center; 
+ font-size: 8px;
+ text-decoration: none;
+ text-transform: lowercase;
 }
 
 .photos .footer span, .photos .footer span a {
