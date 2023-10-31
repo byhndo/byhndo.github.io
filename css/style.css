@@ -42,28 +42,28 @@ h1, h2, h3, h4, h5, h6, h7 {
 }
 
 h2 {
- font-size: 230%;
-}
-h3 {
  font-size: 210%;
 }
-h4 {
+h3 {
  font-size: 190%;
 }
-h5 {
+h4 {
  font-size: 170%;
 }
-h6 {
+h5 {
  font-size: 150%;
 }
-h7 {
+h6 {
  font-size: 130%;
+}
+h7 {
+ font-size: 110%;
 }
 h2,h3,h4,h5,h6,h7{
  font-family: var(--font2);
  font-weight:800;
  text-transform:uppercase;
- letter-spacing:calc(.5vw + -.01rem);
+ letter-spacing:calc(.7vw + -.01rem);
 }
  
 h1 {
@@ -329,10 +329,11 @@ img.hand{
 }
 
 .soc ul.ico {
-  list-style: none;
-  display: flex;
-  margin:0;
-  padding:0;
+ list-style: none;
+ display: flex;
+ display: grid;
+ margin:0 auto;
+ padding:0;
 }
 
 .soc li.ico {
@@ -341,8 +342,6 @@ img.hand{
 }
 
 .soc a {
- display: grid;
- margin:0 auto;
  padding: 0 .5rem;
 }
 
@@ -402,8 +401,6 @@ img, .box1, .box2, .one, .one span, .two{
 }
 
 .footer span {
- display:grid;
- margin: 0 auto;
  color: var(--c2);
  font-size: 8px;
  text-decoration: none;
