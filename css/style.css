@@ -391,11 +391,8 @@ img, .box1, .box2, .one, .one span, .two{
   background-color: var(--c3);
 }
 
-.footer {
- position: relative; 
+.footer { 
  display: grid;
- align-items: center;
- justify-items: center;
  margin: 23px auto -14px auto;
  text-align: center;
  font-family: var(--font2);
@@ -404,7 +401,6 @@ img, .box1, .box2, .one, .one span, .two{
 
 .footer span {
  color: var(--c2);
- text-align: center; 
  font-size: 8px;
  text-decoration: none;
  text-transform: lowercase;
