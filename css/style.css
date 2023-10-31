@@ -44,22 +44,22 @@ h1, h2, h3, h4, h5, h6, h7 {
 }
 
 h2 {
- font-size:220%;
+ font-size:240%;
 }
 h3 {
- font-size:200%;
+ font-size:220%;
 }
 h4 {
- font-size:190%;
+ font-size:210%;
 }
 h5 {
- font-size:170%;
+ font-size:190%;
 }
 h6 {
- font-size:150%;
+ font-size:170%;
 }
 h7 {
- font-size:130%;
+ font-size:150%;
 }
 h2,h3,h4,h5,h6,h7{
  font-family: var(--font3);
@@ -347,6 +347,7 @@ img.hand{
 
 .soc a {
  display: block;
+ margin:0 .3rem;
 }
 
 .bio svg{
