@@ -391,12 +391,15 @@ img, .box1, .box2, .one, .one span, .two{
 }
 
 .photos .ln {
-  background-color: var(--c3);
+ background-color: var(--c3);
 }
 
-.footer { 
+.footer {
+ position: relative; 
  display: grid;
- margin: 23px auto -14px auto;
+ align-items: center;
+ justify-items: center;
+ margin: 23px 0 -14px 0;
  text-align: center;
  font-family: var(--font2);
  font-weight: var(--fwnav);
@@ -410,20 +413,20 @@ img, .box1, .box2, .one, .one span, .two{
 }
 
 .photos .footer span, .photos .footer span a {
-  color: var(--c1);
+ color: var(--c1);
 }
 
 .footer span, .footer span a {
-  text-decoration: none;
+ text-decoration: none;
 }
 
 .footer span a{
-  font-weight: var(--fwtitle);     
+ font-weight: var(--fwtitle);     
 }
 
 .footer span.fc {
-  font-size: 8px;
-  font-weight: var(--fwtitle);
+ font-size: 8px;
+ font-weight: var(--fwtitle);
 }
 @media(min-width: 500px){
     main{
