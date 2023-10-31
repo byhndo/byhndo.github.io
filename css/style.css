@@ -324,10 +324,7 @@ img.hand{
 
 .soc {
  margin: 50px auto;
- display: grid;
- align-items: center;
- justify-items: center;
-  text-align: center;
+ text-align: center;
 }
 
 .soc ul.ico {
