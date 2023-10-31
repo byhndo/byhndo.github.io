@@ -122,20 +122,24 @@ function setupReveal(container) {
             }); 
 
 tl.to(one, {
-  perspective:500,
-  y:"random(-70, 70)",
-  rotateX: "random(-360, 360)",
-  rotateY: "random(-360, 360)",  
-  transformOrigin: "0 50% -50"
+ perspective:500,
+ scaleY:1,
+ y:"random(-70, 70)",
+ rotateX: "random(-360, 360)",
+ rotateY: "random(-360, 360)",  
+ transformOrigin: "0 50% -50"
 });
-
+tl.to(one, {
+ scaleY:2	
+});
 tl.to(one, {	
-  duration:2.3,
-  opacity: 1,
-  y:0,
-  rotateX:0,
-  rotateY:0,
-  ease: "Quad.easeOut"	
+ duration:2.3,
+ opacity: 1,
+ scaleY:1,
+ y:0,
+ rotateX:0,
+ rotateY:0,
+ ease: "Quad.easeOut"	
 });			
 
 });
