@@ -65,7 +65,7 @@ h2,h3,h4,h5,h6,h7{
  font-family: var(--font3);
  font-weight:800;
  text-transform:uppercase;
- letter-spacing: calc(-.3vw + -.01rem);
+ letter-spacing:normal;
 }
  
 h1 {
@@ -412,7 +412,7 @@ img, .box1, .box2, .one, .one span, .two{
  color: var(--c2);
  font-size: 8px;
  text-decoration: none;
- text-transform: lowercase;
+ text-transform:capitalize;
 }
 
 .photos .footer span, .photos .footer span a {
