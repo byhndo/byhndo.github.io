@@ -40,7 +40,7 @@ gsap.set("h1 span", {
 	transformOrigin: "0 50% -50"
 });
 gsap.to("h1 span", {	
-	delay: 3.5,	
+	delay:4,	
 	duration:1.5,
 	opacity: 1,
 	stagger: .1,
@@ -61,7 +61,7 @@ gsap.set(".ball", {
   transformOrigin: "center bottom"
 });	
 gsap.to(".ball", {
-  delay:12, 
+  delay:12.5, 
   duration:.7,
   top: 0,  
   scaleY: 2,
@@ -82,7 +82,7 @@ gsap.set(".sub-title span", {
 	transformOrigin: "50% 0%"
 });
 gsap.to(".sub-title span", {
-	delay: 9,	
+	delay: 9.5,	
 	duration:1,
 	opacity: 1,
 	stagger: .1,
