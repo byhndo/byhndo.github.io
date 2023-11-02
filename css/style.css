@@ -359,7 +359,7 @@ img, .box1, .box2, .one, .one span, .two{
 
 .one, .one span{
  display: inline-block;
- transform-origin: top left;
+ transform-origin: top center;
  text-align:center;
 }
 
@@ -367,6 +367,7 @@ img, .box1, .box2, .one, .one span, .two{
  margin-top:0;
  margin-bottom:0;
  opacity:0;
+ text-align:center;
 }
 
 .two{
