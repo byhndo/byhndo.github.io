@@ -8,7 +8,7 @@
     --c3: #babfc4;   
     --b1: #cf3c4b;
     --b2: #FED049;
-    --sizebody: 12.5px;
+    --sizebody: 12px;
     --sizetitle: calc(27vw + 1rem);
     --sizetitle2: 8vw;
     --sizenav: 9.5px;
@@ -359,15 +359,15 @@ img, .box1, .box2, .one, .one span, .two{
 }
 
 .one, .one span{
-  display: inline-block;
-  transform-origin: top left;
+ display: inline-block;
+ transform-origin: top left;
+ text-align:center;
 }
 
 .one{
  margin-top:0;
  margin-bottom:0;
  opacity:0;
- text-align:center;
 }
 
 .two{
