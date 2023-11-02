@@ -84,8 +84,8 @@ h1 span{
 }
 
 .sub-title{
-    margin-top: -14px;
-    margin-bottom: var(--marginp);
+    margin-top:-14px;
+    margin-bottom:20px;
     letter-spacing: calc(0.3vw + 0.5rem);
 }
    
@@ -257,12 +257,10 @@ main {
 }
 
 .sub1 {
- padding-top:20px;
  color: var(--c2);
 }
 
 .sub2 {
- padding-top:20px;
  color: var(--c1);
 }
 
