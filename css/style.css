@@ -18,6 +18,16 @@
     --fwnav: 300;
     --fwtitle: 800;
 }
+.loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999999;
+  background: black;
+}
+
 .svg-filters {
   position: absolute;
   visibility: hidden;
