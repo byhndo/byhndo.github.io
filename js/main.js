@@ -1,11 +1,3 @@
-window.addEventListener("load", () => {
-gsap.to(".loader", {
-    delay: 2,
-    opacity: 0,
-    duration: 1,
-    ease: Power3.easeOut
-  });
-	
 gsap.registerPlugin(ScrollTrigger, CustomEase, EasePack);
 const {
     createApp,
@@ -258,4 +250,4 @@ function initBt2() {
 
 
 
-});
+
