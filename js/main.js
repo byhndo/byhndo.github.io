@@ -3,7 +3,10 @@ const {
     createApp,
     ref,
     onMounted
-} = Vue
+} = Vue;
+
+window.addEventListener("load", () => {
+	
 createApp({
     methods: {
         afterEnter(el) {
@@ -247,3 +250,6 @@ function initBt2() {
   });
 }
 
+
+
+});
