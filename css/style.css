@@ -361,7 +361,6 @@ img, .box1, .box2, .one, .one span, .two{
 
 .one, .one span{
  display: inline-block;
- transform-origin: top center;
 }
 
 .one{
