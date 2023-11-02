@@ -1,3 +1,5 @@
+window.addEventListener("load", () => {
+	
 gsap.registerPlugin(ScrollTrigger, CustomEase, EasePack);
 const {
     createApp,
@@ -5,7 +7,6 @@ const {
     onMounted
 } = Vue
 
-window.addEventListener("load", () => {
 gsap.to(".loader", {
     delay: 2,
     opacity: 0,
