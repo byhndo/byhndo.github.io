@@ -416,12 +416,12 @@ img, .box1, .box2, .one, .one span, .two{
 }
 
 .footer span a{
- font-weight: var(--fwtitle);     
+ font-weight: var(--fwnav);     
 }
 
 .footer span.fc {
  font-size: 8px;
- font-weight: var(--fwtitle);
+ font-weight: var(--fwnav);
 }
 @media(min-width: 500px){
     main{
