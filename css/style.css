@@ -257,11 +257,13 @@ main {
 }
 
 .sub1 {
-  color: var(--c2);
+ margin-top:20px;
+ color: var(--c2);
 }
 
 .sub2 {
-  color: var(--c1);
+ margin-top:20px;
+ color: var(--c1);
 }
 
 span.prolog {
