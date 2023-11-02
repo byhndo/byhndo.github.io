@@ -3,7 +3,7 @@ const {
     createApp,
     ref,
     onMounted
-} = Vue;
+} = Vue
 
 window.addEventListener("load", () => {
 gsap.to(".loader", {
