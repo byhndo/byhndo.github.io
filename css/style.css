@@ -13,7 +13,7 @@
  --sizetitle: calc(15vw + 1rem);
  --sizenav: 9.5px;
  --font1:'Didact Gothic', sans-serif;
- --font2:'Figtree', sans-serif;
+ --font2:'Didact Gothic', sans-serif;
  --marginp: 14px;
  --spacingnav: 2px;
  --fwnav: 300;
@@ -86,7 +86,7 @@ h1 span{
 }
 
 .sub-title{
-    margin-top:-14px;
+    margin-top:0;
     margin-bottom:20px;
     letter-spacing: calc(0.3vw + 0.5rem);
 }
