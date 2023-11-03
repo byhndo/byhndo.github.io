@@ -8,14 +8,14 @@
  --b1: #cf3c4b;
  --b2: #FED049;
  --sizebody: 12px;
- --sizetitle: calc(14vw + 1rem);
- --sizenav: 9px;
+ --sizetitle: calc(15vw + 1rem);
+ --sizenav: 8.5px;
  --font1:'Poppins', sans-serif;
- --font2:'Poppins', sans-serif;
+ --font2:'Figtree', sans-serif;
  --marginp: 14px;
- --spacingnav:calc(1vw + -.01rem); 
+ --spacingnav:calc(-.1vw + -.01rem); 
  --fwnav:400;
- --fwtitle:700;
+ --fwtitle:300;
 }
 
 .svg-filters {
@@ -266,9 +266,10 @@ main {
 }
 
 span.prolog {
-  font-size: 100%;
-  font-weight: 700;
-  text-transform:uppercase;
+ font-size: 100%;
+ font-weight: 700;
+ text-transform:uppercase;
+ font-family:var(--font1);
 }
 
 p.sub1, p.sub2 {
