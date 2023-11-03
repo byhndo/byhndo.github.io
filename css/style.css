@@ -71,7 +71,7 @@ h1 {
   left: -.45%;
   line-height: .75;
   text-align:center;
-  letter-spacing:calc(-.3vw + -.05rem);
+  letter-spacing:calc(-.7vw + -.05rem);
 }
 
 h1 span{
@@ -110,8 +110,8 @@ h1 span{
 .ball {
   position: relative;
   display: inline-flex;
-  width: calc(1vw + .3rem);
-  height: calc(1vw + .3rem);
+  width: calc(2vw + .3rem);
+  height: calc(2vw + .3rem);
   background-color: var(--b1); 
   margin-left: calc(-.08vw + -.1rem);
   top: -20%;
