@@ -13,7 +13,7 @@
  --font1:'Didact Gothic', sans-serif;
  --font2:'Figtree', sans-serif;
  --marginp: 14px;
- --spacingnav:calc(-.01vw + -.01rem); 
+ --spacingnav:calc(.05vw + -.01rem); 
  --fwnav:400;
  --fwtitle:400;
 }
@@ -37,8 +37,8 @@ h1, h2, h3, h4, h5, h6, h7 {
  font-family: var(--font1);
  font-weight: var(--fwtitle);
  z-index: 2000;
- letter-spacing: calc(-.1vw + -.01rem);
- left: -.8%;
+ letter-spacing: calc(-1vw + -.01rem);
+ left: -.7%;
 }
 
 h2 {
