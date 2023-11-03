@@ -68,7 +68,7 @@ h1 {
   font-size: var(--sizetitle);
   padding: 0;
   transition: color 2.5s; 
-  left: -.45%;
+  left: -.7%;
   line-height: .75;
   text-align:center;
   letter-spacing:calc(-.9vw + -.05rem);
@@ -110,8 +110,8 @@ h1 span{
 .ball {
   position: relative;
   display: inline-flex;
-  width: calc(2vw + .3rem);
-  height: calc(2vw + .3rem);
+  width: calc(2.5vw + .3rem);
+  height: calc(2.5vw + .3rem);
   background-color: var(--b1); 
   margin-left: calc(-.08vw + -.1rem);
   top: -20%;
