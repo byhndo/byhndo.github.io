@@ -10,12 +10,12 @@
  --b1: #cf3c4b;
  --b2: #FED049;
  --sizebody: 12px;
- --sizetitle: calc(15vw + 1rem);
+ --sizetitle: calc(17vw + 1rem);
  --sizenav: 9.5px;
  --font1:'Didact Gothic', sans-serif;
  --font2:'Figtree', sans-serif;
  --marginp: 14px;
- --spacingnav: 5px;
+ --spacingnav:calc(-.01vw + -.01rem); ;
  --fwnav: 300;
  --fwtitle: 400;
 }
@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6, h7 {
  font-family: var(--font1);
  font-weight: var(--fwtitle);
  z-index: 2000;
- letter-spacing: calc(-.005vw + -.01rem);
+ letter-spacing: calc(-.007vw + -.01rem);
 }
 
 h2 {
@@ -71,7 +71,7 @@ h1 {
   left: -.45%;
   line-height: .75;
   text-align:center;
-  letter-spacing:calc(-.7vw + -.05rem);
+  letter-spacing:calc(-.9vw + -.05rem);
 }
 
 h1 span{
