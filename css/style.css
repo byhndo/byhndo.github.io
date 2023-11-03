@@ -3,7 +3,7 @@
 
 :root {  
  --c1: #f1f2f5;
- --c2: #33333c;
+ --c2: #33333e;
  --c3: #acafb9;   
  --b1: #cf3c4b;
  --b2: #FED049;
@@ -37,8 +37,8 @@ h1, h2, h3, h4, h5, h6, h7 {
  font-family: var(--font1);
  font-weight: var(--fwtitle);
  z-index: 2000;
- letter-spacing: calc(-1vw + -.01rem);
- left: -.7%;
+ letter-spacing: calc(-.8vw + -.01rem);
+ left: -.5%;
 }
 
 h2 {
@@ -70,7 +70,7 @@ h1 {
  line-height: .75;
  left:-2%;
  text-align:center;
- letter-spacing:calc(-1vw + -.05rem);
+ letter-spacing:calc(-2vw + -.05rem);
 }
 
 h1 span{
@@ -225,7 +225,7 @@ nav a {
     text-transform: uppercase;
     font-size: var(--sizenav);
     font-weight: var(--fwnav);
-    letter-spacing: var(--spacingnav);    
+    letter-spacing: var(--spacingnav);
 }
 
 nav .link-photos {
@@ -401,7 +401,7 @@ img, .box1, .box2, .one, .one span, .two{
 
 .footer span {
  color: var(--c2);
- font-size: 8px;
+ font-size:8px;
  text-decoration: none;
  text-transform:capitalize;
 }
@@ -415,7 +415,7 @@ img, .box1, .box2, .one, .one span, .two{
 }
 
 .footer span a{
- font-weight: var(--fwnav);     
+ font-weight:var(--fwnav);     
 }
 
 .footer span.fc {
