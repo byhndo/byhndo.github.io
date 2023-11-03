@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {  
@@ -10,7 +11,7 @@
  --sizebody: 12px;
  --sizetitle: calc(18vw + 1rem);
  --sizenav: 9.5px;
- --font1:'Didact Gothic', sans-serif;
+ --font1:'Poppins', sans-serif;
  --font2:'Figtree', sans-serif;
  --marginp: 14px;
  --spacingnav:calc(1vw + -.01rem); 
@@ -401,7 +402,7 @@ img, .box1, .box2, .one, .one span, .two{
 
 .footer span {
  color: var(--c2);
- font-size:8px;
+ font-size:9px;
  text-decoration: none;
  text-transform:capitalize;
 }
@@ -419,7 +420,7 @@ img, .box1, .box2, .one, .one span, .two{
 }
 
 .footer span.fc {
- font-size: 8px;
+ font-size: 9px;
  font-weight: var(--fwnav);
 }
 @media(min-width: 500px){
