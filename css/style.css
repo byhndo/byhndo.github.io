@@ -103,7 +103,7 @@ h1 span{
 }
 
 .photos .sub-title span {
-  color:black;
+  color:var(--c3);
 }
 
 .ball {
