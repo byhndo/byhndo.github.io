@@ -13,7 +13,7 @@
  --sizetitle: calc(15vw + 1rem);
  --sizenav: 9.5px;
  --font1:'Didact Gothic', sans-serif;
- --font2:'Didact Gothic', sans-serif;
+ --font2:'Figtree', sans-serif;
  --marginp: 14px;
  --spacingnav: 2px;
  --fwnav: 300;
@@ -110,8 +110,8 @@ h1 span{
 .ball {
   position: relative;
   display: inline-flex;
-  width: calc(4vw + .3rem);
-  height: calc(4vw + .3rem);
+  width: calc(1vw + .3rem);
+  height: calc(1vw + .3rem);
   background-color: var(--b1); 
   margin-left: calc(-.08vw + -.1rem);
   top: -20%;
@@ -202,7 +202,7 @@ nav {
     left: 0;
     right: 0;
     z-index: 10000;
-    font-family: var(--font1);
+    font-family: var(--font2);
     opacity: 0;
 }
 
@@ -378,7 +378,7 @@ img, .box1, .box2, .one, .one span, .two{
 .ln {
  display:block;
  width:0;
- margin-top: -14px;
+ margin-top: -10px;
  height:1px;
  background-color: var(--c2);
  opacity: 0;
