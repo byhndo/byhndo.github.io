@@ -43,22 +43,22 @@ h1, h2, h3, h4, h5, h6, h7 {
 }
 
 h2 {
- font-size:260%;
-}
-h3 {
  font-size:240%;
 }
-h4 {
+h3 {
  font-size:220%;
 }
-h5 {
+h4 {
  font-size:200%;
 }
-h6 {
+h5 {
  font-size:180%;
 }
-h7 {
+h6 {
  font-size:160%;
+}
+h7 {
+ font-size:140%;
 }
  
 h1 {
