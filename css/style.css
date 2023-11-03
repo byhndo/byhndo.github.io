@@ -3,12 +3,12 @@
 
 :root {  
  --c1: #f1f2f5;
- --c2: #33333e;
+ --c2: #33333d;
  --c3: #acafb9;   
  --b1: #cf3c4b;
  --b2: #FED049;
  --sizebody: 12px;
- --sizetitle: calc(17vw + 1rem);
+ --sizetitle: calc(18vw + 1rem);
  --sizenav: 9.5px;
  --font1:'Didact Gothic', sans-serif;
  --font2:'Figtree', sans-serif;
@@ -68,9 +68,9 @@ h1 {
  padding: 0;
  transition: color 2.5s; 
  line-height: .75;
- left:-2%;
+ left:-1.95%;
  text-align:center;
- letter-spacing:calc(-2vw + -.05rem);
+ letter-spacing:calc(-1.5vw + -.05rem);
 }
 
 h1 span{
