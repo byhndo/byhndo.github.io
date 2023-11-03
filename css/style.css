@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6, h7 {
  font-family: var(--font1);
  font-weight: var(--fwtitle);
  z-index: 2000;
- letter-spacing: calc(-.8vw + -.01rem);
+ letter-spacing: calc(-.5vw + -.01rem);
  left: -.5%;
 }
 
