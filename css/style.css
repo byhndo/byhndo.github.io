@@ -9,13 +9,13 @@
  --b2: #FED049;
  --sizebody: 12px;
  --sizetitle: calc(15vw + 1rem);
- --sizenav: 8.5px;
+ --sizenav: 9px;
  --font1:'Poppins', sans-serif;
  --font2:'Figtree', sans-serif;
  --marginp: 14px;
  --spacingnav:calc(-.1vw + -.01rem); 
  --fwnav:400;
- --fwtitle:300;
+ --fwtitle:400;
 }
 
 .svg-filters {
@@ -35,10 +35,10 @@ html{
 h1, h2, h3, h4, h5, h6, h7 {
  position: relative;
  font-family: var(--font1);
- font-weight: var(--fwtitle);
+ font-weight:200;
  z-index: 2000;
  letter-spacing: calc(-.5vw + -.01rem);
- left: -.5%;
+ left: -.45%;
 }
 
 h2 {
@@ -67,8 +67,8 @@ h1 {
  font-size: var(--sizetitle);
  padding: 0;
  transition: color 2.5s; 
- line-height: .75;
- left:-1.95%;
+ line-height:1;
+ left:-1.5%;
  text-align:center;
  letter-spacing:calc(-1.5vw + -.05rem);
 }
