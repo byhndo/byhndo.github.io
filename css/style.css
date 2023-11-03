@@ -13,7 +13,7 @@
  --font1:'Didact Gothic', sans-serif;
  --font2:'Figtree', sans-serif;
  --marginp: 14px;
- --spacingnav:calc(-.01vw + -.01rem); ;
+ --spacingnav:calc(-.01vw + -.01rem); 
  --fwnav:400;
  --fwtitle:400;
 }
