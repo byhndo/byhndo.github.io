@@ -217,44 +217,43 @@ nav li {
 }
 
 nav a {    
-    display: block;
-    color: var(--c2);
-    padding: .95rem 0 .62rem;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: var(--sizenav);
-    font-weight: var(--fwnav);
-    letter-spacing: var(--spacingnav);
-    transform: scale(0, 1.1);
+ display: block;
+ color: var(--c2);
+ padding: .95rem 0 .62rem;
+ text-decoration: none;
+ text-transform: uppercase;
+ font-size: var(--sizenav);
+ font-weight: var(--fwnav);
+ letter-spacing: var(--spacingnav);
 }
 
 nav .link-photos {
-    color: var(--c1);
+ color: var(--c1);
 }
 
 nav li a:hover, nav li a:active{
-    opacity : 1;
+ opacity:1;
 }
 
 main {
-  position: relative;
-  max-width: 89%;
-  padding:86px 0 20px 0;
-  margin: 0 auto 0 auto;
-  text-align: left;
+ position: relative;
+ max-width: 89%;
+ padding:86px 0 20px 0;
+ margin: 0 auto 0 auto;
+ text-align: left;
 }
 
 .slide-fade-enter-active {
-  transition: 0s;
+ transition: 0s;
 }
 
 .slide-fade-leave-active {
-  transition: all 0.35s cubic-bezier(1, 0.5, 0.8, 1);
+ transition: all 0.35s cubic-bezier(1, 0.5, 0.8, 1);
 }
 
 .slide-fade-enter-from, .slide-fade-leave-to {
-  transform: translateY(3rem);
-  opacity: 0;
+ transform: translateY(3rem);
+ opacity: 0;
 }
 
 .sub1 {
