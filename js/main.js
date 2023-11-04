@@ -35,6 +35,7 @@ gsap.to("nav", {
 	
 gsap.set("h1 span", {
 	perspective:500,
+	scaleY:.5,
 	y:"random(-300, 300)",
 	rotateX: "random(-360, 360)",
 	rotateY: "random(-360, 360)",  
@@ -54,7 +55,7 @@ gsap.to("h1 span", {
 	stagger: .1,
 	rotateX:0,
 	rotateY:0,
-	scaleY:1.2,
+	scaleY:1,
 	ease: "Quad.easeOut"
 }, "<+=0.9");
 
@@ -65,7 +66,7 @@ gsap.set(".ball", {
 gsap.to(".ball", {
   delay:13, 
   duration:.7,
-  top:50,  
+  top:0,  
   scaleY: 2,
   opacity: 1,
   ease: Back.easeOut.config(2.15)	
