@@ -66,7 +66,7 @@ h1 {
  font-size: var(--sizetitle);
  padding: 0;
  transition: color 2.5s; 
- line-height:-2;
+ line-height:0;
  left:-1.5%;
  text-align:center;
  letter-spacing:calc(-1.5vw + -.05rem);
