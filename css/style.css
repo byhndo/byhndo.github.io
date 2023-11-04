@@ -7,7 +7,7 @@
  --b1: #cf3c4b;
  --b2: #FED049;
  --sizebody: 12px;
- --sizetitle: calc(25vw + 1rem);
+ --sizetitle: calc(23vw + 1rem);
  --sizenav: 8px;
  --font1:'Barlow Condensed', sans-serif;
  --font2:'Figtree', sans-serif;
@@ -66,7 +66,7 @@ h1 {
  font-size: var(--sizetitle);
  padding: 0;
  transition: color 2.5s; 
- line-height:1;
+ line-height:1.5;
  left:-1.5%;
  text-align:center;
  letter-spacing:calc(-1.5vw + -.05rem);
@@ -213,7 +213,7 @@ nav ul {
 }
 
 nav li {
-    flex:.9 0 6.5rem ;
+    flex:1 0 6.5rem ;
 }
 
 nav a {    
