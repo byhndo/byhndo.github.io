@@ -17,7 +17,7 @@ createApp({
     },
 mounted: function() {   
 gsap.set("nav", {	      
-	scaleY: 2, 	
+	scaleY: 1.7, 	
 	transformOrigin: "top center"
 });
 gsap.to("nav", {
@@ -30,7 +30,7 @@ gsap.to("nav", {
 gsap.to("nav", {
 	duration:2,	
 	ease: "Elastic.easeOut",	
-	scaleY:1.1
+	scaleY:1.15
 }, "<+=0.2");
 	
 gsap.set("h1 span", {
