@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@font-face{font-family:"neopixel";src:url(../fonts/NEOPIXEL-Regular.woff) format('woff');font-weight:400;font-style:normal}
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 :root {  
  --c1: #f1f2f5;
  --c2: #33333d;
@@ -9,7 +9,7 @@
  --sizebody: 12px;
  --sizetitle: calc(15vw + 1rem);
  --sizenav: 9px;
- --font1:'neopixel', sans-serif;
+ --font1:'Barlow Condensed', sans-serif;
  --font2:'Figtree', sans-serif;
  --marginp: 14px;
  --spacingnav:calc(-.05vw + -.01rem); 
