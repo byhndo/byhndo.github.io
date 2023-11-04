@@ -108,20 +108,21 @@ h1 span{
 }
 
 .ball {
-  display: inline-flex;
-  width: calc(3.7vw + .3rem);
-  height: calc(3.7vw + .3rem);
-  background-color: var(--b1); 
-  margin-left: calc(-.09vw + -.1rem);
-  top: -20%;
-  transition: background-color 2.5s;
-  border-radius: 50%;
-  opacity: 0;
+ position:relative;
+ display: inline-flex;
+ width: calc(3.7vw + .3rem);
+ height: calc(3.7vw + .3rem);
+ background-color: var(--b1); 
+ margin-left: calc(-.09vw + -.1rem);
+ top: -20%;
+ transition: background-color 2.5s;
+ border-radius: 50%;
+ opacity: 0;
 }
 
 .photos .ball {
-  top: -20%;
-  background-color: var(--b2);
+ top: -20%;
+ background-color: var(--b2);
 }
 
 body {
