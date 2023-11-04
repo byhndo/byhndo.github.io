@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6, h7 {
  font-weight:var(--fwtitle);
  z-index: 2000;
  letter-spacing: calc(-.05vw + -.01rem);
- left:.5%;
+ left:.8%;
 }
 
 h2 {
@@ -221,7 +221,7 @@ nav li {
 nav a {    
  display: block;
  color: var(--c2);
- padding: .8rem 0 .62rem;
+ padding: .8rem 0 .5rem;
  text-decoration: none;
  text-transform: uppercase;
  font-size: var(--sizenav);
