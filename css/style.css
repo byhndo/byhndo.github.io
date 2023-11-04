@@ -10,11 +10,11 @@
  --b2: #FED049;
  --sizebody: 12px;
  --sizetitle: calc(27vw + 1rem);
- --sizenav: 8px;
+ --sizenav: 9px;
  --font1:'Thunder', sans-serif;
  --font2:'Figtree', sans-serif;
  --marginp: 14px;
- --spacingnav:calc(-.05vw + -.01rem); 
+ --spacingnav:calc(-.01vw + -.01rem); 
  --fwnav:300;
  --fwtitle:800;
 }
@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6, h7 {
  font-weight:var(--fwtitle);
  z-index: 2000;
  letter-spacing: calc(-.05vw + -.01rem);
- left: -.5%;
+ left: -.1%;
 }
 
 h2 {
@@ -86,7 +86,7 @@ h1 span{
 }
 
 .sub-title{
- margin-top:0;
+ margin-top:-20px;
  margin-bottom:20px;
  letter-spacing: calc(0.3vw + 0.5rem);
 }
@@ -110,8 +110,8 @@ h1 span{
 .ball {
   position: relative;
   display: inline-flex;
-  width: calc(2.5vw + .3rem);
-  height: calc(2.5vw + .3rem);
+  width: calc(5vw + .3rem);
+  height: calc(5vw + .3rem);
   background-color: var(--b1); 
   margin-left: calc(-.09vw + -.1rem);
   top: -20%;
@@ -215,7 +215,7 @@ nav ul {
 }
 
 nav li {
-    flex:.6 0 .25rem;
+    flex:1 0 .25rem;
 }
 
 nav a {    
