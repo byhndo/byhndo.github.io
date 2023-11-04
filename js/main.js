@@ -30,7 +30,7 @@ gsap.to("nav", {
 gsap.to("nav", {
 	duration:2,	
 	ease: "Elastic.easeOut",	
-	scaleY:1.2
+	scaleY:1
 }, "<+=0.2");
 	
 gsap.set("h1 span", {
