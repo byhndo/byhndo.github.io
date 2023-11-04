@@ -7,14 +7,14 @@
  --b1: #cf3c4b;
  --b2: #FED049;
  --sizebody: 12px;
- --sizetitle: calc(23vw + 1rem);
+ --sizetitle: calc(20vw + 1rem);
  --sizenav: 8px;
  --font1:'Barlow Condensed', sans-serif;
  --font2:'Figtree', sans-serif;
  --marginp: 14px;
  --spacingnav:calc(-.05vw + -.01rem); 
  --fwnav:300;
- --fwtitle:700;
+ --fwtitle:800;
 }
 
 .svg-filters {
@@ -213,7 +213,7 @@ nav ul {
 }
 
 nav li {
-    flex:.5rem 0;
+    flex:.5 0 .25rem;
 }
 
 nav a {    
