@@ -10,7 +10,7 @@
  --b2: #FED049;
  --sizebody: 12px;
  --sizetitle: calc(26vw + 1rem);
- --sizenav: 9px;
+ --sizenav:9.5px;
  --font1:'Thunder', sans-serif;
  --font2:'Figtree', sans-serif;
  --marginp: 14px;
@@ -68,7 +68,7 @@ h1 {
  font-size: var(--sizetitle);
  padding: 0;
  transition: color 2.5s; 
- line-height:.7;
+ line-height:.8;
  left:-.4%;
  text-align:center;
  letter-spacing:calc(-.3vw + -.05rem);
@@ -86,7 +86,7 @@ h1 span{
 }
 
 .sub-title{
- margin-top:-20px;
+ margin-top:0;
  margin-bottom:20px;
  letter-spacing: calc(0.3vw + 0.5rem);
 }
