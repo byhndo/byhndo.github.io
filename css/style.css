@@ -214,13 +214,13 @@ nav ul {
 }
 
 nav li {
-    flex:1 0 .3rem;
+    flex:1 0 .5rem;
 }
 
 nav a {    
  display: block;
  color: var(--c2);
- padding: .8rem 0 .5rem;
+ padding:.8rem 0 .5rem;
  text-decoration: none;
  text-transform: uppercase;
  font-size: var(--sizenav);
