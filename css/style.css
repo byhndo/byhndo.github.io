@@ -9,7 +9,7 @@
  --b1: #cf3c4b;
  --b2: #FED049;
  --sizebody: 12px;
- --sizetitle: calc(20vw + 1rem);
+ --sizetitle: calc(27vw + 1rem);
  --sizenav: 8px;
  --font1:'Thunder', sans-serif;
  --font2:'Figtree', sans-serif;
@@ -38,8 +38,8 @@ h1, h2, h3, h4, h5, h6, h7 {
  font-family:var(--font1);
  font-weight:var(--fwtitle);
  z-index: 2000;
- letter-spacing: calc(-.3vw + -.01rem);
- left: -.4%;
+ letter-spacing: calc(-.1vw + -.01rem);
+ left: -.5%;
 }
 
 h2 {
@@ -69,9 +69,9 @@ h1 {
  padding: 0;
  transition: color 2.5s; 
  line-height:1;
- left:-1.5%;
+ left:-.5%;
  text-align:center;
- letter-spacing:calc(-1.5vw + -.05rem);
+ letter-spacing:calc(-.5vw + -.05rem);
 }
 
 h1 span{
@@ -221,7 +221,7 @@ nav li {
 nav a {    
  display: block;
  color: var(--c2);
- padding: .62rem 0 .62rem;
+ padding: .7rem 0 .62rem;
  text-decoration: none;
  text-transform: uppercase;
  font-size: var(--sizenav);
