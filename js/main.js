@@ -22,10 +22,14 @@ gsap.set("nav", {
 });
 gsap.to("nav", {
 	delay:14.5,
-	duration:3,
+	duration:2,
 	opacity: 1,	
+	ease:Back.easeOut.config(2.15),
+	y: 0	
+});
+gsap.to("nav", {
+	duration:2,	
 	ease:"Elastic.easeOut",
-	y: 0,
 	scaleY:1
 });
 	
@@ -43,7 +47,7 @@ gsap.to("h1 span", {
 	opacity: 1,
 	stagger: .1,
 	y:0,
-	ease: Back.easeOut.config(2.15)
+	ease:Back.easeOut.config(2.15)
 });
 gsap.to("h1 span", {
 	delay:1.7,
