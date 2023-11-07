@@ -26,6 +26,7 @@
   height: 1px; 
 }
 .triangle {
+ position:absolute;
  margin-left: 20%;
  color:green;
 }
