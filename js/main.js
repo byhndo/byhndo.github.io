@@ -142,7 +142,7 @@ tl.to(triangle, {
  y:-500,
  x:250,
  rotate:-170,
- opacity:.05,
+ opacity:1,
  ease: "linear",
  scrollTrigger: {
    trigger: ".triangle",
