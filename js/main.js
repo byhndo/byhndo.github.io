@@ -21,7 +21,7 @@ gsap.set("nav", {
 	transformOrigin: "top center"
 });
 gsap.to("nav", {
-	delay:.5,
+	delay:14.5,
 	duration:1,
 	opacity: 1,	
 	ease: Back.easeOut.config(2.15),
