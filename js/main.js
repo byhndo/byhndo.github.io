@@ -16,13 +16,6 @@ createApp({
         }
     },
 mounted: function() {   
-gsap.to("nav", {
- delay:14.5,
- duration:2,	
- ease:"Quad.easeOut",
- opacity:1
-});
-
 gsap.fromTo("nav",{
           clipPath: "polygon(0 0, 0 0, 0 100%, 0% 100%)",
           webkitClipPath: "polygon(0 0, 0 0, 0 100%, 0% 100%)"
