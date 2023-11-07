@@ -25,6 +25,9 @@
   width: 1px;
   height: 1px; 
 }
+.triangle-one {
+	margin-left: 20%;
+}
 html{
   background: var(--c1);
 }
