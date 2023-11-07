@@ -27,7 +27,6 @@
 }
 .triangle {
  position:absolute;
- opacity:0;
 }
 html{
   background: var(--c1);
