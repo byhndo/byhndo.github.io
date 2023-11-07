@@ -23,6 +23,7 @@ gsap.fromTo("nav",{
         {
           clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
           webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
+	  delay:4.5,
 	  opacity:1,
 	  duration: 2,
           ease:Quad.easeOut
