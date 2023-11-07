@@ -22,6 +22,18 @@ gsap.to("nav", {
  ease:"Quad.easeOut",
  opacity:1
 });
+
+gsap.fromTo("nav",{
+          clipPath: "polygon(0 0, 0 0, 0 100%, 0% 100%)",
+          webkitClipPath: "polygon(0 0, 0 0, 0 100%, 0% 100%)"
+        },
+        {
+          clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
+          webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
+	  duration: 2,
+          ease: easeInOut
+        }
+      );
 	
 gsap.set("h1 span", {
 	perspective:500,
