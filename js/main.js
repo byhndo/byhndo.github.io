@@ -147,7 +147,7 @@ tl.to(triangle, {
  scrollTrigger: {
    trigger: ".box1",
    markers: false,
-   start: "top 30%",
+   start: "top 10%",
    end:"bottom top",
    scrub:10
  }
