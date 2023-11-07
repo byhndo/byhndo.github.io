@@ -136,24 +136,6 @@ tl.to(one, {
  ease: "Quad.easeOut"	
 });	
 
-tl.to(triangle, {	
- duration:2,		
- scale:.5,
- y:-500,
- x:250,
- rotate:-170,
- opacity:.3,
- ease: "linear",
- scrollTrigger: {
-  trigger: ".box1",
-  markers: false,
-  start: "top 30%",
-  end: "bottom top",
-  scrub: 2
-  }
-});
-		
-
 });
 	  
         const RevealBoxs2 = container.querySelectorAll(".box2");
