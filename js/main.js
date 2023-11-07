@@ -22,7 +22,7 @@ gsap.set("nav", {
 });
 gsap.to("nav", {
 	delay:14.5,
-	duration:1,
+	duration:2,
 	opacity: 1,	
 	ease: Back.easeOut.config(2.15),
 	y: 0
