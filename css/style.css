@@ -197,34 +197,6 @@ a:hover, a:active{
     transform: scale(1) translateX(0) translateY(0);
 }
 
-@keyframes clip {
-	0%,
-	2% {
-		opacity: 1;
-		clip-path: polygon(50% 50%, 50% 50%, 50% 50%, 50% 50%);
-	}
-	15% {
-		clip-path: polygon(45% 45%, 55% 45%, 55% 55%, 45% 55%);
-	}
-	20% {
-		clip-path: polygon(45% 50%, 55% 50%, 55% 50%, 45% 50%);
-	}
-	25%,
-	55% {
-		clip-path: polygon(45% 48%, 55% 48%, 55% 52%, 45% 52%);
-	}
-	55% {
-		clip-path: polygon(45% 48%, 55% 48%, 55% 52%, 45% 52%);
-	}
-	80% {
-		clip-path: polygon(0% 48%, 100% 48%, 100% 52%, 0% 52%);
-	}
-	100% {
-		clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
-	}
-}
-
-
 nav {
  position: fixed;
  top: 0;
@@ -233,9 +205,7 @@ nav {
  z-index: 10000;
  font-family: var(--font1);
  opacity: 0;
- clip-path: polygon(50% 50%, 50% 50%, 50% 50%, 50% 50%);
-	animation: clip 2s ease forwards 0.75s;
-}
+ }
 
 nav ul {
     list-style: none;
