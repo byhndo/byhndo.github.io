@@ -25,7 +25,7 @@ gsap.fromTo("nav",{
           webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
 	  delay:4.5,
 	  opacity:1,
-	  duration: 2,
+	  duration:3,
           ease:Quad.easeOut
         }
       );
