@@ -137,6 +137,7 @@ tl.to(one, {
 });	
 
 tl.to(triangle, {	
+	delay:.5,
 	duration:2,
 	y:-300,
 	x:250,
