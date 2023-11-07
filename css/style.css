@@ -28,7 +28,7 @@
 .triangle {
  position:absolute;
  margin-left: 20%;
- color:green;
+ opacity:0.3;
 }
 html{
   background: var(--c1);
