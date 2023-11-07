@@ -18,7 +18,7 @@ createApp({
 mounted: function() {   
 gsap.set("nav", {	      
 	scaleY:1.7, 	
-	transformOrigin: "top center"
+	transformOrigin: "center center"
 });
 gsap.to("nav", {
 	delay:14.5,
@@ -28,7 +28,7 @@ gsap.to("nav", {
 	y: 0
 });
 gsap.to("nav", {
-	duration:2,	
+	duration:3,	
 	ease: "Elastic.easeOut",	
 	scaleY:1
 }, "<+=0.2");
