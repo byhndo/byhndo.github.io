@@ -17,21 +17,17 @@ createApp({
     },
 mounted: function() {   
 gsap.set("nav", {	      
-	scaleY:1.7, 	
-	transformOrigin: "top center"
+	scaleY:0, 	
+	transformOrigin:"top center"
 });
 gsap.to("nav", {
 	delay:14.5,
-	duration:2,
+	duration:3,
 	opacity: 1,	
-	ease: Back.easeOut.config(2.15),
-	y: 0
-});
-gsap.to("nav", {
-	duration:3,	
-	ease: "Elastic.easeOut",	
+	ease:"Elastic.easeOut",
+	y: 0,
 	scaleY:1
-}, "<+=0.2");
+});
 	
 gsap.set("h1 span", {
 	perspective:500,
