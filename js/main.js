@@ -136,14 +136,18 @@ tl.to(one, {
  ease: "Quad.easeOut"	
 });	
 
+tl.to(triangle, {
+	delay:.5,
+	duration:2,
+	opacity:.3
+});
 tl.to(triangle, {	
 	delay:.5,
 	duration:2,
 	y:-500,
 	x:250,
-	rotate: "-160",
-	scale: ".5",
-	opacity: "0.15",
+	rotate:-160,
+	scale:.5,
 	ease: "linear",
 	scrollTrigger: {
 		markers: false,
