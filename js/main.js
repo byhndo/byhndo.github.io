@@ -17,6 +17,7 @@ createApp({
     },
 mounted: function() {   
 gsap.to("nav", {
+ delay:14.5,
  duration:2,	
  ease:"Quad.easeOut",
  opacity:1
