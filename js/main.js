@@ -242,4 +242,24 @@ function initBt2() {
 
 
 
+gsap.to(".triangle-one", {
+	duration: "2",
+	yPercent: "-300",
+	xPercent: "250",
+	rotate: "-160",
+	scale: ".5",
+	opacity: "0.15",
+	ease: "linear",
+	scrollTrigger: {
+		trigger: ".title-background",
+		markers: false,
+		start: "top 30%",
+		end: "bottom top",
+		scrub: 2
+	}
+});
+
+
+
+
 
