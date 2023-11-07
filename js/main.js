@@ -139,7 +139,7 @@ tl.to(one, {
 tl.to(triangle, {	
 	delay:.5,
 	duration:2,
-	y:-300,
+	y:-500,
 	x:250,
 	rotate: "-160",
 	scale: ".5",
