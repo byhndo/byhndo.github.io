@@ -142,7 +142,6 @@ tl.to(triangle, {
 	opacity:.3
 });
 tl.to(triangle, {	
-	delay:.5,
 	duration:2,
 	y:-500,
 	x:250,
