@@ -136,11 +136,10 @@ tl.to(one, {
  ease: "Quad.easeOut"	
 });	
 
-tl.to(triangle, {
-	delay:.5,
-	duration: "2",
-	yPercent: "-300",
-	xPercent: "250",
+tl.to(triangle, {	
+	duration:2,
+	y:-300,
+	x:250,
 	rotate: "-160",
 	scale: ".5",
 	opacity: "0.15",
