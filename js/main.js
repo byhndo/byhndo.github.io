@@ -107,6 +107,7 @@ function setupReveal(container) {
         RevealBoxs1.forEach((box1) => {
                 
        const one = box1.querySelectorAll(".one, .one span");
+       const triangle = box1.querySelectorAll(".triangle");
        let tl = gsap.timeline({
           scrollTrigger: {
             trigger: box1,
@@ -133,7 +134,25 @@ tl.to(one, {
  rotateX:0,
  rotateY:0,
  ease: "Quad.easeOut"	
-});			
+});	
+
+tl.to(triangle, {
+	duration: "2",
+	yPercent: "-300",
+	xPercent: "250",
+	rotate: "-160",
+	scale: ".5",
+	opacity: "0.15",
+	ease: "linear",
+	scrollTrigger: {
+		trigger: ".title-background",
+		markers: false,
+		start: "top 30%",
+		end: "bottom top",
+		scrub: 2
+	}
+});
+		
 
 });
 	  
@@ -242,22 +261,6 @@ function initBt2() {
 
 
 
-gsap.to(".triangle-one", {
-	duration: "2",
-	yPercent: "-300",
-	xPercent: "250",
-	rotate: "-160",
-	scale: ".5",
-	opacity: "0.15",
-	ease: "linear",
-	scrollTrigger: {
-		trigger: ".title-background",
-		markers: false,
-		start: "top 30%",
-		end: "bottom top",
-		scrub: 2
-	}
-});
 
 
 
