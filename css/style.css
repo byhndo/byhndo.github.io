@@ -26,7 +26,8 @@
   height: 1px; 
 }
 .triangle-one {
-	margin-left: 20%;
+ margin-left: 20%;
+ color:green;
 }
 html{
   background: var(--c1);
