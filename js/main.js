@@ -17,7 +17,6 @@ createApp({
     },
 mounted: function() {   
 gsap.to("nav", {
- autoAlpha:1,
  delay:14.5,
  duration:2,	
  ease:"Quad.easeOut",
@@ -145,6 +144,7 @@ tl.set(triangle, {
 tl.to(triangle, {	
 	duration:2,		
 	scale:.5,
+	opacity:.3,
 	ease: "linear",
 	scrollTrigger: {
 		markers: false,
