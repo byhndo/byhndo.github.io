@@ -139,7 +139,6 @@ body {
  word-wrap: break-word;
  text-rendering: optimizeLegibility !important;
  -webkit-font-smoothing: antialiased !important;
- overflow-x: hidden;
 }
 
 a {
