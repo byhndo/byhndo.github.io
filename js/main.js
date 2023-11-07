@@ -146,7 +146,7 @@ tl.to(triangle, {
 	opacity: "0.15",
 	ease: "linear",
 	scrollTrigger: {
-		trigger: ".box1",
+		trigger: ".triangle",
 		markers: false,
 		start: "top 30%",
 		end: "bottom top",
