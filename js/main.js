@@ -141,7 +141,7 @@ tl.to(triangle, {
  scale:.5,
  y:-500,
  x:250,
- rotate:-160
+ rotate:-170,
  opacity:.3,
  ease: "linear",
  scrollTrigger: {
