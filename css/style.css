@@ -25,9 +25,8 @@
   width: 1px;
   height: 1px; 
 }
-svg.triangle {
+.triangle {
  position:absolute;
- opacity:0;
 }
 html{
   background: var(--c1);
