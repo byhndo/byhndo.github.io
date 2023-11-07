@@ -25,10 +25,7 @@
   width: 1px;
   height: 1px; 
 }
-.triangle {
- position:absolute;
- opacity:.5;
-}
+
 html{
   background: var(--c1);
 }
