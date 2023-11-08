@@ -40,17 +40,18 @@ gsap.to(".loader", {
 
 
 function headerAnimation() {
-gsap.set("nav", {
+const tl = gsap.timeline({paused:true});
+tl.set("nav", {
  autoAlpha:0
 });
-gsap.to("nav", {
+tl.to("nav", {
  delay:3,
  duration:3,
  autoAlpha:1,
  ease:Quad.easeOut
 });
 
-gsap.set("h1 span", {
+tl.set("h1 span", {
 	perspective:500,
 	scaleY:.5,
 	y:"random(-300, 300)",
@@ -58,7 +59,7 @@ gsap.set("h1 span", {
 	rotateY: "random(-360, 360)",  
 	transformOrigin: "10% 50% -50"
 });
-gsap.to("h1 span", {	
+tl.to("h1 span", {	
 	delay:4.5,	
 	duration:1.5,
 	opacity: 1,
@@ -66,7 +67,7 @@ gsap.to("h1 span", {
 	y:0,
 	ease:Back.easeOut.config(2.15)
 });
-gsap.to("h1 span", {
+tl.to("h1 span", {
 	delay:1.7,
 	duration:1.5,	
 	stagger: .1,
@@ -76,11 +77,11 @@ gsap.to("h1 span", {
 	ease: "Quad.easeOut"
 }, "<+=0.9");
 
-gsap.set(".ball", {
+tl.set(".ball", {
   scaleY: 1,  
   transformOrigin: "center bottom"
 });	
-gsap.to(".ball", {
+tl.to(".ball", {
  delay:13, 
  duration:.7,
  top:0,  
@@ -88,20 +89,20 @@ gsap.to(".ball", {
  opacity: 1,
  ease: Back.easeOut.config(2.15)	
 });
-gsap.to(".ball", {
+tl.to(".ball", {
   scaleY: 1,
   duration: 2, 
   ease: "Elastic.easeOut"
 }, "<+=0.2");
 
-gsap.set(".sub-title span", {	     
+tl.set(".sub-title span", {	     
 	scaleY: 2, 	
 	x: "random(-10, 10)",
 	y: "random(-200, 200)",
 	rotate: "random(-180, 180)", 
 	transformOrigin: "50% 0%"
 });
-gsap.to(".sub-title span", {
+tl.to(".sub-title span", {
 	delay: 10,	
 	duration:1,
 	opacity: 1,
@@ -109,7 +110,7 @@ gsap.to(".sub-title span", {
 	y:0,
 	ease: Back.easeOut.config(2.15)		
 });
-gsap.to(".sub-title span", {
+tl.to(".sub-title span", {
 	duration: 3,	
 	stagger: .1,
 	ease: "Elastic.easeOut",	
