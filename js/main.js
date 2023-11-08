@@ -112,7 +112,7 @@ function setupReveal(container) {
 	 
 const RevealSc = container.querySelectorAll(".sc");
    RevealSc.forEach((sc) => {                
-    const pl = sc.querySelectorAll(".pl");
+    const pl = sc.querySelectorAll("svg.soc");
     let tl = gsap.timeline({
     scrollTrigger: {
      trigger:sc,
