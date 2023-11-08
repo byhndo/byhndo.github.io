@@ -104,7 +104,7 @@ const tl = gsap.timeline({
     paused: true
   })
 gsap.to(".loader", {
-    delay: 2,
+    delay: 5,
     opacity: 0,
     duration: 1,
     ease: Power3.easeOut
