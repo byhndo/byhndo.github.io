@@ -147,8 +147,8 @@ clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
 webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",       	 
 	 opacity:1,
 	 duration: 2,
-         ease:"Elastic.easeOut"
-        },"-=3"
+         ease:"Quad.easeOut"
+        }
       );	 
 
 });
