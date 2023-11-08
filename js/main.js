@@ -110,7 +110,7 @@ function setupReveal(container) {
   const RevealBoxs1 = container.querySelectorAll(".box1");
    RevealBoxs1.forEach((box1) => {                
     const one = box1.querySelectorAll(".one, .one span");
-    const ct = box1.querySelectorAll(".ct");
+    const soc = box1.querySelectorAll(".soc");
     let tl = gsap.timeline({
     scrollTrigger: {
      trigger: box1,
@@ -119,7 +119,7 @@ function setupReveal(container) {
      }); 
 
 
-tl.fromTo(ct,{
+tl.fromTo(soc,{
 clipPath: "polygon(0 0, 100% 0, 100%  0, 0 0)",
 webkitClipPath:"polygon(0 0, 100% 0, 100%  0, 0 0)"
         },
