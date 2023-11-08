@@ -115,7 +115,7 @@ tl.to(".sub-title span", {
 	rotate:0
 }, "<+=0.2");
 
-});/windowload
+});//windowload
                          
     
 
