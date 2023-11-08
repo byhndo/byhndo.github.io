@@ -25,7 +25,7 @@ data() {
 
 window.addEventListener("load", () => {
 const tl = gsap.timeline();
-  tl.to(".loader", {
+  gsap.to(".loader", {
     delay: 2,
     opacity: 0,
     duration: 1,
