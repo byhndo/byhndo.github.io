@@ -20,7 +20,26 @@ data() {
             bg: 'bio'
         }
     }
-}).mount('#app')   
+}).mount('#app')  
+
+const loadTl = gsap.timeline();
+window.addEventListener('DOMContentLoaded', () => {
+ loadTl.add(headerAnimation());
+ loadTl.add(setupReveal(container)); 
+});
+
+loadTl.play();
+
+gsap.to(".loader", {
+ delay:10,
+ opacity: 0,
+ duration: 1,
+ ease: Power3.easeOut
+  });
+
+
+
+function headerAnimation() {
 gsap.set("nav", {
  autoAlpha:0
 });
@@ -100,21 +119,7 @@ gsap.to(".sub-title span", {
 	rotate:0
 }, "<+=0.2");
 
-const loadTl = gsap.timeline();
-window.addEventListener('DOMContentLoaded', () => {
-  loadTl.add(setupReveal(container)); 
-});
-
-loadTl.play();
-
-
-gsap.to(".loader", {
- delay:10,
- opacity: 0,
- duration: 1,
- ease: Power3.easeOut
-  });
-
+}
 
 
 function setupReveal(container) {	
