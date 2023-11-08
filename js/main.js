@@ -123,7 +123,7 @@ tl.to(pl, {
  clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100% )",
  webkitClipPath:"polygon(0 0, 100% 0, 100% 100%, 0 100% )",
  opacity:1,
- duration: 3,
+ duration:5,
  ease:Elastic.easeOut
         }); 
 	   
