@@ -41,7 +41,7 @@ gsap.to(".loader", {
 
 
 function headerAnimation() {
-const tl = gsap.timeline({paused:true});
+const tl = gsap.timeline({});
 tl.set("nav", {
  autoAlpha:0
 });
