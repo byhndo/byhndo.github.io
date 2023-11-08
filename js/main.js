@@ -112,7 +112,7 @@ function setupReveal(container) {
 	 
 const RevealSc = container.querySelectorAll(".sc");
    RevealSc.forEach((sc) => {                
-    const sc = sc.querySelectorAll(".soc");
+    const soc = sc.querySelectorAll(".soc");
     let tl = gsap.timeline({
     scrollTrigger: {
      trigger:sc,
