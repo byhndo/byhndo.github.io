@@ -24,7 +24,7 @@ data() {
 
 gsap.to("nav", {
 	delay:3,
-	duration:3,
+	duration:2,
 	opacity:1,
 	ease:Quad.easeOut
 });
