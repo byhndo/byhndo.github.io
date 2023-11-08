@@ -40,7 +40,7 @@ gsap.to(".loader", {
 
 
 function headerAnimation() {
-const tl = gsap.timeline({paused:true});
+const tl = gsap.timeline();
 tl.set("nav", {
  autoAlpha:0
 });
@@ -120,7 +120,7 @@ tl.to(".sub-title span", {
 	rotate:0
 }, "<+=0.2");
 
-return tl;
+
 	
 }
 
