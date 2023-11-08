@@ -22,9 +22,6 @@ data() {
     }
 }).mount('#app')   
 
-gsap.set("nav", {
- autoAlpha:0	
-});
 gsap.to("nav", {
  delay:3,
  duration:3,
