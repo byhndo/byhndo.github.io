@@ -5,9 +5,7 @@ const {
     onMounted
 } = Vue
 	
-createApp({
-
-let ctx;	
+createApp({	
     methods: {
         afterEnter(el) {
             setupReveal(el);
@@ -109,7 +107,7 @@ gsap.to(".sub-title span", {
     }
 }).mount('#app')   
 
-
+let ctx;
 function setupReveal(container) {
   container.ctx = gsap.context(() => {
 	  
