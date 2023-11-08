@@ -23,17 +23,8 @@ data() {
 }).mount('#app')   
 
 
-let tl;
-
-window.addEventListener("load", () => {
 const tl = gsap.timeline();
-  gsap.to(".loader", {
-    delay: 2,
-    opacity: 0,
-    duration: 1,
-    ease: Power3.easeOut
-  });
-	
+  	
 tl.fromTo("nav",{
 clipPath: "polygon(0 0, 100% 0, 100%  0, 0 0)",
 webkitClipPath:"polygon(0 0, 100% 0, 100%  0, 0 0)"
@@ -257,15 +248,3 @@ function initBt2() {
     TweenLite.fromTo(dm, 3, { attr: { scale: 40 } }, { attr: { scale: 0 } });
   });
 }
-
-
-	
-});//windowload
-
-
-
-
-
-
-
-
