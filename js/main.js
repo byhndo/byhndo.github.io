@@ -109,6 +109,16 @@ gsap.to(".sub-title span", {
 
 let ctx;
 window.addEventListener("load", () => {
+const tl = gsap.timeline();
+  gsap.to(".loader", {
+    delay: 2,
+    opacity: 0,
+    duration: 1,
+    ease: Power3.easeOut
+  });
+
+
+	
 function setupReveal(container) {
   container.ctx = gsap.context(() => {
 	  
