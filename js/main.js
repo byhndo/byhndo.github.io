@@ -99,7 +99,18 @@ gsap.to(".sub-title span", {
 	y:0,
 	rotate:0
 }, "<+=0.2");
-                        	
+
+const tl = gsap.timeline({
+    paused: true
+  })
+gsap.to(".loader", {
+    delay: 2,
+    opacity: 0,
+    duration: 1,
+    ease: Power3.easeOut
+  });
+
+
 function setupReveal(container) {	
  container.ctx = gsap.context(() => {	  
   	 
