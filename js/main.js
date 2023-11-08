@@ -15,8 +15,24 @@ createApp({
             el.ctx && el.ctx.revert();
         }
     },
-mounted: function() {   
-gsap.fromTo("nav",{
+data() {
+        return {
+            bg: 'bio'
+        }
+    }
+}).mount('#app')   
+
+
+window.addEventListener("load", () => {
+const tl = gsap.timeline();
+  gsap.to(".loader", {
+    delay: 2,
+    opacity: 0,
+    duration: 1,
+    ease: Power3.easeOut
+  });
+	
+tl.fromTo("nav",{
 clipPath: "polygon(0 0, 100% 0, 100%  0, 0 0)",
 webkitClipPath:"polygon(0 0, 100% 0, 100%  0, 0 0)"
         },
@@ -30,7 +46,7 @@ webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
         }
       );
 	
-gsap.set("h1 span", {
+tl.set("h1 span", {
 	perspective:500,
 	scaleY:.5,
 	y:"random(-300, 300)",
@@ -38,7 +54,7 @@ gsap.set("h1 span", {
 	rotateY: "random(-360, 360)",  
 	transformOrigin: "10% 50% -50"
 });
-gsap.to("h1 span", {	
+tl.to("h1 span", {	
 	delay:4.5,	
 	duration:1.5,
 	opacity: 1,
@@ -46,7 +62,7 @@ gsap.to("h1 span", {
 	y:0,
 	ease:Back.easeOut.config(2.15)
 });
-gsap.to("h1 span", {
+tl.to("h1 span", {
 	delay:1.7,
 	duration:1.5,	
 	stagger: .1,
@@ -56,11 +72,11 @@ gsap.to("h1 span", {
 	ease: "Quad.easeOut"
 }, "<+=0.9");
 
-gsap.set(".ball", {
+tl.set(".ball", {
   scaleY: 1,  
   transformOrigin: "center bottom"
 });	
-gsap.to(".ball", {
+tl.to(".ball", {
   delay:13, 
   duration:.7,
   top:0,  
@@ -68,20 +84,20 @@ gsap.to(".ball", {
   opacity: 1,
   ease: Back.easeOut.config(2.15)	
 });
-gsap.to(".ball", {
+tl.to(".ball", {
   scaleY: 1,
   duration: 2, 
   ease: "Elastic.easeOut"
 }, "<+=0.2");
 
-gsap.set(".sub-title span", {	     
+tl.set(".sub-title span", {	     
 	scaleY: 2, 	
 	x: "random(-10, 10)",
 	y: "random(-200, 200)",
 	rotate: "random(-180, 180)", 
 	transformOrigin: "50% 0%"
 });
-gsap.to(".sub-title span", {
+tl.to(".sub-title span", {
 	delay: 10,	
 	duration:1,
 	opacity: 1,
@@ -89,7 +105,7 @@ gsap.to(".sub-title span", {
 	y:0,
 	ease: Back.easeOut.config(2.15)		
 });
-gsap.to(".sub-title span", {
+tl.to(".sub-title span", {
 	duration: 3,	
 	stagger: .1,
 	ease: "Elastic.easeOut",	
@@ -99,30 +115,12 @@ gsap.to(".sub-title span", {
 	rotate:0
 }, "<+=0.2");
 
-},                          
-    data() {
-        return {
-            bg: 'bio'
-        }
-    }
-}).mount('#app')   
+});/windowload
+                         
+    
 
 	
-function setupReveal(container) {
-
-let ctx;
-window.addEventListener("load", () => {
-const tl = gsap.timeline();
-  gsap.to(".loader", {
-    delay: 2,
-    opacity: 0,
-    duration: 1,
-    ease: Power3.easeOut
-  });
-
-
-
-	
+function setupReveal(container) {	
   container.ctx = gsap.context(() => {	  
         const RevealBoxs1 = container.querySelectorAll(".box1");
         RevealBoxs1.forEach((box1) => {
@@ -225,14 +223,8 @@ tl.to(ln, {
         });
 	
     });
-}); //windowload
 }
-
-
-
 	
-	 
-
 var isSafari = /constructor/i.test(window.HTMLElement);
 var isFF = !!navigator.userAgent.match(/firefox/i);
 
