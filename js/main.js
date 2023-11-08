@@ -158,7 +158,6 @@ tl.to(one, {
  rotateY:0,
  ease: "Quad.easeOut"	
 });
-window.addEventListener("load", () => tl.play());
 
 });
 	  
@@ -260,3 +259,7 @@ function initBt2() {
     TweenLite.fromTo(dm, 3, { attr: { scale: 40 } }, { attr: { scale: 0 } });
   });
 }
+
+
+
+window.addEventListener("load", () => tl.play());
