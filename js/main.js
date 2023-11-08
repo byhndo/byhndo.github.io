@@ -169,7 +169,7 @@ tl.to(ln, {
  ease: "Quad.easeOut"
 });	
 
-gsap.fromTo(ct,{
+tl.fromTo(ct,{
 clipPath: "polygon(0 0, 100% 0, 100%  0, 0 0)",
 webkitClipPath:"polygon(0 0, 100% 0, 100%  0, 0 0)"
         },
