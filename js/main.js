@@ -145,9 +145,10 @@ webkitClipPath:"polygon(0 0, 100% 0, 100%  0, 0 0)"
         {
 clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
 webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",       	 
+	 delay:0,
 	 opacity:1,
 	 duration: 2,
-         ease:"Quad.easeOut"
+         ease:Quad.easeOut
         }
       );	 
 
