@@ -26,9 +26,10 @@ const loadTl = gsap.timeline({paused:true});
 window.addEventListener('DOMContentLoaded', () => {
  loadTl.add(headerAnimation());
  loadTl.add(setupReveal(container)); 
+ loadTl.play();
 });
 
-loadTl.play();
+
 
 gsap.to(".loader", {
  delay:10,
