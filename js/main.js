@@ -132,7 +132,7 @@ tl.to(pl, {
    RevealBoxs1.forEach((box1) => {                
     const one = box1.querySelectorAll(".one, .one span");
     let tl = gsap.timeline({
-    scrollTrigger: {
+    scrollTrigger: {paused:true,
      trigger: box1,
      toggleActions: "restart none none none"
      }, delay: .7
@@ -158,6 +158,7 @@ tl.to(one, {
  rotateY:0,
  ease: "Quad.easeOut"	
 });
+window.addEventListener("load", () => tl.play());
 
 });
 	  
