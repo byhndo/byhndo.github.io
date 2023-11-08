@@ -107,6 +107,9 @@ gsap.to(".sub-title span", {
     }
 }).mount('#app')   
 
+	
+function setupReveal(container) {
+
 let ctx;
 window.addEventListener("load", () => {
 const tl = gsap.timeline();
@@ -118,10 +121,9 @@ const tl = gsap.timeline();
   });
 
 
+
 	
-function setupReveal(container) {
-  container.ctx = gsap.context(() => {
-	  
+  container.ctx = gsap.context(() => {	  
         const RevealBoxs1 = container.querySelectorAll(".box1");
         RevealBoxs1.forEach((box1) => {
                 
@@ -223,11 +225,12 @@ tl.to(ln, {
         });
 	
     });
+}); //windowload
 }
 
 
 
-}); //windowload	
+	
 	 
 
 var isSafari = /constructor/i.test(window.HTMLElement);
