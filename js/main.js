@@ -120,6 +120,8 @@ tl.to(".sub-title span", {
 	rotate:0
 }, "<+=0.2");
 
+return tl;
+	
 }
 
 
@@ -245,7 +247,7 @@ let revealContainers = container.querySelectorAll(".item");
 	
     });
 	
-	
+	return tl;
 }
 	
 var isSafari = /constructor/i.test(window.HTMLElement);
