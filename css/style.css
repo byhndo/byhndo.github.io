@@ -360,6 +360,10 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
   position: relative;
 }
 
+.pl{
+ opacity:0;
+}
+
 .one, .one span{
  display: inline-block;
 }
