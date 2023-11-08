@@ -99,13 +99,6 @@ gsap.to(".sub-title span", {
 	rotate:0
 }, "<+=0.2");
 	
-},                          
-    data() {
-        return {
-            bg: 'bio'
-        }
-    }
-}).mount('#app')   
 
 function setupReveal(container) {
   container.ctx = gsap.context(() => {
@@ -246,6 +239,17 @@ function initBt2() {
     TweenLite.fromTo(dm, 3, { attr: { scale: 40 } }, { attr: { scale: 0 } });
   });
 }
+
+
+	
+
+},                          
+    data() {
+        return {
+            bg: 'bio'
+        }
+    }
+}).mount('#app')   
 
 
 
