@@ -22,7 +22,10 @@ data() {
     }
 }).mount('#app')   
   	
-
+gsap.to("nav",{
+opacity:1
+        }
+      );
 	
 gsap.set("h1 span", {
 	perspective:500,
