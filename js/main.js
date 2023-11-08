@@ -110,7 +110,6 @@ function setupReveal(container) {
   const RevealBoxs1 = container.querySelectorAll(".box1");
    RevealBoxs1.forEach((box1) => {                
     const one = box1.querySelectorAll(".one, .one span");
-    const soc = box1.querySelectorAll(".soc");
     let tl = gsap.timeline({
     scrollTrigger: {
      trigger: box1,
@@ -118,19 +117,6 @@ function setupReveal(container) {
      }, delay: .7
      }); 
 
-
-tl.fromTo(soc,{
-clipPath: "polygon(0 0, 100% 0, 100%  0, 0 0)",
-webkitClipPath:"polygon(0 0, 100% 0, 100%  0, 0 0)"
-        },
-        {
-clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
-webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",       	 	
-	 opacity:1,
-	 duration: 2,
-         ease:Elastic.easeOut
-        }
-      );	 
 
 });
 	   
