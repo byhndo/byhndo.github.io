@@ -107,7 +107,38 @@ gsap.to(".sub-title span", {
                         	
 function setupReveal(container) {	
  container.ctx = gsap.context(() => {	  
-  const RevealBoxs1 = container.querySelectorAll(".box1");
+  
+
+	 
+const RevealSc = container.querySelectorAll(".sc");
+   RevealSc.forEach((sc) => {                
+    const sc = sc.querySelectorAll(".soc");
+    let tl = gsap.timeline({
+    scrollTrigger: {
+     trigger:sc,
+     toggleActions: "restart none none none"
+     }, delay: .7
+     }); 
+tl.fromTo(soc,{
+clipPath: "polygon(0 0, 100% 0, 100%  0, 0 0)",
+webkitClipPath:"polygon(0 0, 100% 0, 100%  0, 0 0)"
+        },
+        {
+clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
+webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",       	 	
+	 opacity:1,
+	 duration: 2,
+         ease:Elastic.easeOut
+        }
+      );	 
+	   
+   });
+	   
+	 
+
+	 
+	 
+ const RevealBoxs1 = container.querySelectorAll(".box1");
    RevealBoxs1.forEach((box1) => {                
     const one = box1.querySelectorAll(".one, .one span");
     let tl = gsap.timeline({
