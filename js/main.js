@@ -23,8 +23,10 @@ data() {
 }).mount('#app')   
 
 gsap.to("nav", {
+	delay:3,
 	duration:3,
-	opacity:1
+	opacity:1,
+	ease:Quad.easeOut
 });
 
 gsap.set("h1 span", {
