@@ -100,19 +100,19 @@ gsap.to(".sub-title span", {
 	rotate:0
 }, "<+=0.2");
 
-const tl = gsap.timeline({paused:true});
+const loadTl = gsap.timeline({paused:true});
 window.addEventListener('DOMContentLoaded', () => {
-  tl.add(setupReveal(container)); 
+  loadTl.add(setupReveal(container)); 
 });
 
-tl.to(".loader", {
+gsap.to(".loader", {
     delay: 2,
     opacity: 0,
     duration: 1,
     ease: Power3.easeOut
   });
 
-tl.play();
+loadTl.play();
 
 function setupReveal(container) {	
  container.ctx = gsap.context(() => {	  
