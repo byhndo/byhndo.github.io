@@ -98,7 +98,15 @@ gsap.to(".sub-title span", {
 	y:0,
 	rotate:0
 }, "<+=0.2");
-	
+
+},                          
+    data() {
+        return {
+            bg: 'bio'
+        }
+    }
+}).mount('#app')   
+
 
 function setupReveal(container) {
   container.ctx = gsap.context(() => {
@@ -243,13 +251,6 @@ function initBt2() {
 
 	
 
-},                          
-    data() {
-        return {
-            bg: 'bio'
-        }
-    }
-}).mount('#app')   
 
 
 
