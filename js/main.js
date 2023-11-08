@@ -115,9 +115,8 @@ tl.to(".sub-title span", {
 	rotate:0
 }, "<+=0.2");
 
-});//windowload
                          
-    
+   
 let tl;
 	
 function setupReveal(container) {	
@@ -260,7 +259,7 @@ function initBt2() {
 
 
 	
-
+});//windowload
 
 
 
