@@ -106,9 +106,10 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 
 gsap.to(".loader", {
-    opacity: 0,
-    duration: 1,
-    ease: Power3.easeOut
+ delay:10,
+ opacity: 0,
+ duration: 1,
+ ease: Power3.easeOut
   });
 
 
