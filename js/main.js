@@ -22,7 +22,7 @@ data() {
     }
 }).mount('#app')  
 
-const loadTl = gsap.timeline({paused:true});
+let loadTl = gsap.timeline({paused:true});
 window.addEventListener('DOMContentLoaded', () => {
  loadTl.add(headerAnimation());
  loadTl.add(setupReveal(container)); 
