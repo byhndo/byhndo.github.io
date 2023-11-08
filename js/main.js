@@ -22,7 +22,7 @@ data() {
     }
 }).mount('#app')   
   	
-gsap.to("nav",{
+gsap.fromTo("nav",{
 clipPath: "polygon(0 0, 100% 0, 100%  0, 0 0)",
 webkitClipPath:"polygon(0 0, 100% 0, 100%  0, 0 0)"
         },
