@@ -21,7 +21,17 @@ data() {
         }
     }
 }).mount('#app')   
-	
+
+gsap.to("nav",{        
+clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
+webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",       
+	 delay:3,
+	 opacity:1,
+	 duration: 2,
+         ease:"Quad.easeOut"
+        }
+      );
+
 gsap.set("h1 span", {
 	perspective:500,
 	scaleY:.5,
