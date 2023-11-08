@@ -106,7 +106,6 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 
 gsap.to(".loader", {
-    delay: 2,
     opacity: 0,
     duration: 1,
     ease: Power3.easeOut
