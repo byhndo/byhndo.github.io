@@ -6,6 +6,8 @@ const {
 } = Vue
 	
 createApp({
+
+let ctx;	
     methods: {
         afterEnter(el) {
             setupReveal(el);
