@@ -116,9 +116,6 @@ function setupReveal(container) {
      toggleActions: "restart none none none"
      }, delay: .7
      }); 
-
-
-});
 	   
 tl.to(one, {
  perspective:500,
@@ -139,6 +136,8 @@ tl.to(one, {
  rotateX:0,
  rotateY:0,
  ease: "Quad.easeOut"	
+});
+
 });
 	  
 const RevealBoxs2 = container.querySelectorAll(".box2");
