@@ -108,6 +108,7 @@ gsap.to(".sub-title span", {
 }).mount('#app')   
 
 let ctx;
+window.addEventListener("load", () => {
 function setupReveal(container) {
   container.ctx = gsap.context(() => {
 	  
@@ -213,6 +214,10 @@ tl.to(ln, {
 	
     });
 }
+
+
+
+}); //windowload	
 	 
 
 var isSafari = /constructor/i.test(window.HTMLElement);
