@@ -21,11 +21,8 @@ data() {
         }
     }
 }).mount('#app')   
-
-
-const tl = gsap.timeline();
   	
-tl.fromTo("nav",{
+gsap.fromTo("nav",{
 clipPath: "polygon(0 0, 100% 0, 100%  0, 0 0)",
 webkitClipPath:"polygon(0 0, 100% 0, 100%  0, 0 0)"
         },
@@ -39,7 +36,7 @@ webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
         }
       );
 	
-tl.set("h1 span", {
+gsap.set("h1 span", {
 	perspective:500,
 	scaleY:.5,
 	y:"random(-300, 300)",
@@ -47,7 +44,7 @@ tl.set("h1 span", {
 	rotateY: "random(-360, 360)",  
 	transformOrigin: "10% 50% -50"
 });
-tl.to("h1 span", {	
+gsap.to("h1 span", {	
 	delay:4.5,	
 	duration:1.5,
 	opacity: 1,
@@ -55,7 +52,7 @@ tl.to("h1 span", {
 	y:0,
 	ease:Back.easeOut.config(2.15)
 });
-tl.to("h1 span", {
+gsap.to("h1 span", {
 	delay:1.7,
 	duration:1.5,	
 	stagger: .1,
@@ -65,32 +62,32 @@ tl.to("h1 span", {
 	ease: "Quad.easeOut"
 }, "<+=0.9");
 
-tl.set(".ball", {
+gsap.set(".ball", {
   scaleY: 1,  
   transformOrigin: "center bottom"
 });	
-tl.to(".ball", {
-  delay:13, 
-  duration:.7,
-  top:0,  
-  scaleY: 2,
-  opacity: 1,
-  ease: Back.easeOut.config(2.15)	
+gsap.to(".ball", {
+ delay:13, 
+ duration:.7,
+ top:0,  
+ scaleY: 2,
+ opacity: 1,
+ ease: Back.easeOut.config(2.15)	
 });
-tl.to(".ball", {
+gsap.to(".ball", {
   scaleY: 1,
   duration: 2, 
   ease: "Elastic.easeOut"
 }, "<+=0.2");
 
-tl.set(".sub-title span", {	     
+gsap.set(".sub-title span", {	     
 	scaleY: 2, 	
 	x: "random(-10, 10)",
 	y: "random(-200, 200)",
 	rotate: "random(-180, 180)", 
 	transformOrigin: "50% 0%"
 });
-tl.to(".sub-title span", {
+gsap.to(".sub-title span", {
 	delay: 10,	
 	duration:1,
 	opacity: 1,
@@ -98,7 +95,7 @@ tl.to(".sub-title span", {
 	y:0,
 	ease: Back.easeOut.config(2.15)		
 });
-tl.to(".sub-title span", {
+gsap.to(".sub-title span", {
 	duration: 3,	
 	stagger: .1,
 	ease: "Elastic.easeOut",	
@@ -107,22 +104,18 @@ tl.to(".sub-title span", {
 	y:0,
 	rotate:0
 }, "<+=0.2");
-
-                         
-
-	
+                        	
 function setupReveal(container) {	
-  container.ctx = gsap.context(() => {	  
-        const RevealBoxs1 = container.querySelectorAll(".box1");
-        RevealBoxs1.forEach((box1) => {
-                
-       const one = box1.querySelectorAll(".one, .one span");
-       let tl = gsap.timeline({
-          scrollTrigger: {
-            trigger: box1,
-            toggleActions: "restart none none none"
-          }, delay: .7
-            }); 
+ container.ctx = gsap.context(() => {	  
+  const RevealBoxs1 = container.querySelectorAll(".box1");
+   RevealBoxs1.forEach((box1) => {                
+    const one = box1.querySelectorAll(".one, .one span");
+    let tl = gsap.timeline({
+    scrollTrigger: {
+     trigger: box1,
+     toggleActions: "restart none none none"
+     }, delay: .7
+     }); 
 
 tl.to(one, {
  perspective:500,
@@ -147,71 +140,68 @@ tl.to(one, {
 
 });
 	  
-        const RevealBoxs2 = container.querySelectorAll(".box2");
-        RevealBoxs2.forEach((box2) => {
-            const two = box2.querySelectorAll(".two, .two span");            
-            const ln = box2.querySelectorAll(".ln");
-                       
-            let tl = gsap.timeline({
-                scrollTrigger: {
-                    trigger: box2,
-                    toggleActions: "restart none none none"
-                }, delay: .7
-            });                      
+const RevealBoxs2 = container.querySelectorAll(".box2");
+ RevealBoxs2.forEach((box2) => {
+ const two = box2.querySelectorAll(".two, .two span");            
+ const ln = box2.querySelectorAll(".ln");                  
+ let tl = gsap.timeline({
+ scrollTrigger: {
+  trigger: box2,
+  toggleActions: "restart none none none"
+  }, delay: .7
+  });                      
                                        
 tl.set(two, {			
-	y: "-2.5rem"
+ y: "-2.5rem"
 });
 tl.to(two, {
-	opacity: 1,
-	duration: 1,	
-	y: 0,	
-	ease: "Quad.easeOut"
+ opacity:1,
+ duration:1,	
+ y:0,	
+ ease:"Quad.easeOut"
 });   
 
 tl.to(ln, {
-	opacity: 1,
-	duration: 1,	
-	width: "100%",
-	ease: "Quad.easeOut"
+ opacity: 1,
+ duration: 1,	
+ width: "100%",
+ ease: "Quad.easeOut"
 });		
 	                                                                                                                  
 });	
 
-        let revealContainers = container.querySelectorAll(".item");
-        revealContainers.forEach((el) => {
+let revealContainers = container.querySelectorAll(".item");
+ revealContainers.forEach((el) => {
+ let image = el.querySelector("img");
+ let tl = gsap.timeline({
+ scrollTrigger: {
+  trigger: el,
+  ease: "Expo.easeOut",
+  toggleActions: "restart none none none"
+  }, delay: .7
+  });
 
-            let image = el.querySelector("img");
+  tl.set(el, {
+   autoAlpha: 1
+   });
+  tl.fromTo(el, {
+   clipPath: "polygon(0 0, 0 0, 0 100%, 0% 100%)",
+   webkitClipPath: "polygon(0 0, 0 0, 0 100%, 0% 100%)"
+   },
+   {
+   clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
+   webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
+   duration: .5,     
+   ease: "Quad.easeOut"
+   });
 
-            let tl = gsap.timeline({
-                scrollTrigger: {
-                    trigger: el,
-                    ease: "Expo.easeOut",
-                    toggleActions: "restart none none none"
-                }, delay: .7
-            });
-
-            tl.set(el, {
-              autoAlpha: 1
-            });
-            tl.fromTo(el, {
-              clipPath: "polygon(0 0, 0 0, 0 100%, 0% 100%)",
-              webkitClipPath: "polygon(0 0, 0 0, 0 100%, 0% 100%)"
-            },
-            {
-              clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
-              webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
-              duration: .5,     
-              ease: "Quad.easeOut"
-            });
-
-            tl.from(image, {
-              duration: 2,                   
-              scale: 1.5,                     
-              delay: .3,
-              ease: "Quad.easeOut"
-            }, 0);
-        });
+   tl.from(image, {
+    duration: 2,                   
+    scale: 1.5,                     
+    delay: .3,
+    ease: "Quad.easeOut"
+    }, 0);
+    });
 	
     });
 }
