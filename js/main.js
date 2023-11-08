@@ -22,10 +22,18 @@ data() {
     }
 }).mount('#app')   
   	
-gsap.to("nav",{
-opacity:1
-        }
-      );
+gsap.set("nav",{
+clipPath: "polygon(0 0, 100% 0, 100%  0, 0 0)",
+webkitClipPath:"polygon(0 0, 100% 0, 100%  0, 0 0)"
+        });
+gsap.to("nav", {
+clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
+webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",       
+	 delay:3,
+	 opacity:1,
+	 duration: 2,
+         ease:"Quad.easeOut"
+        });
 	
 gsap.set("h1 span", {
 	perspective:500,
