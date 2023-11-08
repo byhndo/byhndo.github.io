@@ -25,7 +25,7 @@ data() {
 
 window.addEventListener("load", () => {
 const tl = gsap.timeline();
-  gsap.to(".loader", {
+  tl.to(".loader", {
     delay: 2,
     opacity: 0,
     duration: 1,
@@ -118,7 +118,7 @@ tl.to(".sub-title span", {
 });//windowload
                          
     
-
+let tl;
 	
 function setupReveal(container) {	
   container.ctx = gsap.context(() => {	  
