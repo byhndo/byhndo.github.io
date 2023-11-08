@@ -100,10 +100,13 @@ gsap.to(".sub-title span", {
 	rotate:0
 }, "<+=0.2");
 
-const loadTl = gsap.timeline({paused:true});
+const loadTl = gsap.timeline();
 window.addEventListener('DOMContentLoaded', () => {
   loadTl.add(setupReveal(container)); 
 });
+
+loadTl.play();
+
 
 gsap.to(".loader", {
  delay:10,
@@ -120,7 +123,7 @@ function setupReveal(container) {
 const RevealSc = container.querySelectorAll(".sc");
    RevealSc.forEach((sc) => {                
     const pl = sc.querySelectorAll(".pl");
-    let tl = gsap.timeline({
+    let tl = gsap.timeline({paused:true,
     scrollTrigger: {
      trigger:sc,
      toggleActions: "restart none none none"
@@ -141,7 +144,7 @@ tl.to(pl, {
  const RevealBoxs1 = container.querySelectorAll(".box1");
    RevealBoxs1.forEach((box1) => {                
     const one = box1.querySelectorAll(".one, .one span");
-    let tl = gsap.timeline({
+    let tl = gsap.timeline({paused:true,
     scrollTrigger: {
      trigger: box1,
      toggleActions: "restart none none none"
@@ -175,7 +178,7 @@ const RevealBoxs2 = container.querySelectorAll(".box2");
  RevealBoxs2.forEach((box2) => {
  const two = box2.querySelectorAll(".two, .two span");            
  const ln = box2.querySelectorAll(".ln");                  
- let tl = gsap.timeline({
+ let tl = gsap.timeline({paused:true,
  scrollTrigger: {
   trigger: box2,
   toggleActions: "restart none none none"
@@ -204,7 +207,7 @@ tl.to(ln, {
 let revealContainers = container.querySelectorAll(".item");
  revealContainers.forEach((el) => {
  let image = el.querySelector("img");
- let tl = gsap.timeline({
+ let tl = gsap.timeline({paused:true,
  scrollTrigger: {
   trigger: el,
   ease: "Expo.easeOut",
@@ -236,7 +239,6 @@ let revealContainers = container.querySelectorAll(".item");
 	
     });
 	
-return tl;
 	
 }
 	
