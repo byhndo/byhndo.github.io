@@ -124,7 +124,7 @@ clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
 webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",       
 	  opacity:1,
 	  duration: 3,
-    ease:Elastic.easeOut
+    ease:Bounce.easeOut
         }); 
 	   
    });
