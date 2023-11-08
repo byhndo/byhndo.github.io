@@ -111,7 +111,7 @@ gsap.to(".loader", {
     ease: Power3.easeOut
   });
 
-loadTl.play();
+
 
 function setupReveal(container) {	
  container.ctx = gsap.context(() => {	  
