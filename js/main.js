@@ -118,6 +118,22 @@ function setupReveal(container) {
      }, delay: .7
      }); 
 
+
+tl.fromTo(ct,{
+clipPath: "polygon(0 0, 100% 0, 100%  0, 0 0)",
+webkitClipPath:"polygon(0 0, 100% 0, 100%  0, 0 0)"
+        },
+        {
+clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
+webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",       	 	
+	 opacity:1,
+	 duration: 2,
+         ease:Elastic.easeOut
+        }
+      );	 
+
+});
+	   
 tl.to(one, {
  perspective:500,
  scaleY:0,
@@ -137,21 +153,6 @@ tl.to(one, {
  rotateX:0,
  rotateY:0,
  ease: "Quad.easeOut"	
-});
-tl.fromTo(ct,{
-clipPath: "polygon(0 0, 100% 0, 100%  0, 0 0)",
-webkitClipPath:"polygon(0 0, 100% 0, 100%  0, 0 0)"
-        },
-        {
-clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
-webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",       	 
-	 delay:0,
-	 opacity:1,
-	 duration: 2,
-         ease:Quad.easeOut
-        }
-      );	 
-
 });
 	  
 const RevealBoxs2 = container.querySelectorAll(".box2");
