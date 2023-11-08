@@ -110,6 +110,7 @@ function setupReveal(container) {
   const RevealBoxs1 = container.querySelectorAll(".box1");
    RevealBoxs1.forEach((box1) => {                
     const one = box1.querySelectorAll(".one, .one span");
+    const ct = box1.querySelectorAll(".ct");
     let tl = gsap.timeline({
     scrollTrigger: {
      trigger: box1,
@@ -136,7 +137,19 @@ tl.to(one, {
  rotateX:0,
  rotateY:0,
  ease: "Quad.easeOut"	
-});	
+});
+tl.fromTo(ct,{
+clipPath: "polygon(0 0, 100% 0, 100%  0, 0 0)",
+webkitClipPath:"polygon(0 0, 100% 0, 100%  0, 0 0)"
+        },
+        {
+clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
+webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",       	 
+	 opacity:1,
+	 duration: 2,
+         ease:"Bounce.easeOut"
+        }
+      );	 
 
 });
 	  
@@ -144,7 +157,6 @@ const RevealBoxs2 = container.querySelectorAll(".box2");
  RevealBoxs2.forEach((box2) => {
  const two = box2.querySelectorAll(".two, .two span");            
  const ln = box2.querySelectorAll(".ln");                  
- const ct = box2.querySelectorAll(".ct");             
  let tl = gsap.timeline({
  scrollTrigger: {
   trigger: box2,
@@ -168,19 +180,6 @@ tl.to(ln, {
  width: "100%",
  ease: "Quad.easeOut"
 });	
-
-tl.fromTo(ct,{
-clipPath: "polygon(0 0, 100% 0, 100%  0, 0 0)",
-webkitClipPath:"polygon(0 0, 100% 0, 100%  0, 0 0)"
-        },
-        {
-clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
-webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",       	 
-	 opacity:1,
-	 duration: 2,
-         ease:"Bounce.easeOut"
-        }
-      );	 
 	                                                                                                                  
 });	
 
