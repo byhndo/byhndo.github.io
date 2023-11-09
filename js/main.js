@@ -112,7 +112,7 @@ function setupReveal(container) {
     scrollTrigger: {
      trigger:sc,
      toggleActions: "restart none none none"
-     }, delay: 1
+     }, delay:.7
      }); 
 tl.to(pl, {
  clipPath: "circle(100%)",
