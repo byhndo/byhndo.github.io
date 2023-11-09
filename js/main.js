@@ -112,13 +112,13 @@ function setupReveal(container) {
     scrollTrigger: {
      trigger:sc,
      toggleActions: "restart none none none"
-     }, delay: .7
+     }, delay: 1
      }); 
 tl.to(pl, {
  clipPath: "circle(100%)",
  webkitClipPath:"circle(100%)",
  opacity:1,
- duration:3,
+ duration:5,
  ease:Quad.easeOut
         }); 
 	   
