@@ -22,7 +22,6 @@ data() {
     }
 }).mount('#app')  
 
-function headerAnimation() {
 tl.set("nav", {
  autoAlpha:0
 });
@@ -101,8 +100,6 @@ tl.to(".sub-title span", {
 	y:0,
 	rotate:0
 }, "<+=0.2");
-	
-}
 
 
 function setupReveal(container) {	
