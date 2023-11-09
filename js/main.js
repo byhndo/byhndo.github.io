@@ -115,11 +115,11 @@ function setupReveal(container) {
      }, delay: .7
      }); 
 tl.to(pl, {
- clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100% )",
- webkitClipPath:"polygon(0 0, 100% 0, 100% 100%, 0 100% )",
+ clipPath: "circle(100%)",
+ webkitClipPath:"circle(100%)",
  opacity:1,
- duration:3,
- ease:Quad.easeOut
+ duration:5,
+ ease:Elastic.easeOut
         }); 
 	   
    });
