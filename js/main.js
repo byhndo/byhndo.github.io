@@ -22,10 +22,7 @@ data() {
     }
 }).mount('#app')  
 
-
-
 function headerAnimation() {
-const tl = gsap.timeline({paused:true;});
 tl.set("nav", {
  autoAlpha:0
 });
@@ -104,14 +101,14 @@ tl.to(".sub-title span", {
 	y:0,
 	rotate:0
 }, "<+=0.2");
-tl.play();
+	
 }
 
 
 function setupReveal(container) {	
  container.ctx = gsap.context(() => {	  
   	 
-const RevealSc = container.querySelectorAll(".sc");
+ const RevealSc = container.querySelectorAll(".sc");
    RevealSc.forEach((sc) => {                
     const pl = sc.querySelectorAll(".pl");
     let tl = gsap.timeline({
@@ -129,9 +126,7 @@ tl.to(pl, {
         }); 
 	   
    });
-	   
-	 
-	 
+	   	 	 
  const RevealBoxs1 = container.querySelectorAll(".box1");
    RevealBoxs1.forEach((box1) => {                
     const one = box1.querySelectorAll(".one, .one span");
@@ -233,20 +228,6 @@ let revealContainers = container.querySelectorAll(".item");
 }
 
 
-let loadTl = gsap.timeline();
-window.addEventListener('DOMContentLoaded', () => {
- gsap.to(".loader", {
- delay:10,
- opacity: 0,
- duration: 1,
- ease: Power3.easeOut
-  });
- loadTl.add(headerAnimation());
- loadTl.add(setupReveal(container));  
-});
-
-
-
 var isSafari = /constructor/i.test(window.HTMLElement);
 var isFF = !!navigator.userAgent.match(/firefox/i);
 
@@ -279,7 +260,3 @@ function initBt2() {
     TweenLite.fromTo(dm, 3, { attr: { scale: 40 } }, { attr: { scale: 0 } });
   });
 }
-
-
-
-
