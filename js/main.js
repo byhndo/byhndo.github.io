@@ -118,8 +118,8 @@ tl.to(pl, {
  clipPath: "circle(100%)",
  webkitClipPath:"circle(100%)",
  opacity:1,
- duration:5,
- ease:Elastic.easeOut
+ duration:3,
+ ease:Quad.easeOut
         }); 
 	   
    });
