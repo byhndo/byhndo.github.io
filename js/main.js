@@ -22,17 +22,17 @@ data() {
     }
 }).mount('#app')  
 
-tl.set("nav", {
+gsap.set("nav", {
  autoAlpha:0
 });
-tl.to("nav", {
+gsap.to("nav", {
  delay:3,
  duration:3,
  autoAlpha:1,
  ease:Quad.easeOut
 });
 
-tl.set("h1 span", {
+gsap.set("h1 span", {
 	perspective:500,
 	scaleY:.5,
 	y:"random(-300, 300)",
@@ -40,7 +40,7 @@ tl.set("h1 span", {
 	rotateY: "random(-360, 360)",  
 	transformOrigin: "10% 50% -50"
 });
-tl.to("h1 span", {	
+gsap.to("h1 span", {	
 	delay:4.5,	
 	duration:1.5,
 	opacity: 1,
@@ -48,7 +48,7 @@ tl.to("h1 span", {
 	y:0,
 	ease:Back.easeOut.config(2.15)
 });
-tl.to("h1 span", {
+gsap.to("h1 span", {
 	delay:1.7,
 	duration:1.5,	
 	stagger: .1,
@@ -58,11 +58,11 @@ tl.to("h1 span", {
 	ease: "Quad.easeOut"
 }, "<+=0.9");
 
-tl.set(".ball", {
+gsap.set(".ball", {
   scaleY: 1,  
   transformOrigin: "center bottom"
 });	
-tl.to(".ball", {
+gsap.to(".ball", {
  delay:13, 
  duration:.7,
  top:0,  
@@ -70,20 +70,20 @@ tl.to(".ball", {
  opacity: 1,
  ease: Back.easeOut.config(2.15)	
 });
-tl.to(".ball", {
+gsap.to(".ball", {
   scaleY: 1,
   duration: 2, 
   ease: "Elastic.easeOut"
 }, "<+=0.2");
 
-tl.set(".sub-title span", {	     
+gsap.set(".sub-title span", {	     
 	scaleY: 2, 	
 	x: "random(-10, 10)",
 	y: "random(-200, 200)",
 	rotate: "random(-180, 180)", 
 	transformOrigin: "50% 0%"
 });
-tl.to(".sub-title span", {
+gsap.to(".sub-title span", {
 	delay: 10,	
 	duration:1,
 	opacity: 1,
@@ -91,7 +91,7 @@ tl.to(".sub-title span", {
 	y:0,
 	ease: Back.easeOut.config(2.15)		
 });
-tl.to(".sub-title span", {
+gsap.to(".sub-title span", {
 	duration: 3,	
 	stagger: .1,
 	ease: "Elastic.easeOut",	
