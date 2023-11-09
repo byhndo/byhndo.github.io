@@ -22,23 +22,6 @@ data() {
     }
 }).mount('#app')  
 
-let loadTl = gsap.timeline({paused:true});
-window.addEventListener('DOMContentLoaded', () => {
- gsap.to(".loader", {
- delay:10,
- opacity: 0,
- duration: 1,
- ease: Power3.easeOut
-  });
-	
- loadTl.add(headerAnimation());
- loadTl.add(setupReveal(container)); 
- loadTl.play();
-});
-
-
-
-
 
 
 function headerAnimation() {
@@ -246,10 +229,26 @@ let revealContainers = container.querySelectorAll(".item");
     });
 	
     });
-	
-	return tl;
+
 }
+
+
+let loadTl = gsap.timeline({paused:true});
+window.addEventListener('DOMContentLoaded', () => {
+ gsap.to(".loader", {
+ delay:10,
+ opacity: 0,
+ duration: 1,
+ ease: Power3.easeOut
+  });
 	
+ loadTl.add(headerAnimation());
+ loadTl.add(setupReveal(container)); 
+ loadTl.play();
+});
+
+
+
 var isSafari = /constructor/i.test(window.HTMLElement);
 var isFF = !!navigator.userAgent.match(/firefox/i);
 
