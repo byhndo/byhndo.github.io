@@ -107,14 +107,14 @@ function setupReveal(container) {
   	 
  const RevealSc = container.querySelectorAll(".sc");
    RevealSc.forEach((sc) => {                
-    const pl = sc.querySelectorAll(".pl");
+    const soc = sc.querySelectorAll(".soc");
     let tl = gsap.timeline({
     scrollTrigger: {
      trigger:sc,
      toggleActions: "restart none none none"
      }, delay: .7
      }); 
-tl.to(pl, {
+tl.to(soc, {
  clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100% )",
  webkitClipPath:"polygon(0 0, 100% 0, 100% 100%, 0 100% )",
  opacity:1,
