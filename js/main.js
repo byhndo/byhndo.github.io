@@ -118,7 +118,7 @@ tl.to(pl, {
  clipPath: "circle(100%)",
  webkitClipPath:"circle(100%)",
  opacity:1,
- duration:5,
+ duration:6,
  ease:Quad.easeOut
         }); 
 	   
