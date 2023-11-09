@@ -241,7 +241,7 @@ window.addEventListener('DOMContentLoaded', () => {
  duration: 1,
  ease: Power3.easeOut
   });
-	
+ loadTl.pause();
  loadTl.add(headerAnimation());
  loadTl.add(setupReveal(container)); 
  loadTl.play();
