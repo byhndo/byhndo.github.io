@@ -24,6 +24,13 @@ data() {
 
 let loadTl = gsap.timeline({paused:true});
 window.addEventListener('DOMContentLoaded', () => {
+ gsap.to(".loader", {
+ delay:10,
+ opacity: 0,
+ duration: 1,
+ ease: Power3.easeOut
+  });
+	
  loadTl.add(headerAnimation());
  loadTl.add(setupReveal(container)); 
  loadTl.play();
@@ -31,12 +38,6 @@ window.addEventListener('DOMContentLoaded', () => {
 
 
 
-gsap.to(".loader", {
- delay:10,
- opacity: 0,
- duration: 1,
- ease: Power3.easeOut
-  });
 
 
 
