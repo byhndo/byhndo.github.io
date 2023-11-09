@@ -25,7 +25,7 @@ data() {
 
 
 function headerAnimation() {
-const tl = gsap.timeline();
+const tl = gsap.timeline({paused:true;});
 tl.set("nav", {
  autoAlpha:0
 });
@@ -104,7 +104,7 @@ tl.to(".sub-title span", {
 	y:0,
 	rotate:0
 }, "<+=0.2");
-
+tl.play();
 }
 
 
@@ -233,7 +233,7 @@ let revealContainers = container.querySelectorAll(".item");
 }
 
 
-let loadTl = gsap.timeline({});
+let loadTl = gsap.timeline();
 window.addEventListener('DOMContentLoaded', () => {
  gsap.to(".loader", {
  delay:10,
@@ -241,10 +241,8 @@ window.addEventListener('DOMContentLoaded', () => {
  duration: 1,
  ease: Power3.easeOut
   });
- loadTl.pause();
  loadTl.add(headerAnimation());
- loadTl.add(setupReveal(container)); 
- loadTl.play();
+ loadTl.add(setupReveal(container));  
 });
 
 
