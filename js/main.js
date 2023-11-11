@@ -101,8 +101,7 @@ gsap.to(".sub-title span", {
 	y:0,
 	rotate:0
 }, "<+=0.2");
-
-}	
+	
 
 function setupReveal(container) {	
  container.ctx = gsap.context(() => {	  
@@ -258,4 +257,7 @@ function initBt2() {
     TweenLite.to(turb, 5, { attr: { x: '-=300', y: '-=300', width: 600, height: 600 } });
     TweenLite.fromTo(dm, 3, { attr: { scale: 40 } }, { attr: { scale: 0 } });
   });
+}
+
+
 }
