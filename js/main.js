@@ -5,8 +5,7 @@ const {
     onMounted
 } = Vue
 
-window.requestAnimationFrame(function() {
-	
+$(window).on("load", function(){
 
 createApp({	
     methods: {
