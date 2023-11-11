@@ -22,6 +22,7 @@ data() {
     }
 }).mount('#app')  
 
+window.onload = function() {
 gsap.set("nav", {
  autoAlpha:0
 });
@@ -101,6 +102,7 @@ gsap.to(".sub-title span", {
 	rotate:0
 }, "<+=0.2");
 
+}	
 
 function setupReveal(container) {	
  container.ctx = gsap.context(() => {	  
