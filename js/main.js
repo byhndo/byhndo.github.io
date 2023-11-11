@@ -1,11 +1,12 @@
 gsap.registerPlugin(ScrollTrigger, CustomEase, EasePack);
+
+$(window).on("load", function(){
+
 const {
     createApp,
     ref,
     onMounted
 } = Vue
-
-$(window).on("load", function(){
 
 gsap.to(".loader", {
     delay: 2,
