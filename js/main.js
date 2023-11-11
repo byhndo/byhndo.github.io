@@ -7,6 +7,14 @@ const {
 
 $(window).on("load", function(){
 
+gsap.to(".loader", {
+    delay: 2,
+    opacity: 0,
+    duration: 1,
+    ease: Power3.easeOut
+  });
+
+	
 createApp({	
     methods: {
         afterEnter(el) {
