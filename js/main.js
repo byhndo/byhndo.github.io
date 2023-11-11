@@ -22,7 +22,8 @@ data() {
     }
 }).mount('#app')  
 
-window.onload = function() {
+window.requestAnimationFrame(function() {
+	
 gsap.set("nav", {
  autoAlpha:0
 });
@@ -260,4 +261,4 @@ function initBt2() {
 }
 
 
-}
+});
