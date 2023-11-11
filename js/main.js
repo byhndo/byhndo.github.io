@@ -4,7 +4,10 @@ const {
     ref,
     onMounted
 } = Vue
+
+window.requestAnimationFrame(function() {
 	
+
 createApp({	
     methods: {
         afterEnter(el) {
@@ -22,8 +25,6 @@ data() {
     }
 }).mount('#app')  
 
-window.requestAnimationFrame(function() {
-	
 gsap.set("nav", {
  autoAlpha:0
 });
