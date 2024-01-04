@@ -59,8 +59,7 @@ h7 {
  font-size:150%;
 }
 .header{
- justify-content: center;
- align-items: center;
+ text-align:center;
 } 
 h1 {
  display: inline;
