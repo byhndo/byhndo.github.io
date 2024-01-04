@@ -409,7 +409,7 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
 
 .footer span {
  color: var(--c2);
- font-size:8px;
+ font-size:9px;
  text-decoration: none;
 }
 
@@ -426,7 +426,7 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
 }
 
 .footer span.fc {
- font-size: 8px;
+ font-size:9px;
  font-weight: var(--fwnav);
 }
 @media(min-width: 500px){
