@@ -69,6 +69,8 @@ h1 {
  line-height:.8;
  text-align:center;
  letter-spacing:calc(-.2vw + -.05rem);
+ justify-content: center;
+ align-items: center;
 }
 
 h1 span{
@@ -76,7 +78,6 @@ h1 span{
  display: inline-block;
  transform-origin: top left;
  opacity:0;
- text-align:center;
 }
 
 .photos h1 {
@@ -84,8 +85,8 @@ h1 span{
 }
 
 .sub-title{
- margin-top:-14px;
- margin-bottom:70px;
+ margin-top:-5px;
+ margin-bottom:60px;
  letter-spacing: calc(0.3vw + 0.5rem);
  text-align:center;
 }
@@ -116,7 +117,7 @@ h1 span{
  transition: background-color 2.5s;
  border-radius: 50%;
  opacity: 0;
- margin-left: calc(1vw + .1rem);
+ margin-left: calc(.3vw + .1rem);
 }
 
 .photos .ball {
