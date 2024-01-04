@@ -59,7 +59,7 @@ h7 {
  font-size:150%;
 }
 .header{
- text-align:center;
+ text-align:left;
 } 
 h1 {
  display: inline;
@@ -87,7 +87,7 @@ h1 span{
  margin-top:-5px;
  margin-bottom:60px;
  letter-spacing: calc(0.3vw + 0.5rem);
- text-align:justify;
+ text-align:left;
 }
    
 .sub-title span{  
