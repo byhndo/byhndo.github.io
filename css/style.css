@@ -59,7 +59,8 @@ h7 {
  font-size:150%;
 }
 .header{
- text-align:justify;
+ justify-content: center;
+ align-items: center;
 } 
 h1 {
  display: inline;
@@ -116,7 +117,7 @@ h1 span{
  transition: background-color 2.5s;
  border-radius: 50%;
  opacity: 0;
- margin-left: calc(.06vw + .1rem);
+ margin-left: calc(.05vw + .1rem);
 }
 
 .photos .ball {
