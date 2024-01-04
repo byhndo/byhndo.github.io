@@ -415,7 +415,6 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
  color: var(--c2);
  font-size:8px;
  text-decoration: none;
- text-transform:capitalize;
 }
 
 .photos .footer span, .photos .footer span a {
