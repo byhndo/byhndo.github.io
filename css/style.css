@@ -70,7 +70,7 @@ h1 {
  transition: color 2.5s; 
  line-height:.8;
  letter-spacing:calc(-.2vw + -.05rem);
- left:-5%;
+ left:-1%;
 }
 
 h1 span{
