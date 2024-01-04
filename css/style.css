@@ -84,7 +84,7 @@ h1 span{
 
 .sub-title{
  margin-top:-14px;
- margin-bottom:50px;
+ margin-bottom:70px;
  letter-spacing: calc(0.3vw + 0.5rem);
  text-align:center;
 }
@@ -240,7 +240,7 @@ nav li a:hover, nav li a:active{
 main {
  position: relative;
  max-width: 89%;
- padding:100px 0 20px 0;
+ padding:120px 0 20px 0;
  margin: 0 auto 0 auto;
  text-align: left;
 }
