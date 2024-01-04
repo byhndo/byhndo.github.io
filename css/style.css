@@ -58,7 +58,9 @@ h6 {
 h7 {
  font-size:150%;
 }
- 
+.header{
+ text-align:center
+} 
 h1 {
  display: inline;
  font-family: var(--font1);
