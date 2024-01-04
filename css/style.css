@@ -59,7 +59,7 @@ h7 {
  font-size:150%;
 }
 .header{
- text-align:center;
+ text-align:justify;
 } 
 h1 {
  display: inline;
@@ -80,7 +80,7 @@ h1 span{
 }
 
 .photos h1 {
-  color: var(--c1);
+ color: var(--c1);
 }
 
 .sub-title{
@@ -243,7 +243,6 @@ main {
  max-width: 89%;
  padding:120px 0 20px 0;
  margin: 0 auto 0 auto;
- text-align: left;
 }
 
 .slide-fade-enter-active {
