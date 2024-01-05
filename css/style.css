@@ -268,9 +268,8 @@ main {
 }
 
 span.prolog {
- font-size: 130%;
+ font-size:120%;
  font-weight:700;
- text-transform:capitalize;
  font-family:var(--font2);
 }
 
