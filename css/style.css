@@ -269,9 +269,9 @@ main {
 
 span.prolog {
  font-size: 130%;
- font-weight:300;
+ font-weight:800;
  text-transform:capitalize;
- font-family:var(--font1);
+ font-family:var(--font2);
 }
 
 p.sub1, p.sub2 {
