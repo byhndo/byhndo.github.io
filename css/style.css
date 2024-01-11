@@ -3,7 +3,7 @@
 @font-face{font-family:Thunder;src:url(../fonts/Thunder-LightLC.woff) format('woff');font-weight:300;font-style:normal}
 
 :root {  
- --c1: #f1f2f3;
+ --c1: #f1f2f5;
  --c2: #252c36;
  --c3: #a7abad;   
  --b1: #cf3c4b;
@@ -26,6 +26,17 @@
 }
 html{
   background: var(--c1);
+}
+body {
+ background-color: var(--c1);
+ font-family: var(--font2);
+ color: var(--c2);
+ font-size: var(--sizebody);
+ font-weight:400;
+ line-height:1.5;
+ word-wrap: break-word;
+ text-rendering: optimizeLegibility !important;
+ -webkit-font-smoothing: antialiased !important;
 }
 
 *, *:before, *:after {
@@ -123,18 +134,6 @@ h1 span{
 .photos .ball {
  top: -20%;
  background-color: var(--b2);
-}
-
-body {
- background-color: var(--c1);
- font-family: var(--font2);
- color: var(--c2);
- font-size: var(--sizebody);
- font-weight:300;
- line-height:1.5;
- word-wrap: break-word;
- text-rendering: optimizeLegibility !important;
- -webkit-font-smoothing: antialiased !important;
 }
 
 a {
