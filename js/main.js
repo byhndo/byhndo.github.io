@@ -29,7 +29,7 @@ gsap.to("nav", {
  delay:3,
  duration:3,
  autoAlpha:1,
- ease:Quad.easeOut
+ ease:Power2.easeOut
 });
 
 gsap.set("h1 span", {
@@ -55,7 +55,7 @@ gsap.to("h1 span", {
 	rotateX:0,
 	rotateY:0,
 	scaleY:1,
-	ease: "Quad.easeOut"
+	ease: "Power2.easeOut"
 }, "<+=0.9");
 
 gsap.set(".ball", {
@@ -119,7 +119,7 @@ tl.to(pl, {
  webkitClipPath:"circle(100%)",
  opacity:1,
  duration:6,
- ease:Quad.easeOut
+ ease:"Power2.easeOut"
         }); 
 	   
    });
@@ -152,7 +152,7 @@ tl.to(one, {
  y:0,
  rotateX:0,
  rotateY:0,
- ease: "Quad.easeOut"	
+ ease: "Power2.easeOut"	
 });
 
 });
@@ -175,14 +175,14 @@ tl.to(two, {
  opacity:1,
  duration:1,	
  y:0,	
- ease:"Quad.easeOut"
+ ease:"Power2.easeOut"
 });   
 
 tl.to(ln, {
  opacity: 1,
  duration: 1,	
  width: "100%",
- ease: "Quad.easeOut"
+ ease: "Power2.easeOut"
 });	
 	                                                                                                                  
 });	
