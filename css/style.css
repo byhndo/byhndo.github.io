@@ -381,7 +381,7 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
  opacity:0;
 }
 
-.ln {
+h3:after {
  display:block;
  width:0;
  margin-top:-13px;
@@ -391,7 +391,7 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
  z-index: 1000;
 }
 
-.photos .ln {
+.photos h3:after {
  background-color: var(--c1);
 }
 
