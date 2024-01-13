@@ -5,7 +5,7 @@
 :root {  
  --c1: #f1f2f5;
  --c2: #262a35;
- --c3: rgba(255,255,255,.3);   
+ --c3: rgba(255,255,255,.35);   
  --b1: #cf3c4b;
  --b2: #FED049;
  --sizebody:13.5px;
@@ -384,13 +384,13 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
  margin-top:-14px;
  width:0;
  height:.3px;
- background-color:rgba(0,0,0,.3);
+ background-color:rgba(0,0,0,.35);
  opacity: 0;
  z-index: 1000;
 }
 
 .photos .ln{
- background-color:rgba(255,255,255,.3);
+ background-color:rgba(255,255,255,.35);
 }
 
 .footer {
