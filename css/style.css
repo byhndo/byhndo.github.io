@@ -79,7 +79,6 @@ h1 {
  padding: 0;
  transition: color 2.5s; 
  line-height:.8;
- left:-.6%;
 }
 
 h1 span{
@@ -126,7 +125,7 @@ h1 span{
  transition: background-color 2.5s;
  border-radius: 50%;
  opacity: 0;
- margin-left: calc(0vw + .1rem);
+ margin-left: calc(-.1vw + .1rem);
 }
 
 .photos .ball {
@@ -383,7 +382,7 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
 .ln{
  display:block;
  width:0;
- padding-top:-13px;
+ padding-top:-30px;
  height:.3px;
  background-color: var(--c2);
  opacity: 0;
