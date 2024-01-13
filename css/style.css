@@ -24,6 +24,10 @@
   width: 1px;
   height: 1px; 
 }
+pre {
+  font-family:var(--font2);
+  font-size:inherit;
+}
 html{
   background: var(--c1);
 }
