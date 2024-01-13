@@ -383,6 +383,10 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
 
 h3:after {
  display:block;
+ content:"";
+ position:absolute;
+ top:100%;
+ left:0;
  width:0;
  margin-top:-13px;
  height:.3px;
