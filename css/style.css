@@ -24,9 +24,9 @@
   width: 1px;
   height: 1px; 
 }
-pre {
-  font-family:var(--font2);
-  font-size:inherit;
+
+ul, li{
+ style:none;
 }
 html{
   background: var(--c1);
