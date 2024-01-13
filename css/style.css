@@ -9,7 +9,7 @@
  --b1: #cf3c4b;
  --b2: #FED049;
  --sizebody:13.5px;
- --sizetitle: calc(25vw + 1rem);
+ --sizetitle: calc(23vw + 1rem);
  --sizenav:9.5px;
  --font1:'Thunder', sans-serif;
  --font2:'Figtree', sans-serif;
@@ -69,7 +69,7 @@ h7 {
  font-size:7px;
 }
 .header{
- text-align:left;
+ text-align:center;
 } 
 h1 {
  display: inline;
@@ -79,7 +79,7 @@ h1 {
  padding: 0;
  transition: color 2.5s; 
  line-height:.8;
- left:-.7%;
+ left:-.6%;
 }
 
 h1 span{
@@ -97,7 +97,7 @@ h1 span{
  margin-top:-5px;
  margin-bottom:60px;
  letter-spacing: calc(0.3vw + 0.5rem);
- text-align:left;
+ text-align:center;
 }
    
 .sub-title span{  
