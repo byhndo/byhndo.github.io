@@ -380,7 +380,7 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
  opacity:0;
 }
 
-h3:after {
+h3:before{
  display:block;
  content:"";
  position:absolute;
@@ -394,7 +394,7 @@ h3:after {
  z-index: 1000;
 }
 
-.photos h3:after {
+.photos h3::before {
  background-color: var(--c1);
 }
 
