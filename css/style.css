@@ -5,7 +5,7 @@
 :root {  
  --c1: #f1f2f5;
  --c2: #262a35;
- --c3: #888e91;   
+ --c3: #7a8185;   
  --b1: #cf3c4b;
  --b2: #FED049;
  --sizebody:13.5px;
@@ -380,9 +380,8 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
 }
 
 .ln{
- display:block;
+ display:flex;
  width:0;
- padding-top:-30px;
  height:.3px;
  background-color: var(--c2);
  opacity: 0;
