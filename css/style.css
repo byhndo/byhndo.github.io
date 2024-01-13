@@ -125,7 +125,7 @@ h1 span{
  transition: background-color 2.5s;
  border-radius: 50%;
  opacity: 0;
- margin-left: calc(-.1vw + .1rem);
+ margin-left: calc(-.2vw + .1rem);
 }
 
 .photos .ball {
