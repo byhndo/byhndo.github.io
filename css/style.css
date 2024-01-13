@@ -28,6 +28,9 @@
 ul, li{
  list-style-type:none;
 }
+li{
+ list-style-type:decimal;
+}
 html{
   background: var(--c1);
 }
