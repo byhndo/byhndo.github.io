@@ -4,7 +4,7 @@
 
 :root {  
  --c1: #e1e2e5;
- --c2: #20232c;
+ --c2: #15181e;
  --c3: rgba(255,255,255,.3);   
  --b1: #cf3c4b;
  --b2: #FED049;
@@ -125,7 +125,7 @@ h1 span{
  transition: background-color 2.5s;
  border-radius: 50%;
  opacity: 0;
- margin-left: calc(-.2vw + .1rem);
+ margin-left: calc(-.3vw + .1rem);
 }
 
 .photos .ball {
