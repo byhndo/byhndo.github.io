@@ -380,7 +380,8 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
 }
 
 .ln{
- display:flex;
+ display:block;
+ margin-top:-10px;
  width:0;
  height:.3px;
  background-color: var(--c2);
