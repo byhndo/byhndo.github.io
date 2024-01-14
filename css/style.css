@@ -435,11 +435,7 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
 }
 @media(min-width:500px){
     main{
-    margin-top:30px;          
-    }
-}
-@media(max-width:500px){
-    main{
-     max-width:50%;         
+    margin-top:30px;  
+    max-width:60%;
     }
 }
