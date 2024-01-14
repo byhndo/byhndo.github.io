@@ -439,6 +439,6 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
     max-width:60%;
   }
   h1{
-    font-size:calc(12vw + 1rem);
+    font-size:calc(15vw + 1rem);
   }
 }
