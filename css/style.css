@@ -433,8 +433,13 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
  font-size:9px;
  font-weight: var(--fwnav);
 }
-@media(min-width: 500px){
+@media(min-width:500px){
     main{
     margin-top:30px;          
+    }
+}
+@media(max-width:500px){
+    main{
+     max-width:50%;         
     }
 }
