@@ -434,8 +434,11 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
  font-weight: var(--fwnav);
 }
 @media(min-width:500px){
-    main{
+  main{
     margin-top:30px;  
     max-width:60%;
-    }
+  }
+  h1{
+    font-size:: calc(15vw + 1rem);
+  }
 }
