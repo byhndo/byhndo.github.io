@@ -442,7 +442,7 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
    font-size:calc(16vw + 1rem);
   }
  .ball{
-   width: calc(2vw + .3rem);
-   height: calc(2vw + .3rem);
+   width: calc(2.2vw + .3rem);
+   height: calc(2.2vw + .3rem);
  }
 }
