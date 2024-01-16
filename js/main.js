@@ -29,7 +29,7 @@ gsap.to("nav", {
  delay:3,
  duration:3,
  autoAlpha:1,
- ease:Power3.easeOut
+ ease:Circ.easeOut
 });
 
 gsap.set("h1 span", {
@@ -50,7 +50,7 @@ gsap.to("h1 span", {
 	duration:1,
 	stagger:.1,
 	scaleY:1,
-	ease:"Power3.easeOut"
+	ease:"Circ.easeOut"
 }, "<+=0.9");
 
 gsap.set(".ball", {
@@ -114,7 +114,7 @@ tl.to(pl, {
  webkitClipPath:"circle(100%)",
  opacity:1,
  duration:6,
- ease:"Power3.easeOut"
+ ease:"Circ.easeOut"
         }); 
 	   
    });
@@ -147,7 +147,7 @@ tl.to(one, {
  y:0,
  rotateX:0,
  rotateY:0,
- ease: "Power3.easeOut"	
+ ease: "Circ.easeOut"	
 });
 
 });
@@ -170,14 +170,14 @@ tl.to(two, {
  opacity:1,
  duration:1,	
  y:0,	
- ease:"Power3.easeOut"
+ ease:"Circ.easeOut"
 });   
 
 tl.to(ln, {
  opacity: 1,
  duration: 1,	
  width: "100%",
- ease: "Power3.easeOut"
+ ease: "Circ.easeOut"
 });	
 	                                                                                                                  
 });	
@@ -188,7 +188,7 @@ let revealContainers = container.querySelectorAll(".item");
  let tl = gsap.timeline({
  scrollTrigger: {
   trigger: el,
-  ease: "Power3.easeOut",
+  ease: "Circ.easeOut",
   toggleActions: "restart none none none"
   }, delay: .7
   });
@@ -204,14 +204,14 @@ let revealContainers = container.querySelectorAll(".item");
    clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
    webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
    duration:1,     
-   ease: "Power3.easeOut"
+   ease: "Circ.easeOut"
    });
 
    tl.from(image, {
     duration: 1,                   
     scale: 1.5,                     
     delay:.1,
-    ease: "Power3.easeOut"
+    ease: "Circ.easeOut"
     }, 0);
     });
 	
