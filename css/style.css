@@ -5,7 +5,7 @@
 :root {  
  --c1: #121212;
  --c2: #fff;
- --c3: #8c8c9c;   
+ --c3: #3c3c4c;   
  --b1: #cf3c4b;
  --b2: #FED049;
  --sizebody:12px;
@@ -40,7 +40,7 @@ body {
  color: var(--c2);
  font-size: var(--sizebody);
  font-weight:400;
- line-height:1.7;
+ line-height:1.8;
  word-wrap: break-word;
  text-rendering: optimizeLegibility !important;
  -webkit-font-smoothing: antialiased !important;
@@ -127,7 +127,7 @@ h1 span{
  display: inline-flex;
  width: calc(3.7vw + .3rem);
  height: calc(3.7vw + .3rem);
- background-color: var(--b1); 
+ background-color: var(--b2); 
  top: -20%;
  transition: background-color 2.5s;
  border-radius: 50%;
@@ -137,7 +137,7 @@ h1 span{
 
 .photos .ball {
  top: -20%;
- background-color: var(--b2);
+ background-color: var(--b1);
 }
 
 a {
@@ -391,13 +391,13 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
  margin-top:-14px;
  width:0;
  height:.3px;
- background-color:rgba(0,0,0,.35);
+ background-color:rgba(255,255,255,.35);
  opacity: 0;
  z-index: 1000;
 }
 
 .photos .ln{
- background-color:rgba(255,255,255,.35);
+ background-color:rgba(0,0,0,.35);
 }
 
 .footer {
