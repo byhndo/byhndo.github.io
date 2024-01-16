@@ -40,6 +40,7 @@ body {
  color: var(--c2);
  font-size: var(--sizebody);
  font-weight:400;
+ line-height:2;
  word-wrap: break-word;
  text-rendering: optimizeLegibility !important;
  -webkit-font-smoothing: antialiased !important;
@@ -51,8 +52,8 @@ body {
 
 h1, h2, h3, h4, h5, h6, h7 {
  position: relative;
- font-family:var(--font1);
- font-weight:var(--fwtitle);
+ font-family:var(--font2);
+ font-weight:300;
  z-index: 2000;
 }
 
@@ -278,7 +279,7 @@ span.prolog {
 
 p.sub1, p.sub2 {
   text-transform: none;
-  text-align: justify;
+  text-align:left;
 }
 
 p.sub1 {
