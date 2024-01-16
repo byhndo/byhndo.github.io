@@ -38,7 +38,8 @@ gsap.set("h1 span", {
 	y:"random(-300, 300)",	
 	transformOrigin: "10% 50% -50"
 });
-gsap.to("h1 span", {			
+gsap.to("h1 span", {
+	duration:2,
 	opacity: 1,
 	stagger: .1,
 	y:0,
