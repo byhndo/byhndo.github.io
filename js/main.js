@@ -22,9 +22,6 @@ data() {
     }
 }).mount('#app')  
 
-const sub = document.querySelector('#sub');
-const results = Splitting({ sub: sub, by: 'words' });
-
 gsap.set("nav", {
  autoAlpha:0
 });
