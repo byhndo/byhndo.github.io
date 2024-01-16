@@ -78,6 +78,9 @@ h7 {
 .header{
  text-align:center;
  min-height:100vh;
+ display:grid;
+ justify-items:center;
+ align-items:center;
 } 
 h1 {
  display: inline;
