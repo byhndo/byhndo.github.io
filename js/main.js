@@ -257,3 +257,5 @@ function initBt2() {
     TweenLite.fromTo(dm, 3, { attr: { scale: 40 } }, { attr: { scale: 0 } });
   });
 }
+
+Splitting();
