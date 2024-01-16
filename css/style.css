@@ -4,8 +4,7 @@
 
 :root {  
  --c1: #184130;
- --c2: #Ece8e3;
- --c3: #184130;   
+ --c2: #ece8e3;   
  --b1: #cf3c4b;
  --b2: #FED049;
  --sizebody:11px;
@@ -290,7 +289,7 @@ p.sub1 {
 }
 
 p.sub2 {
-  color: var(--c3);
+  color: var(--c1);
 }
 
 .grid {
