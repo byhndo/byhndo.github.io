@@ -22,6 +22,8 @@ data() {
     }
 }).mount('#app')  
 
+Splitting();
+
 gsap.set("nav", {
  autoAlpha:0
 });
@@ -258,4 +260,4 @@ function initBt2() {
   });
 }
 
-Splitting();
+
