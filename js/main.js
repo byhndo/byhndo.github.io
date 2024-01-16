@@ -40,15 +40,15 @@ gsap.set("h1 span", {
 });
 gsap.to("h1 span", {
 	delay:4.5,
-	duration:1,
+	duration:.3,
 	opacity: 1,
 	stagger: .1,	
 	y:0,
 	ease:Back.easeOut.config(2.15)
 });
 gsap.to("h1 span", {	
-	duration:1,
-	stagger: .1,
+	duration:.3,
+	stagger:.1,
 	scaleY:1,
 	ease: "Power2.easeOut"
 }, "<+=0.9");
@@ -208,7 +208,7 @@ let revealContainers = container.querySelectorAll(".item");
    });
 
    tl.from(image, {
-    duration: 2,                   
+    duration: 1,                   
     scale: 1.5,                     
     delay: .3,
     ease: "Quad.easeOut"
