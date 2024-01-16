@@ -77,7 +77,6 @@ h7 {
 }
 .header{
  text-align:center;
- min-height:100vh;
  display:grid;
  justify-items:center;
  align-items:center;
@@ -104,7 +103,7 @@ h1 span{
 }
 
 .sub-title{
- margin-top:-100vh;
+ margin-top:-10px;
  margin-bottom:60px;
  letter-spacing: calc(0.3vw + 0.5rem);
  text-align:center;
