@@ -80,7 +80,7 @@ h7 {
 } 
 h1 {
  display: inline;
- font-family: var(--font1);
+ font-family: var(--font1)!important;
  color: var(--c2);
  font-size: var(--sizetitle);
  padding: 0;
