@@ -4,7 +4,7 @@
 @font-face{font-family:proximanova;src:url(../fonts/proximanova.woff) format('woff');font-weight:400;font-style:normal}
 
 :root {  
- --c1: #000;
+ --c1: #184130;
  --c2: #ece8e3;   
  --b1: #cf3c4b;
  --b2: #FED049;
@@ -157,7 +157,7 @@ a:hover, a:active{
 }
 
 .bio, .link-bio{
-  background: var(--c2);
+  background: var(--c1);
   color: var(--c2);
 }
 
