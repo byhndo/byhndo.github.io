@@ -44,9 +44,9 @@ gsap.to("h1 span", {
 	opacity: 1,	
 	y:0,
 	ease:Back.easeOut.config(2.15),
-	scaleY: [8,1],
-	scaleX: [0.5,1],
-	translateY: ['-100%','0%']
+	scaleY:"random(8, 1)",
+	scaleX:"random(0.5,1)",
+	translateY:"random(-100%,0%)"
 });
 gsap.to("h1 span", {	
 	duration:1,
