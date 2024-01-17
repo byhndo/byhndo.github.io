@@ -208,7 +208,7 @@ let revealContainers = container.querySelectorAll(".item");
    tl.from(image, {
     duration: 1,                   
     scale: 1.5,                     
-    delay:.1,
+    delay:.3,
     ease: "Circ.easeOut"
     }, 0);
     });
