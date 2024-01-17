@@ -43,7 +43,10 @@ gsap.to("h1 span", {
 	duration:1,
 	opacity: 1,	
 	y:0,
-	ease:Back.easeOut.config(2.15)
+	ease:Back.easeOut.config(2.15),
+	scaleY: [8,1],
+	scaleX: [0.5,1],
+	translateY: ['-100%','0%']
 });
 gsap.to("h1 span", {	
 	duration:1,
