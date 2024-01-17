@@ -265,9 +265,7 @@ main {
  transform: translateY(3rem);
  opacity: 0;
 }
-h3.one{
- text-align:center!important;
-}
+
 .sub1 {
  color: var(--c2);
 }
@@ -406,7 +404,9 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
 .photos .ln{
  background-color:rgba(0,0,0,.35);
 }
-
+h3.one{
+ text-align:center!important;
+}
 .footer {
  position: relative; 
  display: grid;
