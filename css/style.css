@@ -24,13 +24,6 @@
   width: 1px;
   height: 1px; 
 }
-
-ul, li{
- list-style-type:none;
-}
-li.about{
- list-style-type:decimal;
-}
 html{
   background: var(--c1);
 }
@@ -404,6 +397,14 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
 
 .photos .ln{
  background-color:rgba(0,0,0,.35);
+}
+
+ul, li{
+ list-style-type:none;
+}
+li.about{
+ list-style-type:decimal;
+ text-align:justify;
 }
 
 .footer {
