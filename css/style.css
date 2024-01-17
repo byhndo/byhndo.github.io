@@ -383,6 +383,7 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
  margin-top:0;
  margin-bottom:0;
  opacity:0;
+ text-align:center;
 }
 
 .two{
@@ -404,9 +405,7 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
 .photos .ln{
  background-color:rgba(0,0,0,.35);
 }
-h3.one{
- text-align:center!important;
-}
+
 .footer {
  position: relative; 
  display: grid;
