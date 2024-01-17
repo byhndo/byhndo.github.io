@@ -251,6 +251,7 @@ main {
  max-width:90%;
  padding:70px 0 20px 0;
  margin: 0 auto 0 auto;
+ text-align:center;
 }
 
 .slide-fade-enter-active {
@@ -289,7 +290,7 @@ p.sub2 {
 }
 
 span.prolog {
- font-size:110%;
+ font-size:130%;
  font-family:var(--font3);
  color:#bbb;
  margin:20px 0;
@@ -377,7 +378,6 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
 
 .one, .one span{
  display: inline-block;
- text-align:center;
 }
 
 .one{
