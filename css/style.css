@@ -273,7 +273,8 @@ main {
 
 p.sub1, p.sub2 {
   text-transform: none;
-  text-align:center;
+  text-align:justify;
+  text-align-last: center;
 }
 
 p.sub1 {
