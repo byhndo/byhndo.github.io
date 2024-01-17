@@ -50,8 +50,10 @@ gsap.to("h1 span", {
 });
 gsap.to("h1 span", {	
 	duration:1,
+	scalex:1,
 	scaleY:1,
-	ease:"Circ.easeOut"
+	ease:"Circ.easeOut",
+	translateY:0
 }, "<+=0.9");
 
 gsap.set(".ball", {
