@@ -23,12 +23,12 @@ data() {
 }).mount('#app')  
 
 gsap.set("nav", {
- opacity:0
+ autoAlpha:0
 });
 gsap.to("nav", {
  delay:3,
  duration:3,
- opacity:1,
+ autoAlpha:1,
  ease:Circ.easeOut
 });
 
