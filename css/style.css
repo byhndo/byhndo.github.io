@@ -60,6 +60,7 @@ h2 {
 }
 h3 {
  font-size:25px;
+ text-align:center;
 }
 h4 {
  font-size:20px;
@@ -263,9 +264,7 @@ main {
  transform: translateY(3rem);
  opacity: 0;
 }
-.sub1, .sub2{
- text-align:center;
-}
+
 .sub1 {
  color: var(--c2);
 }
@@ -290,7 +289,6 @@ p.sub2 {
 
 span.prolog {
  font-size:120%;
- font-weight:700;
  font-style:italic;
  font-family:var(--font2);
  text-transform:uppercase;
