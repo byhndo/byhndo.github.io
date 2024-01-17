@@ -5,8 +5,8 @@
 :root {  
  --c1: #232323;
  --c2: #ececec;   
- --b1: #FFD271;
- --b2: #FF6B6B;
+ --b1: #EDC988;
+ --b2: #CD1818;
  --sizebody:12px;
  --sizetitle: calc(23vw + 1rem);
  --sizenav:9.5px;
@@ -269,9 +269,9 @@ main {
 }
 
 p.sub1, p.sub2 {
-  text-transform: none;
+  text-transform:none;
   text-align:justify;
-  text-align-last: center;
+  text-align-last:center;
 }
 
 p.sub1 {
@@ -280,18 +280,6 @@ p.sub1 {
 
 p.sub2 {
   color: var(--c1);
-}
-
-span.prolog {
- font-size:130%;
- font-family:var(--font3);
- color:#888;
- padding:50px 0;
-}
-
-span.prolog b{
- font-weight:700;
- color:#cacaca;
 }
 
 .grid {
@@ -403,7 +391,17 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
 .photos .ln{
  background-color:rgba(0,0,0,.35);
 }
+span.prolog {
+ font-size:130%;
+ font-family:var(--font3);
+ color:#888;
+ padding:50px 0;
+}
 
+span.prolog b{
+ font-weight:700;
+ color:#aaa;
+}
 ul, li{
  list-style-type:none;
 }
