@@ -6,7 +6,7 @@
  --c2: #ececec;   
  --b1: #FED049;
  --b2: #cf3c4b;
- --sizebody:11.5px;
+ --sizebody:12px;
  --sizetitle: calc(23vw + 1rem);
  --sizenav:9.5px;
  --font1:'Thunder', sans-serif;
@@ -56,22 +56,22 @@ h1, h2, h3, h4, h5, h6, h7 {
 }
 
 h2 {
- font-size:32px;
+ font-size:30px;
 }
 h3 {
- font-size:27px;
+ font-size:25px;
 }
 h4 {
- font-size:22px;
+ font-size:20px;
 }
 h5 {
- font-size:17px;
+ font-size:15px;
 }
 h6 {
- font-size:12px;
+ font-size:10px;
 }
 h7 {
- font-size:7px;
+ font-size:5px;
 }
 .header{
  text-align:center;
