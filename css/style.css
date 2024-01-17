@@ -5,8 +5,8 @@
 :root {  
  --c1: #232323;
  --c2: #ececec;   
- --b1: #FFCC70;
- --b2: #B31312;
+ --b1: #FFD271;
+ --b2: #FF6B6B;
  --sizebody:12px;
  --sizetitle: calc(23vw + 1rem);
  --sizenav:9.5px;
@@ -285,7 +285,7 @@ p.sub2 {
 span.prolog {
  font-size:130%;
  font-family:var(--font3);
- color:#aaa;
+ color:#888;
  padding:50px 0;
 }
 
