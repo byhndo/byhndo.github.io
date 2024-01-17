@@ -202,13 +202,13 @@ let revealContainers = container.querySelectorAll(".item");
    clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
    webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
    duration:1,     
-   ease: "Circ.easeOut"
+   ease:"Circ.easeOut"
    });
 
    tl.from(image, {
-    duration: 1,                   
-    scale: 1.5,                     
-    delay:.3,
+    duration:4,                   
+    scale: 1.4,                     
+    delay:-1,
     ease: "Circ.easeOut"
     }, 0);
     });
