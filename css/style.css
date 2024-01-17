@@ -289,8 +289,10 @@ p.sub2 {
 span.prolog {
  font-size:120%;
  font-weight:700;
+ font-style:italic;
  font-family:var(--font2);
  text-transform:uppercase;
+ color:#ccc;
 }
 
 .grid {
