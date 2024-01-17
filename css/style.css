@@ -5,8 +5,8 @@
 :root {  
  --c1: #232323;
  --c2: #ececec;   
- --b1: #e4ac01;
- --b2: #cf3c4b;
+ --b1: #FFBB64;
+ --b2: #D24545;
  --sizebody:12px;
  --sizetitle: calc(23vw + 1rem);
  --sizenav:9.5px;
