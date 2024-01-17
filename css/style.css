@@ -289,6 +289,10 @@ span.prolog {
  margin:30px 0;
 }
 
+span.prolog b{
+ font-weight:700;
+}
+
 .grid {
   --auto-grid-min-size: 10rem;
   display: grid;
