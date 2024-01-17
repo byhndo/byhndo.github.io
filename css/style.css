@@ -266,7 +266,7 @@ main {
  opacity: 0;
 }
 h3.one{
- text-align:center;
+ text-align:center!important;
 }
 .sub1 {
  color: var(--c2);
@@ -294,7 +294,6 @@ span.prolog {
  font-size:110%;
  font-style:italic;
  font-family:var(--font3);
- text-transform:uppercase;
  color:#bbb;
 }
 
