@@ -271,14 +271,6 @@ main {
  color: var(--c1);
 }
 
-span.prolog {
- font-size:120%;
- font-weight:700;
- font-family:var(--font2);
- text-transform:uppercase;
- text-align:center;
-}
-
 p.sub1, p.sub2 {
   text-transform: none;
   text-align:left;
@@ -290,6 +282,14 @@ p.sub1 {
 
 p.sub2 {
   color: var(--c1);
+}
+
+span.prolog {
+ font-size:120%;
+ font-weight:700;
+ font-family:var(--font2);
+ text-transform:uppercase;
+ text-align:center;
 }
 
 .grid {
