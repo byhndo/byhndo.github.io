@@ -41,7 +41,7 @@ gsap.set("h1 span", {
 gsap.to("h1 span", {
 	delay:4.5,
 	opacity:1,
-	scaleY:2,	
+	scaleY:2,
 	ease:Back.easeOut.config(2.15)
 });
 gsap.to("h1 span", {	
@@ -49,7 +49,7 @@ gsap.to("h1 span", {
 	scaleY:1,
 	y:0,
 	ease:"Circ.easeOut"
-}, "<+=0.9");
+});
 
 gsap.set(".ball", {
   scaleY: 1,  
