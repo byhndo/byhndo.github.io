@@ -32,26 +32,25 @@ gsap.to("nav", {
  ease:Circ.easeOut
 });
 
-gsap.set("h1 span", {
-	perspective:500,
-	scaleY:2,
-	y:"random(-100, 100)",	
-	transformOrigin: "10% 50% -50"
+gsap.to("h1 span", {
+ perspective:500,
+ scaleY:0,
+ y:"random(-70, 70)",
+ rotateX: "random(-360, 360)",
+ rotateY: "random(-360, 360)",  
+ transformOrigin: "30% 50% -50"
 });
 gsap.to("h1 span", {
-	delay:4.5,
-	opacity:1,
-	duration:1,
-	stagger:.1,
-	y:0,
-	ease:Back.easeOut.config(2.15)
+ scaleY:2	
 });
 gsap.to("h1 span", {	
-	duration:3,
-	scaleY:1,
-	stagger:.1,
-	y:0,
-	ease:"Circ.easeOut"
+ duration:2.3,
+ opacity: 1,
+ scaleY:1,
+ y:0,
+ rotateX:0,
+ rotateY:0,
+ ease: "Circ.easeOut"	
 });
 
 gsap.set(".ball", {
