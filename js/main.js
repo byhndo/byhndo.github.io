@@ -41,12 +41,15 @@ gsap.set("h1 span", {
 gsap.to("h1 span", {
 	delay:4.5,
 	opacity:1,
-	duration:.3,
+	duration:1,
+	stagger:.1,
+	y:0,
 	ease:Back.easeOut.config(2.15)
 });
 gsap.to("h1 span", {	
 	duration:1,
 	scaleY:1,
+	stagger:.1,
 	y:0,
 	ease:"Circ.easeOut"
 });
@@ -82,7 +85,7 @@ gsap.to(".sub-title span", {
 	opacity: 1,
 	stagger: .1,
 	y:0,
-	ease: Back.easeOut.config(2.15)		
+	ease:Back.easeOut.config(2.15)		
 });
 gsap.to(".sub-title span", {
 	duration: 3,	
