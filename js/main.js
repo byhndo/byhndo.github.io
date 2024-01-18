@@ -35,17 +35,17 @@ gsap.to("nav", {
 gsap.to("h1 span", {
  perspective:500,
  scaleY:0,
- y:"random(-200, 200)",
+ y:"random(-300, 300)",
  transformOrigin: "30% 50% -50"
 });
 gsap.to("h1 span", {
  scaleY:2	
 });
 gsap.to("h1 span", {	
- duration:3,
+ duration:2,
  opacity: 1,
  scaleY:1,
- stagger:.3,
+ stagger:.5,
  y:0,
  ease: "Expo.easeIn"	
 }, "<+=0.2");
