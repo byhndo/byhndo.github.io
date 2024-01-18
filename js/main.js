@@ -38,8 +38,7 @@ gsap.set("h1 span", {
 	y:"random(-100, 100)",	
 	transformOrigin: "10% 50% -50",
 	scaleY:"random(8, 1)",
-	scaleX:"random(0.5,1)",
-	translateY:"random(-100%,0%)"
+	scaleX:"random(0.5,1)"
 });
 gsap.to("h1 span", {
 	delay:4.5,
@@ -51,10 +50,9 @@ gsap.to("h1 span", {
 });
 gsap.to("h1 span", {	
 	duration:1,
+	scaleX:1,
 	scaleY:1,
-	scaleY:1,
-	ease:"Circ.easeOut",
-	translateY:1
+	ease:"Circ.easeOut"
 }, "<+=0.9");
 
 gsap.set(".ball", {
