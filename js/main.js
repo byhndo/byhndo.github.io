@@ -34,14 +34,13 @@ gsap.to("nav", {
 
 gsap.set("h1 span", {
 	perspective:500,
-	scaleY:0,
+	scaleY:2,
 	y:"random(-100, 100)",	
 	transformOrigin: "10% 50% -50"
 });
 gsap.to("h1 span", {
 	delay:4.5,
 	opacity:1,
-	scaleY:2,
 	duration:.3,
 	ease:Back.easeOut.config(2.15)
 });
