@@ -42,12 +42,12 @@ gsap.to("h1 span", {
  scaleY:2	
 });
 gsap.to("h1 span", {	
- duration:2.3,
+ duration:3,
  opacity: 1,
  scaleY:1,
  y:0,
- ease: "Circ.easeOut"	
-}, "<+=0.2");
+ ease: "Expo.easeIn"	
+}, "<+=0.5");
 
 gsap.set(".ball", {
   scaleY: 1,  
