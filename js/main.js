@@ -35,9 +35,7 @@ gsap.to("nav", {
 gsap.to("h1 span", {
  perspective:500,
  scaleY:0,
- y:"random(-70, 70)",
- rotateX: "random(-360, 360)",
- rotateY: "random(-360, 360)",  
+ y:"random(-100, 100)",
  transformOrigin: "30% 50% -50"
 });
 gsap.to("h1 span", {
@@ -48,8 +46,6 @@ gsap.to("h1 span", {
  opacity: 1,
  scaleY:1,
  y:0,
- rotateX:0,
- rotateY:0,
  ease: "Circ.easeOut"	
 }, "<+=0.2");
 
