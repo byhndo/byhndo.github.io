@@ -36,6 +36,7 @@ gsap.to("h1 span", {
  perspective:500,
  scaleY:0,
  y:-500,
+ rotateX:"random(-10, 10)",
  transformOrigin: "30% 50% -50"
 });
 gsap.to("h1 span", {
@@ -46,8 +47,9 @@ gsap.to("h1 span", {
  duration:1,
  opacity:1,
  scaleY:1,
+ rotateX:0,
  y:0,
- ease:"Expo.easeOut"	
+ ease:"Back.easeInOut"	
 });
 
 gsap.set(".ball", {
