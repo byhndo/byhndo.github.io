@@ -39,7 +39,7 @@ gsap.to("h1 span", {
  transformOrigin: "30% 50% -50"
 });
 gsap.to("h1 span", {
- scaleY:6	
+ scaleY:5	
 });
 gsap.to("h1 span", {	
  delay:"random(0, 2)",
