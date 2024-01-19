@@ -40,7 +40,7 @@ gsap.to("h1 span", {
 });
 gsap.to("h1 span", {
  delay:"random(0, 1)",
- duration:.5,
+ duration:1,
  opacity:1,
  y:0,
  scaleY:1,
