@@ -36,11 +36,12 @@ gsap.to("h1 span", {
  perspective:500,
  scaleY:0,
  y:-500,
- transformOrigin: "30% 50% -50"
+ transformOrigin: "30% 50% -50",
+ rotateX: "random(-360, 360)",
+ rotateY: "random(-360, 360)"
 });
 gsap.to("h1 span", {
- scaleY:7,
- rotateX:"random(-180, 180)"
+ scaleY:7
 });
 gsap.to("h1 span", {
  stagger:.2,
@@ -48,6 +49,7 @@ gsap.to("h1 span", {
  opacity:1,
  scaleY:1,
  rotateX:0,
+ rotateY:0,
  y:0,
  ease:"Back.easeInOut"	
 });
