@@ -39,7 +39,7 @@ gsap.to("h1 span", {
  transformOrigin: "30% 50% -50"
 });
 gsap.to("h1 span", {
- scaleY:7	
+ scaleY:6	
 });
 gsap.to("h1 span", {	
  duration:1.5,
