@@ -46,7 +46,7 @@ gsap.to("h1 span", {
  duration:1,
  opacity:1,
  y:0,
- scaleY:0,
+ scaleY:1,
  ease:"Expo.easeIn"	
 });
 
