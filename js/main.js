@@ -39,16 +39,12 @@ gsap.to("h1 span", {
  transformOrigin: "30% 50% -50"
 });
 gsap.to("h1 span", {
- delay:.3
-});
-gsap.to("h1 span", {
- stagger:.2,
  duration:.5,
  opacity:1,
  y:0,
  scaleY:1,
  ease:"Back.easeInOut"	
-});
+}, "=+.3");
 
 gsap.set(".ball", {
   scaleY: 1,  
