@@ -42,10 +42,10 @@ gsap.to("h1 span", {
  scaleY:6	
 });
 gsap.to("h1 span", {	
+ delay:"random(0, 2)",
  duration:1.5,
  opacity:1,
  scaleY:1,
- stagger:.1,
  y:0,
  ease: "Expo.easeOut"	
 }, "<+=0.1");
