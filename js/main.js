@@ -41,13 +41,13 @@ gsap.to("h1 span", {
 gsap.to("h1 span", {
  scaleY:7
 });
-gsap.to("h1 span", {	
+gsap.to("h1 span", {
+ delay:"random(0, .7)",
  duration:1,
  opacity:1,
  scaleY:1,
- stagger:.1,
  y:0,
- ease:"Expo.easeInOut"	
+ ease:"Back.easeInOut"	
 });
 
 gsap.set(".ball", {
