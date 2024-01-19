@@ -34,7 +34,7 @@ gsap.to("nav", {
 
 gsap.to("h1 span", {
  perspective:500,
- y:[-500, 500],
+ y:"random(-500, 500)",
  scaleY:3,
  transformOrigin: "30% 50% -50"
 });
