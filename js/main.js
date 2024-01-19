@@ -47,7 +47,7 @@ gsap.to("h1 span", {
  scaleY:1,
  stagger:.1,
  y:0,
- ease: "Back.easeOut"	
+ ease: "Elastic.easeOut"	
 }, "<+=0.1");
 
 gsap.set(".ball", {
