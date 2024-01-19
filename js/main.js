@@ -42,13 +42,13 @@ gsap.to("h1 span", {
  scaleY:5	
 });
 gsap.to("h1 span", {	
- duration:1,
+ duration:.7,
  opacity:1,
  scaleY:1,
  stagger:.2,
  y:0,
  ease: "Expo.easeOut"	
-}, "<+=0.1");
+});
 
 gsap.set(".ball", {
   scaleY: 1,  
