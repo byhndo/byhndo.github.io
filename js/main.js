@@ -42,7 +42,7 @@ gsap.to("h1 span", {
  scaleY:7
 });
 gsap.to("h1 span", {
- delay:"random(0, .7)",
+ stagger:.2,
  duration:1,
  opacity:1,
  scaleY:1,
