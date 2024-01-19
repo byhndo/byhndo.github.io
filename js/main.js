@@ -42,8 +42,8 @@ gsap.to("h1 span", {
  scaleY:7	
 });
 gsap.to("h1 span", {	
- duration:1,
- opacity: 1,
+ duration:1.5,
+ opacity:1,
  scaleY:1,
  stagger:.1,
  y:0,
