@@ -68,7 +68,8 @@ gsap.to(".ball", {
 gsap.set(".sub-title span", {	     
 	scaleY: 2, 	
 	y: "random(-200, 200)",
-	rotateX:'90deg',
+	rotateX:"90deg",
+	rotateZ:"45deg",
 	transformOrigin: "50% 0% 50%"
 });
 gsap.to(".sub-title span", {
@@ -80,12 +81,13 @@ gsap.to(".sub-title span", {
 	ease:Back.easeOut.config(2.15)		
 });
 gsap.to(".sub-title span", {
-	duration: 3,	
+	duration:1,	
 	stagger:.3,
 	ease: "Back.easeOut",	
 	scaleY: 1,
 	y:0,
-	rotateX:0	
+	rotateX:0,
+	rotateZ:0
 }, "<+=0.2");
 	
 
