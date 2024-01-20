@@ -66,7 +66,7 @@ gsap.to(".ball", {
 }, "<+=0.2");
 
 gsap.set(".sub-title span", {	     
-	scaleY: 2, 	
+	scaleY:0, 	
 	y: "random(-200, 200)",
 	rotateX:"90deg",
 	rotateZ:"45deg",
