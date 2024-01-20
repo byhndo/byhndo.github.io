@@ -73,7 +73,7 @@ gsap.set(".sub-title span", {
 	transformOrigin: "50% 0% 50%"
 });
 gsap.to("sub-title span", {
-	delay:1
+	delay:"random(0, 1)"
 });
 gsap.to(".sub-title span", {
 	opacity:1,
