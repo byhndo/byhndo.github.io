@@ -78,12 +78,12 @@ gsap.to(".sub-title span", {
 	opacity: 1,
 	stagger:.1,
 	y:0,
-	ease:Back.easeOut.config(2.15)		
+	ease:Circ.easeOut.config(2.15)		
 });
 gsap.to(".sub-title span", {
 	duration:1,	
-	stagger:.7,
-	ease: "Back.easeOut",	
+	stagger:.3,
+	ease: "Circ.easeOut",	
 	scaleY: 1,
 	y:0,
 	rotateX:0,
