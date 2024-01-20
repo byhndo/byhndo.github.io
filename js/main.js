@@ -76,12 +76,13 @@ gsap.to(".sub-title span", {
 	delay:4,	
 	opacity: 1,
 	duration:.3, 
+	stagger:.1,
 	y:0,
 	ease:Back.easeOut.config(2.15)		
 });
 gsap.to(".sub-title span", {
 	duration:.3,	
-	stagger:.2,
+	stagger:.1,
 	ease: "Back.easeOut",	
 	scaleY: 1,
 	y:0,
