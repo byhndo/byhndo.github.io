@@ -82,12 +82,12 @@ gsap.to(".sub-title span", {
 gsap.to(".sub-title span", {
 	duration:.3,	
 	stagger:.2,
-	ease: "Circ.easeOut",	
+	ease: "Back.easeOut",	
 	scaleY: 1,
 	y:0,
 	rotateX:0,
 	rotateZ:0
-}, "<+=0.2");
+});
 	
 
 function setupReveal(container) {	
