@@ -63,7 +63,7 @@ gsap.to(".ball", {
   scaleY: 1,
   duration: 2, 
   ease: "Elastic.easeOut"
-}, "<+=0.2");
+}, "<+=.2");
 
 gsap.set(".sub-title span", {	     
 	scaleY:0, 	
@@ -82,7 +82,7 @@ gsap.to(".sub-title span", {
 	y:0,
 	rotateX:0,
 	rotateZ:0
-}, "+=0.2");
+}, "<+=.2");
 	
 
 function setupReveal(container) {	
