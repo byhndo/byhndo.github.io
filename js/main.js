@@ -73,12 +73,12 @@ gsap.set(".sub-title span", {
 	transformOrigin: "50% 0% 50%"
 });
 gsap.to("sub-title span", {
-	delay:4
+	delay:1
 });
 gsap.to(".sub-title span", {
 	opacity:1,
 	duration:1,
-	stagger:.1,
+	stagger:.3,
 	ease: "Back.easeOut",	
 	scaleY: 1,
 	y:0,
