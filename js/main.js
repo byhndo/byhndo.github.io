@@ -84,7 +84,7 @@ gsap.to(".sub-title span", {
 	y:0,
 	rotateX:0,
 	rotateZ:0
-}, "<+=.2");
+});
 	
 
 function setupReveal(container) {	
