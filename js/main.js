@@ -67,11 +67,10 @@ gsap.to(".ball", {
 
 gsap.set(".sub-title span", {	     
 	scaleY: 2, 	
-	x: "random(-10, 10)",
 	y: "random(-200, 200)",
-	rotationX:'90deg',
-        rotationZ:'45deg',
-	transformOrigin: "50% 0%"
+	rotateX:'90deg',
+        rotateZ:'45deg',
+	transformOrigin: "50% 0% 50%"
 });
 gsap.to(".sub-title span", {
 	delay:4,	
@@ -86,9 +85,9 @@ gsap.to(".sub-title span", {
 	stagger: .1,
 	ease: "Elastic.easeOut",	
 	scaleY: 1,
-	x:0,
 	y:0,
-	rotate:0
+	rotateX:0,
+	rotateZ:0
 }, "<+=0.2");
 	
 
