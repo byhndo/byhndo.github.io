@@ -82,7 +82,7 @@ gsap.to(".sub-title span", {
 });
 gsap.to(".sub-title span", {
 	duration:1,	
-	stagger:.3,
+	stagger:.7,
 	ease: "Back.easeOut",	
 	scaleY: 1,
 	y:0,
