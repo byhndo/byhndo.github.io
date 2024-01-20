@@ -72,9 +72,13 @@ gsap.set(".sub-title span", {
 	rotateZ:"45deg",
 	transformOrigin: "50% 0% 50%"
 });
+gsap.to("sub-title span", {
+	delay:4
+});
 gsap.to(".sub-title span", {
 	opacity:1,
-	duration:1,	
+	duration:1,
+	stagger:.1,
 	ease: "Back.easeOut",	
 	scaleY: 1,
 	y:0,
