@@ -125,7 +125,7 @@ h1 span{
  width: calc(3.7vw + .3rem);
  height: calc(3.7vw + .3rem);
  background-color: var(--b1); 
- top: -20%;
+ top: -30%;
  transition: background-color 2.5s;
  border-radius: 50%;
  opacity: 0;
@@ -133,7 +133,6 @@ h1 span{
 }
 
 .photos .ball {
- top: -20%;
  background-color: var(--b2);
 }
 
