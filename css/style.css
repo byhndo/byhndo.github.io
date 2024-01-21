@@ -393,13 +393,13 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
 }
 span.prolog {
  font-size:130%;
- font-family:var(--font3);
- font-weight:400;
+ font-family:var(--font1);
+ font-weight:300;
  color:#878787;
 }
 
 span.prolog b{
- font-weight:700;
+ font-weight:300;
  color:#acacac;
 }
 ul, li{
