@@ -394,12 +394,12 @@ span.prolog {
  font-size:130%;
  font-family:var(--font1);
  font-weight:300;
- color:#878787;
+ color:#818285;
 }
 
 span.prolog b{
  font-weight:300;
- color:#acacac;
+ color:#a1a2a5;
 }
 ul, li{
  list-style-type:none;
