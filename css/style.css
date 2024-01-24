@@ -108,7 +108,6 @@ h1 span{
     font-weight:400;
     text-transform: uppercase;
     transition: color 2.5s;
-    opacity: 0; 
 }
    
 .photos .sub-title{
