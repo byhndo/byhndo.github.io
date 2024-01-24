@@ -65,8 +65,6 @@ gsap.to(".ball", {
   ease: "Elastic.easeOut"
 }, "<+=.2");
 
-import splitType from "https://cdn.skypack.dev/split-type@0.3.3";
-
 const ourText = new splitType('.sub-title', { types: 'chars' })
 const chars = ourText.chars
 
