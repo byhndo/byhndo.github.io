@@ -1,6 +1,3 @@
-console.clear();
-Splitting();	
-
 gsap.registerPlugin(ScrollTrigger, CustomEase, EasePack);
 const {
     createApp,
@@ -114,7 +111,7 @@ tl.to(pl, {
 	 
  const RevealBoxs1 = container.querySelectorAll(".box1");
    RevealBoxs1.forEach((box1) => { 
-    const one = box1.querySelectorAll(".one, .one .char, .photos .one .char");
+    const one = box1.querySelectorAll(".one, .one .char");
     let tl = gsap.timeline({
     scrollTrigger: {
      trigger: box1,
