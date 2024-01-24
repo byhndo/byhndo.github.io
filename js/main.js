@@ -1,5 +1,5 @@
 gsap.registerPlugin(ScrollTrigger, CustomEase, EasePack);
-
+Splitting();
 const {
     createApp,
     ref,
@@ -7,9 +7,6 @@ const {
 } = Vue
 
 createApp({
-	mounted:function(){
-Splitting();	
-},
     methods: {
         afterEnter(el) {
             setupReveal(el);
@@ -112,7 +109,9 @@ tl.to(pl, {
         }); 
 	   
    });
-	   	 	 
+
+
+Splitting();	 
  const RevealBoxs1 = container.querySelectorAll(".box1");
    RevealBoxs1.forEach((box1) => { 
     const one = box1.querySelectorAll(".one, .one .char");
