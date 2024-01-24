@@ -115,7 +115,7 @@ h1 span{
   color:var(--c1);
 }
 
- .sub-title .char{
+.sub-title .char, .photos .sub-title .char{
   opacity:0
  }
 
