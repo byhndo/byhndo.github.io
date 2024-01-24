@@ -65,7 +65,11 @@ gsap.to(".ball", {
   ease: "Elastic.easeOut"
 }, "<+=.2");
 
-gsap.set(".char", {	     
+function fallingText() {
+  const target = document.querySelector(".sub-title");
+  const results = Splitting({ target: target, by: "chars" });
+	
+gsap.set(".sub-title", {	     
 	scaleY:0, 	
 	y: "random(-200, 200)",
 	rotateX:"90deg",
@@ -82,6 +86,8 @@ gsap.to(".char", {
 	rotateX:0,
 	rotateZ:0
 });
+
+fallingText()
 	
 
 function setupReveal(container) {	
