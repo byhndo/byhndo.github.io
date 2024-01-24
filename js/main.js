@@ -68,6 +68,9 @@ gsap.to(".ball", {
 var textWrapper = document.querySelector('.sub-title');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
+gsap.to(".sub-title", {
+  opacity:1
+})
 gsap.set(".sub-title .letter", {
   perspective:400,                  
   x: gsap.utils.random(-30, 30, true),
