@@ -65,7 +65,6 @@ gsap.to(".ball", {
   ease: "Elastic.easeOut"
 }, "<+=.2");
 
-Splitting();
 gsap.set(".sub-title", {	     
 	scaleY:0, 	
 	y: "random(-200, 200)",
@@ -241,4 +240,4 @@ function initBt2() {
   });
 }
 
-
+Splitting();
