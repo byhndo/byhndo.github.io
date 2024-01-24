@@ -65,18 +65,14 @@ gsap.to(".ball", {
   ease: "Elastic.easeOut"
 }, "<+=.2");
 
-function fallingText() {
-  const target = document.querySelector(".sub-title");
-  const results = Splitting({ target: target, by: "chars" });
-	
-gsap.set(".sub-title", {	     
+gsap.set(".char", {	     
 	scaleY:0, 	
 	y: "random(-200, 200)",
 	rotateX:"90deg",
 	rotateZ:"45deg",
 	transformOrigin: "50% 0% 50%"
 });
-gsap.to(".sub-title", {
+gsap.to(".char", {
 	opacity:1,
 	duration:1,
 	stagger:.03,
@@ -86,8 +82,6 @@ gsap.to(".sub-title", {
 	rotateX:0,
 	rotateZ:0
 });
-
-fallingText()
 	
 
 function setupReveal(container) {	
