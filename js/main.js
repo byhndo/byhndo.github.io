@@ -65,7 +65,7 @@ gsap.to(".ball", {
   ease: "Elastic.easeOut"
 }, "<+=.2");
 
-gsap.set(".sub-title", {	     
+gsap.set(".char", {	     
 	scaleY:0, 	
 	y: "random(-200, 200)",
 	rotateX:"90deg",
