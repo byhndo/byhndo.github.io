@@ -91,7 +91,7 @@ h1 .letter{
  opacity:0;
 }
 
-.photos h1, .photos h1 .letter{
+.photos h1{
  color: var(--c1);
 }
 
