@@ -6,7 +6,10 @@ const {
     onMounted
 } = Vue
 
-createApp({	
+createApp({
+	mounted:function(){
+Splitting();	
+},
     methods: {
         afterEnter(el) {
             setupReveal(el);
@@ -16,9 +19,6 @@ createApp({
             el.ctx && el.ctx.revert();
         }
     },	
-mounted:function(){
-Splitting();	
-},
 data() {
         return {
             bg: 'bio'
