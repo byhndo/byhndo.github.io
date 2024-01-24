@@ -120,7 +120,7 @@ h1 .letter{
 
 .ball {
  position:relative;
- display: inline-flex;
+ display: inline;
  width: calc(3.7vw + .3rem);
  height: calc(3.7vw + .3rem);
  background-color: var(--b1); 
