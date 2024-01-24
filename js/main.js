@@ -1,3 +1,5 @@
+Splitting();
+
 gsap.registerPlugin(ScrollTrigger, CustomEase, EasePack);
 const {
     createApp,
