@@ -66,6 +66,9 @@ gsap.to(".ball", {
 }, "<+=.2");
 
 Splitting();
+gsap.to(".sub-title", {
+  opacity:1
+})
 gsap.set(".sub-title .char", {
   perspective:400,                  
   x: gsap.utils.random(-100, 100, true),
