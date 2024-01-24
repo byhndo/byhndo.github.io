@@ -101,6 +101,7 @@ h1 span{
  text-align:center;
  text-align-last:center;
  line-height: 2.2;
+ opacity:0;
 }
 
 .sub-title .letter{
@@ -111,7 +112,7 @@ h1 span{
  font-weight:400;
  text-transform: uppercase;
  transition: color 2.5s;
- opacity:0
+ opacity:0;
 }
    
 .photos .sub-title{
