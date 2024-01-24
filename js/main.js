@@ -65,17 +65,17 @@ gsap.to(".ball", {
   ease: "Elastic.easeOut"
 }, "<+=.2");
 
-gsap.to(".sub-title", {
+gsap.to(".sub-title span", {
   opacity:1
 })
-gsap.set(".sub-title", {
+gsap.set(".sub-title span", {
   perspective:400,                  
   x: gsap.utils.random(-30, 30, true),
   y: gsap.utils.random(-50, -50, true),
   z: gsap.utils.random(0, 50, true),
   rotate: gsap.utils.random(-90,90, true)                    
 });
-gsap.to(".sub-title", {
+gsap.to(".sub-title span", {
   delay:.3,
   duration:1, 
   opacity:1, 
