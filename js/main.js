@@ -65,7 +65,7 @@ gsap.to(".ball", {
   ease: "Elastic.easeOut"
 }, "<+=.2");
 
-const text = new splitType('.sub-title', { types: 'words, chars' })
+const text = new splitType('.sub-title', { types: 'words, chars' });
 
 gsap.set(text.chars, {	     
 	scaleY:0, 	
