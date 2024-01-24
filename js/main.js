@@ -1,3 +1,4 @@
+console.clear();
 Splitting();	
 
 gsap.registerPlugin(ScrollTrigger, CustomEase, EasePack);
