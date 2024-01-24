@@ -68,7 +68,7 @@ gsap.to(".ball", {
 var textWrapper = document.querySelector('.sub-title');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
-gsap.to(".sub-title .letter", {
+gsap.to(".sub-title, .sub-title .letter", {
   opacity:1
 })
 gsap.set(".sub-title .letter", {
