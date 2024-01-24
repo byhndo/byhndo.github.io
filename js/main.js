@@ -65,17 +65,22 @@ gsap.to(".ball", {
   ease: "Elastic.easeOut"
 }, "<+=.2");
 
-gsap.set(".sub-title span", {	     
+import splitType from "https://cdn.skypack.dev/split-type@0.3.3";
+
+const ourText = new splitType('.sub-title', { types: 'chars' })
+const chars = ourText.chars
+
+gsap.set(chars, {	     
 	scaleY:0, 	
 	y: "random(-200, 200)",
 	rotateX:"90deg",
 	rotateZ:"45deg",
 	transformOrigin: "50% 0% 50%"
 });
-gsap.to("sub-title span", {
+gsap.to(chars, {
 	delay:"random(0, 1)"
 });
-gsap.to(".sub-title span", {
+gsap.to(chars, {
 	opacity:1,
 	duration:1,
 	stagger:.3,
