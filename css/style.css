@@ -98,9 +98,9 @@ h1 span{
  margin-top:-80px;
  margin-bottom:60px;
  text-align:center;
+ text-align-last:center;
  line-height: 2.2;
  opacity:0;
- word-wrap:break-word;
 }
 
 .sub-title .letter{
