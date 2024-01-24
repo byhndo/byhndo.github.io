@@ -119,10 +119,7 @@ tl.to(pl, {
      toggleActions: "restart none none none"
      }, delay: .7
      }); 
-
-tl.to(one, {
-  opacity:0	
-})	   
+   
 tl.to(one, {
  perspective:500,
  scaleY:0,
