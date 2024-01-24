@@ -373,6 +373,10 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
  opacity:0;
 }
 
+.photos .one .char{
+ opacity:0;
+}
+
 .two{
  margin-top: var(--marginp);
  margin-bottom: var(--marginp);
