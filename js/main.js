@@ -1,4 +1,6 @@
 gsap.registerPlugin(ScrollTrigger, CustomEase, EasePack);
+Splitting();
+
 const {
     createApp,
     ref,
@@ -21,8 +23,6 @@ data() {
         }
     }
 }).mount('#app')  
-
-Splitting();
 
 gsap.set("nav", {
  autoAlpha:0
