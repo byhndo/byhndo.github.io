@@ -16,6 +16,9 @@ createApp({
             el.ctx && el.ctx.revert();
         }
     },	
+mounted:function(){
+Splitting();	
+},
 data() {
         return {
             bg: 'bio'
@@ -244,4 +247,3 @@ function initBt2() {
   });
 }
 
-Splitting();
