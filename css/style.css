@@ -115,10 +115,6 @@ h1 span{
   color:var(--c1);
 }
 
-.sub-title .char, .photos .sub-title .char{
-  opacity:0
- }
-
 .ball {
  position:relative;
  display: inline-flex;
@@ -364,12 +360,6 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
 
 .one{
  display: inline-block;
- margin-top:0;
- margin-bottom:0;
- opacity:0;
-}
-
-.one .char{
  margin-top:0;
  margin-bottom:0;
  opacity:0;
