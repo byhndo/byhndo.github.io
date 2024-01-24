@@ -77,9 +77,9 @@ gsap.set(".sub-title .char", {
   rotate: gsap.utils.random(-90,90, true)                    
 });
 gsap.to(".sub-title .char", {
-  duration:1, 
+  duration:2, 
   opacity:1, 
-  stagger:.02, 
+  stagger:.03, 
   x:0,
   y:0,
   z:0, 
