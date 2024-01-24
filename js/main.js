@@ -72,9 +72,9 @@ gsap.to(".sub-title", {
 })
 gsap.set(".sub-title .char", {
   perspective:400,                  
-  x: gsap.utils.random(-50, 50, true),
-  y: gsap.utils.random(-50, -100, true),
-  z: gsap.utils.random(0, 200, true),
+  x: gsap.utils.random(-30, 30, true),
+  y: gsap.utils.random(-50, -50, true),
+  z: gsap.utils.random(0, 50, true),
   rotate: gsap.utils.random(-90,90, true)                    
 });
 gsap.to(".sub-title .char", {
