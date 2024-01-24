@@ -101,7 +101,7 @@ h1 span{
  text-align:center;
  line-height: 2.2;
  opacity:0;
- word-break:break-all;
+ word-wrap:break-word;
 }
 
 .sub-title .letter{
