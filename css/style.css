@@ -81,6 +81,7 @@ h1 {
  transition: color 2.5s; 
  line-height:.8;
  opacity:0;
+ word-wrap: break-word;
 }
 
 h1 .letter{
