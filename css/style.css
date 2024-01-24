@@ -83,14 +83,14 @@ h1 {
  line-height:.8;
 }
 
-h1 span{
+h1 .letter{
  position: relative;
  display: inline-block;
  transform-origin: top left;
  opacity:0;
 }
 
-.photos h1 {
+.photos h1, .photos h1 .letter{
  color: var(--c1);
 }
 
