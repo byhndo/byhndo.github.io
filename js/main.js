@@ -32,13 +32,16 @@ gsap.to("nav", {
  ease:Circ.easeOut
 });
 
-gsap.to("h1 span", {
+var textWrapper = document.querySelector('h1');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+gsap.to("h1 .letter", {
  perspective:500,
  y:"random(-500, 500)",
  scaleY:3,
  transformOrigin: "30% 50% -50"
 });
-gsap.to("h1 span", {
+gsap.to("h1 .letter", {
  delay:"random(0, 1)",
  duration:1,
  opacity:1,
