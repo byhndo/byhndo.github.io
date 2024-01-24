@@ -68,14 +68,14 @@ gsap.to(".ball", {
 gsap.to(".sub-title", {
   opacity:1
 })
-gsap.set(".sub-title .char", {
+gsap.set(".sub-title", {
   perspective:400,                  
   x: gsap.utils.random(-30, 30, true),
   y: gsap.utils.random(-50, -50, true),
   z: gsap.utils.random(0, 50, true),
   rotate: gsap.utils.random(-90,90, true)                    
 });
-gsap.to(".sub-title .char", {
+gsap.to(".sub-title", {
   delay:.3,
   duration:1, 
   opacity:1, 
@@ -111,7 +111,7 @@ tl.to(pl, {
 	 
  const RevealBoxs1 = container.querySelectorAll(".box1");
    RevealBoxs1.forEach((box1) => { 
-    const one = box1.querySelectorAll(".one, .one .char");
+    const one = box1.querySelectorAll(".one");
     let tl = gsap.timeline({
     scrollTrigger: {
      trigger: box1,
