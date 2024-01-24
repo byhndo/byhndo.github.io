@@ -67,9 +67,9 @@ gsap.to(".ball", {
 
 	     
 function fallingText() {
-  const target = document.querySelector("#target");
+  const target = document.querySelector("#sub-title");
   const results = Splitting({ target: target, by: "chars" });
-  gsap.set("#target", { perspective: 400 });
+  gsap.set("#sub-title", { perspective: 400 });
   gsap.from(".char", {
     duration: .8,
     opacity: 0,    
