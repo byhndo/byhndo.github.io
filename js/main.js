@@ -6,8 +6,6 @@ const {
     onMounted
 } = Vue
 
-Splitting();
-
 createApp({	
     methods: {
         afterEnter(el) {
@@ -17,7 +15,7 @@ createApp({
         afterLeave(el) {
             el.ctx && el.ctx.revert();
         }
-    },
+    },	
 data() {
         return {
             bg: 'bio'
@@ -246,4 +244,4 @@ function initBt2() {
   });
 }
 
-
+Splitting();
