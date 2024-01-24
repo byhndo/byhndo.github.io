@@ -76,7 +76,7 @@ gsap.set(".sub-title", {
 	rotateZ:"45deg",
 	transformOrigin: "50% 0% 50%"
 });
-gsap.to(".char", {
+gsap.to(".sub-title", {
 	opacity:1,
 	duration:1,
 	stagger:.03,
