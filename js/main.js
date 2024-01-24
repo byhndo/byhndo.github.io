@@ -65,6 +65,9 @@ gsap.to(".ball", {
   ease: "Elastic.easeOut"
 }, "<+=.2");
 
+var textWrapper = document.querySelector('.sub-title');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span>$&</span>");
+
 gsap.to(".sub-title span", {
   opacity:1
 })
@@ -242,8 +245,3 @@ function initBt2() {
     TweenLite.fromTo(dm, 3, { attr: { scale: 40 } }, { attr: { scale: 0 } });
   });
 }
-
-
-var textWrapper = document.querySelector('.sub-title');
-textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span>$&</span>");
-
