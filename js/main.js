@@ -65,20 +65,19 @@ gsap.to(".ball", {
   ease: "Elastic.easeOut"
 }, "<+=.2");
 
-const ourText = new splitType('.sub-title', { types: 'chars' })
-const chars = ourText.chars
+const text = new splitType('.sub-title', { types: 'words, chars' })
 
-gsap.set(chars, {	     
+gsap.set(text.chars, {	     
 	scaleY:0, 	
 	y: "random(-200, 200)",
 	rotateX:"90deg",
 	rotateZ:"45deg",
 	transformOrigin: "50% 0% 50%"
 });
-gsap.to(chars, {
+gsap.to(text.chars, {
 	delay:"random(0, 1)"
 });
-gsap.to(chars, {
+gsap.to(text.chars, {
 	opacity:1,
 	duration:1,
 	stagger:.3,
