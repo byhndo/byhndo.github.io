@@ -75,9 +75,6 @@ gsap.set(text.chars, {
 	transformOrigin: "50% 0% 50%"
 });
 gsap.to(text.chars, {
-	delay:"random(0, 1)"
-});
-gsap.to(text.chars, {
 	opacity:1,
 	duration:1,
 	stagger:.3,
