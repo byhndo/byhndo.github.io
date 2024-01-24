@@ -77,7 +77,9 @@ gsap.to(".sub-title .char", {
   duration:1, 
   opacity:1, 
   stagger:.02, 
-  x:0,y:0,z:0, 
+  x:0,
+  y:0,
+  z:0, 
   rotate:0,
   ease:"Circ.easeOut"
 });	       
