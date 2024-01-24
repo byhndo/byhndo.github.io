@@ -75,7 +75,7 @@ gsap.set(".sub-title", {
 gsap.to(".sub-title", {
 	opacity:1,
 	duration:1,
-	stagger:.3,
+	stagger:.03,
 	ease: "Back.easeOut",	
 	scaleY: 1,
 	y:0,
