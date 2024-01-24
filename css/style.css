@@ -74,7 +74,6 @@ h7 {
  align-items:center;
 } 
 h1 {
- display:block;
  font-family: var(--font1);
  color: var(--c2);
  font-size: var(--sizetitle);
