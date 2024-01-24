@@ -364,6 +364,7 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
 
 .one{
  display: inline-block;
+ opacity:0;
 }
 
 .one .char{
