@@ -34,7 +34,9 @@ gsap.to("nav", {
 
 var textWrapper = document.querySelector('h1');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-
+gsap.to("h1", {
+  opacity:1
+})
 gsap.to("h1 .letter", {
  perspective:500,
  y:"random(-500, 500)",
@@ -70,7 +72,6 @@ gsap.to(".ball", {
 
 var textWrapper = document.querySelector('.sub-title');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-
 gsap.to(".sub-title", {
   opacity:1
 })
