@@ -97,7 +97,6 @@ h1 span{
 .sub-title{
  margin-top:-80px;
  margin-bottom:60px;
- letter-spacing: calc(0.3vw + 0.5rem);
  text-align:center;
  line-height: 2.2;
  opacity:0;
