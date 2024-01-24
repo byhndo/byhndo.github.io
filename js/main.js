@@ -1,12 +1,13 @@
 gsap.registerPlugin(ScrollTrigger, CustomEase, EasePack);
-Splitting();
 
 const {
     createApp,
     ref,
     onMounted
 } = Vue
-	
+
+Splitting();
+
 createApp({	
     methods: {
         afterEnter(el) {
