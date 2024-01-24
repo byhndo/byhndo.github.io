@@ -66,14 +66,14 @@ gsap.to(".ball", {
 }, "<+=.2");
 
 Splitting();
-gsap.set("sub-title", {	     
+gsap.set(".sub-title", {	     
 	scaleY:0, 	
 	y: "random(-200, 200)",
 	rotateX:"90deg",
 	rotateZ:"45deg",
 	transformOrigin: "50% 0% 50%"
 });
-gsap.to("sub-title", {
+gsap.to(".sub-title", {
 	opacity:1,
 	duration:1,
 	stagger:.3,
