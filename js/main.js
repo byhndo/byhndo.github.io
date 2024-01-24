@@ -65,14 +65,14 @@ gsap.to(".ball", {
   ease: "Elastic.easeOut"
 }, "<+=.2");
 
-gsap.set(".sub-title", {	     
+gsap.set(".sub-title .char", {	     
 	scaleY:0, 	
 	y: "random(-200, 200)",
 	rotateX:"90deg",
 	rotateZ:"45deg",
 	transformOrigin: "50% 0% 50%"
 });
-gsap.to(".sub-title", {
+gsap.to(".sub-title .char", {
 	opacity:1,
 	duration:1,
 	stagger:.03,
