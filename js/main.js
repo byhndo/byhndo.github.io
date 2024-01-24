@@ -1,3 +1,5 @@
+Splitting();
+
 gsap.registerPlugin(ScrollTrigger, CustomEase, EasePack);
 const {
     createApp,
@@ -65,7 +67,6 @@ gsap.to(".ball", {
   ease: "Elastic.easeOut"
 }, "<+=.2");
 
-Splitting();
 gsap.to(".sub-title", {
   opacity:1
 })
@@ -120,7 +121,6 @@ tl.to(pl, {
      }, delay: .7
      }); 
 
-Splitting();
 tl.to(one, {
  perspective:500,
  scaleY:0,
