@@ -362,13 +362,17 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
  opacity:0;
 }
 
-.one, .one span{
+.one{
  display: inline-block;
 }
 
 .one{
  margin-top:0;
  margin-bottom:0;
+ opacity:0;
+}
+
+.one .char{
  opacity:0;
 }
 
