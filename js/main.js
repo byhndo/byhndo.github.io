@@ -39,10 +39,11 @@ gsap.to("h1 span", {
 gsap.to("h1 span", {
  duration:1,
  opacity:1,
+ stagger:.5,
  y:0,
  scaleY:1,
  ease:"Quad.easeOut"	
-}, "<+=.5");
+});
 
 gsap.set(".ball", {
   scaleY: 1,  
