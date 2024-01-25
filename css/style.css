@@ -99,8 +99,10 @@ h1 span{
  margin-top:-80px;
  margin-bottom:60px;
  text-align:center;
+ text-align-last:center;
  line-height: 2.2;
  word-spacing: calc(0.3vw + 0.5rem);
+ letter-spacing: calc(0.3vw + 0.5rem);
 }
 
 .sub-title span{
@@ -390,7 +392,7 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
 .photos .ln{
  background-color:rgba(0,0,0,.35);
 }
-span.quote {
+.sub1 span.quote {
  font-size:140%;
  font-family:var(--font1);
  font-weight:300;
@@ -400,7 +402,7 @@ span.quote {
  font-style:italic;
 }
 
-span.quote b{
+.sub1 span.quote b{
  font-weight:300;
  color:#a1a2a5;
 }
