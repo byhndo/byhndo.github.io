@@ -398,7 +398,7 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
  font-family:var(--font1);
  font-weight:300;
  color:#818285;
- margin:20px 0;
+ margin:30px 0;
  padding:10px 0;
  font-style:italic;
 }
@@ -407,6 +407,7 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
  font-weight:300;
  color:#a1a2a5;
 }
+
 ul, li{
  list-style-type:none;
 }
