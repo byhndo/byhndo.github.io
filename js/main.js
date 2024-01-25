@@ -32,18 +32,13 @@ gsap.to("nav", {
  ease:Circ.easeOut
 });
 
-var textWrapper = document.querySelector('h1');
-textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-gsap.to("h1", {
-  opacity:1
-})
-gsap.to("h1 .letter", {
+gsap.to("h1 span", {
  perspective:500,
  y:"random(-500, 500)",
  scaleY:3,
  transformOrigin: "30% 50% -50"
 });
-gsap.to("h1 .letter", {
+gsap.to("h1 span", {
  delay:"random(0, 1)",
  duration:1,
  opacity:1,
@@ -70,19 +65,15 @@ gsap.to(".ball", {
   ease: "Elastic.easeOut"
 }, "<+=.2");
 
-var textWrapper = document.querySelector('.sub-title');
-textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-gsap.to(".sub-title", {
-  opacity:1
-})
-gsap.set(".sub-title .letter", {
+
+gsap.set(".sub-title span", {
   perspective:400,                  
   x: gsap.utils.random(-30, 30, true),
   y: gsap.utils.random(-50, -50, true),
   z: gsap.utils.random(0, 50, true),
   rotate: gsap.utils.random(-90,90, true)                    
 });
-gsap.to(".sub-title .letter", {
+gsap.to(".sub-title span", {
   delay:.3,
   duration:1, 
   opacity:1, 
