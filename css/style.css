@@ -80,7 +80,6 @@ h1 {
  padding: 0;
  transition: color 2.5s; 
  line-height:.8;
- opacity:0;
  word-wrap: break-word;
 }
 
@@ -101,7 +100,6 @@ h1 span{
  text-align:center;
  text-align-last:center;
  line-height: 2.2;
- opacity:0;
 }
 
 .sub-title span{
@@ -364,6 +362,9 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
 
 .one{
  display: inline-block;
+}
+
+.one span{
  margin-top:0;
  margin-bottom:0;
  opacity:0;
