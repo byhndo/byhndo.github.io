@@ -395,6 +395,8 @@ span.quote {
  font-family:var(--font1);
  font-weight:300;
  color:#818285;
+ margin:20px 0;
+ padding:10px 0;
 }
 
 span.quote b{
