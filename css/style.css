@@ -99,8 +99,8 @@ h1 span{
  margin-top:-80px;
  margin-bottom:60px;
  text-align:center;
- text-align-last:center;
  line-height: 2.2;
+ word-spacing: calc(0.3vw + 0.5rem);
 }
 
 .sub-title span{
