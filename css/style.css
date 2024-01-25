@@ -115,13 +115,13 @@ h1 span{
  opacity:0;
 }
    
-.photos .sub-title{
+.photos .sub-title span{
   color:var(--c1);
 }
 
 .ball {
  position:relative;
- display: inline;
+ display: inline-block;
  width: calc(3.7vw + .3rem);
  height: calc(3.7vw + .3rem);
  background-color: var(--b1); 
