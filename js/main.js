@@ -33,19 +33,16 @@ gsap.to("nav", {
 });
 
 gsap.to("h1 span", {
- perspective:500,
  y:"random(-500, 500)",
- scaleY:3,
- transformOrigin: "30% 50% -50"
+ scaleY:3
 });
 gsap.to("h1 span", {
- stagger:.05,
  duration:1,
  opacity:1,
  y:0,
  scaleY:1,
  ease:"Back.easeOut"	
-}, "<+=.2");
+}, "<+=.5");
 
 gsap.set(".ball", {
   scaleY: 1,  
