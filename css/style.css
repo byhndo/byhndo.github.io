@@ -391,7 +391,7 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
  background-color:rgba(0,0,0,.35);
 }
 span.quote {
- font-size:130%;
+ font-size:140%;
  font-family:var(--font1);
  font-weight:300;
  color:#818285;
