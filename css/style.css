@@ -390,14 +390,14 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
 .photos .ln{
  background-color:rgba(0,0,0,.35);
 }
-span.prolog {
+span.quote {
  font-size:130%;
  font-family:var(--font1);
  font-weight:300;
  color:#818285;
 }
 
-span.prolog b{
+span.quote b{
  font-weight:300;
  color:#a1a2a5;
 }
