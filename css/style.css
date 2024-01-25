@@ -392,7 +392,7 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
 .photos .ln{
  background-color:rgba(0,0,0,.35);
 }
-.sub1 span.quote {
+p.sub1 span.quote {
  font-size:140%;
  font-family:var(--font1);
  font-weight:300;
@@ -402,7 +402,7 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
  font-style:italic;
 }
 
-.sub1 span.quote b{
+p.sub1 span.quote b{
  font-weight:300;
  color:#a1a2a5;
 }
