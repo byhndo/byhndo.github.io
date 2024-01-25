@@ -33,15 +33,16 @@ gsap.to("nav", {
 });
 
 gsap.to("h1 span", {
- y:"random(-500, 500)",
+ y:-500,
  scaleY:3
 });
 gsap.to("h1 span", {
  duration:1,
  opacity:1,
+ stagger:.1,
  y:0,
  scaleY:1,
- ease:"Back.easeOut"	
+ ease:"Quad.easeOut"	
 }, "<+=.5");
 
 gsap.set(".ball", {
