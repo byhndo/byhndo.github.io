@@ -403,7 +403,7 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
  padding:10px 0;
 }
 
-.quote b{
+.quote span{
  font-size:120%;
  color:#a1a2a5;
 }
