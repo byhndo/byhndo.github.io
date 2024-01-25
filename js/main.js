@@ -135,6 +135,7 @@ tl.to(one, {
  y:0,
  rotateX:0,
  rotateY:0,
+ stagger: .03,
  ease: "Circ.easeOut"	
 });
 
