@@ -101,7 +101,7 @@ h1 span{
  text-align:center;
  text-align-last:center;
  line-height: 2.2;
- word-spacing: calc(0.3vw + 0.5rem);
+ letter-spacing: calc(0.3vw + 0.5rem);
 }
 
 .sub-title span{
