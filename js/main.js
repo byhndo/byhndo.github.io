@@ -26,7 +26,7 @@ gsap.set("nav", {
  autoAlpha:0
 });
 gsap.to("nav", {
- delay:3,
+ delay:4,
  duration:3,
  autoAlpha:1,
  ease:Circ.easeOut
