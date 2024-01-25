@@ -404,6 +404,7 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
 }
 
 .quote span{
+ font-family:var(--font2);
  font-size:120%;
  color:#a1a2a5;
 }
