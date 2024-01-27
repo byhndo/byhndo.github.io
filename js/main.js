@@ -34,16 +34,16 @@ gsap.to("nav", {
 
 gsap.to("h1 span", {
  perspective: 1000,
- transformOrigin: '50% 100%',
+ transformOrigin: '50% -50',
  y:-100,
- rotateX:90
+ rotationX:90
 });
 gsap.to("h1 span", {
  duration:.7,
  opacity:1,
  stagger:.07,
  y:0,
- rotateX:0,
+ rotationX:0,
  ease:"Expo.easeInOut"	
 });
 
