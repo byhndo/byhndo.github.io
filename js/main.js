@@ -33,20 +33,20 @@ gsap.to("nav", {
 });
 
 gsap.to("h1 span", {
- y:-700,
+ y:-100,
  rotateZ:90
 });
 gsap.to("h1 span", {
- duration:.3,
- opacity:.5
-});
-gsap.to("h1 span", {
- duration:1.5,
- opacity:1,
+ duration:1,
+ opacity:.7,
  stagger:.1,
  y:0,
  rotateZ:0,
- ease:"Elastic.easeOut"	
+ ease:"Cubic.easeOut"	
+});
+gsap.to("h1 span", {
+ duration:.3,
+ opacity:1
 });
 
 gsap.set(".ball", {
