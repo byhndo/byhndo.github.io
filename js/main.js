@@ -40,7 +40,7 @@ gsap.to("h1 span", {
  opacity:1,
  stagger:.07,
  rotateZ:0,
- ease:"Expo.easeInOut"	
+ ease:"Cubic.easeInOut"	
 });
 
 gsap.set(".ball", {
