@@ -11,7 +11,7 @@
  --b1: #ffc712;
  --b2: #EB455F;
  --sizebody:12px;
- --sizetitle: calc(17vw + 1rem);
+ --sizetitle: calc(15vw + 1rem);
  --sizenav:9.5px;
  --font1:'Teko', sans-serif;
  --font2:'Figtree', sans-serif;
@@ -85,7 +85,7 @@ h1 {
  padding: 0;
  transition: color 2.5s; 
  line-height:.8;
- word-break:keep-all; 
+ text-transform:uppercase;
 }
 
 h1 span{
