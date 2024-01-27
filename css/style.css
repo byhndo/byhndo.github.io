@@ -20,7 +20,7 @@
  --spacingnav:calc(.1vw + -.01rem); 
  --fwnav:400;
  --fwtitle:400;
- --fwfooter:300;
+ --fwfooter:400;
 }
 .svg-filters {
   position: absolute;
@@ -209,7 +209,7 @@ nav {
  left: 0;
  right: 0;
  z-index: 10000;
- font-family: var(--font1);
+ font-family: var(--font2);
  visibility:hidden;
  opacity:0;
 }
