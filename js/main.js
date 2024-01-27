@@ -33,15 +33,17 @@ gsap.to("nav", {
 });
 
 gsap.set("h1 span", {
+ perspective: 1000,
+ transformOrigin: '50% 100%',
  y:-100,
- rotateY:"random(-50, 50)"
+ rotateX:"random(-100, 100)"
 });
 gsap.to("h1 span", {
  duration:.7,
  opacity:1,
  stagger:.07,
  y:0,
- rotateY:0,
+ rotateX:0,
  ease:"Expo.easeInOut"	
 });
 
