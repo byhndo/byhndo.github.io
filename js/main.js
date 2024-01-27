@@ -38,7 +38,7 @@ gsap.set("h1 span", {
  rotateZ:"random(-50, 50)"
 });
 gsap.to("h1 span", {
- duration:1,
+ duration:.7,
  autoAlpha:1,
  stagger:.1,
  y:0,
