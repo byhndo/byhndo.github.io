@@ -33,7 +33,7 @@ gsap.to("nav", {
 });
 
 gsap.to("h1 span", {
- y:"-100%",
+ yPercent:"-100%",
  scaleY:8,
  scaleX:0.5
 });
@@ -41,7 +41,7 @@ gsap.to("h1 span", {
  duration:.8,
  opacity:1,
  stagger:.05,
- y:0,
+ yPercent:0,
  scaleY:1,
  scaleX:1,
  ease:"Quint.easeInOut"	
