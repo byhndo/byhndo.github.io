@@ -36,14 +36,14 @@ gsap.to("h1 span", {
  perspective: 1000,
  transformOrigin: '50% 100%',
  y:-100,
- rotationX:"random(-100, 100)"
+ rotateX:90
 });
 gsap.to("h1 span", {
  duration:.7,
  opacity:1,
  stagger:.07,
  y:0,
- rotationX:0,
+ rotateX:0,
  ease:"Expo.easeInOut"	
 });
 
