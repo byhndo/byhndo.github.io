@@ -11,13 +11,13 @@
  --b1: #ffc712;
  --b2: #EB455F;
  --sizebody:12px;
- --sizetitle: calc(10vw + 1rem);
+ --sizetitle:10vw;
  --sizenav:9px;
  --font1:'Anton', sans-serif;
  --font2:'Figtree', sans-serif;
  --font3:'Special Elite', serif;
  --marginp:20px;
- --spacingnav:calc(.3vw + -.01rem); 
+ --spacingnav:-.3vw; 
  --fwnav:400;
  --fwtitle:400;
  --fwfooter:400;
@@ -55,19 +55,16 @@ h1, h2, h3, h4, h5, h6, h7 {
 }
 
 h2 {
- font-size:27px;
+ font-size:23px;
 }
 h3 {
- font-size:22px;
+ font-size:18px;
 }
 h4 {
- font-size:17px;
+ font-size:13px;
 }
 h5 {
- font-size:12px;
-}
-h6 {
- font-size:7px;
+ font-size:8px;
 }
 .header{
  text-align:center;
@@ -84,7 +81,7 @@ h1 {
  transition: color 2.5s; 
  line-height:.8;
  text-transform:uppercase;
- letter-spacing: calc(0.3vw + 0.5rem);
+ letter-spacing:-0.3vw;
 }
 
 h1 span{
