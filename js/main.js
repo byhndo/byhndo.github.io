@@ -38,7 +38,7 @@ gsap.set("h1 span", {
 });
 gsap.to("h1 span", {
  delay:"random(0, .7)",
- duration:"random(.8, 1)",
+ duration:"random(.6, .8)",
  opacity:1,
  stagger:.05,
  y:0,
