@@ -33,7 +33,7 @@ gsap.to("nav", {
 });
 
 gsap.to("h1 span", {
- perspective: 1000,
+ perspective:500,
  transformOrigin: '50% -50',
  y:-100,
  rotationX:90
