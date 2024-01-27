@@ -32,7 +32,7 @@ gsap.to("nav", {
  ease:Circ.easeOut
 });
 
-gsap.to("h1 span", {
+gsap.set("h1 span", {
  perspective:500,
  transformOrigin: '50% -50',
  y:-100,
