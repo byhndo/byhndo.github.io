@@ -12,12 +12,12 @@
  --b2: #EB455F;
  --sizebody:12px;
  --sizetitle: calc(10vw + 1rem);
- --sizenav:9.5px;
+ --sizenav:9px;
  --font1:'Anton', sans-serif;
  --font2:'Figtree', sans-serif;
  --font3:'Special Elite', serif;
  --marginp:20px;
- --spacingnav:calc(.1vw + -.01rem); 
+ --spacingnav:calc(.3vw + -.01rem); 
  --fwnav:400;
  --fwtitle:400;
  --fwfooter:400;
