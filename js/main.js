@@ -36,11 +36,11 @@ gsap.set("h1 span", {
  rotateZ:90,
 });
 gsap.to("h1 span", {
- duration:.7,
+ duration:1,
  opacity:1,
- stagger:.07,
+ stagger:.05,
  rotateZ:0,
- ease:"Cubic.easeInOut"	
+ ease:"Elastic.easeOut"	
 });
 
 gsap.set(".ball", {
