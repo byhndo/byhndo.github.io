@@ -33,7 +33,7 @@ gsap.to("nav", {
 });
 
 gsap.to("h1 span", {
- y:"-100%,
+ y:"-100%",
  scaleY:8,
  scaleX:0.5
 });
