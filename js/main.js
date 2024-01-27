@@ -40,7 +40,7 @@ gsap.to("h1 span", {
 gsap.to("h1 span", {
  duration:.8,
  opacity:1,
- stagger:.1,
+ stagger:.5,
  y:0,
  scaleY:1,
  scaleX:1,
