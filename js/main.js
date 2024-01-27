@@ -35,15 +35,15 @@ gsap.to("nav", {
 gsap.set("h1 span", {
  y:-100,
  autoAlpha:0,
- rotateX:20
+ rotateY:20
 });
 gsap.to("h1 span", {
  duration:1,
  autoAlpha:1,
  stagger:.1,
  y:0,
- rotateX:0,
- ease:"Circ.easeOut"	
+ rotateY:0,
+ ease:"Expo.easeOut"	
 });
 
 gsap.set(".ball", {
