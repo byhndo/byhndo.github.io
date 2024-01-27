@@ -35,25 +35,28 @@ gsap.to("nav", {
 gsap.set("h1 span", {
  y:-100,
  autoAlpha:0,
+ rotateZ:20
 });
 gsap.to("h1 span", {
  duration:1,
  autoAlpha:1,
  stagger:.1,
  y:0,
+ rotateZ:0,
  ease:"Circ.easeOut"	
 });
 
 gsap.set(".ball", {
-  scaleY: 1,  
-  transformOrigin: "center bottom"
+ scaleY: 1,  
+ autoAlpha:0,
+ transformOrigin: "center bottom"
 });	
 gsap.to(".ball", {
  delay:4.5, 
  duration:.7,
  top:0,  
  scaleY: 2,
- opacity: 1,
+ autoAlpha:1,
  ease: Back.easeOut.config(2.15)	
 });
 gsap.to(".ball", {
@@ -64,7 +67,8 @@ gsap.to(".ball", {
 
 
 gsap.set(".sub-title span", {
-  perspective:400,                  
+  autoAlpha:0,
+  perspective:400, 
   x: gsap.utils.random(-30, 30, true),
   y: gsap.utils.random(-50, -50, true),
   z: gsap.utils.random(0, 50, true),
@@ -73,7 +77,7 @@ gsap.set(".sub-title span", {
 gsap.to(".sub-title span", {
   delay:.3,
   duration:1, 
-  opacity:1, 
+  autoAlpha:1, 
   stagger:.03, 
   x:0,
   y:0,
@@ -115,6 +119,9 @@ tl.to(pl, {
      }); 
 
 tl.to(one, {
+autoAlpha:0		   
+})	   
+tl.to(one, {
  perspective:500,
  scaleY:0,
  y:"random(-70, 70)",
@@ -127,7 +134,7 @@ tl.to(one, {
 });
 tl.to(one, {	
  duration:2.3,
- opacity: 1,
+ autoAlpha:1,
  scaleY:1,
  y:0,
  rotateX:0,
@@ -148,11 +155,12 @@ const RevealBoxs2 = container.querySelectorAll(".box2");
   }, delay: .7
   });                      
                                        
-tl.set(two, {			
+tl.set(two, {
+ autoAlpha:0,
  y: "-2.5rem"
 });
 tl.to(two, {
- opacity:1,
+ autoAlpha:1,
  duration:1,	
  y:0,	
  ease:"Circ.easeOut"
