@@ -37,6 +37,10 @@ gsap.to("h1 span", {
  rotateZ:90
 });
 gsap.to("h1 span", {
+ duration:.3,
+ opacity:.5
+});
+gsap.to("h1 span", {
  duration:.7,
  opacity:1,
  stagger:.1,
