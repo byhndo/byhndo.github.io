@@ -20,6 +20,7 @@
  --spacingnav:calc(.1vw + -.01rem); 
  --fwnav:400;
  --fwtitle:400;
+ --fwfooter:300;
 }
 .svg-filters {
   position: absolute;
@@ -428,7 +429,7 @@ li.about{
  margin: 23px 0 -14px 0;
  text-align: center;
  font-family: var(--font2);
- font-weight: var(--fwnav);
+ font-weight: var(--fwfooter);
 }
 
 .footer span {
@@ -446,12 +447,12 @@ li.about{
 }
 
 .footer span a{
- font-weight:var(--fwnav);     
+ font-weight:var(--fwfooter);     
 }
 
 .footer span.fc {
  font-size:9px;
- font-weight: var(--fwnav);
+ font-weight: var(--fwfooter);
 }
 @media(min-width:500px){
   main{
