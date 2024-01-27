@@ -40,7 +40,7 @@ gsap.set("h1 span", {
 gsap.to("h1 span", {
  duration:.7,
  autoAlpha:1,
- stagger:.1,
+ stagger:.07,
  y:0,
  rotateZ:0,
  ease:"Expo.easeOut"	
