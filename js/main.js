@@ -35,14 +35,14 @@ gsap.to("nav", {
 gsap.set("h1 span", {
  y:-100,
  autoAlpha:0,
- rotateY:20
+ rotateZ:"random(-50, 50)"
 });
 gsap.to("h1 span", {
  duration:1,
  autoAlpha:1,
  stagger:.1,
  y:0,
- rotateY:0,
+ rotateZ:0,
  ease:"Expo.easeOut"	
 });
 
