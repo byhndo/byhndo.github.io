@@ -34,7 +34,6 @@ gsap.to("nav", {
 
 gsap.set("h1 span", {
  y:"-100%",
- rotateZ:-50
 });
 gsap.to("h1 span", {
  delay:"random(0, .5)",
@@ -42,8 +41,7 @@ gsap.to("h1 span", {
  opacity:1,
  stagger:.05,
  y:0,
- rotateZ:0,
- ease:"Circ.easeOut"	
+ ease:"Quint.easeOut"	
 });
 
 gsap.set(".ball", {
