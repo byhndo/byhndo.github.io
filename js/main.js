@@ -32,19 +32,16 @@ gsap.to("nav", {
  ease:Circ.easeOut
 });
 
-gsap.to("h1 span", {
+gsap.set("h1 span", {
  y:-100,
-});
-gsap.to("h1 span", {
- duration:.3,
- opacity:.5
+ autoAlpha:0,
 });
 gsap.to("h1 span", {
  duration:1,
- opacity:1,
+ autoAlpha:1,
  stagger:.1,
  y:0,
- ease:"Quint.easeOut"	
+ ease:"Circ.easeOut"	
 });
 
 gsap.set(".ball", {
