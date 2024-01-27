@@ -33,11 +33,12 @@ gsap.to("nav", {
 });
 
 gsap.set("h1 span", {
- y:"-50%",
- rotateZ:-90
+ y:"-300%",
+ rotateZ:"random(-50, 50)"
 });
 gsap.to("h1 span", {
- duration:1,
+ delay:"random(0, .7)",
+ duration:"random(.8, 1)",
  opacity:1,
  stagger:.05,
  y:0,
