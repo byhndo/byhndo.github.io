@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
@@ -13,13 +13,13 @@
  --sizebody:12px;
  --sizetitle: calc(15vw + 1rem);
  --sizenav:9.5px;
- --font1:'Teko', sans-serif;
+ --font1:'Anton', sans-serif;
  --font2:'Figtree', sans-serif;
  --font3:'Special Elite', serif;
  --marginp:20px;
  --spacingnav:calc(.1vw + -.01rem); 
  --fwnav:300;
- --fwtitle:800;
+ --fwtitle:400;
 }
 .svg-filters {
   position: absolute;
