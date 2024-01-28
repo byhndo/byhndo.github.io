@@ -31,9 +31,6 @@ gsap.to("nav", {
  autoAlpha:1,
  ease:Circ.easeOut
 });
-gsap.to("nav a", {
- scaleY:1.5
-});
 
 gsap.set("h1 span", {
  y:"-100%",
