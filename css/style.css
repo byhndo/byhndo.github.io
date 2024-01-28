@@ -51,16 +51,16 @@ h1, h2, h3, h4, h5, h6, h7 {
 }
 
 h2 {
- font-size:27px;
+ font-size:35px;
 }
 h3 {
- font-size:22px;
+ font-size:30px;
 }
 h4 {
- font-size:17px;
+ font-size:25px;
 }
 h5 {
- font-size:12px;
+ font-size:20px;
 }
 .header{
  text-align:center;
@@ -123,6 +123,9 @@ h1 span{
  width: calc(3vw + .3rem);
  height: calc(3vw + .3rem);
  background-color: var(--b1); 
+ background:url("../img/texture.png");
+ background-repeat:center center;
+ background-size:50% 50%;
  top: -30%;
  transition: background-color 2.5s;
  border-radius: 50%;
