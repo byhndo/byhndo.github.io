@@ -123,7 +123,7 @@ h1 span{
  width: calc(3vw + .3rem);
  height: calc(3vw + .3rem);
  background-color: var(--b1); 
- background:url("/img/texture.png");
+ background-image:url("/img/texture.png");
  background-repeat:repeat;
  background-position: center center;
  background-size:50% 50%;
