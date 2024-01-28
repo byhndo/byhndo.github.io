@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Road+Rage&display=swap');
-
-
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 :root {  
@@ -9,14 +7,14 @@
  --b1: #ffc712;
  --b2: #EB455F;
  --sizebody:12px;
- --sizetitle:17vw;
+ --sizetitle:20vw;
  --sizenav:9px;
  --font1:'Road Rage', sans-serif;
  --font2:'Figtree', sans-serif;
  --font3:'Special Elite', serif;
  --marginp:20px;
- --spacingnav:-.3vw; 
- --fwnav:400;
+ --spacingnav:-.1vw; 
+ --fwnav:500;
  --fwtitle:400;
  --fwfooter:400;
 }
@@ -53,16 +51,16 @@ h1, h2, h3, h4, h5, h6, h7 {
 }
 
 h2 {
- font-size:23px;
+ font-size:27px;
 }
 h3 {
- font-size:18px;
+ font-size:22px;
 }
 h4 {
- font-size:13px;
+ font-size:17px;
 }
 h5 {
- font-size:8px;
+ font-size:12px;
 }
 .header{
  text-align:center;
@@ -79,6 +77,7 @@ h1 {
  transition: color 2.5s; 
  line-height:.8;
  letter-spacing:-0.3vw;
+ text-transform:uppercase;
 }
 
 h1 span{
