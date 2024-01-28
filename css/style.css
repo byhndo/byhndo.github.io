@@ -13,7 +13,7 @@
  --font2:'Figtree', sans-serif;
  --font3:'Special Elite', serif;
  --marginp:20px;
- --spacingnav:.1vw; 
+ --spacingnav:.3vw; 
  --fwnav:600;
  --fwtitle:400;
  --fwfooter:400;
@@ -122,10 +122,6 @@ h1 span{
  display: inline-block;
  width: calc(3vw + .3rem);
  height: calc(3vw + .3rem);
- background-image:url("/img/texture.png");
- background-repeat:repeat;
- background-position: center center;
- background-size:50% 50%;
  background-color: var(--b1); 
  top: -30%;
  transition: background-color 2.5s;
