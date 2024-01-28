@@ -31,17 +31,20 @@ gsap.to("nav", {
  autoAlpha:1,
  ease:Circ.easeOut
 });
+gsap.to("nav a", {
+ scaleY:1.5
+});
 
 gsap.set("h1 span", {
  y:"-100%",
 });
 gsap.to("h1 span", {
  delay:"random(0, .5)",
- duration:"random(.5, .7)",
+ duration:"random(1, 2)",
  opacity:1,
  stagger:.05,
  y:0,
- ease:"Back.easeOut"	
+ ease:"Elastic.easeOut"	
 });
 
 gsap.set(".ball", {
