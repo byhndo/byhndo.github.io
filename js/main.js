@@ -37,11 +37,11 @@ gsap.set("h1 span", {
 });
 gsap.to("h1 span", {
  delay:"random(0, .5)",
- duration:"random(1, 2)",
+ duration:"random(.7, 1)",
  opacity:1,
  stagger:.05,
  y:0,
- ease:"Elastic.easeOut"	
+ ease:"Expo.easeOut"	
 });
 
 gsap.set(".ball", {
