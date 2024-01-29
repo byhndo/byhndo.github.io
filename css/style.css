@@ -103,7 +103,7 @@ h1 span{
 
 .sub-title span{
  display:inline-block;
- font-size:.7vw;
+ font-size:1.7vw;
  font-family: var(--font2);
  color: var(--c2);
  font-weight:400;
