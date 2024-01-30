@@ -14,9 +14,9 @@
  --font3:'Special Elite', serif;
  --marginp:20px;
  --spacingnav:.9vw; 
- --fwnav:400;
+ --fwnav:300;
  --fwtitle:400;
- --fwfooter:400;
+ --fwfooter:300;
 }
 .svg-filters {
   position: absolute;
@@ -33,7 +33,7 @@ body {
  color: var(--c2);
  font-size: var(--sizebody);
  font-weight:300;
- line-height:1.5;
+ line-height:1.6;
  word-wrap: break-word;
  text-rendering: optimizeLegibility !important;
  -webkit-font-smoothing: antialiased !important;
