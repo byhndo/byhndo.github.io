@@ -377,7 +377,7 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
 
 .ln{
  display:block;
- margin-top:-10px;
+ margin-top:-15px;
  width:0;
  height:.3px;
  background-color:rgba(255,255,255,.35);
