@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-
 @import url('https://fonts.googleapis.com/css2?family=Road+Rage&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 :root {  
  --c1: #23232a;
  --c2: #eee;   
@@ -36,7 +33,7 @@ body {
  color: var(--c2);
  font-size: var(--sizebody);
  font-weight:300;
- line-height:1.6;
+ line-height:1.5;
  word-wrap: break-word;
  text-rendering: optimizeLegibility !important;
  -webkit-font-smoothing: antialiased !important;
@@ -109,7 +106,7 @@ h1 span{
  font-size:9px;
  font-family: var(--font2);
  color: var(--c2);
- font-weight:400;
+ font-weight:300;
  text-transform: uppercase;
  transition: color 2.5s;
  opacity:0;
