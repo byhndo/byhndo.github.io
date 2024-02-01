@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Road+Rage&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 :root {  
- --c1: #23232a;
- --c2: #dbdadb;   
- --b1: #ffc712;
- --b2: #EB455F;
+ --c1: #dbdadc;
+ --c2: #23232a;   
+ --b1: #EB455F;
+ --b2: #ffc712;
  --sizebody:12px;
  --sizetitle:23vw;
  --sizenav:9px;
@@ -391,7 +391,7 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
  font-size:150%;
  font-family:var(--font3);
  font-weight:400;
- color:#818285;
+ color:inherit;
  margin:30px auto;
  max-width:70%;
 }
@@ -400,7 +400,7 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
  font-family:var(--font2);
  font-style:italic;
  font-size:70%;
- color:#a1a2a5;
+ color:inherit;
 }
 
 ul, li{
