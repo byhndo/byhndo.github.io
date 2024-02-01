@@ -379,13 +379,13 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
  margin-top:-15px;
  width:0;
  height:.3px;
- background-color:rgba(255,255,255,.35);
+ background-color:rgba(0,0,0,.35);
  opacity: 0;
  z-index: 1000;
 }
 
 .photos .ln{
- background-color:rgba(0,0,0,.35);
+ background-color:rgba(255,255,255,.35);
 }
 .quote {
  font-size:150%;
