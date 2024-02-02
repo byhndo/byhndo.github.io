@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:ital,wght@0,1;0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,1;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
 
 
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -12,7 +12,7 @@
  --sizebody:12px;
  --sizetitle:24vw;
  --sizenav:9px;
- --font1:'Alumni Sans', sans-serif;
+ --font1:'Sofia Sans Extra Condensed', sans-serif;
  --font2:'Figtree', sans-serif;
  --font3:'Special Elite', serif;
  --marginp:20px;
