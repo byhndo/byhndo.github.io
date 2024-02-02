@@ -78,6 +78,7 @@ h1 {
  line-height:.8;
  letter-spacing:-0.3vw;
  font-weight:var(--fwtitle);
+ text-transform:uppercase;
 }
 
 h1 span{
