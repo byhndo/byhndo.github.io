@@ -1,5 +1,8 @@
-document.addEventListener("DOMContentLoaded", function(event) {
-window.addEventListener("load", function(e) {
+$(document).ready(function(){
+$(window).on("load", function(){
+window.requestAnimationFrame(function() {
+
+
 $('#preloader').delay(350).fadeOut('slow');
 
 	
@@ -249,7 +252,8 @@ function initBt2() {
 
 
 
-}, false);
+});    
+  });  
 });
 
 	
