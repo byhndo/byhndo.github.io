@@ -454,7 +454,7 @@ li.about{
    font-size:calc(16vw + 1rem);
   }
  .sub-title{
-  margin-top:100px;
+  margin-top:-100px;
  }
  .ball{
    width: calc(2.3vw + .3rem);
