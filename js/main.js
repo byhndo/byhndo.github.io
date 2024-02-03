@@ -1,3 +1,4 @@
+$(window).on('load', function() {
 $('#preloader').delay(350).fadeOut('slow');
 window.addEventListener("load", function(e) {
 
@@ -250,3 +251,4 @@ function initBt2() {
 
 }, false);
 
+});
