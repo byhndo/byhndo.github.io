@@ -1,6 +1,6 @@
-$('#preloader').delay(350).fadeOut('slow');
 	
 document.addEventListener("DOMContentLoaded", function(event) {
+$('#preloader').delay(350).fadeOut('slow');
 window.addEventListener("load", function(e) {
 
 gsap.registerPlugin(ScrollTrigger, CustomEase, EasePack);
