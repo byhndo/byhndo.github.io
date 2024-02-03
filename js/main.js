@@ -128,7 +128,7 @@ tl.to(one, {
  scaleY:2	
 });
 tl.to(one, {	
- duration:"random(1, 2)",
+ duration:2,
  opacity:1,
  scaleY:1,
  y:0,
