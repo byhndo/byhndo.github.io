@@ -19,7 +19,7 @@
  --fwfooter:300;
 }
 #preloader {
- display:flex;
+ display:grid;
     position:fixed;
     top:0;
     left:0;
