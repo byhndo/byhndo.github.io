@@ -19,6 +19,7 @@
  --fwfooter:300;
 }
 #preloader {
+ display:grid;
     position:fixed;
     top:0;
     left:0;
@@ -31,10 +32,13 @@
     background-size: cover;
     height:100vh;
     z-index:99999999999999; 
- self-place:center;
 }
-.load{
+svg.load{
  color:#fff;
+ align-items: center;
+  display: flex;
+  justify-content: center;
+ align-self: center;
 }
 .svg-filters {
   position: absolute;
