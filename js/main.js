@@ -1,3 +1,8 @@
+document.addEventListener("DOMContentLoaded", function(event) {
+window.addEventListener("load", function(e) {
+
+
+
 gsap.registerPlugin(ScrollTrigger, CustomEase, EasePack);
 const {
     createApp,
@@ -239,3 +244,11 @@ function initBt2() {
     TweenLite.fromTo(dm, 3, { attr: { scale: 40 } }, { attr: { scale: 0 } });
   });
 }
+
+
+
+
+}, false);
+});
+
+	
