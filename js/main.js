@@ -1,5 +1,12 @@
+$(window).on('load', function() {
+	
 $('#preloader').delay(350).fadeOut('slow');
 $('body').delay(550).css({'overflow':'visible'});
+
+});
+
+
+
 	
 document.addEventListener("DOMContentLoaded", function(event) {
 window.addEventListener("load", function(e) {
