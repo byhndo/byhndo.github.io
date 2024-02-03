@@ -1,5 +1,5 @@
-document.addEventListener("DOMContentLoaded", function(event) {
-window.addEventListener("load", function(e) {	
+window.addEventListener("load", function(e) {
+$('#preloader').delay(0).fadeOut('slow');
 
 	
 gsap.registerPlugin(ScrollTrigger, CustomEase, EasePack);
@@ -246,7 +246,6 @@ function initBt2() {
 }
 
 
-$('#preloader').delay(350).fadeOut('slow');
+
 
 }, false);
-});
