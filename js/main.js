@@ -134,7 +134,7 @@ tl.to(one, {
  y:0,
  rotateX:0,
  rotateY:0,
- ease: "Expo.easeOut"	
+ ease: "Circ.easeOut"	
 });
 
 });
