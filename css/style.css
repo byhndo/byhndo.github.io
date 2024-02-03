@@ -25,11 +25,7 @@
     left:0;
     right:0;
     bottom:0;
-     background: #000 ; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+     background: #000; 
     height:100vh;
     z-index:99999999999999; 
 }
