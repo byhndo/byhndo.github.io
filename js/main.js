@@ -28,9 +28,13 @@ data() {
     }
 }).mount('#app')  
 
-
-$('#preloader').delay(350).fadeOut('slow');
-
+gsap.set("#preloader", {
+	autoAlpha:1
+})
+gsap.to("#preloader", {
+	duration:1,
+	autoAlpha:0
+})	
 	
 gsap.set("nav", {
  autoAlpha:0
