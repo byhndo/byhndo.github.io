@@ -1,9 +1,9 @@
 $(document).ready(function(){
 $(window).on("load", function(){
+$('#preloader').delay(350).fadeOut('slow');
+
 window.requestAnimationFrame(function() {
 
-
-$('#preloader').delay(350).fadeOut('slow');
 
 	
 gsap.registerPlugin(ScrollTrigger, CustomEase, EasePack);
