@@ -32,6 +32,9 @@
     height:100vh;
     z-index:99999999999999; 
 }
+.load{
+ color:#fff;
+}
 .svg-filters {
   position: absolute;
   visibility: hidden;
