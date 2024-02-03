@@ -1,4 +1,4 @@
-$("#preloader").fadeTo(1000).fadeOut(1000);
+$('#preloader').delay(0).fadeOut('slow');
 
 
 document.addEventListener("DOMContentLoaded", function(event) {
