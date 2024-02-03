@@ -18,6 +18,20 @@
  --fwtitle:400;
  --fwfooter:300;
 }
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+     background: #000 ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:100vh;
+    z-index:99999999999999; 
+}
 .svg-filters {
   position: absolute;
   visibility: hidden;
