@@ -3,14 +3,15 @@ gsap.registerPlugin(ScrollTrigger, CustomEase, EasePack);
 
 
 
+
+document.addEventListener("DOMContentLoaded", function(event) {
+
 gsap.to("#preloader", {
  delay:.5,
  opacity:0,
  duration:.5
-});
-
-document.addEventListener("DOMContentLoaded", function(event) {
-window.addEventListener("load", function(e) {
+});	
+	window.addEventListener("load", function(e) {
 
 
 
