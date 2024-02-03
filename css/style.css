@@ -29,6 +29,9 @@
     height:100vh;
     z-index:99999999999999; 
 }
+.loader {
+  place-self:center;
+}
 .bar {
   display: inline-block;
   width: 3px;
