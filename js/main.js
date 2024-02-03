@@ -112,7 +112,7 @@ tl.to(pl, {
     scrollTrigger: {
      trigger: box1,
      toggleActions: "restart none none none"
-     }, delay:0
+     }, delay:.7
      }); 
 
    
