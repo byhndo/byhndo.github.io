@@ -1,8 +1,5 @@
-$(document).ready(function(){
-$(window).on("load", function(){
-$('#preloader').delay(350).fadeOut('slow');
-
-window.requestAnimationFrame(function() {
+document.addEventListener("DOMContentLoaded", function(event) {
+window.addEventListener("load", function(e) {
 
 
 	
@@ -31,6 +28,10 @@ data() {
     }
 }).mount('#app')  
 
+
+$('#preloader').delay(350).fadeOut('slow');
+
+	
 gsap.set("nav", {
  autoAlpha:0
 });
@@ -252,8 +253,5 @@ function initBt2() {
 
 
 
-});    
-  });  
+}, false);
 });
-
-	
