@@ -1,4 +1,4 @@
-$("#preloader").fadeTo(5000,1).fadeOut(1000);
+$("#preloader").fadeTo(1000).fadeOut(1000);
 
 
 document.addEventListener("DOMContentLoaded", function(event) {
