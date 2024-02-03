@@ -1,6 +1,5 @@
 $(window).on('load', function() {
 $('#preloader').delay(350).fadeOut('slow');
-window.addEventListener("load", function(e) {
 
 	
 gsap.registerPlugin(ScrollTrigger, CustomEase, EasePack);
@@ -249,6 +248,6 @@ function initBt2() {
 
 
 
-}, false);
+
 
 });
