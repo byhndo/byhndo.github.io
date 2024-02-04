@@ -29,10 +29,46 @@
     height:100vh;
     z-index:99999999999999; 
 }
-svg#load{
+.loader > div{
  place-self:center;
- color:#fff;
+    background-color: #fff;
+    width: 4px;
+    height: 35px;
+    border-radius: 2px;
+    margin: 2px 0.5px;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    display: inline-block;
+    -webkit-animation: loader .9s -.6s infinite cubic-bezier(.85,.25,.37,.85);
+    animation: loader .9s -.6s infinite cubic-bezier(.85,.25,.37,.85);
 }
+
+.loader > div:nth-child(1), .loader > div:nth-child(5) {
+    -webkit-animation-delay: -.2s!important;
+    animation-delay: -.2s!important;
+}
+
+.loader > div:nth-child(2), .loader > div:nth-child(4) {
+    -webkit-animation-delay: -.4s!important;
+    animation-delay: -.4s!important;
+}
+
+@keyframes loader{
+    0% {
+        -webkit-transform: scaley(1);
+        transform: scaley(1);
+    }
+    50% {
+        -webkit-transform: scaley(0.4);
+        transform: scaley(0.4);
+    }
+    100% {
+        -webkit-transform: scaley(1);
+        transform: scaley(1);
+    }
+}
+
+
 
 .svg-filters {
   position: absolute;
