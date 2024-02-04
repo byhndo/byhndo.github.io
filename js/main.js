@@ -27,6 +27,7 @@ data() {
 }).mount('#app')  
 
 gsap.to("#preloader", {
+ autoAlpha:0,
  opacity:0,
  duration:.5
 });
