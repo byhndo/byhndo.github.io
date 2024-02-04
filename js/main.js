@@ -3,7 +3,6 @@ gsap.registerPlugin(ScrollTrigger, CustomEase, EasePack);
 
 document.addEventListener("DOMContentLoaded", function(event) {
 window.addEventListener("load", function(e) {
-$('#preloader').delay(5).fadeOut('slow');
 
 let loading = document.querySelector(".loader");
 let letters = loading.textContent.split("");
@@ -13,7 +12,10 @@ letters.forEach((letter, i) => {
   span.textContent = letter;
   span.style.animationDelay = `${i / 5}s`;
   loading.append(span);
-});	
+});		
+		
+$('#preloader').delay(5).fadeOut('slow');
+
 
 
 
