@@ -30,7 +30,7 @@
     z-index:99999999999999; 
 }
 svg#load{
- self-place:center;
+ place-self:center;
  color:#fff;
 }
 
