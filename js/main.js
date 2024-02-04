@@ -28,7 +28,7 @@ data() {
 
 gsap.to("#preloader", {
  opacity:0,
- duration:.3
+ duration:.5
 });
 
 	
