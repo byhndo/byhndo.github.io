@@ -1,18 +1,7 @@
-
-gsap.registerPlugin(ScrollTrigger, CustomEase, EasePack);
-
-
 document.addEventListener("DOMContentLoaded", function(event) {
 window.addEventListener("load", function(e) {
-gsap.to("#preloader", {
- opacity:0,
- duration:.3
-});
-	
-		
 
-
-
+gsap.registerPlugin(ScrollTrigger, CustomEase, EasePack);
 
 const {
     createApp,
@@ -36,6 +25,12 @@ data() {
         }
     }
 }).mount('#app')  
+
+gsap.to("#preloader", {
+ opacity:0,
+ duration:.3
+});
+
 	
 gsap.set("nav", {
  autoAlpha:0
