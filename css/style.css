@@ -29,24 +29,9 @@
     height:100vh;
     z-index:99999999999999; 
 }
-.loader{
-  color: white;
-  letter-spacing: 1rem;
-  font-size: 1.1rem;
-  font-family: Figtree, sans-serif;
-  text-transform: uppercase;  
+svg#load{
  self-place:center;
 }
-.loader span {
-    animation: blur 1.5s alternate infinite;
-}
-
-@keyframes blur {
-  to {
-    filter: blur(5px);
-  }
-}
-
 
 .svg-filters {
   position: absolute;
