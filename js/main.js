@@ -5,6 +5,15 @@ document.addEventListener("DOMContentLoaded", function(event) {
 window.addEventListener("load", function(e) {
 $('#preloader').delay(5).fadeOut('slow');
 
+let loading = document.querySelector(".loader");
+let letters = loading.textContent.split("");
+loading.textContent = "";
+letters.forEach((letter, i) => {
+  let span = document.createElement("span");
+  span.textContent = letter;
+  span.style.animationDelay = `${i / 5}s`;
+  loading.append(span);
+});	
 
 
 
