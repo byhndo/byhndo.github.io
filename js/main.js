@@ -233,7 +233,7 @@ function initBt1() {
     tl = gsap.timeline({paused:true}); 
     tl.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 10, y: isFF ? e.offsetY : e.offsetY + 10, width: 0, height: 0 } });	    
     tl.to(turb, { duration:3, attr: { x: '-=300', y: '-=300',  width: 600, height: 600 } });    
-    tl.fromTo(dm, { attr: { scale: 30 }}, { attr: { scale: 0}, duration:2 });
+    tl.fromTo(dm, { attr: { scale: 20 }}, { attr: { scale: 0}, duration:2 });
     tl.restart();
   });
 }
@@ -248,7 +248,7 @@ function initBt2() {
    tl = gsap.timeline({paused:true}); 
     tl.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 10, y: isFF ? e.offsetY : e.offsetY + 10, width: 0, height: 0 } });	    
     tl.to(turb, { duration:3, attr: { x: '-=300', y: '-=300',  width: 600, height: 600 } });    
-    tl.fromTo(dm, { attr: { scale: 30 }}, { attr: { scale: 0}, duration:2 });
+    tl.fromTo(dm, { attr: { scale: 20 }}, { attr: { scale: 0}, duration:2 });
     tl.restart();
   });
 }
