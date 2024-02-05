@@ -132,14 +132,14 @@ function initBthome() {
   var dm = document.querySelectorAll('#filter-ripple-home feDisplacementMap')[0];
   
     bt.addEventListener('click', function(e) {
-    gsap.set(turb, { 
-     attr: { x: isFF ? e.offsetX : e.offsetX + 10, y: isFF ? e.offsetY : e.offsetY + 10, width: 0, height: 0 } }, 0);
+    TweenLite.set(turb, { 
+     attr: { x: isFF ? e.offsetX : e.offsetX + 10, y: isFF ? e.offsetY : e.offsetY + 10, width: 0, height: 0 } });
 	    
-    gsap.to(turb, { 
+    TweenLite.to(turb, { 
      duration:5, 
-     attr: { x: '-=300', y: '-=300',  width: 600, height: 600 } }, 0);
+     attr: { x: '-=300', y: '-=300',  width: 600, height: 600 } });
     
-    gsap.fromTo(dm, { attr: { scale: 70 }}, { attr: { scale: 0}, duration:3 }, 0);
+    TweenLite.fromTo(dm, { attr: { scale: 70 }}, { attr: { scale: 0}, duration:3 });
 	
 });
 }
