@@ -33,10 +33,12 @@
 <style>	
 html, body{
  background:#23232a;	
-display:grid;
 }
 main{
-place-self:center;		
+display:grid;		
+}
+.c{
+place-self:center;
 }
 .box{	
    font-size:52vw;
@@ -97,7 +99,8 @@ place-self:center;
     </style>
   </head>
 <body> 
-	<main>
+	<main>	
+		<div class="c">
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
 						<defs>
 							<filter id="filter-ripple-home">
@@ -109,7 +112,7 @@ place-self:center;
 						</defs>
 </svg>			
 <div class="box">4<div id="component-1" class="button--1" style="filter: url('#filter-ripple-home')"></div>4</div>				
-
+		</div>
 	</main>	
 <script src="js/tweenmax.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
