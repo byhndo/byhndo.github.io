@@ -131,8 +131,9 @@ function initBthome() {
   var turb = document.querySelectorAll('#filter-ripple-home feImage')[0];
   var dm = document.querySelectorAll('#filter-ripple-home feDisplacementMap')[0];
 
-	tl = gsap.timeline(); 
-    bt.addEventListener('click', function(e) {
+	tl = gsap.timeline({paused:true}); 
+    bt.addEventListener('click', function(e) {=> {
+  tl.restart();
    
 
 tl.set(turb, { 
