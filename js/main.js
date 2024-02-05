@@ -231,10 +231,10 @@ function initBt1() {
   
   bt.addEventListener('click', function(e) {
     tl = gsap.timeline({paused:true}); 
-    tl.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 10, y: isFF ? e.offsetY : e.offsetY + 10, width: 0, height: 0 } });	    
-    tl.to(turb, { duration:3, attr: { x: '-=300', y: '-=300',  width: 600, height: 600 } }, 0);    
-    tl.fromTo(dm, { attr: { scale: 30 }}, { attr: { scale: 0}, duration:2 });
-    tl.restart();
+    tl.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 10, y: isFF ? e.offsetY : e.offsetY + 10, width: 0, height: 0 } });
+    tl.to(turb, 3, { attr: { x: '-=300', y: '-=300', width: 600, height: 600 } }, 0);
+    tl.fromTo(dm, 2, { attr: { scale: 30 } }, { attr: { scale: 0 } }, 0);
+    tl.restart();;
   });
 }
 
@@ -245,10 +245,10 @@ function initBt2() {
   var dm = document.querySelectorAll('#filter-ripple-2 feDisplacementMap')[0];
   
   bt.addEventListener('click', function(e) {
-   tl = gsap.timeline({paused:true}); 
-    tl.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 10, y: isFF ? e.offsetY : e.offsetY + 10, width: 0, height: 0 } });	    
-    tl.to(turb, { duration:3, attr: { x: '-=300', y: '-=300',  width: 600, height: 600 } }, 0);    
-    tl.fromTo(dm, { attr: { scale: 30 }}, { attr: { scale: 0}, duration:2 });
+    tl = gsap.timeline({paused:true}); 
+    tl.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 10, y: isFF ? e.offsetY : e.offsetY + 10, width: 0, height: 0 } });
+    tl.to(turb, 3, { attr: { x: '-=300', y: '-=300', width: 600, height: 600 } }, 0);
+    tl.fromTo(dm, 2, { attr: { scale: 30 } }, { attr: { scale: 0 } }, 0);
     tl.restart();
   });
 }
