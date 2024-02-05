@@ -32,6 +32,9 @@
  <link rel="stylesheet" href="../css/style.css">
 </head>
 <body> 	
+<script>
+  $('html, body').css({ 'overflow': 'hidden', 'height': '100%' })
+</script>
 <div id="preloader">
 <div class="loader">
     <div></div>
@@ -264,5 +267,8 @@ Sebenernya sih kalimat di atas lebih tepatnya cuma sebagai pembelaan diri saya s
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/CustomEase.min.js"></script>
 <script src="js/vue.js"></script>
 <script src="js/main.js"></script>
+<script>
+  $('html, body').removeAttr('style')
+</script>
 </body>
 </html>
