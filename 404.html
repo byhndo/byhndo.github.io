@@ -132,7 +132,7 @@ function initBthome() {
   var dm = document.querySelectorAll('#filter-ripple-home feDisplacementMap')[0];
 
 	tl = gsap.timeline({paused:true}); 
-    bt.addEventListener('click', function(e) => {
+    bt.addEventListener('click', function(e) {
   
 tl.set(turb, { 
      attr: { x: isFF ? e.offsetX : e.offsetX + 10, y: isFF ? e.offsetY : e.offsetY + 10, width: 0, height: 0 } });
