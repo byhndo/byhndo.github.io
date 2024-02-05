@@ -137,9 +137,9 @@ function initBthome() {
 	    
     gsap.to(turb, { 
      duration:5, 
-     attr: { x: '-=300', y: '-=300',  width: 600, height: 600 } });
+     attr: { x: '-=300', y: '-=300',  width: 600, height: 600 } }, 0);
     
-    gsap.fromTo(dm, { attr: { scale: 70 }}, { attr: { scale: 0}, duration:3 });
+    gsap.fromTo(dm, { attr: { scale: 70 }}, { attr: { scale: 0}, duration:3 }, 0);
 	
 });
 }
