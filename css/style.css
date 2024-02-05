@@ -28,6 +28,7 @@
      background: #000; 
     height:100vh;
     z-index:99999999999999; 
+ overflow-y: hidden;
 }
 .loader{
   place-self:center;
