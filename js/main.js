@@ -253,8 +253,11 @@ function initBt2() {
 
 
 
-$('html, body').removeAttr('style');
-	
+$('html, body').css({
+  'overflow': 'auto',
+  'height': 'auto'
+})
 
+	
 }, false);
 });
