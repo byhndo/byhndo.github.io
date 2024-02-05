@@ -91,6 +91,7 @@ body {
  text-rendering: optimizeLegibility !important;
  -webkit-font-smoothing: antialiased !important;
  overflow:hidden;
+ height:100%;
 }
 
 *, *:before, *:after {
