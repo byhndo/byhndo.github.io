@@ -233,8 +233,8 @@ function initBt1() {
   bt.addEventListener('click', function(e) {
     tl = gsap.timeline({paused:true}); 
     tl.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 10, y: isFF ? e.offsetY : e.offsetY + 10, width: 0, height: 0 } });
-    tl.to(turb, 5, { attr: { x: '-=300', y: '-=300', width: 600, height: 600 } });
-    tl.fromTo(dm, 3, { attr: { scale: 40 } }, { attr: { scale: 0 } });
+    tl.to(turb, 3, { attr: { x: '-=300', y: '-=300', width: 600, height: 600 } });
+    tl.fromTo(dm, 2, { attr: { scale: 30 } }, { attr: { scale: 0 } });
   tl.restart();
   });
 }
@@ -248,8 +248,8 @@ function initBt2() {
   bt.addEventListener('click', function(e) {
    tl = gsap.timeline({paused:true}); 
     tl.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 10, y: isFF ? e.offsetY : e.offsetY + 10, width: 0, height: 0 } });
-    tl.to(turb, 5, { attr: { x: '-=300', y: '-=300', width: 600, height: 600 } });
-    tl.fromTo(dm, 3, { attr: { scale: 40 } }, { attr: { scale: 0 } });
+    tl.to(turb, 3, { attr: { x: '-=300', y: '-=300', width: 600, height: 600 } });
+    tl.fromTo(dm, 2, { attr: { scale: 30 } }, { attr: { scale: 0 } });
   tl.restart();
   });
 }
