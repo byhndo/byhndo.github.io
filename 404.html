@@ -131,19 +131,12 @@ function initBthome() {
   var turb = document.querySelectorAll('#filter-ripple-home feImage')[0];
   var dm = document.querySelectorAll('#filter-ripple-home feDisplacementMap')[0];
 
-	bt.addEventListener('click', function(e) {
-  
+	bt.addEventListener('click', function(e) { 
 	tl = gsap.timeline({paused:true}); 
     
-tl.set(turb, { 
-     attr: { x: isFF ? e.offsetX : e.offsetX + 10, y: isFF ? e.offsetY : e.offsetY + 10, width: 0, height: 0 } });
-	    
-tl.to(turb, { 
-     duration:5, 
-     attr: { x: '-=300', y: '-=300',  width: 600, height: 600 } });
-    
-tl.fromTo(dm, { attr: { scale: 70 }}, { attr: { scale: 0}, duration:3 }, 0);
-
+        tl.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 10, y: isFF ? e.offsetY : e.offsetY + 10, width: 0, height: 0 } });	    
+        tl.to(turb, { duration:5, attr: { x: '-=300', y: '-=300',  width: 600, height: 600 } });    
+        tl.fromTo(dm, { attr: { scale: 70 }}, { attr: { scale: 0}, duration:3 }, 0);
 
 tl.restart();
 	     
