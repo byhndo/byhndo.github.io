@@ -71,8 +71,6 @@
     }
 }
 
-
-
 .svg-filters {
   position: absolute;
   visibility: hidden;
@@ -92,6 +90,7 @@ body {
  word-wrap: break-word;
  text-rendering: optimizeLegibility !important;
  -webkit-font-smoothing: antialiased !important;
+ overflow:hidden;
 }
 
 *, *:before, *:after {
