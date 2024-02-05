@@ -216,7 +216,6 @@ let revealContainers = container.querySelectorAll(".item");
 
 }
 
-
 var isSafari = /constructor/i.test(window.HTMLElement);
 var isFF = !!navigator.userAgent.match(/firefox/i);
 
@@ -232,10 +231,10 @@ function initBt1() {
   
   bt.addEventListener('click', function(e) {
     tl = gsap.timeline({paused:true}); 
-    tl.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 10, y: isFF ? e.offsetY : e.offsetY + 10, width: 0, height: 0 } });
-    tl.to(turb, 3, { attr: { x: '-=300', y: '-=300', width: 600, height: 600 } });
-    tl.fromTo(dm, 2, { attr: { scale: 30 } }, { attr: { scale: 0 } });
-  tl.restart();
+    tl.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 10, y: isFF ? e.offsetY : e.offsetY + 10, width: 0, height: 0 } });	    
+    tl.to(turb, { duration:3, attr: { x: '-=300', y: '-=300',  width: 600, height: 600 } });    
+    tl.fromTo(dm, { attr: { scale: 30 }}, { attr: { scale: 0}, duration:2 });
+    tl.restart();
   });
 }
 
@@ -247,21 +246,17 @@ function initBt2() {
   
   bt.addEventListener('click', function(e) {
    tl = gsap.timeline({paused:true}); 
-    tl.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 10, y: isFF ? e.offsetY : e.offsetY + 10, width: 0, height: 0 } });
-    tl.to(turb, 3, { attr: { x: '-=300', y: '-=300', width: 600, height: 600 } });
-    tl.fromTo(dm, 2, { attr: { scale: 30 } }, { attr: { scale: 0 } });
-  tl.restart();
+    tl.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 10, y: isFF ? e.offsetY : e.offsetY + 10, width: 0, height: 0 } });	    
+    tl.to(turb, { duration:3, attr: { x: '-=300', y: '-=300',  width: 600, height: 600 } });    
+    tl.fromTo(dm, { attr: { scale: 30 }}, { attr: { scale: 0}, duration:2 });
+    tl.restart();
   });
 }
-
-
-
 
 $('html, body').css({
   'overflow': 'auto',
   'height': 'auto'
 })
-
 	
 }, false);
 });
