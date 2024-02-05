@@ -253,5 +253,8 @@ function initBt2() {
 
 
 
+$('html, body').removeAttr('style');
+	
+
 }, false);
 });
