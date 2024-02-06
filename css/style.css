@@ -94,7 +94,7 @@ body {
  font-family: var(--font2);
  color: var(--c2);
  font-size: var(--sizebody);
- font-weight:400;
+ font-weight:300;
  line-height:1.6;
  word-wrap: break-word;
  text-rendering: optimizeLegibility !important;
@@ -489,7 +489,7 @@ li.about{
 
 .footer span {
  color: var(--c2);
- font-size:9px;
+ font-size:var(--sizenav);
  text-decoration: none;
 }
 
@@ -506,7 +506,7 @@ li.about{
 }
 
 .footer span.fc {
- font-size:9px;
+ font-size:var(--sizenav);
  font-weight: var(--fwfooter);
 }
 @media(min-width:500px){
