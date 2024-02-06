@@ -23,9 +23,9 @@
  --font3:'Special Elite', serif;
  --marginp:20px;
  --spacingnav:.9vw; 
- --fwnav:300;
+ --fwnav:500;
  --fwtitle:400;
- --fwfooter:300;
+ --fwfooter:500;
 }
 #preloader {
  display:grid;
