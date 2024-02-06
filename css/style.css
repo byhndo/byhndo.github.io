@@ -27,6 +27,7 @@
  --spacingnav:.9vw; 
  --fwnav:400;
  --fwtitle:400;
+ --fwbody:400;
  --fwfooter:400;
 }
 #preloader {
@@ -96,7 +97,7 @@ body {
  font-family: var(--font2);
  color: var(--c2);
  font-size: var(--sizebody);
- font-weight:300;
+ font-weight:var(--fwbody);
  line-height:1.6;
  word-wrap: break-word;
  text-rendering: optimizeLegibility !important;
@@ -454,6 +455,17 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
 .photos .ln{
  background-color:rgba(255,255,255,.2);
 }
+
+.prolog{
+ font-size:120%;
+ font-weight:var(--fwbody);
+ color:var(--c2);
+}
+
+.prolog span{
+ font-weight:700;
+}
+
 .quote {
  font-size:150%;
  font-family:var(--font3);
