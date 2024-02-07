@@ -432,11 +432,11 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
  display:block;
  margin:-.95rem auto 0 auto;
  width:0;
- height:1px;
+ height:2px;
  opacity: 0;
  z-index: 1000;
  border-top: 1px solid rgba(0,0,0, .3);
- border-bottom: 1.5px solid rgba(255,255,255, .2);
+ border-bottom: 1px solid rgba(255,255,255, .2);
  border-bottom-style:inset;
 }
 
