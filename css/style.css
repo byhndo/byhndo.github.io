@@ -428,18 +428,18 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
  opacity:0;
 }
 
-hr{
+.line{
  display:block;
  margin-top:-.95rem;
  width:0;
- height:0;
- border: 1px solid rgba(0,0,0,.1);
+ height:1px;
+ color: (0,0,0,.1);
  opacity: 0;
  z-index: 1000;
 }
 
-.photos hr{ 
- border: 1px solid rgba(255,255,255,.1);
+.photos .line{ 
+ color:rgba(255,255,255,.1);
 }
 
 .prolog{
