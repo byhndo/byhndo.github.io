@@ -422,10 +422,6 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
  opacity:0;
 }
 
-.box2{
- margin-top:0;
-}
-
 .two{
  margin-top:var(--marginp);
  margin-bottom: var(--marginp);
@@ -434,6 +430,7 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
 
 hr{
  display:block;
+ margin-top: -1vw;
  width:0;
  height:0;
  border-top: 1px solid rgba(0,0,0,.2);
