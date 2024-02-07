@@ -432,18 +432,14 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
  display:block;
  margin:-.95rem auto 0 auto;
  width:0;
- height:2px;
+ height:1px;
  opacity: 0;
  z-index: 1000;
- background-color:rgba(0,0,0,.1);
- border-top: 1px solid rgba(0,0,0, .3);
- border-bottom: 1px solid rgba(255,255,255, .2);
- border-bottom-style:inset;
+ background-color:rgba(0,0,0,.2);
 }
 
 .photos .line{ 
- border-top-color: rgba(0,0,0, .3);
- border-bottom-color: rgba(255,255,255, .2);
+ background-color:rgba(255,255,255, .2);
 }
 
 .prolog{
