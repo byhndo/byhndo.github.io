@@ -37,7 +37,7 @@ gsap.set("nav", {
  y:-100
 });
 gsap.to("nav", {
- delay:5.5,
+ delay:5,
  duration:3,
  autoAlpha:1,
  y:0,
