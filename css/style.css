@@ -325,7 +325,7 @@ p.sub1, p.sub2 {
 }
 
 p.sub1 {
-  color: var(--c2);
+ color: var(--c2);
 }
 
 p.sub2 {
@@ -423,7 +423,7 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
 }
 
 .two{
- margin-top: var(--marginp);
+ margin-top: 0;
  margin-bottom: var(--marginp);
  opacity:0;
 }
@@ -438,7 +438,7 @@ hr{
  z-index: 1000;
 }
 
-.photos .ln{
+.photos hr{
  border-top: 1px solid rgba(0,0,0,.2);
  border-bottom: 1px solid rgba(255,255,255,.2);
 }
