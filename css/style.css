@@ -437,6 +437,7 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
  z-index: 1000;
  border-top: 1px solid rgba(0,0,0, .3);
  border-bottom: 1.5px solid rgba(255,255,255, .2);
+ border-bottom-style:inset;
 }
 
 .photos .line{ 
