@@ -422,8 +422,12 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
  opacity:0;
 }
 
+h3.one, .box1{
+ margin-bottom:0
+}
+
 .two{
- margin-top: 0;
+ margin-top:var(--marginp);
  margin-bottom: var(--marginp);
  opacity:0;
 }
