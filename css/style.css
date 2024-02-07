@@ -430,7 +430,7 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
 
 .line{
  display:block;
- margin-top:-.95rem;
+ margin:-.95rem auto 0 auto;
  width:0;
  height:1px;
  background-color: rgba(0,0,0,.1);
