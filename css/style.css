@@ -433,7 +433,7 @@ hr{
  margin-top:-.95rem;
  width:0;
  height:0;
- border-top: 1px solid rgba(0,0,0,.2);
+ border-top: 1px solid rgba(0,0,0,.3);
  border-bottom: 1px solid rgba(255,255,255,.4);
  opacity: 0;
  z-index: 1000;
@@ -441,7 +441,7 @@ hr{
 
 .photos hr{
  border-top: 1px solid rgba(0,0,0,.4);
- border-bottom: 1px solid rgba(255,255,255,.2);
+ border-bottom: 1px solid rgba(255,255,255,.1);
 }
 
 .prolog{
