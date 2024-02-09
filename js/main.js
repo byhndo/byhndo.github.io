@@ -34,12 +34,14 @@ data() {
 	
 gsap.set("nav", {
  autoAlpha:0,
+ opacity:0,
  y:-100
 });
 gsap.to("nav", {
  delay:5,
  duration:3,
  autoAlpha:1,
+ opacity:1,
  y:0,
  ease:Circ.easeOut
 });
