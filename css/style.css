@@ -207,7 +207,7 @@ a:hover, a:active{
 
 .photos,
 .link-photos {
-  background: var(--c2);
+  background: var(--c1);
   color: var(--c1);
 }
 
