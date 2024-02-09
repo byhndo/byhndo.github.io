@@ -434,7 +434,7 @@ hr {
  height:0;
  opacity: 0;
  z-index: 1000;
- border-top:1px solid rgba(0,0,0,.2);
+ border-top:1px solid rgba(0,0,0,.3);
  border-bottom:1.5px solid rgba(255,255,255,.2);
 }
 
