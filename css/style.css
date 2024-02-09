@@ -200,12 +200,12 @@ a:hover, a:active{
     transition: background 0s 2s, color 1.2s;
 }
 
-.bio, .link-bio{
+.bio{
   background-color: var(--c1);
   color: var(--c2);
 }
 
-.photos, .link-photos {
+.photos {
   background-color:var(--c2);
   color: var(--c1);
 }
