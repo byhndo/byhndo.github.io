@@ -255,7 +255,6 @@ nav {
  font-family: var(--font2);
  visibility:hidden;
  opacity:0;
- background-color:var(--c1);
 }
 
 nav ul {
@@ -281,6 +280,10 @@ nav a {
  letter-spacing: var(--spacingnav);
 }
 
+nav .link-bio{
+ color: var(--c2);
+ background-color:var(--c2);
+}
 nav .link-photos {
  color: var(--c1);
  background-color:var(--c2);
