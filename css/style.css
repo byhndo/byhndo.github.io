@@ -200,12 +200,12 @@ a:hover, a:active{
     transition: background 0s 2s, color 1.2s;
 }
 
-.bio{
+.bio, .link-bio{
   background-color: var(--c1);
   color: var(--c2);
 }
 
-.photos{
+.photos, .link-photos{
   background-color:var(--c2);
   color: var(--c1);
 }
@@ -280,15 +280,8 @@ nav a {
  letter-spacing: var(--spacingnav);
 }
 
-nav .link-bio{
- background:transparent;
- color:var(--c2);
- border:2px solid var(--c2);
-}
 nav .link-photos {
- background:transparent;
  color:var(--c1);
- border:2px solid var(--c1);
 }
 
 nav li a:hover, nav li a:active{
