@@ -281,12 +281,12 @@ nav a {
 }
 
 nav .link-bio{
- color: var(--c2);
- background-color:var(--c2);
+ color:#2c2d2e;
+ background-color:#e6e6e8;
 }
 nav .link-photos {
- color: var(--c1);
- background-color:var(--c2);
+ color:#e6e6e8;
+ background-color:#2c2d2e;
 }
 
 nav li a:hover, nav li a:active{
