@@ -1,6 +1,6 @@
 :root {  
- --c1: #e6e6e8;
- --c2: #2c2d2e;   
+ --c1: #ececef;
+ --c2: #2c2c2f;   
  --b1: #EB455F;
  --b2: #ffc712;
  --sizebody:12.5px;
@@ -281,12 +281,12 @@ nav a {
 }
 
 nav .link-bio{
- color:#2c2d2e;
- background-color:#e6e6e8;
+ background:var(--c1);
+ color:var(--c2);
 }
 nav .link-photos {
- color:#e6e6e8;
- background-color:#2c2d2e;
+ background:var(--c2);
+ color:var(--c1);
 }
 
 nav li a:hover, nav li a:active{
