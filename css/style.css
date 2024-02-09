@@ -207,7 +207,7 @@ a:hover, a:active{
 
 .photos,
 .link-photos {
-  background: transparent;
+  background:var(--c2);
   color: var(--c1);
 }
 
