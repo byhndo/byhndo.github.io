@@ -201,12 +201,12 @@ a:hover, a:active{
 }
 
 .bio, .link-bio{
-  background-color: var(--c1);
+  background: var(--c1);
   color: var(--c2);
 }
 
 .photos, .link-photos{
-  background-color:var(--c2);
+  background:var(--c2);
   color: var(--c1);
 }
 
