@@ -428,7 +428,7 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
  opacity:0;
 }
 
-.line{
+hr {
  display:block;
  margin:-.95rem auto 0 auto;
  width:0;
