@@ -281,12 +281,14 @@ nav a {
 }
 
 nav .link-bio{
- background:var(--c1);
+ background:transparent;
  color:var(--c2);
+ border:2px solid var(--c2);
 }
 nav .link-photos {
- background:var(--c2);
+ background:transparent;
  color:var(--c1);
+ border:2px solid var(--c1);
 }
 
 nav li a:hover, nav li a:active{
@@ -439,8 +441,8 @@ hr {
  height:0;
  opacity: 0;
  z-index: 1000;
- border-top:1.5px solid rgba(0,0,0,.2);
- border-bottom:1px solid rgba(255,255,255,.2);
+ border-top:1px solid rgba(0,0,0,.2);
+ border-bottom:1.5px solid rgba(255,255,255,.2);
 }
 
 .prolog{
