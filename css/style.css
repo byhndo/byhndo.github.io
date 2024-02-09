@@ -428,11 +428,11 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
  opacity:0;
 }
 
-hr{
+.line{
  display:block;
  margin:-.95rem auto 0 auto;
  width:0;
- height:1px;
+ height:0;
  opacity: 0;
  z-index: 1000;
  border-top:1px solid rgba(0,0,0,.2);
