@@ -391,10 +391,6 @@ img {
   fill: var(--c1);
 }
 
-svg:hover, svg:active{
-  opacity: .6;
-}
-
 img, .sc, .pl, .box1, .box2, .one, .one span, .two{
   position: relative;
 }
