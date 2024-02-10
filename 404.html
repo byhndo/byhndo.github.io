@@ -81,8 +81,8 @@ place-self:center;
   background-image: radial-gradient(  circle at 60% 20%, #d84b41 0%, #ad231f);
   border-radius: 100%;
   color:#dcdcdc;
-  width: 31vw;
-  height: 31vw;
+  width: 80px;
+  height: 80px;
   padding: 0; }
   .button--1:focus {
     color:#dcdcdc; }
@@ -134,7 +134,7 @@ function initBthome() {
 	bt.addEventListener('click', function(e) { 
 	tl = gsap.timeline({paused:true});     
         tl.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 0, y: isFF ? e.offsetY : e.offsetY + 0, width: 0, height: 0 } }, 0);
-        tl.to(turb, 5, { attr: { x:"-=330", y:"-=330", width: 750, height: 750 } }, 0);
+        tl.to(turb, 5, { attr: { x:"-=300", y:"-=300", width: 600, height: 600 } }, 0);
         tl.fromTo(dm, 3, { attr: { scale: 50 } }, { attr: { scale: 0 } }, 0);
         tl.restart();
 	     
