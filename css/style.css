@@ -69,6 +69,13 @@
     }
 }
 
+.svg-filters {
+  position: absolute;
+  visibility: hidden;
+  width: 1px;
+  height: 1px; 
+}
+
 html{
   background: var(--c1);
 }
