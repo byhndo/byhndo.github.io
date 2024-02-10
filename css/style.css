@@ -196,7 +196,7 @@ a:hover, a:active{
 }
 
 .bg {
-    background:transparent;
+    background:inherit;
     min-height: 100vh;
     padding: 0;
     transition: background 0s 2s, color 1.2s;
