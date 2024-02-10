@@ -383,14 +383,6 @@ img {
  margin:0 .3rem;
 }
 
-.bio svg{
-  fill: var(--c2);
-}
-
-.photos svg{
-  fill: var(--c1);
-}
-
 img, .sc, .pl, .box1, .box2, .one, .one span, .two{
   position: relative;
 }
