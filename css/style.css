@@ -358,12 +358,6 @@ img {
   object-fit: cover;
 }
 
-img.hand{
-  pointer-events: none;
-  filter: url("#filter");
-  margin-top: -150px;
-}
-
 .soc {
  margin:0;
  display: grid;
