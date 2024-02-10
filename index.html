@@ -44,8 +44,6 @@
 </div>
 <div id="app">	 
  <div :class="['bg', bg]"> 
- <nav>
- <ul>
  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
 						<defs>
 							<filter id="filter-ripple-1">
@@ -55,7 +53,6 @@
 								<feComposite in2="SourceGraphic"></feComposite>
 							</filter>
 						</defs>
- <li><a id="wtr" style="filter: url('#filter-ripple-1')" class="link-bio" href="#" @click="bg = 'bio'">Bio</a></svg></li> 
  </svg>
  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
 						<defs>
@@ -66,8 +63,11 @@
 								<feComposite in2="SourceGraphic"></feComposite>
 							</filter>
 						</defs>	 
- <li><a id="wtr2" style="filter: url('#filter-ripple-2')" class="link-photos" href="#" @click="bg = 'photos'">Foto</a></li> 
- </svg>                                        
+ </svg>
+ <nav>
+ <ul>
+ <li><a id="wtr" style="filter: url('#filter-ripple-1')" class="link-bio" href="#" @click="bg = 'bio'">Bio</a></svg></li> 
+ <li><a id="wtr2" style="filter: url('#filter-ripple-2')" class="link-photos" href="#" @click="bg = 'photos'">Foto</a></li>                                         
  </ul>
  </nav> 
 <div class="transition transition-bio"></div>
