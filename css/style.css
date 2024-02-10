@@ -212,8 +212,11 @@ a:hover, a:active{
   color: var(--c1);
 }
 
-.link-bio, .link-photos{
- background:inherit
+.link-bio{
+ background:var(--c1);
+}
+.link-photos{
+ background:var(--c2);
 }
 
 .transition {
