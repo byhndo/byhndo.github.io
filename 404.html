@@ -133,9 +133,10 @@ function initBthome() {
   var dm = document.querySelectorAll('#filter-ripple-home feDisplacementMap')[0];
 	bt.addEventListener('click', function(e) { 
 	tl = gsap.timeline({paused:true});     
-        tl.to(turb, 3, { attr: { x:-125, y:-125, width: 750, height: 750 } }, 0);
-        tl.fromTo(dm, 2, { attr: { scale: 100 } }, { attr: { scale: 0 } }, 0);
-        tl.restart();     
+        tl.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 0, y: isFF ? e.offsetY : e.offsetY + 0, width: 0, height: 0 } }, 0);
+        tl.to(turb, 3, { attr: { x:"-=375", y:"-=375", width: 750, height: 750 } }, 0);
+        tl.fromTo(dm, 2, { attr: { scale: 50 } }, { attr: { scale: 0 } }, 0);
+        tl.restart();
 });
 }
 	
