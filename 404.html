@@ -32,6 +32,11 @@
   <link rel="stylesheet" href="../css/font.css">
   <link rel="stylesheet" href="../css/style.css">
 <style>	
+	.svg-filters {
+  position: absolute;
+  visibility: hidden;
+  width: 1px;
+  height: 1px; }
 html, body{
  background:#23232a;	
 }
@@ -109,15 +114,15 @@ place-self:center;
   -webkit-transition: background-color 0.1s ease-out;
   -moz-transition: background-color 0.1s ease-out;
   transition: background-color 0.1s ease-out; }
-  .button--1:hover, .button--1 .button__bg:hover, .button--2:hover, .button--4:hover, .button--4 .button__bg:hover, .button--5:hover, .button--6:hover, .button--7:hover, .button--8:hover, .button--9:hover, .button--10:hover {
+  .button--2:hover {
     background-color: #2CD892;
     color: #fff; }
-  .button--1:focus, .button--1 .button__bg:focus, .button--2:focus, .button--4:focus, .button--4 .button__bg:focus, .button--5:focus, .button--6:focus, .button--7:focus, .button--8:focus, .button--9:focus, .button--10:focus {
+  .button--2:focus {
     outline: none;
     color: #fff; }
 
 	
-button--2 {
+.button--2 {
   position: relative;
   z-index: 1;
   outline: 10px solid #F6F6F6 !important;
