@@ -60,7 +60,7 @@ place-self:center;
 	    }
 
 	    
-span {
+span.red {
 	color:#d84b41!important;
 }
   
@@ -99,7 +99,7 @@ position:relative;
 <body> 
 <main>	
 <div class="box">	
-4<span><a href="/">0</a></span>4
+<span>4</span><span class="red"><a href="/">0</a></span><span>4</span>
 </div>			
 
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
@@ -124,6 +124,7 @@ gsap.set(".box", {
 gsap.to(".box", {
 	y:0,
 	opacity:1,
+	stagger: .03,
 	duration:2,
 	ease: "Expo.easeOut"
 });
