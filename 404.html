@@ -121,14 +121,15 @@ gsap.set(".box", {
 	y:"random(-100, 100)",
 	opacity:0
 })
-gsap.to(".box", {
-	delay:.3,
+gsap.to(".box", {	
+	delay:"random(0, .5)",
+        duration:"random(1, 2)",
 	y:0,
 	opacity:1,
-	stagger: .1,
+	stagger: .05,
 	duration:2,
 	ease: "Expo.easeOut"
-}, "+=.2");
+});
 
 	
 var isSafari = /constructor/i.test(window.HTMLElement);
