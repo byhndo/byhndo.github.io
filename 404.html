@@ -134,7 +134,7 @@ function initBthome() {
 	bt.addEventListener('click', function(e) { 
 	tl = gsap.timeline({paused:true});     
         tl.from(turb, 5, { attr: { scale: 100 } }, 0)
-	tl.to(dm, 3, { attr: { x: -125, y: -125, width: "150%", height: "150%" } },0);
+	tl.to(dm, 3, { attr: { x: "-=125", y: "-=125", width: 750, height: 750 } },0);
 	tl.restart();	     
 });
 }
