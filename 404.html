@@ -89,7 +89,24 @@ place-self:center;
   .button--1:hover {
     background-image: -webkit-radial-gradient(60% 20%, circle, #d84b41 0%, #ad231f);
     background-image: radial-gradient(  circle at 60% 20%, #d84b41 0%, #ad231f);
-    color:#dcdcdc; }  
+    color:#dcdcdc; } 
+
+button--2 {
+  position: relative;
+  z-index: 1;
+  outline: 10px solid #F6F6F6 !important;
+  background: #F6F6F6;
+  border: 2px solid #000;
+  color: #000; }
+  .button--2:focus {
+    color: #222; }
+  .button--2:hover {
+    background: #F6F6F6;
+    border-color: #2CD892;
+    color: #2CD892; }
+
+
+	
 	@media(min-width:500px){
   main{   
     max-width:100%;
@@ -99,18 +116,22 @@ place-self:center;
   </head>
 <body> 
 <main>	
-<div class="box">
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
+<div class="box">	
+4<div id="component-1" class="button--1" style="filter: url('#filter-ripple-home')"></div>4</div>				
+
+<svg class="svg-filters">
 						<defs>
-							<filter id="filter-ripple-home">
-								<feImage xmlns:xlink="http://www.w3.org/1999/xlink" href="img/ripple.png" x="0" y="0" width="0" height="0" result="ripple"></feImage>
-								<feDisplacementMap xChannelSelector="R" yChannelSelector="G" color-interpolation-filters="sRGB" in="SourceGraphic" in2="ripple" scale="50" result="dm"></feDisplacementMap>
+							<filter id="filter-ripple-2">
+								<feImage x="250" y="250" width="0" height="0" result="ripple"></feImage>
+								<feDisplacementMap xChannelSelector="R" yChannelSelector="G" color-interpolation-filters="sRGB" in="SourceGraphic" in2="ripple" scale="20" result="dm"></feDisplacementMap>
 								<feComposite operator="in" in2="ripple"></feComposite>
 								<feComposite in2="SourceGraphic"></feComposite>
 							</filter>
 						</defs>
-</svg>			
-4<div id="component-1" class="button--1" style="filter: url('#filter-ripple-home')"></div>4</div>				
+					</svg>
+					<button id="component-2" class="button button--2" style="filter: url('#filter-ripple-2')">Back</button>
+					
+
 </main>	
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 
@@ -128,9 +149,9 @@ if (isSafari) {
 	
 initBthome();
 function initBthome() {
-  var bt = document.querySelectorAll('#component-1')[0];
-  var turb = document.querySelectorAll('#filter-ripple-home feImage')[0];
-  var dm = document.querySelectorAll('#filter-ripple-home feDisplacementMap')[0];
+  var bt = document.querySelectorAll('#component-2')[0];
+  var turb = document.querySelectorAll('#filter-ripple-2 feImage')[0];
+  var dm = document.querySelectorAll('#filter-ripple-2 feDisplacementMap')[0];
 	bt.addEventListener('click', function(e) { 
 	tl = gsap.timeline({paused:true});     
         tl.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 0, y: isFF ? e.offsetY : e.offsetY + 0, width: 0, height: 0 } }, 0);
