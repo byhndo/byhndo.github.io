@@ -47,7 +47,6 @@ main{
 display: grid;
 }
 .box{	
-filter:"blur(5px)";
 opacity:0;
 place-self:center;
    font-size:55vw;
@@ -123,7 +122,6 @@ gsap.set(".box", {
 	opacity:0
 })
 gsap.to(".box", {
-	filter:"blur(0px)",
 	delay:.3,
         duration:2,
 	y:0,
