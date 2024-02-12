@@ -68,14 +68,13 @@
         transform: scaley(1);
     }
 }
-#wtr2{
- background:var(--c2);
-}
+
 .svg-filters {
   position: absolute;
   visibility: hidden;
   width: 1px;
   height: 1px; 
+  background:transparent;
 }
 
 html{
