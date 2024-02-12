@@ -68,6 +68,7 @@ color:#d84b41!important;
 }
    
 .button1 {
+opacity:0;
 position:relative;
 place-self:center;
 align-items:center;
@@ -122,6 +123,15 @@ gsap.set(".box", {
 })
 gsap.to(".box", {
 	delay:.5,
+        duration:5,	
+	opacity:1,	
+	ease: "Circ.easeOut"
+});
+gsap.set(".button1", {
+	opacity:0
+})
+gsap.to(".button1", {
+        delay:1,
         duration:5,	
 	opacity:1,	
 	ease: "Circ.easeOut"
