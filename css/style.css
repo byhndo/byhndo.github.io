@@ -212,6 +212,13 @@ a:hover, a:active{
   color: var(--c1);
 }
 
+.link-bio{
+ background:#ccc
+}
+.link-photos{
+ background:#111
+}
+
 .transition {
     top: 0;
     display: block;
