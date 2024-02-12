@@ -213,10 +213,10 @@ a:hover, a:active{
 }
 
 .link-bio{
- background:#43766C
+ background:rgba(255,255,255, .3);
 }
 .link-photos{
- background:#76453B
+ background:rgba(255,255,255, .3);
 }
 
 .transition {
