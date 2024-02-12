@@ -68,8 +68,8 @@
         transform: scaley(1);
     }
 }
-#wtr, #wtr2{
- background:transparent;
+#wtr2{
+ background:var(--c2);
 }
 .svg-filters {
   position: absolute;
