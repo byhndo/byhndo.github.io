@@ -212,10 +212,10 @@ a:hover, a:active{
   color: var(--c1);
 }
 
-.link-bio{
+nav .bio{
  outline: 10px solid var(--c1) !important;
 }
-.link-photos{
+nav .photos{
  outline: 10px solid var(--c2) !important;
 }
 
