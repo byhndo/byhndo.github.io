@@ -68,7 +68,9 @@
         transform: scaley(1);
     }
 }
-
+#wtr, #wtr2{
+ background:transparent!important;
+}
 .svg-filters {
   position: absolute;
   visibility: hidden;
