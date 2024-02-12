@@ -106,8 +106,8 @@ text-transform: uppercase;
 </defs>
 </svg>
 <a href="javascript:delay('/')" id="component1" class="button1" style="filter: url('#filter-ripple-1')">
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 21 21"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M8.5 7.5c5.185-.47 8.52 1.53 10 6c-2.825-3.14-6.341-3.718-10-2v3l-5-5l5-5z"/></svg>	
 </a>
-
 	
 </main>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
@@ -148,8 +148,8 @@ function initBthome() {
 	bt.addEventListener('click', function(e) { 
 	tl = gsap.timeline({paused:true});     
         tl.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 0, y: isFF ? e.offsetY : e.offsetY + 0, width: 0, height: 0 } }, 0);
-        tl.to(turb, 3, { attr: { x:"-=300", y:"-=300", width: 600, height: 600 } }, 0);
-        tl.fromTo(dm, 2, { attr: { scale: 30 } }, { attr: { scale: 0 } }, 0);
+        tl.to(turb, 5, { attr: { x:"-=300", y:"-=300", width: 600, height: 600 } }, 0);
+        tl.fromTo(dm, 3, { attr: { scale: 30 } }, { attr: { scale: 0 } }, 0);
         tl.restart();
 });
 }
