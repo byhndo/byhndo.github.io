@@ -212,6 +212,13 @@ a:hover, a:active{
   color: var(--c1);
 }
 
+.link-bio{
+ outline: 10px solid var(--c1) !important;
+}
+.link-photos{
+ outline: 10px solid var(--c2) !important;
+}
+
 .transition {
     top: 0;
     display: block;
