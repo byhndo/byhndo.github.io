@@ -255,6 +255,7 @@ nav {
  right: 0;
  z-index: 10000;
  font-family: var(--font2);
+ opacity:0;
 }
 
 nav ul {
