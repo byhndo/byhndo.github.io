@@ -69,7 +69,7 @@
     }
 }
 #wtr, #wtr2{
- background:transparent!important;
+ background:transparent;
 }
 .svg-filters {
   position: absolute;
