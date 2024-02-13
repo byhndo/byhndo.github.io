@@ -215,10 +215,12 @@ a:hover, a:active{
 .link-bio{
  background:var(--c1);
  color: var(--c2);
+ outline:10px solid var(--c1);
 }
 .link-photos{
  background:var(--c2);
  color: var(--c1);
+ outline:10px solid var(--c2);
 }
 
 .transition {
