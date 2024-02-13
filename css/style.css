@@ -202,21 +202,23 @@ a:hover, a:active{
     transition: background 0s 2s, color 1.2s;
 }
 
-.bio, .link-bio{
+.bio{
   background: var(--c1);
   color: var(--c2);
 }
 
-.photos, .link-photos{
+.photos{
   background:var(--c2);
   color: var(--c2);
 }
 
 .link-bio{
  background:rgba(255,255,255, .3);
+ color: var(--c2);
 }
 .link-photos{
  background:rgba(255,255,255, .3);
+ color: var(--c2);
 }
 
 .transition {
