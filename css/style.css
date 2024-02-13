@@ -213,11 +213,11 @@ a:hover, a:active{
 }
 
 .link-bio{
- background:#373738;
+ background:var(--c1);
  color: var(--c1);
 }
 .link-photos{
- background:#373738;
+ background:var(--c2);
  color: var(--c1);
 }
 
