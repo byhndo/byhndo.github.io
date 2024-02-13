@@ -213,12 +213,12 @@ a:hover, a:active{
 }
 
 .link-bio{
- background:rgba(255,255,255, 1);
- color: var(--c2);
+ background:#222;
+ color: var(--c1);
 }
 .link-photos{
- background:rgba(255,255,255, 1);
- color: var(--c2);
+ background:#222;
+ color: var(--c1);
 }
 
 .transition {
