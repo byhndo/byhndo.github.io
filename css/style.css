@@ -217,7 +217,7 @@ a:hover, a:active{
  color: var(--c2);
 }
 .link-photos{
- background:var(--c2);
+ background:#3f3f3f;
  color: var(--c1);
 }
 
