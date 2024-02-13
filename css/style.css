@@ -1,6 +1,6 @@
 :root {  
- --c1: #eeeeef;
- --c2: #33333f;            
+ --c1: #ededef;
+ --c2: #3e3e3f;            
  --b1: #EB455F;
  --b2: #ffc712;
  --sizebody:12.5px;
@@ -213,11 +213,11 @@ a:hover, a:active{
 }
 
 .link-bio{
- background:#2a2a2c;
+ background:#2e2e2f;
  color: var(--c1);
 }
 .link-photos{
- background:#2a2a2c;
+ background:#2e2e2f;
  color: var(--c1);
 }
 
