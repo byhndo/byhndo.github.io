@@ -259,9 +259,9 @@ a:hover, a:active{
 
 nav {
  position:fixed;
- top: 0;
- left: 0;
- right: 0;
+ top: 20px;
+ left: 20px;
+ right: 20px;
  z-index: 10000;
  font-family: var(--font2);
  opacity:0;
