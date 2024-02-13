@@ -214,7 +214,7 @@ a:hover, a:active{
 
 .link-bio{
  background:var(--c1);
- color: var(--c1);
+ color: var(--c2);
 }
 .link-photos{
  background:var(--c2);
