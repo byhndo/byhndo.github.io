@@ -215,12 +215,10 @@ a:hover, a:active{
 .link-bio{
  background:var(--c1);
  color: var(--c2);
- outline:10px solid var(--c1);
 }
 .link-photos{
  background:var(--c2);
  color: var(--c1);
- outline:10px solid var(--c2);
 }
 
 .transition {
@@ -267,7 +265,6 @@ nav {
  z-index: 10000;
  font-family: var(--font2);
  opacity:0;
- border-radius:10px 10px 10px 10px;
 }
 
 nav ul {
