@@ -215,10 +215,12 @@ a:hover, a:active{
 .link-bio{
  background:var(--c1);
  color: var(--c2);
+ border-radius:30px 0 0 30px;
 }
 .link-photos{
  background:var(--c2);
  color: var(--c1);
+ border-radius:0 30px 30px 0;
 }
 
 .transition {
@@ -277,13 +279,6 @@ nav ul {
 
 nav li {
     flex:1 0 .75rem;
-}
-
-nav li:nth-child(1){
- border-radius:30px 0 0 30px;
-}
-nav li:nth-child(2){
- border-radius:0 30px 30px 0;
 }
 
 nav a {    
