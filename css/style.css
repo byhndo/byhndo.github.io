@@ -284,11 +284,11 @@ nav li {
 }
 
 nav .link-bio{
- outline:10px solid #B2B2B2;
+ outline:10px solid var(--c1);
 }
 
 nav .link-photos{
- outline:10px solid #526D82;
+ outline:10px solid var(--c2);
 }
 
 nav a {    
