@@ -455,10 +455,12 @@ hr::after{
 }
 
 .photos hr::before{
+ content:"";
  background:var(--c1);
 }     
 
 .photos hr::after{
+ content:"";
  background:var(--c1);
 }  
 
