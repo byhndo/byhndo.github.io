@@ -437,7 +437,7 @@ hr::before{
  left:-5px;
  content:"";
  background:var(--c2);
- border-radius:50%;
+ border-radius:100%;
 }     
 
 hr::after{
@@ -448,7 +448,7 @@ hr::after{
  right:-5px;
  content:"";
  background:var(--c2);
- border-radius:50%;
+ border-radius:100%;
 }  
 
 .photos hr{
