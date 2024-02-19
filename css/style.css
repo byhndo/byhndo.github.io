@@ -451,7 +451,7 @@ hr::after{
 }  
 
 .photos hr{
- border-top-color:var(--c1);
+ border-top:1px solid var(--c1);
 }
 
 .photos hr::before{
