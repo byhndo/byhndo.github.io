@@ -425,12 +425,13 @@ hr {
  height:0;
  opacity: 0;
  z-index: 1000;
+ border-top:none;
  border-bottom:1px solid var(--c2);
 }
 
 hr::before{
  position: absolute;
- bottom:-3px;
+ bottom:-4px;
  height:7px;
  width:7px;
  left:-5px;
@@ -441,7 +442,7 @@ hr::before{
 
 hr::after{
  position: absolute;
- bottom:-3px;
+ bottom:-4px;
  height:7px;
  width:7px;
  right:-5px;
