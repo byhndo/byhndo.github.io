@@ -431,7 +431,7 @@ hr {
 hr::before{
  position: absolute;
  bottom:-5px;
- height:10px;
+ height:7px;
  width:10px;
  left:-5px;
  content:"";
@@ -442,7 +442,7 @@ hr::before{
 hr::after{
  position: absolute;
  bottom:-5px;
- height:10px;
+ height:7px;
  width:10px;
  right:-5px;
  content:"";
@@ -455,13 +455,25 @@ hr::after{
 }
 
 .photos hr::before{
+ position: absolute;
+ bottom:-5px;
+ height:7px;
+ width:10px;
+ left:-5px;
  content:"";
  background:var(--c1);
+ border-radius:50%;
 }     
 
 .photos hr::after{
+ position: absolute;
+ bottom:-5px;
+ height:7px;
+ width:10px;
+ right:-5px;
  content:"";
  background:var(--c1);
+ border-radius:50%;
 }  
 
 .prolog{
