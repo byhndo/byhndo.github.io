@@ -430,10 +430,10 @@ hr {
 
 hr::before{
  position: absolute;
- bottom:0px;
+ bottom:-5px;
  height:10px;
  width:10px;
- left:-2px;
+ left:-5px;
  content:"";
  background:var(--c2);
  border-radius:50%;
@@ -441,10 +441,10 @@ hr::before{
 
 hr::after{
  position: absolute;
- bottom:0px;
+ bottom:-5px;
  height:10px;
  width:10px;
- right:-2px;
+ right:-5px;
  content:"";
  background:var(--c2);
  border-radius:50%;
