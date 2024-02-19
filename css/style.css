@@ -432,7 +432,7 @@ hr::before{
  position: absolute;
  bottom:-5px;
  height:7px;
- width:10px;
+ width:7px;
  left:-5px;
  content:"";
  background:var(--c2);
@@ -443,7 +443,7 @@ hr::after{
  position: absolute;
  bottom:-5px;
  height:7px;
- width:10px;
+ width:7px;
  right:-5px;
  content:"";
  background:var(--c2);
@@ -451,6 +451,7 @@ hr::after{
 }  
 
 .photos hr{
+ position:relative;
  border-top:1px solid var(--c1);
 }
 
@@ -458,7 +459,7 @@ hr::after{
  position: absolute;
  bottom:-5px;
  height:7px;
- width:10px;
+ width:7px;
  left:-5px;
  content:"";
  background:var(--c1);
@@ -469,7 +470,7 @@ hr::after{
  position: absolute;
  bottom:-5px;
  height:7px;
- width:10px;
+ width:7px;
  right:-5px;
  content:"";
  background:var(--c1);
