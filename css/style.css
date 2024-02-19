@@ -425,12 +425,12 @@ hr {
  height:0;
  opacity: 0;
  z-index: 1000;
- border-top:1px solid var(--c2);
+ border-bottom:1px solid var(--c2);
 }
 
 hr::before{
  position: absolute;
- bottom:-5px;
+ bottom:-3px;
  height:7px;
  width:7px;
  left:-5px;
@@ -441,7 +441,7 @@ hr::before{
 
 hr::after{
  position: absolute;
- bottom:-5px;
+ bottom:-3px;
  height:7px;
  width:7px;
  right:-5px;
@@ -451,30 +451,15 @@ hr::after{
 }  
 
 .photos hr{
- position:relative;
- border-top:1px solid var(--c1);
+ border-bottom-color:var(--c1);
 }
 
 .photos hr::before{
- position: absolute;
- bottom:-5px;
- height:7px;
- width:7px;
- left:-5px;
- content:"";
  background:var(--c1);
- border-radius:50%;
 }     
 
 .photos hr::after{
- position: absolute;
- bottom:-5px;
- height:7px;
- width:7px;
- right:-5px;
- content:"";
  background:var(--c1);
- border-radius:50%;
 }  
 
 .prolog{
