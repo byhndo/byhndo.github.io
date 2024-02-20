@@ -194,25 +194,19 @@ let revealContainers = container.querySelectorAll(".item");
 
   tl.set(el, {
    autoAlpha: 1
-   });
-  tl.fromTo(el, {
-   clipPath: "polygon(0 0, 0 0, 0 100%, 0% 100%)",
-   webkitClipPath: "polygon(0 0, 0 0, 0 100%, 0% 100%)"
-   },
-   {
-   clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
-   webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
-   duration:1,     
-   ease:"Circ.easeOut"
-   });
-
-   tl.from(image, {
-    duration:4,                   
-    scale: 1.4,                     
-    delay:.3,
-    ease: "Circ.easeOut"
-    }, 0);
-    });
+   });  
+  tl.from(el, {
+   duration:1.5,
+   yPercent:100,
+   ease: Circ.easeOut
+  });
+  tl.from(image, {
+   duration:1.5,
+   yPercent: -100,
+   scale: 1.4,
+   delay: -1.5,
+   ease: Circ.easeOut
+  });
 	
     });
 
