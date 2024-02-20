@@ -196,8 +196,8 @@ let revealContainers = container.querySelectorAll(".item");
    autoAlpha: 1
    });
   tl.fromTo(el, {
-   clipPath: "polygon(0 0, 0 0, 0 100%, 0% 100%)",
-   webkitClipPath: "polygon(0 0, 0 0, 0 100%, 0% 100%)"
+   clipPath: "polygon(0 0, 100% 0, 100% 0, 0 0)",
+   webkitClipPath: "polygon(0 0, 100% 0, 100% 0, 0 0)"
    },
    {
    clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
