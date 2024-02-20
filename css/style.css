@@ -425,8 +425,8 @@ hr {
  height:0;
  opacity: 0;
  z-index: 1000;
- border-bottom:none;
- border-top:1px solid var(--c2);
+ border-top:none;
+ border-bottom:1px solid var(--c2);
 }
 
 hr::before{
@@ -452,7 +452,7 @@ hr::after{
 }  
 
 .photos hr{
- border-top-color:var(--c1);
+ border-bottom-color:var(--c1);
 }
 
 .photos hr::before{
