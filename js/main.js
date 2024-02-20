@@ -188,7 +188,6 @@ let revealContainers = container.querySelectorAll(".item");
  scrollTrigger: {
   trigger: el,
   ease: "Circ.easeOut",
-  start: "top 120%",
   toggleActions: "restart none none none"
   }, delay: .7
   });
