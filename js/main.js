@@ -198,12 +198,12 @@ let revealContainers = container.querySelectorAll(".item");
    });  
   tl.from(el, {
    duration:1.5,
-   yPercent:100,
+   y:"-300%",
    ease: "Circ.easeOut"
   }, 0);
   tl.from(image, {
    duration:1.5,
-   yPercent: -100,
+   y:"300%",
    scale: 1.4,
    delay: -1.5,
    ease: "Circ.easeOut"
