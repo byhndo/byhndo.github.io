@@ -199,7 +199,7 @@ let revealContainers = container.querySelectorAll(".item");
    duration:1.5,
    y:"-300%",
    ease: "Circ.easeOut"
-  }, 0);
+  });
   tl.from(image, {
    duration:1.5,
    y:"300%",
