@@ -206,6 +206,7 @@ let revealContainers = container.querySelectorAll(".item");
    scale: 1.4,
    delay: -1.5,
    ease: "Circ.easeOut"
+  }, 0);
   });
 	
     });
