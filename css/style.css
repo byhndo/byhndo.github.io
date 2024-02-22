@@ -427,6 +427,7 @@ hr {
  z-index: 1000;
  border-top:none;
  border-bottom:1px solid var(--c2);
+ opacity:.3;
 }
 
 hr::before{
@@ -438,6 +439,7 @@ hr::before{
  content:"";
  background:var(--c2);
  border-radius:100%;
+ opacity:.3;
 }     
 
 hr::after{
@@ -449,18 +451,22 @@ hr::after{
  content:"";
  background:var(--c2);
  border-radius:100%;
+ opacity:.3;
 }  
 
 .photos hr{
  border-bottom-color:var(--c1);
+ opacity:.3;
 }
 
 .photos hr::before{
  background:var(--c1);
+ opacity:.3;
 }     
 
 .photos hr::after{
  background:var(--c1);
+ opacity:.3;
 }  
 
 .prolog{
