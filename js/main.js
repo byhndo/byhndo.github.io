@@ -209,7 +209,7 @@ let revealContainers = container.querySelectorAll(".item");
     duration:4,                   
     scale: 1.4,                     
     delay:.3,
-    ease: "elastic.out(1,0.3)"
+    ease: "power2.out"
     }, 0);
 
 	 
