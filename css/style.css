@@ -18,21 +18,21 @@
 }
 #preloader {
  display:grid;
-    position:fixed;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-     background: #23232a; 
-    height:100vh;
-    z-index:99999999999999; 
+ position:fixed;
+ top:0;
+ left:0;
+ right:0;
+ bottom:0;
+ background:#000; 
+ height:100vh;
+ z-index:99999999999999; 
 }
 .loader{
   place-self:center;
 }
 .loader > div{
  place-self:center;
-    background-color: #dcdcdc;
+    background-color: rgba(255,255,255,.3);
     width: 4px;
     height: 35px;
     border-radius: 2px;
