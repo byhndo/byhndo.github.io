@@ -449,6 +449,7 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
  color:inherit;
  margin:30px auto;
  max-width:70%;
+ text-transform:uppercase;
 }
 
 .quote span{
