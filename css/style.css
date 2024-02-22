@@ -455,7 +455,7 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
 }
 
 .quote span{
- font-family:var(--font2);
+ font-family:var(--font3);
  font-style:italic;
  font-size:70%;
  color:inherit;
