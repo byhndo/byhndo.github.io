@@ -81,7 +81,7 @@ html{
 }
 body {
  background-color: var(--c1);
- font-family: var(--font3);
+ font-family: var(--font2);
  color: var(--c2);
  font-size: var(--sizebody);
  font-weight:var(--fwbody);
@@ -436,10 +436,11 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
  font-size:110%;
  font-weight:var(--fwbody);
  color:var(--c2);
+ font-family:var(--font3);
 }
 
 .prolog span{
- font-weight:700;
+ font-weight:500;
 }
 
 .quote {
