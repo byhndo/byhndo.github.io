@@ -32,7 +32,7 @@
 }
 .loader > div{
  place-self:center;
- background-color:rgba(50, 50, 53, .7);
+ background-color:rgba(50, 50, 53, .9);
  width: 4px;
  height: 35px;
  border-radius: 2px;
