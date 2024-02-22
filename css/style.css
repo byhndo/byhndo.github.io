@@ -81,7 +81,7 @@ html{
 }
 body {
  background-color: var(--c1);
- font-family: var(--font2);
+ font-family: var(--font3);
  color: var(--c2);
  font-size: var(--sizebody);
  font-weight:var(--fwbody);
