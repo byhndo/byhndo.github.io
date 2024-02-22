@@ -187,7 +187,7 @@ let revealContainers = container.querySelectorAll(".item");
  let tl = gsap.timeline({
  scrollTrigger: {
   trigger: el,
-  ease: "elastic.out(1,0.3)",
+  ease: "bounce.out",
   toggleActions: "restart none none none"
   }, delay: .7
   });
@@ -203,7 +203,7 @@ let revealContainers = container.querySelectorAll(".item");
    clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
    webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
    duration:3,     
-   ease: "elastic.out(1,0.3)"
+   ease: "bounce.out"
    });
    tl.from(image, {
     duration:4,                   
