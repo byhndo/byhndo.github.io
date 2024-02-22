@@ -159,7 +159,7 @@ h1 span{
 .sub-title span{
  display:inline-block;
  font-size:9px;
- font-family: var(--font3);
+ font-family: var(--font2);
  color: var(--c2);
  font-weight:300;
  text-transform: uppercase;
@@ -437,6 +437,8 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
  font-weight:var(--fwbody);
  color:var(--c2);
  font-family:var(--font3);
+ text-align:justify;
+ text-transform:uppercase;
 }
 
 .prolog span{
