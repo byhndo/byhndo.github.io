@@ -433,12 +433,11 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
 }
 
 .prolog{
- font-size:110%;
+ font-size:100%;
  font-weight:var(--fwbody);
  color:var(--c2);
  font-family:var(--font3);
  text-align:justify;
- text-transform:uppercase;
 }
 
 .prolog span{
