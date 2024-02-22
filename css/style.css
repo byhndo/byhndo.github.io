@@ -23,7 +23,7 @@
  left:0;
  right:0;
  bottom:0;
- background:#000; 
+ background:#ececef; 
  height:100vh;
  z-index:99999999999999; 
 }
@@ -32,7 +32,7 @@
 }
 .loader > div{
  place-self:center;
- background-color:#fff;
+ background-color:#323235;
  width: 4px;
  height: 35px;
  border-radius: 2px;
