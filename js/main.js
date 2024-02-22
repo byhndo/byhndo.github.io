@@ -187,7 +187,7 @@ let revealContainers = container.querySelectorAll(".item");
  let tl = gsap.timeline({
  scrollTrigger: {
   trigger: el,
-  ease: "elastic.out(1,0.3)"
+  ease: "elastic.out(1,0.3)",
   toggleActions: "restart none none none"
   }, delay: .7
   });
