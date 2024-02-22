@@ -159,7 +159,7 @@ h1 span{
 .sub-title span{
  display:inline-block;
  font-size:9px;
- font-family: var(--font2);
+ font-family: var(--font3);
  color: var(--c2);
  font-weight:300;
  text-transform: uppercase;
@@ -449,7 +449,6 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
  color:inherit;
  margin:30px auto;
  max-width:70%;
- text-transform:uppercase;
 }
 
 .quote span{
