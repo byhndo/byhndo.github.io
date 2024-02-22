@@ -32,16 +32,16 @@
 }
 .loader > div{
  place-self:center;
-    background-color: rgba(255,255,255,.3);
-    width: 4px;
-    height: 35px;
-    border-radius: 2px;
-    margin: 2px 0.5px;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-    display: inline-block;
-    -webkit-animation: loader .9s -.6s infinite cubic-bezier(.85,.25,.37,.85);
-    animation: loader .9s -.6s infinite cubic-bezier(.85,.25,.37,.85);
+ background-color:#fff;
+ width: 4px;
+ height: 35px;
+ border-radius: 2px;
+ margin: 2px 0.5px;
+ -webkit-animation-fill-mode: both;
+ animation-fill-mode: both;
+ display: inline-block;
+ -webkit-animation: loader .9s -.6s infinite cubic-bezier(.85,.25,.37,.85);
+ animation: loader .9s -.6s infinite cubic-bezier(.85,.25,.37,.85);
 }
 
 .loader > div:nth-child(1), .loader > div:nth-child(5) {
