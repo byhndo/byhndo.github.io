@@ -191,7 +191,6 @@ tl.to(ln, {
  opacity: 1,
  duration:1.5,	
  width: "100%",
- transformOrigin:"50% 50%",
  ease:easing
 });	
 	                                                                                                                  
