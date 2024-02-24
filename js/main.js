@@ -32,6 +32,8 @@ data() {
     }
 }).mount('#app')  
 
+const easing = "expoScale(0.5,7,none)";
+	
 gsap.set("nav", {
  opacity:0,
  y:-100
@@ -41,7 +43,7 @@ gsap.to("nav", {
  duration:3,
  opacity:1,
  y:0,
- ease:"sine.out"
+ ease:easing
 });
 	
 gsap.set("h1 span", {
@@ -95,7 +97,7 @@ gsap.to(".sub-title span", {
   y:0,
   z:0, 
   rotate:0,
-  ease:"sine.out"
+  ease:easing
 });	       
 
 function setupReveal(container) {	
@@ -121,7 +123,7 @@ tl.fromTo(pl, {
    clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
    webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
    duration:3,     
-   ease: "sine.out",
+   ease: easing,
    opacity:1
    });
 	   
@@ -158,7 +160,7 @@ tl.to(one, {
  y:0,
  rotateX:0,
  rotateY:0,
- ease:"sine.out"	
+ ease:easing	
 });
 
 });
@@ -180,14 +182,14 @@ tl.to(two, {
  opacity:1,
  duration:3,	
  filter:"blur(0px)",	
- ease:"sine.out"
+ ease:easing
 });   
 
 tl.to(ln, {
  opacity: 1,
  duration: 1,	
  width: "100%",
- ease: "sine.out"
+ ease:easing
 });	
 	                                                                                                                  
 });	
@@ -214,14 +216,14 @@ let revealContainers = container.querySelectorAll(".item");
    clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
    webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
    duration:2.5,     
-   ease: "sine.out",
+   ease:easing,
    opacity:1
    });
    tl.from(image, {
     duration:4,                   
     scale: 1.4,                     
     delay:.3,
-    ease: "sine.out"
+    ease:easing
     }, 0);
 
 	 
