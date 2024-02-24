@@ -132,7 +132,7 @@ tl.fromTo(pl, {
    {
    clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
    webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
-   duration:3,     
+   duration:2,     
    ease:easing,
    opacity:1
    });
@@ -192,7 +192,7 @@ tl.set(two, {
 tl.to(two, {
  opacity:1,
  y:0,
- duration:3,		
+ duration:2.5,		
  ease:easing
 });   
 
