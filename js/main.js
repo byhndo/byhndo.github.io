@@ -180,8 +180,7 @@ tl.set(two, {
 })                                       
 tl.to(two, {
  opacity:1,
- duration:3,	
- filter:"blur(0px)",	
+ duration:3,		
  ease:easing
 });   
 
