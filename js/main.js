@@ -3,10 +3,13 @@ window.addEventListener("load", function(e) {
 
 gsap.registerPlugin(ScrollTrigger, CustomEase);
 
-gsap.to("#preloader", {
+
+gsap.fromTo("#preloader", {
  autoAlpha:0,
  opacity:0,
- duration:.5
+ duration:.5,
+filter:"blur(10px)"}, 
+{filter:"blur(0px)"}
 });
 	
 const {
@@ -33,16 +36,6 @@ data() {
 }).mount('#app')  
 
 const easing = "power2.out";
-
-gsap.set("html", {
- opacity:1,
- filter:"blur(10px)"
-});
-gsap.to("html", {
- duration:1,
- opacity:0,
- filter:"blur(0px)"
-});
 	
 gsap.set("nav", {
  opacity:0,
