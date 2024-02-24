@@ -419,15 +419,14 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
 }
 
 .line {
- position:absolute;
+ position:relative;
  display:block;
- margin:-38px auto 0 auto;
+ margin:-37px auto 0 auto;
  width:0;
  height:32px;
  opacity: 0;
  z-index: 1000;
  background:rgba(50, 50, 53, .07);
- transform-origin:right;
 }
 
 .photos .line{
