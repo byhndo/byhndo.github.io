@@ -163,11 +163,11 @@ const RevealBoxs2 = container.querySelectorAll(".box2");
   });                      
                                        
 tl.set(two, {
- filter:"blur(5px)"
+ filter:"blur(50px)"
 });
 tl.to(two, {
  opacity:1,
- duration:2,	
+ duration:3,	
  filter:"blur(0px)",	
  ease:"power2.out"
 });   
