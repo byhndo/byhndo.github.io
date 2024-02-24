@@ -40,7 +40,7 @@ gsap.set("html", {
 });
 gsap.to("html", {
  opacity:1,
- filter:"blur(0px)
+ filter:"blur(0px)"
 });
 	
 gsap.set("nav", {
