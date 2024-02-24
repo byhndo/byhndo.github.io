@@ -167,7 +167,7 @@ tl.set(two, {
 });
 tl.to(two, {
  opacity:1,
- duration:1,	
+ duration:2,	
  filter:"blur(0px)",	
  ease:"power2.out"
 });   
