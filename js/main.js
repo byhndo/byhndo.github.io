@@ -202,7 +202,7 @@ let revealContainers = container.querySelectorAll(".item");
    clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
    webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
    duration:2.5,     
-   ease: "bounce.out"
+   ease: "power2.out"
    });
    tl.from(image, {
     duration:4,                   
