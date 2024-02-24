@@ -357,6 +357,7 @@ p.sub2 {
   height: auto;
   visibility: hidden;
   overflow: hidden;
+  opacity:0;
 }
 
 img {
