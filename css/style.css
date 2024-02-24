@@ -11,10 +11,10 @@
  --font3:"DM Mono", monospace;
  --marginp:20px;
  --spacingnav:.9vw; 
- --fwnav:300;
+ --fwnav:400;
  --fwtitle:400;
  --fwbody:400;
- --fwfooter:300;
+ --fwfooter:400;
 }
 #preloader {
  display:grid;
