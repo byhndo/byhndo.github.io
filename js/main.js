@@ -46,6 +46,7 @@ gsap.to("nav", {
 	
 gsap.set("h1 span", {
  y:"-100%",
+ opacity:0
 });
 gsap.to("h1 span", {
  delay:"random(0, .5)",
@@ -57,6 +58,7 @@ gsap.to("h1 span", {
 });
 
 gsap.set(".ball", {
+ opacity:0,
  scaleY: 1,  
  transformOrigin: "center bottom"
 });	
@@ -77,6 +79,7 @@ gsap.to(".ball", {
 
 
 gsap.set(".sub-title span", {
+  opacity:0,
   perspective:400, 
   x: gsap.utils.random(-30, 30, true),
   y: gsap.utils.random(-50, -50, true),
@@ -107,6 +110,9 @@ function setupReveal(container) {
      toggleActions: "restart none none none"
      }, delay:.7
      }); 
+tl.set(pl, {
+opacity:0	
+})
 tl.to(pl, {
  clipPath: "circle(100%)",
  webkitClipPath:"circle(100%)",
@@ -127,7 +133,9 @@ tl.to(pl, {
      }, delay:.7
      }); 
 
-   
+tl.set(one, {
+ opacity:0	
+}) 
 tl.to(one, {
  perspective:500,
  scaleY:0,
@@ -161,7 +169,9 @@ const RevealBoxs2 = container.querySelectorAll(".box2");
   toggleActions: "restart none none none"
   }, delay: .7
   });                      
-                                       
+tl.set(two, {
+ opacity:0	
+})                                       
 tl.to(two, {
  opacity:1,
  duration:3,	
@@ -189,7 +199,8 @@ let revealContainers = container.querySelectorAll(".item");
   });
 
   tl.set(el, {
-   autoAlpha: 1
+   autoAlpha:1,
+   opacity:0
    });
   tl.fromTo(el, {
    clipPath: "polygon(0 0, 100% 0, 100% 0, 0 0)",
@@ -199,7 +210,8 @@ let revealContainers = container.querySelectorAll(".item");
    clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
    webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
    duration:2.5,     
-   ease: "power2.out"
+   ease: "power2.out",
+   opacity:1
    });
    tl.from(image, {
     duration:4,                   
