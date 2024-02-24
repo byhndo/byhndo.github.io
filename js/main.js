@@ -182,10 +182,12 @@ const RevealBoxs2 = container.querySelectorAll(".box2");
   }, delay: .7
   });                      
 tl.set(two, {
- opacity:0	
+ opacity:0,
+ y:-10
 })                                       
 tl.to(two, {
  opacity:1,
+ y:0,
  duration:3,		
  ease:easing
 });   
