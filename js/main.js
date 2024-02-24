@@ -113,13 +113,17 @@ function setupReveal(container) {
 tl.set(pl, {
 opacity:0	
 })
-tl.to(pl, {
- clipPath: "circle(100%)",
- webkitClipPath:"circle(100%)",
- opacity:1,
- duration:6,
- ease:"power2.out"
-        }); 
+tl.fromTo(pl, {
+   clipPath: "polygon(0 0, 100% 0, 100% 0, 0 0)",
+   webkitClipPath: "polygon(0 0, 100% 0, 100% 0, 0 0)"
+   },
+   {
+   clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
+   webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
+   duration:3,     
+   ease: "power2.out",
+   opacity:1
+   });
 	   
    });
 	 
