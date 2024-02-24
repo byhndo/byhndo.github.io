@@ -35,13 +35,13 @@ data() {
 const easing = "power2.out";
 
 gsap.set("html", {
- opacity:0,
+ opacity:1,
  filter:"blur(10px)"
 });
 gsap.to("html", {
  duration:1,
- opacity:1,
- filter:"blur(10px)"
+ opacity:0,
+ filter:"blur(0px)"
 });
 	
 gsap.set("nav", {
