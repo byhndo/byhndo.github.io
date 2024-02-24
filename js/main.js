@@ -41,7 +41,7 @@ gsap.to("nav", {
  duration:3,
  opacity:1,
  y:0,
- ease:Circ.easeOut
+ ease:"power2.out"
 });
 	
 gsap.set("h1 span", {
@@ -92,7 +92,7 @@ gsap.to(".sub-title span", {
   y:0,
   z:0, 
   rotate:0,
-  ease:"Circ.easeOut"
+  ease:"power2.out"
 });	       
 
 function setupReveal(container) {	
@@ -112,7 +112,7 @@ tl.to(pl, {
  webkitClipPath:"circle(100%)",
  opacity:1,
  duration:6,
- ease:"Circ.easeOut"
+ ease:"power2.out"
         }); 
 	   
    });
@@ -146,7 +146,7 @@ tl.to(one, {
  y:0,
  rotateX:0,
  rotateY:0,
- ease: "Circ.easeOut"	
+ ease:"power2.out"	
 });
 
 });
@@ -162,9 +162,6 @@ const RevealBoxs2 = container.querySelectorAll(".box2");
   }, delay: .7
   });                      
                                        
-tl.set(two, {
- filter:"blur(5px)"
-});
 tl.to(two, {
  opacity:1,
  duration:3,	
