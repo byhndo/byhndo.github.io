@@ -115,13 +115,7 @@ function setupReveal(container) {
 tl.set(pl, {
 opacity:0	
 })
-tl.fromTo(pl, {
-   clipPath: "polygon(0 0, 100% 0, 100% 0, 0 0)",
-   webkitClipPath: "polygon(0 0, 100% 0, 100% 0, 0 0)"
-   },
-   {
-   clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
-   webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
+tl.to(pl, {
    duration:3,     
    ease: easing,
    opacity:1
@@ -186,7 +180,7 @@ tl.to(two, {
 
 tl.to(ln, {
  opacity: 1,
- duration: 1,	
+ duration:2,	
  width: "100%",
  ease:easing
 });	
