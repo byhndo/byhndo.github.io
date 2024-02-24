@@ -421,7 +421,7 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
 .line {
  position:relative;
  display:block;
- margin:-40px auto 0 auto;
+ margin:-45px auto 0 auto;
  width:0;
  height:32px;
  opacity: 0;
