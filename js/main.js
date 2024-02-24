@@ -34,10 +34,13 @@ data() {
 
 const easing = "power2.out";
 
-gsap.fromTo("html", {
+gsap.set("html", {
  opacity:0,
- filter:"blur(10px)"},
- {opacity:1, filter:"blur(0px)"
+ filter:"blur(10px)"	 
+});
+gsap.to("html", {
+ opacity:1,
+ filter:"blur(0px)
 });
 	
 gsap.set("nav", {
