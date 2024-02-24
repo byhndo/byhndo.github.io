@@ -176,7 +176,7 @@ tl.to(two, {
  opacity:1,
  duration:3,	
  filter:"blur(0px)",	
- ease:"power2.out"
+ ease:"Circ.easeOut"
 });   
 
 tl.to(ln, {
