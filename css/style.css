@@ -419,7 +419,7 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
 }
 
 .line {
- position:absolute;
+ position:relative;
  display:block;
  margin:-40px auto 0 auto;
  width:0;
