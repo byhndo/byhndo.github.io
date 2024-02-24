@@ -3,10 +3,16 @@ window.addEventListener("load", function(e) {
 
 gsap.registerPlugin(ScrollTrigger, CustomEase);
 
+gsap.set("#preloader", {
+ autoAlpha:1,
+ opacity:1,
+ filter:"blur(10px)"
+});
 gsap.to("#preloader", {
  autoAlpha:0,
  opacity:0,
- duration:.5
+ duration:.5,
+ filter:"blur(10px)"
 });
 	
 const {
