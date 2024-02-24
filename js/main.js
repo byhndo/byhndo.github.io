@@ -32,7 +32,7 @@ data() {
     }
 }).mount('#app')  
 
-const easing = "expoScale(0.5,7,none)";
+const easing = "bounce.out";
 	
 gsap.set("nav", {
  opacity:0,
