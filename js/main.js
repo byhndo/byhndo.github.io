@@ -163,20 +163,20 @@ const RevealBoxs2 = container.querySelectorAll(".box2");
   });                      
                                        
 tl.set(two, {
- filter:"blur(10px)"
+ filter:"blur(5px)"
 });
 tl.to(two, {
  opacity:1,
  duration:1,	
  filter:"blur(0px)",	
- ease:"Circ.easeOut"
+ ease:"power2.out"
 });   
 
 tl.to(ln, {
  opacity: 1,
  duration: 1,	
  width: "100%",
- ease: "Circ.easeOut"
+ ease: "power2.out"
 });	
 	                                                                                                                  
 });	
@@ -187,7 +187,6 @@ let revealContainers = container.querySelectorAll(".item");
  let tl = gsap.timeline({
  scrollTrigger: {
   trigger: el,
-  ease: "bounce.out",
   toggleActions: "restart none none none"
   }, delay: .7
   });
