@@ -3,7 +3,7 @@
  --c2: #323235;            
  --b1: #EB455F;
  --b2: #ffc712;
- --sizebody:12px;
+ --sizebody:12.5px;
  --sizetitle:24vw;
  --sizenav:9px;
  --font1:'Road Rage', sans-serif;
@@ -421,16 +421,16 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
 .line {
  position:absolute;
  display:block;
- margin:-50px auto 0 auto;
+ margin:-40px auto 0 auto;
  width:0;
  height:30px;
  opacity: 0;
  z-index: 1000;
- background:rgba(50, 50, 53, .03);
+ background:rgba(50, 50, 53, .05);
 }
 
 .photos .line{
- background:rgba(236, 236, 239, .03);
+ background:rgba(236, 236, 239, .05);
 }
 
 .prolog{
