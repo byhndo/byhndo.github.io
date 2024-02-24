@@ -33,15 +33,6 @@ data() {
 }).mount('#app')  
 
 const easing = "power2.out";
-
-gsap.set("html", {
- opacity:0,
- filter:"blur(10px)"	 
-});
-gsap.to("html", {
- opacity:1,
- filter:"blur(0px)"
-});
 	
 gsap.set("nav", {
  opacity:0,
