@@ -41,7 +41,7 @@ gsap.to("nav", {
  duration:3,
  opacity:1,
  y:0,
- ease:"power2.out"
+ ease:"sine.out"
 });
 	
 gsap.set("h1 span", {
@@ -95,7 +95,7 @@ gsap.to(".sub-title span", {
   y:0,
   z:0, 
   rotate:0,
-  ease:"power2.out"
+  ease:"sine.out"
 });	       
 
 function setupReveal(container) {	
@@ -121,7 +121,7 @@ tl.fromTo(pl, {
    clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
    webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
    duration:3,     
-   ease: "power2.out",
+   ease: "sine.out",
    opacity:1
    });
 	   
@@ -158,7 +158,7 @@ tl.to(one, {
  y:0,
  rotateX:0,
  rotateY:0,
- ease:"power2.out"	
+ ease:"sine.out"	
 });
 
 });
@@ -180,14 +180,14 @@ tl.to(two, {
  opacity:1,
  duration:3,	
  filter:"blur(0px)",	
- ease:"power2.out"
+ ease:"sine.out"
 });   
 
 tl.to(ln, {
  opacity: 1,
  duration: 1,	
  width: "100%",
- ease: "power2.out"
+ ease: "sine.out"
 });	
 	                                                                                                                  
 });	
@@ -214,14 +214,14 @@ let revealContainers = container.querySelectorAll(".item");
    clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
    webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
    duration:2.5,     
-   ease: "power2.out",
+   ease: "sine.out",
    opacity:1
    });
    tl.from(image, {
     duration:4,                   
     scale: 1.4,                     
     delay:.3,
-    ease: "power2.out"
+    ease: "sine.out"
     }, 0);
 
 	 
