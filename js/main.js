@@ -9,7 +9,7 @@ gsap.fromTo("#preloader", {
  opacity:0,
  duration:.5,
 filter:"blur(10px)"}, 
-{filter:"blur(0px)"}
+{filter:"blur(0px)"}}
 });
 	
 const {
