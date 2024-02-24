@@ -32,7 +32,7 @@ data() {
     }
 }).mount('#app')  
 
-const easing = "bounce.out";
+const easing = "power2.out";
 	
 gsap.set("nav", {
  opacity:0,
