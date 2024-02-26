@@ -427,6 +427,7 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
  opacity: 0;
  z-index: 1000;
  background:rgba(50, 50, 53, .07);
+ z-index:100;
 }
 
 .photos .line{
