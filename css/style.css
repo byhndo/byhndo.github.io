@@ -435,7 +435,7 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
 
 .prolog{
  font-size:100%;
- font-weight:var(--fwbody);
+ font-weight:300;
  color:var(--c2);
  font-family:var(--font3);
  text-align:justify;
