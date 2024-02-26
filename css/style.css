@@ -404,13 +404,13 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
 
 .one, .one span{
  display: inline-block;
+ z-index:2000;
 }
 
 .one{
  margin-top:0;
  margin-bottom:0;
  opacity:0;
- z-index:2000;
 }
 
 .two{
