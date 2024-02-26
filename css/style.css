@@ -410,6 +410,7 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
  margin-top:0;
  margin-bottom:0;
  opacity:0;
+ z-index:2000;
 }
 
 .two{
@@ -424,10 +425,9 @@ img, .sc, .pl, .box1, .box2, .one, .one span, .two{
  margin:-41px auto 0 auto;
  width:0;
  height:32px;
- opacity: 0;
- z-index: 1000;
+ opacity:0;
+ z-index:1000;
  background:rgba(50, 50, 53, .07);
- z-index:100;
 }
 
 .photos .line{
