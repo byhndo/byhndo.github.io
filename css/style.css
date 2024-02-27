@@ -93,9 +93,6 @@ body {
  height:100%;
  position:relative;
 }
-html .photos, body .photos{
- background-color:var(--c2);
-}
 
 *, *:before, *:after {
     box-sizing: border-box;
@@ -396,9 +393,6 @@ img {
  margin:0 .3rem;
 }
 
-img, .sc, .pl, .box1, .box2, .one, .one span, .two{
-  position: relative;
-}
 .sc{
  margin-top:50px;
 }
