@@ -178,11 +178,11 @@ const RevealBoxs2 = container.querySelectorAll(".box2");
   });                      
 tl.set(two, {
  opacity:0,
- y:50
+ yPercent:50
 })                                       
 tl.to(two, {
  opacity:1,
- y:0,
+ yPercent:0,
  duration:1.5,		
  ease:easing
 });   
