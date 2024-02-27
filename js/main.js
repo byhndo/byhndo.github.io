@@ -211,7 +211,6 @@ let revealContainers = container.querySelectorAll(".item");
    opacity:0
    });
   tl.from(el, {
-   opacity:1,
    duration:2.5,
    yPercent:100,
    ease:easing
