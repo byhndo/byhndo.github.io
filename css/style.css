@@ -326,6 +326,10 @@ main {
  color: var(--c1);
 }
 
+.sub1, .sub2{
+ position:relative;
+}
+
 p.sub1, p.sub2 {
   text-transform:none;
   text-align:justify;
@@ -414,10 +418,6 @@ img {
  margin-top:var(--marginp);
  margin-bottom: var(--marginp);
  opacity:0;
-}
-
-.one, .two{
- position:absolute;
 }
 
 .line {
