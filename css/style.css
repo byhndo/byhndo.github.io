@@ -93,7 +93,7 @@ body {
  height:100%;
  position:relative;
 }
-body .photos{
+html .photos, body .photos{
  background-color:var(--c2);
 }
 
