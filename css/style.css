@@ -300,7 +300,7 @@ nav li a:hover, nav li a:active{
 main {
  position: relative;
  max-width:90%;
- padding:60px 0 20px 0;
+ padding:60px 0 50px 0;
  margin: 0 auto 0 auto;
  text-align:center;
 }
@@ -324,10 +324,6 @@ main {
 
 .sub2 {
  color: var(--c1);
-}
-
-.sub1, .sub2{
- position:relative;
 }
 
 p.sub1, p.sub2 {
