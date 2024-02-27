@@ -339,7 +339,7 @@ p.sub2 {
 }
 
 .grid {
-  --auto-grid-min-size: 10rem;
+  --auto-grid-min-size: 15rem;
   display: grid;  
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: masonry;
