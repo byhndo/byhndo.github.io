@@ -210,7 +210,7 @@ let revealContainers = container.querySelectorAll(".item");
    autoAlpha:1,
    opacity:0
    });
-  tl.from(container, {
+  tl.from(el, {
    opacity:1,
    duration:2.5,
    yPercent:100,
