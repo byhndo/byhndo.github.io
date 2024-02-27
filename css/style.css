@@ -416,6 +416,10 @@ img {
  opacity:0;
 }
 
+.one, .two{
+ position:absolute;
+}
+
 .line {
  position:relative;
  display:block;
