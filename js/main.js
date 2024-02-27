@@ -178,11 +178,11 @@ const RevealBoxs2 = container.querySelectorAll(".box2");
   });                      
 tl.set(two, {
  opacity:0,
- yPercent:50
+ y:50
 })                                       
 tl.to(two, {
  opacity:1,
- yPercent:0,
+ y:0,
  duration:1.5,		
  ease:easing
 });   
@@ -210,19 +210,23 @@ let revealContainers = container.querySelectorAll(".item");
    autoAlpha:1,
    opacity:0
    });
-  tl.from(el, {
-   duration:2.5,
-   yPercent:100,
-   ease:easing
-  });
-  tl.from(image, {
-   yPercent:-100,
-   duration:4,                   
-   scale: 1.4,                     
-   delay:.3,
-   ease:easing
-   }, 0);
-
+  tl.fromTo(el, {
+   clipPath: "polygon(0 0, 100% 0, 100% 0, 0 0)",
+   webkitClipPath: "polygon(0 0, 100% 0, 100% 0, 0 0)"
+   },
+   {
+   clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
+   webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
+   duration:2.5,     
+   ease:easing,
+   opacity:1
+   });
+   tl.from(image, {
+    duration:4,                   
+    scale: 1.4,                     
+    delay:.3,
+    ease:easing
+    }, 0);
 	 
   });	
 });
