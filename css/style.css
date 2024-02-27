@@ -469,7 +469,6 @@ li.about{
 }
 
 .footer {
- position: relative; 
  display: grid;
  align-items: center;
  justify-items: center;
