@@ -80,7 +80,7 @@ gsap.to(".ball", {
 }, "<+=.2");
 
 
-gsap.set(".sub-title span", {
+gsap.set(".sub-title, .sub-title .char", {
   opacity:0,
   perspective:400, 
   x: gsap.utils.random(-30, 30, true),
@@ -88,7 +88,7 @@ gsap.set(".sub-title span", {
   z: gsap.utils.random(0, 50, true),
   rotate: gsap.utils.random(-90,90, true)                    
 });
-gsap.to(".sub-title span", {
+gsap.to(".sub-title, .sub-title .char", {
   delay:.3,
   duration:1, 
   opacity:1, 
