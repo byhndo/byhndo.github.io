@@ -413,7 +413,7 @@ img {
 .two{
  margin-top:var(--marginp);
  margin-bottom: var(--marginp);
- opacity:0;
+ 
 }
 
 .line {
