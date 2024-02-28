@@ -177,15 +177,14 @@ const RevealBoxs2 = container.querySelectorAll(".box2");
   }, delay: .7
   });  
 
-tl.set(two.chars, {
+tl.set(two, {
  opacity:0,
  y:-50
 })                                       
-tl.to(two.chars, {
+tl.to(two, {
  opacity:1,
  y:0,
  duration:1.5,	
- stagger: 0.02,
  ease:easing
 });   
 
