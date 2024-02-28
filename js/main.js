@@ -82,21 +82,14 @@ gsap.to(".ball", {
 
 gsap.set(".sub-title, .sub-title .char", {
   opacity:0,
-  perspective:400, 
-  x: gsap.utils.random(-30, 30, true),
-  y: gsap.utils.random(-50, -50, true),
-  z: gsap.utils.random(0, 50, true),
-  rotate: gsap.utils.random(-90,90, true)                    
+  y:-50                 
 });
 gsap.to(".sub-title, .sub-title .char", {
   delay:.3,
   duration:1, 
   opacity:1, 
   stagger:.03, 
-  x:0,
-  y:0,
-  z:0, 
-  rotate:0,
+  y:0, 
   ease:easing
 });	       
 
