@@ -90,7 +90,7 @@ gsap.to(".sub-title, .sub-title .char", {
   delay:4,
   duration:1, 
   opacity:1, 
-  stagger:.03, 
+  stagger:.05, 
   y:0, 
   ease:easing
 });	       
