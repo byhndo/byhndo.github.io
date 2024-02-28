@@ -157,7 +157,7 @@ h1 span{
  letter-spacing: calc(0.3vw + 0.5rem);
 }
 
-.sub-title span{
+.sub-title .char{
  display:inline-block;
  font-size:9px;
  font-family: var(--font2);
