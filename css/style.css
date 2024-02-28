@@ -165,7 +165,7 @@ h1 span{
  letter-spacing: calc(0.3vw + 0.5rem);
 }
  
-.photos .sub-title span{
+.photos .sub-title{
   color:var(--c1);
 }
 
