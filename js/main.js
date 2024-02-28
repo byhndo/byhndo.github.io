@@ -168,7 +168,7 @@ tl.to(one, {
 	  
 const RevealBoxs2 = container.querySelectorAll(".box2");
  RevealBoxs2.forEach((box2) => {
- const two = box2.querySelectorAll(".two");            
+ const two = box2.querySelectorAll(".two", {type:"chars"});            
  const ln = box2.querySelectorAll(".line");                  
  let tl = gsap.timeline({
  scrollTrigger: {
@@ -177,11 +177,11 @@ const RevealBoxs2 = container.querySelectorAll(".box2");
   }, delay: .7
   });  
 
-tl.set(two.chars, {
+tl.set(two, {
  opacity:0,
  y:-50
 })                                       
-tl.to(two.chars, {
+tl.to(two, {
  opacity:1,
  y:0,
  duration:1.5,	
