@@ -33,7 +33,7 @@ data() {
 }).mount('#app')  
 
 const easing = "power2.out";
-	
+Splitting();	
 gsap.set("nav", {
  opacity:0,
  y:-100
