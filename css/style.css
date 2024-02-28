@@ -433,15 +433,11 @@ img {
 
 .prolog{
  font-size:100%;
- font-weight:300;
+ font-weight:500;
  color:var(--c2);
  font-family:var(--font3);
  text-align:justify;
  text-transform:uppercase;
-}
-
-.prolog span{
- font-weight:500;
 }
 
 .quote {
