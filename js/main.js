@@ -87,7 +87,7 @@ gsap.set(".sub-title, .sub-title .char", {
   y:-50                 
 });
 gsap.to(".sub-title, .sub-title .char", {
-  delay:1,
+  delay:1.5,
   duration:1, 
   opacity:1, 
   stagger:.03, 
