@@ -420,6 +420,7 @@ img {
 
 .photos .line{
  background:rgba(236, 236, 239, .07);
+ transition:background 1.5s;
 }
 
 .prolog{
@@ -446,9 +447,10 @@ img {
  font-size:70%;
  color:inherit;
 }
-
-ul, li{
- list-style-type:none;
+ul{
+ margin:0;
+ padding:0;
+ text-align:justify;
 }
 
 li.about{
