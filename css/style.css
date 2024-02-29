@@ -123,7 +123,7 @@ h5 {
  justify-items:center;
  align-items:center;
 } 
-h1 {
+h1 span{
  position: relative;
  display: inline-block;
  transform-origin: top left;
@@ -144,7 +144,7 @@ h1 {
  color: var(--c1);
 }
 
-.sub-title{
+.sub-title span{
  margin-top:-60px;
  margin-bottom:60px;
  text-align:center;
@@ -162,7 +162,7 @@ h1 {
  letter-spacing: calc(0.3vw + 0.5rem);
 }
  
-.photos .sub-title{
+.photos .sub-title span{
   color:var(--c1);
 }
 
