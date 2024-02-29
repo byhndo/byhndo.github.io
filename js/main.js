@@ -8,14 +8,14 @@ gsap.to("#preloader", {
  opacity:0,
  duration:.5
 });
+
+Splitting();
 	
 const {
     createApp,
     ref,
     onMounted
 } = Vue
-
-Splitting();
 	
 createApp({
     methods: {
