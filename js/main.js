@@ -15,6 +15,8 @@ const {
     onMounted
 } = Vue
 
+Splitting();
+	
 createApp({
     methods: {
         afterEnter(el) {
@@ -31,8 +33,6 @@ data() {
         }
     }
 }).mount('#app')  
-
-Splitting();
 	
 const easing = "power2.out";
 	
