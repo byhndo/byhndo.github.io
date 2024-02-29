@@ -33,7 +33,8 @@ data() {
         }
     }
 }).mount('#app')  
-	
+
+Splitting();
 const easing = "power2.out";
 	
 gsap.set("nav", {
@@ -82,11 +83,11 @@ gsap.to(".ball", {
 }, "<+=.2");
 
 
-gsap.set(".sub-title, .char", {
+gsap.set(".sub-title, .sub-title .char", {
   opacity:0,
   y:-50                 
 });
-gsap.to(".sub-title, .char", {
+gsap.to(".sub-title, .sub-title .char", {
   delay:4.3,
   duration:1, 
   opacity:1, 
