@@ -8,8 +8,6 @@ gsap.to("#preloader", {
  opacity:0,
  duration:.5
 });
-
-Splitting();
 	
 const {
     createApp,
@@ -31,10 +29,12 @@ data() {
         return {
             bg: 'bio'
         }
-    }
+    },
+mounted() {
+Splitting();
+	}
 }).mount('#app')  
 
-Splitting();
 const easing = "power2.out";
 	
 gsap.set("nav", {
