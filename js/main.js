@@ -14,9 +14,7 @@ const {
     ref,
     onMounted
 } = Vue
-	
-Splitting();
-	
+		
 createApp({
     methods: {
         afterEnter(el) {
@@ -34,6 +32,8 @@ data() {
     }
 }).mount('#app')  
 
+Splitting();
+	
 const easing = "power2.out";
 	
 gsap.set("nav", {
