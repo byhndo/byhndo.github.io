@@ -146,7 +146,7 @@ h1 span{
  color: var(--c1);
 }
 
-.sub-title span{
+.sub-title{
  margin-top:-60px;
  margin-bottom:60px;
  text-align:center;
