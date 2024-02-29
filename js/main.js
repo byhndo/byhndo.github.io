@@ -9,7 +9,7 @@ gsap.to("#preloader", {
  duration:.5
 });
 
-$('.one').each(function(){
+$('h1, .sub-title, .one').each(function(){
   $(this).html($(this).text().replace(/\S/g, "<span>$&</span>"));
 });
 	
