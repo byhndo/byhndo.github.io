@@ -418,6 +418,8 @@ img {
 }
 
 .photos .line{
+ position:relative;
+ display:block;
  background:rgba(236, 236, 239, .07);
 }
 
