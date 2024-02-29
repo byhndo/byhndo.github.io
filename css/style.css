@@ -449,6 +449,7 @@ img {
 }
 ul{
  text-align:justify;
+ padding:0;
 }
 
 li.about{
