@@ -16,6 +16,9 @@ const {
 } = Vue
 	
 createApp({
+mounted() {
+Splitting();
+	},
     methods: {
         afterEnter(el) {
             setupReveal(el);
@@ -29,10 +32,7 @@ data() {
         return {
             bg: 'bio'
         }
-    },
-mounted() {
-Splitting();
-	}
+    }
 }).mount('#app')  
 
 const easing = "power2.out";
