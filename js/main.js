@@ -8,6 +8,10 @@ gsap.to("#preloader", {
  opacity:0,
  duration:.5
 });
+
+$('.one').each(function(){
+  $(this).html($(this).text().replace(/\S/g, "<span>$&</span>"));
+});
 	
 const {
     createApp,
@@ -126,12 +130,7 @@ tl.fromTo(pl, {
    });
 	 
  const RevealBoxs1 = container.querySelectorAll(".box1");
-   RevealBoxs1.forEach((box1) => { 
-	   
-  $('.one').each(function(){
-  $(this).html($(this).text().replace(/\S/g, "<span>$&</span>"));
-  });
-	   
+   RevealBoxs1.forEach((box1) => { 	   	   
     const one = box1.querySelectorAll(".one span");
     let tl = gsap.timeline({
     scrollTrigger: {
