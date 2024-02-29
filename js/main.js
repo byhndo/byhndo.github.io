@@ -15,10 +15,9 @@ const {
     onMounted
 } = Vue
 	
-createApp({
-mounted() {
 Splitting();
-	},
+	
+createApp({
     methods: {
         afterEnter(el) {
             setupReveal(el);
