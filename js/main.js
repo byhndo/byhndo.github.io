@@ -86,11 +86,11 @@ gsap.to(".ball", {
 }, "<+=.2");
 
 
-gsap.set(".sub-title, .sub-title .char", {
+gsap.set(".sub-title span", {
   opacity:0,
   y:-50                 
 });
-gsap.to(".sub-title, .sub-title .char", {
+gsap.to(".sub-title span", {
   delay:4.3,
   duration:1, 
   opacity:1, 
