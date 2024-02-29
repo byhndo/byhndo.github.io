@@ -1,5 +1,7 @@
 document.addEventListener("DOMContentLoaded", function(event) {
 window.addEventListener("load", function(e) {
+
+Splitting();
 	
 gsap.registerPlugin(ScrollTrigger, CustomEase);
 
@@ -8,8 +10,6 @@ gsap.to("#preloader", {
  opacity:0,
  duration:.5
 });
-
-Splitting();
 	
 const {
     createApp,
