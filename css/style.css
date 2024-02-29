@@ -415,7 +415,7 @@ img {
  opacity:0;
  z-index:1000;
  background:rgba(50, 50, 53, .07);
- transition:background 1s;
+ transition:background 1.5s;
 }
 
 .photos .line{
@@ -450,6 +450,7 @@ img {
 ul, li{
  list-style-type:none;
 }
+
 li.about{
  list-style-type:decimal;
  text-align:justify;
