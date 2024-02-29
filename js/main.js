@@ -9,7 +9,7 @@ gsap.to("#preloader", {
  duration:.5
 });
 
-$('h1, .sub-title, .one').each(function(){
+$('.one').each(function(){
   $(this).html($(this).text().replace(/\S/g, "<span>$&</span>"));
 });
 	
@@ -52,11 +52,11 @@ gsap.to("nav", {
  ease:easing
 });
 	
-gsap.set("h1 span", {
+gsap.set("h1, h1 .char", {
  y:"-100%",
  opacity:0
 });
-gsap.to("h1 span", {
+gsap.to("h1, h1 .char", {
  delay:"random(0, .5)",
  duration:"random(.7, 1)",
  opacity:1,
@@ -86,11 +86,11 @@ gsap.to(".ball", {
 }, "<+=.2");
 
 
-gsap.set(".sub-title span", {
+gsap.set(".sub-title, .sub-title .char", {
   opacity:0,
   y:-50                 
 });
-gsap.to(".sub-title span", {
+gsap.to(".sub-title, .sub-title .char", {
   delay:4.3,
   duration:1, 
   opacity:1, 
