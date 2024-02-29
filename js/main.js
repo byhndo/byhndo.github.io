@@ -48,11 +48,11 @@ gsap.to("nav", {
  ease:easing
 });
 	
-gsap.set("h1, .char", {
+gsap.set("h1, h1 .char", {
  y:"-100%",
  opacity:0
 });
-gsap.to("h1, .char", {
+gsap.to("h1, h1 .char", {
  delay:"random(0, .5)",
  duration:"random(.7, 1)",
  opacity:1,
@@ -82,11 +82,11 @@ gsap.to(".ball", {
 }, "<+=.2");
 
 
-gsap.set(".sub-title, .char", {
+gsap.set(".sub-title, .sub-title .char", {
   opacity:0,
   y:-50                 
 });
-gsap.to(".sub-title, .char", {
+gsap.to(".sub-title, .sub-title .char", {
   delay:4,
   duration:1, 
   opacity:1, 
@@ -127,7 +127,7 @@ tl.fromTo(pl, {
 	 
  const RevealBoxs1 = container.querySelectorAll(".box1");
    RevealBoxs1.forEach((box1) => { 
-    const one = box1.querySelectorAll(".one, .char, .sub2 .one, .sub2 .one .char, .sub2 .char");
+    const one = box1.querySelectorAll(".one, .one .char, .photos .one, .photos .one .char");
     let tl = gsap.timeline({
     scrollTrigger: {
      trigger: box1,
