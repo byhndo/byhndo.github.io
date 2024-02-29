@@ -52,11 +52,11 @@ gsap.to("nav", {
  ease:easing
 });
 	
-gsap.set("h1, h1 .char", {
+gsap.set("h1 span", {
  y:"-100%",
  opacity:0
 });
-gsap.to("h1, h1 .char", {
+gsap.to("h1 span", {
  delay:"random(0, .5)",
  duration:"random(.7, 1)",
  opacity:1,
