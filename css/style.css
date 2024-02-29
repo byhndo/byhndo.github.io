@@ -123,12 +123,9 @@ h5 {
  justify-items:center;
  align-items:center;
 } 
-h1 span{
+h1 {
  position: relative;
- display: inline-block;
  transform-origin: top left;
- opacity:0;
- display:inline;
  font-family: var(--font1);
  color: var(--c2);
  font-size: var(--sizetitle);
@@ -138,6 +135,11 @@ h1 span{
  letter-spacing:-0.3vw;
  font-weight:var(--fwtitle);
  text-transform:uppercase;
+}
+
+h1 span{
+ display:inline;
+ opacity:0;
 }
 
 .photos h1{
@@ -150,19 +152,22 @@ h1 span{
  text-align:center;
  text-align-last:center;
  line-height:2.3;
- display:inline-block;
  font-size:9px;
  font-family: var(--font2);
  color: var(--c2);
  font-weight:300;
  text-transform: uppercase;
  transition: color 2.5s;
- opacity:0;
  word-spacing: calc(0.01vw + 0.1rem);
  letter-spacing: calc(0.3vw + 0.5rem);
 }
+
+.sub-title span{
+ display:inline-block;
+ opacity:0;
+}
  
-.photos .sub-title span{
+.photos .sub-title{
   color:var(--c1);
 }
 
@@ -410,7 +415,7 @@ img {
 .line {
  position:relative;
  display:block;
- margin:-65px auto 0 auto;
+ margin:-70px auto 0 auto;
  width:0;
  height:32px;
  opacity:0;
