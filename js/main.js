@@ -1,7 +1,5 @@
 document.addEventListener("DOMContentLoaded", function(event) {
 window.addEventListener("load", function(e) {
-
-Splitting();
 	
 gsap.registerPlugin(ScrollTrigger, CustomEase);
 
@@ -270,6 +268,10 @@ $('html, body').css({
   'overflow': 'auto',
   'height': 'auto'
 })
+
+
+Splitting();
+
 	
 }, false);
 });
