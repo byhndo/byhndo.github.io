@@ -127,7 +127,12 @@ tl.fromTo(pl, {
 	 
  const RevealBoxs1 = container.querySelectorAll(".box1");
    RevealBoxs1.forEach((box1) => { 
-    const one = box1.querySelectorAll(".one, .one .char");
+	   
+  $('.one').each(function(){
+  $(this).html($(this).text().replace(/\S/g, "<span>$&</span>"));
+  });
+	   
+    const one = box1.querySelectorAll(".one span");
     let tl = gsap.timeline({
     scrollTrigger: {
      trigger: box1,
