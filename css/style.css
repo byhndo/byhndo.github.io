@@ -487,7 +487,6 @@ li.about{
 }
 @media(min-width:500px){
   main{
-    margin-top:30px;  
     max-width:60%;
   }
   h1{
