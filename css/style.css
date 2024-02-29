@@ -395,7 +395,6 @@ img {
 }
 
 .one span{
- position:absolute;
  display: inline-block;
  margin-top:0;
  margin-bottom:0;
@@ -411,7 +410,7 @@ img {
 .line {
  position:relative;
  display:block;
- margin:-10px auto 0 auto;
+ margin:-60px auto 0 auto;
  width:0;
  height:32px;
  opacity:0;
