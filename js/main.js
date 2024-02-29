@@ -1,7 +1,5 @@
 document.addEventListener("DOMContentLoaded", function(event) {
 window.addEventListener("load", function(e) {
-
-Splitting();
 	
 gsap.registerPlugin(ScrollTrigger, CustomEase);
 
@@ -33,6 +31,8 @@ data() {
         }
     }
 }).mount('#app')  
+
+Splitting();
 	
 const easing = "power2.out";
 	
