@@ -407,19 +407,18 @@ img {
 }
 
 .line {
- position:relative;
+ position:absolute;
  display:block;
  margin:-71px auto 0 auto;
  width:0;
  height:32px;
  opacity:0;
- z-index:1000;
- background:#dfdfe1;
+ background:rgba(50, 50, 53, .07);
  transition:background 1s;
 }
 
 .photos .line{
- background:#3f3f41;
+ background:rgba(236, 236, 239, .07);
  transition:background 1s;
 }
 
