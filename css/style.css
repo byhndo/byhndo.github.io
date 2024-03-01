@@ -28,7 +28,10 @@
  z-index:99999999999999; 
 }
 .loader{
-  place-self:center;
+ place-self:center;
+ font-family:var(--font3);
+ font-size:var(--sizebody);
+ color:var(--c2);
 }
 .loader > div{
  place-self:center;
