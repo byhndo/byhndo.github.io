@@ -192,7 +192,7 @@ tl.to(ln, {
  opacity: 1,
  duration:1.5,	
  width: "100%",
- ease:"power1.out"
+ ease:"expo.out"
 });	
 	                                                                                                                  
 });	
