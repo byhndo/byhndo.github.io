@@ -407,7 +407,7 @@ img {
 }
 
 .line {
- position:absolute;
+ position:relative;
  display:block;
  margin:-71px auto 0 auto;
  width:0;
