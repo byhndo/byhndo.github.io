@@ -31,7 +31,6 @@
  place-self:center;
 }
 p.text{
- place-self:center;
  font-family:var(--font3);
  font-size:var(--sizebody);
  color:var(--c2);
