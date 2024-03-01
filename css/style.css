@@ -17,6 +17,7 @@
  --fwfooter:400;
 }
 #preloader {
+ display:grid;
  position:fixed;
  top:0;
  left:0;
@@ -27,10 +28,11 @@
  z-index:99999999999999; 
 }
 .loader{
- display:grid;
- place-items:center;
+ place-self:center;
 }
 p.text{
+ display:grid;
+ place-items:center;
  font-family:var(--font3);
  font-size:var(--sizebody);
  color:var(--c2);
