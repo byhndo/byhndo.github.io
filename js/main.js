@@ -188,6 +188,9 @@ tl.to(two, {
  ease:easing
 });   
 
+tl.set(ln, {
+ opacity:0	
+})
 tl.to(ln, {
  opacity: 1,
  duration:1.5,	
