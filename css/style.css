@@ -36,7 +36,7 @@
  font-size:var(--sizebody);
  color:var(--c2);
  text-transform:uppercase;
- font-weight:300;
+ font-weight:400;
 }
 .loader > div{
  place-self:center;
