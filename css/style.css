@@ -29,13 +29,14 @@
 }
 .loader{
  place-self:center;
+}
 .ltext{
  place-self:center;
  font-family:var(--font3);
  font-size:var(--sizebody);
  color:var(--c2);
  text-transform:uppercase;
- font-weight:400;
+ font-weight:500;
 }
 .loader > div{
  place-self:center;
