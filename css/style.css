@@ -31,8 +31,6 @@
  place-self:center;
 }
 .ltext{
- display:grid;
- place-items:center;
  text-align:center;
  font-family:var(--font3);
  font-size:var(--sizebody);
