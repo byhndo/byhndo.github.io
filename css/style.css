@@ -30,7 +30,7 @@
 .loader{
  place-self:center;
 }
-.loader .text{
+.loader > .text{
  place-self:center;
  font-family:var(--font3);
  font-size:var(--sizebody);
