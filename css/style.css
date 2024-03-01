@@ -31,12 +31,12 @@
  place-self:center;
 }
 .ltext{
- text-align:center;
+ place-self:center;
  font-family:var(--font3);
  font-size:var(--sizebody);
  color:var(--c2);
  text-transform:uppercase;
- font-weight:500;
+ font-weight:300;
 }
 .loader > div{
  place-self:center;
