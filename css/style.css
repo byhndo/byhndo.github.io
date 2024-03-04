@@ -16,6 +16,7 @@
  --fwbody:300;
  --fwfooter:400;
 }
+
 #preloader {
  display:grid;
  position:fixed;
@@ -29,50 +30,16 @@
 }
 
 .loader {
-  width: 48px;
-  height: 48px;
-  border: 3px dotted #FFF;
-  border-style: solid solid dotted dotted;
-  border-radius: 50%;
-  display: inline-block;
-  position: relative;
-  box-sizing: border-box;
-  animation: rotation 2s linear infinite;
+ width:30px;
+ height:30px;
+ border-radius: 50%;
+ background: radial-gradient(farthest-side,#766DF4 94%,#0000) top/8px 8px no-repeat, conic-gradient(#0000 30%,#766DF4);
+ animation:s3 1s infinite linear;
 }
-.loader::after {
-  content: '';  
-  box-sizing: border-box;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  border: 3px dotted #FF3D00;
-  border-style: solid solid dotted;
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  animation: rotationBack 1s linear infinite;
-  transform-origin: center center;
+
+@keyframes s3{ 
+  100%{transform: rotate(1turn)}
 }
-    
-@keyframes rotation {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-} 
-@keyframes rotationBack {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(-360deg);
-  }
-} 
 
 .svg-filters {
   position: absolute;
