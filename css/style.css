@@ -31,15 +31,37 @@
 
 .loader {
  place-self:center;
- width:30px;
- height:30px;
+ width: 48px;
+ height: 48px;
+ display: inline-block;
+ position: relative;
+}
+.loader::after,
+.loader::before {
+ content: '';  
+ box-sizing: border-box;
+ width: 48px;
+ height: 48px;
  border-radius: 50%;
- background: radial-gradient(farthest-side,#766DF4 94%,#0000) top/8px 8px no-repeat, conic-gradient(#0000 30%,#766DF4);
- animation:s3 1s infinite linear;
+ border: 2px solid #FFF;
+ position: absolute;
+ left: 0;
+ top: 0;
+ animation: animloader 2s linear infinite;
+}
+.loader::after {
+ animation-delay: 1s;
 }
 
-@keyframes s3{ 
-  100%{transform: rotate(1turn)}
+@keyframes animloader {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+  }
 }
 
 .svg-filters {
