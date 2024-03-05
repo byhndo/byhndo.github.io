@@ -215,21 +215,13 @@ let revealContainers = container.querySelectorAll(".item");
    opacity:0
    });
 	 
-  tl.fromTo(el, {
-  r: 0
-}, {
-  r: 300,
-  opacity:1,
-  duration: 3,
-  ease: 'power3.inOut',
-  yoyo: true
-});
-
 tl.fromTo(el, {
+   r:0,
    clipPath: "polygon(0 0, 100% 0, 100% 0, 0 0)",
    webkitClipPath: "polygon(0 0, 100% 0, 100% 0, 0 0)"
    },
    {
+   r:300,
    clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
    webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
    duration:2,     
