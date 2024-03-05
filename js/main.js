@@ -69,8 +69,8 @@ gsap.to("h1", {
   scrollTrigger: {
     trigger: ".header",
     scrub: 1,
-    start: "top bottom",
-    end: "top center"
+    start: "0 bottom",
+    end: "center center"
   },
   y: innerHeight * 1,
   ease: "circ.out"
