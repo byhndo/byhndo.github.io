@@ -71,7 +71,7 @@ gsap.to(".header h1", {
     scrub: 1,
     start: "top 50%"
   },
-  y:50*1,
+  y:200,
   ease: "circ.out"
 }, 0);
 	
