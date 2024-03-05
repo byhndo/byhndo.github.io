@@ -221,6 +221,7 @@ tl.fromTo(el, {
    webkitClipPath: "polygon(0 0, 100% 0, 100% 0, 0 0)"
    },
    {
+   autoAlpha:0,
    r:300,
    clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
    webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
