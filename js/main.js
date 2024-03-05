@@ -65,6 +65,17 @@ gsap.to("h1, h1 .char", {
  ease:"Expo.easeInOut"	
 });
 
+gsap.from("h1", {
+  scrollTrigger: {
+    trigger: "h1",
+    scrub: true,
+    start: "top bottom",
+    end: "top top"
+  },
+  x: 5%,
+  ease: "expo.out"
+});
+	
 gsap.set(".ball", {
  opacity:0,
  scaleY: 1,  
