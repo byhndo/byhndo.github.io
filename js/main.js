@@ -238,8 +238,8 @@ gsap.fromTo(el, {
   r: 0,
 }, {
   r: 300,
-  repeat: -1,
-  duration: 6,
+  opacity:1,
+  duration: 3,
   ease: 'power3.inOut',
   yoyo: true
 })
