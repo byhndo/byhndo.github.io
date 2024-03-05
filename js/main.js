@@ -68,11 +68,11 @@ gsap.to("h1, h1 .char", {
 gsap.to("h1", {
   scrollTrigger: {
     trigger: ".header",
-    scrub: true,
+    scrub: 1,
     start: "top bottom",
     end: "top top"
   },
-  y: innerHeight * 1,
+  y: innerHeight * -1,
   ease: "circ.out"
 });
 	
