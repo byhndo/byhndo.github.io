@@ -234,7 +234,7 @@ let revealContainers = container.querySelectorAll(".item, .displacement");
 
 
 
-gsap.fromTo(el, {
+tl.fromTo(el, {
   r: 0,
 }, {
   r: 300,
