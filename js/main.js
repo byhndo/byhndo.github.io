@@ -216,23 +216,21 @@ let revealContainers = container.querySelectorAll(".item");
    });
 	 
 tl.fromTo(el, {
-   r:0,
    clipPath: "polygon(0 0, 100% 0, 100% 0, 0 0)",
    webkitClipPath: "polygon(0 0, 100% 0, 100% 0, 0 0)"
    },
    {
-   r:300,
    clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
    webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
-   duration:3,     
+   duration:2,     
    ease:easing,
    opacity:1
    });
 	 
    tl.from(image, {
-    duration:4,                   
+    duration:1.7,                   
     scale: 1.4,   
-    delay:1,
+    delay:.3,
     ease:easing
     }, 0);
 	 	 
