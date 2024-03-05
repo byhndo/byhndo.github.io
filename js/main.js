@@ -72,7 +72,6 @@ gsap.to(".header h1", {
     start: "top 50%"
   },
   y:50*1,
-  scale:.5,
   ease: "circ.out"
 }, 0);
 	
