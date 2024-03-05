@@ -73,7 +73,7 @@ gsap.from("h1", {
     end: "top top"
   },
   x: 5%,
-  ease: "expo.out"
+  ease: "circ.out"
 });
 	
 gsap.set(".ball", {
