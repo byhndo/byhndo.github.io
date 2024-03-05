@@ -72,7 +72,7 @@ gsap.to("h1", {
     start: "top bottom",
     end: "top top"
   },
-  y: innerHeight * -1,
+  y: innerHeight * 1,
   ease: "circ.out"
 });
 	
