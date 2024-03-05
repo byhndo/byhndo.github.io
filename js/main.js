@@ -200,7 +200,7 @@ tl.to(ln, {
 	                                                                                                                  
 });	
 
-let revealContainers = container.querySelectorAll(".item, .displacement");
+let revealContainers = container.querySelectorAll(".item");
  revealContainers.forEach((el) => {
  let image = el.querySelector("image");
  let tl = gsap.timeline({
