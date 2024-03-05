@@ -214,7 +214,18 @@ let revealContainers = container.querySelectorAll(".item, .displacement");
    autoAlpha:1,
    opacity:0
    });
+	 
   tl.fromTo(el, {
+  r: 0
+}, {
+  r: 300,
+  opacity:1,
+  duration: 3,
+  ease: 'power3.inOut',
+  yoyo: true
+});
+
+tl.fromTo(el, {
    clipPath: "polygon(0 0, 100% 0, 100% 0, 0 0)",
    webkitClipPath: "polygon(0 0, 100% 0, 100% 0, 0 0)"
    },
@@ -225,28 +236,14 @@ let revealContainers = container.querySelectorAll(".item, .displacement");
    ease:easing,
    opacity:1
    });
+	 
    tl.from(image, {
     duration:4,                   
     scale: 1.4,                     
     delay:.3,
     ease:easing
     }, 0);
-
-
-
-tl.fromTo(el, {
-  r: 0,
-}, {
-  r: 300,
-  opacity:1,
-  duration: 3,
-  ease: 'power3.inOut',
-  yoyo: true
-})
-
-
-	 
-	 
+	 	 
   });	
 });
 }
