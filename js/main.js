@@ -232,7 +232,6 @@ tl.fromTo(el, {
    tl.from(image, {
     duration:4,                   
     scale: 1.4,   
-    opacity:1,
     delay:.3,
     ease:easing
     }, 0);
