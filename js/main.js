@@ -70,7 +70,7 @@ gsap.to("h1", {
     trigger: ".header",
     scrub: 1,
     start: "top bottom",
-    end: "top top"
+    end: "top center"
   },
   y: innerHeight * 1,
   ease: "circ.out"
