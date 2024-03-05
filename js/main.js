@@ -68,11 +68,11 @@ gsap.to("h1, h1 .char", {
 gsap.from(".header h1", {
   scrollTrigger: {
     trigger: ".header",
-    scrub: 1,
+    scrub: 2,
     start: "top 50%"
   },
   y:200,
-  ease: "circ.out"
+  ease: "expo.out"
 }, 0);
 	
 gsap.set(".ball", {
