@@ -65,16 +65,14 @@ gsap.to("h1, h1 .char", {
  ease:"Expo.easeInOut"	
 });
 
-gsap.fromTo(".header h1", {
+gsap.to(".header h1", {
   scrollTrigger: {
     trigger: ".header",
     scrub: 2,
     start: "top 50%"
   },
-	
-	y:0
-	},{
-  y:300,
+  y:500,
+ yoyo:true,
   ease: "expo.out"
 }, 0);
 	
