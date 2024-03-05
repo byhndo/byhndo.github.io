@@ -73,7 +73,7 @@ gsap.fromTo(".header h1", {
   },
 	
 	y:0
-	},
+	},{
   y:300,
   ease: "expo.out"
 }, 0);
