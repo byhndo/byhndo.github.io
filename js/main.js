@@ -65,14 +65,14 @@ gsap.to("h1, h1 .char", {
  ease:"Expo.easeInOut"	
 });
 
-gsap.to("h1", {
+gsap.to(".header h1", {
   scrollTrigger: {
     trigger: ".header",
     scrub: 1,
-    start: "top center",
-    end: "center center"
+    start: "top 50%"
   },
   y:50*1,
+  scale:.5,
   ease: "circ.out"
 }, 0);
 	
