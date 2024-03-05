@@ -71,10 +71,6 @@
   height: 1px; 
 }
 
-.displacement {
-  filter: url(#displacementFilter);
-}
-
 html{
   background: var(--c1);
 }
@@ -351,6 +347,7 @@ p.sub2 {
   visibility: hidden;
   overflow: hidden;
   opacity: 0;
+  filter: url(#displacementFilter);
 }
 
 image {
