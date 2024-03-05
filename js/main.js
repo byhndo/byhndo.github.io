@@ -200,9 +200,9 @@ tl.to(ln, {
 	                                                                                                                  
 });	
 
-let revealContainers = container.querySelectorAll(".item");
+let revealContainers = container.querySelectorAll(".item, .displacement");
  revealContainers.forEach((el) => {
- let image = el.querySelector("img, .displacement");
+ let image = el.querySelector("img");
  let tl = gsap.timeline({
  scrollTrigger: {
   trigger: el,
