@@ -349,8 +349,9 @@ p.sub2 {
   opacity:0;
 }
 
-.item:nth-child(5){
+.grid:nth-child(5){
  width:100%;
+ grid-template-columns: repeat(2, 1fr);
 }
 
 img {
