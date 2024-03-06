@@ -65,16 +65,14 @@ gsap.to("h1, h1 .char", {
  ease:"Expo.easeInOut"	
 });
 
-
-let dn = gsap.timeline({
-    scrollTrigger: {
+ 
+gsap.fromTo(".header h1", {
+	scrollTrigger: {
       trigger: .header,
       start: "top center",
       end: "bottom center",
       scrub: true
-    }
-  })
-  dn.fromTo(".header h1", {
+	},
     y:0
   }, {
     y: 300,
