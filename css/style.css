@@ -24,7 +24,7 @@
  left:0;
  right:0;
  bottom:0;
- background:var(--c2); 
+ background:#262526; 
  height:100vh;
  z-index:99999999999999; 
 }
