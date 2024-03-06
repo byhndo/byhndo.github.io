@@ -7,7 +7,7 @@ gsap.to("#loader", {
  duration:1,
  x:"-100%",
  ease:"expo.out"
-}, "-=1"); 
+}, 0); 
 
 
 $('.one').each(function(){
