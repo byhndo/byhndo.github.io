@@ -231,7 +231,7 @@ tl.fromTo(el, {
     duration:2,                   
     scale: 1.4,   
     delay:.3,
-    ease:easing
+    ease:"power2.out"
     }, 0);
 	 	 
   });	
