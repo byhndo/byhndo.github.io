@@ -64,12 +64,6 @@ class Loader {
             ease: 'Expo.easeOut'
         }, 1 )
       
-      .fromTo( '#slider-canvas', 1, {
-            scale: 1.1
-        }, {
-            scale: 1,
-            ease: 'Expo.easeOut'
-        }, 1)
 
     }
 
