@@ -64,6 +64,25 @@ gsap.to("h1, h1 .char", {
  y:0,
  ease:"Expo.easeInOut"	
 });
+
+
+let dn = gsap.timeline({
+    scrollTrigger: {
+      trigger: .header,
+      start: "top center",
+      end: "bottom center",
+      scrub: true
+    }
+  })
+  dn.fromTo(".header h1", {
+    y:0
+  }, {
+    y: 300,
+    yoyo: true,
+    ease: "none"
+  })
+
+	
 	
 gsap.set(".ball", {
  opacity:0,
