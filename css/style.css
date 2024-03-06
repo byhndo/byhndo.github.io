@@ -17,7 +17,7 @@
  --fwfooter:400;
 }
 
-#preloader {
+#loader {
  display:grid;
  position:fixed;
  top:0;
