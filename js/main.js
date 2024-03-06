@@ -8,7 +8,7 @@ let tl = gsap.timeline({
 });
 
 	
-gsap.to("#loader", {
+tl.to("#loader", {
  duration:1,
  ease:"power2.out",
  y:"-100%"
