@@ -2,17 +2,17 @@ document.addEventListener("DOMContentLoaded", function(event) {
 window.addEventListener("load", function(e) {
 	
 gsap.registerPlugin(ScrollTrigger, CustomEase);
-
-gsap.set("#loader", {
- yPercent:0
-});      	
-	
+		
 gsap.to("#loader", {
  autoAlpha:0,
  opacity:0,
  duration:1,
+ yPercent:0
+}); 
+
+gsap.set("#loader", {
  yPercent:-100
-});      	
+});      
 
 $('.one').each(function(){
   $(this).html($(this).text().replace(/\S/g, "<span>$&</span>"));
