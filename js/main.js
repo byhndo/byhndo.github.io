@@ -7,7 +7,7 @@ gsap.to("#loader", {
  autoAlpha:0,
  opacity:0,
  duration:1,
- height:0
+ top:"-100%"
 }); 
 
 
