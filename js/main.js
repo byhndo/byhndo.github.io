@@ -222,7 +222,7 @@ tl.fromTo(el, {
    {
    clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
    webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
-   duration:2,     
+   duration:3,     
    ease:"expo.inOut",
    opacity:1
    });
@@ -230,7 +230,7 @@ tl.fromTo(el, {
    tl.from(image, {
     duration:3,                   
     scale: 1.4,   
-    delay:.1,
+    delay:0,
     ease:"expo.inOut"
     }, 0);
 	 	 
