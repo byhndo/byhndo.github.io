@@ -13,9 +13,9 @@ tl.to("#loader", {
  y:"-100%"
 }); 
 
-tl.to(".textload", {
- ease:"none",
- opacity:0
+tl.to("#loader .textload", {
+ opacity:0,
+ duration:2
 }); 
 
 function contentShow() {
