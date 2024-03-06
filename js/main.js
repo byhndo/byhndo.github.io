@@ -5,8 +5,8 @@ gsap.registerPlugin(ScrollTrigger, CustomEase);
 		
 gsap.to("#loader", {
  duration:1,
- top:"-100%"
-}, "-=1"); 
+ x:"-100%"
+}, "+=1"); 
 
 
 $('.one').each(function(){
