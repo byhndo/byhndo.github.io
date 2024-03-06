@@ -6,17 +6,18 @@ gsap.registerPlugin(ScrollTrigger, CustomEase);
 let tl = gsap.timeline({
     onComplete: contentShow
 });
-	
-tl.to("#loader", {
- duration:5,
- ease:"expo.out",
- y:"-100%"
-}); 
 
 tl.to("#loader .textload", {
  opacity:0,
  duration:2
 }); 
+	
+tl.to("#loader", {
+ duration:2,
+ ease:"expo.out",
+ y:"-100%"
+}); 
+
 
 function contentShow() {
 	
