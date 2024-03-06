@@ -171,7 +171,7 @@ tl.to(one, {
  scaleY:2	
 });
 tl.to(one, {	
- duration:1.5,
+ duration:2.5,
  opacity:1,
  scaleY:1,
  y:0,
