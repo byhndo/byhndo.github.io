@@ -225,7 +225,7 @@ tl.fromTo(el, {
    duration:3,
    ease:"expo.inOut",
    opacity:1
-   }, "-=1");
+   }, 0);
 	 
    tl.from(image, {
     duration:3,                   
