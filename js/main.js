@@ -9,6 +9,75 @@ gsap.to("#preloader", {
  duration:.5
 });
 
+
+class Loader {
+
+    constructor() {
+
+        this.container = document.querySelector('#loader');
+        this.grey = this.container.querySelector('.grey');
+        this.white = this.container.querySelector('.white');
+        this.textWrap = this.container.querySelector('.text-wrap');
+        this.text = this.container.querySelector('.text');
+        this.dot = this.text.querySelector('span');
+        this.animateDot();
+
+    }
+
+    animateDot() {
+
+        this.dotTween = TweenMax.fromTo( this.dot, 0.5, {
+            y: 0
+        }, {
+            y: -10,
+            ease: 'Power0.easeOut',
+            yoyo: true,
+            yoyoEase: 'Bounce.easeOut',
+            repeat: -1,
+            repeatDelay: 0.3
+        })
+
+    }
+
+    hide() {
+
+        let tl = new TimelineMax({
+            delay: 0.5,
+            onComplete: () => {
+                this.dotTween.kill();
+                this.container.style.display = 'none';
+            }
+        });
+
+        tl.to( this.text, 0.8, {
+            y: 100,
+            ease: 'Expo.easeIn'
+        }, 0 )
+
+        .to( this.grey, 1, {
+            yPercent: 100,
+            ease: 'Expo.easeOut'
+        }, 0.8 )
+
+        .to( this.white, 1, {
+            yPercent: 100,
+            ease: 'Expo.easeOut'
+        }, 1 )
+      
+      .fromTo( '#slider-canvas', 1, {
+            scale: 1.1
+        }, {
+            scale: 1,
+            ease: 'Expo.easeOut'
+        }, 1)
+
+    }
+
+}
+
+
+	
+
 $('.one').each(function(){
   $(this).html($(this).text().replace(/\S/g, "<span>$&</span>"));
 });
