@@ -1,11 +1,7 @@
 
 gsap.registerPlugin(ScrollTrigger, CustomEase);
 
-gsap.to("#preloader", {
- autoAlpha:0,
- opacity:0,
- duration:.5
-});
+
 
 
 class Loader {
