@@ -3,10 +3,15 @@ window.addEventListener("load", function(e) {
 	
 gsap.registerPlugin(ScrollTrigger, CustomEase);
 
+gsap.set("#loader", {
+ yPercent:0
+});      	
+	
 gsap.to("#loader", {
  autoAlpha:0,
  opacity:0,
- duration:.5
+ duration:1,
+ yPercent:-100
 });      	
 
 $('.one').each(function(){
