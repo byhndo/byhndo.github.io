@@ -75,7 +75,7 @@ class Loader {
 
 }
 
-
+let loader = new Loader();
 	
 
 $('.one').each(function(){
