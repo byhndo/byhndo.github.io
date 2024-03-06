@@ -38,7 +38,7 @@ data() {
 
 Splitting();
 	
-const easing = "power2.out";
+const easing = "expo.inOut";
 	
 gsap.set("nav", {
  opacity:0,
