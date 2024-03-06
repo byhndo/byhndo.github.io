@@ -24,9 +24,15 @@
  left:0;
  right:0;
  bottom:0;
- background:#ececef; 
+ background:var(--c2); 
  height:100vh;
  z-index:99999999999999; 
+}
+
+.textload{
+ place-self:center;
+ color:var(--c1);
+ font-size:var(--sizebody);
 }
 
 .svg-filters {
