@@ -237,7 +237,7 @@ tl.staggerfromTo(el, {
    duration:2.5,
    ease:easing,
    opacity:1
-   }, 0.1, 0.2);
+   }, 0.1);
 	 
    tl.from(image, {
     duration:2.5,                   
