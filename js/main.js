@@ -6,16 +6,14 @@ gsap.registerPlugin(ScrollTrigger, CustomEase);
 let tl = gsap.timeline({
     onComplete: contentShow
 });
-
 	
 tl.to("#loader", {
  duration:5,
- ease:"power2.out",
+ ease:"expo.out",
  y:"-100%"
 }); 
 
 function contentShow() {
-
 	
 $('.one').each(function(){
   $(this).html($(this).text().replace(/\S/g, "<span>$&</span>"));
