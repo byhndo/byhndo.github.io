@@ -4,8 +4,8 @@ window.addEventListener("load", function(e) {
 gsap.registerPlugin(ScrollTrigger, CustomEase);
 		
 gsap.to("#loader", {
- duration:1.3,
- ease:"expo.out",
+ duration:1.4,
+ ease:"expo.inOut",
  y:"-100%"
 }); 
 
