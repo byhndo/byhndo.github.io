@@ -227,7 +227,7 @@ let revealContainers = container.querySelectorAll(".item");
    opacity:0
    });
 	 
-tl.fromTo(el, {
+tl.staggerfromTo(el, {
    clipPath: "polygon(0 0, 100% 0, 100% 0, 0 0)",
    webkitClipPath: "polygon(0 0, 100% 0, 100% 0, 0 0)"
    },
@@ -237,7 +237,7 @@ tl.fromTo(el, {
    duration:2.5,
    ease:easing,
    opacity:1
-   });
+   }, 0.1, 0.2);
 	 
    tl.from(image, {
     duration:2.5,                   
