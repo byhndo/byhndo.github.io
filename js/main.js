@@ -96,7 +96,7 @@ gsap.to(".sub-title, .sub-title .char", {
   opacity:1, 
   stagger:.05, 
   y:0, 
-  ease:easing
+  ease:"circ.out"
 });	       
 
 function setupReveal(container) {	
@@ -160,7 +160,7 @@ tl.to(one, {
  y:0,
  rotateX:0,
  rotateY:0,
- ease:easing	
+ ease:"expo.out"	
 });
 
 });
@@ -195,7 +195,7 @@ tl.to(ln, {
  opacity: 1,
  duration:1.5,	
  width: "100%",
- ease:easing
+ ease:"expo.out"
 });	
 	                                                                                                                  
 });	
@@ -223,7 +223,7 @@ tl.fromTo(el, {
    clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
    webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
    duration:2.5,     
-   ease:easing,
+   ease:"expo.out",
    opacity:1
    });
 	 
@@ -231,7 +231,7 @@ tl.fromTo(el, {
     duration:3,                   
     scale: 1.4,   
     delay:.3,
-    ease:easing
+    ease:"expo.out"
     }, 0);
 	 	 
   });	
