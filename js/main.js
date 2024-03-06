@@ -64,21 +64,7 @@ gsap.to("h1, h1 .char", {
  y:0,
  ease:"Expo.easeInOut"	
 });
-
- 
-gsap.to(".header h1", {
-	scrollTrigger: {
-      trigger: .header,
-      start: "top center",
-      end: "bottom center",
-      scrub: true
-	},
-    y: 300,
-    yoyo: true,
-    ease: easing
-  })
-	
-	
+		
 gsap.set(".ball", {
  opacity:0,
  scaleY: 1,  
