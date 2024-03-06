@@ -38,7 +38,7 @@ data() {
 
 Splitting();
 	
-const easing = "expo.inOut";
+const easing = "circ.out";
 	
 gsap.set("nav", {
  opacity:0,
@@ -96,7 +96,7 @@ gsap.to(".sub-title, .sub-title .char", {
   opacity:1, 
   stagger:.05, 
   y:0, 
-  ease:"circ.out"
+  ease:easing
 });	       
 
 function setupReveal(container) {	
@@ -121,8 +121,8 @@ tl.fromTo(pl, {
    {
    clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
    webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
-   delay:1,
-   duration:2.5,     
+   delay:.7,
+   duration:2,     
    ease:easing,
    opacity:1
    });
@@ -160,7 +160,7 @@ tl.to(one, {
  y:0,
  rotateX:0,
  rotateY:0,
- ease:"expo.out"	
+ ease:easing	
 });
 
 });
@@ -195,7 +195,7 @@ tl.to(ln, {
  opacity: 1,
  duration:1.5,	
  width: "100%",
- ease:"expo.out"
+ ease:easing
 });	
 	                                                                                                                  
 });	
@@ -222,16 +222,16 @@ tl.fromTo(el, {
    {
    clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
    webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
-   duration:2.5,     
-   ease:"expo.out",
+   duration:2,     
+   ease:"expo.inOut",
    opacity:1
    });
 	 
    tl.from(image, {
     duration:3,                   
     scale: 1.4,   
-    delay:.3,
-    ease:"expo.out"
+    delay:.1,
+    ease:"expo.inOut"
     }, 0);
 	 	 
   });	
