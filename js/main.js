@@ -2,13 +2,21 @@ document.addEventListener("DOMContentLoaded", function(event) {
 window.addEventListener("load", function(e) {
 	
 gsap.registerPlugin(ScrollTrigger, CustomEase);
-		
+
+let tl = gsap.timeline({
+    onComplete: contentShow
+});
+
+	
 gsap.to("#loader", {
  duration:1,
  ease:"power2.out",
  y:"-100%"
 }); 
 
+function contentShow() {
+
+	
 $('.one').each(function(){
   $(this).html($(this).text().replace(/\S/g, "<span>$&</span>"));
 });
@@ -279,6 +287,10 @@ $('html, body').css({
   'overflow': 'auto',
   'height': 'auto'
 })
+
+	
+}
+	
 	
 }, false);
 });
