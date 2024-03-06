@@ -3,7 +3,7 @@ window.addEventListener("load", function(e) {
 	
 gsap.registerPlugin(ScrollTrigger, CustomEase);
 
-gsap.to("#preloader", {
+gsap.to("#loader", {
  autoAlpha:0,
  opacity:0,
  duration:.5
