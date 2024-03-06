@@ -1,70 +1,13 @@
-
+document.addEventListener("DOMContentLoaded", function(event) {
+window.addEventListener("load", function(e) {
+	
 gsap.registerPlugin(ScrollTrigger, CustomEase);
 
-
-
-
-class Loader {
-
-    constructor() {
-
-        this.container = document.querySelector('#loader');
-        this.grey = this.container.querySelector('.grey');
-        this.white = this.container.querySelector('.white');
-        this.textWrap = this.container.querySelector('.text-wrap');
-        this.text = this.container.querySelector('.text');
-        this.dot = this.text.querySelector('span');
-        this.animateDot();
-
-    }
-
-    animateDot() {
-
-        this.dotTween = gsap.fromTo( this.dot, 0.5, {
-            y: 0
-        }, {
-            y: -10,
-            ease: 'Power0.easeOut',
-            yoyo: true,
-            yoyoEase: 'Bounce.easeOut',
-            repeat: -1,
-            repeatDelay: 0.3
-        })
-
-    }
-
-    hide() {
-
-        let tl = gsap.timeline({
-            delay: 0.5,
-            onComplete: () => {
-                this.dotTween.kill();
-                this.container.style.display = 'none';
-            }
-        });
-
-        tl.to( this.text, 0.8, {
-            y: 100,
-            ease: 'Expo.easeIn'
-        }, 0 )
-
-        .to( this.grey, 1, {
-            yPercent: 100,
-            ease: 'Expo.easeOut'
-        }, 0.8 )
-
-        .to( this.white, 1, {
-            yPercent: 100,
-            ease: 'Expo.easeOut'
-        }, 1 )
-      
-
-    }
-
-}
-
-let loader = new Loader();
-	
+gsap.to("#preloader", {
+ autoAlpha:0,
+ opacity:0,
+ duration:.5
+});      	
 
 $('.one').each(function(){
   $(this).html($(this).text().replace(/\S/g, "<span>$&</span>"));
@@ -337,4 +280,5 @@ $('html, body').css({
   'height': 'auto'
 })
 	
-
+}, false);
+});
