@@ -9,7 +9,7 @@ let tl = gsap.timeline({
 
 	
 tl.to("#loader", {
- duration:1,
+ duration:5,
  ease:"power2.out",
  y:"-100%"
 }); 
