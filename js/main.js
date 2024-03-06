@@ -236,12 +236,11 @@ tl.fromTo(el, {
    webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
    duration:2.5,
    ease:easing,
-   opacity:1,
-   stagger:.3
+   opacity:1
    });
 	 
    tl.from(image, {
-    duration:2.5,                   
+    duration:3.5,                   
     scale: 1.4,   
     ease:easing
     }, 0);
