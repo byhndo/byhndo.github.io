@@ -225,13 +225,13 @@ tl.fromTo(el, {
    duration:2,
    ease:easing,
    opacity:1
-   }, 0);
+   });
 	 
    tl.from(image, {
     duration:2,                   
     scale: 1.4,   
     delay:.3,
-    ease:"power2.out"
+    ease:easing
     }, 0);
 	 	 
   });	
