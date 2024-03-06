@@ -14,9 +14,8 @@ tl.to("#loader", {
 }); 
 
 tl.to(".textload", {
- duration:5,
  ease:"none",
- opcaity:0
+ opacity:0
 }); 
 
 function contentShow() {
