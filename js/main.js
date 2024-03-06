@@ -13,6 +13,12 @@ tl.to("#loader", {
  y:"-100%"
 }); 
 
+tl.to(".textload", {
+ duration:5,
+ ease:"none",
+ opcaity:0
+}); 
+
 function contentShow() {
 	
 $('.one').each(function(){
