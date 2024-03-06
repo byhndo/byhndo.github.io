@@ -66,20 +66,17 @@ gsap.to("h1, h1 .char", {
 });
 
  
-gsap.fromTo(".header h1", {
+gsap.to(".header h1", {
 	scrollTrigger: {
       trigger: .header,
       start: "top center",
       end: "bottom center",
       scrub: true
 	},
-    y:0
-  }, {
     y: 300,
     yoyo: true,
-    ease: "none"
+    ease: easing
   })
-
 	
 	
 gsap.set(".ball", {
