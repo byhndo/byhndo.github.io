@@ -123,7 +123,7 @@ tl.fromTo(pl, {
    webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
    delay:1,
    duration:2.5,     
-   ease:"expo.out",
+   ease:easing,
    opacity:1
    });
 	   
@@ -195,7 +195,7 @@ tl.to(ln, {
  opacity: 1,
  duration:1.5,	
  width: "100%",
- ease:"expo.out"
+ ease:easing
 });	
 	                                                                                                                  
 });	
