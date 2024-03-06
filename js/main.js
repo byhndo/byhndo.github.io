@@ -38,7 +38,7 @@ data() {
 
 Splitting();
 	
-const easing = "circ.out";
+const easing = "power2.out";
 	
 gsap.set("nav", {
  opacity:0,
@@ -228,8 +228,9 @@ tl.fromTo(el, {
    });
 	 
    tl.from(image, {
-    duration:3.5,                   
+    duration:3,                   
     scale: 1.4,   
+    delay:.3,
     ease:easing
     }, 0);
 	 	 
