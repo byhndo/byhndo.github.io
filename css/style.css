@@ -24,7 +24,7 @@
  left:0;
  right:0;
  bottom:0;
- background:#262526; 
+ background:var(--c2); 
  height:100vh;
  z-index:99999999999999; 
 }
@@ -36,6 +36,7 @@
  font-weight:400;
  font-size:var(--sizebody);
  text-transform:uppercase;
+ letter-spacing: calc(0.3vw + 0.5rem);
 }
 
 .svg-filters {
