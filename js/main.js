@@ -7,12 +7,9 @@ gsap.to("#loader", {
  autoAlpha:0,
  opacity:0,
  duration:1,
- yPercent:0
+ height:0
 }); 
 
-gsap.set("#loader", {
- yPercent:-100
-});      
 
 $('.one').each(function(){
   $(this).html($(this).text().replace(/\S/g, "<span>$&</span>"));
