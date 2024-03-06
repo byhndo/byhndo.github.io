@@ -5,9 +5,9 @@ gsap.registerPlugin(ScrollTrigger, CustomEase);
 		
 gsap.to("#loader", {
  duration:1,
+ ease:"bounce.out",
  x:"-100%"
 }); 
-
 
 $('.one').each(function(){
   $(this).html($(this).text().replace(/\S/g, "<span>$&</span>"));
