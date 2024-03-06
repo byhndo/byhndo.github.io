@@ -26,7 +26,7 @@ class Loader {
 
     animateDot() {
 
-        this.dotTween = TweenMax.fromTo( this.dot, 0.5, {
+        this.dotTween = gsap.fromTo( this.dot, 0.5, {
             y: 0
         }, {
             y: -10,
@@ -41,7 +41,7 @@ class Loader {
 
     hide() {
 
-        let tl = new TimelineMax({
+        let tl = gsap.timeline({
             delay: 0.5,
             onComplete: () => {
                 this.dotTween.kill();
