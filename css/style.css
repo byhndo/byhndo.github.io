@@ -32,7 +32,7 @@
 .textload{
  place-self:center;
  color:var(--c1);
- font-family:var(--font3);
+ font-family:var(--font2);
  font-weight:400;
  font-size:var(--sizebody);
  text-transform:uppercase;
@@ -40,14 +40,14 @@
 }
 
 .svg-filters {
-  position: absolute;
-  visibility: hidden;
-  width: 1px;
-  height: 1px; 
+ position: absolute;
+ visibility: hidden;
+ width: 1px;
+ height: 1px; 
 }
 
 html{
-  background: var(--c1);
+ background: var(--c1);
 }
 body {
  background-color: var(--c1);
