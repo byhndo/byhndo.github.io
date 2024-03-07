@@ -33,7 +33,7 @@
  place-self:center;
  color:var(--c1);
  font-family:var(--font2);
- font-weight:400;
+ font-weight:300;
  font-size:var(--sizebody);
  text-transform:uppercase;
  letter-spacing: calc(0.3vw + 0.5rem);
