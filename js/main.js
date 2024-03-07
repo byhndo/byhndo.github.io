@@ -14,7 +14,7 @@ tl.to("#loader .textload", {
 	
 tl.to("#loader", {
  duration:2,
- ease:"expo.out",
+ ease:"expo.inOut",
  y:"-100%"
 }); 
 
