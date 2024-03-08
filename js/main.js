@@ -160,7 +160,7 @@ tl.to(one, {
  y:"random(-70, 70)",
  rotateX: "random(-360, 360)",
  rotateY: "random(-360, 360)",  
- transformOrigin: "10% 50% -50"
+ transformOrigin: "50% 50% -50"
 });
 tl.to(one, {
  scaleY:2	
