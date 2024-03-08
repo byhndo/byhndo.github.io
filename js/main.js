@@ -61,8 +61,8 @@ gsap.set("nav", {
 gsap.to("nav", {
  delay:6.5, 
  opacity:1,
- duration:2, 
- scaleY: 2,
+ duration:3, 
+ scaleY: 3,
  ease: Back.easeOut.config(2.15)	
 });
 gsap.to("nav", {
