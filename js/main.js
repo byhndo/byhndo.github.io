@@ -58,7 +58,7 @@ gsap.set("nav", {
  transformOrigin: "center bottom"
 });	
 gsap.to("nav", {
- delay:4, 
+ delay:5.5, 
  opacity:1,
  duration:.7,
  top:0,  
@@ -67,7 +67,7 @@ gsap.to("nav", {
 });
 gsap.to("nav", {
   scaleY: 1,
-  duration: 2, 
+  duration: 5, 
   ease: "Elastic.easeOut"
 }, "<+=.2");
 	
@@ -90,7 +90,7 @@ gsap.set(".ball", {
  transformOrigin: "center bottom"
 });	
 gsap.to(".ball", {
- delay:4, 
+ delay:4.3, 
  opacity:1,
  duration:.7,
  top:0,  
