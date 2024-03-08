@@ -56,12 +56,12 @@ gsap.set("nav", {
  opacity:0,
  scaleY: 1,  
  y:-100,	
- transformOrigin: "center bottom"
+ transformOrigin: "top bottom"
 });	
 gsap.to("nav", {
- delay:5.5, 
+ delay:6.5, 
  opacity:1,
- duration:.7, 
+ duration:2, 
  scaleY: 2,
  ease: Back.easeOut.config(2.15)	
 });
