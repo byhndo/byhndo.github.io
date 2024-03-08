@@ -55,7 +55,7 @@ const easing = "power2.out";
 gsap.set("nav", {
  opacity:0,
  scaleY: 1,  
- y:-100,	
+ y:-50,	
  transformOrigin: "top bottom"
 });	
 gsap.to("nav", {
