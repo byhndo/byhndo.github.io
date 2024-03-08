@@ -59,7 +59,7 @@ gsap.set("nav", {
  transformOrigin: "top bottom"
 });	
 gsap.to("nav", {
- delay:6.5, 
+ delay:7, 
  opacity:1,
  duration:3, 
  scaleY: 3,
@@ -111,7 +111,7 @@ gsap.set(".sub-title, .sub-title .char", {
   y:-50                 
 });
 gsap.to(".sub-title, .sub-title .char", {
-  delay:4.5,
+  delay:4.7,
   duration:1, 
   opacity:1, 
   stagger:.05, 
