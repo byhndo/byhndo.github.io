@@ -54,15 +54,22 @@ const easing = "power2.out";
 	
 gsap.set("nav", {
  opacity:0,
- y:-100
+ scaleY: 1,  
+ transformOrigin: "center bottom"
+});	
+gsap.to("nav", {
+ delay:4, 
+ opacity:1,
+ duration:.7,
+ top:0,  
+ scaleY: 2,
+ ease: Back.easeOut.config(2.15)	
 });
 gsap.to("nav", {
- delay:6.2,
- duration:3,
- opacity:1,
- y:0,
- ease:easing
-});
+  scaleY: 1,
+  duration: 2, 
+  ease: "Elastic.easeOut"
+}, "<+=.2");
 	
 gsap.set("h1, h1 .char", {
  y:"-100%",
