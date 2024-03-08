@@ -9,7 +9,7 @@
  --font1: 'Road Rage', sans-serif;
  --font2: "Figtree", sans-serif;
  --font3: "DM Mono", monospace;
- --marginp:29px;
+ --marginp:28px;
  --spacingnav:.9vw; 
  --fwnav:400;
  --fwtitle:400;
@@ -308,7 +308,7 @@ p.sub2 {
   display: grid;  
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: masonry;
-  gap: 25px;
+  gap: 24px;
   box-sizing: border-box;
 }
 
