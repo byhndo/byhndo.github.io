@@ -166,7 +166,7 @@ tl.to(one, {
  scaleY:2	
 });
 tl.to(one, {	
- duration:2.5,
+ duration:2.3,
  opacity:1,
  scaleY:1,
  y:0,
@@ -205,7 +205,7 @@ tl.set(ln, {
 })
 tl.to(ln, {
  opacity: 1,
- duration:2,	
+ duration:1.8,	
  width: "100%",
  ease:easing
 });	
