@@ -105,6 +105,7 @@ h1 {
  letter-spacing:-0.3vw;
  font-weight:var(--fwtitle);
  text-transform:uppercase;
+ left:-4%;
 }
 
 .photos h1{
