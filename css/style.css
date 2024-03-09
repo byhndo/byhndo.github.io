@@ -100,7 +100,7 @@ h1 {
  color: var(--c2);
  font-size: var(--sizetitle);
  padding: 0;
- transition: color 2.5s; 
+ transition: color 3s; 
  line-height:1.1;
  letter-spacing:-0.3vw;
  font-weight:var(--fwtitle);
