@@ -128,7 +128,11 @@ h1 {
  letter-spacing:10px;
  text-align:right;
 }
- 
+
+.sub-title span{
+ text-align:right;
+}
+
 .photos .sub-title{
   color:var(--c1);
 }
