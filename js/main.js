@@ -69,7 +69,7 @@ gsap.to("nav", {
  scaleY: 1,
  duration: 3.5, 
  y:0,
- ease: "bounce.out"
+ ease: "elastic.out"
 }, "<+=.2");
 	
 gsap.set("h1, h1 .char", {
