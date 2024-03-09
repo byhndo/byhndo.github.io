@@ -127,7 +127,6 @@ h1 {
  font-weight:300;
  transition: color 2.5s;
  text-transform: uppercase;
- letter-spacing: calc(0.3vw + 0.5rem);
 }
  
 .photos .sub-title{
