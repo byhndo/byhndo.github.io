@@ -262,9 +262,7 @@ main {
  position: relative;
  max-width:90%;
  padding:100px 0 20px 0;
- margin: 0 auto 0 auto;
  overflow:hidden;
- text-align:center;
 }
 
 .slide-fade-enter-active {
@@ -370,6 +368,7 @@ img {
  margin-top:0;
  margin-bottom:0;
  opacity:0;
+ text-align:center;
 }
 
 .two{
