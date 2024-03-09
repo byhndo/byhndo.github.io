@@ -475,7 +475,7 @@ li.about{
  }
 }
 
-@media(min-width:768px){
+@media(max-width:4320px){
  .sub-title{
   text-align:right;
  }
