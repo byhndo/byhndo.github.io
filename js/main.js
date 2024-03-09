@@ -56,7 +56,7 @@ gsap.set("nav", {
  opacity:0,
  scaleY: 1,  
  y:-30,	
- transformOrigin: "bottom bottom"
+ transformOrigin: "center bottom"
 });	
 gsap.to("nav", {
  delay:8, 
