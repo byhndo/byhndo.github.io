@@ -113,6 +113,10 @@ h1 {
  color: var(--c1);
 }
 
+.header .sub-title{
+ text-align:right;
+}
+
 .sub-title{
  display:inline-block;
  opacity:0;
@@ -126,10 +130,6 @@ h1 {
  transition: color 4s;
  text-transform: uppercase;
  letter-spacing:10px;
- text-align:right;
-}
-
-.sub-title span{
  text-align:right;
 }
 
