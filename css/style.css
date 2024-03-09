@@ -132,10 +132,6 @@ h1 span{
  text-align:right;
 }
 
-.header .sub-title, .header .sub-title span, .sub-title span{
- text-align:right;
-}
-
 .photos .sub-title{
   color:var(--c1);
 }
