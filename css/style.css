@@ -89,8 +89,6 @@ h5 {
 }
 .header{
  display:grid;
- padding-left:0;
- padding-right:0;
 } 
 
 h1 {
@@ -108,7 +106,6 @@ h1 {
  letter-spacing:-0.3vw;
  font-weight:var(--fwtitle);
  text-transform:uppercase;
- place-self:star;
  text-align:left;
 }
 
