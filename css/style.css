@@ -89,7 +89,7 @@ h5 {
  font-size:10px;
 }
 .header{
- text-align:justify;
+ text-align:left;
  display:grid;
  place-items:center;
  margin:var(--marginp) 0 var(--marginp) 0;
