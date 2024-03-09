@@ -88,7 +88,6 @@ h5 {
  font-size:10px;
 }
 .header{
- text-align:left;
  max-width:100%;
  margin:var(--marginp) auto var(--marginp) auto;
 } 
@@ -106,6 +105,7 @@ h1 {
  letter-spacing:-0.3vw;
  font-weight:var(--fwtitle);
  text-transform:uppercase;
+ text-align:left;
 }
 
 .photos h1{
@@ -461,8 +461,8 @@ li.about{
  font-weight: var(--fwfooter);
 }
 @media(min-width:500px){
-  main{
-    max-width:60%;
+ main{
+  max-width:60%;
   }
  h1{
   font-size:15vw;
