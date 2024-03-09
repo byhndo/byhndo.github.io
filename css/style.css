@@ -262,8 +262,7 @@ main {
  max-width:90%;
  padding:100px 0 20px 0;
  overflow:hidden;
- display:grid;
- place-items:center;
+ margin:0 auto;
 }
 
 .slide-fade-enter-active {
