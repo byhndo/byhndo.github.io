@@ -89,6 +89,7 @@ h5 {
 }
 .header{
  display:grid;
+ margin-bottom:var(--marginp);
 } 
 
 h1 {
