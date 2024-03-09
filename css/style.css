@@ -109,6 +109,7 @@ h1 {
  text-transform:uppercase;
  text-align:left;
  place-self:star;
+ margin-bottom:0;
 }
 
 .photos h1{
