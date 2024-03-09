@@ -467,6 +467,7 @@ li.about{
  }
  .sub-title{
   margin-top:-100px;
+  text-align:right;
  }
  .ball{
    width: calc(2.3vw + .3rem);
