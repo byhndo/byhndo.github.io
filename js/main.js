@@ -82,7 +82,7 @@ gsap.to("h1, h1 .char", {
  opacity:1,
  stagger:.05,
  y:0,
- ease:"Expo.easeInOut"	
+ ease:"power2.out"	
 });
 		
 gsap.set(".ball", {
