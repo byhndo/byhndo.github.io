@@ -225,7 +225,7 @@ nav {
  display:grid;
  place-items:center;
  top: 10px;
- max-width:90%;
+ width:90%;
  z-index: 10000;
  font-family: var(--font2);
  opacity:0;
