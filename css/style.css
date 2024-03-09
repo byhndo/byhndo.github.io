@@ -90,8 +90,6 @@ h5 {
 }
 .header{
  text-align:left;
- display:grid;
- place-items:center;
  margin:var(--marginp) 0 var(--marginp) 0;
 } 
 h1 {
@@ -127,6 +125,7 @@ h1 {
  font-weight:300;
  transition: color 2.5s;
  text-transform: uppercase;
+ letter-spacing:10px;
 }
  
 .photos .sub-title{
