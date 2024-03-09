@@ -89,7 +89,7 @@ h5 {
 }
 .header{
  display:grid;
- margin-bottom:var(--marginp);
+ margin-bottom:70px;
 } 
 
 h1 {
@@ -108,6 +108,7 @@ h1 {
  font-weight:var(--fwtitle);
  text-transform:uppercase;
  text-align:left;
+ place-self:star;
 }
 
 .photos h1{
