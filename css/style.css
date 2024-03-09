@@ -117,7 +117,6 @@ h1 {
  opacity:0;
  margin-top:10px;
  margin-bottom:60px;
- text-align:right!important;
  line-height:2.3;
  font-size:9px;
  font-family: var(--font2);
@@ -126,6 +125,8 @@ h1 {
  transition: color 3s;
  text-transform: uppercase;
  letter-spacing:10px;
+ align-items:right;
+ text-align:right;
 }
  
 .photos .sub-title{
