@@ -88,8 +88,8 @@ h5 {
  font-size:10px;
 }
 .header{
- max-width:100%;
- margin:var(--marginp) auto var(--marginp) auto;
+ text-align:left;
+ margin:var(--marginp) 0 var(--marginp) 0;
 } 
 
 h1 {
@@ -126,8 +126,7 @@ h1 {
  transition: color 4s;
  text-transform: uppercase;
  letter-spacing:10px;
- align-items:right;
- text-align:right;
+ text-align:left;
 }
  
 .photos .sub-title{
@@ -265,10 +264,6 @@ main {
  padding:100px 0 20px 0;
  overflow:hidden;
  margin:0 auto;
- text-align:center;
-}
-
-.header h1{
  text-align:left;
 }
 
