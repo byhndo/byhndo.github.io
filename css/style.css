@@ -89,6 +89,7 @@ h5 {
 }
 .header{
  text-align:left;
+ max-width:100%;
  margin:var(--marginp) auto var(--marginp) auto;
 } 
 h1 {
