@@ -362,14 +362,14 @@ img {
 }
 
 .one{
- opacity:0
+ opacity:0;
+ text-align:center;
 }
 .one span{
  display: inline-block;
  margin-top:0;
  margin-bottom:0;
  opacity:0;
- text-align:center;
 }
 
 .two{
