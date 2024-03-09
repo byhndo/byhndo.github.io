@@ -474,3 +474,10 @@ li.about{
    height: calc(2.3vw + .3rem);
  }
 }
+
+@media(min-width:768px){
+ .sub-title{
+  text-align:right;
+ }
+}
+
