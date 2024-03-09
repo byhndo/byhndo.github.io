@@ -475,10 +475,3 @@ li.about{
    height: calc(2.3vw + .3rem);
  }
 }
-
-@media(max-width:4320px){
- .sub-title{
-  text-align:right;
- }
-}
-
