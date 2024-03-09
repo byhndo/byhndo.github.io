@@ -92,6 +92,7 @@ h5 {
  display:grid;
  justify-items:center;
  align-items:center;
+ margin:var(--marginp) 0 var(--marginp) 0;
 } 
 h1 {
  position: relative;
@@ -383,7 +384,7 @@ img {
 .line {
  position:relative;
  display:block;
- margin:-71px auto 0 auto;
+ margin:-41px auto 0 auto;
  width:0;
  height:35px;
  opacity:0;
