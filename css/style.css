@@ -470,10 +470,6 @@ li.about{
  h1{
   font-size:14vw;
  }
- .sub-title{
-  margin-top:-100px;
-  text-align:right;
- }
  .ball{
    width: calc(2.3vw + .3rem);
    height: calc(2.3vw + .3rem);
