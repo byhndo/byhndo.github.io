@@ -91,9 +91,7 @@ h5 {
  max-width:100%;
  margin:var(--marginp) auto var(--marginp) auto;
 } 
-.header h1{
- text-align:left;
-}
+
 h1 {
  position: relative;
  display:inline;
@@ -270,6 +268,10 @@ main {
  text-align:center;
 }
 
+.header h1{
+ text-align:left;
+}
+
 .slide-fade-enter-active {
  transition: 0s;
 }
@@ -374,7 +376,6 @@ img {
  margin-bottom:0;
  opacity:0;
  text-align:center;
- letter-spacing:10px;
 }
 
 .two{
