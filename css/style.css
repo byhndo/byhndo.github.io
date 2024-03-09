@@ -366,7 +366,7 @@ img {
 .one{
  opacity:0;
  text-align:center;
- letter-spacing:2px;
+ letter-spacing:-2px;
 }
 .one span{
  display: inline-block;
