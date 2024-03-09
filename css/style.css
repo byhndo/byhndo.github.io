@@ -88,8 +88,7 @@ h5 {
  font-size:10px;
 }
 .header{
- margin-top:var(--marginp);
- margin-bottom:75px;
+ margin-bottom:var(--marginp);
  display:grid;
 } 
 
@@ -109,7 +108,6 @@ h1 {
  font-weight:var(--fwtitle);
  text-transform:uppercase;
  text-align:left;
- margin-bottom:var(--marginp);
 }
 
 .photos h1{
