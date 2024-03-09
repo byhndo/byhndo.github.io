@@ -90,6 +90,8 @@ h5 {
 .header{
  margin-bottom:var(--marginp);
  display:grid;
+ padding-left:0;
+ padding-right:0;
 } 
 
 h1 {
