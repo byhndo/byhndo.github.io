@@ -104,7 +104,7 @@ h1 {
  font-size: var(--sizetitle);
  padding: 0;
  transition: color 2.5s; 
- line-height:1;
+ line-height:1.5;
  letter-spacing:-0.3vw;
  font-weight:var(--fwtitle);
  text-transform:uppercase;
