@@ -90,6 +90,7 @@ h5 {
 .header{
  margin-top:var(--marginp);
  margin-bottom:75px;
+ display:grid;
 } 
 
 h1 {
@@ -128,6 +129,7 @@ h1 {
  text-transform: uppercase;
  letter-spacing:10px;
  text-align:right;
+ place-self:star end;
 }
 
 .photos .sub-title{
