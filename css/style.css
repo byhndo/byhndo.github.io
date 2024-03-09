@@ -222,8 +222,6 @@ a:hover, a:active{
 
 nav {
  position:fixed;
- display:grid;
- place-items:center;
  top: 10px;
  width:90%;
  z-index: 10000;
