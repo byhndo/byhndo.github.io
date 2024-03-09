@@ -146,7 +146,6 @@ h1 {
  transition: background-color 2.5s;
  border-radius: 50%;
  opacity: 0;
- margin-left:calc(-2px + .1rem);
 }
 
 .photos .ball {
