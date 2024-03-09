@@ -89,10 +89,9 @@ h5 {
  font-size:10px;
 }
 .header{
- text-align:center;
+ text-align:justify;
  display:grid;
- justify-items:center;
- align-items:center;
+ place-items:center;
  margin:var(--marginp) 0 var(--marginp) 0;
 } 
 h1 {
