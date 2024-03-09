@@ -101,6 +101,7 @@ h1 {
  color: var(--c2);
  font-size: var(--sizetitle);
  padding: 0;
+ transition-delay: 2s;
  transition: color 4s; 
  line-height:1.1;
  letter-spacing:-0.3vw;
@@ -122,6 +123,7 @@ h1 {
  font-family: var(--font2);
  color: var(--c2);
  font-weight:300;
+ transition-delay: 2s;
  transition: color 4s;
  text-transform: uppercase;
  letter-spacing:10px;
@@ -139,6 +141,7 @@ h1 {
  height: calc(3vw + .3rem);
  background-color: var(--b1); 
  top: -30%;
+ transition-delay: 2s;
  transition: background-color 4s;
  border-radius: 50%;
  opacity: 0;
