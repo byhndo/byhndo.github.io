@@ -89,7 +89,7 @@ h5 {
 }
 .header{
  text-align:left;
- margin:var(--marginp) 0 var(--marginp) 0;
+ margin:var(--marginp) auto var(--marginp) auto;
 } 
 h1 {
  position: relative;
