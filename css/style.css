@@ -88,7 +88,6 @@ h5 {
  font-size:10px;
 }
 .header{
- text-align:left;
  margin:var(--marginp) 0 var(--marginp) 0;
 } 
 
@@ -109,12 +108,12 @@ h1 {
  text-align:left;
 }
 
-.photos h1{
- color: var(--c1);
+h1 span{
+ text-align:left;
 }
 
-.header .sub-title{
- text-align:right;
+.photos h1{
+ color: var(--c1);
 }
 
 .sub-title{
@@ -130,6 +129,10 @@ h1 {
  transition: color 4s;
  text-transform: uppercase;
  letter-spacing:10px;
+ text-align:right;
+}
+
+.sub-title span{
  text-align:right;
 }
 
