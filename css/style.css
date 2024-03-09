@@ -264,6 +264,7 @@ main {
  padding:100px 0 20px 0;
  overflow:hidden;
  margin:0 auto;
+ text-align:center;
 }
 
 .slide-fade-enter-active {
