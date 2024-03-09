@@ -464,9 +464,6 @@ li.about{
   main{
     max-width:60%;
   }
-  h1{
-   font-size:calc(16vw + 1rem);
-  }
  .sub-title{
   margin-top:-100px;
  }
