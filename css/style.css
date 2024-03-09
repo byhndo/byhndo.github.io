@@ -107,6 +107,7 @@ h1 {
  font-weight:var(--fwtitle);
  text-transform:uppercase;
  text-align:left;
+ margin-bottom:var(--marginp);
 }
 
 .photos h1{
