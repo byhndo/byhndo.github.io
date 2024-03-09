@@ -132,7 +132,7 @@ h1 span{
  text-align:right;
 }
 
-.sub-title span{
+.header .sub-title, .header .sub-title span, .sub-title span{
  text-align:right;
 }
 
