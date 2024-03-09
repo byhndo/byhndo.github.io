@@ -91,6 +91,9 @@ h5 {
  max-width:100%;
  margin:var(--marginp) auto var(--marginp) auto;
 } 
+.header h1{
+ text-align:left;
+}
 h1 {
  position: relative;
  display:inline;
