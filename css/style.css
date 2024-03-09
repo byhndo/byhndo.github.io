@@ -73,19 +73,20 @@ h1, h2, h3, h4, h5, h6, h7 {
  font-family:var(--font1);
  font-weight:400;
  z-index: 2000;
+ text-transform:uppercase;
 }
 
 h2 {
- font-size:28px;
+ font-size:25px;
 }
 h3 {
- font-size:23px;
+ font-size:20px;
 }
 h4 {
- font-size:18px;
+ font-size:15px;
 }
 h5 {
- font-size:13px;
+ font-size:10px;
 }
 .header{
  text-align:center;
@@ -146,6 +147,7 @@ h1 {
  transition: background-color 2.5s;
  border-radius: 50%;
  opacity: 0;
+ margin-left:10px;
 }
 
 .photos .ball {
