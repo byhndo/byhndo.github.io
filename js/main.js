@@ -14,6 +14,8 @@ tl.fromTo(".textload, .textload span", {
 {
  opacity:1,
  duration:1,
+ delay:"random(0, 1.5)",
+ duration:"random(.7, 2)",
  y:0
 })
 	
