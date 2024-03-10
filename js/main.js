@@ -8,7 +8,7 @@ let tl = gsap.timeline({
 });
 
 
-tl.from(".textload span", {
+tl.set(".textload span", {
  opacity:0,
  y:gsap.utils.wrap([-100, 100]),
  delay:"random(0, 1.5)",
