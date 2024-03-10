@@ -8,21 +8,20 @@ let tl = gsap.timeline({
 });
 
 
-tl.from(".textload span", {
+tl.fromTo(".textload span", {
  opacity:0,
  y:gsap.utils.wrap([-100, 100]),
  delay:"random(0, 1.5)",
  duration:"random(.7, 2)",
  stagger:.07,
  scaleY:1,
- ease:"expo.inOut"
-}); 
-	
-tl.to(".textload span", {
- opacity:1,
+ ease:"expo.inOut"},
+{opacity:1,
  y:0,
  scaleY:1
 }); 
+	
+	
 tl.to(".textload span", {
  opacity:0,
  y:gsap.utils.wrap([-100, 100]),
