@@ -6,6 +6,16 @@ gsap.registerPlugin(ScrollTrigger, CustomEase);
 let tl = gsap.timeline({	
     onComplete: contentShow
 });
+
+
+tl.fromTo(".textload span", {
+ opacity:0,
+ y:gsap.utils.wrap([-150, 150])
+},
+{
+ opacity:1,
+ y:0
+})
 	
 tl.to(".textload span", {
  opacity:0,
