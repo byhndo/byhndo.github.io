@@ -69,23 +69,22 @@ body {
 }
 
 h2, h3, h4, h5, h6, h7 {
- font-family:var(--font1);
- font-weight:400;
- text-transform:uppercase;
+ font-family:var(--font2);
+ font-weight:600;
  letter-spacing:-2px;
 }
 
 h2 {
- font-size:45px;
-}
-h3 {
- font-size:40px;
-}
-h4 {
  font-size:35px;
 }
-h5 {
+h3 {
  font-size:30px;
+}
+h4 {
+ font-size:25px;
+}
+h5 {
+ font-size:20px;
 }
 .header{
  display:grid;
@@ -109,6 +108,7 @@ h1 {
  text-align:left;
  place-self:star;
  margin-bottom:0;
+ letter-spacing:-.3vw;
 }
 
 .photos h1{
