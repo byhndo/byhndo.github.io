@@ -369,6 +369,7 @@ img {
  opacity:0;
  text-align:center;
  letter-spacing:-.5px;
+ text-transform:capitalize;
 }
 .one span{
  display: inline-block;
