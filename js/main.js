@@ -17,7 +17,7 @@ tl.to(".textload span", {
  delay:"random(0, .5)",
  duration:"random(.7, 2)",
  stagger:.07,
- ease:"expo.out"
+ ease:"expo.inOut"
 }); 
 		
 tl.to("#loader", {
