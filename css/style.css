@@ -71,19 +71,20 @@ body {
 h2, h3, h4, h5, h6, h7 {
  font-family:var(--font1);
  font-weight:400;
+ text-transform:uppercase;
 }
 
 h2 {
- font-size:25px;
+ font-size:55px;
 }
 h3 {
  font-size:50px;
 }
 h4 {
- font-size:15px;
+ font-size:45px;
 }
 h5 {
- font-size:10px;
+ font-size:40px;
 }
 .header{
  display:grid;
@@ -386,7 +387,7 @@ img {
  display:block;
  margin:-53px auto 0 auto;
  width:0;
- height:33px;
+ height:60px;
  opacity:0;
  background:rgba(50, 50, 53, .07);
  transition:background 1s;
