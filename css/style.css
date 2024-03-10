@@ -30,6 +30,7 @@
 }
 
 .textload{
+ display: inline-block;
  place-self:center;
  color:var(--c1);
  font-family:var(--font2);
