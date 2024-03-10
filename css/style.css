@@ -72,7 +72,6 @@ h2, h3, h4, h5, h6, h7 {
  position: relative;
  font-family:var(--font2);
  font-weight:400;
- text-transform:capitalize;
 }
 
 h2 {
@@ -369,7 +368,6 @@ img {
  opacity:0;
  text-align:center;
  letter-spacing:-.5px;
- text-transform:capitalize;
 }
 .one span{
  display: inline-block;
