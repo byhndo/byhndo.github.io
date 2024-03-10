@@ -18,6 +18,10 @@ tl.to(".textload span", {
  stagger:.07,
  ease:"expo.inOut"
 }); 
+
+tl.set(".textload span", {
+ y:0	
+});	
 	
 tl.to(".textload span", {
  opacity:0,
