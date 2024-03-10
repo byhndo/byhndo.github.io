@@ -7,7 +7,7 @@ let tl = gsap.timeline({
     onComplete: contentShow
 });
 
-tl.to(".textload span", {
+tl.set(".textload span", {
  opacity:1,
  y:0
 }); 
