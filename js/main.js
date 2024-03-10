@@ -49,7 +49,7 @@ data() {
 
 Splitting();
 	
-const easing = "sine.out";
+const easing = "circ.out";
 	
 gsap.set("nav", {
  opacity:0,
@@ -162,14 +162,12 @@ tl.set(one, {
  opacity:0	
 }) 
 tl.to(one, {
- y:70,
- rotationX:180
+ y:70
 });
 tl.to(one, {	
  opacity:1,
  duration:1.5,
  y:0,
- rotationX:0,
  stagger:.08,
  ease:easing	
 });
