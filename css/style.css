@@ -227,8 +227,8 @@ a:hover, a:active{
 nav {
  position:fixed;
  top:10px;
- left:10px;
- right:10px;
+ left:3%;
+ right:3%;
  z-index: 10000;
  font-family: var(--font2);
  opacity:0;
@@ -465,7 +465,6 @@ li.about{
 }
 @media(min-width:500px){
  nav{
-  width:60%;
   left:20%;
   right:20%;
  }
