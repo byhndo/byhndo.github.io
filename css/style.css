@@ -39,6 +39,10 @@
  letter-spacing: calc(0.3vw + 0.5rem);
 }
 
+.textload span{
+ display:inline-block;
+}
+
 .svg-filters {
  position: absolute;
  visibility: hidden;
