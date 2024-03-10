@@ -30,6 +30,7 @@
 }
 
 .textload{
+ position:relative;
  display: inline-block;
  place-self:center;
  color:var(--c1);
