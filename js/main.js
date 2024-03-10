@@ -9,6 +9,7 @@ let tl = gsap.timeline({
 
 
 tl.fromTo(".textload span", {
+ autoAlpha:1, 
  opacity:0,
  y:gsap.utils.wrap([-100, 100]),
  delay:"random(0, 1.5)",
