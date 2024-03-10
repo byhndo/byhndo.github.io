@@ -162,23 +162,13 @@ tl.set(one, {
  opacity:0	
 }) 
 tl.to(one, {
- perspective:500,
- scaleY:0,
- y:"random(-70, 70)",
- rotateX: "random(-360, 360)",
- rotateY: "random(-360, 360)",  
- transformOrigin: "50% 50% -50"
-});
-tl.to(one, {
- scaleY:2	
+ y:-70
 });
 tl.to(one, {	
  duration:2.3,
  opacity:1,
- scaleY:1,
  y:0,
- rotateX:0,
- rotateY:0,
+ stagger: .06,
  ease:easing	
 });
 
