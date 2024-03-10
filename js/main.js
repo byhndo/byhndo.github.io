@@ -13,6 +13,7 @@ tl.fromTo(".textload, .textload span", {
 },
 {
  opacity:1,
+ duration:1,
  y:0
 })
 	
