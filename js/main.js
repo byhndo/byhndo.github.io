@@ -166,8 +166,7 @@ tl.to(one, {
 });
 tl.to(one, {	
  opacity:1,
- delay:"random(0, .5)",
- duration:"random(.7, 1)",
+ duration:1,
  x:0,
  stagger: .05,
  ease:easing	
