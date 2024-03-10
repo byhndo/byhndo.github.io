@@ -165,7 +165,7 @@ tl.to(one, {
  y:-70
 });
 tl.to(one, {	
- duration:1,
+ duration:.3,
  opacity:1,
  y:0,
  stagger: .3,
