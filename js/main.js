@@ -202,7 +202,7 @@ tl.set(ln, {
 })
 tl.to(ln, {
  opacity: 1,
- duration:1.8,	
+ duration:1.5,	
  width:"100%",
  ease:easing
 });	
