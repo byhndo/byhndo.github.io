@@ -49,7 +49,7 @@ data() {
 
 Splitting();
 	
-const easing = "circ.out";
+const easing = "power.out";
 	
 gsap.set("nav", {
  opacity:0,
