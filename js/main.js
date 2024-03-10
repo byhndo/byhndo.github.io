@@ -113,7 +113,7 @@ gsap.to(".sub-title, .sub-title .char", {
   delay:4.7,
   duration:1, 
   opacity:1, 
-  stagger:.07, 
+  stagger:.1, 
   y:0, 
   ease:easing
 });	       
@@ -168,7 +168,7 @@ tl.to(one, {
  opacity:1,
  duration:1,
  x:0,
- stagger:.08,
+ stagger:.1,
  ease:easing	
 });
 
