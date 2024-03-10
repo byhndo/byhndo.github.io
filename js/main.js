@@ -162,14 +162,14 @@ tl.set(one, {
  opacity:0	
 }) 
 tl.to(one, {
- x:-70,
- y:10
+ y:70,
+ rotateX:70
 });
 tl.to(one, {	
  opacity:1,
  duration:1,
- x:0,
  y:0,
+ rotateX:0,
  stagger: .05,
  ease:easing	
 });
