@@ -384,9 +384,9 @@ img {
 .line {
  position:relative;
  display:block;
- margin:-80px auto 0 auto;
+ margin:-60px auto 0 auto;
  width:0;
- height:40px;
+ height:35px;
  opacity:0;
  background:rgba(50, 50, 53, .07);
  transition:background 1s;
