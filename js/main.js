@@ -7,13 +7,13 @@ let tl = gsap.timeline({
     onComplete: contentShow
 });
 
-tl.to("#loader .textload span", {
+tl.to(".textload span", {
  opacity:1,
- yPercent:0
+ y:0
 }); 
-tl.to("#loader .textload span", {
+tl.to(".textload span", {
  opacity:0,
- yPercent:"random(-50, 50)",
+ y:"random(-50, 50)",
  delay:"random(0, .5)",
  duration:"random(.7, 2)",
  stagger:.07,
