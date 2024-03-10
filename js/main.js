@@ -16,7 +16,8 @@ tl.to("#loader .textload span", {
  y:"random(-50, 50)",
  delay:"random(0, .5)",
  duration:"random(.7, 2)",
- stagger:.05
+ stagger:.07,
+ ease:"expo.out"
 }); 
 		
 tl.to("#loader", {
