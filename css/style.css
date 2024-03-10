@@ -82,7 +82,7 @@ h3 {
  font-size:20px;
  font-family:var(--font2);
  font-weight:400;
- text-transform:uppercase;
+ text-transform:capitalize;
 }
 h4 {
  font-size:15px;
