@@ -103,7 +103,7 @@ h1 {
  transition-delay: 2s;
  transition: color 4s; 
  line-height:1.1;
- letter-spacing:-0.3vw;
+ letter-spacing:-3px;
  font-weight:var(--fwtitle);
  text-transform:uppercase;
  text-align:left;
