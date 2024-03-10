@@ -4,7 +4,7 @@ window.addEventListener("load", function(e) {
 gsap.registerPlugin(ScrollTrigger, CustomEase);
 
 let tl = gsap.timeline({
-    onComplete: contentShow
+    paused:true;
 });
 
 tl.to("#loader .textload", {
@@ -18,6 +18,8 @@ tl.to("#loader", {
  y:"-100%"
 }); 
 
+tl.play();
+	
 
 function contentShow() {
 	
