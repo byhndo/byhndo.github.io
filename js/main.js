@@ -168,7 +168,7 @@ tl.to(one, {
  duration:2.3,
  opacity:1,
  y:0,
- stagger: .06,
+ stagger: .5,
  ease:easing	
 });
 
