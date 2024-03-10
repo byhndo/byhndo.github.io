@@ -41,8 +41,6 @@
 
 .textload span{
  display:inline-block;
- visibility:hidden;
- opacity:0;
 }
 
 .svg-filters {
