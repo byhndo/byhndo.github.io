@@ -8,8 +8,7 @@ let tl = gsap.timeline({
 });
 
 tl.to(".textload span", {
- y:0,
- scaleY:1
+ y:0
 }); 
 		
 tl.to(".textload span", {
@@ -19,7 +18,6 @@ tl.to(".textload span", {
  delay:"random(0, 1.5)",
  duration:"random(.7, 2)",
  stagger:.07,
- scaleY:3,
  ease:"expo.inOut"
 }); 
 		
