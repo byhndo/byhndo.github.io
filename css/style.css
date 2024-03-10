@@ -465,6 +465,11 @@ li.about{
  font-weight: var(--fwfooter);
 }
 @media(min-width:500px){
+ nav{
+  width:60%;
+  left:20%;
+  right:20%;
+ }
  main{
   max-width:60%;
   }
