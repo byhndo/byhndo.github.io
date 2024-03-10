@@ -72,6 +72,7 @@ h2, h3, h4, h5, h6, h7 {
  font-family:var(--font1);
  font-weight:400;
  text-transform:uppercase;
+ letter-spacing:-2px;
 }
 
 h2 {
@@ -103,7 +104,6 @@ h1 {
  transition-delay: 2s;
  transition: color 4s; 
  line-height:1.1;
- letter-spacing:-3px;
  font-weight:var(--fwtitle);
  text-transform:uppercase;
  text-align:left;
@@ -367,7 +367,6 @@ img {
 .one{
  opacity:0;
  text-align:center;
- letter-spacing:-2px;
 }
 .one span{
  display: inline-block;
