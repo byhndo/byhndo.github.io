@@ -9,7 +9,6 @@ let tl = gsap.timeline({
 
 
 tl.from(".textload span", {
- autoAlpha:0,
  opacity:0,
  y:gsap.utils.wrap([-100, 100]),
  delay:"random(0, 1.5)",
@@ -20,13 +19,11 @@ tl.from(".textload span", {
 }); 
 	
 tl.to(".textload span", {
- autoAlpha:1,
  opacity:1,
  y:0,
  scaleY:1
 }); 
 tl.to(".textload span", {
- autoAlpha:0,
  opacity:0,
  y:gsap.utils.wrap([-100, 100]),
  rotation:gsap.utils.wrap([-100, 100]),
