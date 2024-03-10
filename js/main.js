@@ -13,7 +13,7 @@ tl.to("#loader .textload span", {
 }); 
 tl.to("#loader .textload span", {
  opacity:0,
- y:-50,
+ y:"random(-50, 50)",
  delay:"random(0, .5)",
  duration:"random(.7, 2)",
  stagger:.05
