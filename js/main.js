@@ -9,11 +9,11 @@ let tl = gsap.timeline({
 
 tl.to("#loader .textload span", {
  opacity:1,
- y:0
+ yPercent:0
 }); 
 tl.to("#loader .textload span", {
  opacity:0,
- y:"random(-50, 50)",
+ yPercent:"random(-50, 50)",
  delay:"random(0, .5)",
  duration:"random(.7, 2)",
  stagger:.07,
