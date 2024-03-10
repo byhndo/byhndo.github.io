@@ -2,10 +2,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
 window.addEventListener("load", function(e) {
 
 gsap.registerPlugin(ScrollTrigger, CustomEase);
-
-let tl = gsap.timeline({	
-    onComplete: contentShow
-});
 	
 tl.fromTo(".textload span", {
  opacity:0,
@@ -31,6 +27,10 @@ tl.to("#loader", {
  ease:"expo.out",
  y:"-100%"
 }); 
+
+let tl = gsap.timeline({	
+    onComplete: contentShow
+});
 	
 function contentShow() {
 	
