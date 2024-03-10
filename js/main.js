@@ -3,7 +3,7 @@ window.addEventListener("load", function(e) {
 	
 gsap.registerPlugin(ScrollTrigger, CustomEase);
 
-let tl = gsap.timeline({
+let tl = gsap.timeline({	
     paused:true;
 });
 
@@ -17,10 +17,7 @@ tl.to("#loader", {
  ease:"expo.out",
  y:"-100%"
 }); 
-
-tl.play();
 	
-
 function contentShow() {
 	
 $('.one').each(function(){
@@ -303,6 +300,9 @@ $('html, body').css({
 
 	
 }
+
+
+tl.play();
 	
 	
 }, false);
