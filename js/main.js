@@ -2,31 +2,6 @@
 gsap.registerPlugin(ScrollTrigger, CustomEase);
 
 
-
-tl.fromTo(".textload span", {
- opacity:0,
- y:gsap.utils.wrap([-150, 150])
-},
-{
- opacity:1,
- y:0
-})
-	
-tl.to(".textload span", {
- opacity:0,
- y:gsap.utils.wrap([-150, 150]),
- rotation:gsap.utils.wrap([-180, 180]),
- delay:"random(0, 1.5)",
- duration:"random(.7, 2)",
- stagger:.07,
- ease:"expo.inOut"
-}); 
-		
-tl.to("#loader", {
- duration:2,
- ease:"expo.out",
- y:"-100%"
-}); 
 	
 function contentShow() {
 	
@@ -304,9 +279,36 @@ $('html, body').css({
 document.addEventListener("DOMContentLoaded", function(event) {
 window.addEventListener("load", function(e) {
 
+tl.fromTo(".textload span", {
+ opacity:0,
+ y:gsap.utils.wrap([-150, 150])
+},
+{
+ opacity:1,
+ y:0
+})
+	
+tl.to(".textload span", {
+ opacity:0,
+ y:gsap.utils.wrap([-150, 150]),
+ rotation:gsap.utils.wrap([-180, 180]),
+ delay:"random(0, 1.5)",
+ duration:"random(.7, 2)",
+ stagger:.07,
+ ease:"expo.inOut"
+}); 
+		
+tl.to("#loader", {
+ duration:2,
+ ease:"expo.out",
+ y:"-100%"
+}); 
+
+	
 let tl = gsap.timeline({	
     onComplete: contentShow
 });
+
 
 
 }, false);
