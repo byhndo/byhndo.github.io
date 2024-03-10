@@ -14,7 +14,7 @@ tl.set(".textload span", {
 tl.to(".textload span", {
  opacity:0,
  y:"random(-50, 50)",
- delay:"random(0, .5)",
+ delay:"random(0, 1)",
  duration:"random(.7, 2)",
  stagger:.07,
  ease:"expo.inOut"
