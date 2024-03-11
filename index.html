@@ -262,5 +262,19 @@ Sebenernya sih kalimat di atas lebih tepatnya cuma sebagai pembelaan diri saya s
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/CustomEase.min.js"></script>
 <script src="js/vue.js"></script>
 <script src="js/main.js"></script>
+
+<script type="module">
+  import fastAverageColor from "https://cdn.skypack.dev/fast-average-color@6.4.0";
+  const fac = new fastAverageColor();
+    
+  fac.getColorAsync(document.querySelector('.bio, .photos'))
+    .then(color => {
+      document.querySelector('meta[name="theme-color"]').setAttribute('content', color.rgba)
+    })
+    .catch(e => {
+      console.log(e);
+    });
+</script> 
+	
 </body>
 </html>
