@@ -113,14 +113,14 @@ gsap.to(".ball", {
 gsap.set(".sub-title, .sub-title .char", {
   opacity:0,
   y:-50,
-  rotation:50
+  rotationX:100
 });
 gsap.to(".sub-title, .sub-title .char", {
   delay:3.7,
   duration:1,
   opacity:1, 
-  stagger:.01, 
-  rotation:0,
+  stagger:.08, 
+  rotationX:0,
   y:0, 
   ease:easing
 });	       
