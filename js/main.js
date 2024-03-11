@@ -14,7 +14,6 @@ tl.to(".textload span", {
  delay:"random(0, 1.5)",
  duration:"random(.7, 2)",
  stagger:.07,
- filter:"blur(5px)",
  ease:"expo.inOut"
 }); 
 		
