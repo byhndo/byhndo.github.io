@@ -95,7 +95,7 @@ gsap.set(".ball", {
  transformOrigin: "center bottom"
 });	
 gsap.to(".ball", {
- delay:4.3, 
+ delay:3, 
  opacity:1,
  duration:.7,
  top:0,  
@@ -112,13 +112,15 @@ gsap.to(".ball", {
 
 gsap.set(".sub-title, .sub-title .char", {
   opacity:0,
-  y:-50                 
+  y:-50,
+  rotation:50
 });
 gsap.to(".sub-title, .sub-title .char", {
-  delay:4.7,
-  duration:"random(.7, 2)",
+  delay:3.7,
+  duration:1,
   opacity:1, 
-  stagger:.1, 
+  stagger:.01, 
+  rotation:0,
   y:0, 
   ease:easing
 });	       
