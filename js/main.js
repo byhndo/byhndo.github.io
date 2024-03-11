@@ -287,24 +287,7 @@ function initBt2() {
     tl.restart();
   });
 }
-
-
-
-
-var change_meta = document.getElementById("wtr2");
-var meta_color = document.createElement("meta");
-    meta_color.setAttribute("name","theme-color");
-    meta_color.setAttribute("content","#323235");
-    document.getElementsByTagName("head")[0].appendChild(meta_color);
-function change_color(){  
-  if(meta_color.getAttribute('content') === "#323235"){meta_color.setAttribute('content', "hsl(0,0%,0%)");}
-  else{meta_color.setAttribute('content', "#323235");}}
-change_meta.addEventListener("click", change_color)
-
-
-
 	
-
 $('html, body').css({
   'overflow': 'auto',
   'height': 'auto'
