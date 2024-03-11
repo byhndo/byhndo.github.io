@@ -113,7 +113,7 @@ gsap.to(".ball", {
 gsap.set(".sub-title, .sub-title .char", {
   opacity:0,
   y:-50,
-  rotation:100
+  rotation:-100
 });
 gsap.to(".sub-title, .sub-title .char", {
   delay:3.7,
