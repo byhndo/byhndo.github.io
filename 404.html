@@ -123,14 +123,16 @@ Beranda</a>
 
 <script>
 gsap.set(".box", {
-	opacity:0
-})
+ opacity:0,
+ y:-150
+}); 
 gsap.to(".box", {
-	delay:.5,
-        duration:5,	
-	opacity:1,	
-	ease: "Circ.easeOut"
-});
+ opacity:1,
+ y:-0,
+ duration:2,
+ ease:"expo.inOut"
+}); 
+	
 gsap.set(".button1", {
 	opacity:0
 })
