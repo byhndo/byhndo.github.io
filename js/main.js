@@ -52,6 +52,24 @@ data() {
     }
 }).mount('#app')  
 
+
+
+
+var change_meta = document.getElementById("wtr2");
+var meta_color = document.createElement("meta");
+    meta_color.setAttribute("name","theme-color");
+    meta_color.setAttribute("content","hsl(220,100%,50%)");
+    document.getElementsByTagName("head")[0].appendChild(meta_color);
+function change_color(){  
+  if(meta_color.getAttribute('content') === "hsl(220,100%,50%)"){meta_color.setAttribute('content', "hsl(0,0%,0%)");}
+  else{meta_color.setAttribute('content', "hsl(220,100%,50%)");}}
+change_meta.addEventListener("click", change_color)
+
+
+
+
+	
+
 Splitting();
 	
 const easing = "power.out";
