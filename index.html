@@ -266,7 +266,7 @@ Sebenernya sih kalimat di atas lebih tepatnya cuma sebagai pembelaan diri saya s
   import fastAverageColor from "https://cdn.skypack.dev/fast-average-color@6.4.0";
   const fac = new fastAverageColor();
     
-  fac.getColorAsync(document.querySelector('.bio, .photos'))
+  fac.getColorAsync(document.querySelector('.bg'))
     .then(color => {
       document.querySelector('meta[name="theme-color"]').setAttribute('content', color.rgba)
     })
