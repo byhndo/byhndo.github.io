@@ -136,15 +136,15 @@ gsap.to(".box", {
 	
 gsap.set(".button1", {
 	opacity:0,
-	scaleX:0,
+	y:-100,
 	transformOrigin:"center center"
 })
 gsap.to(".button1", {
         delay:3,
-	scaleX:1,
+	y:0,
         duration:2,	
 	opacity:1,	
-	ease: "expo.out"
+	ease: "expo.inOut"
 });
 
 	
