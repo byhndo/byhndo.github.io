@@ -262,18 +262,37 @@ Sebenernya sih kalimat di atas lebih tepatnya cuma sebagai pembelaan diri saya s
 <script src="js/vue.js"></script>
 <script src="js/main.js"></script>
 
-<script type="module">
-  import fastAverageColor from "https://cdn.skypack.dev/fast-average-color@6.4.0";
-  const fac = new fastAverageColor();
-    
-  fac.getColorAsync(document.querySelector('.bg'))
-    .then(color => {
-      document.querySelector('meta[name="theme-color"]').setAttribute('content', color.rgba)
-    })
-    .catch(e => {
-      console.log(e);
-    });
-</script> 
+	
+<script id="rendered-js" >
+const setThemeColor = (color) => {
+  const meta = document.querySelector('meta[name="theme-color"]')
+  if (meta) {
+    meta.setAttribute('content', color)
+  }
+}
+
+if ("IntersectionObserver" in window) {
+  const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        const { isIntersecting, target } = entry
+        if (isIntersecting) {
+          const color = window.getComputedStyle(target).getPropertyValue("background-color");
+          setThemeColor(color)
+        }
+      })
+  }, {
+    root: document.getElementById('viewport'),
+    rootMargin: "1px 0px -100% 0px",
+    treshold: 0.1
+  })
+  
+  document.querySelectorAll('.bg').forEach(section => {
+    observer.observe(section)
+  })
+}
+</script>
+
+
 	
 </body>
 </html>
