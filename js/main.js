@@ -116,7 +116,7 @@ gsap.set(".sub-title, .sub-title .char", {
 });
 gsap.to(".sub-title, .sub-title .char", {
   delay:4.7,
-  duration:.5, 
+  duration:"random(.7, 2)",
   opacity:1, 
   stagger:.1, 
   y:0, 
@@ -197,7 +197,7 @@ tl.set(two, {
 tl.to(two, {
  opacity:1,
  y:0,
- duration:1.5,	
+ duration:1,	
  stagger:0.1,
  ease:easing
 });   
@@ -207,7 +207,7 @@ tl.set(ln, {
 })
 tl.to(ln, {
  opacity: 1,
- duration:1.5,	
+ duration:1,	
  width:"100%",
  ease:easing
 });	
@@ -236,13 +236,13 @@ tl.fromTo(el, {
    {
    clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
    webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
-   duration:2.5,
+   duration:2,
    ease:easing,
    opacity:1
    });
 	 
    tl.from(image, {
-    duration:3.5,                   
+    duration:3,                   
     scale: 1.4,   
     ease:easing
     }, 0);
