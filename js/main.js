@@ -148,7 +148,7 @@ tl.fromTo(pl, {
    clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
    webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
    delay:.7,
-   duration:1,     
+   duration:.8,     
    ease:easing,
    opacity:1
    });
@@ -173,7 +173,7 @@ tl.to(one, {
 });
 tl.to(one, {	
  opacity:1,
- duration:.7,
+ duration:.8,
  x:0,
  stagger:.1,
  ease:easing	
@@ -199,7 +199,7 @@ tl.set(two, {
 tl.to(two, {
  opacity:1,
  y:0,
- duration:.7,
+ duration:.8,
  ease:easing
 });   
 
@@ -208,7 +208,7 @@ tl.set(ln, {
 })
 tl.to(ln, {
  opacity: 1,
- duration:.7,	
+ duration:.8,	
  width:"100%",
  ease:easing
 });	
@@ -237,13 +237,13 @@ tl.fromTo(el, {
    {
    clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
    webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
-   duration:1,
+   duration:1.2,
    ease:easing,
    opacity:1
    });
 	 
    tl.from(image, {
-    duration:2,                   
+    duration:2.2,                   
     scale: 1.4,   
     ease:easing
     }, 0);
