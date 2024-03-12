@@ -72,7 +72,7 @@ body {
 
 h2, h3, h4, h5, h6, h7 {
  font-family:var(--font3);
- font-weight:500;
+ font-weight:700;
  letter-spacing:-2px;
 }
 
@@ -400,8 +400,8 @@ img {
 }
 
 .prolog{
- font-size:18px;
- font-weight:400;
+ font-size:17px;
+ font-weight:300;
  color:var(--c2);
  font-family:var(--font3);
  text-align:justify;
@@ -410,7 +410,7 @@ img {
 .quote {
  font-size:20px;
  font-family:var(--font3);
- font-weight:400;
+ font-weight:300;
  color:inherit;
  margin:30px auto;
  max-width:70%;
