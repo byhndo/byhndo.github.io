@@ -35,6 +35,7 @@
  font-weight:400;
  font-size:20px;
  letter-spacing:10px;
+ text-transform:uppercase;
 }
 
 .textload span{
@@ -73,7 +74,7 @@ body {
 h2, h3, h4, h5, h6, h7 {
  font-family:var(--font1);
  font-weight:400;
- letter-spacing:-2px;
+ text-transform:uppercase;
 }
 
 h2 {
@@ -400,7 +401,7 @@ img {
 }
 
 .prolog{
- font-size:150%;
+ font-size:12px;
  font-weight:300;
  color:var(--c2);
  font-family:var(--font2);
