@@ -418,7 +418,7 @@ img {
 }
 
 .quote span{
- font-family:var(--font3);
+ font-family:var(--font2);
  font-style:italic;
  font-size:70%;
  color:inherit;
