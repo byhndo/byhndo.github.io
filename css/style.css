@@ -1,5 +1,5 @@
-@font-face{font-family:Anton;src:url(../fonts/Anton.woff) format('woff');font-weight:400;font-style:normal}
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+@font-face{font-family:Anton;src:url(../fonts/Anton.woff) format('woff');font-weight:400;font-style:normal}
 
 :root {  
  --c1: #ededef;
