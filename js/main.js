@@ -117,7 +117,7 @@ gsap.set(".sub-title, .sub-title .char", {
 });
 gsap.to(".sub-title, .sub-title .char", {
   delay:3.7,
-  duration:.8,
+  duration:.5,
   opacity:1, 
   stagger:.08, 
   rotation:0,
