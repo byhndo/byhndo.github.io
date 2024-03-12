@@ -192,17 +192,17 @@ const RevealBoxs2 = container.querySelectorAll(".box2");
   }, delay: .7
   });  
 
-tl.set(two, {
- opacity:0,
- y:-50
-})                                       
-tl.to(two, {
- opacity:1,
- y:0,
- duration:1,	
- stagger:0.1,
- ease:easing
-});   
+tl.fromTo(two, {
+   clipPath: "polygon(0 0, 100% 0, 100% 0, 0 0)",
+   webkitClipPath: "polygon(0 0, 100% 0, 100% 0, 0 0)"
+   },
+   {
+   clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
+   webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
+   duration:1,
+   ease:easing,
+   opacity:1
+   });
 
 tl.set(ln, {
  opacity:0	
