@@ -406,8 +406,7 @@ img {
  font-weight:500;
  color:var(--c2);
  font-family:var(--font3);
- text-align:justify;
- text-transform:uppercase;
+ text-align:center;
 }
 
 .quote {
