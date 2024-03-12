@@ -33,7 +33,7 @@
  color:var(--c1);
  font-family:var(--font1);
  font-weight:400;
- font-size:20px;
+ font-size:21px;
  letter-spacing:10px;
  text-transform:uppercase;
 }
@@ -75,6 +75,7 @@ h2, h3, h4, h5, h6, h7 {
  font-family:var(--font1);
  font-weight:400;
  text-transform:uppercase;
+ letter-spacing:-1px;
 }
 
 h2 {
@@ -401,7 +402,7 @@ img {
 }
 
 .prolog{
- font-size:12px;
+ font-size:120%;
  font-weight:300;
  color:var(--c2);
  font-family:var(--font2);
