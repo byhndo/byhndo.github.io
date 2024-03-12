@@ -58,23 +58,16 @@ const easing = "power.out";
 	
 gsap.set("nav", {
  opacity:0,
- scaleY: 1,  
- y:-30,	
- transformOrigin: "top bottom"
+ y:-30
 });	
+
 gsap.to("nav", {
- delay:7, 
+ delay:7,
  opacity:1,
- duration:3, 
- scaleY: 3,
- ease: Back.easeOut.config(2.15)	
-});
-gsap.to("nav", {
- scaleY: 1,
  duration: 3.5, 
  y:0,
  ease: "elastic.out"
-}, "<+=.2");
+});
 	
 gsap.set("h1, h1 .char", {
  y:"-100%",
