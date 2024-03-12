@@ -34,7 +34,7 @@
  color:var(--c1);
  font-family:var(--font3);
  font-weight:400;
- font-size:17px;
+ font-size:20px;
 }
 
 .textload span{
@@ -400,7 +400,7 @@ img {
 }
 
 .prolog{
- font-size:17px;
+ font-size:20px;
  font-weight:400;
  color:var(--c2);
  font-family:var(--font3);
@@ -408,7 +408,7 @@ img {
 }
 
 .quote {
- font-size:155%;
+ font-size:22px;
  font-family:var(--font3);
  font-weight:400;
  color:inherit;
