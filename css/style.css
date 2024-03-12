@@ -8,7 +8,6 @@
  --sizenav:9px;
  --font1: 'Anton', sans-serif;
  --font2: 'Figtree', sans-serif;
- --font3: 'Cormorant Garamond', sans-serif;
  --marginp:35px;
  --spacingnav:.9vw; 
  --fwnav:400;
@@ -32,9 +31,10 @@
 .textload{
  place-self:center;
  color:var(--c1);
- font-family:var(--font3);
+ font-family:var(--font1);
  font-weight:400;
  font-size:20px;
+ letter-spacing:10px;
 }
 
 .textload span{
@@ -71,8 +71,8 @@ body {
 }
 
 h2, h3, h4, h5, h6, h7 {
- font-family:var(--font3);
- font-weight:700;
+ font-family:var(--font1);
+ font-weight:400;
  letter-spacing:-2px;
 }
 
@@ -403,13 +403,13 @@ img {
  font-size:150%;
  font-weight:300;
  color:var(--c2);
- font-family:var(--font3);
+ font-family:var(--font2);
  text-align:justify;
 }
 
 .quote {
  font-size:150%;
- font-family:var(--font3);
+ font-family:var(--font2);
  font-weight:300;
  color:inherit;
  margin:30px auto;
