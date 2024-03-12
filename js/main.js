@@ -199,8 +199,7 @@ tl.set(two, {
 tl.to(two, {
  opacity:1,
  y:0,
- duration:1,	
- ease:easing
+ duration:1
 });   
 
 tl.set(ln, {
