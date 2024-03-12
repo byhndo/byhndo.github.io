@@ -34,7 +34,7 @@
  font-family:var(--font1);
  font-weight:400;
  font-size:30px;
- letter-spacing:10px;
+ letter-spacing:-1px;
  text-transform:uppercase;
 }
 
@@ -75,7 +75,7 @@ h2, h3, h4, h5, h6, h7 {
  font-family:var(--font1);
  font-weight:400;
  text-transform:uppercase;
- letter-spacing:-1px;
+ letter-spacing:10px;
 }
 
 h2 {
