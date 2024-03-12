@@ -68,7 +68,7 @@ gsap.to("nav", {
  opacity:1,
  duration: 3.5, 
  y:0,
- ease: "expo.inOut"
+ ease: "expo.out"
 });
 	
 gsap.set("h1, h1 .char", {
