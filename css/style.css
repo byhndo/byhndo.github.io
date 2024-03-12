@@ -235,6 +235,7 @@ nav {
  right:3%;
  z-index: 10000;
  font-family: var(--font2);
+ visibility:hidden;
  opacity:0;
 }
 
