@@ -171,7 +171,7 @@ tl.to(one, {
  duration:.8,
  x:0,
  stagger:.1,
- ease:"expo.out"	
+ ease:"expo.inOut"	
 });
 
 });
