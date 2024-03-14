@@ -295,11 +295,11 @@ main {
 }
 
 .sub1 {
- color: var(--c3);
+ color: var(--c1);
 }
 
 .sub2 {
- color: var(--c3);
+ color: var(--c1);
 }
 
 p.sub1, p.sub2 {
