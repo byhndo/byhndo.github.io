@@ -112,7 +112,8 @@ gsap.set(".sub-title, .sub-title .char", {
 });
 gsap.to(".sub-title, .sub-title .char", {
   delay:3.7,
-  duration:.1,
+  delay:"random(0, .7)",
+  duration:"random(.5, 1)",
   opacity:1, 
   stagger:.08, 
   rotation:0,
