@@ -227,7 +227,7 @@ let revealContainers = container.querySelectorAll(".item");
 	 
   tl.from(el, {
     yPercent: 100
-  } ,0)	 
+  })	 
   tl.from(image, {
     yPercent:-110,
     duration:2.2,                   
