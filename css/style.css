@@ -326,11 +326,7 @@ p.sub2 {
 
 .item {
   position: relative;
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-  padding:0;
-  max-width: 100%;
+  width: 100%;
   visibility: hidden;
   overflow: hidden;
   opacity: 0;
