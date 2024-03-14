@@ -64,7 +64,7 @@ gsap.set("nav", {
 
 gsap.to("nav", {
  autoAlpha:1,
- delay:4,
+ delay:3.7,
  opacity:1,
  duration: 3.5, 
  y:0,
