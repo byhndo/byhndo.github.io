@@ -225,11 +225,18 @@ let revealContainers = container.querySelectorAll(".item");
    opacity:0
    });
 	 
-  tl.from(el, {
-    yPercent: 100
-  })	 
+  tl.fromTo(el, {
+   clipPath: "polygon(0 0, 100% 0, 100% 0, 0 0)",
+   webkitClipPath: "polygon(0 0, 100% 0, 100% 0, 0 0)"
+   },
+   {
+   clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
+   webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
+   duration:1.2,
+   ease:easing,
+   opacity:1
+   }); 
   tl.from(image, {
-    yPercent:-110,
     duration:2.2,                   
     scale: 1.4,   
     ease:easing
