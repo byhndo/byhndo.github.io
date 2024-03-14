@@ -108,7 +108,7 @@ h1 {
  display:inline;
  opacity:0;
  font-family: var(--font1);
- color: var(--color3);
+ color: var(--c3);
  font-size: var(--sizetitle);
  padding: 0;
  transition-delay: 2s;
