@@ -64,7 +64,7 @@ html{
 body {
  background-color: var(--c1);
  font-family: var(--font2);
- color: var(--c2);
+ color: var(--c3);
  font-size: var(--sizebody);
  font-weight:var(--fwbody);
  line-height:1.6;
@@ -123,7 +123,7 @@ h1 {
 }
 
 .photos h1{
- color: var(--c1);
+ color: var(--c3);
 }
 
 .sub-title{
@@ -132,7 +132,7 @@ h1 {
  line-height:2.3;
  font-size:9px;
  font-family: var(--font2);
- color: var(--c2);
+ color: var(--c3);
  font-weight:300;
  transition-delay: 2s;
  transition: color 4s;
@@ -143,7 +143,7 @@ h1 {
 }
 
 .photos .sub-title{
-  color:var(--c1);
+  color:var(--c3);
 }
 
 .ball {
@@ -180,22 +180,22 @@ a:hover, a:active{
 
 .bio{
  background: var(--c1);
- color: var(--c2);
+ color: var(--c3);
 }
 
 .photos{
- background:var(--c2);
- color: var(--c2);
+ background:var(--c1);
+ color: var(--c3);
 }
 
 .link-bio{
  background:#C9D1D3; 
- color:var(--c2);
+ color:var(--c3);
  border-radius:30px 0 0 30px;
 }
 .link-photos{
  background:#526D82;
- color:var(--c1);
+ color:var(--c3);
  border-radius:0 30px 30px 0;
 }
 
@@ -213,13 +213,13 @@ a:hover, a:active{
 
 .transition-bio {
     left: 0;
-    background: var(--c1);
+    background: var(--c3);
     transform-origin: 0 0;
 }
 
 .transition-photos {
     left: 0;
-    background: var(--c2);
+    background: var(--c3);
     transform-origin: 100% 0;
 }
 
@@ -295,11 +295,11 @@ main {
 }
 
 .sub1 {
- color: var(--c2);
+ color: var(--c3);
 }
 
 .sub2 {
- color: var(--c1);
+ color: var(--c3);
 }
 
 p.sub1, p.sub2 {
@@ -308,11 +308,11 @@ p.sub1, p.sub2 {
 }
 
 p.sub1 {
- color: var(--c2);
+ color: var(--c3);
 }
 
 p.sub2 {
-  color: var(--c1);
+  color: var(--c3);
 }
 
 .grid {
@@ -407,7 +407,7 @@ img {
 .prolog{
  font-size:12px;
  font-weight:700;
- color:var(--c2);
+ color:var(--c3);
  font-family:var(--font2);
  text-align:justify;
 }
@@ -448,13 +448,13 @@ li.about{
 }
 
 .footer span {
- color: var(--c2);
+ color: var(--c3);
  font-size:var(--sizenav);
  text-decoration: none;
 }
 
 .photos .footer span, .photos .footer span a {
- color: var(--c1);
+ color: var(--c3);
 }
 
 .footer span, .footer span a {
