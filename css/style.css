@@ -32,7 +32,6 @@
  right:0;
  bottom:0;
  background:#63707E; 
- filter: blur(10px);
  height:100vh;
  z-index:99999999999999; 
 }
