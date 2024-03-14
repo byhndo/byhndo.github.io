@@ -106,11 +106,9 @@ gsap.to(".ball", {
 
 
 gsap.set(".sub-title, .sub-title .char", {
- opacity:0,
- filter:"blur(5px)"
+ opacity:0
 });
 gsap.to(".sub-title, .sub-title .char", {
- filter:"blur(0px)",
  delay:"random(0, 1)",
  duration:"random(.5, 1)",
  opacity:1, 
