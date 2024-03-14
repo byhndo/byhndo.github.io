@@ -39,7 +39,7 @@
 
 .textload{
  place-self:center;
- color:var(--c1);
+ color:#fff;
  font-family:var(--font1);
  font-weight:400;
  font-size:30px;
