@@ -76,7 +76,7 @@ gsap.set("h1, h1 .char", {
  opacity:0
 });
 gsap.to("h1, h1 .char", {
- delay:"random(0, .5)",
+ delay:gsap.utils.wrap([.3, 1]),
  duration:"random(.7, 1)",
  opacity:1,
  stagger:.05,
