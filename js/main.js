@@ -109,7 +109,7 @@ gsap.set(".sub-title, .sub-title .char", {
  opacity:0
 });
 gsap.to(".sub-title, .sub-title .char", {
- delay:"random(0, 1)",
+ delay:gsap.utils.wrap([.3, 1]),
  duration:"random(.5, 1)",
  opacity:1, 
  stagger:.08, 
