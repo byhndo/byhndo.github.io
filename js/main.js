@@ -106,18 +106,16 @@ gsap.to(".ball", {
 
 
 gsap.set(".sub-title, .sub-title .char", {
-  opacity:0,
-  y:-50,
-  rotation:-100
+ opacity:0,
+ filter:"blur(5px)"
 });
 gsap.to(".sub-title, .sub-title .char", {
-  delay:"random(0, 1)",
-  duration:"random(.5, 1)",
-  opacity:1, 
-  stagger:.08, 
-  rotation:0,
-  y:0, 
-  ease:easing
+ filter:"blur(0px)",
+ delay:"random(0, 1)",
+ duration:"random(.5, 1)",
+ opacity:1, 
+ stagger:.08, 
+ ease:easing
 });	       
 
 function setupReveal(container) {	
