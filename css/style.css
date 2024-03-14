@@ -7,8 +7,8 @@
 @font-face{font-family:Figtree;src:url(../fonts/Figtree-BoldItalic.woff) format('woff');font-weight:700;font-style:italic}
 
 :root {  
- --c1: #eeefef;
- --c2: #3C4245;            
+ --c1: #F7F7F7;
+ --c2: #929AAB;            
  --b1: #EB455F;
  --b2: #ffc712;
  --sizebody:12px;
