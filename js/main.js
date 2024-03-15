@@ -191,7 +191,6 @@ tl.to(two, {
  opacity:1,
  y:0,
  duration:.8,
- immediateRender: false,
  ease:easing
 });   
 
