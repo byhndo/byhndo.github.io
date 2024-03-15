@@ -396,12 +396,12 @@ img {
  width:0;
  height:33px;
  opacity:0;
- background:rgba(50, 50, 53, .07);
+ background:rgba(237, 237, 239, .7);
  transition:background 1s;
 }
 
 .photos .line{
- background:rgba(236, 236, 239, .07);
+ background:rgba(36, 35, 41, .7);
  transition:background 1s;
 }
 
