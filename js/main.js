@@ -192,7 +192,7 @@ tl.to(two, {
  y:0,
  duration:.8,
  yoyo:true,
- immediateRender: true,
+ immediateRender: false,
  ease:easing
 });   
 
