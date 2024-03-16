@@ -7,7 +7,7 @@
  --b1: #E97777;
  --b2: #EBC49F;
  --sizebody:12px;
- --sizetitle:20vw;
+ --sizetitle:14vw;
  --sizenav:9px;
  --font1: 'Cormorant Garamond', sans-serif;
  --font2: 'Roboto', sans-serif;
@@ -467,7 +467,7 @@ li.about{
   max-width:60%;
   }
  h1{
-  font-size:14vw;
+  font-size:10vw;
  }
  .ball{
    width: calc(2.3vw + .3rem);
