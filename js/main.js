@@ -73,12 +73,13 @@ gsap.to("nav", {
 	
 gsap.set("h1, h1 .char", {
  y:"-100%",
- opacity:0
+ opacity:0,
+ rotation:100
 });
 gsap.to("h1, h1 .char", {
- delay:gsap.utils.wrap([.3, 1]),
- duration:"random(.7, 1)",
+ duration:.8,
  opacity:1,
+ rotation:0,
  stagger:.05,
  y:0,
  ease:"power2.out"	
