@@ -22,8 +22,9 @@ tl.to("#loader", {
  ease:"expo.out",
  height:50%,
  width:50%
-}, "+=1"); 
+}); 
 tl.to("#loader", {
+ delay:1,
  duration:1,
  ease:"expo.out",
  height:0,
