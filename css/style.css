@@ -13,10 +13,10 @@
  --font2: 'Roboto', sans-serif;
  --marginp:35px;
  --spacingnav:.9vw; 
- --fwnav:400;
+ --fwnav:300;
  --fwtitle:300;
  --fwbody:300;
- --fwfooter:400;
+ --fwfooter:300;
 }
 
 #loader {
