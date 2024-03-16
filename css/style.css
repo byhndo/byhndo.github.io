@@ -113,7 +113,7 @@ h1 {
  text-align:left;
  place-self:star;
  margin-bottom:var(--marginp);
- letter-spacing:-2px;
+ letter-spacing:-5px;
 }
 
 .photos h1{
