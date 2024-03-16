@@ -6,7 +6,7 @@
  --c2: #191a1c;            
  --b1: #E97777;
  --b2: #EBC49F;
- --sizebody:12px;
+ --sizebody:11.5px;
  --sizetitle:14vw;
  --sizenav:9px;
  --font1: 'Cormorant Garamond', sans-serif;
@@ -399,7 +399,7 @@ img {
 }
 
 .prolog{
- font-size:12px;
+ font-size:11.5px;
  font-weight:700;
  color:var(--c2);
  font-family:var(--font2);
