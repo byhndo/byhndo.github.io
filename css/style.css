@@ -111,8 +111,8 @@ h1 {
  line-height:1.1;
  font-weight:var(--fwtitle);
  text-align:left;
- place-self:star;
  margin-bottom:var(--marginp);
+ left:-4%;
  letter-spacing:-5px;
 }
 
@@ -133,7 +133,6 @@ h1 {
  text-transform: uppercase;
  letter-spacing:10px;
  text-align:left;
- place-self:center star;
 }
 
 .photos .sub-title{
