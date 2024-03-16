@@ -100,11 +100,9 @@ h5 {
 } 
 
 h1 {
- place-self:center;
  position: relative;
  display:inline;
  opacity:0;
- transform-origin: top left;
  font-family: var(--font1);
  color: var(--c2);
  font-size: var(--sizetitle);
