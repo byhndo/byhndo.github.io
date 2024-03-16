@@ -19,7 +19,6 @@ tl.to(".textload span", {
 		
 tl.to("#loader", {
  duration:2,
- ease:"expo.out",
  scale:0,
  transformOrigin: "center center"	
 }); 
