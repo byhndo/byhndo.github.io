@@ -41,10 +41,6 @@
  letter-spacing:-1px;
 }
 
-.textload::first-letter{
- font-style:none;
-}
-
 .textload span{
  display:inline-block;
 }
@@ -97,10 +93,6 @@ h4 {
 h5 {
  font-size:13px;
 }
-h1::first-letter, h2::first-letter, h3::first-letter, h4::first-letter, h5::first-letter{
- font-style:normal;
-}
-
 
 .header{
  display:grid;
@@ -122,12 +114,7 @@ h1 {
  font-weight:var(--fwtitle);
  text-align:left;
  margin-bottom:var(--marginp);
- font-style:italic;
  letter-spacing:-5px;
-}
-
-h1::first-letter{
- font-style:normal;
 }
 
 .photos h1{
