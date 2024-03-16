@@ -80,7 +80,7 @@ gsap.to("h1, h1 .char", {
  duration:.8,
  opacity:1,
  rotation:0,
- stagger:.05,
+ stagger:.1,
  y:0,
  ease:"power2.out"	
 });
