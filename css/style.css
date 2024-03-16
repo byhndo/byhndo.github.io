@@ -41,6 +41,10 @@
  letter-spacing:-1px;
 }
 
+.textload::first-letter{
+ font-style:normal;
+}
+
 .textload span{
  display:inline-block;
 }
