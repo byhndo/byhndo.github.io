@@ -110,7 +110,7 @@ h1 {
  padding: 0;
  transition-delay: 2s;
  transition: color 4s; 
- line-height:1.1;
+ line-height:.8;
  font-weight:var(--fwtitle);
  text-align:left;
  margin-bottom:var(--marginp);
