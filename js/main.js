@@ -161,7 +161,7 @@ tl.set(one, {
 }) 
 tl.to(one, {
  y:50,
- rotation:180
+ rotation:100
 });
 tl.to(one, {	
  opacity:1,
