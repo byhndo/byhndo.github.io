@@ -42,7 +42,7 @@
 }
 
 .textload::first-letter{
- font-style:normal;
+ font-style:none;
 }
 
 .textload span{
