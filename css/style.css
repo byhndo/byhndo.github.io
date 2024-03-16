@@ -7,7 +7,7 @@
  --c2: #191a1c;            
  --b1: #E97777;
  --b2: #EBC49F;
- --sizebody:14px;
+ --sizebody:12px;
  --sizetitle:20vw;
  --sizenav:9px;
  --font1: 'Cormorant Garamond', sans-serif;
@@ -111,7 +111,7 @@ h1 {
  transition: color 4s; 
  line-height:1.1;
  font-weight:var(--fwtitle);
- text-transform:uppercase;
+ text-transform:capitalize;
  text-align:left;
  place-self:star;
  margin-bottom:0;
@@ -404,13 +404,13 @@ img {
  font-size:12px;
  font-weight:700;
  color:var(--c2);
- font-family:var(--font2);
+ font-family:var(--font1);
  text-align:justify;
 }
 
 .quote {
  font-size:150%;
- font-family:var(--font2);
+ font-family:var(--font1);
  font-weight:300;
  color:inherit;
  margin:30px auto;
@@ -419,11 +419,11 @@ img {
 }
 
 .quote span{
- font-family:var(--font2);
  font-style:italic;
  font-size:70%;
  color:inherit;
 }
+
 ul{
  text-align:justify;
  padding-left:15px;
