@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
@@ -9,12 +10,13 @@
  --sizebody:11.5px;
  --sizetitle:14vw;
  --sizenav:9px;
- --font1: 'Cormorant Garamond', sans-serif;
+ --font1: 'Sacramento', sans-serif;
  --font2: 'Roboto', sans-serif;
+ --font3: 'Cormorant Garamond', sans-serif;
  --marginp:35px;
  --spacingnav:.9vw; 
  --fwnav:300;
- --fwtitle:300;
+ --fwtitle:400;
  --fwbody:300;
  --fwfooter:300;
 }
@@ -77,8 +79,6 @@ body {
 h2, h3, h4, h5, h6, h7 {
  font-family:var(--font1);
  font-weight:400;
- letter-spacing:-1px;
- font-style:italic;
 }
 
 h2 {
@@ -115,7 +115,6 @@ h1 {
  font-weight:var(--fwtitle);
  text-align:left;
  margin-bottom:var(--marginp);
- letter-spacing:-5px;
 }
 
 .photos h1{
@@ -409,7 +408,7 @@ img {
 
 .quote {
  font-size:150%;
- font-family:var(--font1);
+ font-family:var(--font3);
  font-weight:300;
  color:inherit;
  margin:30px auto;
