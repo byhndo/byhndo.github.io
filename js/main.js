@@ -17,10 +17,12 @@ tl.to(".textload span", {
  ease:"expo.inOut"
 }); 
 		
-tl.to("#loader", {
+tl.fromTo("#loader", {
+ scale:50%, 
+ transformOrigin: "center center"},
+{
  duration:1,
- scale:0,
- transformOrigin: "center center"	
+ scale:0	
 }); 
 	
 function contentShow() {
