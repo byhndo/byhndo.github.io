@@ -131,7 +131,6 @@ h1 {
  transition-delay: 2s;
  transition: color 4s;
  text-transform: uppercase;
- letter-spacing:10px;
  text-align:left;
 }
 
