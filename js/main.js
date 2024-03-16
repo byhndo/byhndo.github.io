@@ -20,9 +20,8 @@ tl.to(".textload span", {
 tl.to("#loader", {
  duration:2,
  ease:"expo.out",
- height:0,
- width:0,
-transformOrigin: "center center"	
+ scale:0,
+ transformOrigin: "center center"	
 }); 
 	
 function contentShow() {
