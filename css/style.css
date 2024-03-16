@@ -111,7 +111,7 @@ h1 {
  font-weight:var(--fwtitle);
  text-align:left;
  place-self:star;
- margin-bottom:0;
+ margin-bottom:var(--marginp);
  letter-spacing:-.3vw;
 }
 
