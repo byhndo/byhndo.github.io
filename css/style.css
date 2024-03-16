@@ -14,8 +14,8 @@
  --marginp:35px;
  --spacingnav:.9vw; 
  --fwnav:400;
- --fwtitle:400;
- --fwbody:400;
+ --fwtitle:300;
+ --fwbody:300;
  --fwfooter:400;
 }
 
@@ -76,7 +76,7 @@ body {
 
 h2, h3, h4, h5, h6, h7 {
  font-family:var(--font1);
- font-weight:400;
+ font-weight:300;
 }
 
 h2 {
@@ -109,7 +109,6 @@ h1 {
  transition: color 4s; 
  line-height:1.1;
  font-weight:var(--fwtitle);
- text-transform:capitalize;
  text-align:left;
  place-self:star;
  margin-bottom:0;
@@ -402,7 +401,7 @@ img {
  font-size:12px;
  font-weight:700;
  color:var(--c2);
- font-family:var(--font1);
+ font-family:var(--font2);
  text-align:justify;
 }
 
