@@ -29,7 +29,7 @@ tl.to("#loader", {
  ease:"expo.out",
  height:0,
  width:0
-}); 
+}", +=2"); 
 	
 function contentShow() {
 	
