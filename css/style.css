@@ -1,17 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
-
-
-@font-face{font-family:Anton;src:url(../fonts/Anton.woff) format('woff');font-weight:400;font-style:normal}
-@font-face{font-family:Figtree;src:url(../fonts/Figtree-Light.woff) format('woff');font-weight:300;font-style:normal}
-@font-face{font-family:Figtree;src:url(../fonts/Figtree-LightItalic.woff) format('woff');font-weight:300;font-style:italic}
-@font-face{font-family:Figtree;src:url(../fonts/Figtree-Regular.woff) format('woff');font-weight:400;font-style:normal}
-@font-face{font-family:Figtree;src:url(../fonts/Figtree-Italic.woff) format('woff');font-weight:400;font-style:italic}
-@font-face{font-family:Figtree;src:url(../fonts/Figtree-Bold.woff) format('woff');font-weight:700;font-style:normal}
-@font-face{font-family:Figtree;src:url(../fonts/Figtree-BoldItalic.woff) format('woff');font-weight:700;font-style:italic}
-
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
 :root {  
@@ -22,8 +10,8 @@
  --sizebody:14px;
  --sizetitle:20vw;
  --sizenav:9px;
- --font1: 'Anton', sans-serif;
- --font2: 'Cormorant Garamond', sans-serif;
+ --font1: 'Cormorant Garamond', sans-serif;
+ --font2: 'Roboto', sans-serif;
  --marginp:35px;
  --spacingnav:.9vw; 
  --fwnav:400;
