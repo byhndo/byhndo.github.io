@@ -111,7 +111,7 @@ gsap.to(".ball", {
 gsap.set(".sub-title, .sub-title .char", {
  y:50,
  autoAlpha:0,
- opacity:0, 
+ opacity:0
 });
 gsap.to(".sub-title, .sub-title .char", {
  autoAlpha:1,
