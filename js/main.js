@@ -75,7 +75,6 @@ gsap.set("h1, h1 .char", {
 });
 gsap.to("h1, h1 .char", {
  duration:.8,
- opacity:1,
  rotation:100,
  stagger:.1,
  y:50,
