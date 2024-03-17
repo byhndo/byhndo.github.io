@@ -6,6 +6,7 @@
  --c2: #191a1c;            
  --b1: #E97777;
  --b2: #EBC49F;
+ --color: rgba(122, 122, 124, 0.918);
  --sizebody:11.5px;
  --sizetitle:14vw;
  --sizenav:9px;
@@ -51,6 +52,48 @@
  visibility: hidden;
  width: 1px;
  height: 1px; 
+}
+
+.container_mouse {
+  font-family:Tahoma;
+  font-size:9px;
+  text-align: center;
+  color: var(--color);
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-top: 2rem;
+  cursor: pointer;
+}
+
+.container_mouse .mouse-btn {
+  margin: 10px auto;
+  width: 15px;
+  height: 40px;
+  border: 1px solid var(--color);
+  border-radius: 30px;
+  display: flex;
+}
+
+.container_mouse .mouse-btn .mouse-scroll {
+  display: block;
+  width: 8px;
+  height: 8px;
+  background: linear-gradient(170deg, rgba(122, 122, 124, 0.918), rgb(123, 124, 124));
+  border-radius: 50%;
+  margin: auto;
+  animation: scrolling 1.5s linear infinite;
+}
+
+@keyframes scrolling {
+  0% {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(12px);
+  }
 }
 
 html{
