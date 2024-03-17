@@ -115,8 +115,14 @@ gsap.to(".sub-title, .sub-title .char", {
  opacity:1, 
  stagger:.08, 
  ease:easing
-});	       
+});
 
+gsap.to(".container_mouse", {
+ delay:1,
+ duration:1,
+ opacity:1
+});	
+	
 function setupReveal(container) {	
  container.ctx = gsap.context(() => {	  
   	 
