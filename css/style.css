@@ -55,6 +55,7 @@
 }
 
 .indicator {
+ place-self:center;
  position: absolute;
  top: 80vh;
  transform: translateY(-100%);
@@ -130,6 +131,7 @@ h5 {
 } 
 
 h1 {
+ place-self:center;
  position: relative;
  transform-origin: top left;
  display:inline;
