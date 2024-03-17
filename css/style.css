@@ -103,8 +103,7 @@ h5 {
 }
 
 .header{
- display: flex;
- justify-content: center;
+ display:grid;
  height:100vh;
 } 
 
