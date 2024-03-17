@@ -73,7 +73,7 @@ gsap.set("h1, h1 .char", {
  autoAlpha:1,
  opacity:1
 });
-gsap.to("h1, h1 .char", {
+gsap.from("h1, h1 .char", {
  duration:.8,
  rotation:100,
  stagger:.1,
