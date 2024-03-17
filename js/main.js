@@ -117,9 +117,12 @@ gsap.to(".sub-title, .sub-title .char", {
  ease:easing
 });
 
-gsap.to(".container_mouse", {
+gsap.to(".indicator", {
  delay:1,
  duration:1,
+ repeat:-1,
+ yoyo:true,
+ y:10,	
  opacity:1
 });	
 	
