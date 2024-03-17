@@ -121,6 +121,8 @@ gsap.to(".sub-title, .sub-title .char", {
 });
 
 gsap.to('.indicator', {
+ delay:1,
+ duration:1,
  autoAlpha: 1,
  duration: 1,
  onComplete: () => {
