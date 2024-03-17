@@ -64,6 +64,11 @@
  transition-delay: 2s;
  transition: color 4s; 	
 }
+.scroll-text{
+ font-family:var(--font3);
+ font-size:12px;
+ font-weight:700;
+}
 .photos .indicator{
  color:var(--c1);
 }
