@@ -62,6 +62,11 @@
  font-size: clamp(48px, 5.5vw, 129px);
  opacity: 0;
 }
+.photos .indicator{
+ color:var(--c1);
+ transition-delay: 2s;
+ transition: color 4s; 	
+}
 
 .pointer {
 		animation: pointDown 2.5s infinite;
