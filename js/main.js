@@ -187,7 +187,6 @@ tl.to(one, {
  opacity:1,
  duration:.8,
  rotation:0,
- immediateRender:true,
  y:0,
  stagger:.1,
  ease:easing	
@@ -214,7 +213,6 @@ tl.to(two, {
  opacity:1,
  y:0,
  duration:.8,
- immediateRender:true,
  ease:easing
 });   
 
