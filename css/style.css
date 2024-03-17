@@ -64,16 +64,16 @@
  transition-delay: 2s;
  transition: color 4s; 	
 }
-.scroll-text{
- font-family:var(--font3);
- font-size:12px;
- font-weight:700;
-}
+
 .photos .indicator{
  place-self:center;
  color:var(--c1);
 }
-
+.pointer span{
+ font-family:var(--font3);
+ font-size:12px;
+ font-weight:700;
+}
 .pointer {
 		animation: pointDown 2.5s infinite;
 	}
