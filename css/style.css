@@ -165,7 +165,7 @@ h1 {
 }
 
 .sub-title{
- place-self:center;
+ place-self:start center;
  display:inline-block;
  opacity:0;
  line-height:2.3;
