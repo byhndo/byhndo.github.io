@@ -54,7 +54,7 @@ data() {
 
 Splitting();
 	
-const easing = "power.out";
+const easing = "sine.out";
 	
 gsap.set("nav", {
  y:-30,
