@@ -65,7 +65,7 @@ gsap.set("nav", {
 gsap.to("nav", {
  autoAlpha:1,
  opacity:1,
- delay:3,
+ delay:2,
  duration:2, 
  y:0,
  ease: "expo.inOut"
@@ -79,10 +79,10 @@ gsap.set("h1, h1 .char", {
 gsap.to("h1, h1 .char", {
  opacity:1,
  duration:.8,
- stagger:.1,
+ stagger:.08,
  rotation:0,
  y:0,
- ease:"power2.out"	
+ ease:easing	
 });
 		
 gsap.set(".ball", {
