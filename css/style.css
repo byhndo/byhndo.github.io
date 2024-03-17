@@ -143,7 +143,7 @@ h5 {
 } 
 
 h1 {
- place-self:center end;
+ place-self:center;
  position: relative;
  transform-origin: top left;
  display:inline;
@@ -166,7 +166,6 @@ h1 {
 }
 
 .sub-title{
- place-self:start center;
  display:inline-block;
  opacity:0;
  line-height:2.3;
@@ -178,6 +177,7 @@ h1 {
  transition: color 4s;
  text-transform: uppercase;
  text-align:center;
+ margin-top:-30px;
 }
 
 .photos .sub-title{
