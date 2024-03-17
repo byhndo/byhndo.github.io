@@ -108,12 +108,13 @@ gsap.to(".ball", {
 
 gsap.set(".sub-title, .sub-title .char", {
  y:50,
+ rotation:100,
  opacity:0
 });
 gsap.to(".sub-title, .sub-title .char", {
  opacity:1,
- delay:gsap.utils.wrap([.3, 1]),
- duration:"random(.5, 1)",
+ duration:1,
+ rotation:0,
  stagger:.08, 
  y:0,
  ease:easing
