@@ -177,15 +177,16 @@ tl.fromTo(pl, {
      }); 
 
 tl.set(one, {
- y:50,
+ autoAlpha:0,
+ opacity:0,
  rotation:100
 })
 tl.to(one, {
  autoAlpha:1,
- opacity:0,
+ opacity:1,
  duration:.8,
- rotation:0,
- y:0,
+ rotation:100,
+ y:50,
  stagger:.1,
  ease:easing	
 });
@@ -204,21 +205,20 @@ const RevealBoxs2 = container.querySelectorAll(".box2");
   });  
 
 tl.set(two, {
- y:-50
+ opacity:0,
+ autoAlpha:0
 });   
 	 
-tl.to(two, {
+tl.from(two, {
  autoAlpha:1,
  opacity:0,
- y:0,
+ y:-50,
  duration:.8,
  ease:easing
 });   
 
-tl.set(ln, {opacity:1})
-tl.fromTo(ln, {
-opacity:0	
-}, {
+tl.set(ln, {opacity:0, autoAlpha:0})
+tl.from(ln, {
  opacity: 1,
  duration:.8,	
  width:"100%",
