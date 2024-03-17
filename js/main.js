@@ -177,8 +177,8 @@ tl.fromTo(pl, {
      }); 
 
 tl.set(one, {
- autoAlpha:1,
- opacity:1
+ autoAlpha:0,
+ opacity:0
 })
 tl.from(one, {
  duration:.8,
