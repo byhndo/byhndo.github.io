@@ -141,6 +141,7 @@ h1 {
  transform-origin: top left;
  display:inline;
  opacity:0;
+ visibility:hidden;
  font-family: var(--font1);
  color: var(--c2);
  font-size: var(--sizetitle);
@@ -161,6 +162,7 @@ h1 {
 .sub-title{
  display:inline-block;
  opacity:0;
+ visibility:hidden;
  line-height:2.3;
  font-size:9px;
  font-family: var(--font2);
