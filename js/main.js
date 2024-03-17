@@ -162,7 +162,7 @@ tl.fromTo(pl, {
    clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
    webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
    delay:.7,
-   duration:.8,     
+   duration:1,     
    ease:easing,
    opacity:1
    });
@@ -186,7 +186,7 @@ tl.set(one, {
 })
 tl.to(one, {
  opacity:1,
- duration:.8,
+ duration:1,
  rotation:0,
  y:0,
  stagger:.1,
@@ -214,7 +214,7 @@ tl.set(two, {
 tl.to(two, {
  opacity:1,
  y:0,
- duration:.8,
+ duration:1,
  ease:easing
 });   
 
@@ -223,7 +223,7 @@ tl.set(ln, {
 });	
 tl.to(ln, {
  opacity:1,
- duration:.8,	
+ duration:1,	
  width:"100%",
  ease:easing
 });	
