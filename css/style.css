@@ -66,12 +66,14 @@
 }
 
 .photos .indicator{
- place-self:center;
  color:var(--c1);
+}
+.pointer{
+ place-self:center;
 }
 .pointer span{
  font-family:var(--font3);
- font-size:12px;
+ font-size:11px;
  font-weight:700;
 }
 .pointer {
