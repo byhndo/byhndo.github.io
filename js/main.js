@@ -183,6 +183,7 @@ tl.fromTo(one, {
 { 
  autoAlpha:1,
  opacity:1,
+ immediateRender:false,
  duration:.8,
  rotation:0,
  y:0,
@@ -211,6 +212,7 @@ tl.fromTo(two, {
 {
  autoAlpha:1,
  opacity:1,
+ immediateRender:false,
  y:0,
  duration:.8,
  ease:easing
