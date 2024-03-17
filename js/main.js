@@ -122,9 +122,9 @@ gsap.to(".indicator", {
  duration:1,
  repeat:-1,
  yoyo:true,
- y:10,	
+ y:5,	
  opacity:1
-});	
+}, "+=.5");	
 	
 function setupReveal(container) {	
  container.ctx = gsap.context(() => {	  
