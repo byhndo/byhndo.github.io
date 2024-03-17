@@ -112,7 +112,7 @@ h1 {
  transition: color 4s; 
  line-height:.8;
  font-weight:var(--fwtitle);
- text-align:left;
+ text-align:justify;
  margin-bottom:var(--marginp);
  left:-1.7%;
 }
@@ -132,7 +132,7 @@ h1 {
  transition-delay: 2s;
  transition: color 4s;
  text-transform: uppercase;
- text-align:left;
+ text-align:justify;
 }
 
 .photos .sub-title{
