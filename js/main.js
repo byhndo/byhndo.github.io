@@ -18,7 +18,7 @@ tl.to(".textload span", {
 }); 
 		
 tl.to("#loader", {
- duration:1,
+ duration:.8,
  scale:0,
  transformOrigin: "center center"
 }); 
@@ -66,7 +66,7 @@ gsap.to("nav", {
  autoAlpha:1,
  opacity:1,
  delay:3.7,
- duration: 3.5, 
+ duration: 3, 
  y:0,
  ease: "expo.inOut"
 });
@@ -78,7 +78,7 @@ gsap.set("h1, h1 .char", {
 });
 gsap.to("h1, h1 .char", {
  opacity:1,
- duration:1,
+ duration:.8,
  stagger:.1,
  rotation:0,
  y:0,
@@ -113,7 +113,7 @@ gsap.set(".sub-title, .sub-title .char", {
 });
 gsap.to(".sub-title, .sub-title .char", {
  opacity:1,
- duration:1,
+ duration:.8,
  rotation:0,
  stagger:.08, 
  y:0,
@@ -162,7 +162,7 @@ tl.fromTo(pl, {
    clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
    webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
    delay:.7,
-   duration:1,     
+   duration:.8,     
    ease:easing,
    opacity:1
    });
@@ -186,7 +186,7 @@ tl.set(one, {
 })
 tl.to(one, {
  opacity:1,
- duration:1,
+ duration:.8,
  rotation:0,
  y:0,
  stagger:.1,
@@ -214,7 +214,7 @@ tl.set(two, {
 tl.to(two, {
  opacity:1,
  y:0,
- duration:1,
+ duration:.8,
  ease:easing
 });   
 
@@ -223,7 +223,7 @@ tl.set(ln, {
 });	
 tl.to(ln, {
  opacity:1,
- duration:1,	
+ duration:.8,	
  width:"100%",
  ease:easing
 });	
