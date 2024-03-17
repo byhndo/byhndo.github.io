@@ -72,7 +72,7 @@ gsap.to("nav", {
 });
 	
 gsap.set("h1, h1 .char", { 
- y:10,
+ y:20,
  rotation:100,
  opacity:0
 });
