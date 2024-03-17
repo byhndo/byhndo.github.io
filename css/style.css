@@ -68,14 +68,7 @@
 .photos .indicator{
  color:var(--c1);
 }
-.pointer{
- place-self:center;
-}
-.pointer span{
- font-family:var(--font3);
- font-size:11px;
- font-weight:700;
-}
+
 .pointer {
 		animation: pointDown 2.5s infinite;
 	}
