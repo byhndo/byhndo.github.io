@@ -407,23 +407,19 @@ img {
  margin-top:0;
  margin-bottom:0;
  text-align:center;
- visibility:hidden;
 }
 .one span{
  display: inline-block;
  opacity:0;
- visibility:hidden;
 }
 
 .two{
  margin-top:var(--marginp);
  margin-bottom: var(--marginp);
  opacity:0;
- visibility:hidden;
 }
 
 .line {
- visibility:hidden;
  position:relative;
  display:block;
  margin:-35px auto -17px auto;
