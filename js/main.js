@@ -58,11 +58,13 @@ const easing = "power.out";
 	
 gsap.set("nav", {
  y:-30,
- autoAlpha:0 
+ autoAlpha:0, 
+ opacity:0
 });	
 
 gsap.to("nav", {
  autoAlpha:1,
+ opacity:1,
  delay:3.7,
  duration: 3.5, 
  y:0,
@@ -76,7 +78,7 @@ gsap.set("h1, h1 .char", {
 });
 gsap.to("h1, h1 .char", {
  opacity:1,
- duration:.8,
+ duration:1,
  stagger:.1,
  rotation:0,
  y:0,
