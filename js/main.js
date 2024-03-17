@@ -57,31 +57,28 @@ Splitting();
 const easing = "power.out";
 	
 gsap.set("nav", {
- opacity:0,
- autoAlpha:0,
- y:-30
+ opacity:1,
+ autoAlpha:1
 });	
 
-gsap.to("nav", {
- autoAlpha:1,
+gsap.from("nav", {
  delay:3.7,
  opacity:1,
  duration: 3.5, 
- y:0,
+ y:-30,
  ease: "expo.inOut"
 });
 	
 gsap.set("h1, h1 .char", {
- y:50,
- opacity:0,
- rotation:100
+ autoAlpha:1,
+ opacity:1
 });
 gsap.to("h1, h1 .char", {
  duration:.8,
  opacity:1,
- rotation:0,
+ rotation:100,
  stagger:.1,
- y:0,
+ y:50,
  ease:"power2.out"	
 });
 		
@@ -107,13 +104,14 @@ gsap.to(".ball", {
 
 
 gsap.set(".sub-title, .sub-title .char", {
- opacity:0
+ opacity:1,
+ autoAlpha:1
 });
-gsap.to(".sub-title, .sub-title .char", {
+gsap.from(".sub-title, .sub-title .char", {
  delay:gsap.utils.wrap([.3, 1]),
  duration:"random(.5, 1)",
- opacity:1, 
  stagger:.08, 
+ y:50,
  ease:easing
 });
 
@@ -177,8 +175,8 @@ tl.fromTo(pl, {
      }); 
 
 tl.set(one, {
- autoAlpha:0,
- opacity:0
+ autoAlpha:1,
+ opacity:1
 })
 tl.from(one, {
  duration:.8,
