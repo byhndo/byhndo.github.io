@@ -57,27 +57,26 @@ Splitting();
 const easing = "power.out";
 	
 gsap.set("nav", {
- opacity:1,
- autoAlpha:1
+ y:-30
 });	
 
-gsap.from("nav", {
+gsap.to("nav", {
+ autoAlpha:1,	
  delay:3.7,
- opacity:1,
  duration: 3.5, 
- y:-30,
+ y:0,
  ease: "expo.inOut"
 });
 	
 gsap.set("h1, h1 .char", {
- autoAlpha:1,
- opacity:1
+ y:50
 });
-gsap.from("h1, h1 .char", {
+gsap.to("h1, h1 .char", {
+ autoAlpha:1,
  duration:.8,
  rotation:100,
  stagger:.1,
- y:50,
+ y:0,
  ease:"power2.out"	
 });
 		
@@ -103,14 +102,14 @@ gsap.to(".ball", {
 
 
 gsap.set(".sub-title, .sub-title .char", {
- opacity:1,
- autoAlpha:1
+ y:50
 });
-gsap.from(".sub-title, .sub-title .char", {
+gsap.to(".sub-title, .sub-title .char", {
+ autoAlpha:1,
  delay:gsap.utils.wrap([.3, 1]),
  duration:"random(.5, 1)",
  stagger:.08, 
- y:50,
+ y:0,
  ease:easing
 });
 
@@ -174,13 +173,14 @@ tl.fromTo(pl, {
      }); 
 
 tl.set(one, {
- autoAlpha:1,
- opacity:1
-})
-tl.from(one, {
- duration:.8,
- rotation:100,
  y:50,
+rotation:100
+})
+tl.to(one, {
+ autoAlpha:1,
+ duration:.8,
+ rotation:0,
+ y:0,
  stagger:.1,
  ease:easing	
 });
@@ -199,20 +199,21 @@ const RevealBoxs2 = container.querySelectorAll(".box2");
   });  
 
 tl.set(two, {
- opacity:1,
- autoAlpha:1
+ y:-50
 });   
 	 
-tl.from(two, {
- y:-50,
+tl.to(two, {
+ autoAlpha:1,
+ y:0,
  duration:.8,
  ease:easing
 });   
 
-tl.set(ln, {opacity:1, autoAlpha:1})
-tl.from(ln, {
+tl.set(ln, {})
+tl.to(ln, {
+ autoAlpha:1,
  duration:.8,	
- width:"0",
+ width:"100%",
  ease:easing
 });	
 	                                                                                                                  
