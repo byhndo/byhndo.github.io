@@ -176,14 +176,13 @@ tl.fromTo(pl, {
      }, delay:.7
      }); 
 
-tl.set(one, {opacity:1})
+tl.set(one, {opacity:0, autoAlpha:0})
 tl.fromTo(one, {
  y:50,
  rotation:100},
 { 
  autoAlpha:1,
  opacity:1,
- immediateRender:false,
  duration:.8,
  rotation:0,
  y:0,
@@ -205,14 +204,13 @@ const RevealBoxs2 = container.querySelectorAll(".box2");
   });  
 
 
-tl.set(two, {opacity:1})	 
+tl.set(two, {opacity:0, autoAlpha:0})	 
 tl.fromTo(two, {
  opacity:0,
  y:-50},
 {
  autoAlpha:1,
  opacity:1,
- immediateRender:false,
  y:0,
  duration:.8,
  ease:easing
