@@ -177,13 +177,10 @@ tl.fromTo(pl, {
      }); 
 
 tl.set(one, {
- autoAlpha:0,
- opacity:0,
- rotation:100
+ autoAlpha:1,
+ opacity:1
 })
 tl.to(one, {
- autoAlpha:1,
- opacity:1,
  duration:.8,
  rotation:100,
  y:50,
@@ -205,23 +202,20 @@ const RevealBoxs2 = container.querySelectorAll(".box2");
   });  
 
 tl.set(two, {
- opacity:0,
- autoAlpha:0
+ opacity:1,
+ autoAlpha:1
 });   
 	 
 tl.from(two, {
- autoAlpha:1,
- opacity:0,
  y:-50,
  duration:.8,
  ease:easing
 });   
 
-tl.set(ln, {opacity:0, autoAlpha:0})
+tl.set(ln, {opacity:1, autoAlpha:1})
 tl.from(ln, {
- opacity: 1,
  duration:.8,	
- width:"100%",
+ width:"0",
  ease:easing
 });	
 	                                                                                                                  
