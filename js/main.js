@@ -181,6 +181,7 @@ tl.fromTo(one, {
  y:50,
  rotation:100},
 { 
+ autoAlpha:1,
  opacity:1,
  duration:.8,
  rotation:0,
@@ -205,7 +206,9 @@ const RevealBoxs2 = container.querySelectorAll(".box2");
 tl.fromTo(two, {
  opacity:0,
  y:-50},
- {opacity:1,
+{
+ autoAlpha:1,
+ opacity:1,
  y:0,
  duration:.8,
  ease:easing
