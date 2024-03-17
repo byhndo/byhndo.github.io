@@ -162,7 +162,6 @@ h1 {
 .sub-title{
  display:inline-block;
  opacity:0;
- visibility:hidden;
  line-height:2.3;
  font-size:9px;
  font-family: var(--font2);
