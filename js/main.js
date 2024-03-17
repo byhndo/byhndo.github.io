@@ -189,7 +189,7 @@ tl.to(one, {
  duration:.8,
  rotation:0,
  y:0,
- stagger:.1,
+ stagger:.08,
  ease:easing	
 });
 
