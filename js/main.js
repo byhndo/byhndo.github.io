@@ -69,13 +69,14 @@ gsap.to("nav", {
 });
 	
 gsap.set("h1, h1 .char", {
- y:50
+ y:50,
+ rotation:100
 });
 gsap.to("h1, h1 .char", {
  autoAlpha:1,
  duration:.8,
- rotation:100,
  stagger:.1,
+ rotation:0,
  y:0,
  ease:"power2.out"	
 });
