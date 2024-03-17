@@ -55,7 +55,7 @@
 }
 
 .container_mouse {
-  font-family:Tahoma;
+  font-family:var(--font2);
   font-size:9px;
   text-align: center;
   color: var(--color);
@@ -63,6 +63,7 @@
   text-transform: uppercase;
   padding-top: 2rem;
   cursor: pointer;
+  opacity:0;
 }
 
 .container_mouse .mouse-btn {
