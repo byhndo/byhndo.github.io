@@ -74,7 +74,7 @@ gsap.set("h1, h1 .char", {
  rotation:100
 });
 gsap.to("h1, h1 .char", {
- autoAlpha:1,
+ opacity:1,
  duration:.8,
  stagger:.1,
  rotation:0,
@@ -108,7 +108,7 @@ gsap.set(".sub-title, .sub-title .char", {
  rotation:100
 });
 gsap.to(".sub-title, .sub-title .char", {
- autoAlpha:1,
+ opacity:1,
  duration:1,
  rotation:0,
  stagger:.08, 
@@ -180,7 +180,7 @@ tl.set(one, {
  rotation:100
 })
 tl.to(one, {
- autoAlpha:1,
+ opacity:1,
  duration:.8,
  rotation:0,
  y:0,
@@ -206,7 +206,6 @@ tl.set(two, {
 });   
 	 
 tl.to(two, {
- autoAlpha:1,
  opacity:1,
  y:0,
  duration:.8,
@@ -214,7 +213,7 @@ tl.to(two, {
 });   
 
 tl.to(ln, {
- autoAlpha:1,
+ opacity:1,
  duration:.8,	
  width:"100%",
  ease:easing
