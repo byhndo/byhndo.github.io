@@ -216,7 +216,7 @@ tl.to(two, {
  ease:easing
 });   
 
-set.to(ln, {
+tl.set(ln, {
  opacity:0
 });	
 tl.to(ln, {
