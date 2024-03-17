@@ -57,7 +57,7 @@
 .indicator {
  place-self:center;
  position: absolute;
- top: 92vh;
+ top: 94vh;
  transform: translateY(-100%);
  font-size: clamp(48px, 5.5vw, 129px);
  opacity: 0;
