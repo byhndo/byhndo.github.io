@@ -180,7 +180,7 @@ tl.set(one, {
  autoAlpha:1,
  opacity:1
 })
-tl.to(one, {
+tl.from(one, {
  duration:.8,
  rotation:100,
  y:50,
