@@ -177,6 +177,7 @@ h1 {
 
 .sub-title .char{
  visibility:hidden;
+ opacity:0;
 }
 
 .photos .sub-title{
