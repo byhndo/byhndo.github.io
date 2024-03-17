@@ -71,7 +71,8 @@ gsap.to("nav", {
 	
 gsap.set("h1, h1 .char", { 
  y:50,
- rotation:100
+ rotation:100,
+ opacity:0
 });
 gsap.to("h1, h1 .char", {
  opacity:1,
@@ -105,7 +106,8 @@ gsap.to(".ball", {
 
 gsap.set(".sub-title, .sub-title .char", {
  y:50,
- rotation:100
+ rotation:100,
+ opacity:0
 });
 gsap.to(".sub-title, .sub-title .char", {
  opacity:1,
@@ -177,7 +179,8 @@ tl.fromTo(pl, {
 
 tl.set(one, {
  y:50,
- rotation:100
+ rotation:100, 
+ opacity:0
 })
 tl.to(one, {
  opacity:1,
@@ -202,7 +205,8 @@ const RevealBoxs2 = container.querySelectorAll(".box2");
   });  
 
 tl.set(two, {
- y:-50
+ y:-50,
+ opacity:0
 });   
 	 
 tl.to(two, {
@@ -212,6 +216,9 @@ tl.to(two, {
  ease:easing
 });   
 
+set.to(ln, {
+ opacity:0
+});	
 tl.to(ln, {
  opacity:1,
  duration:.8,	
