@@ -60,31 +60,8 @@
  transform: translateY(-100%);
  font-size: clamp(48px, 5.5vw, 129px);
  opacity: 0;
- visibility: hidden;
 }
 	
-.pointer {
- animation: pointDown 2.5s infinite;
- }
-
-@keyframes pointDown {
-0% {
- transform: translateY(0);
-}
-10% {
-transform: translateY(20px);
-}
-20% {
-transform: translateY(0);
-}
-30% {
-transform: translateY(20px);
-}
-40% {
-transform: translateY(0);
-}
-}
-
 html{
  background: var(--c1);
 }
