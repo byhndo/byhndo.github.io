@@ -72,7 +72,7 @@ gsap.to("nav", {
 });
 	
 gsap.set("h1, h1 .char", { 
- y:50,
+ y:10,
  rotation:100,
  opacity:0
 });
@@ -107,7 +107,7 @@ gsap.to(".ball", {
 
 
 gsap.set(".sub-title, .sub-title .char", {
- y:50,
+ y:10,
  rotation:100,
  opacity:0
 });
