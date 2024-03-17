@@ -108,12 +108,12 @@ h5 {
 }
 
 .header{
- display:grid;
+ display: flex;
+ justify-content: center;
  height:100vh;
 } 
 
 h1 {
- place-self:center;
  position: relative;
  transform-origin: top left;
  display:inline;
