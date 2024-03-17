@@ -176,7 +176,7 @@ tl.fromTo(pl, {
      }, delay:.7
      }); 
 
-
+tl.set(one, {opacity:1})
 tl.fromTo(one, {
  y:50,
  rotation:100},
@@ -202,7 +202,9 @@ const RevealBoxs2 = container.querySelectorAll(".box2");
   toggleActions: "restart none none none"
   }, delay: .7
   });  
-                                       
+
+
+tl.set(two, {opacity:1})	 
 tl.fromTo(two, {
  opacity:0,
  y:-50},
@@ -214,6 +216,7 @@ tl.fromTo(two, {
  ease:easing
 });   
 
+tl.set(ln, {opacity:1})
 tl.fromTo(ln, {
 opacity:0	
 }, {
