@@ -117,14 +117,24 @@ gsap.to(".sub-title, .sub-title .char", {
  ease:easing
 });
 
-gsap.to(".indicator", {
- delay:1,
- duration:1,
- repeat:-1,
- yoyo:true,
- y:5,	
- opacity:1
-}, "+=.5");	
+gsap.to('.indicator', {
+ autoAlpha: 1,
+ duration: 1,
+ onComplete: () => {
+ gsap.fromTo('.indicator', {
+  autoAlpha: 1,
+ }, {
+  autoAlpha: 0,
+  duration: 1,
+  scrollTrigger: {
+  scrub: true,
+  trigger: '.indicator',
+  start: 'center 80%',
+  end: 'center 70%',					
+  }
+ });
+}
+});
 	
 function setupReveal(container) {	
  container.ctx = gsap.context(() => {	  
