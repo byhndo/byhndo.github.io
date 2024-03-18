@@ -136,10 +136,6 @@ h5 {
 .header{
  height:95vh;
 } 
-.wrap-header{
- display:grid;
-place-self:center;	
-}
 h1 { 
  transform-origin: top left;
  display:inline;
