@@ -26,14 +26,14 @@
  left:0;
  right:0;
  bottom:0;
- background:#191a1c;
+ background:var(--c2);
  height:100vh;
  z-index:99999999999999; 
 }
 
 .textload{
  place-self:center;
- color:#fff;
+ color:var(--c1);
  font-family:var(--font3);
  font-weight:400;
  font-style:italic;
