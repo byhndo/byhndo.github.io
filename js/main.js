@@ -105,9 +105,9 @@ gsap.to('.indicator', {
 })
  
  gsap.fromTo('.indicator', {
-  autoAlpha: 1
+ delay:2,
+ autoAlpha: 1
  }, {
-  delay:2,
   autoAlpha: 0,
   duration: 1,
   scrollTrigger: {
