@@ -63,14 +63,14 @@
  opacity: 0;
  transition-delay: 2s;
  transition: color 4s; 	
- color:var(--c5);
 }
 
 .pointer {
-		animation: pointDown 2.5s infinite;
-	}
+ color:var(--c5);
+ animation: pointDown 2.5s infinite;
+}
 	
-	@keyframes pointDown {
+@keyframes pointDown {
 		0% {
 			transform: translateY(0);
 		}
