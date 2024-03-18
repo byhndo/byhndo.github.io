@@ -60,14 +60,18 @@
  top: 92vh;
  transform: translateY(-100%);
  font-size: clamp(48px, 5.5vw, 129px);
- opacity: 0;
- transition-delay: 2s;
- transition: color 4s; 	
+ opacity: 0;	
 }
 
 .pointer {
- color:var(--c3);
+ transition-delay: 2s;
+ transition: color 4s; 
+ color:var(--c4);
  animation: pointDown 2.5s infinite;
+}
+
+.photos .pointer{
+ color:var(--c3);	
 }
 	
 @keyframes pointDown {
