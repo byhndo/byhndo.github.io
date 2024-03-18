@@ -11,8 +11,7 @@
  --sizetitle:17vw;
  --sizenav:9px;
  --font1: 'Didact Gothic', sans-serif;
- --font2: 'Didact Gothic', sans-serif;
- --font3: 'Cormorant Garamond', sans-serif;
+ --font2: 'Cormorant Garamond', sans-serif;
  --marginp:35px;
  --spacingnav:.9vw; 
  --fwnav:400;
@@ -36,7 +35,7 @@
 .textload{
  place-self:center;
  color:var(--c1);
- font-family:var(--font3);
+ font-family:var(--font2);
  font-weight:400;
  font-style:italic;
  font-size:30px;
@@ -423,13 +422,13 @@ img {
  font-size:11.5px;
  font-weight:400;
  color:var(--c2);
- font-family:var(--font2);
+ font-family:var(--font1);
  text-align:justify;
 }
 
 .quote {
  font-size:155%;
- font-family:var(--font3);
+ font-family:var(--font2);
  font-weight:300;
  color:inherit;
  margin:30px auto;
@@ -458,7 +457,7 @@ li.about{
  place-items: center;
  margin: 23px 0 -14px 0;
  text-align: center;
- font-family: var(--font2);
+ font-family: var(--font1);
  font-weight: var(--fwfooter);
 }
 
