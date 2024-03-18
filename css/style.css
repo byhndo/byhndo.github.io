@@ -138,7 +138,6 @@ h5 {
 
 h1 {
  place-self:center;
- position: relative;
  transform-origin: top left;
  display:inline;
  opacity:0;
