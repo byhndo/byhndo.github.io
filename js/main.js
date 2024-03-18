@@ -85,27 +85,6 @@ gsap.to("h1, h1 .char", {
  ease:easing	
 });
 		
-gsap.set(".ball", {
- opacity:0,
- scaleY: 1,  
- transformOrigin: "center bottom"
-});	
-gsap.to(".ball", {
- delay:3.5, 
- opacity:1,
- duration:.7,
- top:0,  
- scaleY: 2,
- autoAlpha:1,
- ease: Back.easeOut.config(2.15)	
-});
-gsap.to(".ball", {
-  scaleY: 1,
-  duration: 2, 
-  ease: "Elastic.easeOut"
-}, "<+=.2");
-
-
 gsap.set(".sub-title, .sub-title .char", {
  y:10,
  rotation:100,
