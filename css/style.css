@@ -63,10 +63,11 @@
  opacity: 0;
  transition-delay: 2s;
  transition: color 4s; 	
+ color:var(--c5);
 }
 
 .photos .indicator{
- color:var(--c1);
+ color:var(--c5);
 }
 
 .pointer {
