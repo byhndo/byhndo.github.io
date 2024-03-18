@@ -135,6 +135,9 @@ h5 {
 
 .header{
  height:95vh;
+ display:flex;
+ justify-content:center;
+ align-items:center;
 } 
 h1 { 
  transform-origin: top left;
