@@ -82,6 +82,7 @@ gsap.to("h1, h1 .char", {
  stagger:.08,
  rotation:0,
  y:0,
+ transformOrigin: "center center",
  ease:easing	
 });
 		
