@@ -114,7 +114,7 @@ gsap.to('.indicator', {
   scrub: true,
   trigger: '.indicator',
   start: 'center 60%',
-  end: 'center 50%',					
+  end: 'center 50%'					
   }
  });
 
