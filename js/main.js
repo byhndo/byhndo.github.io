@@ -100,16 +100,16 @@ gsap.to(".sub-title, .sub-title .char", {
 });
 
 gsap.to('.indicator', {
+ delay:2,
  duration:2,
  autoAlpha: 1
 })
  
  gsap.fromTo('.indicator', {
- delay:2,
  autoAlpha: 1
  }, {
   autoAlpha: 0,
-  duration: 1,
+  duration: 2,
   scrollTrigger: {
   scrub: true,
   trigger: '.indicator',
