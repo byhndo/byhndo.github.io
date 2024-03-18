@@ -161,6 +161,7 @@ h1 {
 }
 
 .sub-title{
+ self-place:center;
  display:inline-block;
  opacity:0;
  line-height:2.3;
