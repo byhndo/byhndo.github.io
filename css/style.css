@@ -135,9 +135,10 @@ h5 {
  display:grid;
  height:95vh;
 } 
-
-h1 {
- place-self:center;
+wrap-header{
+place-self:center;	
+}
+h1 { 
  transform-origin: top left;
  display:inline;
  opacity:0;
@@ -153,7 +154,7 @@ h1 {
  margin-bottom:0;
  text-transform:capitalize;
  left:-1.8%;
- letter-spacing:-4px;
+ letter-spacing:-3px;
 }
 
 .photos h1{
@@ -161,7 +162,6 @@ h1 {
 }
 
 .sub-title{
- self-place:center;
  display:inline-block;
  opacity:0;
  line-height:2.3;
