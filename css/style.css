@@ -56,7 +56,6 @@
 }
 
 .indicator {
- place-self:center;
  position: absolute;
  top: 92vh;
  transform: translateY(-100%);
@@ -64,10 +63,6 @@
  opacity: 0;
  transition-delay: 2s;
  transition: color 4s; 	
- color:var(--c5);
-}
-
-.photos .pointer{
  color:var(--c5);
 }
 
