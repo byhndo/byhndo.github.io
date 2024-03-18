@@ -170,7 +170,8 @@ h1 {
  transition-delay: 2s;
  transition: color 4s;
  text-align:center;
- margin-top:-30px;
+ margin-top:-50px;
+ text-transform:uppercase;
 }
 
 .photos .sub-title{
