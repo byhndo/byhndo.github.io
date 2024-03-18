@@ -35,7 +35,7 @@
 .textload{
  place-self:center;
  color:var(--c1);
- font-family:var(--font2);
+ font-family:var(--font1);
  font-weight:400;
  font-style:italic;
  font-size:30px;
