@@ -330,7 +330,7 @@ p.sub2 {
 }
 
 .prolog{
- font-size:11.5px;
+ font-size:var(--sizebody);
  font-weight:400;
  color:var(--c2);
  font-family:var(--font1);
