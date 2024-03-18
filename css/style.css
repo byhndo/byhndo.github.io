@@ -140,7 +140,6 @@ h5 {
  flex-direction: column;
 } 
 h1 { 
- transform-origin: top left;
  display:inline;
  opacity:0;
  font-family: var(--font1);
