@@ -3,8 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
 
 :root {  
- --c1: #f2f2f0;
- --c2: #191a1c;            
+ --c1: #f8f9fa;
+ --c2: #212529;            
  --color: rgba(122, 122, 124, 0.918);
  --sizebody:11.5px;
  --sizetitle:17vw;
