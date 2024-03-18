@@ -102,8 +102,9 @@ gsap.to(".sub-title, .sub-title .char", {
 gsap.to('.indicator', {
  delay:2,
  duration:2,
- autoAlpha: 1,
- onComplete: () => {
+ autoAlpha: 1
+})
+ 
  gsap.fromTo('.indicator', {
   autoAlpha: 1,
  }, {
@@ -116,8 +117,7 @@ gsap.to('.indicator', {
   end: 'center 50%',					
   }
  });
-}
-});
+
 	
 function setupReveal(container) {	
  container.ctx = gsap.context(() => {	  
