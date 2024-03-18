@@ -159,6 +159,11 @@ tl.fromTo(pl, {
      }, delay:.7
      }); 
 
+tl.set(box1, {
+ autoAlpha:1,
+ opacity:0
+});
+	   
 tl.set(one, {
  y:50,
  rotation:100, 
@@ -186,6 +191,11 @@ const RevealBoxs2 = container.querySelectorAll(".box2");
   }, delay: .7
   });  
 
+tl.set(box2, {
+ autoAlpha:1,
+ opacity:0
+});
+	 
 tl.set(two, {
  y:-50,
  opacity:0
