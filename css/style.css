@@ -135,7 +135,7 @@ h5 {
  display:grid;
  height:95vh;
 } 
-wrap-header{
+.wrap-header{
 place-self:center;	
 }
 h1 { 
