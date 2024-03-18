@@ -134,12 +134,11 @@ h5 {
 }
 
 .header{
- display:grid;
  height:95vh;
 } 
 .wrap-header{
  display:grid;
-place-items:center;	
+place-self:center;	
 }
 h1 { 
  transform-origin: top left;
@@ -175,7 +174,6 @@ h1 {
  transition-delay: 2s;
  transition: color 4s;
  text-align:center;
- margin-top:-50px;
  text-transform:uppercase;
 }
 
