@@ -138,6 +138,7 @@ h5 {
  display:flex;
  justify-content:center;
  align-items:center;
+ flex-direction: column;
 } 
 h1 { 
  transform-origin: top left;
