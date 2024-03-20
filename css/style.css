@@ -362,7 +362,6 @@ p.sub2 {
  grid-template-rows: masonry;
  gap: 20px;
  box-sizing: border-box;
- grid-auto-flow: row dense;  
 }
 
 .item {
