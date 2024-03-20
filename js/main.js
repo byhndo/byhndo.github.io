@@ -53,7 +53,7 @@ data() {
 }).mount('#app')  	
 
 Splitting();
-	
+
 const easing = "sine.out";
 	
 gsap.set("nav", {
