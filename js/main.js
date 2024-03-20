@@ -83,7 +83,7 @@ gsap.set("h1, h1 .char", {
 gsap.to("h1, h1 .char", {
  opacity:1,
  duration:.8,
- stagger:.08,
+ stagger:.03,
  rotationX:0,
  z:0,
  y:0,
