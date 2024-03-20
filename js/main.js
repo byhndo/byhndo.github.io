@@ -73,21 +73,15 @@ gsap.to("nav", {
 	
 gsap.set("h1, h1 .char", { 
  y:100,
- scaleY:0,
- rotationX:360,
- z:180,
- transformStyle: "preserve-3d",
- transformPerspective: 1000,
+ rotationY: 90,
+ scale:1.0,
  opacity:0
 });
 gsap.to("h1, h1 .char", {
  opacity:1,
- duration:.8,
+ duration:1,
  stagger:.06,
- rotationX:0,
- z:0,
  y:0,
- scaleY:1,
  transformOrigin: "center center",
  ease:easing	
 });
