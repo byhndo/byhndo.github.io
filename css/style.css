@@ -23,7 +23,7 @@
  --spacingnav:.9vw; 
  --fwnav:400;
  --fwtitle:400;
- --fwbody:300;
+ --fwbody:400;
  --fwfooter:400;
 }
 
@@ -346,7 +346,7 @@ p.sub2 {
 .quote {
  font-size:155%;
  font-family:var(--font3);
- font-weight:300;
+ font-weight:400;
  color:inherit;
  margin:30px auto;
  max-width:70%;
