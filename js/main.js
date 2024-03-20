@@ -74,8 +74,8 @@ gsap.to("nav", {
 gsap.set("h1, h1 .char", { 
  y:100,
  scaleY:0,
- rotationX:180,
- z:100,
+ rotationX:360,
+ z:180,
  transformStyle: "preserve-3d",
  transformPerspective: 1000,
  opacity:0
