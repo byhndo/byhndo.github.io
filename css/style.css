@@ -372,6 +372,7 @@ p.sub2 {
  visibility: hidden;
  overflow: hidden;
  opacity: 0;
+ grid-column: span 2;
 }
 
 .item:nth-last-child(1):nth-child(odd) {
