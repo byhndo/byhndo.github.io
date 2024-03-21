@@ -19,18 +19,16 @@ tl.to(".textload span", {
 		
 tl.to("#loader", {
  duration:.8,
- scaleX:.5,
+ scaleX:.6,
  scaleY:.3,
- transformOrigin: "center",
- ease:"quad.out"
+ transformOrigin: "center"
 }); 
 
 tl.to("#loader", {
  delay:.2,
  duration:.8,
  height:0,
- transformOrigin: "center",
- ease:"quad.out"
+ transformOrigin: "center"
 }); 
 	
 function contentShow() {
