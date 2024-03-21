@@ -97,7 +97,7 @@ gsap.to("h1, h1 .char", {
 });
 		
 gsap.set(".sub-title, .sub-title .char", {
- y:10,
+ y:20,
  rotation:100,
  opacity:0
 });
