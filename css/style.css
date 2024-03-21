@@ -360,7 +360,7 @@ p.sub2 {
 .grid {
  --auto-grid-min-size:10rem;
  display: grid;  
- grid-template-columns: repeat(3, 1fr);
+ grid-template-columns: repeat(2, 1fr);
  grid-template-rows: masonry;
  gap: 20px;
  box-sizing: border-box;
