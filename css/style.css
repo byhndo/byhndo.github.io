@@ -357,18 +357,18 @@ p.sub2 {
  color:inherit;
 }
 
+
 .grid {
- --auto-grid-min-size:10rem;
- display: grid;  
- grid-template-columns: repeat(2, 1fr);
- grid-template-rows: masonry;
- gap: 20px;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
  box-sizing: border-box;
 }
 
 .item {
  position: relative;
- width: 100%;
+ flex: 0 0 calc(50% - 20px);
+ margin: 7px;
  visibility: hidden;
  overflow: hidden;
  opacity: 0;
