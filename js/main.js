@@ -209,7 +209,7 @@ tl.set(box2, {
 });
 	 
 tl.set(two, {
- y:-50,
+ y:50,
  opacity:0
 });   
 	 
