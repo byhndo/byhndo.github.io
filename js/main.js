@@ -27,7 +27,7 @@ tl.to("#loader", {
 tl.to("#loader", {
  delay:.3,
  duration:1,
- yPercent:-50,
+ yPercent:-10,
  scaleY:0,
  transformOrigin: "center"
 }); 
