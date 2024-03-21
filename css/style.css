@@ -112,7 +112,7 @@ body {
  overflow:hidden;
  height:100%;
  position:relative;
- font-variation-settings:"wdth" 125;
+ font-variation-settings:"wdth" 150;
 }
 
 *, *:before, *:after {
