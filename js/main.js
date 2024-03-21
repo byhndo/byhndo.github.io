@@ -217,7 +217,9 @@ tl.to(two, {
  opacity:1,
  y:0,
  duration:.8,
- scrub: 5,
+ scrub: true,
+ start: "top",
+ end: "bottom",
  ease:easing
 });   
 
