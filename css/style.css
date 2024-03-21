@@ -414,6 +414,7 @@ img {
 }
 
 .box1, .box2{
+ visibility:hidden;
  opacity:0;
 }
 
