@@ -217,8 +217,10 @@ tl.to(two, {
  opacity:1,
  y:0,
  duration:.8,
- ease:easing
-}, "+=.3");   
+ ease:easing,
+ start: "top bottom",
+ end: "top 80%" 
+}, "+=.1");   
 
 tl.set(ln, {
  opacity:0
