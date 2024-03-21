@@ -177,6 +177,7 @@ tl.set(box1, {
 });
 	   
 tl.set(one, {
+ autoAlpha:1,
  y:50,
  rotation:100, 
  opacity:0
@@ -209,6 +210,7 @@ tl.set(box2, {
 });
 	 
 tl.set(two, {
+ autoAlpha:1,
  y:50,
  opacity:0
 });   
@@ -222,6 +224,7 @@ tl.to(two, {
 });   
 
 tl.set(ln, {
+ autoAlpha:1,
  opacity:0
 });	
 tl.to(ln, {
