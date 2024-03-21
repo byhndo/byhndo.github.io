@@ -27,8 +27,8 @@ tl.to("#loader", {
 tl.to("#loader", {
  delay:.2,
  duration:.8,
- height:0,
- transformOrigin: "center"
+ scaleY:0,
+ transformOrigin: "center top"
 }); 
 	
 function contentShow() {
