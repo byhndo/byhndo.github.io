@@ -74,7 +74,7 @@ gsap.set("nav", {
 gsap.to("nav", {
  autoAlpha:1,
  opacity:1,
- delay:2,
+ delay:2.5,
  duration:2, 
  y:0,
  ease: "expo.inOut"
@@ -111,7 +111,7 @@ gsap.to(".sub-title, .sub-title .char", {
 });
 
  gsap.to('.indicator', {
- delay:2,
+ delay:2.5,
  duration:2,
  autoAlpha: 1,
  onComplete: () => {
