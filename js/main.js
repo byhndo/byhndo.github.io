@@ -218,7 +218,7 @@ tl.to(two, {
  y:0,
  duration:.8,
  ease:easing
-}, "+=.1");   
+}, "+=.3");   
 
 tl.set(ln, {
  opacity:0
