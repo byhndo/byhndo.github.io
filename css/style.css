@@ -368,7 +368,7 @@ p.sub2 {
 .item {
  position: relative;
  flex: 0 0 calc(44.9% - 0px);
- margin: 10.1px;
+ margin: 10px;
  visibility: hidden;
  overflow: hidden;
  opacity: 0;
