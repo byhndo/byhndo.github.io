@@ -158,6 +158,7 @@ h1 {
  text-transform:capitalize;
  left:-3%;
  letter-spacing:-3px;
+ visibility:hidden;
 }
 
 .photos h1{
@@ -176,6 +177,7 @@ h1 {
  transition: color 4s;
  text-align:center;
  text-transform:uppercase;
+ visibility:hidden;
 }
 
 .photos .sub-title{
