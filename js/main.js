@@ -22,7 +22,7 @@ tl.to("#loader", {
  scaleX:.6,
  scaleY:.5,
  transformOrigin: "center",
- ease: "elastic.out"
+ ease: "back.out(1.7)"
 }); 
 
 tl.to("#loader", {
