@@ -135,7 +135,7 @@ function setupReveal(container) {
  container.ctx = gsap.context(() => {	  
   	 
  const RevealSc = container.querySelectorAll(".sc");
-   RevealSc.forEach((sc) => {                
+   RevealSc.forEach((sc, i) => {                
     const pl = sc.querySelectorAll(".pl");
     let tl = gsap.timeline({
     scrollTrigger: {
@@ -157,12 +157,12 @@ tl.fromTo(pl, {
    duration:.8,     
    ease:easing,
    opacity:1
-   });
+   }, 0.075 * i);
 	   
    });
 	 
  const RevealBoxs1 = container.querySelectorAll(".box1");
-   RevealBoxs1.forEach((box1) => { 	   	   
+   RevealBoxs1.forEach((box1, i) => { 	   	   
     const one = box1.querySelectorAll(".one, .one span");
     let tl = gsap.timeline({
     scrollTrigger: {
@@ -188,7 +188,7 @@ tl.to(one, {
  y:0,
  stagger:.1,
  ease:easing	
-});
+}, 0.075 * i);
 
 });
 	  
@@ -228,12 +228,12 @@ tl.to(ln, {
  duration:.8,	
  width:"100%",
  ease:easing
-});	
+}, 0.075 * i);	
 	                                                                                                                  
 });	
 
 let revealContainers = container.querySelectorAll(".item");
- revealContainers.forEach((el) => {
+ revealContainers.forEach((el, i) => {
  let image = el.querySelector("img");
  let tl = gsap.timeline({
  scrollTrigger: {
@@ -257,7 +257,7 @@ let revealContainers = container.querySelectorAll(".item");
    duration:1.2,
    ease:easing,
    opacity:1
-   }); 
+   }, 0.075 * i); 
   tl.from(image, {
     duration:2.2,                   
     scale: 1.4,   
