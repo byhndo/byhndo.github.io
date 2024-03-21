@@ -24,10 +24,10 @@ tl.to("#loader", {
 }); 
 
 tl.to("#loader", {
- delay:.5,
+ delay:.1,
  duration:.8,
  height:0,
- transformOrigin: "top"
+ transformOrigin: "top center"
 }); 
 	
 function contentShow() {
