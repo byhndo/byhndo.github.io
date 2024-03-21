@@ -28,10 +28,8 @@ tl.to("#loader", {
  delay:.3,
  duration:1,
  scaleY:0,
- transformOrigin: "center",
- clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
- webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)"
- }); 
+ transformOrigin: "center"
+}); 
 	
 function contentShow() {
 	
