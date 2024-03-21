@@ -374,6 +374,10 @@ p.sub2 {
  opacity: 0;
 }
 
+.item:nth-last-child(1):nth-child(odd) {
+ grid-column: 2 / span 2;
+}
+
 img {
  width: 100%;
  height: 100%;
