@@ -188,7 +188,7 @@ tl.to(one, {
  y:0,
  stagger:.1,
  ease:easing	
-}, "<.1");
+});
 
 });
 	  
@@ -218,7 +218,7 @@ tl.to(two, {
  y:0,
  duration:.8,
  ease:easing,
- stagger: 0.5
+ stagger: 1
 });   
 
 tl.set(ln, {
@@ -229,7 +229,7 @@ tl.to(ln, {
  duration:.8,	
  width:"100%",
  ease:easing
-}, "<.1");	
+});	
 	                                                                                                                  
 });	
 
@@ -258,7 +258,7 @@ let revealContainers = container.querySelectorAll(".item");
    duration:1.2,
    ease:easing,
    opacity:1
-   }, "<.1"); 
+   }); 
   tl.from(image, {
     duration:2.2,                   
     scale: 1.4,   
