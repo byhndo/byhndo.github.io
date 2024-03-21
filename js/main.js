@@ -19,7 +19,8 @@ tl.to(".textload span", {
 		
 tl.to("#loader", {
  duration:.8,
- scale:.3,
+ scaleX:.5,
+ scaleY:.3,
  transformOrigin: "center",
  ease:"sine.out"
 }); 
@@ -27,6 +28,7 @@ tl.to("#loader", {
 tl.to("#loader", {
  delay:.2,
  duration:.8,
+ scaleX:0,
  scaleY:0,
  transformOrigin: "center",
  ease:"sine.out"
