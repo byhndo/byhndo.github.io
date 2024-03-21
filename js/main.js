@@ -67,13 +67,11 @@ const easing = "sine.out";
 	
 gsap.set("nav", {
  y:-30,
- autoAlpha:0, 
- opacity:0
+ autoAlpha:1, 
+ opacity:1
 });	
 
 gsap.to("nav", {
- autoAlpha:1,
- opacity:1,
  delay:2.5,
  duration:2, 
  y:0,
@@ -81,12 +79,12 @@ gsap.to("nav", {
 });
 	
 gsap.set("h1, h1 .char", { 
+ autoAlpha:1,
+ opacity:1,
  y:100,
- rotationY:100,
- opacity:0
+ rotationY:100
 });
 gsap.to("h1, h1 .char", {
- opacity:1,
  duration:1,
  stagger:.06,
  rotationY:0,
@@ -97,12 +95,12 @@ gsap.to("h1, h1 .char", {
 });
 		
 gsap.set(".sub-title, .sub-title .char", {
+ autoAlpha:1,
+ opacity:1,
  y:20,
- rotation:100,
- opacity:0
+ rotation:100
 });
 gsap.to(".sub-title, .sub-title .char", {
- opacity:1,
  duration:.8,
  rotation:0,
  stagger:.08, 
@@ -145,7 +143,7 @@ function setupReveal(container) {
      }); 
 tl.set(pl, {
  autoAlpha:1,
- opacity:0	
+ opacity:1	
 })
 tl.fromTo(pl, {
    clipPath: "polygon(0 0, 100% 0, 100% 0, 0 0)",
@@ -156,8 +154,7 @@ tl.fromTo(pl, {
    webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
    delay:.7,
    duration:.8,     
-   ease:easing,
-   opacity:1
+   ease:easing
    });
 	   
    });
@@ -174,17 +171,16 @@ tl.fromTo(pl, {
 
 tl.set(box1, {
  autoAlpha:1,
- opacity:0
+ opacity:1
 });
 	   
 tl.set(one, {
  autoAlpha:1,
+ opacity:1,
  y:50,
- rotation:100, 
- opacity:0
+ rotation:100
 })
 tl.to(one, {
- opacity:1,
  duration:.8,
  rotation:0,
  y:0,
@@ -207,17 +203,16 @@ const RevealBoxs2 = container.querySelectorAll(".box2");
 
 tl.set(box2, {
  autoAlpha:1,
- opacity:0
+ opacity:1
 });
 	 
 tl.set(two, {
  autoAlpha:1,
- y:50,
- opacity:0
+ opacity:1,
+ y:50
 });   
 	 
 tl.to(two, {
- opacity:1,
  y:0,
  duration:.8,
  stagger: 0.075,
@@ -226,10 +221,9 @@ tl.to(two, {
 
 tl.set(ln, {
  autoAlpha:1,
- opacity:0
+ opacity:1
 });	
 tl.to(ln, {
- opacity:1,
  duration:.8,	
  width:"100%",
  ease:easing
@@ -249,7 +243,7 @@ let revealContainers = container.querySelectorAll(".item");
 
   tl.set(el, {
    autoAlpha:1,
-   opacity:0
+   opacity:1
    });
 	 
   tl.fromTo(el, {
