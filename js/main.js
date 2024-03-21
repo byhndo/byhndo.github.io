@@ -21,11 +21,12 @@ tl.to("#loader", {
  duration:.8,
  scaleX:.6,
  scaleY:.5,
- transformOrigin: "center"
+ transformOrigin: "center",
+ ease: "back.out"
 }); 
 
 tl.to("#loader", {
- delay:.3,
+ delay:.5,
  duration:1,
  scaleY:0,
  transformOrigin: "center"
