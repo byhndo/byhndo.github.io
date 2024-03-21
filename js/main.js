@@ -144,7 +144,8 @@ function setupReveal(container) {
      }, delay:.7
      }); 
 tl.set(pl, {
-opacity:0	
+ autoAlpha:1,
+ opacity:0	
 })
 tl.fromTo(pl, {
    clipPath: "polygon(0 0, 100% 0, 100% 0, 0 0)",
