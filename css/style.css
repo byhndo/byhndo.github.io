@@ -422,6 +422,7 @@ img {
  margin-top:0;
  margin-bottom:0;
  text-align:center;
+ visibility:hidden;
 }
 .one span{
  display: inline-block;
@@ -432,6 +433,7 @@ img {
  margin-top:var(--marginp);
  margin-bottom: var(--marginp);
  opacity:0;
+ visibility:hidden;
 }
 
 .line {
@@ -443,6 +445,7 @@ img {
  opacity:0;
  background:rgba(50, 50, 53, .03);
  transition:background 1s;
+ visibility:hidden;
 }
 
 .photos .line{
