@@ -193,7 +193,7 @@ tl.to(one, {
 });
 	  
 const RevealBoxs2 = container.querySelectorAll(".box2");
- RevealBoxs2.forEach((box2, i) => {
+ RevealBoxs2.forEach((box2) => {
  const two = box2.querySelectorAll(".two");            
  const ln = box2.querySelectorAll(".line");                  
  let tl = gsap.timeline({
@@ -217,8 +217,9 @@ tl.to(two, {
  opacity:1,
  y:0,
  duration:.8,
+ stagger: 0.075,
  ease:easing
-}, 0.075 * i);   
+});   
 
 tl.set(ln, {
  opacity:0
