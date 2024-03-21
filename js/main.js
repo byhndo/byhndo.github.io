@@ -220,7 +220,7 @@ tl.to(two, {
  ease:easing,
  start: "top bottom",
  end: "top 80%" 
-}, "+=.1");   
+}, "<50%");   
 
 tl.set(ln, {
  opacity:0
