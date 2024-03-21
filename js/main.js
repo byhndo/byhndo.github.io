@@ -256,7 +256,8 @@ let revealContainers = container.querySelectorAll(".item");
    webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
    duration:1.2,
    ease:easing,
-   opacity:1
+   opacity:1,
+   stagger: 0.075
    }); 
   tl.from(image, {
     duration:2.2,                   
