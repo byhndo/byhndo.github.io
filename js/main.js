@@ -28,7 +28,7 @@ tl.to("#loader", {
 tl.to("#loader", {
  delay:.2,
  duration:.8,
- scale:0,
+ height:0,
  transformOrigin: "center",
  ease:"sine.out"
 }); 
