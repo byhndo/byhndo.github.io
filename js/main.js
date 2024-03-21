@@ -26,7 +26,7 @@ tl.to("#loader", {
 tl.to("#loader", {
  delay:1,
  duration:.8,
- scale:0,
+ height:0,
  transformOrigin: "top"
 }); 
 	
