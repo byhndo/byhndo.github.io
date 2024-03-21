@@ -22,12 +22,12 @@ tl.to("#loader", {
  scaleX:.6,
  scaleY:.5,
  transformOrigin: "center",
- ease: "back.out"
+ ease: "back.out(1.7)"
 }); 
 
 tl.to("#loader", {
  delay:.5,
- duration:1,
+ duration:.8,
  scaleY:0,
  transformOrigin: "center"
 }); 
