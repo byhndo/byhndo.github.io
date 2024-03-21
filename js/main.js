@@ -22,7 +22,7 @@ tl.to("#loader", {
  scaleX:.5,
  scaleY:.3,
  transformOrigin: "center",
- ease:"sine.out"
+ ease:"quad.out"
 }); 
 
 tl.to("#loader", {
@@ -30,7 +30,7 @@ tl.to("#loader", {
  duration:.8,
  height:0,
  transformOrigin: "center",
- ease:"sine.out"
+ ease:"quad.out"
 }); 
 	
 function contentShow() {
