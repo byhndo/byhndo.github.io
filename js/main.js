@@ -68,7 +68,7 @@ const easing = "sine.out";
 gsap.set("nav", {
  y:-30,
  autoAlpha:1, 
- opacity:1
+ opacity:0
 });	
 
 gsap.to("nav", {
@@ -80,7 +80,7 @@ gsap.to("nav", {
 	
 gsap.set("h1, h1 .char", { 
  autoAlpha:1,
- opacity:1,
+ opacity:0,
  y:100,
  rotationY:100
 });
@@ -96,7 +96,7 @@ gsap.to("h1, h1 .char", {
 		
 gsap.set(".sub-title, .sub-title .char", {
  autoAlpha:1,
- opacity:1,
+ opacity:0,
  y:20,
  rotation:100
 });
