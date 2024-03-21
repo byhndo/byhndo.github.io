@@ -410,6 +410,7 @@ img {
  margin-top:50px;
 }
 .pl{
+ visibility:hidden;
  opacity:0;
 }
 
