@@ -18,11 +18,11 @@ tl.to(".textload span", {
 }); 
 		
 tl.to("#loader", {
- duration:.8,
+ duration:2,
  scaleX:.6,
  scaleY:.5,
  transformOrigin: "center",
- ease: "back.out(1.7)"
+ ease: "elastic.out"
 }); 
 
 tl.to("#loader", {
