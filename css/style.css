@@ -384,7 +384,6 @@ img {
  height: 100%;
  object-fit: cover;
  transform-origin:center;
- opacity:0;
 }
 
 .soc {
