@@ -419,16 +419,6 @@ img {
  opacity:0;
 }
 
-#reveal-text {
-  visibility: hidden;
-}
-
-.line {
-  position: relative;
-  overflow: hidden;
-  display: flex;
-}
-
 .one{
  opacity:0;
  margin-top:0;
