@@ -222,7 +222,7 @@ const RevealBoxs2 = container.querySelectorAll(".box2");
   trigger: box2,
   toggleActions: once,
   start:"top 90%",
-  end:"bottom 0%",
+  end:"bottom 100%",
   scrub:true
  }, delay: .5
  });  
@@ -249,7 +249,7 @@ let revealContainers = container.querySelectorAll(".item");
   trigger: el,
   toggleActions: once,
   start:"top 90%",
-  end:"bottom 0%",
+  end:"bottom 100%",
   scrub:true
   }, delay:.5
  });
