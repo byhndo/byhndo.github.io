@@ -249,18 +249,19 @@ let revealContainers = container.querySelectorAll(".item");
  });
 
   tl.set(el, {
-   autoAlpha:1,
-   opacity:1
+   scale:0	  
    });	 
-  tl.from(el, {
-   opacity:0,
-   scale:0,
+  tl.to(el, {
+   scale:1,
    duration: 1.2,
    ease: easing
   });
-  tl.from(image, {
-   duration:2.2,                   
+  tl.set(image, {                   
    scale:0,   
+  });
+  tl.to(image, {
+   duration:2.2,                   
+   scale:1,   
    ease:easing
   }, 0);
 	 	 
