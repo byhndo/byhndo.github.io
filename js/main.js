@@ -64,7 +64,7 @@ data() {
 Splitting();
 
 const easing = "sine.out";
-const once = "restart restart none none";
+const once = "restart reverse restart reverse";
 	
 gsap.set("nav", {
  y:-30
