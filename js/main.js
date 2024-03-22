@@ -64,6 +64,7 @@ data() {
 Splitting();
 
 const easing = "sine.out";
+const once = "play none none none";
 	
 gsap.set("nav", {
  y:-30
@@ -138,7 +139,7 @@ function setupReveal(container) {
     let tl = gsap.timeline({
     scrollTrigger: {
      trigger:sc,
-     toggleActions: "restart none none none"
+     toggleActions: once
      }, delay:.7
      }); 
 
@@ -164,7 +165,7 @@ tl.fromTo(pl, {
     let tl = gsap.timeline({
     scrollTrigger: {
      trigger: box1,
-     toggleActions: "restart none none none"
+     toggleActions: once
      }, delay:.7
      }); 
 	   
@@ -191,7 +192,7 @@ const RevealBoxs2 = container.querySelectorAll(".box2");
  let tl = gsap.timeline({
  scrollTrigger: {
   trigger: box2,
-  toggleActions: "play none none none"
+  toggleActions: once
   }, delay: .7
   });  
 	 
@@ -224,7 +225,7 @@ let revealContainers = container.querySelectorAll(".item");
  let tl = gsap.timeline({
  scrollTrigger: {
   trigger: el,
-  toggleActions: "restart none none none"
+  toggleActions: once
   }, delay: .7
   });
 
