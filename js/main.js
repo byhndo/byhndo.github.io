@@ -233,22 +233,17 @@ let revealContainers = container.querySelectorAll(".item");
    autoAlpha:1
    });
 	 
-  tl.fromTo(el, {
-   clipPath: "polygon(0 0, 100% 0, 100% 0, 0 0)",
-   webkitClipPath: "polygon(0 0, 100% 0, 100% 0, 0 0)"
-   },
-   {
-   clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
-   webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
-   duration:1.2,
-   ease:easing,
-   stagger: 0.075
-   }); 
+  tl.from(el, {
+   duration: 1.2,
+   yPercent: 100,
+   ease: easing
+  });
   tl.from(image, {
-    duration:2.2,                   
-    scale: 1.4,   
-    ease:easing
-    }, 0);
+   yPercent:-114,
+   duration:2.2,                   
+   scale: 1.4,   
+   ease:easing
+  }, 0);
 	 	 
   });	
 });
