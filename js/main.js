@@ -265,7 +265,7 @@ let revealContainers = container.querySelectorAll(".item");
    duration:2.2,                   
    scale:1,   
    ease:easing
-  }, 0);
+  });
 	 	 
   });	
 });
