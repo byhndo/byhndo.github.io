@@ -249,12 +249,12 @@ let revealContainers = container.querySelectorAll(".item");
  });
 
   tl.set(el, {
-   scale:0	  
+   height:0	  
    });	 
   tl.to(el, {
    autoAlpha:1,
    opacity:1,
-   scale:1,
+   height:"100%",
    duration: 1.2,
    ease: easing
   }, 0);
