@@ -224,7 +224,10 @@ let revealContainers = container.querySelectorAll(".item");
  let tl = gsap.timeline({
  scrollTrigger: {
   trigger: el,
-  toggleActions: once
+  toggleActions: once,
+  start: 'clamp(top bottom)',
+  end: 'clamp(bottom top)',
+  scrub: true
   }, delay: .7
   });
 
@@ -234,7 +237,8 @@ let revealContainers = container.querySelectorAll(".item");
   tl.from(el, {
    scale:0,
    duration: 1.2,
-   ease: easing
+   ease: easing,
+	  yPercent: -1*pos*10
   });
   tl.from(image, {
    duration:2.2,                   
