@@ -140,7 +140,7 @@ function setupReveal(container) {
     scrollTrigger: {
      trigger:sc,
      toggleActions: once
-     }, delay:.7
+     }, delay:.5
      }); 
 
 tl.fromTo(pl, {
@@ -166,7 +166,7 @@ const RevealBoxs = container.querySelectorAll(".box");
     scrollTrigger: {
      trigger: box,
      toggleActions: once
-     }, delay:.7
+     }, delay:.5
      }); 
 	   	   
 tl.to(gr, {
@@ -187,7 +187,7 @@ const RevealBoxs1 = container.querySelectorAll(".box1");
     scrollTrigger: {
      trigger: box1,
      toggleActions: once
-     }, delay:.7
+     }, delay:.5
      }); 
 	   
 tl.set(one, {
@@ -217,7 +217,12 @@ tl.to(gr, {
 const RevealBoxs2 = container.querySelectorAll(".box2");
  RevealBoxs2.forEach((box2) => {
  const two = box2.querySelectorAll(".two");                              
- let tl = gsap.timeline();  
+ let tl = gsap.timeline({
+ scrollTrigger: {
+ trigger: box2,
+ toggleActions: once
+ }, delay: .5
+ });  
 	 
 tl.set(two, {
  y:50
@@ -228,14 +233,7 @@ tl.to(two, {
  opacity:1,
  y:0,
  duration:.8,
- ease:easing,
- scrollTrigger: {
- trigger: box2,
- toggleActions: once,
- start: 'clamp(top bottom)',
- end: 'clamp(bottom top)',
- scrub: true
- }
+ ease:easing
 });   	 
 	                                                                                                                  
 });	
@@ -243,7 +241,12 @@ tl.to(two, {
 let revealContainers = container.querySelectorAll(".item");
  revealContainers.forEach((el) => {
  let image = el.querySelector("img");
- let tl = gsap.timeline();
+ let tl = gsap.timeline({
+ scrollTrigger: {
+   trigger: el,
+   toggleActions: once
+   } 
+ });
 
   tl.set(el, {
    autoAlpha:1
@@ -251,14 +254,7 @@ let revealContainers = container.querySelectorAll(".item");
   tl.from(el, {
    scale:0,
    duration: 1.2,
-   ease: easing,
-   scrollTrigger: {
-   trigger: el,
-   toggleActions: once,
-   start: 'clamp(top bottom)',
-   end: 'clamp(bottom top)',
-   scrub: true
-   }
+   ease: easing
   });
   tl.from(image, {
    duration:2.2,                   
