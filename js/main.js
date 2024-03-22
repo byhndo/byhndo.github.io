@@ -150,7 +150,7 @@ tl.fromTo(pl, {
    {
    clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
    webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
-   delay:.7,
+   delay:.5,
    autoAlpha:1, 
    opacity:1,
    duration:.8,     
@@ -219,8 +219,11 @@ const RevealBoxs2 = container.querySelectorAll(".box2");
  const two = box2.querySelectorAll(".two");                              
  let tl = gsap.timeline({
  scrollTrigger: {
- trigger: box2,
- toggleActions: once
+  trigger: box2,
+  toggleActions: once,
+  start:"top 80%",
+  end:"bottom 10%",
+  scrub:true
  }, delay: .5
  });  
 	 
@@ -248,7 +251,7 @@ let revealContainers = container.querySelectorAll(".item");
   start:"top 80%",
   end:"bottom 10%",
   scrub:true
-   } 
+  }, delay:.5
  });
 
   tl.set(el, {
