@@ -181,18 +181,9 @@ tl.to(gr, {
  ease:easing
 });	
 
-});
-	  
-
-
-
-
-
-
-
-
+});	  
 	 
- const RevealBoxs1 = container.querySelectorAll(".box1");
+const RevealBoxs1 = container.querySelectorAll(".box1");
    RevealBoxs1.forEach((box1) => { 	   	   
     const one = box1.querySelectorAll(".one, .one span");
     const gr = box1.querySelectorAll(".gr");
@@ -235,7 +226,7 @@ const RevealBoxs2 = container.querySelectorAll(".box2");
   trigger: box2,
   toggleActions: once,
   start: 'clamp(top bottom)',
-  end: 'clamp(bottom top)',
+  end: 'clamp(bottom bottom)',
   scrub: true
   }, delay: .7
   });  
@@ -262,7 +253,7 @@ let revealContainers = container.querySelectorAll(".item");
   trigger: el,
   toggleActions: once,
   start: 'clamp(top bottom)',
-  end: 'clamp(bottom top)',
+  end: 'clamp(bottom bottom)',
   scrub: true
   }, delay: .7
   });
