@@ -252,6 +252,8 @@ let revealContainers = container.querySelectorAll(".item");
    scale:0	  
    });	 
   tl.to(el, {
+   autoAlpha:1,
+   opacity:1,
    scale:1,
    duration: 1.2,
    ease: easing
@@ -260,6 +262,7 @@ let revealContainers = container.querySelectorAll(".item");
    scale:0,   
   });
   tl.to(image, {
+   opacity:1,
    duration:2.2,                   
    scale:1,   
    ease:easing
