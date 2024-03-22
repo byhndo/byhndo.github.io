@@ -165,7 +165,7 @@ tl.fromTo(pl, {
 
 const RevealBoxs = container.querySelectorAll(".box");
    RevealBoxs.forEach((box) => { 	   	   
-    const one = box.querySelectorAll(".gr");
+    const gr = box.querySelectorAll(".gr");
     let tl = gsap.timeline({
     scrollTrigger: {
      trigger: box,
