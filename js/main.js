@@ -221,7 +221,7 @@ const RevealBoxs2 = container.querySelectorAll(".box2");
  scrollTrigger: {
   trigger: box2,
   toggleActions: once,
-  start:"top 50%",
+  start:"top 90%",
   end:"bottom 0%",
   scrub:true
  }, delay: .5
@@ -248,7 +248,7 @@ let revealContainers = container.querySelectorAll(".item");
  scrollTrigger: {
   trigger: el,
   toggleActions: once,
-  start:"top 50%",
+  start:"top 90%",
   end:"bottom 0%",
   scrub:true
   }, delay:.5
