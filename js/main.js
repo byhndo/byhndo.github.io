@@ -64,7 +64,7 @@ data() {
 Splitting();
 
 const easing = "sine.out";
-const once = "restart none none none";
+const once = "restart restart none none";
 	
 gsap.set("nav", {
  y:-30
@@ -249,17 +249,17 @@ let revealContainers = container.querySelectorAll(".item");
  });
 
   tl.set(el, {
-   height:0	  
+   scale:0	  
    });	 
   tl.to(el, {
    autoAlpha:1,
    opacity:1,
-   height:"100%",
+   scale:1,
    duration: 1.2,
    ease: easing
   }, 0);
   tl.to(image, {
-   duration:2.2,                   
+   duration:2.2, 
    ease:easing
   }, 0);
 	 	 
