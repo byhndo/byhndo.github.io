@@ -191,7 +191,7 @@ const RevealBoxs2 = container.querySelectorAll(".box2");
  let tl = gsap.timeline({
  scrollTrigger: {
   trigger: box2,
-  toggleActions: "restart none none none"
+  toggleActions: "play reverse play reverse"
   }, delay: .7
   });  
 	 
