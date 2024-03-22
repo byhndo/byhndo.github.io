@@ -54,6 +54,7 @@ display: grid;
 }
 	
 .box{	
+visibility:hidden;
 opacity:0;
 place-self:center;
 font-size:55vw;
@@ -71,6 +72,7 @@ color:#FBD46D!important;
 .button1 {
 position:relative;
 z-index:1;
+visibility:hidden;
 opacity:0;
 place-self:center;
 align-items:center;	
@@ -122,27 +124,24 @@ Beranda</a>
 	
 <script>
 gsap.set(".box", {
- opacity:0,
  y:-150
 }); 
 	
 gsap.to(".box", {
+ autoAlpha:1,
  opacity:1,
  y:0,
  duration:2,
  ease:"expo.inOut"
 }); 
 	
-gsap.set(".button1", {
-	opacity:0
-})
 gsap.to(".button1", {
-        delay:1,
-        duration:2,	
-	opacity:1,	
-	ease: "expo.inOut"
+ autoAlpha:1,
+ opacity:1,
+ delay:1,
+ duration:2,		
+ ease: "expo.inOut"
 });
-
 	
 var isSafari = /constructor/i.test(window.HTMLElement);
 var isFF = !!navigator.userAgent.match(/firefox/i);
