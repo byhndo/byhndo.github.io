@@ -192,7 +192,10 @@ const RevealBoxs2 = container.querySelectorAll(".box2");
  let tl = gsap.timeline({
  scrollTrigger: {
   trigger: box2,
-  toggleActions: once
+  toggleActions: once,
+  start: 'clamp(top bottom)',
+  end: 'clamp(bottom top)',
+  scrub: true
   }, delay: .7
   });  
 	 
