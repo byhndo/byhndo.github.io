@@ -258,12 +258,8 @@ let revealContainers = container.querySelectorAll(".item");
    duration: 1.2,
    ease: easing
   }, 0);
-  tl.set(image, {                   
-   scale:0
-  });
   tl.to(image, {
    duration:2.2,                   
-   scale:1,   
    ease:easing
   }, 0);
 	 	 
