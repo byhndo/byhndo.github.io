@@ -262,7 +262,6 @@ let revealContainers = container.querySelectorAll(".item");
    scale:0
   });
   tl.to(image, {
-   opacity:1,
    duration:2.2,                   
    scale:1,   
    ease:easing
