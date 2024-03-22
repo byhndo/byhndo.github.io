@@ -104,7 +104,7 @@ gsap.to(".sub-title, .sub-title .char", {
  opacity:1,
  duration:.8,
  rotation:0,
- stagger:.02, 
+ stagger:.08, 
  y:0,
  ease:easing
 });
@@ -237,8 +237,7 @@ let revealContainers = container.querySelectorAll(".item");
   tl.from(el, {
    scale:0,
    duration: 1.2,
-   ease: easing,
-	  yPercent: -1*pos*10
+   ease: easing
   });
   tl.from(image, {
    duration:2.2,                   
