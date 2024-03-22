@@ -158,6 +158,39 @@ tl.fromTo(pl, {
    });
 	   
    });
+
+
+
+
+
+const RevealBoxs = container.querySelectorAll(".box");
+   RevealBoxs.forEach((box) => { 	   	   
+    const one = box.querySelectorAll(".gr");
+    let tl = gsap.timeline({
+    scrollTrigger: {
+     trigger: box,
+     toggleActions: once
+     }, delay:.7
+     }); 
+	   	   
+tl.to(gr, {
+ autoAlpha:1, 
+ opacity:1,
+ duration:.8,	
+ width:"100%",
+ ease:easing
+});	
+
+});
+	  
+
+
+
+
+
+
+
+
 	 
  const RevealBoxs1 = container.querySelectorAll(".box1");
    RevealBoxs1.forEach((box1) => { 	   	   
