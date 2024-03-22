@@ -205,7 +205,6 @@ tl.to(two, {
  opacity:1,
  y:0,
  duration:.8,
- stagger: 0.075,
  ease:easing
 });   
 	 
@@ -220,7 +219,7 @@ tl.to(gr, {
 });	
 
 let revealContainers = container.querySelectorAll(".item");
- revealContainers.forEach((el, i) => {
+ revealContainers.forEach((el) => {
  let image = el.querySelector("img");
  let tl = gsap.timeline({
  scrollTrigger: {
@@ -231,13 +230,12 @@ let revealContainers = container.querySelectorAll(".item");
 
   tl.set(el, {
    autoAlpha:1
-   });
-	 
+   });	 
   tl.from(el, {
    scale:0,
    duration: 1.2,
    ease: easing
-  }, 0.075 * i);
+  });
   tl.from(image, {
    duration:2.2,                   
    scale:0,   
