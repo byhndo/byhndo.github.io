@@ -197,8 +197,6 @@ let getLines = function (el2) {
   splitLines("#reveal-text");
 
   let revealText = document.querySelectorAll("#reveal-text");
-
-  gsap.registerPlugin(ScrollTrigger);
   let revealLines = revealText.forEach((element) => {
     const lines = element.querySelectorAll(".words");
 
