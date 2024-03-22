@@ -226,7 +226,7 @@ const RevealBoxs2 = container.querySelectorAll(".box2");
   trigger: box2,
   toggleActions: once,
   start: 'clamp(top bottom)',
-  end: 'clamp(bottom bottom)',
+  end: 'clamp(bottom top)',
   scrub: true
   }, delay: .7
   });  
@@ -248,15 +248,7 @@ tl.to(two, {
 let revealContainers = container.querySelectorAll(".item");
  revealContainers.forEach((el) => {
  let image = el.querySelector("img");
- let tl = gsap.timeline({
- scrollTrigger: {
-  trigger: el,
-  toggleActions: once,
-  start: 'clamp(top bottom)',
-  end: 'clamp(bottom bottom)',
-  scrub: true
-  }, delay: .7
-  });
+ let tl = gsap.timeline();
 
   tl.set(el, {
    autoAlpha:1
@@ -264,7 +256,14 @@ let revealContainers = container.querySelectorAll(".item");
   tl.from(el, {
    scale:0,
    duration: 1.2,
-   ease: easing
+   ease: easing,
+   scrollTrigger: {
+   trigger: el,
+   toggleActions: once,
+   start: 'clamp(top bottom)',
+   end: 'clamp(bottom top)',
+   scrub: true
+   }
   });
   tl.from(image, {
    duration:2.2,                   
