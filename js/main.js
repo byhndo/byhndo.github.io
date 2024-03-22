@@ -243,8 +243,11 @@ let revealContainers = container.querySelectorAll(".item");
  let image = el.querySelector("img");
  let tl = gsap.timeline({
  scrollTrigger: {
-   trigger: el,
-   toggleActions: once
+  trigger: el,
+  toggleActions: once,
+  start:"top 80%",
+  end:"bottom 10%",
+  scrub:true
    } 
  });
 
