@@ -257,7 +257,7 @@ let revealContainers = container.querySelectorAll(".item");
    scale:1,
    duration: 1.2,
    ease: easing
-  });
+  }, 0);
   tl.set(image, {                   
    scale:0
   });
@@ -265,7 +265,7 @@ let revealContainers = container.querySelectorAll(".item");
    duration:2.2,                   
    scale:1,   
    ease:easing
-  });
+  }, 0);
 	 	 
   });	
 });
