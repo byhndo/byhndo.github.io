@@ -159,10 +159,6 @@ tl.fromTo(pl, {
 	   
    });
 
-
-
-
-
 const RevealBoxs = container.querySelectorAll(".box");
    RevealBoxs.forEach((box) => { 	   	   
     const gr = box.querySelectorAll(".gr");
@@ -221,15 +217,7 @@ tl.to(gr, {
 const RevealBoxs2 = container.querySelectorAll(".box2");
  RevealBoxs2.forEach((box2) => {
  const two = box2.querySelectorAll(".two");                              
- let tl = gsap.timeline({
- scrollTrigger: {
-  trigger: box2,
-  toggleActions: once,
-  start: 'clamp(top bottom)',
-  end: 'clamp(bottom top)',
-  scrub: true
-  }, delay: .7
-  });  
+ let tl = gsap.timeline();  
 	 
 tl.set(two, {
  y:50
@@ -240,7 +228,14 @@ tl.to(two, {
  opacity:1,
  y:0,
  duration:.8,
- ease:easing
+ ease:easing,
+ scrollTrigger: {
+ trigger: box2,
+ toggleActions: once,
+ start: 'clamp(top bottom)',
+ end: 'clamp(bottom top)',
+ scrub: true
+ }
 });   	 
 	                                                                                                                  
 });	
