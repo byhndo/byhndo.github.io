@@ -252,6 +252,7 @@ let revealContainers = container.querySelectorAll(".item");
    autoAlpha:1
    });	 
   tl.from(el, {
+   opacity:0,
    scale:0,
    duration: 1.2,
    ease: easing
