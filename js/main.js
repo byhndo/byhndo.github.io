@@ -79,7 +79,7 @@ gsap.to("nav", {
  ease: "expo.inOut"
 });
 	
-/* gsap.set("h1, h1 .char", { 
+gsap.set("h1, h1 .char", { 
  y:100,
  rotationY:100
 });
@@ -93,32 +93,8 @@ gsap.to("h1, h1 .char", {
  scale:1.0,
  transformOrigin: "center center",
  ease:easing	
-}); */
-
-
-
-
-gsap.fromTo("h1 .char", { 
-            'will-change': 'opacity, transform', 
-            transformOrigin: '50% 50% -200px',
-            rotationX: 380,
-            opacity: 0
-        },
-        {
-            ease: 'expo.inOut',
-            rotationX: 0,
-            z: 0,
-            opacity: 1,
-            stagger: -0.03
-        }, 0);
-
-
-
-
-
-
-	
-		
+}); 
+			
 gsap.set(".sub-title, .sub-title .char", {
  y:20,
  rotation:100
