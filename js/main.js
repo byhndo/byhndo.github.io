@@ -266,7 +266,7 @@ let revealContainers = container.querySelectorAll(".item");
 
 	 
 tl.fromTo(image, {
-   y: 30
+   y: 50
 		}, {
 			ease: 'none',
 			scrollTrigger: {
@@ -275,7 +275,7 @@ tl.fromTo(image, {
 				end: 'clamp(bottom top)',
 				scrub: true
 			},
-			y: -30
+			y: -50
 		});
 
 
