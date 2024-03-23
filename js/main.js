@@ -99,21 +99,19 @@ gsap.to("h1, h1 .char", {
 
 gsap.fromTo("h1, h1 .char", { 
             'will-change': 'opacity, transform', 
-            opacity: 0, 
-            yPercent: 120, 
-            scaleY: 2.3, 
-            scaleX: 0.7, 
-            transformOrigin: '50% 0%' 
+                transformOrigin: '100% 50%',
+                opacity: 0, 
+                rotationY: -90,
+                z: -300 
         }, 
         {
-            duration: 3,
-            ease: 'back.inOut(2)',
-	    autoAlpha: 1,
-            opacity: 1,
-            yPercent: 0,
-            scaleY: 1,
-            scaleX: 1,
-            stagger: 0.03            
+            ease: 'expo',
+		duration: 3,
+		autoAlpha:1,
+                opacity: 1,
+                rotationY: 0,
+                z: 0,
+                stagger: { each: 0.06, from: 'end'}           
         });
 
 
