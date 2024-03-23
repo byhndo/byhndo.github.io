@@ -97,21 +97,26 @@ gsap.to("h1, h1 .char", {
 
 
 
-gsap.fromTo("h1, h1 .char", { 
+gsap.fromTo("h1", {
+            'will-change': 'transform', 
+            xPercent: -80
+        }, {
+            ease: 'none',
+            xPercent: 0
+        })
+gsap.fromTo("h1 .char", { 
             'will-change': 'opacity, transform', 
-                transformOrigin: '100% 50%',
-                opacity: 0, 
-                rotationY: -90,
-                z: -300 
-        }, 
+            transformOrigin: '50% 50% -200px',
+            rotationX: 380,
+            opacity: 0
+        },
         {
-            ease: 'expo',
-		duration: 5,
-                opacity: 1,
-                rotationY: 0,
-                z: 0,
-                stagger: { each: 0.06, from: 'end'}           
-        });
+            ease: 'expo.inOut',
+            rotationX: 0,
+            z: 0,
+            opacity: 1,
+            stagger: -0.03
+        }, 0);
 
 
 
