@@ -164,7 +164,7 @@ h1 {
  color: var(--c1);
 }
 
-.h1, h1 .char{
+h1 .char, .sub-title .char{
  visibility:hidden;
 }
 
@@ -180,7 +180,6 @@ h1 {
  transition: color 4s;
  text-align:center;
  text-transform:uppercase;
- visibility:hidden;
 }
 
 .photos .sub-title{
