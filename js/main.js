@@ -106,7 +106,7 @@ gsap.fromTo("h1, h1 .char", {
         }, 
         {
             ease: 'expo',
-		duration: 3,
+		duration: 5,
                 opacity: 1,
                 rotationY: 0,
                 z: 0,
