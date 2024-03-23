@@ -266,16 +266,6 @@ let revealContainers = container.querySelectorAll(".item");
 
 
 	 
-gsap.to(el, {
-			ease: 'none',
-			yPercent: -1*pos*10,
-			scrollTrigger: {
-				trigger: grid,
-				start: 'clamp(top bottom)',
-				end: 'clamp(bottom top)',
-				scrub: true
-			}
-		}) 
 tl.fromTo(image, {
    y: 50
 		}, {
