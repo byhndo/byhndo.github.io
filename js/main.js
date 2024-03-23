@@ -256,7 +256,7 @@ let revealContainers = container.querySelectorAll(".item");
    opacity:1,
    scale:1,
    duration: 1.2,
-   ease: easing
+   ease: "power4.inOut"
   }, 0);
   tl.to(image, {
    duration:2.2, 
