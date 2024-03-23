@@ -97,7 +97,7 @@ gsap.to("h1, h1 .char", {
 
 
 
-gsap.fromTo("h1", {
+gsap.fromTo("h1 .char", {
             'will-change': 'transform', 
             xPercent: -80
         }, {
