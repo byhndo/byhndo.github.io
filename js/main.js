@@ -107,7 +107,6 @@ gsap.fromTo("h1, h1 .char", {
         {
             ease: 'expo',
 		duration: 3,
-		autoAlpha:1,
                 opacity: 1,
                 rotationY: 0,
                 z: 0,
@@ -126,7 +125,6 @@ gsap.set(".sub-title, .sub-title .char", {
  rotation:100
 });
 gsap.to(".sub-title, .sub-title .char", {
- autoAlpha:1, 
  opacity:1,
  duration:.8,
  rotation:0,
