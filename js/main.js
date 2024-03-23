@@ -255,12 +255,12 @@ let revealContainers = container.querySelectorAll(".item");
    autoAlpha:1,
    opacity:1,
    scale:1,
-   duration: 1.2,
+   duration: 2,
    ease: "power4.inOut"
   }, 0);
   tl.to(image, {
-   duration:2.2, 
-   ease:easing
+   duration:3, 
+   ease: "power4.inOut"
   }, 0);
 	 	 
   });	
