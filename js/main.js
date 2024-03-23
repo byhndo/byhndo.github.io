@@ -250,11 +250,11 @@ let revealContainers = container.querySelectorAll(".item");
    ease: easing
   }, 0);
   tl.from(image, {
-   y:-30,
+   yPercent:-30,
    ease: "expo.inOut"
-  }, 0);
+  });
   tl.to(image, {
-   y:30,
+   yPercent:30,
    duration:2.2, 
    ease: easing,
    scrollTrigger: {
