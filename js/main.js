@@ -97,13 +97,7 @@ gsap.to("h1, h1 .char", {
 
 
 
-gsap.fromTo("h1 .char", {
-            'will-change': 'transform', 
-            xPercent: -80
-        }, {
-            ease: 'none',
-            xPercent: 0
-        })
+
 gsap.fromTo("h1 .char", { 
             'will-change': 'opacity, transform', 
             transformOrigin: '50% 50% -200px',
