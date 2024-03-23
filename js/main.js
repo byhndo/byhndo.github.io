@@ -262,27 +262,6 @@ let revealContainers = container.querySelectorAll(".item");
    duration:2.2, 
    ease:easing
   }, 0);
-
-
-
-	 
-tl.fromTo(image, {
-   y: 50
-		}, {
-			ease: 'none',
-			scrollTrigger: {
-				trigger: el,
-				start: 'clamp(top bottom)',
-				end: 'clamp(bottom top)',
-				scrub: true
-			},
-			y: -50
-		});
-
-
-
-
-	 
 	 	 
   });	
 });
