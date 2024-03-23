@@ -240,7 +240,7 @@ let revealContainers = container.querySelectorAll(".item");
  });
 
   tl.set(el, {
-   scale:0	  
+   scale:.3	  
    });	 
   tl.to(el, {
    autoAlpha:1,
