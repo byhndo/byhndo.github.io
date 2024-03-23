@@ -106,7 +106,7 @@ gsap.fromTo("h1, h1 .char", {
             transformOrigin: '50% 0%' 
         }, 
         {
-            duration: 1,
+            duration: 3,
             ease: 'back.inOut(2)',
 	    autoAlpha: 1,
             opacity: 1,
