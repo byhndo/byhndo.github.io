@@ -256,11 +256,11 @@ let revealContainers = container.querySelectorAll(".item");
    opacity:1,
    scale:1,
    duration: 2,
-   ease: "power4.inOut"
+   ease: "power4.out"
   }, 0);
   tl.to(image, {
    duration:3, 
-   ease: "power4.inOut"
+   ease: "power4.out"
   }, 0);
 	 	 
   });	
