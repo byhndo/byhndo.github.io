@@ -249,17 +249,14 @@ let revealContainers = container.querySelectorAll(".item");
    duration: 1.2,
    ease: easing
   }, 0);
-  tl.from(image, {
-   yPercent:-30,
-   ease: "expo.inOut"
-  });
   tl.to(image, {
-   yPercent:30,
+   y: () => image.offsetHeight - container.offsetHeight,
    duration:2.2, 
    ease: easing,
    scrollTrigger: {
           trigger: el,
-          scrub: true
+          scrub: true,
+	  invalidateOnRefresh: true
           }
   }, 0);
 	 	 
