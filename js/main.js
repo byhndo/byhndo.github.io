@@ -100,6 +100,7 @@ gsap.set(".sub-title, .sub-title .char", {
  rotation:100
 });
 gsap.to(".sub-title, .sub-title .char", {
+ autoAlpha:1, 
  opacity:1,
  duration:.8,
  rotation:0,
