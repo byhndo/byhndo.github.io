@@ -250,7 +250,7 @@ let revealContainers = container.querySelectorAll(".item");
    ease: easing
   }, 0);
   tl.to(image, {
-   y: () => image.offsetHeight - container.offsetHeight,
+   y: () => image.offsetHeight - el.offsetHeight,
    duration:2.2, 
    ease: easing,
    scrollTrigger: {
