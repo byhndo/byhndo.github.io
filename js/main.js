@@ -249,9 +249,18 @@ let revealContainers = container.querySelectorAll(".item");
    duration: 1.2,
    ease: easing
   }, 0);
+  tl.from(image, {
+   y:-30,
+   ease: "expo.inOut"
+  }, 0);
   tl.to(image, {
+   y:30,
    duration:2.2, 
-   ease: easing
+   ease: easing,
+   scrollTrigger: {
+          trigger: el,
+          scrub: true
+          }
   }, 0);
 	 	 
   });	
