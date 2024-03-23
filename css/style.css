@@ -367,7 +367,7 @@ p.sub2 {
  display: grid;  
  grid-template-columns: repeat(3, 1fr);
  grid-template-rows: masonry;
- gap: 20px;
+ gap: 2vw;
  box-sizing: border-box;
 }
 
