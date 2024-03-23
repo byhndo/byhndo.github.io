@@ -255,8 +255,7 @@ let revealContainers = container.querySelectorAll(".item");
    ease: easing,
    scrollTrigger: {
           trigger: el,
-          scrub: true,
-	  invalidateOnRefresh: true
+          scrub: true
           }
   }, 0);
 	 	 
