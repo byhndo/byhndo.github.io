@@ -229,7 +229,6 @@ tl.to(two, {
 	                                                                                                                  
 });	
 
-const el = gsap.utils.toArray('.item');
 let revealContainers = container.querySelectorAll(".item");
  revealContainers.forEach((el) => {
  let image = el.querySelector("img");
@@ -251,13 +250,8 @@ let revealContainers = container.querySelectorAll(".item");
    ease: easing
   }, 0);
   tl.to(image, {
-   y: () => image.offsetHeight - container.offsetHeight,
    duration:2.2, 
-   ease: easing,
-	  scrollTrigger: {
-          trigger: el,
-          scrub: true
-        }
+   ease: easing	  
   }, 0);
 	 	 
   });	
