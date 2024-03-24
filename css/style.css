@@ -9,7 +9,7 @@
  --c4: #495057;
  --soc1: #495057;
  --soc2: #ced4da;
- --sizebody:11.5px;
+ --sizebody:12px;
  --sizetitle:17vw;
  --sizenav:9px;
  --font1: 'Anton', sans-serif;	
@@ -173,7 +173,7 @@ h1 .char, .sub-title .char{
  opacity:0;
  line-height:2.3;
  font-size:13px;
- font-family: var(--font3);
+ font-family: var(--font2);
  color: var(--c2);
  font-weight:400;
  transition-delay: 2s;
