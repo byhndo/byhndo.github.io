@@ -117,7 +117,7 @@ body {
 }
 
 h2, h3, h4, h5, h6, h7 {
- font-family:var(--font3);
+ font-family:var(--font2);
  font-weight:400;
  letter-spacing:-1px;
 }
@@ -173,7 +173,7 @@ h1 .char, .sub-title .char{
  opacity:0;
  line-height:2.3;
  font-size:13px;
- font-family: var(--font2);
+ font-family: var(--font3);
  color: var(--c2);
  font-weight:400;
  transition-delay: 2s;
