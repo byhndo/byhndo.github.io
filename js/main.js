@@ -144,13 +144,10 @@ function setupReveal(container) {
      }); 
 
 tl.fromTo(pl, {
-   clipPath: "polygon(0 0, 100% 0, 100% 0, 0 0)",
-   webkitClipPath: "polygon(0 0, 100% 0, 100% 0, 0 0)"
+   scale:.3
    },
    {
-   clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
-   webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
-   delay:.5,
+   scale:1,
    autoAlpha:1, 
    opacity:1,
    duration:.8,     
