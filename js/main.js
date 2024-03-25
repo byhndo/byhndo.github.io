@@ -26,7 +26,7 @@ tl.to(".textload span", {
 }); 
 
 tl.to("#loader", {
- delay: .5,
+ delay: .1,
  duration: .8,
  height: "0vh",
  transformOrigin: "center center"
