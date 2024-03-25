@@ -160,7 +160,10 @@ h1 .char, .sub-title .char{
  text-transform:uppercase;
  font-family:var(--font2);
  font-weight:400;
- text-align:ceter;
+ text-align:center;
+ transition-delay: 2s;
+ transition: color 4s; 
+ color:var(--c4);
 }
 
 .pointer {
@@ -171,7 +174,7 @@ h1 .char, .sub-title .char{
  animation: pointDown 3s infinite;
 }
 
-.photos .pointer{
+.photos .scroll, .photos .pointer{
  color:var(--c3);	
 }
 	
