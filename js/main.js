@@ -12,7 +12,7 @@ tl.to("#loader", {
  width: "50vw",
  height: "60vh",
  transformOrigin: "center center",
- ease: "back.out(1.7)"
+ ease: "quad.out"
 }); 
 
 tl.to(".textload span", {
