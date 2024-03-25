@@ -179,6 +179,7 @@ h1 .char, .sub-title .char{
  transition: color 4s;
  text-align:center;
  text-transform:uppercase;
+ letter-spacing:-1px;
 }
 
 .photos .sub-title{
