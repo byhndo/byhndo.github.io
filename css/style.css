@@ -57,6 +57,7 @@
 }
 
 .indicator {
+ top:92vh;
  justify-content: center;
  align-items: flex-end;
  flex-direction: column;	
