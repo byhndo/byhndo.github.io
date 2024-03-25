@@ -12,7 +12,7 @@ tl.to("#loader", {
  top:30,
  left:"20%",
  right:"20%",
- bottom:30,
+ bottom:50,
  transformOrigin: "center center",
  ease: "quad.out"
 }); 
