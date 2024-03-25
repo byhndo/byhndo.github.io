@@ -20,7 +20,7 @@ tl.to(".textload span", {
 tl.to("#loader", {
  duration:1,
  scaleX:.8,
- scaleY:.6,
+ scaleY:.5,
  transformOrigin: "center",
  ease: "back.out(1.7)"
 }); 
