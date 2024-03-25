@@ -28,7 +28,6 @@ tl.to(".textload span", {
 tl.to("#loader", {
  delay: .5,
  duration: .8,
- width: 0vw,
  height: 0vh,
  transformOrigin: "center"
 }); 
