@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@0;1&display=swap');
 
 :root {  
@@ -13,7 +13,7 @@
  --sizetitle:17vw;
  --sizenav:9px;
  --font1: 'Anton', sans-serif;	
- --font2: 'Calibri', sans-serif;
+ --font2: 'Istok Web', sans-serif;
  --font3: 'Cormorant Garamond', sans-serif;
  --marginp:35px;
  --spacingnav:.9vw; 
