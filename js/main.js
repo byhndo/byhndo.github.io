@@ -12,7 +12,7 @@ tl.to("#loader", {
  top:"20vh",
  left:"20%",
  right:"20%",
- bottom:"20vh",
+ bottom:"40vh",
  transformOrigin: "center center",
  ease: "quad.out"
 }); 
