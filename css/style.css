@@ -164,6 +164,7 @@ h1 .char, .sub-title .char{
  transition-delay: 2s;
  transition: color 4s; 
  color:var(--c4);
+ margin-bottom:-5px;
 }
 
 .pointer {
