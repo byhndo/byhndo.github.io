@@ -6,9 +6,17 @@ gsap.registerPlugin(ScrollTrigger, CustomEase);
 let tl = gsap.timeline({	
  onComplete: contentShow
 });
-		
+				
+tl.to("#loader", {
+ duration:1,
+ scaleX:.8,
+ scaleY:.5,
+ transformOrigin: "center",
+ ease: "back.out(1.7)"
+}); 
+
 tl.to(".textload span", {
- opacity:0,
+ opacity:3,
  y:150,
  rotation:gsap.utils.wrap([-180, 180]),
  delay:"random(0, 1.5)",
@@ -16,13 +24,9 @@ tl.to(".textload span", {
  stagger:.07,
  ease:"expo.inOut"
 }); 
-		
-tl.to("#loader", {
- duration:1,
- scaleX:.8,
- scaleY:.5,
- transformOrigin: "center",
- ease: "back.out(1.7)"
+
+tl.to(".textload span", {
+ opacity:0
 }); 
 
 tl.to("#loader", {
