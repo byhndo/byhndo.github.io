@@ -29,7 +29,8 @@ tl.to(".textload span", {
 tl.to("#loader", {
  duration: .8,
  height: "0vh",
- transformOrigin: "center center"
+ transformOrigin: "center center",
+ ease: "quad.out"
 }); 
 	
 function contentShow() {	
