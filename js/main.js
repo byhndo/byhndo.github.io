@@ -16,17 +16,13 @@ tl.to("#loader", {
 }); 
 
 tl.to(".textload span", {
- opacity:3,
+ opacity:0,
  y:150,
  rotation:gsap.utils.wrap([-180, 180]),
  delay:"random(0, 1.5)",
  duration:"random(.7, 2)",
  stagger:.07,
  ease:"expo.inOut"
-}); 
-
-tl.to(".textload span", {
- opacity:0
 }); 
 
 tl.to("#loader", {
