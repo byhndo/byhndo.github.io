@@ -11,7 +11,7 @@ tl.to("#loader", {
  duration: 1,
  width: "50vw",
  height: "70vh",
- transformOrigin: "center",
+ transformOrigin: "center center",
  ease: "back.out(1.7)"
 }); 
 
@@ -29,7 +29,7 @@ tl.to("#loader", {
  delay: .5,
  duration: .8,
  height: "0vh",
- transformOrigin: "center"
+ transformOrigin: "center center"
 }); 
 	
 function contentShow() {	
