@@ -9,9 +9,9 @@ let tl = gsap.timeline({
 				
 tl.to("#loader", {
  duration: 1,
- width: "50%",
- height: "50vh",
- transformOrigin: "center center",
+ width:"30%",
+ height:"50vh",
+ transformOrigin: "bottom center",
  ease: "quad.out"
 }); 
 
