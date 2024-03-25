@@ -17,10 +17,10 @@
  --font3: 'Cormorant Garamond', sans-serif;
  --marginp:35px;
  --spacingnav:.9vw; 
- --fwnav:400;
+ --fwnav:500;
  --fwtitle:400;
  --fwbody:400;
- --fwfooter:400;
+ --fwfooter:500;
 }
 
 #loader {
