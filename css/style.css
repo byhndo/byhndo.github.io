@@ -68,6 +68,8 @@
 
 .scroll{
  font-size:10px;
+ text-transform:uppercase;
+ font-family:var(--font2);
 }
 
 .pointer {
