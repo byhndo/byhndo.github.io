@@ -26,10 +26,10 @@ tl.to(".textload span", {
 }); 
 
 tl.to("#loader", {
- delay:.5,
- duration:.8,
- width:0,
- height:0,
+ delay: .5,
+ duration: .8,
+ width: 0vw,
+ height: 0vh,
  transformOrigin: "center"
 }); 
 	
