@@ -134,10 +134,10 @@ h1 .char, .sub-title .char{
  display:inline-block;
  opacity:0;
  line-height:2.3;
- font-size:11px;
+ font-size:10px;
  font-family: var(--font2);
  color: var(--c2);
- font-weight:500;
+ font-weight:400;
  transition-delay: 2s;
  transition: color 4s;
  text-align:center;
