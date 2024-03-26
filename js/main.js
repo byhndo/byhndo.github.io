@@ -9,11 +9,7 @@ let tl = gsap.timeline({
 				
 tl.to("#loader", {
  duration: 1,
- height:"50%",
- bottom:"20%",
- left:"20%",
- right:"20%",
- transformOrigin: "bottom center",
+  "--clip": '30%',
  ease: "quad.out"
 }); 
 
@@ -29,8 +25,7 @@ tl.to(".textload span", {
 
 tl.to("#loader", {
  duration: .8,
- height: 0,
- transformOrigin: "bottom center",
+ "--clip": '0%',
  ease: "quad.out"
 }); 
 	
