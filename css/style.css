@@ -9,7 +9,7 @@
  --c4: #495057;
  --soc1: #495057;
  --soc2: #ced4da;
- --sizebody:11.7px;
+ --sizebody:11.8px;
  --sizetitle:17vw;
  --sizenav:9px;
  --font1: 'Anton', sans-serif;	
@@ -134,7 +134,7 @@ h1 .char, .sub-title .char{
  display:inline-block;
  opacity:0;
  line-height:2.3;
- font-size:10.7px;
+ font-size:10.8px;
  font-family: var(--font2);
  color: var(--c2);
  font-weight:400;
