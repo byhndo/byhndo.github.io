@@ -10,7 +10,7 @@ let tl = gsap.timeline({
 tl.to("#loader", {
  duration: 1,
  "--clip": '23%',
- ease: "expo.out"
+ ease: "sine.out"
 }); 
 
 tl.to(".textload span", {
