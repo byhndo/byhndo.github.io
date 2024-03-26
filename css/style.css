@@ -476,7 +476,7 @@ ul{
 li.about{
  list-style-type:decimal;
  text-align:left;
- border-bottom:1px solid var(--soc1);
+ border-bottom:1px solid var(--soc2);
 }
 
 .footer {
