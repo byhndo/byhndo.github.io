@@ -12,7 +12,7 @@ tl.to("#loader", {
  height:"50%",
  left:"20%",
  right:"20%",
- transformOrigin: "center center",
+ transformOrigin: "bottom center",
  ease: "quad.out"
 }); 
 
@@ -29,7 +29,7 @@ tl.to(".textload span", {
 tl.to("#loader", {
  duration: .8,
  height: 0,
- transformOrigin: "center center",
+ transformOrigin: "bottom center",
  ease: "quad.out"
 }); 
 	
