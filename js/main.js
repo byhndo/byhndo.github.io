@@ -8,9 +8,9 @@ let tl = gsap.timeline({
 });
 				
 tl.to("#loader", {
- duration: 5,
-  "--clip": '25%',
- ease: "elastic.out"
+ duration: 1,
+ "--clip": '23%',
+ ease: "back.out"
 }); 
 
 tl.to(".textload span", {
