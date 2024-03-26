@@ -8,7 +8,7 @@ let tl = gsap.timeline({
 });
 				
 tl.to("#loader", {
- duration: 1,
+ duration: 2,
  "--clip": '23%',
  ease: "back.out(1.7)"
 }); 
