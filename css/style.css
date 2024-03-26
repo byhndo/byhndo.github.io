@@ -33,6 +33,8 @@
  background:var(--c2);
  height:100vh;
  z-index:99999999999999; 
+ --clip:100%;
+ clip-path: circle(var(--clip));
 }
 
 .textload{
