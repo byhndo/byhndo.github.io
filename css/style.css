@@ -337,7 +337,7 @@ main {
 
 p.sub1, p.sub2 {
   text-transform:none;
-  text-align:justify;
+  text-align:left;
 }
 
 p.sub1 {
