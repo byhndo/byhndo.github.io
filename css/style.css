@@ -467,13 +467,13 @@ img {
 }
 
 ul{
- text-align:justify;
+ text-align:left;
  padding-left:15px;
 }
 
 li.about{
  list-style-type:decimal;
- text-align:justify;
+ text-align:left;
 }
 
 .footer {
