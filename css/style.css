@@ -478,7 +478,7 @@ li.about{
  text-align:left;
  padding-top:10px;
  padding-bottom:10px;
- border-bottom:1px solid rgba(50, 50, 53, .05);
+ border-bottom:1px solid rgba(50, 50, 53, .1);
 }
 
 .footer {
