@@ -25,7 +25,8 @@ tl.to(".textload span", {
 
 tl.to("#loader", {
  duration: .8,
- "--clip": '0%',
+/* "--clip": '0%', */
+ scaleX:0,
  ease: "quad.out"
 }); 
 	
