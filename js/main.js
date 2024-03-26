@@ -10,6 +10,7 @@ let tl = gsap.timeline({
 tl.to("#loader", {
  duration: 1,
  height:"50%",
+ bottom:"20%",
  left:"20%",
  right:"20%",
  transformOrigin: "bottom center",
