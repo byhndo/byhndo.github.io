@@ -160,10 +160,11 @@ h1 .char, .sub-title .char{
  font-size:9px;
  font-family:var(--font2);
  color:var(--soc1);
- font-wwight:400;
+ font-weight:400;
  text-transform:uppercase;
  transition-delay: 2s;
  transition: color 4s;
+ margin-bottom:10px;
 }
 	
 .scroll{
@@ -185,7 +186,7 @@ h1 .char, .sub-title .char{
  margin: 0 auto 20px;
  color:var(--soc1);
  transition-delay: 2s;
- transition: color 4s;
+ transition: border-color 4s;
  animation: ani-mouse 2s linear infinite;
 }
 .mouse > * {
