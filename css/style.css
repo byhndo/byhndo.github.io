@@ -203,11 +203,8 @@ h1 .char, .sub-title .char{
 }
 
 .photos .scroll, .photos .mouse, .photos .textsc{
- color:var(--soc2);	
-}
-
-.photos .mouse > * {
- background: var(--soc2);	
+ color:var(--soc2);
+ background: var(--soc2);
 }
 
 @keyframes ani-mouse {
