@@ -520,7 +520,7 @@ li.about{
 .footer {
  display: grid;
  place-items: center;
- margin: 23px 0 0 0;
+ margin: 23px 0 -20px 0;
  text-align: center;
  font-family: var(--font2);
  font-weight: var(--fwfooter);
