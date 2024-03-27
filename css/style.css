@@ -151,7 +151,7 @@ h1 .char, .sub-title .char{
 
 .indicator {
  position:absolute;
- top:86vh;	
+ top:85vh;	
  opacity: 0;
  visibility: hidden;
  transition-delay: 2s;
