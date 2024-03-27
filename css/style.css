@@ -204,7 +204,7 @@ h1 .char, .sub-title .char{
 }
 
 .photos .scroll{
- border-color: var(--soc2);	
+ border: 2px solid var(--soc2);	
 }
 .photos .mouse > * {
  background: var(--soc2);	
