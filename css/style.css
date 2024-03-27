@@ -157,6 +157,12 @@ h1 .char, .sub-title .char{
  opacity: 0;	
 }
 
+.textsc{
+ font-size:10px;
+ font-family:var(--font2);
+ color:var(--soc2);	
+}
+	
 .scroll{
   postion: relative;
   background: none;
