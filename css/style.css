@@ -160,7 +160,7 @@ h1 .char, .sub-title .char{
 .textsc{
  font-size:10px;
  font-family:var(--font2);
- color:var(--soc2);
+ color:var(--soc1);
  text-transform:uppercase;
 }
 	
@@ -172,34 +172,34 @@ h1 .char, .sub-title .char{
   border-radius: 32px;
   border: 2px solid var(--soc2);
 }
-.mouse {
-  -webkit-animation: ani-mouse 2s linear infinite;
-	-moz-animation: ani-mouse 2s linear infinite;
-	animation: ani-mouse 2s linear infinite;
- color:var(--soc2);
-}
 	
-@-webkit-keyframes ani-mouse {
-	0% {
-	opacity: 0;
-	top: 10%;
-	}
-  1% {
-	opacity: 1;
-	top: 10%;
-	}
-	50% {
-	opacity: 1;
-	top: 25%;
-	}
-	99% {
-	opacity: 0;
-	top: 25%;
-	}
-	100% {
-	opacity: 0;
-	top: 15%;
-	}
+.mouse {
+	position: relative;
+	display: grid;
+  place-items:center;
+	width: 10.859px;
+	height: 25px;
+	margin: 0 auto 20px;
+	color:var(--soc1);
+	animation: ani-mouse 2s linear infinite;
+}
+.mouse > * {
+	position: absolute;
+	display: block;
+	top: 0%;
+	left: 50%;
+	width: 5px;
+	height: 18px;
+	margin: -3px 0 0 -3px;
+	background: black;
+	border-radius: 6px;
+	-webkit-animation: ani-mouse 2s linear infinite;
+	-moz-animation: ani-mouse 2s linear infinite;
+  animation: ani-mouse 2s linear infinite;
+}
+
+.photos .scroll, .photos .mouse{
+ color:var(--soc2);	
 }
 
 @keyframes ani-mouse {
@@ -223,33 +223,6 @@ h1 .char, .sub-title .char{
 	opacity: 0;
 	top: 15%;
 	}
-}
-
-.mouse {
-	position: relative;
-	display: grid;
-  place-items:center;
-	width: 10.859px;
-	height: 25px;
-	margin: 0 auto 20px;
-}
-.mouse > * {
-	position: absolute;
-	display: block;
-	top: 0%;
-	left: 50%;
-	width: 5px;
-	height: 18px;
-	margin: -3px 0 0 -3px;
-	background: black;
-	border-radius: 6px;
-	-webkit-animation: ani-mouse 2s linear infinite;
-	-moz-animation: ani-mouse 2s linear infinite;
-  animation: ani-mouse 2s linear infinite;
-}
-
-.photos .scroll, .photos .mouse{
- color:var(--soc1);	
 }
 
 a {
