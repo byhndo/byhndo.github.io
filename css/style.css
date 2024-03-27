@@ -151,9 +151,9 @@ h1 .char, .sub-title .char{
 
 .indicator {
  position:absolute;
- top:90vh;	
- font-size: clamp(48px, 5.5vw, 129px);
- opacity: 0;	
+ top:88vh;	
+ opacity: 0;
+ visibility: hidden;
 }
 
 .textsc{
