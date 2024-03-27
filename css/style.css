@@ -160,6 +160,7 @@ h1 .char, .sub-title .char{
  font-size:9px;
  font-family:var(--font2);
  color:var(--soc1);
+ font-wwight:400;
  text-transform:uppercase;
  transition-delay: 2s;
  transition: color 4s;
@@ -197,9 +198,15 @@ h1 .char, .sub-title .char{
  background: var(--soc1);
  border-radius: 6px;
  animation: ani-mouse 2s linear infinite;
+ transition-delay: 2s;
+ transition: color 4s;
 }
 
-.photos .scroll, .photos .mouse, .photos .mouse > *, .photos .textsc{
+.mouse > * {
+ background: var(--soc2);	
+}
+
+.photos .scroll, .photos .textsc{
  color:var(--soc2);
 }
 
