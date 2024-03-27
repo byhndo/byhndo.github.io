@@ -158,7 +158,7 @@ h1 .char, .sub-title .char{
 }
 
 .textsc{
- font-size:10px;
+ font-size:9px;
  font-family:var(--font2);
  color:var(--soc1);
  text-transform:uppercase;
