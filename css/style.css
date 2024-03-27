@@ -154,6 +154,8 @@ h1 .char, .sub-title .char{
  top:86vh;	
  opacity: 0;
  visibility: hidden;
+ transition-delay: 2s;
+ transition: color 4s;
 }
 
 .textsc{
