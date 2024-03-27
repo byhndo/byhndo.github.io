@@ -160,7 +160,8 @@ h1 .char, .sub-title .char{
 .textsc{
  font-size:10px;
  font-family:var(--font2);
- color:var(--soc2);	
+ color:var(--soc2);
+ text-transform:uppercase;
 }
 	
 .scroll{
