@@ -180,23 +180,88 @@ h1 .char, .sub-title .char{
 .photos .scroll, .photos .pointer{
  color:var(--c3);	
 }
+
+.scroll{
+  postion: relative;
+  background: none;
+  width: 10px;
+  height: 40px;
+  border-radius: 32px;
+  border: 2px solid black;
+}
+.mouse {
+  -webkit-animation: ani-mouse 2s linear infinite;
+	-moz-animation: ani-mouse 2s linear infinite;
+	animation: ani-mouse 2s linear infinite;
+}
 	
-@keyframes pointDown {
-		0% {
-			transform: translateY(0);
-		}
-		10% {
-			transform: translateY(20px);
-		}
-		20% {
-			transform: translateY(0);
-		}
-		30% {
-			transform: translateY(20px);
-		}
-		40% {
-			transform: translateY(0);
-		}
+@-webkit-keyframes ani-mouse {
+	0% {
+	opacity: 0;
+	top: 10%;
+	}
+  1% {
+	opacity: 1;
+	top: 10%;
+	}
+	50% {
+	opacity: 1;
+	top: 25%;
+	}
+	99% {
+	opacity: 0;
+	top: 25%;
+	}
+	100% {
+	opacity: 0;
+	top: 15%;
+	}
+}
+
+@keyframes ani-mouse {
+	0% {
+	opacity: 0;
+	top: 10%;
+	}
+  1% {
+	opacity: 1;
+	top: 10%;
+	}
+	50% {
+	opacity: 1;
+	top: 25%;
+	}
+	99% {
+	opacity: 0;
+	top: 25%;
+	}
+	100% {
+	opacity: 0;
+	top: 15%;
+	}
+}
+
+.mouse {
+	position: relative;
+	display: grid;
+  place-items:center;
+	width: 10.859px;
+	height: 25px;
+	margin: 0 auto 20px;
+}
+.mouse > * {
+	position: absolute;
+	display: block;
+	top: 0%;
+	left: 50%;
+	width: 5px;
+	height: 18px;
+	margin: -3px 0 0 -3px;
+	background: black;
+	border-radius: 6px;
+	-webkit-animation: ani-mouse 2s linear infinite;
+	-moz-animation: ani-mouse 2s linear infinite;
+  animation: ani-mouse 2s linear infinite;
 }
 
 a {
