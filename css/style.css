@@ -174,8 +174,6 @@ h1 .char, .sub-title .char{
  height: 40px;
  border-radius: 32px;
  border: 2px solid var(--soc1);
- transition-duration: 4s;
- transition-delay:2s;
 }
 	
 .mouse {
@@ -199,6 +197,8 @@ h1 .char, .sub-title .char{
  margin: -3px 0 0 -3px;
  background: var(--soc1);
  border-radius: 6px;
+ transition-duration: 4s;
+ transition-delay:2s;
  animation: ani-mouse 2s linear infinite;
 }
 
