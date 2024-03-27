@@ -162,15 +162,19 @@ h1 .char, .sub-title .char{
  font-family:var(--font2);
  color:var(--soc1);
  text-transform:uppercase;
+ transition-delay: 2s;
+ transition: color 4s;
 }
 	
 .scroll{
-  position: relative;
-  background: none;
-  width: 10px;
-  height: 40px;
-  border-radius: 32px;
-  border: 2px solid var(--soc1);
+ position: relative;
+ background: none;
+ width: 10px;
+ height: 40px;
+ border-radius: 32px;
+ border: 2px solid var(--soc1);
+ transition-delay: 2s;
+ transition: color 4s;
 }
 	
 .mouse {
@@ -181,18 +185,20 @@ h1 .char, .sub-title .char{
  height: 25px;
  margin: 0 auto 20px;
  color:var(--soc1);
+ transition-delay: 2s;
+ transition: color 4s;
  animation: ani-mouse 2s linear infinite;
 }
 .mouse > * {
-	position: absolute;
-	display: block;
-	top: 0%;
-	left: 50%;
-	width: 5px;
-	height: 18px;
-	margin: -3px 0 0 -3px;
-	background: black;
-	border-radius: 6px;
+ position: absolute;
+ display: block;
+ top: 0%;
+ left: 50%;
+ width: 5px;
+ height: 18px;
+ margin: -3px 0 0 -3px;
+ background: var(--soc1);
+ border-radius: 6px;
  animation: ani-mouse 2s linear infinite;
 }
 
