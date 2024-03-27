@@ -180,7 +180,8 @@ h1 .char, .sub-title .char{
 	
 .mouse {
  position: relative;
- display: block;
+ display: flex;
+ justify-content: center;
  width: 5px;
  height: 25px;
  margin: 0 auto 20px;
