@@ -203,11 +203,14 @@ h1 .char, .sub-title .char{
  transition: color 4s;
 }
 
+.photos .scroll{
+ border-color: var(--soc2);	
+}
 .photos .mouse > * {
  background: var(--soc2);	
 }
 
-.photos .scroll, .photos .mouse, .photos .textsc{
+.photos .textsc{
  color:var(--soc2);
 }
 
