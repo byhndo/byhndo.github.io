@@ -207,7 +207,7 @@ h1 .char, .sub-title .char{
  background: var(--soc2);	
 }
 
-.photos .scroll, .photos .textsc{
+.photos .scroll, .photos .mouse, .photos .textsc{
  color:var(--soc2);
 }
 
