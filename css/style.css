@@ -203,9 +203,8 @@ h1 .char, .sub-title .char{
  animation: ani-mouse 2s linear infinite;
 }
 
-.photos .scroll, .photos .mouse, .photos .textsc{
+.photos .scroll, .photos .mouse, .mouse > *, .photos .textsc{
  color:var(--soc2);
- background: var(--soc2);
 }
 
 @keyframes ani-mouse {
