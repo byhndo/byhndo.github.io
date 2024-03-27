@@ -164,7 +164,6 @@ h1 .char, .sub-title .char{
  text-transform:uppercase;
  margin-bottom:10px;
  transition-duration: 2s;
- transition-delay: 2s;
 }
 	
 .scroll{
@@ -175,7 +174,6 @@ h1 .char, .sub-title .char{
  border-radius: 32px;
  border: 2px solid var(--soc1);
  transition-duration: 2s;
- transition-delay: 2s;
 }
 	
 .mouse {
@@ -186,7 +184,6 @@ h1 .char, .sub-title .char{
  margin: 0 auto 20px;
  color:var(--soc1);
  transition-duration: 2s;
- transition-delay: 2s;
  animation: ani-mouse 2s linear infinite;
 }
 .mouse > * {
