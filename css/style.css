@@ -202,7 +202,7 @@ h1 .char, .sub-title .char{
  animation: ani-mouse 2s linear infinite;
 }
 
-.photos .scroll, .photos .textsc{
+.photos .scroll, .photos .mouse, .photos .textsc{
  color:var(--soc2);	
 }
 
