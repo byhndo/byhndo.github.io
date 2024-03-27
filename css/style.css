@@ -184,8 +184,7 @@ h1 .char, .sub-title .char{
  height: 25px;
  margin: 0 auto 20px;
  color:var(--soc1);
- transition-duration: 4s;
- transition-delay:2s;
+ transition:color 4s;
  animation: ani-mouse 2s linear infinite;
 }
 .mouse > * {
