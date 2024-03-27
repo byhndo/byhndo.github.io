@@ -170,18 +170,18 @@ h1 .char, .sub-title .char{
   width: 10px;
   height: 40px;
   border-radius: 32px;
-  border: 2px solid var(--soc2);
+  border: 2px solid var(--soc1);
 }
 	
 .mouse {
-	position: relative;
-	display: grid;
-  place-items:center;
-	width: 10.859px;
-	height: 25px;
-	margin: 0 auto 20px;
-	color:var(--soc1);
-	animation: ani-mouse 2s linear infinite;
+ position: relative;
+ display: grid;
+ place-items:center;
+ width: 10px;
+ height: 25px;
+ margin: 0 auto 20px;
+ color:var(--soc1);
+ animation: ani-mouse 2s linear infinite;
 }
 .mouse > * {
 	position: absolute;
@@ -193,12 +193,10 @@ h1 .char, .sub-title .char{
 	margin: -3px 0 0 -3px;
 	background: black;
 	border-radius: 6px;
-	-webkit-animation: ani-mouse 2s linear infinite;
-	-moz-animation: ani-mouse 2s linear infinite;
-  animation: ani-mouse 2s linear infinite;
+ animation: ani-mouse 2s linear infinite;
 }
 
-.photos .scroll, .photos .mouse{
+.photos .scroll, .photos .textsc{
  color:var(--soc2);	
 }
 
