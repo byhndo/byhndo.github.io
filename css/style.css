@@ -151,7 +151,7 @@ h1 .char, .sub-title .char{
 
 .indicator {
  position:absolute;
- top:93vh;	
+ top:90vh;	
  font-size: clamp(48px, 5.5vw, 129px);
  opacity: 0;	
 }
@@ -167,6 +167,8 @@ h1 .char, .sub-title .char{
 	
 .scroll{
  position: relative;
+ display:grid;
+ place-items:center;
  background: none;
  width: 10px;
  height: 40px;
