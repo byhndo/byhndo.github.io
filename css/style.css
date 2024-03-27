@@ -179,9 +179,8 @@ h1 .char, .sub-title .char{
 	
 .mouse {
  position: relative;
- display: grid;
- place-items:center;
- width: 0px;
+ display: block;
+ width: 3px;
  height: 25px;
  margin: 0 auto 20px;
  color:var(--soc1);
