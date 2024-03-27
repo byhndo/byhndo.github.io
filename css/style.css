@@ -15,7 +15,7 @@
  --font1: 'Anton', sans-serif;	
  --font2: 'Wix Madefor Text', sans-serif;
  --font3: 'Cormorant Garamond', sans-serif;
- --marginp:35px;
+ --marginp:40px;
  --spacingnav:.9vw; 
  --fwnav:500;
  --fwtitle:400;
@@ -375,7 +375,7 @@ main {
 
 p.sub1, p.sub2 {
   text-transform:none;
-  text-align:left;
+  text-align:justify;
 }
 
 p.sub1 {
@@ -505,13 +505,13 @@ img {
 }
 
 ul{
- text-align:left;
+ text-align:justify;
  padding-left:14px;
 }
 
 li.about{
  list-style-type:decimal;
- text-align:left;
+ text-align:justify;
  padding-top:2px;
  padding-bottom:2px;
  border-bottom:1px solid rgba(50, 50, 53, .1);
