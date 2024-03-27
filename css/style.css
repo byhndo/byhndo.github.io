@@ -157,37 +157,13 @@ h1 .char, .sub-title .char{
  opacity: 0;	
 }
 
-.scroll1{
- font-size:9px;
- text-transform:uppercase;
- font-family:var(--font2);
- font-weight:400;
- text-align:center;
- transition-delay: 2s;
- transition: color 4s; 
- color:var(--c4);
- margin-bottom:-10px;
-}
-
-.pointer {
- text-align:center;
- transition-delay: 2s;
- transition: color 4s; 
- color:var(--c4);
- animation: pointDown 3s infinite;
-}
-
-.photos .scroll1, .photos .pointer{
- color:var(--c3);	
-}
-
-.scroll2{
+.scroll{
   postion: relative;
   background: none;
   width: 10px;
   height: 40px;
   border-radius: 32px;
-  border: 2px solid black;
+  border: 2px solid var(--soc2);
 }
 .mouse {
   -webkit-animation: ani-mouse 2s linear infinite;
@@ -262,6 +238,10 @@ h1 .char, .sub-title .char{
 	-webkit-animation: ani-mouse 2s linear infinite;
 	-moz-animation: ani-mouse 2s linear infinite;
   animation: ani-mouse 2s linear infinite;
+}
+
+.photos .scroll, .photos .mouse{
+ color:var(--c3);	
 }
 
 a {
