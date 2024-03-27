@@ -515,8 +515,8 @@ ul{
 li.about{
  list-style-type:decimal;
  text-align:left;
- padding-top:5px;
- padding-bottom:5px;
+ padding-top:2px;
+ padding-bottom:2px;
  border-bottom:1px solid rgba(50, 50, 53, .1);
 }
 
