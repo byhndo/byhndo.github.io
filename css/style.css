@@ -206,6 +206,10 @@ h1 .char, .sub-title .char{
  color:var(--soc2);	
 }
 
+.photos .mouse > * {
+ background: var(--soc2);	
+}
+
 @keyframes ani-mouse {
 	0% {
 	opacity: 0;
