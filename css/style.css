@@ -165,7 +165,7 @@ h1 .char, .sub-title .char{
 }
 	
 .scroll{
-  postion: relative;
+  position: relative;
   background: none;
   width: 10px;
   height: 40px;
@@ -176,6 +176,7 @@ h1 .char, .sub-title .char{
   -webkit-animation: ani-mouse 2s linear infinite;
 	-moz-animation: ani-mouse 2s linear infinite;
 	animation: ani-mouse 2s linear infinite;
+ color:var(--soc2);
 }
 	
 @-webkit-keyframes ani-mouse {
@@ -248,7 +249,7 @@ h1 .char, .sub-title .char{
 }
 
 .photos .scroll, .photos .mouse{
- color:var(--c3);	
+ color:var(--soc1);	
 }
 
 a {
