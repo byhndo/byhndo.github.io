@@ -166,9 +166,6 @@ h1 .char, .sub-title .char{
 }
 	
 .scroll{
- position: relative;
- display: flex;
- justify-content: center;
  background: none;
  width: 10px;
  height: 40px;
@@ -181,7 +178,7 @@ h1 .char, .sub-title .char{
 .mouse {
  position: relative;
  display:block;
- width: 7px;
+ width: 10px;
  height: 25px;
  margin: 0 auto 20px;
  color:var(--soc1);
