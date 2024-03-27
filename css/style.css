@@ -198,6 +198,7 @@ h1 .char, .sub-title .char{
  background: var(--soc1);
  border-radius: 6px;
  transition: color 4s;
+ transition-delay: 2s;
  animation: ani-mouse 2s linear infinite;
 }
 
