@@ -99,7 +99,7 @@ gsap.set(".sub-title, .sub-title .char", {
 gsap.to(".sub-title, .sub-title .char", {
  autoAlpha:1, 
  opacity:1,
- duration:1,
+ duration:.8,
  rotation:0,
  stagger:.08, 
  y:0,
@@ -209,7 +209,6 @@ tl.to(one, {
 const RevealBoxs2 = container.querySelectorAll(".box2");
  RevealBoxs2.forEach((box2) => {
  const two = box2.querySelectorAll(".two");                              
- const footer = box2.querySelectorAll(".box2 .footer");                              
  let tl = gsap.timeline({
  scrollTrigger: {
   trigger: box2,
@@ -228,19 +227,11 @@ tl.to(two, {
  duration:1,
  ease:easing
 }); 
-
-tl.to(footer, {
- autoAlpha:1, 
- opacity:1,
- duration:1,
- ease:easing
-}); 
 		 	                                                                                                                  
 });	
 
 const RevealBoxs3 = container.querySelectorAll(".box3");
  RevealBoxs3.forEach((box3) => {
- const two = box3.querySelectorAll(".three");                              
  const quote = box3.querySelectorAll(".quote");                              
  let tl = gsap.timeline({
  scrollTrigger: {
@@ -262,6 +253,25 @@ tl.to(quote, {
  x:0
 });
 	 	                                                                                                                  
+});	
+
+const RevealBoxs4 = container.querySelectorAll(".box4");
+ RevealBoxs4.forEach((box4) => {
+ const footer = box4.querySelectorAll(".footer");                              
+ let tl = gsap.timeline({
+ scrollTrigger: {
+  trigger: box4,
+  toggleActions: once
+ }, delay: .5
+ });  
+	 
+tl.to(footer, {
+ autoAlpha:1, 
+ opacity:1,
+ duration:1,
+ ease:easing
+}); 
+		 	                                                                                                                  
 });	
 	 
 let revealContainers = container.querySelectorAll(".item");
@@ -292,6 +302,7 @@ let revealContainers = container.querySelectorAll(".item");
   });	
 });
 }
+	
 
 var isSafari = /constructor/i.test(window.HTMLElement);
 var isFF = !!navigator.userAgent.match(/firefox/i);
