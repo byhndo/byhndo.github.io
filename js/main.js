@@ -257,7 +257,7 @@ tl.to(quote, {
 
 const RevealBoxs4 = container.querySelectorAll(".box4");
  RevealBoxs4.forEach((box4) => {
- const footer = box4.querySelectorAll(".footer");                              
+ const footer = box4.querySelectorAll(".footer span");                              
  let tl = gsap.timeline({
  scrollTrigger: {
   trigger: box4,
@@ -267,13 +267,14 @@ const RevealBoxs4 = container.querySelectorAll(".box4");
 
 
 tl.set(footer, {
- y:-50	
+ y:-50,
+ rotation: gsap.utils.wrap([-180, 180])
 })
 tl.to(footer, {
  autoAlpha:1, 
  opacity:1,
  y:0,
- rotation: gsap.utils.wrap([-180, 180]),
+ rotation:0,
  duration: "random(.7, 2)",
  stagger: .07,
  ease: easing
