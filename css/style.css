@@ -347,7 +347,7 @@ nav li a:hover, nav li a:active{
 main {
  position: relative;
  max-width:88%;
- padding:0;
+ padding:0 0 10px 0;
  overflow:hidden;
  margin:0 auto;
 }
