@@ -231,9 +231,9 @@ const RevealBoxs3 = container.querySelectorAll(".box3");
  scrollTrigger: {
   trigger: box3,
   toggleActions: once,
-  scrub:1,
+  scrub: true,
   start: "top bottom",
-  end: "300% bottom",
+  end: "bottom center"
  }, delay: .5
  });  
 	 
@@ -241,7 +241,6 @@ tl.set(quote, {
  x:150
 })
 tl.to(quote, {
- duration: 5,
  autoAlpha: 1,
  opacity:1,
  x:0
