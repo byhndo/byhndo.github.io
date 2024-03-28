@@ -121,7 +121,7 @@ gsap.to('.indicator', {
   y:0
  }, {
   autoAlpha: 0,
-  y:-50,
+  y:-100,
   duration: 2,
   scrollTrigger: {
   scrub: 3,
