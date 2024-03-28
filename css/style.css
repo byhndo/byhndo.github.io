@@ -402,6 +402,8 @@ p.sub2 {
  margin:30px auto;
  max-width:70%;
  text-align:center;
+ opacity:0;
+ visibility:hidden;
 }
 
 .quote span{
