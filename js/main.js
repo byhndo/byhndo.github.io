@@ -252,7 +252,7 @@ tl.to(quote, {
  opacity:1,
  x:0,
  scale: 1
-})
+});
 	 	                                                                                                                  
 });	
 
