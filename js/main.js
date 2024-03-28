@@ -241,6 +241,51 @@ tl.to(quote, {
 	 	                                                                                                                  
 });	
 
+
+
+
+
+
+
+const RevealBoxs3 = container.querySelectorAll(".box3");
+ RevealBoxs3.forEach((box3) => {
+ const two = box3.querySelectorAll(".three");                              
+ const quote = box3.querySelectorAll(".quote");                              
+ let tl = gsap.timeline({
+ scrollTrigger: {
+  trigger: box3,
+  toggleActions: once
+ }, delay: .5
+ });  
+	 
+tl.set(quote, {
+ x:150
+})
+tl.to(quote, {
+ duration: 2,
+ autoAlpha: 1,
+ opacity:1,
+ x:0,
+ scale: 1,
+ scrollTrigger: {
+ trigger: quote,
+ scrub:1,
+ start: 'top center',
+ end: '10%'
+  }
+})
+	 	                                                                                                                  
+});	
+
+
+
+
+	 
+
+
+
+
+	 
 let revealContainers = container.querySelectorAll(".item");
  revealContainers.forEach((el) => {
  let image = el.querySelector("img");
