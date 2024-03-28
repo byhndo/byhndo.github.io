@@ -231,7 +231,7 @@ const RevealBoxs3 = container.querySelectorAll(".box3");
  scrollTrigger: {
   trigger: box3,
   toggleActions: once,
-  scrub: true,
+  scrub: 2,
   start: "top bottom",
   end: "bottom center"
  }, delay: .5
