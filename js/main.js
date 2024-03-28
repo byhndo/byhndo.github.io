@@ -106,7 +106,12 @@ gsap.to(".sub-title, .sub-title .char", {
  ease:easing
 });
 
- gsap.to('.indicator', {
+gsap.set('.indicator', {
+ y:-100	
+});
+	
+gsap.to('.indicator', {
+ y:0,
  delay:3.5,
  duration:2,
  autoAlpha: 1,
