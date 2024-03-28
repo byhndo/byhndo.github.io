@@ -223,12 +223,6 @@ tl.to(two, {
 	 	                                                                                                                  
 });	
 
-
-
-
-
-
-
 const RevealBoxs3 = container.querySelectorAll(".box3");
  RevealBoxs3.forEach((box3) => {
  const two = box3.querySelectorAll(".three");                              
@@ -238,8 +232,8 @@ const RevealBoxs3 = container.querySelectorAll(".box3");
   trigger: box3,
   toggleActions: once,
   scrub:1,
-  start: 'top center',
-  end: '10%'
+  start: "top bottom",
+  end: "300% bottom",
  }, delay: .5
  });  
 	 
@@ -247,23 +241,13 @@ tl.set(quote, {
  x:150
 })
 tl.to(quote, {
- duration: 2,
+ duration: 3,
  autoAlpha: 1,
  opacity:1,
- x:0,
- scale: 1
+ x:0
 });
 	 	                                                                                                                  
 });	
-
-
-
-
-	 
-
-
-
-
 	 
 let revealContainers = container.querySelectorAll(".item");
  revealContainers.forEach((el) => {
