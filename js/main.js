@@ -236,7 +236,10 @@ const RevealBoxs3 = container.querySelectorAll(".box3");
  let tl = gsap.timeline({
  scrollTrigger: {
   trigger: box3,
-  toggleActions: once
+  toggleActions: once,
+  scrub:1,
+  start: 'top center',
+  end: '10%'
  }, delay: .5
  });  
 	 
@@ -248,13 +251,7 @@ tl.to(quote, {
  autoAlpha: 1,
  opacity:1,
  x:0,
- scale: 1,
- scrollTrigger: {
- trigger: quote,
- scrub:1,
- start: 'top center',
- end: '10%'
-  }
+ scale: 1
 })
 	 	                                                                                                                  
 });	
