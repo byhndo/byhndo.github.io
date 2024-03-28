@@ -232,7 +232,7 @@ tl.to(quote, {
  x:0,
  scale: 1,
  scrollTrigger: {
- trigger: two,
+ trigger: box2,
  scrub:1,
  start: 'top center',
  end: '10%'
