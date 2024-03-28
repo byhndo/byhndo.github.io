@@ -520,6 +520,7 @@ li.about{
 }
 
 .footer {
+ position:relative;
  display: grid;
  place-items: center;
  margin: 23px 0 -23px 0;
