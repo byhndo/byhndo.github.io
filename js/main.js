@@ -245,6 +245,7 @@ tl.set(quote, {
 tl.to(quote, {
  autoAlpha: 1,
  opacity:1,
+ duration:.8
  x:0
 });
 	 	                                                                                                                  
