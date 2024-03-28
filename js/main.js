@@ -265,7 +265,6 @@ const RevealBoxs4 = container.querySelectorAll(".box4");
  }, delay: .5
  });  
 
-
 tl.set(footer, {
  y:-50
 })
