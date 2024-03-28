@@ -31,7 +31,7 @@ tl.to("#loader", {
 	
 function contentShow() {	
 	
-$('.one').each(function(){
+$('.one, .footer').each(function(){
   $(this).html($(this).text().replace(/\S/g, "<span>$&</span>"));
 });
 	
