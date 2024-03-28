@@ -119,7 +119,7 @@ gsap.to(".sub-title, .sub-title .char", {
   y:-50,
   duration: 2,
   scrollTrigger: {
-  scrub: 2,
+  scrub: 3,
   trigger: '.indicator',
   start: 'center 60%',
   end: 'center 50%'					
@@ -233,7 +233,7 @@ const RevealBoxs3 = container.querySelectorAll(".box3");
  scrollTrigger: {
   trigger: box3,
   toggleActions: once,
-  scrub: 2,
+  scrub: 3,
   start: "top bottom",
   end: "bottom center"
  }, delay: .5
