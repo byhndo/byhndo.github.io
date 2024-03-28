@@ -31,7 +31,7 @@ tl.to("#loader", {
 	
 function contentShow() {	
 	
-$('.one, .footer').each(function(){
+$('.one').each(function(){
   $(this).html($(this).text().replace(/\S/g, "<span>$&</span>"));
 });
 	
@@ -257,7 +257,7 @@ tl.to(quote, {
 
 const RevealBoxs4 = container.querySelectorAll(".box4");
  RevealBoxs4.forEach((box4) => {
- const footer = box4.querySelectorAll(".footer span");                              
+ const footer = box4.querySelectorAll(".footer");                              
  let tl = gsap.timeline({
  scrollTrigger: {
   trigger: box4,
@@ -267,16 +267,13 @@ const RevealBoxs4 = container.querySelectorAll(".box4");
 
 
 tl.set(footer, {
- y:-50,
- rotation: gsap.utils.wrap([-180, 180])
+ y:-50
 })
 tl.to(footer, {
  autoAlpha:1, 
  opacity:1,
  y:0,
- rotation:0,
- duration: "random(.7, 2)",
- stagger: .07,
+ duration:1,
  ease: easing
 }); 
 		 	                                                                                                                  
