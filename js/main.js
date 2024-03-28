@@ -24,7 +24,7 @@ tl.to(".textload span", {
 }); 
 
 tl.to("#loader", {
- duration: .8,
+ duration: 1,
  autoAlpha:0,
  opacity:0
 }); 
@@ -99,7 +99,7 @@ gsap.set(".sub-title, .sub-title .char", {
 gsap.to(".sub-title, .sub-title .char", {
  autoAlpha:1, 
  opacity:1,
- duration:.8,
+ duration:1,
  rotation:0,
  stagger:.08, 
  y:0,
@@ -154,7 +154,7 @@ tl.fromTo(pl, {
    scale:1,
    autoAlpha:1, 
    opacity:1,
-   duration:.8,     
+   duration:1,     
    ease:easing
    });
 	   
@@ -173,7 +173,7 @@ const RevealBoxs = container.querySelectorAll(".box");
 tl.to(gr, {
  autoAlpha:1, 
  opacity:1,
- duration:.8,	
+ duration:1,	
  width:"100%",
  ease:easing
 });	
@@ -197,7 +197,7 @@ tl.set(one, {
 tl.to(one, {
  autoAlpha:1, 
  opacity:1,
- duration:.8,
+ duration:1,
  rotation:0,
  y:0,
  stagger:.1,
@@ -224,7 +224,7 @@ tl.to(two, {
  autoAlpha:1, 
  opacity:1,
  y:0,
- duration:.8,
+ duration:1,
  ease:easing
 }); 
 	 	                                                                                                                  
@@ -250,7 +250,7 @@ tl.set(quote, {
 tl.to(quote, {
  autoAlpha: 1,
  opacity:1,
- duration:.8, 
+ duration:1, 
  x:0
 });
 	 	                                                                                                                  
