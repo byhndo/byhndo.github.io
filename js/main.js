@@ -112,9 +112,11 @@ gsap.to(".sub-title, .sub-title .char", {
  autoAlpha: 1,
  onComplete: () => {
  gsap.fromTo('.indicator', {
-  autoAlpha: 1
+  autoAlpha: 1,
+  y:-100
  }, {
   autoAlpha: 0,
+  y:0,
   duration: 2,
   scrollTrigger: {
   scrub: true,
