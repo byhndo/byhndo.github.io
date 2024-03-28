@@ -217,7 +217,7 @@ const RevealBoxs2 = container.querySelectorAll(".box2");
  });  
 	 
 tl.set(two, {
- y:50
+ y:100
 });   
 	 
 tl.to(two, {
