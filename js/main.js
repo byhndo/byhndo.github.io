@@ -264,12 +264,19 @@ const RevealBoxs4 = container.querySelectorAll(".box4");
   toggleActions: once
  }, delay: .5
  });  
-	 
+
+
+tl.set(footer, {
+ y:-50	
+})
 tl.to(footer, {
  autoAlpha:1, 
  opacity:1,
- duration:1,
- ease:easing
+ y:0,
+ rotation: gsap.utils.wrap([-180, 180]),
+ duration: "random(.7, 2)",
+ stagger: .07,
+ ease: easing
 }); 
 		 	                                                                                                                  
 });	
