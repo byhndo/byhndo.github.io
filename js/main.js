@@ -241,7 +241,7 @@ tl.set(quote, {
  x:150
 })
 tl.to(quote, {
- duration: 3,
+ duration: 5,
  autoAlpha: 1,
  opacity:1,
  x:0
