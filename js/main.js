@@ -245,7 +245,7 @@ const RevealBoxs3 = container.querySelectorAll(".box3");
  });  
 	 
 tl.set(quote, {
- x:150
+ x:300
 })
 tl.to(quote, {
  autoAlpha: 1,
