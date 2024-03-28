@@ -202,7 +202,7 @@ tl.to(one, {
 const RevealBoxs2 = container.querySelectorAll(".box2");
  RevealBoxs2.forEach((box2) => {
  const two = box2.querySelectorAll(".two");                              
- const quote = box2.querySelectorAll(".quote");                              
+ const quote = box2.querySelectorAll(".two .quote");                              
  let tl = gsap.timeline({
  scrollTrigger: {
   trigger: box2,
@@ -232,7 +232,7 @@ tl.to(quote, {
  x:0,
  scale: 1,
  scrollTrigger: {
- trigger: box2,
+ trigger: quote,
  scrub:1,
  start: 'top center',
  end: '10%'
