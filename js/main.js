@@ -195,16 +195,23 @@ const lettersAndSymbols = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k'
      }); 
 
 tl.set(one, { 
- z: -800 
+ perspective: 2000, 
+ rotationY: 180,
+ x: -40,
+ y: 100
 })
 
 tl.to(one, {
- autoAlpha: 1,
+ autoAlpha:1,
  opacity: 1,
- duration:5,
- z: 0,
- stagger: 0.04,
- ease: 'back.out(1.2)'
+ rotationY: 0,
+ x: 0,
+ y: 0, 
+ ease: 'back.out(1.2)',
+ stagger: {
+            each: -0.03,
+            from: 0
+          }
 });
 	   
 });
