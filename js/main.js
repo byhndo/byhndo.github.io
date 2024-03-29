@@ -208,7 +208,6 @@ tl.to(one, {
 */
 
 tl.set(one, { 
- 'will-change': 'opacity, transform', 
  x: () => gsap.utils.random(-200,200), 
  y: () => gsap.utils.random(-150,150) 
  })
