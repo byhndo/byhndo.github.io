@@ -209,17 +209,17 @@ tl.to(one, {
 
 tl.set(one, { 
  'will-change': 'opacity, transform', 
- xPercent: () => gsap.utils.random(-200,200), 
- yPercent: () => gsap.utils.random(-150,150) 
+ x: () => gsap.utils.random(-200,200), 
+ y: () => gsap.utils.random(-150,150) 
  })
 
 tl.to(one, {
  autoAlpha:1,
  opacity: 1,
  duration:1,
- xPercent: 0,
+ x: 0,
+ y: 0,
  ease: "quad.out",
- yPercent: 0,
  stagger: { each: 0.05, grid: 'auto', from: 'random'}
  });
 	   
