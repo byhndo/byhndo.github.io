@@ -299,7 +299,7 @@ let revealContainers = container.querySelectorAll(".item");
    scale:1,
    duration: 1.2,
    ease: easing
-  }, 0);
+  });
   tl.to(image, {
    duration:2.2, 
    ease: easing	  
