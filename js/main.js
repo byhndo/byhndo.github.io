@@ -183,8 +183,10 @@ tl.to(gr, {
 });	  
 	 
 const RevealBoxs1 = container.querySelectorAll(".box1");
-   RevealBoxs1.forEach((box1) => { 	   	   
+const lettersAndSymbols = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '!', '@', '#', '$', '%', '^', '&', '*', '-', '_', '+', '=', ';', ':', '<', '>', ','];  
+   RevealBoxs1.forEach((box1, position) => { 	   	   
     const one = box1.querySelectorAll(".one, .one span");
+    let initialHTML = one.innerHTML;
     let tl = gsap.timeline({
     scrollTrigger: {
      trigger: box1,
@@ -193,19 +195,19 @@ const RevealBoxs1 = container.querySelectorAll(".box1");
      }); 
 
 tl.set(one, { 
- x: () => gsap.utils.random(-70, 70), 
- y: () => gsap.utils.random(-50, 50) 
+ opacity:0 
  })
 
 tl.to(one, {
- autoAlpha:1,
+ duration: 0.03,
+ innerHTML: () => lettersAndSymbols[Math.floor(Math.random() * lettersAndSymbols.length)],
+ repeat: 1,
+ repeatRefresh: true,
  opacity: 1,
- duration:1.5,
- x: 0,
- y: 0,
- ease: "quad.inOut",
- stagger: { each: 0.05, grid: 'auto', from: 'random'}
- });
+ repeatDelay: 0.03,
+ delay: (position+1)*0.18,
+ onComplete: () => tl.set(char, {innerHTML: initialHTML, delay: 0.03}),
+});
 	   
 });
 	  
