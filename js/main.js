@@ -191,21 +191,6 @@ const RevealBoxs1 = container.querySelectorAll(".box1");
      toggleActions: once
      }, delay:.5
      }); 
-/*	   
-tl.set(one, {
- y:50,
- rotation:100
-})
-tl.to(one, {
- autoAlpha:1, 
- opacity:1,
- duration:1,
- rotation:0,
- y:0,
- stagger:.1,
- ease:easing	
-});
-*/
 
 tl.set(one, { 
  x: () => gsap.utils.random(-100,100), 
@@ -215,7 +200,7 @@ tl.set(one, {
 tl.to(one, {
  autoAlpha:1,
  opacity: 1,
- duration:2,
+ duration:1.5,
  x: 0,
  y: 0,
  ease: "quad.inOut",
