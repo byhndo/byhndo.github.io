@@ -204,6 +204,7 @@ tl.set(one, {
 tl.to(one, {
  autoAlpha:1,
  opacity: 1,
+ duration:2,
  rotationY: 0,
  x: 0,
  y: 0, 
