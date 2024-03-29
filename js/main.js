@@ -201,17 +201,17 @@ tl.set(one, {
  })
 
 tl.to(one, {
- ease: 'power1.inOut',
  autoAlpha:1,
  opacity: 1,
- duration:2,
+ duration:3,
  y: 0,
  z: 0,
  rotationX: 0,
+ ease: 'quad.inOut',
  stagger: {
          each: 0.06,
          from: 'center'
- }
+         }
 });
 	   
 });
