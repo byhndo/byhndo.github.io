@@ -99,7 +99,7 @@ gsap.set(".sub-title, .sub-title .char", {
 gsap.to(".sub-title, .sub-title .char", {
  autoAlpha:1,
  opacity: 1,
- duration:1.5,
+ duration:2,
  x: 0,
  y: 0,
  ease: "quad.inOut",
