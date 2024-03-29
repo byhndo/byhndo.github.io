@@ -149,7 +149,7 @@ function setupReveal(container) {
 
     tl.fromTo(pl, {
      scale:.3,
-     rotation:180
+     rotation:360
      },
      {
      autoAlpha:1, 
