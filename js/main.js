@@ -201,7 +201,7 @@ tl.set(one, {
 tl.to(one, {
  autoAlpha: 1,
  opacity: 1,
- duration:1,
+ duration:5,
  z: 0,
  stagger: 0.04,
  ease: 'back.out(1.2)'
