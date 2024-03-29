@@ -147,18 +147,20 @@ function setupReveal(container) {
      }, delay:.5
      }); 
 
-tl.fromTo(pl, {
-   scale:.3
-   },
-   {
-   scale:1,
-   autoAlpha:1, 
-   opacity:1,
-   duration:1,     
-   ease:easing
-   });
+    tl.fromTo(pl, {
+     scale:.3,
+     rotation:180
+     },
+     {
+     autoAlpha:1, 
+     opacity:1,
+     scale:1,
+     rotation:0,
+     duration:1,     
+     ease:easing
+     });
 	   
-   });
+     });
 
 const RevealBoxs = container.querySelectorAll(".box");
    RevealBoxs.forEach((box) => { 	   	   
