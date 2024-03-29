@@ -208,7 +208,7 @@ tl.to(one, {
  rotationY: 0,
  x: 0,
  y: 0, 
- ease: 'back.out(1.2)',
+ ease: easing,
  stagger: {
             each: -0.03,
             from: 0
