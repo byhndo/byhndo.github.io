@@ -193,8 +193,8 @@ const RevealBoxs1 = container.querySelectorAll(".box1");
      }); 
 
 tl.set(one, { 
- x: () => gsap.utils.random(-200, 200), 
- y: () => gsap.utils.random(-150, 150) 
+ x: () => gsap.utils.random(-70, 70), 
+ y: () => gsap.utils.random(-50, 50) 
  })
 
 tl.to(one, {
