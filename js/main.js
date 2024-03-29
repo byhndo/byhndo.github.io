@@ -215,7 +215,7 @@ tl.set(one, {
 tl.to(one, {
  autoAlpha:1,
  opacity: 1,
- duration:1,
+ duration:2,
  x: 0,
  y: 0,
  ease: "quad.inOut",
