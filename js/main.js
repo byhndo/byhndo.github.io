@@ -206,7 +206,7 @@ tl.fromTo(one, {
  {
  autoAlpha:1,
  opacity: 1,
- duration:2,
+ duration:3,
  rotationY: 0,
  z: 0,
  ease: easing,
