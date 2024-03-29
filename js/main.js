@@ -195,23 +195,16 @@ const lettersAndSymbols = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k'
      }); 
 
 tl.set(one, { 
- y: (position,_,arr) => -40*Math.abs(position-arr.length/2),
- z: () => gsap.utils.random(-1500,-600),
- rotationX: () => gsap.utils.random(-500,-200)
- })
+ z: -800 
+})
 
 tl.to(one, {
- autoAlpha:1,
+ autoAlpha: 1,
  opacity: 1,
- duration:3,
- y: 0,
+ duration:1,
  z: 0,
- rotationX: 0,
- ease: 'quad.inOut',
- stagger: {
-         each: 0.06,
-         from: 'center'
-         }
+ stagger: 0.04,
+ ease: 'back.out(1.2)'
 });
 	   
 });
