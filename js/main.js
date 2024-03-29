@@ -208,8 +208,8 @@ tl.to(one, {
 */
 
 tl.set(one, { 
- x: () => gsap.utils.random(-150,150), 
- y: () => gsap.utils.random(-100,100) 
+ x: () => gsap.utils.random(-100,100), 
+ y: () => gsap.utils.random(-50,50) 
  })
 
 tl.to(one, {
