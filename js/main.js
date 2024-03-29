@@ -93,17 +93,17 @@ gsap.to("h1, h1 .char", {
 }); 
 			
 gsap.set(".sub-title, .sub-title .char", {
- y:20,
- rotation:100
+ x: () => gsap.utils.random(-200, 200), 
+ y: () => gsap.utils.random(-150, 150)
 });
 gsap.to(".sub-title, .sub-title .char", {
- autoAlpha:1, 
- opacity:1,
- duration:.8,
- rotation:0,
- stagger:.08, 
- y:0,
- ease:easing
+ autoAlpha:1,
+ opacity: 1,
+ duration:1.5,
+ x: 0,
+ y: 0,
+ ease: "quad.inOut",
+ stagger: { each: 0.05, grid: 'auto', from: 'random'}
 });
 
 gsap.set('.indicator', {
