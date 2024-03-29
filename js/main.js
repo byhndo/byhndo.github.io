@@ -194,26 +194,23 @@ const lettersAndSymbols = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k'
      }, delay:.5
      }); 
 
-tl.set(one, { 
- perspective: 2000, 
- rotationY: 180,
- x: -40,
- y: 100
+tl.set(one, {
+ perspective:2000	
 })
-
-tl.to(one, {
+	   
+tl.fromTo(one, { 
+ transformOrigin: '100% 50%',    
+ rotationY: -90,
+ z: -300
+ },
+ {
  autoAlpha:1,
  opacity: 1,
- duration:2,
  rotationY: 0,
- x: 0,
- y: 0, 
+ z: 0,
  ease: easing,
- stagger: {
-            each: -0.03,
-            from: 0
-          }
-});
+ stagger: { each: 0.06, from: 'end'}
+ });
 	   
 });
 	  
