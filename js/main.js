@@ -204,6 +204,7 @@ tl.to(one, {
  ease: 'power1.inOut',
  autoAlpha:1,
  opacity: 1,
+ duration:2,
  y: 0,
  z: 0,
  rotationX: 0,
