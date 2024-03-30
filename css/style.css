@@ -404,6 +404,8 @@ p.sub2 {
 }
 
 .quote span{
+ display: inline-block;
+ position: relative;
  opacity:0;
  font-size:155%;
  font-weight:400;
