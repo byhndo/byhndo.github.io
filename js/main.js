@@ -246,7 +246,7 @@ const RevealBoxs3 = container.querySelectorAll(".box3");
   toggleActions: once,
   scrub: 3,
   start: "top bottom",
-  end: "bottom center"
+  end: "center center"
  }, delay: .5
  });  
 	 
