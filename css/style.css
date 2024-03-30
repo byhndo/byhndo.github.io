@@ -411,7 +411,7 @@ p.sub2 {
  color:inherit;
 }
 
-cite{
+.quote cite{
  font-size:80%;
  font-style:italic;
 }	
