@@ -413,9 +413,10 @@ p.sub2 {
 
 cite {
  font-family: var(--font3);
- font-size: 80%;
+ font-size: 90%;
  font-style: italic;
  color: inherit;
+ text-align:center;
 }	
 
 .grid {
