@@ -411,8 +411,8 @@ p.sub2 {
  color:inherit;
 }
 
-.quote cite {
- font-family: var(--font3);
+.cite {
+ font-family: var(--font3)!important;
  font-size: 90% l!important;
  font-style: italic!important;
  color: inherit;
