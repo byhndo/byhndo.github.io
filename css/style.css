@@ -407,9 +407,8 @@ p.sub2 {
 }
 
 .quote span{
- font-style:italic;
- font-size:70%;
- color:inherit;
+ display: inline-block;
+ opacity:0;
 }
 
 .grid {
