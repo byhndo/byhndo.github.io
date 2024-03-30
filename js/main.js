@@ -204,7 +204,7 @@ tl.fromTo(one, {
  duration: 1,
  scaleY: 1,
  stagger: 0.05,
- ease: 'power3.in'
+ ease: 'quart.out'
  });
 	   
 });
