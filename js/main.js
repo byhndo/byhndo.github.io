@@ -34,6 +34,10 @@ function contentShow() {
 $('.one').each(function(){
   $(this).html($(this).text().replace(/\S/g, "<span>$&</span>"));
 });
+
+$('.quote').each(function(){
+  $(this).html($(this).text().replace(/\S/g, "<span>$&</span>"));
+});
 	
 const {
     createApp,
@@ -147,20 +151,20 @@ function setupReveal(container) {
      }, delay:.5
      }); 
 
-    tl.fromTo(pl, {
-     scale:.3,
-     rotation:360
-     },
-     {
-     autoAlpha:1, 
-     opacity:1,
-     scale:1,
-     rotation:0,
-     duration:1,     
-     ease:easing
-     });
+tl.set(pl, {
+ scale:.3,
+ rotation:360
+ })
+tl.to(pl, {
+ autoAlpha:1, 
+ opacity:1,
+ scale:1,
+ rotation:0,
+ duration:1,     
+ ease:easing
+});
 	   
-     });
+});
 
 const RevealBoxs = container.querySelectorAll(".box");
    RevealBoxs.forEach((box) => { 	   	   
@@ -203,7 +207,7 @@ tl.to(one, {
  opacity: 1,
  duration: 1,
  scaleY: 1,
- stagger: 0.05,
+ stagger: 0.07,
  ease: 'quart.out'
 });
 	   
