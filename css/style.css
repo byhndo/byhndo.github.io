@@ -417,7 +417,7 @@ p.sub2 {
  font-style: italic;
  color: inherit;
  text-align:center;
- padding-bottom:30px;
+ padding:10px auto 30px auto;
 }	
 
 .grid {
