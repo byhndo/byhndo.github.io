@@ -412,8 +412,6 @@ p.sub2 {
 }
 
 cite {
- visibility: hidden;
- opacity: 0;
  font-family: var(--font3);
  font-size: 80%;
  font-style: italic;
