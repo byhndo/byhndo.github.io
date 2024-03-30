@@ -411,6 +411,11 @@ p.sub2 {
  color:inherit;
 }
 
+cite{
+ font-size:80%;
+ font-style:italic;
+}	
+
 .grid {
  --auto-grid-min-size:10rem;
  display: grid;  
