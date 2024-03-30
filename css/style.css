@@ -395,7 +395,7 @@ p.sub2 {
 }
 
 .quote {
- margin:30px auto;
+ margin:30px auto -30px auto;
  max-width:70%;
  text-align:center;
  opacity:0;
