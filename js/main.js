@@ -194,18 +194,18 @@ const lettersAndSymbols = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k'
      }, delay:.5
      }); 
 	   
-tl.fromTo(one, { 
+tl.set(one, { 
  transformOrigin: '50% 100%',
  scaleY: 0
- },
- {
- autoAlpha:1,
+})
+tl.to(one, {
+ autoAlpha: 1,
  opacity: 1,
  duration: 1,
  scaleY: 1,
  stagger: 0.05,
  ease: 'quart.out'
- });
+});
 	   
 });
 	  
@@ -247,13 +247,15 @@ const RevealBoxs3 = container.querySelectorAll(".box3");
  });  
 	 
 tl.set(quote, {
- x:300
+ transformOrigin: '50% 100%',
+ scaleY: 0
 })
 tl.to(quote, {
- autoAlpha: 1,
- opacity:1,
- duration:1, 
- x:0
+ autoAlpha:1,
+ opacity: 1,
+ scaleY: 1,
+ stagger: 0.05,
+ ease: 'quart.in'
 });
 	 	                                                                                                                  
 });	
