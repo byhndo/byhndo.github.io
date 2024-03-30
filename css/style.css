@@ -411,9 +411,13 @@ p.sub2 {
  color:inherit;
 }
 
-.quote cite span {
- font-size:80%;
- font-style:italic;
+cite {
+ visibility: hidden;
+ opacity: 0;
+ font-family: var(--font3);
+ font-size: 80%;
+ font-style: italic;
+ color: inherit;
 }	
 
 .grid {
