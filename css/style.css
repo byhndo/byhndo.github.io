@@ -22,7 +22,7 @@
  --fwfooter:500;
 }
 
-#loader {
+.loader {
  display:grid;
  position:fixed;
  width: 50%;
