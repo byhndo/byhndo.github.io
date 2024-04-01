@@ -3,10 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@0;1&display=swap');
 
 :root {  
-// --c1: #f8f9fa;
-	--c1:#fff;
-	--c2:#000;
-// --c2: #212529; 
+ --c1: #f8f9fa;
+ --c2: #212529; 
  --c3: #ced4da;
  --c4: #495057;
  --soc1: #495057;
