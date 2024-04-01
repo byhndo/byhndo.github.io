@@ -472,7 +472,7 @@ img {
 .item{
  width: 100%;
  break-inside: avoid;
- margin-bottom:5px;
+ margin-bottom:4px;
  visibility: hidden;
  overflow: hidden;
  opacity: 0;
