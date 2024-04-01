@@ -25,15 +25,21 @@
 #loader {
  display:grid;
  position:fixed;
- top:0;
- left:0;
- right:0;
- bottom:0;
+ width: 50%;
+ bottom: 0;
  background:var(--c2);
  height:100vh;
  z-index:99999999999999; 
  --clip:100%;
  clip-path: circle(var(--clip));
+}
+
+.left{
+    right: 0;
+}
+
+.right{
+    left: 0;
 }
 
 .textload{
