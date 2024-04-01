@@ -168,6 +168,7 @@ h1 .char, .sub-title .char{
  top:85vh;	
  opacity: 0;
  visibility: hidden;
+ left:10px;
 }
 
 .textsc{
@@ -183,7 +184,7 @@ h1 .char, .sub-title .char{
 }
 	
 .scroll{
- left:10px;
+ left:0px;
  background: none;
  width: 10px;
  height: 40px;
