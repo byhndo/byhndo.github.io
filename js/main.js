@@ -17,12 +17,23 @@ tl.to(".textload span", {
  ease:"expo.inOut"
 }); 
 
-tl.to(".top", {
- yPercent:-100
-}); 
-tl.to(".bottom", {
- yPercent:100
-}); 
+tl.to(".col1", {
+ duration:1,
+ yPercent:-100,
+ ease:"power2.out"
+}, ">"); 
+
+tl.to(".col2", {
+ yPercent:-100,
+ duration:1,
+ ease:"power2.out"
+}, "-=.9"); 
+    
+tl.to(".col3", {
+ yPercent:-100,
+ duration:1,
+ ease:"power2.out"
+}, "-=.8"); 
 			
 function contentShow() {	
 	
