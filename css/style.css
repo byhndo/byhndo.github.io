@@ -337,7 +337,6 @@ nav a {
  text-transform: uppercase;
  font-size: var(--sizenav);
  font-weight: var(--fwnav);
- letter-spacing: var(--spacingnav);
 }
 
 nav li a:hover, nav li a:active{
