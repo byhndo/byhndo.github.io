@@ -24,9 +24,9 @@
 
 .textload{
  position: absolute;
- top: 10%;
+ top: 50%;
  left: 50%;
- transform: translateX(-50%) translateY(-50%);
+ transform: translate(-50%,-50%);
  z-index:1000;  
  color:var(--c1);
  font-family:var(--font1);
