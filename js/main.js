@@ -2,7 +2,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
 window.addEventListener("load", function(e) {
 
 gsap.registerPlugin(ScrollTrigger, CustomEase);
-				
+let tl = gsap.timeline({	
+ onComplete: contentShow
+});
+	
 tl.to(".textload span", {
  autoAlpha:0,
  opacity:0,
@@ -18,12 +21,7 @@ tl.to("#loader", {
  autoAlpha:0,
  opacity:0,
 }); 
-	
-let tl = gsap.timeline({	
- onComplete: contentShow
-});
-	
-	
+			
 function contentShow() {	
 	
 $('.one').each(function(){
