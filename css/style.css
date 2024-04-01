@@ -438,41 +438,17 @@ p.sub2 {
  padding-bottom:30px;
 }	
 
-/* .grid {
- --auto-grid-min-size:10rem;
- display: grid;  
- grid-template-columns: repeat(3, 1fr);
- grid-template-rows: masonry;
- gap: 2vw;
- box-sizing: border-box;
-} 
-
-.item {
- position: relative;
- width: 100%;
- height: 100%;
- visibility: hidden;
- overflow: hidden;
- opacity: 0;
-} 
-
-img {
- width: 100%;
- height: 100%;
- object-fit: cover;
- transform-origin:center;
-} */
-
 .grid{
  margin: 0 auto;
  columns: 3;
  gap: 2vw;
+ box-sizing: border-box;
 }
 
 .item{
  width: 100%;
  break-inside: avoid;
- margin-bottom:4px;
+ margin-bottom: 2vw;
  visibility: hidden;
  overflow: hidden;
  opacity: 0;
