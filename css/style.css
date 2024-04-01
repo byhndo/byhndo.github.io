@@ -314,6 +314,7 @@ nav {
  font-family: var(--font2);
  visibility:hidden;
  opacity:0;
+ letter-spacing:1px;
 }
 
 nav ul {
