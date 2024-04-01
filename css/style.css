@@ -23,33 +23,45 @@
 }
 
 .loader {
- display:grid;
  position:fixed;
- width:100%;
- left:0;
- right:0;
  background:var(--c2);
  height:100vh;
- z-index:99999999999999; 
+ z-index:10; 
+ visibility:hidden;
+ opacity:1;
 }
 
-.top{
-    top: 0;
+.col1{
+ left:0;
+ width:30%        
 }
 
-.bottom{
-    bottom: 0;
+.col2{
+ width:30%;
+ left:30%;    
 }
 
+.col3{
+ width:40%;
+ left:60%;    
+}
+
+.wraptextload{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translateX(-50%) translateY(-50%);
+ z-index:20;
+  
+}
 .textload{
- place-self:center;
  color:var(--c1);
  font-family:var(--font1);
  font-weight:400;
  font-size:28px;
  text-transform:uppercase;
  letter-spacing:-1px;
- z-index:999999999999999999;
+ z-index:30;
 }
 
 .textload span{
