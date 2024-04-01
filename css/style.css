@@ -178,7 +178,7 @@ h1 .char, .sub-title .char{
  font-weight:400;
  text-transform:uppercase;
  margin-bottom:7px;
- margin-left:-3px;
+ margin-left:-2.8px;
  transition-duration: 4s;
  writing-mode: vertical-rl;
  text-orientation: mixed;
@@ -448,7 +448,7 @@ p.sub2 {
 .item{
  width: 100%;
  break-inside: avoid;
- margin-bottom: 2px;
+ margin-bottom: 1px;
  visibility: hidden;
  overflow: hidden;
  opacity: 0;
