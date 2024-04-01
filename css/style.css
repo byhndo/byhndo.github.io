@@ -34,12 +34,12 @@
  clip-path: circle(var(--clip));
 }
 
-.left{
-    right: 0;
+.top{
+    top: 0;
 }
 
-.right{
-    left: 0;
+.bottom{
+    bottom: 0;
 }
 
 .textload{
