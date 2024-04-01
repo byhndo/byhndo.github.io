@@ -31,8 +31,6 @@
  background:var(--c2);
  height:100vh;
  z-index:99999999999999; 
- --clip:100%;
- clip-path: circle(var(--clip));
 }
 
 .top{
@@ -51,7 +49,7 @@
  font-size:28px;
  text-transform:uppercase;
  letter-spacing:-1px;
- z-index:99999999999999999;
+ z-index:999999999999999999;
 }
 
 .textload span{
