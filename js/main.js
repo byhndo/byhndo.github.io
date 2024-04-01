@@ -19,10 +19,9 @@ tl.to(".textload span", {
 }); 
 
 tl.to("#loader", {
- duration:0,
  autoAlpha:0,
  opacity:0,
-}); 
+}, 0); 
 	
 function contentShow() {	
 	
