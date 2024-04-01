@@ -33,7 +33,7 @@ tl.to(".col3", {
  yPercent:-100,
  duration:1,
  ease:"power2.out"
-}, "-=1"); 
+}, "-=.9"); 
 			
 function contentShow() {	
 	
