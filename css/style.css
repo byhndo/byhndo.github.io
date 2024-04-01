@@ -21,6 +21,26 @@
  --fwbody:400;
  --fwfooter:500;
 }
+.wraptextload{
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translateX(-50%) translateY(-50%);
+ z-index:20;  
+}
+
+.textload{
+ color:var(--c1);
+ font-family:var(--font1);
+ font-weight:400;
+ font-size:28px;
+ text-transform:uppercase;
+ letter-spacing:-1px;
+}
+
+.textload span{
+ display:inline-block;
+}
 
 .loader {
  position:fixed;
@@ -42,27 +62,6 @@
 .col3{
  width:40%;
  left:60%;    
-}
-
-.wraptextload{
- position: absolute;
- top: 50%;
- left: 50%;
- transform: translateX(-50%) translateY(-50%);
- z-index:20;  
-}
-
-.textload{
- color:var(--c1);
- font-family:var(--font1);
- font-weight:400;
- font-size:28px;
- text-transform:uppercase;
- letter-spacing:-1px;
-}
-
-.textload span{
- display:inline-block;
 }
 
 .svg-filters {
