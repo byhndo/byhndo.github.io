@@ -17,11 +17,11 @@ tl.to(".textload span", {
  ease:"expo.inOut"
 }); 
 
-tl.to(".left", {
- left:"-100%"
+tl.to(".top", {
+ top:"-100%"
 }); 
-tl.to(".right", {
- right:"-100%"
+tl.to(".bottom", {
+ bottom:"-100%"
 }); 
 			
 function contentShow() {	
