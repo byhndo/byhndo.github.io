@@ -165,10 +165,10 @@ h1 .char, .sub-title .char{
 
 .indicator {
  position:absolute;
- top:85vh;	
+ top:75vh;	
  opacity: 0;
  visibility: hidden;
- left:10px;
+ left:0px;
 }
 
 .textsc{
