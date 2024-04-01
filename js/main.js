@@ -17,9 +17,11 @@ tl.to(".textload span", {
  ease:"expo.inOut"
 }); 
 
-tl.to("#loader", {
- autoAlpha:0,
- opacity:0,
+tl.to(".loader left", {
+ left:0
+}); 
+tl.to(".loader right", {
+ right:0
 }); 
 			
 function contentShow() {	
