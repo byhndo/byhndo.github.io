@@ -303,20 +303,17 @@ let revealContainers = container.querySelectorAll(".item");
   }, delay:.5
  });
 
-  tl.set(el, {
-   scale:.3	  
-   });	 
-  tl.to(el, {
-   autoAlpha:1,
-   opacity:1,
-   scale:1,
-   duration: 1.2,
-   ease: easing
-  });
-  tl.to(image, {
-   duration:2.2, 
-   ease: easing	  
-  }, 0);
+tl.fromTo(el, {scale:0}, {
+ autoAlpha:1,
+ opacity:1,
+ scale:1,
+ duration: 1.2,
+ ease: easing
+});
+tl.to(image, {
+ duration:2.2, 
+ ease: easing	  
+}, 0);
 	 	 
   });	
 });
