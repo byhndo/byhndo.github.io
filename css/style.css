@@ -178,10 +178,12 @@ h1 .char, .sub-title .char{
  text-transform:uppercase;
  margin-bottom:10px;
  transition-duration: 4s;
+ writing-mode: vertical-rl;
+ text-orientation: mixed;
 }
 	
 .scroll{
- margin:0 auto;
+ left:10px;
  background: none;
  width: 10px;
  height: 40px;
