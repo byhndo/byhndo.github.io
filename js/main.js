@@ -7,11 +7,6 @@ let tl = gsap.timeline({
  onComplete: contentShow
 });
 				
-tl.to("#loader", {
- duration: 1.5,
- "--clip": '23%'
-}); 
-
 tl.to(".textload span", {
  autoAlpha:0,
  opacity:0,
@@ -25,8 +20,10 @@ tl.to(".textload span", {
 
 tl.to("#loader", {
  duration: 1,
- autoAlpha:0,
- opacity:0
+ autoAlpha: 0,
+ opacity: 0,
+ scaleY: 0,
+ ease:"expo.in"
 }); 
 	
 function contentShow() {	
