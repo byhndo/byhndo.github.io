@@ -21,15 +21,13 @@
  --fwbody:400;
  --fwfooter:500;
 }
-.wraptextload{
+
+.textload{
  position: absolute;
  top: 50%;
  left: 50%;
  transform: translateX(-50%) translateY(-50%);
  z-index:1000;  
-}
-
-.textload{
  color:var(--c1);
  font-family:var(--font1);
  font-weight:400;
