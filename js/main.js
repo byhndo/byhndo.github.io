@@ -27,13 +27,13 @@ tl.to(".col2", {
  yPercent:-100,
  duration:1,
  ease:"power2.out"
-}, "-=1"); 
+}, "-=.7"); 
     
 tl.to(".col3", {
  yPercent:-100,
  duration:1,
  ease:"power2.out"
-}, "-=.9"); 
+}, "-=.6"); 
 			
 function contentShow() {	
 	
