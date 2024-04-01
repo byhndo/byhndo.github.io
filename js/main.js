@@ -18,10 +18,10 @@ tl.to(".textload span", {
 }); 
 
 tl.to(".top", {
- scaleY:0
+ height:0
 }); 
 tl.to(".bottom", {
- scaleY:0
+ height:0
 }); 
 			
 function contentShow() {	
