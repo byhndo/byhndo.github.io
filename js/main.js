@@ -17,10 +17,10 @@ tl.to(".textload span", {
  ease:"expo.inOut"
 }); 
 
-tl.to(".loader left", {
+tl.to(".left", {
  left:0
 }); 
-tl.to(".loader right", {
+tl.to(".right", {
  right:0
 }); 
 			
