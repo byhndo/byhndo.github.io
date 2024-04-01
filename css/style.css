@@ -27,8 +27,6 @@
  background:var(--c2);
  height:100vh;
  z-index:10; 
- visibility:hidden;
- opacity:1;
 }
 
 .col1{
