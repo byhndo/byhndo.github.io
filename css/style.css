@@ -24,7 +24,7 @@
 
 .loader {
  display:grid;
- position:fixed;
+ position:absolute;
  width: 50%;
  bottom: 0;
  background:var(--c2);
