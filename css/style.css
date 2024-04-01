@@ -473,11 +473,15 @@ img {
  width: 100%;
  break-inside: avoid;
  margin-bottom:5px;
+ visibility: hidden;
+ overflow: hidden;
+ opacity: 0;
 }
 
 img {
-  max-width: 100%;
-  border-radius: 0px;
+ max-width: 100%;
+ border-radius: 0px;
+ transform-origin:center;
 }
 
 .soc {
