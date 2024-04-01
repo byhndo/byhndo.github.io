@@ -18,10 +18,10 @@ tl.to(".textload span", {
 }); 
 
 tl.to(".left", {
- left:0
+ left:"-100%"
 }); 
 tl.to(".right", {
- right:0
+ right:"-100%"
 }); 
 			
 function contentShow() {	
