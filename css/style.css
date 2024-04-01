@@ -45,6 +45,9 @@
  background:var(--c2);
  height:100%; 
  z-index:500;
+ top:0;
+ right:0;
+ bottom:0;
 }
 
 .col1{
