@@ -19,7 +19,7 @@ tl.to(".textload span", {
 }); 
 
 tl.to("#loader", {
- duration: 2,
+ duration: 1.7,
  scaleY: 0,
  ease: "cubic.out"
 }); 
