@@ -21,7 +21,7 @@ tl.to(".textload span", {
 tl.to("#loader", {
  autoAlpha:0,
  opacity:0,
-}, 0); 
+}); 
 	
 function contentShow() {	
 	
