@@ -436,7 +436,14 @@ p.sub2 {
  color: inherit;
  text-align:center;
  padding-bottom:30px;
-}	
+}
+
+.b-text{
+ font-size:200%;
+ text-transform:uppercase;
+ font-family:var--(font2);
+ color:var(--c2);
+}
 
 .grid{
  margin: 0 auto;
