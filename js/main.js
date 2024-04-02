@@ -18,32 +18,32 @@ tl.to(".textload span", {
 }); 
 
 tl.to(".col1", {
- duration:1,
+ duration:.8,
  yPercent:-100,
  ease:"power2.out"
 }, ">"); 
 
 tl.to(".col2", {
  yPercent:-100,
- duration:1,
+ duration:.8,
  ease:"power2.out"
 }, "-=.7"); 
     
 tl.to(".col3", {
  yPercent:-100,
- duration:1,
+ duration:.8,
  ease:"power2.out"
 }, "-=.68");
 	
 tl.to(".col4", {
  yPercent:-100,
- duration:1,
+ duration:.8,
  ease:"power2.out"
 }, "-=.66"); 
 	
 tl.to(".col5", {
  yPercent:-100,
- duration:1,
+ duration:.8,
  ease:"power2.out"
 }, "-=.64"); 
 			
