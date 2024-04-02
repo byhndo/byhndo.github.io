@@ -444,6 +444,8 @@ p.sub2 {
  font-family:var--(font2);
  color:var(--c2);
  font-weight:800;
+ text-align:center;
+ text-align-last:center;
 }
 
 .grid{
