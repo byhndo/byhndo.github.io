@@ -170,15 +170,12 @@ const RevealSc = container.querySelectorAll(".sc");
      }, delay:.5
      }); 
 
-tl.set(pl, {
- scale:.3,
- rotation:360
- })
-tl.to(pl, {
+tl.fromTo(pl, {
+ rotationY:180 },
+ {
  autoAlpha:1, 
  opacity:1,
- scale:1,
- rotation:0,
+ rotationY:0,
  duration:1,     
  ease:easing
 });
