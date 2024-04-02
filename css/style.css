@@ -164,7 +164,7 @@ h1 .char, .sub-title .char{
 }
 
 .indicator {
- position:fixed;
+ position:absolute;
  top:75vh;	
  opacity: 0;
  visibility: hidden;
