@@ -146,8 +146,31 @@ gsap.to('.indicator', {
 	
 function setupReveal(container) {	
  container.ctx = gsap.context(() => {	
-  	 
- const RevealSc = container.querySelectorAll(".sc");
+
+let revealContainers = container.querySelectorAll(".item");
+ revealContainers.forEach((el) => {
+ let image = el.querySelector("img");
+ let tl = gsap.timeline({
+ scrollTrigger: {
+  trigger: el,
+  toggleActions: once
+  }, delay:.5
+ });
+
+tl.fromTo(el, {scale:0}, {
+ autoAlpha:1,
+ opacity:1,
+ scale:1,
+ duration: 1.2,
+ ease: easing
+});
+tl.to(image, {
+ duration:2.2	  
+}, 0);
+	 	 
+});
+	 
+const RevealSc = container.querySelectorAll(".sc");
    RevealSc.forEach((sc) => {                
     const pl = sc.querySelectorAll(".pl");
     let tl = gsap.timeline({
@@ -268,7 +291,7 @@ tl.to(quote, {
  ease: 'quart.in'
 });
 	 	                                                                                                                  
-});	
+});
 
 const RevealBoxs4 = container.querySelectorAll(".box4");
  RevealBoxs4.forEach((box4) => {
@@ -293,28 +316,6 @@ tl.to(footer, {
 		 	                                                                                                                  
 });	
 	 
-let revealContainers = container.querySelectorAll(".item");
- revealContainers.forEach((el) => {
- let image = el.querySelector("img");
- let tl = gsap.timeline({
- scrollTrigger: {
-  trigger: el,
-  toggleActions: once
-  }, delay:.5
- });
-
-tl.fromTo(el, {scale:0}, {
- autoAlpha:1,
- opacity:1,
- scale:1,
- duration: 1.2,
- ease: easing
-});
-tl.to(image, {
- duration:2.2	  
-}, 0);
-	 	 
-  });	
 });
 }
 	
