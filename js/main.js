@@ -1,5 +1,4 @@
-document.addEventListener("DOMContentLoaded", function(event) {
-window.addEventListener("load", function(e) {
+window.addEventListener('load', function(){
 
 gsap.registerPlugin(ScrollTrigger, CustomEase);
 let tl = gsap.timeline({	
@@ -365,5 +364,4 @@ $('html, body').css({
 }
 
 	
-}, false);
 });
