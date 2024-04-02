@@ -171,11 +171,11 @@ const RevealSc = container.querySelectorAll(".sc");
      }); 
 
 tl.fromTo(pl, {
- rotationX:180 },
+ width:0 },
  {
  autoAlpha:1,
  opacity:1,
- rotationX:0,
+ width:"100%",
  duration:1,     
  ease:easing
 });
