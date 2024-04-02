@@ -33,19 +33,19 @@ tl.to(".col3", {
  yPercent:-100,
  duration:1,
  ease:"power2.out"
-}, "-=.6");
+}, "-=.65");
 	
 tl.to(".col4", {
  yPercent:-100,
  duration:1,
  ease:"power2.out"
-}, "-=.5"); 
+}, "-=.6"); 
 	
 tl.to(".col5", {
  yPercent:-100,
  duration:1,
  ease:"power2.out"
-}, "-=.4"); 
+}, "-=.55"); 
 			
 function contentShow() {	
 	
