@@ -52,17 +52,27 @@
 
 .col1{
  left:0;
- width:30%        
+ width:20%        
 }
 
 .col2{
- width:30%;
- left:30%;    
+ left:20%;
+ width:20%;    
 }
 
 .col3{
- width:40%;
+ left:40%;
+ width:20%;    
+}
+
+.col4{
  left:60%;    
+ width:20%;
+}
+
+.col5{
+ left:80%;    
+ width:20%;
 }
 
 .svg-filters {
