@@ -136,7 +136,7 @@ gsap.to('.indicator', {
   scrollTrigger: {
   scrub: 3,
   trigger: '.indicator',
-  start: 'center 50%',
+  start: 'center 40%',
   end: 'center 70%'					
   }
  });
