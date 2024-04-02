@@ -303,13 +303,13 @@ let revealContainers = container.querySelectorAll(".item");
   }, delay:.5
  });
 
-tl.set(el, { autoAlpha: 1 });
-tl.from(el, {
- scale:0,
+tl.fromTo(el, {scale:0}, {
+ autoAlpha:1,
+ scale:1,
  duration: 1.2,
  ease: easing
 });
-tl.from(image, {
+tl.to(image, {
  duration:2.2, 
  ease: easing	  
 });
