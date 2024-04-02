@@ -440,7 +440,7 @@ p.sub2 {
 
 .grid{
  margin: 0 auto;
- columns: 3;
+ columns: 2;
  gap: 7px;
  box-sizing: border-box;
 }
