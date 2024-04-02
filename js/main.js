@@ -311,9 +311,8 @@ tl.fromTo(el, {scale:0}, {
  ease: easing
 });
 tl.to(image, {
- duration:2.2, 
- ease: easing	  
-});
+ duration:2.2	  
+}, 0);
 	 	 
   });	
 });
