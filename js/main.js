@@ -303,9 +303,10 @@ let revealContainers = container.querySelectorAll(".item");
   }, delay:.5
  });
 
-tl.to(el, {
+tl.fromTo(el, {scale:0}, {
  autoAlpha:1,
  opacity:1,
+ scale:1,
  duration: 1.2,
  ease: easing
 });
