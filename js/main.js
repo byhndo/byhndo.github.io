@@ -313,7 +313,7 @@ tl.fromTo(el, {scale:0}, {
 tl.to(image, {
  duration:2.2, 
  ease: easing	  
-}, 0);
+});
 	 	 
   });	
 });
