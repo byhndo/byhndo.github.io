@@ -137,7 +137,7 @@ gsap.to('.indicator', {
   scrub: 3,
   trigger: '.indicator',
   start: 'center 60%',
-  end: 'center 50%'					
+  end: 'center 60%'					
   }
  });
 }
