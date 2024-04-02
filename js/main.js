@@ -171,7 +171,7 @@ const RevealSc = container.querySelectorAll(".sc");
      }); 
 
 tl.fromTo(pl, {
- scaleY:0 },
+ opacity:0 },
  {
  autoAlpha:1,
  opacity:1,
