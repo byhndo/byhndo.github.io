@@ -173,7 +173,6 @@ const RevealSc = container.querySelectorAll(".sc");
 tl.fromTo(pl, {
  rotationY:180 },
  {
- autoAlpha:1, 
  opacity:1,
  rotationY:0,
  duration:1,     
