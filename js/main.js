@@ -274,7 +274,7 @@ tl.to(quote, {
 
 let revealContainers = container.querySelectorAll(".item");
  revealContainers.forEach((el) => {
- const image = el.querySelectorAll("img");
+ var image = el.querySelectorAll("img");
  let tl = gsap.timeline({
  scrollTrigger: {
   trigger: el,
