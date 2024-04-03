@@ -1,7 +1,3 @@
-document.addEventListener("DOMContentLoaded", function(event) {
-window.addEventListener("load", function(event) {
-window.requestAnimationFrame(function() {
-	
 gsap.registerPlugin(ScrollTrigger, CustomEase);
 let tl = gsap.timeline({	
  onComplete: contentShow
@@ -47,9 +43,14 @@ tl.to(".col5", {
  duration:.8,
  ease:"power2.out"
 }, "-=.64"); 
-			
-function contentShow() {	
+
+
+function contentShow() {
 	
+document.addEventListener("DOMContentLoaded", function(event) {
+window.addEventListener("load", function(event) {
+window.requestAnimationFrame(function() {
+			
 $('.one').each(function(){
   $(this).html($(this).text().replace(/\S/g, "<span>$&</span>"));
 });
@@ -363,8 +364,10 @@ $('html, body').css({
 })
 
 
+});
+});
+});
 
 
-});
-});
-});
+
+}
