@@ -284,7 +284,7 @@ let revealContainers = container.querySelectorAll(".item");
  scrollTrigger: {
   trigger: el,
   toggleActions: once,
-  scrub: 3,
+  scrub: 4,
   start: "top bottom",
   end: "center center"
   }, delay:.5
