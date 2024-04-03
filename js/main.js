@@ -1,4 +1,4 @@
-$(window).load(function(){
+
 
 
 	
@@ -365,4 +365,4 @@ $('html, body').css({
 }
 
 
-});
+
