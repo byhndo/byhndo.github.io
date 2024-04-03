@@ -294,12 +294,12 @@ tl.set(el, {
  autoAlpha:1,
  opacity:1,
 });	 
-tl.to(el, {
+tl.from(el, {
  xPercent: -100,
  duration: 1.2,
  ease: easing
 });
-tl.to(image,  {
+tl.from(image,  {
  xPercent: 100,
  scale: 1.3,
  delay:-1.5,
