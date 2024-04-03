@@ -85,7 +85,7 @@ data() {
 Splitting();
 
 const easing = "sine.out";
-const once = "play complete none none";
+const once = "play complete none reset";
 	
 gsap.set("nav", {
  y:-30
