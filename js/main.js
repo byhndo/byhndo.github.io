@@ -291,18 +291,23 @@ let revealContainers = container.querySelectorAll(".item");
  });
 
 tl.set(el, { autoAlpha: 1, opacity:1, xPercent:-100 });
-  tl.to(el, {
-    duration:1.5,
-    xPercent: 0,
-    ease: easing
-  });
-  tl.fromTo(image, {xPercent:100}, {
-    duration: 1.5,
-    xPercent: 0,
-    delay:-1.5,
-    scale: 1,
-    ease: easing
-  });
+tl.to(el, {
+ duration:1.5,
+ xPercent: 0,
+ ease: easing
+});
+tl.set(image, {
+ xPercent:100, 
+ scale:1.3,
+ delay:-1.5
+});
+tl.to(image, {
+ duration: 1.5,
+ xPercent: 0,
+ delay:-1.5,
+ scale: 1,
+ ease: easing
+});
 	 	 
 });
 	
