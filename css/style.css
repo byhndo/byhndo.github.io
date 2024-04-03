@@ -458,7 +458,7 @@ p.sub2 {
  text-align-last:center;
 }
 
-.grid{
+.grid {
  --auto-grid-min-size:10rem;
  display: grid;  
  grid-template-columns: repeat(3, 1fr);
@@ -467,18 +467,19 @@ p.sub2 {
  box-sizing: border-box;
 }
 
-.item{
+.item {
+ position: relative;
  width: 100%;
- break-inside: avoid;
- margin-bottom: 1px;
+ height: 100%;
  visibility: hidden;
- opacity:0;
  overflow: hidden;
+ opacity: 0;
 }
 
 img {
- max-width: 100%;
- border-radius: 0px;
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
  transform-origin:center;
 }
 
