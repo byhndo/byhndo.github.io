@@ -290,15 +290,20 @@ let revealContainers = container.querySelectorAll(".item");
   }, delay:.5
  });
 
-tl.to(el, {
+tl.set(el, {
  autoAlpha:1,
  opacity:1,
+});	 
+tl.to(el, {
+ xPercent: -100,
  duration: 1.2,
  ease: easing
 });
-tl.fromTo(image, {scale:0}, {
- duration:1.2,
- scale:1
+tl.to(image,  {
+ xPercent: 100,
+ scale: 1.3,
+ delay:-1.5,
+ ease: easing
 });
 	 	 
 });
