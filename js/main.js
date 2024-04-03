@@ -290,7 +290,7 @@ let revealContainers = container.querySelectorAll(".item");
 tl.set(el, { autoAlpha: 1, opacity:1, height:0 });
   tl.to(el, {
     duration:1.5,
-    height: "auto",
+    height: "100%",
     ease: easing
   });
   tl.set(image, { 
