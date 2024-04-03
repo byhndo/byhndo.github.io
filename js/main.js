@@ -293,15 +293,20 @@ let revealContainers = container.querySelectorAll(".item");
 tl.set(el, {
  autoAlpha:1,
  opacity:1,
+ xPercent: -100
 });	 
-tl.from(el, {
- xPercent: -100,
+tl.to(el, {
+ xPercent:0,
  duration: 1.2,
  ease: easing
 });
-tl.from(image,  {
+tl.set(image,  {
  xPercent: 100,
- scale: 1.3,
+ scale: 1.3
+});
+tl.to(image,  {
+ xPercent: 0,
+ scale: 1,
  delay:-1.5,
  ease: easing
 });
