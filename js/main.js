@@ -200,10 +200,8 @@ tl.to(gr, {
 });	  
 	 
 const RevealBoxs1 = container.querySelectorAll(".box1");
-const lettersAndSymbols = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '!', '@', '#', '$', '%', '^', '&', '*', '-', '_', '+', '=', ';', ':', '<', '>', ','];  
    RevealBoxs1.forEach((box1, position) => { 	   	   
     const one = box1.querySelectorAll(".one, .one span");
-    let initialHTML = one.innerHTML;
     let tl = gsap.timeline({
     scrollTrigger: {
      trigger: box1,
@@ -276,7 +274,7 @@ tl.to(quote, {
 
 let revealContainers = container.querySelectorAll(".item");
  revealContainers.forEach((el) => {
- const image = el.querySelector("img");
+ const image = el.querySelectorAll("img");
  let tl = gsap.timeline({
  scrollTrigger: {
   trigger: el,
