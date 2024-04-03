@@ -283,7 +283,10 @@ let revealContainers = container.querySelectorAll(".item");
  let tl = gsap.timeline({
  scrollTrigger: {
   trigger: el,
-  toggleActions: once
+  toggleActions: once,
+  scrub: 3,
+  start: "top bottom",
+  end: "center center"
   }, delay:.5
  });
 
