@@ -1,7 +1,5 @@
 gsap.registerPlugin(ScrollTrigger, CustomEase);
-let tl = gsap.timeline({	
- onComplete: contentShow
-});
+
 	
 tl.to(".textload span", {
  autoAlpha:0,
@@ -50,7 +48,15 @@ function contentShow() {
 document.addEventListener("DOMContentLoaded", function(event) {
 window.addEventListener("load", function(event) {
 window.requestAnimationFrame(function() {
-			
+
+
+let tl = gsap.timeline({	
+ onComplete: contentShow
+});
+
+
+
+	
 $('.one').each(function(){
   $(this).html($(this).text().replace(/\S/g, "<span>$&</span>"));
 });
