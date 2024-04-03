@@ -42,9 +42,6 @@ tl.to(".col5", {
  ease:"power2.out"
 }, "-=.64"); 
 
-
-function contentShow() {
-	
 document.addEventListener("DOMContentLoaded", function(event) {
 window.addEventListener("load", function(event) {
 window.requestAnimationFrame(function() {
@@ -56,7 +53,8 @@ let tl = gsap.timeline({
 
 
 
-	
+function contentShow() {
+		
 $('.one').each(function(){
   $(this).html($(this).text().replace(/\S/g, "<span>$&</span>"));
 });
@@ -370,10 +368,8 @@ $('html, body').css({
 })
 
 
-});
-});
-});
-
-
-
 }
+
+});
+});
+});
