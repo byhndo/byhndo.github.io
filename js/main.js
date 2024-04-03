@@ -287,24 +287,22 @@ let revealContainers = container.querySelectorAll(".item");
   }, delay:.5
  });
 
-tl.set(el, { autoAlpha: 1, opacity:1, height:0 });
+tl.set(el, { autoAlpha: 1, opacity:1 });
   tl.to(el, {
     duration:1.5,
-    height: "100%",
     ease: easing
   });
   tl.set(image, { 
-    scale:1.3,
-    delay:-1.5
+    delay:-1.5,
+    scale:0
   });
   tl.to(image, {
     duration: 1.5,
-    x: 0,
     delay:-1.5,
-    scale: 1,
+    scale:1,   
     ease: easing
   });
-	 	 
+	 
 });
 	
 const RevealBoxs4 = container.querySelectorAll(".box4");
