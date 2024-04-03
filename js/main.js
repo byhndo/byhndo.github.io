@@ -290,16 +290,16 @@ let revealContainers = container.querySelectorAll(".item");
   }, delay:.5
  });
 
-tl.fromTo(el, {scale:0}, {
+tl.to(el, {
  autoAlpha:1,
  opacity:1,
- scale:1,
  duration: 1.2,
  ease: easing
 });
-tl.to(image, {
- duration:1.2  
-}, 0);
+tl.fromTo(image, {scale:0}, {
+ duration:1.2,
+ scale:1
+});
 	 	 
 });
 	
