@@ -170,12 +170,9 @@ const RevealSc = container.querySelectorAll(".sc");
      }, delay:.5
      }); 
 
-tl.fromTo(pl, {
- opacity:0 },
- {
+tl.to(pl, {
  autoAlpha:1,
  opacity:1,
- scaleY:1,
  duration:1,     
  ease:easing
 });
@@ -290,24 +287,23 @@ let revealContainers = container.querySelectorAll(".item");
   }, delay:.5
  });
 
-tl.set(el, { autoAlpha: 1, opacity:1, xPercent:-100 });
-tl.to(el, {
- duration:1.5,
- xPercent: 0,
- ease: easing
-});
-tl.set(image, {
- xPercent:100, 
- scale:1.3,
- delay:-1.5
-});
-tl.to(image, {
- duration: 1.5,
- xPercent: 0,
- delay:-1.5,
- scale: 1,
- ease: easing
-});
+tl.set(el, { autoAlpha: 1, opacity:1, height:0 });
+  tl.to(el, {
+    duration:1.5,
+    height: "auto",
+    ease: easing
+  });
+  tl.set(image, { 
+    scale:1.3,
+    delay:-1.5
+  });
+  tl.to(image, {
+    duration: 1.5,
+    x: 0,
+    delay:-1.5,
+    scale: 1,
+    ease: easing
+  });
 	 	 
 });
 	
