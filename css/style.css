@@ -459,9 +459,11 @@ p.sub2 {
 }
 
 .grid{
- margin: 0 auto;
- columns: 3;
- gap: 7px;
+ --auto-grid-min-size:10rem;
+ display: grid;  
+ grid-template-columns: repeat(3, 1fr);
+ grid-template-rows: masonry;
+ gap: 2vw;
  box-sizing: border-box;
 }
 
