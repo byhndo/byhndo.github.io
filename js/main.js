@@ -293,8 +293,7 @@ tl.to(el, {
  duration: 1.5
 });  
 tl.to(image, {
- duration: 1.5,
- ease: easing
+ duration: 1.5
 }); 
 	 
 });
