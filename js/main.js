@@ -4,7 +4,7 @@ window.requestAnimationFrame(function() {
 
 gsap.registerPlugin(ScrollTrigger, CustomEase);
 let tl = gsap.timeline({	
- onComplete: contentShow
+ onStart: contentShow
 });
 	
 tl.to(".textload span", {
