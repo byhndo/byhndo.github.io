@@ -52,22 +52,22 @@
 
 .col1{
  left:0;
- width:10%        
+ width:20%        
 }
 
 .col2{
- left:10%;
+ left:20%;
  width:20%;    
 }
 
 .col3{
- left:30%;
- width:30%;    
+ left:40%;
+ width:20%;    
 }
 
 .col4{
- left:50%;    
- width:30%;
+ left:60%;    
+ width:20%;
 }
 
 .col5{
