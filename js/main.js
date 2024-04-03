@@ -298,7 +298,7 @@ tl.fromTo(el, {scale:0}, {
  ease: easing
 });
 tl.to(image, {
- duration:2.2	  
+ duration:1.2  
 }, 0);
 	 	 
 });
