@@ -1,6 +1,9 @@
 gsap.registerPlugin(ScrollTrigger, CustomEase);
 
-	
+let tl = gsap.timeline({	
+ onComplete: contentShow
+});
+
 tl.to(".textload span", {
  autoAlpha:0,
  opacity:0,
@@ -45,13 +48,6 @@ tl.to(".col5", {
 document.addEventListener("DOMContentLoaded", function(event) {
 window.addEventListener("load", function(event) {
 window.requestAnimationFrame(function() {
-
-
-let tl = gsap.timeline({	
- onComplete: contentShow
-});
-
-
 
 function contentShow() {
 		
