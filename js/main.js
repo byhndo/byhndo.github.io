@@ -286,7 +286,8 @@ let revealContainers = container.querySelectorAll(".item");
 tl.set(el, { autoAlpha: 1, scale:0 });
 tl.to(el, {
  scale:1,
- duration: 1.5
+ duration: 1.5,
+ ease: "cubic.out"
 });  
 tl.to(image, {
  duration: 1.5
