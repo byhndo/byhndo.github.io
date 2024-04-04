@@ -162,7 +162,7 @@ h1 .char, .sub-title .char{
  line-height:2.3;
  font-size:11px;
  font-family: var(--font2);
- color: var(--c2);
+ color: var(--c4);
  font-weight:400;
  transition-delay: 2s;
  transition: color 4s;
@@ -170,7 +170,7 @@ h1 .char, .sub-title .char{
 }
 
 .photos .sub-title{
-  color:var(--c1);
+  color:var(--c3);
 }
 
 .indicator {
