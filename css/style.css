@@ -28,7 +28,7 @@
  left: 50%;
  transform: translateX(-50%) translateY(-50%);
  z-index:1000;  
- color:var(--c4);
+ color:var(--c3);
  font-family:var(--font1);
  font-weight:400;
  font-size:28px;
@@ -42,7 +42,7 @@
 
 .loader {
  position:fixed;
- background:var(--c3);
+ background:var(--c4);
  height:100%; 
  z-index:500;
  top:0;
