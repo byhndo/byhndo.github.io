@@ -28,7 +28,7 @@
  left: 50%;
  transform: translateX(-50%) translateY(-50%);
  z-index:1000;  
- color:var(--c3);
+ color:var(--c1);
  font-family:var(--font1);
  font-weight:400;
  font-size:28px;
