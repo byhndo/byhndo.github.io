@@ -86,6 +86,49 @@ Splitting();
 
 const easing = "sine.out";
 const once = "play complete none reset";
+
+$('html, body').css({
+  'overflow': 'auto',
+  'height': 'auto'
+})
+
+var isSafari = /constructor/i.test(window.HTMLElement);
+var isFF = !!navigator.userAgent.match(/firefox/i);
+
+if (isSafari) {
+  document.getElementsByTagName('html')[0].classList.add('safari');
+}
+
+initBt1();
+function initBt1() {
+  var bt = document.querySelectorAll('#wtr')[0];
+  var turb = document.querySelectorAll('#filter-ripple-1 feImage')[0];
+  var dm = document.querySelectorAll('#filter-ripple-1 feDisplacementMap')[0];
+  
+  bt.addEventListener('click', function(e) {
+    tl = gsap.timeline({paused:true});
+    tl.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 0, y: isFF ? e.offsetY : e.offsetY + 0, width: 0, height: 0 } });
+    tl.to(turb, 3, { attr: { x: '-=300', y: '-=230', width: 600, height: 600 } });
+    tl.fromTo(dm, 2, { attr: { scale: 30 } }, { attr: { scale: 0 } }, 0);
+    tl.restart();
+  });
+}
+
+initBt2();
+function initBt2() {
+  var bt = document.querySelectorAll('#wtr2')[0];
+  var turb = document.querySelectorAll('#filter-ripple-2 feImage')[0];
+  var dm = document.querySelectorAll('#filter-ripple-2 feDisplacementMap')[0];
+  
+  bt.addEventListener('click', function(e) {
+    tl = gsap.timeline({paused:true});
+    tl.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 0, y: isFF ? e.offsetY : e.offsetY + 0, width: 0, height: 0 } });
+    tl.to(turb, 3, { attr: { x: '-=300', y: '-=230', width: 600, height: 600 } });
+    tl.fromTo(dm, 2, { attr: { scale: 30 } }, { attr: { scale: 0 } }, 0);
+    tl.restart();
+  });
+}	
+
 	
 gsap.set("nav", {
  y:-30
@@ -320,49 +363,6 @@ tl.to(footer, {
 	 
 });
 }
-	
-
-var isSafari = /constructor/i.test(window.HTMLElement);
-var isFF = !!navigator.userAgent.match(/firefox/i);
-
-if (isSafari) {
-  document.getElementsByTagName('html')[0].classList.add('safari');
-}
-
-initBt1();
-function initBt1() {
-  var bt = document.querySelectorAll('#wtr')[0];
-  var turb = document.querySelectorAll('#filter-ripple-1 feImage')[0];
-  var dm = document.querySelectorAll('#filter-ripple-1 feDisplacementMap')[0];
-  
-  bt.addEventListener('click', function(e) {
-    tl = gsap.timeline({paused:true});
-    tl.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 0, y: isFF ? e.offsetY : e.offsetY + 0, width: 0, height: 0 } });
-    tl.to(turb, 3, { attr: { x: '-=300', y: '-=230', width: 600, height: 600 } });
-    tl.fromTo(dm, 2, { attr: { scale: 30 } }, { attr: { scale: 0 } }, 0);
-    tl.restart();
-  });
-}
-
-initBt2();
-function initBt2() {
-  var bt = document.querySelectorAll('#wtr2')[0];
-  var turb = document.querySelectorAll('#filter-ripple-2 feImage')[0];
-  var dm = document.querySelectorAll('#filter-ripple-2 feDisplacementMap')[0];
-  
-  bt.addEventListener('click', function(e) {
-    tl = gsap.timeline({paused:true});
-    tl.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 0, y: isFF ? e.offsetY : e.offsetY + 0, width: 0, height: 0 } });
-    tl.to(turb, 3, { attr: { x: '-=300', y: '-=230', width: 600, height: 600 } });
-    tl.fromTo(dm, 2, { attr: { scale: 30 } }, { attr: { scale: 0 } }, 0);
-    tl.restart();
-  });
-}
-	
-$('html, body').css({
-  'overflow': 'auto',
-  'height': 'auto'
-})
 
 	
 }
