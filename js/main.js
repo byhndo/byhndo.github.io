@@ -326,10 +326,10 @@ let revealContainers = container.querySelectorAll(".item");
   }, delay:.5
  });
 
-tl.set(el, { 
+tl.staggerSet(el, { 
  scale:0
 });
-tl.to(el, {
+tl.staggerTo(el, {
  autoAlpha: 1,
  opacity:1,
  duration: 1.5,
