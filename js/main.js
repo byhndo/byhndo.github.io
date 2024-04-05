@@ -323,13 +323,13 @@ let revealContainers = container.querySelectorAll(".item");
  scrollTrigger: {
   trigger: el,
   toggleActions: once
-  }, delay:.5, Math.random() * 2)
+  }, delay:.5
  });
 
 tl.set(el, { autoAlpha: 1, scale:0 });
 tl.to(el, {
  scale:1,
- duration: 1.5,
+ duration: gsap.utils.random(.3, 1.5),
  ease: "cubic.out"
 });  
 tl.to(image, {
