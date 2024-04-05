@@ -343,7 +343,7 @@ tl.to(image, {
 
 
 el.animation = tl; 
-ScrollTrigger.batch(RevealContainers, {
+ScrollTrigger.batch(revealContainers, {
   onEnter: elements => elements.forEach((e, i) => e.animation.delay(i * 0.2).restart(true)),
   once: false
 });	 
