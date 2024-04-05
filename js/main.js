@@ -326,9 +326,8 @@ let revealContainers = container.querySelectorAll(".item");
   }, delay:.5
  });
 
-tl.set(el, { autoAlpha: 1, scale:0,  x: () => gsap.utils.random(-200, 200), y: () => gsap.utils.random(-150, 150), rotation:gsap.utils.random(0, 360) });
+tl.set(el, { autoAlpha: 1,  x: () => gsap.utils.random(-200, 200), y: () => gsap.utils.random(-150, 150), rotation:gsap.utils.random(0, 360) });
 tl.to(el, {
- scale:1,
  duration: 1.5,
  x: 0,
  y: 0,
