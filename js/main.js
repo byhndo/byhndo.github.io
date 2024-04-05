@@ -291,13 +291,19 @@ tl.to(box2, {
 }); 
 
 box2.animation = tl; 
+	 
+		 	                                                                                                                  
+});
+
+
 ScrollTrigger.batch(RevealBoxs2, {
   onEnter: elements => elements.forEach((e, i) => e.animation.delay(i * 0.2).restart(true)),
   once: false
 });
+
+
+
 	 
-		 	                                                                                                                  
-});	
 
 const RevealBoxs3 = container.querySelectorAll(".box3");
  RevealBoxs3.forEach((box3) => {
