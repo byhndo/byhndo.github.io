@@ -317,7 +317,7 @@ tl.to(quote, {
 });
 
 let revealContainers = container.querySelectorAll(".item");
- revealContainers.forEach((el, i) => {
+ revealContainers.forEach((el) => {
  let image = el.querySelector("img");
  let tl = gsap.timeline({
  scrollTrigger: {
@@ -330,7 +330,7 @@ tl.set(el, { autoAlpha: 1, scale:0 });
 tl.to(el, {
  scale:1,
  duration: 1.5,
- Math.random() i * 2),
+ Math.random() * 2),
  ease: "cubic.out"
 });  
 tl.to(image, {
