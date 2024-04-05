@@ -269,7 +269,7 @@ tl.to(one, {
 });
 	  
 const RevealBoxs2 = container.querySelectorAll(".box2");
- RevealBoxs2.forEach((box2) => {
+ RevealBoxs2.forEach((box2, i) => {
  const two = box2.querySelectorAll(".two");                              
  let tl = gsap.timeline({
  scrollTrigger: {
@@ -287,6 +287,7 @@ tl.to(two, {
  opacity:1,
  y:0,
  duration:1,
+ delay: .2 * i,
  ease:easing
 }); 
 		 	                                                                                                                  
