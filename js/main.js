@@ -287,7 +287,6 @@ tl.to(two, {
  opacity:1,
  y:0,
  duration:1,
- stagger: 0.2,
  ease:easing
 }); 
 		 	                                                                                                                  
@@ -335,7 +334,7 @@ tl.to(el, {
  opacity:1,
  duration: 1.5,
  scale:1,
- stagger: 0.2,
+ stagger: 1,
  ease: "cubic.out"
 });  
 tl.to(image, {
