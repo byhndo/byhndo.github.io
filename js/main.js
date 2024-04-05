@@ -278,11 +278,11 @@ const RevealBoxs2 = container.querySelectorAll(".box2");
  }, delay: .3
  });  
 	 
-tl.set(two, {
+tl.set(box2, {
  y:100
 });   
 	 
-tl.to(two, {
+tl.to(box2, {
  autoAlpha:1, 
  opacity:1,
  y:0,
@@ -290,7 +290,7 @@ tl.to(two, {
  ease:easing
 }); 
 
-two.animation = tl; 
+box2.animation = tl; 
 ScrollTrigger.batch(RevealBoxs2, {
   onEnter: elements => elements.forEach((e, i) => e.animation.delay(i * 0.2).restart(true)),
   once: false
