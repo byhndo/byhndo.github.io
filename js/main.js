@@ -335,19 +335,12 @@ tl.to(el, {
  opacity:1,
  duration: 1.5,
  scale:1,
+ delay: gsap.utils.random(.3, 1),	
  ease: "cubic.out"
 });  
 tl.to(image, {
  duration: 1.5
-}); 
-
-
-el.animation = tl; 
-ScrollTrigger.batch(revealContainers, {
-  onEnter: elements => elements.forEach((e, i) => e.animation.delay(i * 0.2).restart(true)),
-  once: false
-});	 
-	 
+}); 	 
 	 
 });
 	
