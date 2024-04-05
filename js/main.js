@@ -326,12 +326,11 @@ let revealContainers = container.querySelectorAll(".item");
   }, delay:.5
  });
 
-tl.set(el, { autoAlpha: 1,  x: () => gsap.utils.random(-200, 200), y: () => gsap.utils.random(-150, 150), rotation:gsap.utils.random(0, 360) });
+tl.set(el, { 
+ autoAlpha: 1   
+});
 tl.to(el, {
  duration: 1.5,
- x: 0,
- y: 0,
- rotation: 0,
  stagger: { each: 0.05, grid: 'auto', from: 'random'},
  ease: "cubic.out"
 });  
