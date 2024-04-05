@@ -328,14 +328,13 @@ let revealContainers = container.querySelectorAll(".item");
  });
 
 tl.set(el, { 
- autoAlpha: 1,
- opacity:0,
  scale:0
 });
 tl.to(el, {
+ autoAlpha: 1,
+ opacity:1,
  duration: 1.5,
  scale:1,
- opacity:1,
  stagger: 0.2,
  ease: "cubic.out"
 });  
