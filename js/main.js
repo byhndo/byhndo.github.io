@@ -211,7 +211,7 @@ const RevealSc = container.querySelectorAll(".sc");
     scrollTrigger: {
      trigger:sc,
      toggleActions: once
-     }, delay:.5
+     }, delay:.3
      }); 
 
 tl.to(pl, {
@@ -230,7 +230,7 @@ const RevealBoxs = container.querySelectorAll(".box");
     scrollTrigger: {
      trigger: box,
      toggleActions: once
-     }, delay:.5
+     }, delay:.3
      }); 
 	   	   
 tl.to(gr, {
@@ -250,7 +250,7 @@ const RevealBoxs1 = container.querySelectorAll(".box1");
     scrollTrigger: {
      trigger: box1,
      toggleActions: once
-     }, delay:.5
+     }, delay:.3
      }); 
 	   
 tl.set(one, { 
@@ -275,7 +275,7 @@ const RevealBoxs2 = container.querySelectorAll(".box2");
  scrollTrigger: {
   trigger: box2,
   toggleActions: once
- }, delay: .5
+ }, delay: .3
  });  
 	 
 tl.set(two, {
@@ -299,7 +299,7 @@ const RevealBoxs3 = container.querySelectorAll(".box3");
  scrollTrigger: {
   trigger: box3,
   toggleActions: once
- }, delay: .5
+ }, delay: .3
  });  
 	 
 tl.set(quote, {
@@ -324,7 +324,7 @@ tl.to(quote, {
  scrollTrigger: {
   trigger: el,
   toggleActions: once
-  }, delay:.5
+  }, delay:.3
  });
 
 tl.set(el, { 
@@ -351,7 +351,7 @@ const RevealBoxs4 = container.querySelectorAll(".box4");
  scrollTrigger: {
   trigger: box4,
   toggleActions: once
- }, delay: .5
+ }, delay: .3
  });  
 
 tl.set(footer, {
