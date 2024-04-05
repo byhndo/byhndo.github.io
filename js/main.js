@@ -289,6 +289,13 @@ tl.to(two, {
  duration:1,
  ease:easing
 }); 
+
+box2.animation = tl; 
+ScrollTrigger.batch(revealContainers, {
+  onEnter: elements => elements.forEach((e, i) => e.animation.delay(i * 0.2).restart(true)),
+  once: false
+});
+	 
 		 	                                                                                                                  
 });	
 
