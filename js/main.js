@@ -291,7 +291,7 @@ tl.to(two, {
 }); 
 
 box2.animation = tl; 
-ScrollTrigger.batch(revealContainers, {
+ScrollTrigger.batch(RevealBoxs2, {
   onEnter: elements => elements.forEach((e, i) => e.animation.delay(i * 0.2).restart(true)),
   once: false
 });
