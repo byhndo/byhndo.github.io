@@ -91,7 +91,7 @@ body {
  color: var(--c2);
  font-size: var(--sizebody);
  font-weight:var(--fwbody);
- line-height:1.6;
+ line-height:1.4;
  word-wrap: break-word;
  text-rendering: optimizeLegibility !important;
  -webkit-font-smoothing: antialiased !important;
