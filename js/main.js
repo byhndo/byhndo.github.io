@@ -323,7 +323,7 @@ let revealContainers = container.querySelectorAll(".item");
  scrollTrigger: {
   trigger: el,
   toggleActions: once
-  }, delay:.5
+  }, delay:.5, stagger: 1
  });
 
 tl.set(el, { 
@@ -334,7 +334,6 @@ tl.to(el, {
  opacity:1,
  duration: 1.5,
  scale:1,
- stagger: 1,
  ease: "cubic.out"
 });  
 tl.to(image, {
