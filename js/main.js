@@ -317,8 +317,7 @@ tl.to(quote, {
 });
 
 
-var revealContainers = gsap.utils.toArray(".item");
-/* let revealContainers = container.querySelectorAll(".item"); */
+ let revealContainers = container.querySelectorAll(".item"); 
  revealContainers.forEach((el) => {
  let image = el.querySelectorAll("img");
  let tl = gsap.timeline({
@@ -336,7 +335,6 @@ tl.to(el, {
  opacity:1,
  duration: 1.5,
  scale:1,
- stagger: .9,
  ease: "cubic.out"
 });  
 tl.to(image, {
