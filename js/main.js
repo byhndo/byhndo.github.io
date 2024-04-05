@@ -320,16 +320,17 @@ let revealContainers = container.querySelectorAll(".item");
  revealContainers.forEach((el) => {
  let image = el.querySelector("img");
  let tl = gsap.timeline({
+ defaults: {stagger: 0.2},
  scrollTrigger: {
   trigger: el,
   toggleActions: once
   }, delay:.5
  });
 
-tl.staggerSet(el, { 
+tl.set(el, { 
  scale:0
 });
-tl.staggerTo(el, {
+tl.to(el, {
  autoAlpha: 1,
  opacity:1,
  duration: 1.5,
