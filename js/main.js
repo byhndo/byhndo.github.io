@@ -328,11 +328,13 @@ let revealContainers = container.querySelectorAll(".item");
 
 tl.set(el, { 
  autoAlpha: 1,
+ opacity:0,
  scale:0
 });
 tl.to(el, {
  duration: 1.5,
  scale:1,
+ opacity:1,
  ease: "cubic.out"
 });  
 tl.to(image, {
