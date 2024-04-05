@@ -289,12 +289,6 @@ tl.to(two, {
  duration:1,
  ease:easing
 }); 
-
-box2.animation = tl; 
-ScrollTrigger.batch(RevealBoxs2, {
-  onEnter: elements => elements.forEach((e, i) => e.animation.delay(i * 0.2).restart(true)),
-  once: false
-});	 
 		 	                                                                                                                  
 });
 
@@ -347,6 +341,14 @@ tl.to(el, {
 tl.to(image, {
  duration: 1.5
 }); 
+
+
+el.animation = tl; 
+ScrollTrigger.batch(RevealContainers, {
+  onEnter: elements => elements.forEach((e, i) => e.animation.delay(i * 0.2).restart(true)),
+  once: false
+});	 
+	 
 	 
 });
 	
