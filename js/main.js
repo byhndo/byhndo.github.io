@@ -323,7 +323,7 @@ let revealContainers = container.querySelectorAll(".item");
  scrollTrigger: {
   trigger: el,
   toggleActions: once
-  }, delay:.5, stagger: 1
+  }, delay:.5
  });
 
 tl.set(el, { 
