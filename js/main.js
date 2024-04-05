@@ -326,11 +326,11 @@ let revealContainers = container.querySelectorAll(".item");
   }, delay:.5
  });
 
-tl.set(el, { autoAlpha: 1, scale:0, rotation:0 });
+tl.set(el, { autoAlpha: 1, scale:0, rotation:gsap.utils.wrap([-180, 180]) });
 tl.to(el, {
  scale:1,
  duration: 1.5,
- rotation:gsap.utils.wrap([-180, 180]),
+ rotation: 0,
  ease: "cubic.out"
 });  
 tl.to(image, {
