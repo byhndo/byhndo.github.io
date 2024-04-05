@@ -335,7 +335,6 @@ tl.to(el, {
  opacity:1,
  duration: 1.5,
  scale:1,
- delay: gsap.utils.random(.01, 1),
  ease: "cubic.out"
 });  
 tl.to(image, {
