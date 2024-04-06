@@ -269,30 +269,59 @@ tl.to(one, {
 });
 	  
 const RevealBoxs2 = container.querySelectorAll(".box2");
- RevealBoxs2.forEach((box2, i) => {
- const two = box2.querySelectorAll(".two");                              
- let tl = gsap.timeline({
- scrollTrigger: {
-  trigger: box2,
-  toggleActions: once
- }, delay: .3
- });  
-	 
-tl.set(two, {
- y:100
-});   
-	 
-tl.to(two, {
- autoAlpha:1, 
- opacity:1,
- y:0,
- duration:1,
- delay: .2 * i,
- ease:easing
-}); 
-		 	                                                                                                                  
-});
 
+let cols = 1;
+
+for (let i = 0; i < RevealBoxs2.length; i += cols) {
+  let containers = []
+  for (let j = 0; j < cols; j++) {
+    containers.push(RevealBoxs2[i + j]);
+  }  
+  
+  createTrigger(containers);
+}
+
+function createTrigger(containers) {
+     
+  let tl = gsap.timeline({
+    scrollTrigger: {
+      trigger: containers[0],
+      toggleActions :once
+    }
+  }) 
+
+tl.set(containers, { scale:0})
+  
+  containers.forEach((box2, i) => {
+    let two = box2.querySelectorAll(".two");
+    
+    let subTl = gsap.timeline()
+      .to(box2, {
+        autoAlpha:1,
+        opacity:1,
+        scale:1
+      })
+      
+      .set(two, {
+       y:100
+      });   
+	 
+     .to(two, {
+      autoAlpha:1, 
+      opacity:1,
+      y:0,
+      duration:1,
+      ease:easing
+      }); 
+    
+    tl.add(subTl, i * 0.1);
+  });    
+}
+
+
+
+
+	 
 const RevealBoxs3 = container.querySelectorAll(".box3");
  RevealBoxs3.forEach((box3) => {
  const quote = box3.querySelectorAll(".quote, .quote span");                              
