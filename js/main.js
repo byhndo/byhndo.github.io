@@ -314,7 +314,7 @@ tl.set(containers, { scale:0})
       ease:easing
       }); 
     
-    tl.add(subTl, i * 0.1);
+    tl.add(subTl, i * 0.3);
   });    
 }
 
