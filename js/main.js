@@ -304,7 +304,7 @@ tl.set(containers, { scale:0})
       
       .set(two, {
        y:100
-      });   
+      })  
 	 
      .to(two, {
       autoAlpha:1, 
