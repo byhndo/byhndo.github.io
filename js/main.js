@@ -318,32 +318,47 @@ tl.to(quote, {
 });
 
 
- let revealContainers = container.querySelectorAll(".item"); 
- revealContainers.forEach((el) => {
- let image = el.querySelectorAll("img");
- let tl = gsap.timeline({
- scrollTrigger: {
-  trigger: el,
-  toggleActions: once
-  }, delay:.3
- });
+let revealContainers = container.querySelectorAll(".item"); 
 
-tl.set(el, { 
- scale:0
-});
-tl.to(el, {
- autoAlpha: 1,
- opacity:1,
- duration: 1.5,
- scale:1,
- delay: gsap.utils.random(.3, 1),	
- ease: "cubic.out"
-});  
-tl.to(image, {
- duration: 1.5
-}); 	 
-	 
-});
+let cols = 3;
+
+for (let i = 0; i < revealContainers.length; i += cols) {
+  let containers = []
+  for (let j = 0; j < cols; j++) {
+    containers.push(revealContainers[i + j]);
+  }  
+  
+  createTrigger(containers);
+}
+
+function createTrigger(containers) {
+     
+  let tl = gsap.timeline({
+    scrollTrigger: {
+      trigger: containers[0],
+      toggleActions: once
+    }
+  })	 
+	   
+  tl.set(containers, { scale:0 })
+  
+  containers.forEach((el, i) => {
+    let image = el.querySelector("img");    
+    let subTl = gsap.timeline()
+      .to(el, {
+        autoAlpha:1,
+        opacity:1,
+        scale:1
+      })
+      .to(image, {
+        duration:1
+      });
+    
+    tl.add(subTl, i * 0.1);
+  });    
+}
+		 
+	 	 	
 	
 const RevealBoxs4 = container.querySelectorAll(".box4");
  RevealBoxs4.forEach((box4) => {
