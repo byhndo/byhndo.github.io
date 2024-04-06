@@ -288,9 +288,9 @@ tl.to(two, {
  opacity: 1,
  duration: 1,
  y: 1,
- stagger: 1,
+ stagger: .2,
  ease: easing
-});
+}, i * .2);
 	   
 });      
       
