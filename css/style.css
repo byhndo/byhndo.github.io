@@ -42,7 +42,7 @@
 
 .loader {
  position:fixed;
- background:var(--c4);
+ background:#607274;
  height:100%; 
  z-index:500;
  top:0;
