@@ -288,7 +288,7 @@ tl.to(two, {
  opacity: 1,
  duration: 1,
  y: 1,
- stagger: 0.08 * i,
+ delay: .2 * i,
  ease: easing
 });
 	   
