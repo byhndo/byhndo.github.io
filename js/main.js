@@ -278,10 +278,10 @@ for (let i = 0; i < RevealBoxs2.length; i += cols) {
     containers.push(RevealBoxs2[i + j]);
   }  
   
-  createTrigger(containers);
+  cT(containers);
 }
 
-function createTrigger(containers) {
+function cT(containers) {
      
   let tl = gsap.timeline({
     scrollTrigger: {
