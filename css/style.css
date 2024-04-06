@@ -445,7 +445,7 @@ p.sub2 {
  color: inherit;
  text-align:center;
  padding-top:10px;
- padding-bottom:30px;
+ padding-bottom: var(--marginp);
 }
 
 .b-text{
