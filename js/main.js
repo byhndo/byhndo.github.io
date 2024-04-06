@@ -271,55 +271,29 @@ tl.to(one, {
 
 	 
 const RevealBoxs2 = container.querySelectorAll(".box2");
-
-let cols = 1;
-
-for (let i = 0; i < RevealBoxs2.length; i += cols) {
-  let containers = []
-  for (let j = 0; j < cols; j++) {
-    containers.push(RevealBoxs2[i + j]);
-  }  
-  
-  cT(containers);
-}
-
-function cT(containers) {
-     
-  let tl = gsap.timeline({
+   RevealBoxs2.forEach((box2, i) => { 	   	   
+    const two = box2.querySelectorAll(".two");
+    let tl = gsap.timeline({
     scrollTrigger: {
-      trigger: containers[0],
-      toggleActions :once
-    }
-  }) 
-
-tl.set(containers, { scale:0})
-  
-  containers.forEach((box2, i) => {
-    let two = box2.querySelectorAll(".two");
-    
-    let subTl = gsap.timeline()
-      .to(box2, {
-        autoAlpha:1,
-        opacity:1,
-        scale:1
-      })
+     trigger: box2,
+     toggleActions: once
+     }, delay:.3
+     }); 
+	   
+tl.set(two, { 
+ y:100
+})
+tl.to(two, {
+ autoAlpha: 1,
+ opacity: 1,
+ duration: 1,
+ y: 1,
+ stagger: 0.08 * i,
+ ease: easing
+});
+	   
+});      
       
-      .set(two, {
-       y:100
-      })  
-	 
-     .to(two, {
-      autoAlpha:1, 
-      opacity:1,
-      y:0,
-      duration:1,
-      ease:easing
-      }); 
-    
-    tl.add(subTl, i * 0.3);
-  });    
-}
-
 	 
 const RevealBoxs3 = container.querySelectorAll(".box3");
  RevealBoxs3.forEach((box3) => {
