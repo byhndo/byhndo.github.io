@@ -346,7 +346,7 @@ tl.to(quote, {
 	 	                                                                                                                  
 });
 
-
+/*
 let revealContainers = container.querySelectorAll(".item"); 
 
 let cols = 3;
@@ -386,9 +386,40 @@ function createTrigger(containers) {
     tl.add(subTl, i * 0.1);
   });    
 }
-		 
+*/		 
 	 	 	
-	
+
+
+let revealContainers = container.querySelectorAll(".item"); 
+ revealContainers.forEach((el) => {
+ let image = el.querySelectorAll("img");
+ let tl = gsap.timeline({
+ scrollTrigger: {
+  trigger: el,
+  toggleActions: once
+  }, delay:.3
+ });
+
+tl.set(el, { 
+ scale:0
+});
+tl.to(el, {
+ autoAlpha: 1,
+ opacity:1,
+ duration: 1.5,
+ scale:1,
+ delay: gsap.utils.random(.3, 1),	
+ ease: "cubic.out"
+});  
+tl.to(image, {
+ duration: 1.5
+}); 	 
+	 
+});
+
+
+
+	 
 const RevealBoxs4 = container.querySelectorAll(".box4");
  RevealBoxs4.forEach((box4) => {
  const footer = box4.querySelectorAll(".footer");                              
