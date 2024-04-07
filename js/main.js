@@ -85,7 +85,7 @@ data() {
 Splitting();
 
 const easing = "sine.out";
-const once = "play pause play reset";
+const once = "play complete none restart";
 
 $('html, body').css({
   'overflow': 'auto',
