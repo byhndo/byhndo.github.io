@@ -93,7 +93,7 @@ $('html, body').css({
   'overflow': 'auto',
   'height': 'auto'
 })
-/*
+
 var isSafari = /constructor/i.test(window.HTMLElement);
 var isFF = !!navigator.userAgent.match(/firefox/i);
 
@@ -130,7 +130,6 @@ function initBt2() {
     tl.restart();
   });
 }	
-*/
 	
 gsap.set("nav", {
  y:-30
