@@ -3,7 +3,7 @@
 gsap.registerPlugin(ScrollTrigger, CustomEase);
 
 let tl = gsap.timeline({	
- onComplete: contentShow,
+ 
  paused: true
 });
 
