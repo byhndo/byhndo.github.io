@@ -1,7 +1,11 @@
+document.addEventListener("DOMContentLoaded", function(event) {
+window.onload = function() {
+window.requestAnimationFrame(function() {
+
+
 gsap.registerPlugin(ScrollTrigger, CustomEase);
 
 let tl = gsap.timeline({	
- paused: true,
  onComplete: contentShow
 });
 
@@ -376,11 +380,6 @@ tl.to(footer, {
 }
 
 
-document.addEventListener("DOMContentLoaded", function(event) {
-window.onload = function() {
-window.requestAnimationFrame(function() {
-
-tl.play();
 
 });     
 };
