@@ -322,7 +322,7 @@ tl.to(quote, {
 });
 
 	 
-let revealContainers = gsap.utils.toArray(".item"); 
+let revealContainers = container.querySelectorAll(".item"); 
  revealContainers.forEach((el) => {
  let image = el.querySelectorAll("img");
  let tl = gsap.timeline({
