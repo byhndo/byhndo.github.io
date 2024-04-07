@@ -1,9 +1,3 @@
-document.addEventListener("DOMContentLoaded", function(event) {
-window.onload = function() {
-window.requestAnimationFrame(function() {
-	
-gsap.registerPlugin(ScrollTrigger, CustomEase);
-
 let tl = gsap.timeline({	
  onComplete: contentShow
 });
@@ -49,6 +43,14 @@ tl.to(".col5", {
  ease:"power2.out"
 }, "-=.64"); 
 
+
+document.addEventListener("DOMContentLoaded", function(event) {
+window.onload = function() {
+window.requestAnimationFrame(function() {
+	
+gsap.registerPlugin(ScrollTrigger, CustomEase);
+
+	
 function contentShow() {
 		
 $('.one').each(function(){
