@@ -1,8 +1,8 @@
 gsap.registerPlugin(ScrollTrigger, CustomEase);
 
 let tl = gsap.timeline({	
- onComplete: contentShow,
- paused: true
+ paused: true,
+ onComplete: contentShow
 });
 
 tl.to(".textload span", {
