@@ -324,7 +324,6 @@ const revealContainers = container.querySelectorAll(".item");
  revealContainers.forEach((el) => {
  const image = el.querySelectorAll("img");
  let tl = gsap.timeline({ 
- paused: true,
  scrollTrigger: {
   trigger: el,
   toggleActions: once
@@ -343,8 +342,6 @@ tl.to(el, {
  ease: "cubic.out"
 });  
 
-tl.play();
- 
 });
 	
 	 
