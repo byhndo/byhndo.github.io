@@ -1,3 +1,6 @@
+document.addEventListener("DOMContentLoaded", function(event) {
+window.onload = function() {
+window.requestAnimationFrame(function() {
 
 
 gsap.registerPlugin(ScrollTrigger, CustomEase);
@@ -378,4 +381,6 @@ tl.to(footer, {
 
 
 
-
+});
+}
+});
