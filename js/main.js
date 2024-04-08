@@ -320,7 +320,7 @@ tl.to(quote, {
 	 	                                                                                                                  
 });
 
-window.addEventListener("load", () => {	 
+	 
 let revealContainers = container.querySelectorAll(".item"); 
  revealContainers.forEach((el) => {
  let image = el.querySelectorAll("img");
@@ -331,6 +331,7 @@ let revealContainers = container.querySelectorAll(".item");
   }, delay:.3
  });
 
+window.addEventListener("load", () => {		 
 tl.set(el, { 
  scale:0
 });
@@ -344,11 +345,13 @@ tl.to(el, {
 });  
 tl.to(image, {
  duration: 1.5
-}); 	 
-	 
-});
+}); 	
 
 });
+	
+	 
+});
+	
 	 
 const RevealBoxs4 = container.querySelectorAll(".box4");
  RevealBoxs4.forEach((box4) => {
