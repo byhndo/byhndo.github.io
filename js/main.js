@@ -339,7 +339,8 @@ tl.to(el, {
  duration: 1.5,
  scale:1,
  delay: gsap.utils.random(.3, 1),	
- ease: "cubic.out"
+ ease: "cubic.out",
+ immediateRender: true
 });  
  
 });
