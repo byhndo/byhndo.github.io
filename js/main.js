@@ -325,11 +325,13 @@ const revealContainers = container.querySelectorAll(".item");
  const image = el.querySelectorAll("img");
  let tl = gsap.timeline({
  scrollTrigger: {
+  onComplete: showImage,
   trigger: el,
   toggleActions: once
   }, delay:.3
  });
-		 
+
+function showImage() {	 
 tl.set(el, { 
  scale:0
 });
@@ -342,6 +344,7 @@ tl.to(el, {
  ease: "cubic.out",
  immediateRender: true
 });  
+}
  
 });
 	
