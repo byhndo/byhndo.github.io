@@ -330,8 +330,7 @@ let revealContainers = container.querySelectorAll(".item");
   toggleActions: once
   }, delay:.3
  });
-
-window.addEventListener("load", () => {		 
+		 
 tl.set(el, { 
  scale:0
 });
@@ -346,10 +345,7 @@ tl.to(el, {
 tl.to(image, {
  duration: 1.5
 }); 	
-
-});
-	
-	 
+ 
 });
 	
 	 
