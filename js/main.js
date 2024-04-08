@@ -1,6 +1,5 @@
 window.addEventListener("DOMContentLoaded", (event) => {
 window.addEventListener("load", (event) => {
-window.requestAnimationFrame(function() {
 
 
 gsap.registerPlugin(ScrollTrigger);
@@ -381,6 +380,5 @@ tl.to(footer, {
 
 
 
-});
 });
 });
