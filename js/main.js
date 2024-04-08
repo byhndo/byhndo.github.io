@@ -1,9 +1,9 @@
-document.addEventListener("DOMContentLoaded", function(event) {
+window.addEventListener("DOMContentLoaded", function() {	
 window.onload = function() {
 window.requestAnimationFrame(function() {
 
 
-gsap.registerPlugin(ScrollTrigger, CustomEase);
+gsap.registerPlugin(ScrollTrigger);
 
 let tl = gsap.timeline({	
  onComplete: contentShow
