@@ -1,4 +1,3 @@
-document.addEventListener("DOMContentLoaded", function(event) {
 
 
 gsap.registerPlugin(ScrollTrigger, CustomEase);
@@ -379,4 +378,4 @@ tl.to(footer, {
 
 
 
-});
+
