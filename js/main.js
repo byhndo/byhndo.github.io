@@ -1,5 +1,5 @@
-document.addEventListener("DOMContentLoaded", (event) => {
-window.onload = function() {
+window.addEventListener("DOMContentLoaded", function(event) {
+window.addEventListener("load", function(event) {
 window.requestAnimationFrame(function() {
 
 
@@ -382,5 +382,5 @@ tl.to(footer, {
 
 
 });
-}
+});
 });
