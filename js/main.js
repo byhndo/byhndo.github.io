@@ -1,4 +1,4 @@
-window.addEventListener("load", () => {
+document.addEventListener("DOMContentLoaded", (event) => {
 window.onload = function() {
 window.requestAnimationFrame(function() {
 
