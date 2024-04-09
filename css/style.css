@@ -54,6 +54,7 @@
 }
 
 .spin {
+ z-index:2000;
  display:grid;
  place-items:center;
  width: 23px;
