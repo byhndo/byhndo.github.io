@@ -339,6 +339,7 @@ tl.to(el, {
  scale:1,
  duration: 1.5,
  delay: gsap.utils.random(.3, 1),
+ rotation: gsap.utils.random(-360, 360),
  ease: easing 		
 });  
  
