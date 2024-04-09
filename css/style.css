@@ -9,7 +9,7 @@
  --c4: #495057;
  --soc1: #495057;
  --soc2: #ced4da;
- --gold:#BF9742;
+ --gold: #A47E3B;
  --sizebody:12px;
  --sizetitle:17vw;
  --sizenav:9px;
@@ -106,7 +106,7 @@ body {
 }
 
 h2, h3, h4, h5, h6, h7 {
- font-family:var(--font3);
+ font-family:var(--font2);
  font-weight:500;
  letter-spacing:-1px;
 }
