@@ -1,11 +1,9 @@
+document.addEventListener("DOMContentLoaded", function(event) {
+window.addEventListener("load", function(e) {
 
 let tl = gsap.timeline({	
  onComplete: contentShow
 });
-
-document.addEventListener("DOMContentLoaded", function(event) {
-window.addEventListener("load", function(e) {
-
 
 tl.to(".textload span", {
  autoAlpha:0,
@@ -47,8 +45,6 @@ tl.to(".col5", {
  duration:.8,
  ease:"power2.out"
 }, "-=.64"); 
-
-
 
 	
 function contentShow() {
