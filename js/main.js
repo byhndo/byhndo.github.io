@@ -342,6 +342,8 @@ tl.to(el, {
  ease: easing 		
 });  
 
+tl.scrollTrigger.refresh();	 
+
 });
 	
 	 
