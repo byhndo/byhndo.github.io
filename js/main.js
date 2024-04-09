@@ -1,10 +1,15 @@
 document.addEventListener("DOMContentLoaded", function(event) {
 window.addEventListener("load", function(e) {
 
-gsap.set(".textload span", {
+		
+let tl = gsap.timeline({	
+ onComplete: contentShow
+});
+
+tl.set(".textload span", {
  y:-150 
 })
-gsap.to(".textload span", {
+tl.to(".textload span", {
  autoAlpha:1,
  opacity:1,
  y:0,
@@ -14,10 +19,6 @@ gsap.to(".textload span", {
  duration:"random(.7, 2)",
  ease:"expo.inOut"
 })
-		
-let tl = gsap.timeline({	
- onComplete: contentShow
-});
 	
 tl.to(".textload span", {
  autoAlpha:0,
