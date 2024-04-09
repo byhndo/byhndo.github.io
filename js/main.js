@@ -1,6 +1,7 @@
-gsap.fromTo(".textload span", {
- y:150 },
- {
+gsap.set(".textload span", {
+ y:-150 
+})
+gsap.to(".textload span", {
  autoAlpha:1,
  opacity:1,
  y:0,
