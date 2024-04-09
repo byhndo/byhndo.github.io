@@ -9,6 +9,9 @@ let tl = gsap.timeline({
 tl.to(".spin, .spintext", {
  opacity:0
 })
+tl.to(".spintext", {
+ opacity:0
+}, "+=.7")
 	
 tl.to(".textload span", {
  autoAlpha:1,
