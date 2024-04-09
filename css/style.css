@@ -39,6 +39,8 @@
 
 .textload span{
  display:inline-block;
+ opacity:0;
+ visibility:hidden;
 }
 
 .loader {
