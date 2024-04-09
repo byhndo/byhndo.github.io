@@ -74,6 +74,12 @@
   }
 }
 
+.spintext{
+ font-size:9px;
+ font-family:var(--font2);
+ color:var(--gold);
+}
+
 .col1{
  left:0;
  width:20%        
