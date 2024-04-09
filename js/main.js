@@ -1,5 +1,5 @@
 gsap.fromTo(".textload span", {
- y:-150 },
+ y:150 },
  {
  autoAlpha:1,
  opacity:1,
