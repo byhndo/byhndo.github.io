@@ -3,6 +3,10 @@ let tl = gsap.timeline({
  onComplete: contentShow
 });
 
+document.addEventListener("DOMContentLoaded", function(event) {
+window.addEventListener("load", function(e) {
+
+
 tl.to(".textload span", {
  autoAlpha:0,
  opacity:0,
@@ -373,9 +377,5 @@ tl.to(footer, {
 }
 
 
-
-
-
-
-
-
+}, false);
+});
