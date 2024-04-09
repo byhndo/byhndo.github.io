@@ -320,7 +320,7 @@ tl.to(quote, {
 });
 
 	 
-const revealContainers = gsap.utils.toArray(".item"); 
+const revealContainers = container.querySelectorAll(".item"); 
  revealContainers.forEach((el) => {
  const image = el.querySelectorAll("img");
  let tl = gsap.timeline({ 
