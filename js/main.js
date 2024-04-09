@@ -9,6 +9,7 @@ let tl = gsap.timeline({
 });
 
 tl.to(".textload span", {
+ autoAlpha:1,
  opacity:1,
  y:-150,
  rotation:gsap.utils.wrap([-180, 180]),
