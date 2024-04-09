@@ -335,7 +335,6 @@ tl.set(el, {
 })	 
 tl.to(el, {
  autoAlpha: 1,
- opacity:1,
  scale:1,
  duration: 1.5,
  delay: gsap.utils.random(.3, 1),
