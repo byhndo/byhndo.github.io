@@ -1,5 +1,7 @@
 
-
+let tl = gsap.timeline({	
+ paused:true
+});
 
 
 gsap.fromTo(".textload span", {
@@ -394,5 +396,5 @@ tl.to(footer, {
 
 
 
-
+tl.play();
 
