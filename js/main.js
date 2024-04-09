@@ -6,10 +6,10 @@ let tl = gsap.timeline({
  onComplete: contentShow
 });
 
-tl.to(".spin", {
+tl.to(".spintext", {
  opacity:0
 })
-tl.to(".spintext", {
+tl.to(".spin", {
  opacity:0
 }, .7)
 	
