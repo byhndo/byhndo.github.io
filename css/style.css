@@ -44,9 +44,6 @@
 }
 
 .loader {
- display:flex;
- justify-content:center;
- align-items:center;
  position:fixed;
  background:#245953;
  height:100%; 
@@ -89,7 +86,10 @@
 
 .col3{
  left:40%;
- width:20%;    
+ width:20%;  
+ display:flex;
+ justify-content:center;
+ align-items:center;
 }
 
 .col4{
