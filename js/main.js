@@ -320,8 +320,8 @@ tl.to(quote, {
 });
 
 	 
-const revealContainers = container.querySelectorAll(".item"); 
- gsap.utils.toArray.forEach((el) => {
+const revealContainers = gsap.utils.toArray(".item"); 
+ revealContainers.forEach((el) => {
  const image = el.querySelectorAll("img");
  let tl = gsap.timeline({ 
  scrollTrigger: {
