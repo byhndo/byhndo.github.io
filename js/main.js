@@ -329,12 +329,17 @@ const revealContainers = container.querySelectorAll(".item");
   toggleActions: once
   }, delay:.3
  });
- 
+
+tl.set(el, {
+ scale:0	
+})	 
 tl.to(el, {
  autoAlpha: 1,
  opacity:1,
+ scale:1,
  duration: 1.5,
- delay: gsap.utils.random(.3, 1)
+ delay: gsap.utils.random(.3, 1),
+ ease: easing 		
 });  
 
 });
