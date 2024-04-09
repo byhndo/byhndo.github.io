@@ -1,6 +1,8 @@
 
 
-
+let tl = gsap.timeline({	
+ onComplete: contentShow
+});
 
 tl.fromTo(".textload span", {
  autoAlpha:0,
@@ -63,9 +65,7 @@ tl.to(".col5", {
  ease:"power2.out"
 }, "-=.64"); 
 
-let tl = gsap.timeline({	
- onComplete: contentShow
-});
+
 
 
 document.addEventListener("DOMContentLoaded", function(event) {
