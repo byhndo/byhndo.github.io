@@ -1,6 +1,6 @@
 
 let tl = gsap.timeline({	
- paused:true
+ onStart: contentShow
 });
 
 
