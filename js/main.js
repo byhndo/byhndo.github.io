@@ -10,13 +10,9 @@ tl.to(".spin", {
  opacity:0
 })
 	
-tl.set(".textload span", {
- y:-150 
-})
 tl.to(".textload span", {
  autoAlpha:1,
  opacity:1,
- y:0,
  duration:1,
  stagger:.07,
  delay:"random(0, .7)",
