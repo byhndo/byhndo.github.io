@@ -1,18 +1,18 @@
 document.addEventListener("DOMContentLoaded", function(event) {
 window.addEventListener("load", function(e) {
 
-	
-let tl = gsap.timeline({	
- onComplete: contentShow
-});
 
-
-tl.from(".textload span", {
+gsap.to(".textload span", {
  autoAlpha:1,
  opacity:1,
  duration:1,
  y:-150
 })
+	
+let tl = gsap.timeline({	
+ onComplete: contentShow
+});
+
 	
 tl.to(".textload span", {
  autoAlpha:0,
