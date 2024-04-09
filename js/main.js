@@ -63,14 +63,15 @@ tl.to(".col5", {
  ease:"power2.out"
 }, "-=.64"); 
 
+let tl = gsap.timeline({	
+ onComplete: contentShow
+});
+
+
 document.addEventListener("DOMContentLoaded", function(event) {
 window.addEventListener("load", function(e) {
 
 gsap.registerPlugin(ScrollTrigger);
-
-let tl = gsap.timeline({	
- onComplete: contentShow
-});
 	
 function contentShow() {
 		
