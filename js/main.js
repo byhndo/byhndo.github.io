@@ -1,7 +1,9 @@
-gsap.set(".textload span", {
+let tl = gsap.timeline();
+
+tl.set(".textload span", {
  y:-150 
 })
-gsap.to(".textload span", {
+tl.to(".textload span", {
  autoAlpha:1,
  opacity:1,
  y:0,
