@@ -6,6 +6,14 @@ let tl = gsap.timeline({
  onComplete: contentShow
 });
 
+
+tl.from(".textload span", {
+ autoAlpha:1,
+ opacity:1,
+ duration:1,
+ y:-150
+})
+	
 tl.to(".textload span", {
  autoAlpha:0,
  opacity:0,
