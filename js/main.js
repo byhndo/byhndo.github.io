@@ -340,7 +340,7 @@ tl.to(el, {
  duration: 1.5,
  delay: gsap.utils.random(.3, 1),
  ease: easing,
- immediateRender: false
+ immediateRender: true
 });  
  
 });
