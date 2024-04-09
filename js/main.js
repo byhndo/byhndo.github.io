@@ -1,6 +1,8 @@
 
 
-
+let tl = gsap.timeline({	
+ 
+});
 
 tl.fromTo(".textload span", {
  autoAlpha:0,
