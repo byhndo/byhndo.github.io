@@ -5,8 +5,6 @@ let tl = gsap.timeline({
 
 
 tl.fromTo(".textload span", {
- autoAlpha:0,
- opacity:0,
  y:-150,
  rotation:gsap.utils.wrap([-180, 180]),
  delay:"random(0, 1.5)",
