@@ -54,10 +54,8 @@
 }
 
 .spin {
- position: absolute;
- top: 50%;
- left: 50%;
- transform: translateX(-50%) translateY(-50%);
+ display:grid;
+ place-items:center;
  width: 23px;
  padding: 3px;
  aspect-ratio: 1;
