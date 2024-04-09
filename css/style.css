@@ -134,7 +134,7 @@ h1 {
  display:inline;
  opacity:0;
  font-family: var(--font1);
- color: var(--c2);
+ background: var(--c2);
  font-size: var(--sizetitle);
  padding: 0;
  transition-delay: 2s;
