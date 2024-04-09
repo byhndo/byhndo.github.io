@@ -67,12 +67,11 @@ tl.to(".col5", {
 
 
 
-
-
-gsap.registerPlugin(ScrollTrigger);
 	
 function contentShow() {
-		
+	
+gsap.registerPlugin(ScrollTrigger);
+	
 $('.one').each(function(){
   $(this).html($(this).text().replace(/\S/g, "<span>$&</span>"));
 });
