@@ -331,7 +331,9 @@ const revealContainers = container.querySelectorAll(".item");
  });
 
 tl.set(el, {
- scale:0	
+ scale:0,
+ x: gsap.utils.random(-50, 50),
+ y: gsap.utils.random(-50, 50)
 })	 
 tl.to(el, {
  autoAlpha: 1,
@@ -339,6 +341,8 @@ tl.to(el, {
  scale:1,
  duration: 1.5,
  delay: gsap.utils.random(.3, 1),
+ x:0,
+ y:0,
  rotation: gsap.utils.random(-50, 50),
  ease: easing 		
 });  
