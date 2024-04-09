@@ -4,7 +4,7 @@ let tl = gsap.timeline({
 });
 
 
-gsap.fromTo(".textload span", {
+tl.fromTo(".textload span", {
  autoAlpha:0,
  opacity:0,
  y:-150,
@@ -24,7 +24,7 @@ gsap.fromTo(".textload span", {
  ease:"expo.inOut"	  
 }); 
 
-gsap.to(".textload span", {
+tl.to(".textload span", {
  autoAlpha:0,
  opacity:0,
  y:150,
@@ -35,31 +35,31 @@ gsap.to(".textload span", {
  ease:"expo.inOut"
 }); 
 
-gsap.to(".col1", {
+tl.to(".col1", {
  duration:.8,
  yPercent:-100,
  ease:"power2.out"
 }, ">"); 
 
-gsap.to(".col2", {
+tl.to(".col2", {
  yPercent:-100,
  duration:.8,
  ease:"power2.out"
 }, "-=.7"); 
     
-gsap.to(".col3", {
+tl.to(".col3", {
  yPercent:-100,
  duration:.8,
  ease:"power2.out"
 }, "-=.68");
 	
-gsap.to(".col4", {
+tl.to(".col4", {
  yPercent:-100,
  duration:.8,
  ease:"power2.out"
 }, "-=.66"); 
 	
-gsap.to(".col5", {
+tl.to(".col5", {
  yPercent:-100,
  duration:.8,
  ease:"power2.out"
