@@ -1,10 +1,8 @@
 
 
-let tl = gsap.timeline({	
- 
-});
 
-tl.fromTo(".textload span", {
+
+gsap.fromTo(".textload span", {
  autoAlpha:0,
  opacity:0,
  y:-150,
@@ -24,7 +22,7 @@ tl.fromTo(".textload span", {
  ease:"expo.inOut"	  
 }); 
 
-tl.to(".textload span", {
+gsap.to(".textload span", {
  autoAlpha:0,
  opacity:0,
  y:150,
@@ -35,31 +33,31 @@ tl.to(".textload span", {
  ease:"expo.inOut"
 }); 
 
-tl.to(".col1", {
+gsap.to(".col1", {
  duration:.8,
  yPercent:-100,
  ease:"power2.out"
 }, ">"); 
 
-tl.to(".col2", {
+gsap.to(".col2", {
  yPercent:-100,
  duration:.8,
  ease:"power2.out"
 }, "-=.7"); 
     
-tl.to(".col3", {
+gsap.to(".col3", {
  yPercent:-100,
  duration:.8,
  ease:"power2.out"
 }, "-=.68");
 	
-tl.to(".col4", {
+gsap.to(".col4", {
  yPercent:-100,
  duration:.8,
  ease:"power2.out"
 }, "-=.66"); 
 	
-tl.to(".col5", {
+gsap.to(".col5", {
  yPercent:-100,
  duration:.8,
  ease:"power2.out"
