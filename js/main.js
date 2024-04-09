@@ -4,7 +4,9 @@ gsap.fromTo(".textload span", {
  autoAlpha:1,
  opacity:1,
  y:0,
- duration:1
+ duration:1,
+ stagger:.07,
+ ease:"expo.inOut"
 })
 
 document.addEventListener("DOMContentLoaded", function(event) {
