@@ -1,8 +1,6 @@
 
 
-let tl = gsap.timeline({	
- onComplete: contentShow
-});
+
 
 tl.fromTo(".textload span", {
  autoAlpha:0,
