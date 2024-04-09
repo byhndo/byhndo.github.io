@@ -1,8 +1,10 @@
-gsap.to(".textload span", {
+gsap.fromTo(".textload span", {
+ y:-150 },
+ {
  autoAlpha:1,
  opacity:1,
- duration:1,
- y:-150
+ y:0,
+ duration:1
 })
 
 document.addEventListener("DOMContentLoaded", function(event) {
