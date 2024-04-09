@@ -44,6 +44,9 @@
 }
 
 .loader {
+ display:flex;
+ justify-content:center;
+ align-items:center;
  position:fixed;
  background:#245953;
  height:100%; 
