@@ -6,6 +6,10 @@ let tl = gsap.timeline({
  onComplete: contentShow
 });
 
+tl.to(".spin", {
+ opacity:0
+})
+	
 tl.set(".textload span", {
  y:-150 
 })
