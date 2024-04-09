@@ -339,7 +339,8 @@ tl.to(el, {
  scale:1,
  duration: 1.5,
  delay: gsap.utils.random(.3, 1),
- ease: easing
+ ease: easing,
+ immediateRender: false
 });  
  
 });
