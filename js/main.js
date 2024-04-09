@@ -1,4 +1,4 @@
-gsap.registerPlugin(ScrollTrigger);
+
 
 let tl = gsap.timeline({	
  onComplete: contentShow
@@ -68,6 +68,7 @@ tl.to(".col5", {
 document.addEventListener("DOMContentLoaded", function(event) {
 window.addEventListener("load", function(e) {
 
+gsap.registerPlugin(ScrollTrigger);
 	
 function contentShow() {
 		
