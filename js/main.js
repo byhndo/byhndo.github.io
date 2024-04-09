@@ -15,7 +15,7 @@ tl.to(".textload span", {
  opacity:1,
  duration:1,
  stagger:.07,
- delay:"random(0, .7)",
+ delay:"random(0, 1)",
  duration:"random(.7, 2)",
  ease:"quad.out"
 })
