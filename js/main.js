@@ -1,8 +1,6 @@
 
 
-let tl = gsap.timeline({	
- onComplete: contentShow
-});
+
 
 tl.fromTo(".textload span", {
  autoAlpha:0,
@@ -69,6 +67,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
 window.addEventListener("load", function(e) {
 
 gsap.registerPlugin(ScrollTrigger);
+
+let tl = gsap.timeline({	
+ onComplete: contentShow
+});
 	
 function contentShow() {
 		
