@@ -86,7 +86,7 @@ data() {
 Splitting();
 
 const easing = "sine.out";
-const once = "play complete none reset";
+const once = "play none none reset";
 
 $('html, body').css({
   'overflow': 'auto',
@@ -339,8 +339,7 @@ tl.to(el, {
  scale:1,
  duration: 1.5,
  delay: gsap.utils.random(.3, 1),
- ease: easing,
- immediateRender: false
+ ease: easing
 });  
  
 });
