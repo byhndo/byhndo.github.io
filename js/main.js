@@ -3,25 +3,6 @@ let tl = gsap.timeline({
  onComplete: contentShow
 });
 
-
-tl.fromTo(".textload span", {
- y:-150,
- rotation:gsap.utils.wrap([-180, 180]),
- delay:"random(0, 1.5)",
- duration:"random(.7, 2)",
- stagger:.07,
- ease:"expo.inOut"},
- {
- autoAlpha:1,
- opacity:1,
- y:0,
- rotation:0,
- delay:"random(0, 1.5)",
- duration:"random(.7, 2)",
- stagger:.07,
- ease:"expo.inOut"	  
-}); 
-
 tl.to(".textload span", {
  autoAlpha:0,
  opacity:0,
