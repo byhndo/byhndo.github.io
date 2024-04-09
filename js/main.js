@@ -11,7 +11,7 @@ tl.to(".spin, .spintext", {
 })
 tl.to(".spintext", {
  opacity:0
-}, "+=.7")
+}, "-=.7")
 	
 tl.to(".textload span", {
  autoAlpha:1,
