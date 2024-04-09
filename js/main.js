@@ -326,7 +326,7 @@ const revealContainers = container.querySelectorAll(".item");
  let tl = gsap.timeline({ 
  scrollTrigger: {
   trigger: el,
-  toggleActions: once
+  toggleActions: "restart complete none reset"
   }, delay:.3
  });
 
@@ -341,9 +341,7 @@ tl.to(el, {
  delay: gsap.utils.random(.3, 1),
  ease: easing 		
 });  
-
-tl.scrollTrigger.refresh();	 
-
+ 
 });
 	
 	 
