@@ -359,11 +359,11 @@ a:hover, a:active{
 }
 
 .bio .transition-bio {
-    transform: scale(1) translateX(0) translateY(0);
+    transform: scale(1) translateX(0);
 }
 
 .photos .transition-photos {
-    transform: scale(1) translateX(0) translateY(0);
+    transform: scale(1) translateX(0);
 }
 
 nav {
