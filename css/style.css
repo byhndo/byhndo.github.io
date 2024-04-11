@@ -482,11 +482,11 @@ p.sub2 {
 }
 
 .b-text{
- font-size:170%;
+ font-size:180%;
  text-transform:uppercase;
  font-family:var(--font1);
  color:var(--c2);
- font-weight:800;
+ font-weight:400;
  text-align:center;
  text-align-last:center;
 }
