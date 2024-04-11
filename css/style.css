@@ -339,7 +339,7 @@ a:hover, a:active{
  opacity: 0;
  transition: transform 1.2s ease-in-out;
  width: 100%;
- height: 100vh;
+ height: 100%;
  transform: scaleX(0) scaleY(1);
  transform-origin: 0 0;
 }
