@@ -124,7 +124,7 @@ gsap.to("wnav", {
 });
 
 gsap.set("nav", {
- scaleY:0
+ scaleX:0
 });
 gsap.to("nav", {
  autoAlpha:1, 
