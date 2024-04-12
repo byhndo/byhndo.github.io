@@ -148,7 +148,7 @@ function initBt2() {
 }	
 	
 gsap.set("wnav", {
- y:-30
+ scale:0
 });	
 
 gsap.to("wnav", {
@@ -156,8 +156,9 @@ gsap.to("wnav", {
  opacity:1,
  delay:3.5,
  duration:2, 
- y:0,
- ease: "expo.inOut"
+ scale:1,
+ ease: "expo.inOut",
+ transformOrigin: "center center"
 });
 	
 gsap.set("h1, h1 .char", { 
