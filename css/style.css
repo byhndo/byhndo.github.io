@@ -382,7 +382,7 @@ wnav{
  left:17%;
  right:17%;
  z-index: 100;
- padding:20px;
+ padding:10px;
  border-radius:30px;
  background:transparent;
  visibility:hidden;
@@ -410,7 +410,7 @@ nav li {
 nav a {    
  display: block;
  color: var(--c2);
- padding:10px auto 10px auto;
+ padding:50px auto 50px auto;
  text-decoration: none;
  text-transform: uppercase;
  font-size: var(--sizenav);
