@@ -124,16 +124,16 @@ gsap.to("wnav", {
 });
 
 gsap.set("nav", {
- scaleX:0
+ scaleY:0
 });
 gsap.to("nav", {
  autoAlpha:1, 
  opacity:1,
  duration:2, 
- scaleX:1,
+ scaleY:1,
  ease: "expo.inOut",
  transformOrigin: "center center"
-}, "+=.3");
+}, "+=1");
 	
 gsap.set("h1, h1 .char", { 
  y:100,
