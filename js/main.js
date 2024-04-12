@@ -147,11 +147,11 @@ function initBt2() {
   });
 }	
 	
-gsap.set("nav", {
+gsap.set("wnav", {
  y:-30
 });	
 
-gsap.to("nav", {
+gsap.to("wnav", {
  autoAlpha:1, 
  opacity:1,
  delay:3.5,
