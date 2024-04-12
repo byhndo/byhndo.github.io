@@ -379,10 +379,10 @@ a:hover, a:active{
 wnav{
  position:fixed;
  top:10px;
- left:20%;
- right:20%;
+ left:17%;
+ right:17%;
  z-index: 100;
- padding:7px;
+ padding:10px;
  border-radius:30px;
  background:transparent;
  visibility:hidden;
