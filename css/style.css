@@ -325,14 +325,14 @@ a:hover, a:active{
  background:var(--c3); 
  color:#000;
  border:1px solid #000;
- outline: 10px solid var(--c3);
+ outline: 3px solid var(--c3);
  border-radius:30px;
 }
 .link-photos{
  background:var(--c3);
  color:#000;
  border:1px solid #000;
- outline: 10px solid var(--c3);
+ outline: 3px solid var(--c3);
  border-radius: 30px;
 }
 
