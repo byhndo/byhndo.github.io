@@ -159,18 +159,6 @@ gsap.to("nav", {
  y:0,
  ease: "expo.inOut"
 });
-
-gsap.from("nav", {
-  opacity:0,
-  autoAlpha:0,
-scrollTrigger: {
-  scrub: 3,
-  trigger: 'nav',
-  start: "center 50%",
-  endTrigger: ".footer",
-  end: "bottom bottom"
-}	
-});	
 	
 gsap.set("h1, h1 .char", { 
  y:100,
