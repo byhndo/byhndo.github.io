@@ -322,17 +322,17 @@ a:hover, a:active{
 }
 
 .link-bio{
- background:#fff; 
+ background:var(--c3); 
  color:#000;
  border:1px solid #000;
- outline: 10px solid #fff;
+ outline: 10px solid var(--c3);
  border-radius:30px;
 }
 .link-photos{
- background:#fff;
+ background:var(--c3);
  color:#000;
  border:1px solid #000;
- outline: 10px solid #fff;
+ outline: 10px solid var(--c3);
  border-radius: 30px;
 }
 
@@ -377,7 +377,7 @@ wnav{
  z-index: 100;
  padding:10px;
  border-radius:30px;
- background:#fff;
+ background:var(--c3);
  visibility:hidden;
  opacity:0;
 }
