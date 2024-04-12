@@ -404,13 +404,13 @@ nav ul {
 
 nav li {
  flex:1 .75rem;
- margin:0 3px 0 3px;
+ margin:0 5px 0 5px;
 }
 
 nav a {    
  display: block;
  color: var(--c2);
- padding:1rem auto 1rem auto;
+ padding:10px auto 10px auto;
  text-decoration: none;
  text-transform: uppercase;
  font-size: var(--sizenav);
