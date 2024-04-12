@@ -160,14 +160,15 @@ gsap.to("nav", {
  ease: "expo.inOut"
 });
 
-gsap.to("nav", {
+gsap.from("nav", {
   opacity:0,
   autoAlpha:0,
 scrollTrigger: {
   scrub: 3,
   trigger: 'nav',
-  start: 'center 100%',	
-  end: 'center 50%'
+  start: "center 50%",
+  endTrigger: ".footer",
+  end: "bottom bottom"
 }	
 });	
 	
