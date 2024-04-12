@@ -166,7 +166,8 @@ gsap.to("nav", {
 scrollTrigger: {
   scrub: 3,
   trigger: 'nav',
-  start: 'center 100%',				
+  start: 'center 100%',	
+  end: 'center 50%'
 }	
 });	
 	
