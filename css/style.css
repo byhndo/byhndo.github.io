@@ -24,7 +24,11 @@
 }
 
 .textload{
- z-index:1000;  
+ z-index:1000; 
+ position: fixed;
+ top: 50%;
+ left: 50%;
+ transform: translateX(-50%) translateY(-50%);
  color:var(--gold);
  font-family:var(--font1);
  font-weight:400;
