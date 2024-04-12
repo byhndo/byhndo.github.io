@@ -391,7 +391,6 @@ wnav{
 }
 nav { 
  font-family: var(--font2);
- letter-spacing:1px;
 }
 
 nav ul {
