@@ -325,13 +325,17 @@ a:hover, a:active{
  background:transparent; 
  color:var(--c2);
  border:1px solid var(--c2);
- border-radius:30px;
+ border-radius:30px; 
+ transition-delay: 1s;
+ transition: 2s;
 }
 .link-photos{
  background:transparent;
  color:var(--c2);
  border:1px solid var(--c2);
  border-radius: 30px;
+ transition-delay: 1s;
+ transition: 2s;
 }
 
 .photos .link-bio, .photos .link-photos{
@@ -378,7 +382,7 @@ wnav{
  left:20%;
  right:20%;
  z-index: 100;
- padding:5px;
+ padding:7px;
  border-radius:30px;
  background:transparent;
  visibility:hidden;
@@ -406,7 +410,7 @@ nav li {
 nav a {    
  display: block;
  color: var(--c2);
- padding:.5rem auto .5rem auto;
+ padding:1rem auto 1rem auto;
  text-decoration: none;
  text-transform: uppercase;
  font-size: var(--sizenav);
