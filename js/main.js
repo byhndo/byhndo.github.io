@@ -109,43 +109,6 @@ $('html, body').css({
   'overflow': 'auto',
   'height': 'auto'
 })
-
-var isSafari = /constructor/i.test(window.HTMLElement);
-var isFF = !!navigator.userAgent.match(/firefox/i);
-
-if (isSafari) {
-  document.getElementsByTagName('html')[0].classList.add('safari');
-}
-
-initBt1();
-function initBt1() {
-  var bt = document.querySelectorAll('#wtr')[0];
-  var turb = document.querySelectorAll('#filter-ripple-1 feImage')[0];
-  var dm = document.querySelectorAll('#filter-ripple-1 feDisplacementMap')[0];
-  
-  bt.addEventListener('click', function(e) {
-    tl = gsap.timeline({paused:true});
-    tl.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 0, y: isFF ? e.offsetY : e.offsetY + 0, width: 0, height: 0 } });
-    tl.to(turb, 2, { attr: { x: '-=50', y: '-=50', width: 100, height: 100 } });
-    tl.fromTo(dm, 1, { attr: { scale: 30 } }, { attr: { scale: 0 } }, 0);
-    tl.restart();
-  });
-}
-
-initBt2();
-function initBt2() {
-  var bt = document.querySelectorAll('#wtr2')[0];
-  var turb = document.querySelectorAll('#filter-ripple-2 feImage')[0];
-  var dm = document.querySelectorAll('#filter-ripple-2 feDisplacementMap')[0];
-  
-  bt.addEventListener('click', function(e) {
-    tl = gsap.timeline({paused:true});
-    tl.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 0, y: isFF ? e.offsetY : e.offsetY + 0, width: 0, height: 0 } });
-    tl.to(turb, 2, { attr: { x: '-=50', y: '-=50', width: 100, height: 100 } });
-    tl.fromTo(dm, 1, { attr: { scale: 30 } }, { attr: { scale: 0 } }, 0);
-    tl.restart();
-  });
-}	
 	
 gsap.set("wnav", {
  scale:0
