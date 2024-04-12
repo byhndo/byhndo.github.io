@@ -322,17 +322,17 @@ a:hover, a:active{
 }
 
 .link-bio{
- background:var(--c3); 
+ background:transparent; 
  color:#000;
  border:1px solid #000;
- outline: 3px solid var(--c3);
+ outline: 3px solid transparent;
  border-radius:30px;
 }
 .link-photos{
- background:var(--c3);
+ background:transparent;
  color:#000;
  border:1px solid #000;
- outline: 3px solid var(--c3);
+ outline: 3px solid transparent;
  border-radius: 30px;
 }
 
