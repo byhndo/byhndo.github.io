@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@0;1&display=swap');
 
 :root {  
-// --c1: #f8f9fa;
  --c1: #fff;
  --c2: #212529; 
  --c3: #ced4da;
@@ -11,6 +10,7 @@
  --soc1: #495057;
  --soc2: #ced4da;
  --gold: #ceb36c;
+ --sky: #d0dbea;
  --sizebody:12px;
  --sizetitle:17vw;
  --sizenav:9px;
@@ -184,7 +184,7 @@ h1 {
 }
 
 .photos h1{
- color: var(--gold);
+ color: var(--sky);
 }
 
 h1 .char, .sub-title .char{
