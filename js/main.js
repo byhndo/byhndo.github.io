@@ -126,7 +126,7 @@ function initBt1() {
   bt.addEventListener('click', function(e) {
     tl = gsap.timeline({paused:true});
     tl.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 0, y: isFF ? e.offsetY : e.offsetY + 0, width: 0, height: 0 } });
-    tl.to(turb, 3, { attr: { x: '-=100', y: '-=100', width: 200, height: 200 } });
+    tl.to(turb, 3, { attr: { x: '-=50', y: '-=50', width: 100, height: 100 } });
     tl.fromTo(dm, 2, { attr: { scale: 30 } }, { attr: { scale: 0 } }, 0);
     tl.restart();
   });
@@ -141,7 +141,7 @@ function initBt2() {
   bt.addEventListener('click', function(e) {
     tl = gsap.timeline({paused:true});
     tl.set(turb, { attr: { x: isFF ? e.offsetX : e.offsetX + 0, y: isFF ? e.offsetY : e.offsetY + 0, width: 0, height: 0 } });
-    tl.to(turb, 3, { attr: { x: '-=100', y: '-=100', width: 200, height: 200 } });
+    tl.to(turb, 3, { attr: { x: '-=50', y: '-=50', width: 100, height: 100 } });
     tl.fromTo(dm, 2, { attr: { scale: 30 } }, { attr: { scale: 0 } }, 0);
     tl.restart();
   });
