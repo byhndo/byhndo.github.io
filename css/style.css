@@ -396,13 +396,13 @@ nav ul {
 
 nav li {
  flex:1 .75rem;
- margin:0 5px 0 5px;
+ margin:0 4px 0 4px;
 }
 
 nav a {    
  display: block;
  color: var(--c2);
- padding:.25rem .25rem;
+ padding:.3rem .25rem;
  text-decoration: none;
  text-transform: uppercase;
  font-size: var(--sizenav);
