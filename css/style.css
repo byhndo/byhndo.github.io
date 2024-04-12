@@ -410,7 +410,7 @@ nav li {
 nav a {    
  display: block;
  color: var(--c2);
- padding:10px auto 10px auto;
+ padding:30px auto 30px auto;
  text-decoration: none;
  text-transform: uppercase;
  font-size: var(--sizenav);
