@@ -166,7 +166,7 @@ scrollTrigger: {
   opacity:0,
   autoAlpha:0,
   trigger: 'nav',
-  end: 'center 100%'					
+  end: 'center bottom'					
 }	
 });	
 	
