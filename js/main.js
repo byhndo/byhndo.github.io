@@ -111,29 +111,17 @@ $('html, body').css({
 })
 	
 gsap.set("wnav", {
- scaleX:0
+ scaleY:0
 });	
 gsap.to("wnav", {
  autoAlpha:1, 
  opacity:1,
  delay:3.5,
  duration:2, 
- scaleX:1,
- ease: "expo.inOut",
- transformOrigin: "center center"
-});
-
-gsap.set("nav", {
- scaleY:0
-});
-gsap.to("nav", {
- autoAlpha:1, 
- opacity:1,
- duration:2, 
  scaleY:1,
  ease: "expo.inOut",
  transformOrigin: "center center"
-}, "+=1");
+});
 	
 gsap.set("h1, h1 .char", { 
  y:100,
