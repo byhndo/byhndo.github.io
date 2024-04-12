@@ -41,10 +41,6 @@
 
 .loader {
  position:fixed;
- display:flex;
- justify-content:center;
- align-items:center;
- flex-direction: column;
  background:#245953;
  height:100%; 
  z-index:500;
