@@ -395,7 +395,7 @@ nav ul {
 }
 
 nav li {
- flex:1 0 .75rem;
+ flex:1 1rem .75rem;
 }
 
 nav a {    
