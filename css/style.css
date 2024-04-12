@@ -380,6 +380,7 @@ wnav{
  background:var(--c3);
  visibility:hidden;
  opacity:0;
+ backdrop-filter: blur(5px);
 }
 nav { 
  font-family: var(--font2);
