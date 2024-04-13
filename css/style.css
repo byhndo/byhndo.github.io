@@ -30,7 +30,7 @@
  top: 50%;
  left: 50%;
  transform: translateX(-50%) translateY(-50%);
- color:var(--gold);
+ color:#99dce2;
  font-family:var(--font1);
  font-weight:400;
  font-size:28px;
@@ -46,7 +46,7 @@
 
 .loader {
  position:fixed;
- background:#113032;
+ background:#141318;
  height:100%; 
  z-index:500;
  top:0;
