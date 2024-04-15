@@ -24,6 +24,7 @@
 }
 
 .loader{
+ position:relative;
  background:#141318;
  height:100vh;
  display: flex;
