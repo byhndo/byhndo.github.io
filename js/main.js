@@ -259,7 +259,6 @@ const RevealBoxs3 = container.querySelectorAll(".box3");
  });  
 	 
 tl.set(quote, {
- transformOrigin: '50% 100%',
  scaleY: 0
 })
 tl.to(quote, {
