@@ -87,11 +87,9 @@ $('html, body').css({
   'height': 'auto'
 })
 
-var selector = 'nav li a';
-
-$(selector).on('click', function(){
-    $(selector).removeClass('active');
-    $(this).addClass('active');
+$('nav li a').click(function(){
+    $('li a').removeClass("active");
+    $(this).addClass("active");
 });
 	
 gsap.set("wnav", {
