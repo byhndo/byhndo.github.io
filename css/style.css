@@ -386,7 +386,7 @@ nav a {
 nav li a:hover, nav li a:active{
  opacity:1;
 }
-nav li a:active{
+li.active{
  background:#FFBE98;
 }
 
