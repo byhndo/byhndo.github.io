@@ -266,7 +266,7 @@ tl.to(quote, {
  opacity: 1,
  scaleY: 1,
  stagger: 0.05,
- ease: 'quart.in'
+ ease: 'quart.out'
 });
 	 	                                                                                                                  
 });
