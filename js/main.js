@@ -87,7 +87,7 @@ $('html, body').css({
   'height': 'auto'
 })
 
-var selector = 'nav li';
+var selector = 'nav li a';
 
 $(selector).on('click', function(){
     $(selector).removeClass('active');
