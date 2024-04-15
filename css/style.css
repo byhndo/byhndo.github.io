@@ -24,7 +24,6 @@
 }
 
 .loader{
- position:fixed;
  background:#141318;
  height:100vh;
  display: flex;
@@ -60,6 +59,7 @@
 }
 
 .spin {
+ position:relative;
  width: 23px;
  padding: 3px;
  aspect-ratio: 1;
@@ -87,6 +87,7 @@
 }
 
 .textload{
+ position:absolute;
  color:#99dce2;
  font-family:var(--font1);
  font-weight:400;
