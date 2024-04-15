@@ -236,14 +236,10 @@ const RevealBoxs2 = container.querySelectorAll(".box2");
    }, delay:.3
    }); 	  
 	   
-tl.set(two, { 
- y:100
-})
 tl.to(two, {
  autoAlpha: 1,
  opacity: 1,
  duration: 1,
- y: 1,
  stagger: .2,
  ease: easing
 }, i * .2);
@@ -310,13 +306,9 @@ const RevealBoxs4 = container.querySelectorAll(".box4");
  }, delay: .3
  });  
 
-tl.set(footer, {
- y:-50
-})
 tl.to(footer, {
  autoAlpha:1, 
  opacity:1,
- y:0,
  duration:1,
  ease: easing
 }); 
