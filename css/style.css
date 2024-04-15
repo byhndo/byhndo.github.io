@@ -27,7 +27,7 @@
  background:#141318;
  height:100vh;
  display: flex;
- flex-direction: row;
+ flex-direction: column;
  justify-content: center;
  align-items: center;
  z-index:500;
