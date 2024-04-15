@@ -86,6 +86,13 @@ $('html, body').css({
   'overflow': 'auto',
   'height': 'auto'
 })
+
+var selector = 'nav li';
+
+$(selector).on('click', function(){
+    $(selector).removeClass('active');
+    $(this).addClass('active');
+});
 	
 gsap.set("wnav", {
  scaleY:0
