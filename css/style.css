@@ -24,11 +24,8 @@
 }
 
 .loader {
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
  background:#141318;
+ width:100%;
  min-height:100%;
  z-index:500;
 }
