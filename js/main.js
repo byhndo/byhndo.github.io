@@ -239,7 +239,7 @@ const RevealBoxs2 = container.querySelectorAll(".box2");
 tl.to(two, {
  autoAlpha: 1,
  opacity: 1,
- duration: 1,
+ duration: 2,
  stagger: .2,
  ease: easing
 }, i * .2);
@@ -309,7 +309,7 @@ const RevealBoxs4 = container.querySelectorAll(".box4");
 tl.to(footer, {
  autoAlpha:1, 
  opacity:1,
- duration:1,
+ duration:2,
  ease: easing
 }); 
 		 	                                                                                                                  
