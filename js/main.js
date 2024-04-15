@@ -52,6 +52,10 @@ $('.one').each(function(){
 $('.quote').each(function(){
   $(this).html($(this).text().replace(/\S/g, "<span>$&</span>"));
 });
+
+$('.two').each(function(){
+  $(this).html($(this).text().replace(/\S/g, "<span>$&</span>"));
+});
 	
 const {
     createApp,
@@ -239,8 +243,9 @@ const RevealBoxs2 = container.querySelectorAll(".box2");
 tl.to(two, {
  autoAlpha: 1,
  opacity: 1,
- duration: 2,
- stagger: .2,
+ delay:"random(0, 1.5)",
+ duration:"random(.7, 2)",
+ stagger:.07,
  ease: easing
 }, i * .2);
 	   
