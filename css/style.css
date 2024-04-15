@@ -386,8 +386,13 @@ nav a {
 nav li a:hover, nav li a:active{
  opacity:1;
 }
+
 li a.active{
  background:#FFBE98;
+}
+
+.photos li a.active{
+ background:#7469B6;
 }
 
 main {
