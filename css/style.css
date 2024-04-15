@@ -38,27 +38,27 @@
  z-index:500;
 }
 
-.col1{
+.loader .col1{
  left:0;
  width:20%        
 }
 
-.col2{
+.loader .col2{
  left:20%;
  width:20%;    
 }
 
-.col3{
+.loader .col3{
  left:40%;
  width:20%;  
 }
 
-.col4{
+.loader .col4{
  left:60%;    
  width:20%;
 }
 
-.col5{
+.loader .col5{
  left:80%;    
  width:20%;
 }
