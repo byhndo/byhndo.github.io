@@ -173,7 +173,7 @@ const RevealSc = container.querySelectorAll(".sc");
 tl.to(pl, {
  autoAlpha:1,
  opacity:1,
- duration:1,     
+ duration:2,     
  ease:easing
 });
 	   
