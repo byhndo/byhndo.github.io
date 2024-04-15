@@ -60,7 +60,6 @@
 }
 
 .spin {
- z-index:5000;
  width: 23px;
  padding: 3px;
  aspect-ratio: 1;
@@ -88,7 +87,6 @@
 }
 
 .textload{
- z-index:1000; 
  color:#99dce2;
  font-family:var(--font1);
  font-weight:400;
