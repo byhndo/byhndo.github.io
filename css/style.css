@@ -37,24 +37,22 @@
  z-index:500;
 }
 
-.spin {
+.spin{
  position:relative;
- width: 23px;
- padding: 2px;
- aspect-ratio: 1;
+ height: 18px;
+ width: 18px;
  border-radius: 50%;
- background: #99dce2;
- --_m: conic-gradient(#0000 10%, #000), linear-gradient(#000 0 0) content-box;
- -webkit-mask: var(--_m);
- mask: var(--_m);
- -webkit-mask-composite: source-out;
- mask-composite: subtract;
- animation: animspin 1.5s infinite linear;
+ border: 1.6px solid #ccc;
+ border-top-color: #99dce2;
+ animation: spin 1s linear infinite;
 }
 
-@keyframes animspin {
-  to {
-    transform: rotate(1turn)
+@keyframes spin{
+  0%{
+    transform : rotate(0deg);
+  }
+  100%{
+    transform : rotate(360deg);
   }
 }
 
