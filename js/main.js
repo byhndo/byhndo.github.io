@@ -36,6 +36,7 @@ tl.to(".textload span", {
 
 tl.to(".loader", {
  duration:.8,
+ autoAlpha:0,
  opacity:0
 }); 
 
