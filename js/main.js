@@ -34,31 +34,31 @@ tl.to(".textload span", {
  ease:"expo.inOut"
 }); 
 
-tl.to(".col1", {
+tl.to(".loader .col1", {
  duration:.8,
  yPercent:-100,
  ease:"power2.out"
 }, ">"); 
 
-tl.to(".col2", {
+tl.to(".loader .col2", {
  yPercent:-100,
  duration:.8,
  ease:"power2.out"
 }, "-=.7"); 
     
-tl.to(".col3", {
+tl.to(".loader .col3", {
  yPercent:-100,
  duration:.8,
  ease:"power2.out"
 }, "-=.68");
 	
-tl.to(".col4", {
+tl.to(".loader .col4", {
  yPercent:-100,
  duration:.8,
  ease:"power2.out"
 }, "-=.66"); 
 	
-tl.to(".col5", {
+tl.to(".loader .col5", {
  yPercent:-100,
  duration:.8,
  ease:"power2.out"
