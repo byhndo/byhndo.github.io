@@ -59,6 +59,12 @@
  width:20%;
 }
 
+.wrapload{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
 .spin {
  width: 23px;
  padding: 3px;
