@@ -5,8 +5,6 @@
 :root {  
  --c1: #fff;
  --c2: #141318;
- --c3: #cad6e7;
- --c4: #495057;
  --soc1: #495057;
  --soc2: #ced4da;
  --cyan: #99dce2;
@@ -168,7 +166,7 @@ h1 .char, .sub-title .char{
  line-height:2.3;
  font-size:11px;
  font-family: var(--font2);
- color: var(--c4);
+ color: var(--c2);
  font-weight:400;
  transition-delay: 2s;
  transition: color 4s;
@@ -176,7 +174,7 @@ h1 .char, .sub-title .char{
 }
 
 .photos .sub-title{
-  color:var(--c3);
+  color:var(--sky);
 }
 
 .indicator {
