@@ -249,7 +249,7 @@ tl.to(two, {
  autoAlpha: 1,
  opacity: 1,
  y:0,
- duration: 2,
+ duration: 3,
  stagger:.07,
  ease: "expo.out"
 }, i * .2);
