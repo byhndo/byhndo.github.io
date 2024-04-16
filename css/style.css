@@ -395,7 +395,7 @@ li a.active{
 }
 
 .photos li a.active{
- background:#7469B6;
+ background:var(--cyan);
 }
 
 main {
