@@ -5,7 +5,7 @@
 :root {  
  --c1: #fff;
  --c2: #141318;
- --c3: #ced4da;
+ --c3: #cad6e7;
  --c4: #495057;
  --soc1: #495057;
  --soc2: #ced4da;
@@ -176,7 +176,7 @@ h1 .char, .sub-title .char{
 }
 
 .photos .sub-title{
-  color:var(--sky);
+  color:var(--c3);
 }
 
 .indicator {
