@@ -9,6 +9,7 @@
  --c4: #495057;
  --soc1: #495057;
  --soc2: #ced4da;
+ --cyan: #99dce2;
  --sky: #d0dbea;
  --sizebody:12px;
  --sizetitle:17vw;
@@ -154,7 +155,7 @@ h1 {
 }
 
 .photos h1{
- color: var(--sky);
+ color: var(--cyan);
 }
 
 h1 .char, .sub-title .char{
@@ -425,7 +426,7 @@ main {
 }
 
 .sub2 {
- color: var(--sky);
+ color: var(--cyan);
 }
 
 p.sub1, p.sub2 {
@@ -438,7 +439,7 @@ p.sub1 {
 }
 
 p.sub2 {
-  color: var(--c1);
+  color: var(--sky);
 }
 
 .prolog{
