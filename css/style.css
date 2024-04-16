@@ -37,6 +37,7 @@
 
 .spin{
  position:absolute;
+ margin:0 auto;
  height: 20px;
  width: 20px;
  border-radius: 50%;
@@ -56,7 +57,7 @@
 
 .spintext{
  position:absolute;
- margin-top:50px;
+ margin:50px auto;
  font-size:10px;
  font-family:var(--font2);
  color:#99dce2;
