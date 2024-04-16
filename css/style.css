@@ -59,6 +59,7 @@
 }
 
 .textload{
+ position:absolute;
  color:#99dce2;
  font-family:var(--font1);
  font-weight:400;
