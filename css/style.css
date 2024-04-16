@@ -34,6 +34,7 @@
 }
 
 .spin{
+ position:absolute;
  height: 20px;
  width: 20px;
  border-radius: 50%;
@@ -52,6 +53,7 @@
 }
 
 .spintext{
+ position:absolute;
  margin-top:7px;
  font-size:10px;
  font-family:var(--font2);
