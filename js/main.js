@@ -240,14 +240,18 @@ const RevealBoxs2 = container.querySelectorAll(".box2");
    trigger: box2,
    toggleActions: once
    }, delay:.3
-   }); 	  
-	   
+   });
+	 
+tl.set(two, {
+ y:50	
+});	   
 tl.to(two, {
  autoAlpha: 1,
  opacity: 1,
+ y:0,
  duration: 2,
  stagger:.07,
- ease: easing
+ ease: "expo.out"
 }, i * .2);
 	   
 });      
