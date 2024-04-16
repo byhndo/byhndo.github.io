@@ -249,9 +249,9 @@ tl.to(two, {
  autoAlpha: 1,
  opacity: 1,
  y:0,
- duration: 3,
+ duration: 1,
  stagger:.07,
- ease: "expo.out"
+ ease: easing
 }, i * .2);
 	   
 });      
