@@ -57,7 +57,8 @@
 
 .spintext{
  position:absolute;
- margin:50px auto;
+ margin:0 auto;
+ margin-top:50px;
  font-size:10px;
  font-family:var(--font2);
  color:#99dce2;
