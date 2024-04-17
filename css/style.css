@@ -580,9 +580,9 @@ img {
 }
 
 .line {
- position:absolute;
+ position:relative;
  display:block;
- margin:-5px auto 0 auto;
+ margin:-30px auto 0 auto;
  width:0;
  height:1px;
  opacity:0;
