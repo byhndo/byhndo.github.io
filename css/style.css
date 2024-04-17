@@ -599,6 +599,7 @@ img {
 ul{
  text-align:justify;
  padding-left:14px;
+ padding-bottom:var(--marginp);
 }
 
 li.about{
