@@ -222,7 +222,8 @@ tl.to(line, {
  duration:1,	
  width:"100%",
  stagger:.07,
- ease:easing
+ ease:easing,
+ transformOrigin: '0 0',
 }, d * .2);	
 
 });	  
