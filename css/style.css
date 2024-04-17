@@ -562,6 +562,14 @@ img {
  visibility:hidden;
 }
 
+.three{
+ margin-top:0;
+ margin-bottom: 0;
+ opacity:0;
+ visibility:hidden;
+}
+
+
 .mg{
  margin-top:0;
  margin-bottom:0;	
@@ -587,7 +595,6 @@ img {
 .line {
  position:absolute;
  display:block;
- padding: -50px auto -50px auto;
  width:0;
  height:.1vw;
  opacity:0;
