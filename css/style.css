@@ -606,6 +606,7 @@ ul{
  text-align:justify;
  padding-left:14px;
  padding-top:17px;
+ margin-bottom: var(--marginp);
 }
 
 li.about{
