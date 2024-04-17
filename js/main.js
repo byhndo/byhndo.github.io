@@ -207,7 +207,7 @@ tl.to(gr, {
 
 	 
 const RevealBoxsline = container.querySelectorAll(".boxline");
-   RevealBoxsline.forEach((boxline) => { 	   	   
+   RevealBoxsline.forEach((boxline, d) => { 	   	   
     const line = boxline.querySelectorAll(".line");
     let tl = gsap.timeline({
     scrollTrigger: {
@@ -221,8 +221,9 @@ tl.to(line, {
  opacity:1,
  duration:1,	
  width:"100%",
+ stagger:.07,
  ease:easing
-});	
+}, d * .2);	
 
 });	  
 
