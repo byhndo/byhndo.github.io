@@ -563,7 +563,7 @@ img {
 }
 
 .aboutme{
- margin-top:0;
+ margin-top:var(--marginp);
  margin-bottom: 0;
  opacity:0;
  visibility:hidden;
