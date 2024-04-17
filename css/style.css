@@ -590,7 +590,7 @@ img {
  position:absolute;
  display:block;
  width:0;
- height:.1vw;
+ height:.1rem;
  opacity:0;
  background:var(--c2);
  transition:background 1s;
