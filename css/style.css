@@ -579,6 +579,23 @@ img {
  transition:background 1s;
 }
 
+.line {
+ position:absolute;
+ display:block;
+ margin:-5px auto 0 auto;
+ width:0;
+ height:1px;
+ opacity:0;
+ background:rgba(50, 50, 53, .03);
+ transition:background 1s;
+ visibility:hidden;
+}
+
+.photos .line{
+ background:rgba(236, 236, 239, .03);
+ transition:background 1s;
+}
+
 ul{
  text-align:justify;
  padding-left:14px;
@@ -589,7 +606,6 @@ li.about{
  text-align:justify;
  padding-top:2px;
  padding-bottom:2px;
- border-bottom:1px solid rgba(50, 50, 53, .1);
 }
 
 .footer {
