@@ -562,6 +562,11 @@ img {
  visibility:hidden;
 }
 
+.mg{
+ margin-top:0;
+ margin-bottom:0;	
+}
+
 .gr {
  position:relative;
  display:block;
