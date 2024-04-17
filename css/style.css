@@ -589,7 +589,7 @@ img {
  background:var(--c2);
  transition:background 1s;
  visibility:hidden;
- transform-origin: top left;
+ transform-origin: left;
 }
 
 .photos .line{
