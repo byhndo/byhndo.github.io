@@ -612,7 +612,7 @@ li.about{
  list-style-type:decimal;
  text-align:justify;
  padding-top:5px;
- padding-bottom:-20px;
+ margin-bottom:-10px;
 }
 
 .footer {
