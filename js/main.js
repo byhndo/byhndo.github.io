@@ -206,7 +206,7 @@ tl.to(gr, {
 });	  
 
 	 
-const RevealBoxline = container.querySelectorAll(".boxline");
+const RevealBoxsline = container.querySelectorAll(".boxline");
    RevealBoxsline.forEach((boxline) => { 	   	   
     const line = boxline.querySelectorAll(".line");
     let tl = gsap.timeline({
