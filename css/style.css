@@ -582,17 +582,17 @@ img {
 .line {
  position:relative;
  display:block;
- margin:-30px auto 0 auto;
+ margin:-50px auto -50px auto;
  width:0;
  height:1px;
  opacity:0;
- background:rgba(50, 50, 53, .07);
+ background:var(--c2);
  transition:background 1s;
  visibility:hidden;
 }
 
 .photos .line{
- background:rgba(236, 236, 239, .07);
+ background:var(--sky);
  transition:background 1s;
 }
 
