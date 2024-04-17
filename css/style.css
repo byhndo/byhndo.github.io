@@ -605,13 +605,14 @@ img {
 ul{
  text-align:justify;
  padding-left:14px;
- padding-top:33.5px;
+ padding-top:17px;
 }
 
 li.about{
  list-style-type:decimal;
  text-align:justify;
  padding-top:5px;
+ padding-bottom:-10px;
 }
 
 .footer {
