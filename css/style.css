@@ -563,7 +563,7 @@ img {
 }
 
 .aboutme{
- margin-top:var(--marginp);
+ margin-top:0;
  margin-bottom: 0;
  opacity:0;
  visibility:hidden;
@@ -605,7 +605,7 @@ img {
 ul{
  text-align:justify;
  padding-left:14px;
- padding-bottom:var(--marginp);
+ padding-top:var(--marginp);
 }
 
 li.about{
