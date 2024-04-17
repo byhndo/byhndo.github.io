@@ -580,7 +580,7 @@ img {
 }
 
 .line {
- position:absolute;
+ position:relative;
  display:block;
  width:0;
  height:.1vw;
