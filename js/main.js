@@ -206,6 +206,27 @@ tl.to(gr, {
 });	  
 
 	 
+const RevealBoxline = container.querySelectorAll(".boxline");
+   RevealBoxsline.forEach((boxline) => { 	   	   
+    const line = boxline.querySelectorAll(".line");
+    let tl = gsap.timeline({
+    scrollTrigger: {
+     trigger: boxline,
+     toggleActions: once
+     }, delay:.3
+     }); 
+	   	   
+tl.to(line, {
+ autoAlpha:1, 
+ opacity:1,
+ duration:1,	
+ width:"100%",
+ ease:easing
+});	
+
+});	  
+
+	 
 const RevealBoxs1 = container.querySelectorAll(".box1");
    RevealBoxs1.forEach((box1) => { 	   	   
     const one = box1.querySelectorAll(".one, .one span");
