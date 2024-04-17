@@ -185,6 +185,32 @@ tl.to(pl, {
 	   
 });
 
+
+const RevealBoxsme = container.querySelectorAll(".boxme");
+   RevealBoxsme.forEach((boxme, a) => { 	   	   
+    const aboutme = boxme.querySelectorAll(".aboutme");
+    let tl = gsap.timeline({
+    scrollTrigger: {
+     trigger: boxme,
+     toggleActions: once
+     }, delay:.3
+     }); 
+
+tl.set(aboutme, {
+ y:50	
+});	   
+tl.to(aboutme, {
+ autoAlpha: 1,
+ opacity: 1,
+ y:0,
+ duration: 1,
+ stagger:.07,
+ ease: easing
+}, a * .2);
+
+});	  
+
+	 
 const RevealBoxs = container.querySelectorAll(".box");
    RevealBoxs.forEach((box) => { 	   	   
     const gr = box.querySelectorAll(".gr");
