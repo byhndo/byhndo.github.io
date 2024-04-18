@@ -23,6 +23,7 @@
 }
 
 .loader{
+ position:relative;
  overflow:hidden;
  background:#141318;
  width:100%;
