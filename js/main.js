@@ -42,8 +42,8 @@ tl.to(".loader", {
 const gridloader = document.querySelectorAll(".gridloader");
    gridloader.forEach((gridloader) => { 	   	   
     const co = gridloader.querySelectorAll(".co");
-    	   	   
-tl.to(co, {
+ let gt = gsap.timeline();   	   	   
+gt.to(co, {
  autoAlpha:0,
  opacity:0,
  duration:1,
