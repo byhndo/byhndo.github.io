@@ -34,11 +34,19 @@ tl.to(".textload span", {
  ease:"expo.inOut"
 }); 
 
-tl.to(".loader", {
+tl.set(".col1, .col2", {
+ y:100vh	
+})	
+tl.to(".col1", {
  duration:.8,
  autoAlpha:0,
- opacity:0
+ y:0
 }); 
+tl.to(".col2", {
+ duration:.8,
+ autoAlpha:0,
+ y:0
+}, "+=.3"); 
 
 	
 function contentShow() {
