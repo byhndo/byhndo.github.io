@@ -41,7 +41,6 @@
 }
 
 .loader{
- z-index:1000;
  display:grid;
  place-items:center;
 }
@@ -54,6 +53,7 @@
  border-radius: 50%;
  border: 1.6px solid #555;
  border-top-color: #99dce2;
+ z-index:1000;
  animation: spin 1s linear infinite;
 }
 
@@ -71,7 +71,8 @@
  margin-top:50px;
  font-size:10px;
  font-family:var(--font2);
- color:#99dce2;
+ color:#99dce2;	 
+ z-index:1000;
 }
 
 .textload{
@@ -82,6 +83,7 @@
  font-size:28px;
  text-transform:uppercase;
  letter-spacing:-1px;
+ z-index:1000;
 }
 
 .textload span{
