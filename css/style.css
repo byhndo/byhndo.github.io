@@ -30,13 +30,19 @@
  height:100%;
  overflow:hidden;
 }
+
 .col1{
  left:0;
  background:#141318;
 }
+
 .col2{
  left:50%;
  background:#86B6F6;
+}
+
+.loader{
+ z-index:1000;
 }
 
 .spin{
