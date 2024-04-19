@@ -22,24 +22,15 @@
  --fwfooter:500;
 }
 
-.loader{
- position:fixed;
- overflow:hidden;
- background:#141318;
- z-index:500;
- height:100%;
- display:flex;
- justify-content:center;
- align-items:center;  
- flex-direction:row;
-}
-
 .col1, .col2{
  width:50%;
+ z-index:500;
+ height:100%;
+ overflow:hidden;
 }
 .col1{
  left:0;
- background:black;
+ background:#141318;
 }
 .col2{
  left:50%;
