@@ -37,11 +37,11 @@ tl.to(".textload span", {
 
 tl.to(".col1", {
  duration:.8,
- top:0
+ top:"-100%"
 }, 0); 
 tl.to(".col2", {
  duration:.8,
- bottom:"100%"
+ bottom:"-100%"
 }, "+=.1"); 
 
 	
