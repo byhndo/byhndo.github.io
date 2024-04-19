@@ -35,17 +35,17 @@ tl.to(".textload span", {
 }); 
 
 tl.set(".col1, .col2", {
- y:100vh	
+ height:"100%"	
 })	
 tl.to(".col1", {
  duration:.8,
  autoAlpha:0,
- y:0
+ height:0
 }); 
 tl.to(".col2", {
  duration:.8,
  autoAlpha:0,
- y:0
+ height:0
 }, "+=.3"); 
 
 	
