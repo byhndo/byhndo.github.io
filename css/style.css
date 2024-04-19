@@ -29,6 +29,7 @@
  grid-template-rows: masonry;
  gap:0;
  box-sizing: border-box;
+ position:fixed;
 }
 
 .co {
