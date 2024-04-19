@@ -44,7 +44,7 @@ tl.to(".co", {
  opacity:0,
  duration:1,
  delay: gsap.utils.random(.3, 1)
-}, ">"); 
+}); 
 
 	
 function contentShow() {
