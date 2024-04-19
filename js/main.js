@@ -38,7 +38,7 @@ tl.to(".textload span", {
 tl.to(".col1", {
  duration:.8,
  top:"-100%"
-}, "<"); 
+}, ">"); 
 tl.to(".col2", {
  duration:.8,
  bottom:"-100%"
