@@ -38,11 +38,13 @@ tl.to(".textload span", {
 tl.to(".col1", {
  duration:.8,
  autoAlpha:0,
+ opacity:0,
  height:0
 }); 
 tl.to(".col2", {
  duration:.8,
  autoAlpha:0,
+ opacity:0,
  height:0
 }, "+=.3"); 
 
