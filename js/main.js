@@ -39,7 +39,7 @@ tl.to(".loader", {
  opacity:0
 }); 
 	
-tl.to(".col", {
+tl.to(".co", {
  autoAlpha:0,
  opacity:0,
  duration:1,
