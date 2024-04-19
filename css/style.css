@@ -40,6 +40,7 @@
 }
 
 .spin{
+ z-index:1000;
  place-self: center;
  position:absolute;
  margin:0 auto;
@@ -61,6 +62,7 @@
 }
 
 .spintext{
+ z-index:500;
  place-self: center;
  position:absolute;
  margin:0 auto;
@@ -71,6 +73,7 @@
 }
 
 .textload{
+ z-index:500;
  place-self: center;
  position:absolute;
  margin:0 auto;
