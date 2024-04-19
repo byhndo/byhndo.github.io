@@ -28,16 +28,15 @@
  z-index:500;
  height:100%;
  overflow:hidden;
+ background:#141318;
 }
 
 .col1{
  left:0;
- background:#FFBE98;
 }
 
 .col2{
  left:50%;
- background:#7469B6;
 }
 
 .loader{
