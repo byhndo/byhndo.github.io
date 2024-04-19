@@ -22,7 +22,7 @@
  --fwfooter:500;
 }
 
-.gridload {
+.gridloader {
  --auto-grid-min-size:5rem;
  display: grid;  
  grid-template-columns: repeat(5, 1fr);
