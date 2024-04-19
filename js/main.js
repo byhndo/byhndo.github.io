@@ -34,7 +34,11 @@ tl.to(".textload span", {
  ease:"expo.inOut"
 }); 
 
-
+tl.to(".loader", {
+ autoAlpha:0,
+ opacity:0
+}); 
+	
 tl.to(".col1", {
  duration:.8,
  top:"-100%"
