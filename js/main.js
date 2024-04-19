@@ -46,7 +46,7 @@ tl.to(".col1", {
 tl.to(".col2", {
  duration:.8,
  bottom:"-100%"
-}, "+=.000001"); 
+}, "<"); 
 
 	
 function contentShow() {
