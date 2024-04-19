@@ -43,11 +43,10 @@
 .loader{
  z-index:1000;
  display:grid;
+ place-items:center;
 }
 
 .spin{
- z-index:1000;
- place-self: center;
  position:absolute;
  margin:0 auto;
  height: 20px;
@@ -68,10 +67,7 @@
 }
 
 .spintext{
- z-index:1000;
- place-self: center;
  position:absolute;
- margin:0 auto;
  margin-top:50px;
  font-size:10px;
  font-family:var(--font2);
@@ -79,10 +75,7 @@
 }
 
 .textload{
- z-index:1000;
- place-self: center;
  position:absolute;
- margin:0 auto;
  color:#99dce2;
  font-family:var(--font1);
  font-weight:400;
