@@ -24,14 +24,9 @@
 
 .loader{
  position:fixed;
- top:0;
- left:0;
- right:0;
- bottom:0;
  overflow:hidden;
  background:#141318;
  z-index:500;
- display:grid;
 }
 
 .col1, .col2{
