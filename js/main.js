@@ -34,9 +34,7 @@ tl.to(".textload span", {
  ease:"expo.inOut"
 }); 
 
-tl.set(".col1, .col2", {
- height:"100%"	
-})	
+
 tl.to(".col1", {
  duration:.8,
  autoAlpha:0,
