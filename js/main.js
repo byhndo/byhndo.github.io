@@ -39,14 +39,12 @@ tl.to(".loader", {
  opacity:0
 }); 
 	
-tl.to(".col1", {
- duration:.8,
- top:"-100%"
+tl.to(".col", {
+ autoAlpha:0,
+ opacity:0,
+ duration:1,
+ delay: gsap.utils.random(.3, 1)
 }, ">"); 
-tl.to(".col2", {
- duration:.8,
- bottom:"-100%"
-}, "<"); 
 
 	
 function contentShow() {
