@@ -38,6 +38,7 @@
  visibility: hidden;
  overflow: hidden;
  opacity: 0;
+ background:#141318;
 }
 
 .loader{
