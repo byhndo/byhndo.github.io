@@ -28,6 +28,10 @@
  background:#141318;
  z-index:500;
  height:100%;
+ display:flex;
+ justify-content:center;
+ align-items:center;  
+ flex-direction:row;
 }
 
 .col1, .col2{
