@@ -43,7 +43,7 @@ tl.to(".co1, .co2, .co3, .co4, .co5, .co6, .co7, .co8, .co9, .co10, .co11, .co12
  autoAlpha:0,
  opacity:0,
  duration:1,
- delay: () => gsap.utils.random(-200, 200)
+ delay: () => gsap.utils.random(.3, 1)
 }, ">"); 
 	  
 			
