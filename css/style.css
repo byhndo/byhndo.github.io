@@ -23,6 +23,8 @@
 }
 
 .col1, .col2{
+ position:fixed;
+ display:grid;
  width:50%;
  z-index:500;
  height:100%;
