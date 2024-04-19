@@ -38,13 +38,19 @@ tl.to(".loader", {
  autoAlpha:0,
  opacity:0
 }); 
-	
-tl.to(".co", {
+
+const gridloader = document.querySelectorAll(".gridloader");
+   gridloader.forEach((gridloader) => { 	   	   
+    const co = gridloader.querySelectorAll(".co");
+    	   	   
+tl.to(co, {
  autoAlpha:0,
  opacity:0,
  duration:1,
  delay: gsap.utils.random(.3, 1)
 }); 
+
+});	  
 
 	
 function contentShow() {
