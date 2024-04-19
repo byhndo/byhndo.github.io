@@ -87,7 +87,7 @@ data() {
 
 Splitting();
 
-const easing = "sine.out";
+const easing = "cubic.out";
 const once = "play none none reset";
 
 $('html, body').css({
