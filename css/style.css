@@ -34,6 +34,18 @@
  display:grid;
 }
 
+.col1, .col2{
+ width:50%
+}
+.col1{
+ left:0
+ background:black;
+}
+.col2{
+ left:50%;
+ background:white;
+}
+
 .spin{
  place-self: center;
  position:absolute;
