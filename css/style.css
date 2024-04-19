@@ -27,11 +27,11 @@
  overflow:hidden;
  background:#141318;
  z-index:500;
+ height:100%;
 }
 
 .col1, .col2{
  width:50%;
- height:100%;
 }
 .col1{
  left:0;
