@@ -24,7 +24,6 @@
 
 .col1, .col2{
  position:fixed;
- display:grid;
  width:50%;
  z-index:500;
  height:100%;
@@ -43,6 +42,7 @@
 
 .loader{
  z-index:1000;
+ display:grid;
 }
 
 .spin{
