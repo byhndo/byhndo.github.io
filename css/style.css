@@ -555,7 +555,7 @@ main {
 }
 
 .sub1 {
- color: var(--white);
+ color: var(--blue);
 }
 
 .sub2 {
@@ -568,7 +568,7 @@ p.sub1, p.sub2 {
 }
 
 p.sub1 {
- color: var(--c2);
+ color: var(--white);
 }
 
 p.sub2 {
