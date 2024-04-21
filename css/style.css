@@ -9,6 +9,7 @@
  --soc2: #ced4da;
  --cyan: #99dce2;
  --sky: #d0dbea;
+ --white: #F2FCFC;
  --blue: #40A2E3;
  --sizebody:12px;
  --sizetitle:17vw;
@@ -554,7 +555,7 @@ main {
 }
 
 .sub1 {
- color: var(--c2);
+ color: var(--white);
 }
 
 .sub2 {
