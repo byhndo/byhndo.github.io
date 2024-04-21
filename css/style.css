@@ -3,14 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@0;1&display=swap');
 
 :root {  
- --c1: #bee0ea;
- --c2: #141318;
- --soc1: #495057;
- --soc2: #ced4da;
- --cyan: #99dce2;
- --sky: #d0dbea;
- --white: #F2FCFC;
+ --white: #fff;
  --blue: #40A2E3;
+ --green: #bee0ea;
+ --dark: #141318;
+ --soc1: #495057;
+ --soc2: #ced4da; 
  --sizebody:12px;
  --sizetitle:17vw;
  --sizenav:9px;
