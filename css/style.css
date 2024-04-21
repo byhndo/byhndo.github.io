@@ -442,7 +442,7 @@ a:hover, a:active{
 }
 
 .photos .link-bio, .photos .link-photos{
- color:var(--c1);
+ color:var(--white);
  border:1px solid var(--white);	
 }
 
@@ -553,7 +553,7 @@ main {
 }
 
 .sub1 {
- color: var(--blue);
+ color: var(--dark);
 }
 
 .sub2 {
@@ -566,7 +566,7 @@ p.sub1, p.sub2 {
 }
 
 p.sub1 {
- color: var(--white);
+ color: var(--dark);
 }
 
 p.sub2 {
