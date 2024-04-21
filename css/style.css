@@ -524,11 +524,11 @@ nav li a:hover, nav li a:active{
 }
 
 li a.active{
- background:#FFBE98;
+ background:var(--blue);
 }
 
 .photos li a.active{
- background:#7469B6;
+ background:var(--green);
 }
 
 main {
