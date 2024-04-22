@@ -47,6 +47,10 @@ tl.to(".co1, .co2, .co3, .co4, .co5, .co6, .co7, .co8, .co9, .co10, .co11, .co12
 	  
 			
 function contentShow() {
+
+const easing = "cubic.out";
+const dur = 2;
+const once = "play none none reset";
 	
 gsap.registerPlugin(ScrollTrigger);
 	
@@ -84,8 +88,6 @@ data() {
 
 Splitting();
 
-const easing = "cubic.out";
-const once = "play none none reset";
 
 $('html, body').css({
   'overflow': 'auto',
@@ -104,9 +106,9 @@ gsap.to("wnav", {
  autoAlpha:1, 
  opacity:1,
  delay:3.5,
- duration:2, 
+ duration:dur, 
  scaleY:1,
- ease: "expo.inOut",
+ ease: easing,
  transformOrigin: "center center"
 });
 	
@@ -117,7 +119,7 @@ gsap.set("h1, h1 .char", {
 gsap.to("h1, h1 .char", {
  autoAlpha:1, 
  opacity:1,
- duration:1,
+ duration:dur,
  stagger:.06,
  rotationY:0,
  y:0,
@@ -133,7 +135,7 @@ gsap.set(".sub-title, .sub-title .char", {
 gsap.to(".sub-title, .sub-title .char", {
  autoAlpha:1,
  opacity: 1,
- duration:2,
+ duration:dur,
  x: 0,
  y: 0,
  ease: "quad.inOut",
@@ -147,7 +149,7 @@ gsap.set('.indicator', {
 gsap.to('.indicator', {
  y:0,
  delay:4.2,
- duration:2,
+ duration:dur,
  autoAlpha: 1,
  onComplete: () => {
  gsap.fromTo('.indicator', {
@@ -156,7 +158,7 @@ gsap.to('.indicator', {
  }, {
   autoAlpha: 0,
   y:-100,
-  duration: 2,
+  duration: dur,
   scrollTrigger: {
   scrub: 3,
   trigger: '.indicator',
@@ -184,7 +186,7 @@ const RevealSc = container.querySelectorAll(".sc");
 tl.to(pl, {
  autoAlpha:1,
  opacity:1,
- duration:2,     
+ duration:dur,     
  ease:easing
 });
 	   
@@ -208,7 +210,7 @@ tl.to(aboutme, {
  autoAlpha: 1,
  opacity: 1,
  y:0,
- duration: 1,
+ duration:dur,
  stagger:.07,
  ease: easing
 }, a * .2);
@@ -229,7 +231,7 @@ const RevealBoxs = container.querySelectorAll(".box");
 tl.to(gr, {
  autoAlpha:1, 
  opacity:1,
- duration:1,	
+ duration:dur,	
  width:"100%",
  ease:easing
 });	
@@ -250,7 +252,7 @@ const RevealBoxsline = container.querySelectorAll(".boxline");
 tl.to(line, {
  autoAlpha:1, 
  opacity:1,
- duration:1,	
+ duration:dur,	
  width:"100%",
  stagger:.07,
  ease:easing
@@ -276,7 +278,7 @@ tl.set(one, {
 tl.to(one, {
  autoAlpha: 1,
  opacity: 1,
- duration: 1,
+ duration: dur,
  scaleY: 1,
  stagger: 0.08,
  ease: 'quart.in'
@@ -302,7 +304,7 @@ tl.to(two, {
  autoAlpha: 1,
  opacity: 1,
  y:0,
- duration: 1,
+ duration: dur,
  stagger:.07,
  ease: easing
 }, i * .2);
@@ -350,7 +352,7 @@ tl.set(el, {
 })	 
 tl.to(el, {
  scale:1,
- duration: 1.5,
+ duration: dur,
  delay: gsap.utils.random(.3, 1),
  ease: easing
 });  
@@ -371,7 +373,7 @@ const RevealBoxs4 = container.querySelectorAll(".box4");
 tl.to(footer, {
  autoAlpha:1, 
  opacity:1,
- duration:2,
+ duration:dur,
  ease: easing
 }); 
 		 	                                                                                                                  
