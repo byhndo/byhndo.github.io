@@ -173,7 +173,7 @@
  width: 20px;
  border-radius: 50%;
  border: 1.6px solid #555;
- border-top-color: #99dce2;
+ border-top-color: var(--gold);
  z-index:1000;
  animation: spin 1s linear infinite;
 }
@@ -192,13 +192,13 @@
  margin-top:50px;
  font-size:10px;
  font-family:var(--font2);
- color:#99dce2;	 
+ color:var(--gold);	 
  z-index:1000;
 }
 
 .textload{
  position:absolute;
- color:#99dce2;
+ color:var(--gold);
  font-family:var(--font1);
  font-weight:400;
  font-size:28px;
