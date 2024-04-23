@@ -197,7 +197,7 @@ tl.to(aboutme, {
 
 	 
 const RevealBoxs = container.querySelectorAll(".box");
-   RevealBoxs.forEach((box, gr) => { 	   	   
+   RevealBoxs.forEach((box, g) => { 	   	   
     const gr = box.querySelectorAll(".gr");
     let tl = gsap.timeline({
     scrollTrigger: {
@@ -213,7 +213,7 @@ tl.to(gr, {
  width:"100%",
  stagger:.07,
  ease:easing
-}, gr * .2);	
+}, g * .2);	
 
 });	  
 
