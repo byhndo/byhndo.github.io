@@ -354,9 +354,9 @@ tl.to(pl, {
  opacity:1,
  duration:dur,     
  ease:easing
-});
-	   
 }, ">");
+	   
+});
 
 	 
 const RevealBoxs4 = container.querySelectorAll(".box4");
@@ -374,9 +374,9 @@ tl.to(footer, {
  opacity:1,
  duration:dur,
  ease: easing
-}); 
+}, ">"); 
 		 	                                                                                                                  
-}, ">");	
+});	
 	 
 });
 }
