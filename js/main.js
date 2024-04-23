@@ -166,7 +166,7 @@ gsap.to('.indicator', {
   }
  });
 }
-});
+}, ">");
 
 	
 function setupReveal(container) {	
