@@ -356,7 +356,7 @@ tl.to(pl, {
  ease:easing
 });
 	   
-});
+}, ">");
 
 	 
 const RevealBoxs4 = container.querySelectorAll(".box4");
@@ -376,7 +376,7 @@ tl.to(footer, {
  ease: easing
 }); 
 		 	                                                                                                                  
-});	
+}, ">");	
 	 
 });
 }
