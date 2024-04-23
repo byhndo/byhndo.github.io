@@ -171,26 +171,6 @@ gsap.to('.indicator', {
 function setupReveal(container) {	
  container.ctx = gsap.context(() => {	
 	 
-const RevealSc = container.querySelectorAll(".sc");
-   RevealSc.forEach((sc) => {                
-    const pl = sc.querySelectorAll(".pl");
-    let tl = gsap.timeline({
-    scrollTrigger: {
-     trigger:sc,
-     toggleActions: once
-     }, delay:.3
-     }); 
-
-tl.to(pl, {
- autoAlpha:1,
- opacity:1,
- duration:dur,     
- ease:easing
-});
-	   
-});
-
-
 const RevealBoxsme = container.querySelectorAll(".boxme");
    RevealBoxsme.forEach((boxme, a) => { 	   	   
     const aboutme = boxme.querySelectorAll(".aboutme");
@@ -358,6 +338,26 @@ tl.to(el, {
  
 });
 	
+
+const RevealSc = container.querySelectorAll(".sc");
+   RevealSc.forEach((sc) => {                
+    const pl = sc.querySelectorAll(".pl");
+    let tl = gsap.timeline({
+    scrollTrigger: {
+     trigger:sc,
+     toggleActions: once
+     }, delay:.3
+     }); 
+
+tl.to(pl, {
+ autoAlpha:1,
+ opacity:1,
+ duration:dur,     
+ ease:easing
+});
+	   
+}, ">");
+
 	 
 const RevealBoxs4 = container.querySelectorAll(".box4");
  RevealBoxs4.forEach((box4) => {
@@ -374,7 +374,7 @@ tl.to(footer, {
  opacity:1,
  duration:dur,
  ease: easing
-}); 
+}, ">"); 
 		 	                                                                                                                  
 });	
 	 
