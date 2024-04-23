@@ -354,7 +354,7 @@ tl.to(pl, {
  opacity:1,
  duration:dur,     
  ease:easing
-}, ">");
+});
 	   
 });
 
@@ -374,7 +374,7 @@ tl.to(footer, {
  opacity:1,
  duration:dur,
  ease: easing
-}, ">"); 
+}); 
 		 	                                                                                                                  
 });	
 	 
