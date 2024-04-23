@@ -122,10 +122,10 @@ gsap.set(".sub-title, .sub-title .char", {
 gsap.to(".sub-title, .sub-title .char", {
  autoAlpha:1,
  opacity: 1,
- duration:dur,
+ duration:2,
  x: 0,
  y: 0,
- ease: "quad.inOut",
+ ease: "quad.out",
  stagger: { each: 0.05, grid: 'auto', from: 'random'}
 });
 
