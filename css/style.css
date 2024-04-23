@@ -715,7 +715,7 @@ img {
 }
 
 .photos .gr{
- background:var(--gold);
+ background:var(--grey);
  transition:background 1s;
 }
 
