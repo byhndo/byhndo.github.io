@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@0;1&display=swap');
 
 :root {  
- --white: #ebedec;
+ --light: #FAF6ED;
  --dark: #000;
  --gold: #cb9d74;
  --green: #bee0ea;
@@ -221,10 +221,10 @@
 }
 	
 html{
- background: var(--white);
+ background: var(--light);
 }
 body {
- background-color: var(--white);
+ background-color: var(--light);
  font-family: var(--font2);
  color: var(--dark);
  font-size: var(--sizebody);
@@ -307,7 +307,7 @@ h1 .char, .sub-title .char{
 }
 
 .photos .sub-title{
-  color:var(--white);
+  color:var(--light);
 }
 
 .indicator {
@@ -415,7 +415,7 @@ a:hover, a:active{
 }
 
 .bio{
- background: var(--white);
+ background: var(--light);
  color: var(--dark);
 }
 
@@ -442,8 +442,8 @@ a:hover, a:active{
 }
 
 .photos .link-bio, .photos .link-photos{
- color:var(--white);
- border:1px solid var(--white);	
+ color:var(--light);
+ border:1px solid var(--light);	
 }
 
 .transition {
@@ -459,7 +459,7 @@ a:hover, a:active{
 }
 
 .transition-bio {
- background: var(--white);
+ background: var(--light);
  transform-origin:0 ;
 }
 
@@ -557,7 +557,7 @@ main {
 }
 
 .sub2 {
- color: var(--white);
+ color: var(--light);
 }
 
 p.sub1, p.sub2 {
@@ -570,7 +570,7 @@ p.sub1 {
 }
 
 p.sub2 {
-  color: var(--white);
+  color: var(--light);
 }
 
 .prolog{
@@ -731,7 +731,7 @@ img {
 }
 
 .photos .line{
- background:var(--green);
+ background:var(--light);
  transition:background 1s;
 }
 
@@ -767,7 +767,7 @@ li.about{
 }
 
 .photos .footer span, .photos .footer span a {
- color: var(--white);
+ color: var(--light);
 }
 
 .footer span, .footer span a {
