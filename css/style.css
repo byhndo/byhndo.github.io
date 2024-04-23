@@ -5,8 +5,7 @@
 :root {  
  --light: #F8F8F8;
  --dark: #000;
-//--gold: #D9B26E;
- --gold: #B5C0D0;
+ --grey: #B5C0D0;
  --green: #bee0ea;
  --soc1: #495057;
  --soc2: #ced4da; 
@@ -174,7 +173,7 @@
  width: 20px;
  border-radius: 50%;
  border: 1.6px solid #555;
- border-top-color: var(--gold);
+ border-top-color: var(--grey);
  z-index:1000;
  animation: spin 1s linear infinite;
 }
@@ -193,13 +192,13 @@
  margin-top:50px;
  font-size:10px;
  font-family:var(--font2);
- color:var(--gold);	 
+ color:var(--grey);	 
  z-index:1000;
 }
 
 .textload{
  position:absolute;
- color:var(--gold);
+ color:var(--grey);
  font-family:var(--font1);
  font-weight:400;
  font-size:28px;
@@ -287,7 +286,7 @@ h1 {
 }
 
 .photos h1{
- color: var(--gold);
+ color: var(--grey);
 }
 
 h1 .char, .sub-title .char{
@@ -525,11 +524,11 @@ nav li a:hover, nav li a:active{
 }
 
 li a.active{
- background:var(--gold);
+ background:var(--grey);
 }
 
 .photos li a.active{
- background:var(--gold);
+ background:var(--grey);
 }
 
 main {
