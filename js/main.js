@@ -49,7 +49,7 @@ tl.to(".co1, .co2, .co3, .co4, .co5, .co6, .co7, .co8, .co9, .co10, .co11, .co12
 function contentShow() {
 
 const easing = "expo.out";
-const dur = 1.7;
+const dur = 2;
 const once = "play none none reset";
 	
 gsap.registerPlugin(ScrollTrigger);
