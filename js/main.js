@@ -147,7 +147,6 @@ gsap.set('.indicator', {
 	
 gsap.to('.indicator', {
  y:0,
- delay:4.2,
  duration:dur,
  autoAlpha: 1,
  onComplete: () => {
