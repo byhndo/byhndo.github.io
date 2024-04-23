@@ -4,7 +4,7 @@
 
 :root {  
  --white: #ebedec;
- --dark: #0c0b0e;
+ --dark: #000;
  --gold: #cb9d74;
  --green: #bee0ea;
  --soc1: #495057;
@@ -272,7 +272,7 @@ h1 {
  display:inline;
  opacity:0;
  font-family: var(--font1);
- color: var(--green);
+ color: var(--dark);
  font-size: var(--sizetitle);
  padding: 0;
  transition-delay: 2s;
@@ -307,7 +307,7 @@ h1 .char, .sub-title .char{
 }
 
 .photos .sub-title{
-  color:var(--green);
+  color:var(--white);
 }
 
 .indicator {
@@ -524,11 +524,11 @@ nav li a:hover, nav li a:active{
 }
 
 li a.active{
- background:var(--blue);
+ background:var(--gold);
 }
 
 .photos li a.active{
- background:var(--green);
+ background:var(--gold);
 }
 
 main {
