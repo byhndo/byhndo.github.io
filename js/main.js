@@ -100,14 +100,14 @@ $('nav li a').click(function(){
 });
 	
 gsap.set("wnav", {
- scaleY:0
+ y:-50
 });	
 gsap.to("wnav", {
  autoAlpha:1, 
  opacity:1,
  delay:3.5,
  duration:dur, 
- scaleY:1,
+ y:0,
  ease: easing,
  transformOrigin: "center center"
 });
