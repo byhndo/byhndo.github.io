@@ -6,7 +6,7 @@
  --light: #F8F8F8;
  --dark: #000;
  --grey: #B5C0D0;
- --green: #bee0ea;
+ --purple: #7882A4;
  --soc1: #495057;
  --soc2: #ced4da; 
  --sizebody:12px;
@@ -272,7 +272,7 @@ h1 {
  display:inline;
  opacity:0;
  font-family: var(--font1);
- color: var(--dark);
+ color: var(--grey);
  font-size: var(--sizetitle);
  padding: 0;
  transition-delay: 2s;
@@ -286,7 +286,7 @@ h1 {
 }
 
 .photos h1{
- color: var(--grey);
+ color: var(--purple);
 }
 
 h1 .char, .sub-title .char{
@@ -528,7 +528,7 @@ li a.active{
 }
 
 .photos li a.active{
- background:var(--grey);
+ background:var(--purple);
 }
 
 main {
