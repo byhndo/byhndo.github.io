@@ -272,7 +272,7 @@ h1 {
  display:inline;
  opacity:0;
  font-family: var(--font1);
- color: var(--gold);
+ color: var(--green);
  font-size: var(--sizetitle);
  padding: 0;
  transition-delay: 2s;
@@ -286,7 +286,7 @@ h1 {
 }
 
 .photos h1{
- color: var(--green);
+ color: var(--gold);
 }
 
 h1 .char, .sub-title .char{
@@ -557,7 +557,7 @@ main {
 }
 
 .sub2 {
- color: var(--green);
+ color: var(--white);
 }
 
 p.sub1, p.sub2 {
@@ -570,7 +570,7 @@ p.sub1 {
 }
 
 p.sub2 {
-  color: var(--green);
+  color: var(--white);
 }
 
 .prolog{
