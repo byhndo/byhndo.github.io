@@ -331,7 +331,7 @@ tl.set(el, {
 })	 
 tl.to(el, {
  scale:1,
- duration: dur,
+ duration: 2,
  delay: gsap.utils.random(.3, 1),
  ease: easing
 });  
