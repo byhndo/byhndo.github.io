@@ -4,7 +4,8 @@
 
 :root {  
  --light: #F8F9FA;
- --dark: #495057;
+ --dark: #212529;
+ --darkgrey: #495057;
  --grey: #B5C0D0;
  --purplegrey:#495057;
  --soc1: #495057;
@@ -27,7 +28,7 @@
  visibility: visible;
  overflow: hidden;
  opacity: 1;
- background:var(--dark);
+ background:var(--darkgrey);
  width:20%;
  height:20%;
 }
