@@ -27,7 +27,7 @@
  visibility: visible;
  overflow: hidden;
  opacity: 1;
- background:var(--darkgrey);
+ background:var(--dark);
  width:20%;
  height:20%;
 }
