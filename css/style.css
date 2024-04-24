@@ -272,7 +272,7 @@ h1 {
  display:inline;
  opacity:0;
  font-family: var(--font1);
- color: var(--grey);
+ color: var(--dark);
  font-size: var(--sizetitle);
  padding: 0;
  transition: color 4s; 
@@ -285,7 +285,7 @@ h1 {
 }
 
 .photos h1{
- color: var(--darkgrey);
+ color: var(--light);
 }
 
 h1 .char, .sub-title .char{
