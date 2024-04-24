@@ -7,7 +7,6 @@
  --dark: #212529;
  --darkgrey: #495057;
  --grey: #B5C0D0;
- --purplegrey:#495057;
  --soc1: #495057;
  --soc2: #ced4da; 
  --sizebody:12px;
@@ -286,7 +285,7 @@ h1 {
 }
 
 .photos h1{
- color: var(--purplegrey);
+ color: var(--darkgrey);
 }
 
 h1 .char, .sub-title .char{
@@ -526,7 +525,7 @@ li a.active{
 }
 
 .photos li a.active{
- background:var(--purplegrey);
+ background:var(--darkgrey);
 }
 
 main {
