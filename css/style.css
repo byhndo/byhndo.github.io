@@ -731,7 +731,6 @@ img {
 }
 
 ul{
- text-align:justify;
  padding-left:14px;
  padding-top:25px;
  padding-bottom: var(--marginp);
@@ -739,7 +738,6 @@ ul{
 
 li.about{
  list-style-type:decimal;
- text-align:justify;
  padding-top:5px;
  margin-bottom:-10px;
 }
