@@ -302,6 +302,7 @@ h1 .char, .sub-title .char{
  font-weight:400;
  transition: color 4s;
  text-align:center;
+ text-transform:uppercase;
 }
 
 .photos .sub-title{
