@@ -305,11 +305,11 @@ tl.set(quote, {
  scaleY: 0
 })
 tl.to(quote, {
+ animation: Expo.easeIn,
  autoAlpha:1,
  opacity: 1,
  scaleY: 1,
- stagger: 0.05,
- ease: 'quad.out'
+ stagger: 0.05
 });
 	 	                                                                                                                  
 });
