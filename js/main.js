@@ -95,28 +95,12 @@ $('nav li a').click(function(){
     $('li a').removeClass("active");
     $(this).addClass("active");
 });
-		
-tl.set("h1, h1 .char", { 
- y:100,
- rotationY:100
-});
-tl.to("h1, h1 .char", {
- autoAlpha:1, 
- opacity:1,
- duration:dur,
- stagger:.06,
- rotationY:0,
- y:0,
- scale:1.0,
- transformOrigin: "center center",
- ease:easing	
-}); 
-			
-tl.set(".sub-title, .sub-title .char", {
+					
+gsap.set(".sub-title, .sub-title .char", {
  x: () => gsap.utils.random(-200, 200), 
  y: () => gsap.utils.random(-150, 150)
 });
-tl.to(".sub-title, .sub-title .char", {
+gsap.to(".sub-title, .sub-title .char", {
  autoAlpha:1,
  opacity: 1,
  duration:2,
@@ -126,10 +110,10 @@ tl.to(".sub-title, .sub-title .char", {
  stagger: { each: 0.05, grid: 'auto', from: 'random'}
 });
 
-tl.set("wnav", {
+gsap.set("wnav", {
  y:-50
 });	
-tl.to("wnav", {
+gsap.to("wnav", {
  autoAlpha:1, 
  opacity:1,
  duration:dur, 
@@ -138,11 +122,11 @@ tl.to("wnav", {
  transformOrigin: "center center"
 }, ">");	
 
-tl.set('.indicator', {
+gsap.set('.indicator', {
  y:-100	
 });
 	
-tl.to('.indicator', {
+gsap.to('.indicator', {
  y:0,
  duration:dur,
  autoAlpha: 1,
@@ -165,7 +149,27 @@ tl.to('.indicator', {
 }, ">");
 
 	
-function setupReveal(container) {	
+function setupReveal(container) {
+
+
+gsap.set("h1, h1 .char", { 
+ y:100,
+ rotationY:100
+});
+gsap.to("h1, h1 .char", {
+ autoAlpha:1, 
+ opacity:1,
+ duration:dur,
+ stagger:.06,
+ rotationY:0,
+ y:0,
+ scale:1.0,
+ transformOrigin: "center center",
+ ease:easing	
+}); 
+
+
+	
  container.ctx = gsap.context(() => {	
 	 
 const RevealBoxsme = container.querySelectorAll(".boxme");
