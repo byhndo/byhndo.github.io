@@ -6,39 +6,51 @@ let tl = gsap.timeline({
  onComplete: contentShow
 });
 
-tl.to(".spintext", {
- opacity:0
-})
-tl.to(".spin", {
- opacity:0
-}, .7)
-	
-tl.to(".textload span", {
- autoAlpha:1,
- opacity:1,
- duration:1,
- stagger:.07,
- delay:"random(0, 1)",
- duration:"random(1, 2)",
- ease:"quad.out"
-})
-	
-tl.to(".textload span", {
- autoAlpha:0,
- opacity:0,
- y:150,
- rotation:gsap.utils.wrap([-180, 180]),
- delay:"random(0, 1.5)",
- duration:"random(.7, 2)",
- stagger:.07,
- ease:"expo.inOut"
-}); 
+let loadingBar = document.getElementById('loading-bar');
+let loadingText = document.getElementById('loading-text');
+let preloader = document.getElementById('preloader');
+let mainContent = document.querySelector('main');
+    let progress = 0;
+    function updateProgress() {
+        if (progress <= 100) {
+            loadingText.textContent = `Loading ${progress}`;
+            loadingBar.style.width = `${progress * 2}px`;
+            progress++;
+            setTimeout(updateProgress, 30); 
+        } else {
+            loadingText.textContent = 'Loading complete';
+            setTimeout(hidePreloader, 500); 
+        }
+    }
 
-tl.to(".loader", {
- autoAlpha:0,
- opacity:0
-}); 
-   	   
+    function hidePreloader() {
+        anime({
+            targets: '#loading-bar-bg, #loading-text',
+            opacity: 0,
+            //width: 0,
+            duration: 1000,
+            easing: 'easeOutExpo',
+            complete: function() {
+                loadingText.style.display = 'none';
+                loadingBar.style.display = 'none';
+                anime({
+                    targets: '#preloader',
+                    opacity: 0,
+                    duration: 1000,
+                    easing: 'easeOutExpo',
+                    complete: function() {
+                       preloader.style.display = 'none'; 
+                        mainContent.style.display = 'block';                     
+                        anime({
+                            targets: 'main',
+                            opacity: [0, 1],
+                            duration: 1000,
+                            easing: 'easeOutExpo'
+                        });
+                    }
+                
+
+		    
 tl.to(".co1, .co2, .co3, .co4, .co5, .co6, .co7, .co8, .co9, .co10, .co11, .co12, .co13, .co14, .co15, .co16, .co17, .co18, .co19, .co20, .co21, .co22, .co23, .co24, .co25", {
  scale:0,
  duration:1,
