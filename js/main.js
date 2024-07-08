@@ -32,7 +32,7 @@ let loadingBar = document.getElementById('loading-bar');
             easing: 'easeOutExpo',
             onComplete: () => {               
             tl.to('#preloader', { 
-		autoAlpha:1,
+		autoAlpha:0,
                 opacity: 0,
                 duration: .1,
                 easing: 'easeOutExpo'
@@ -40,7 +40,7 @@ let loadingBar = document.getElementById('loading-bar');
 	    }
         });
     }
-
+updateProgress();
                          			  
 			
 function contentShow() {
@@ -381,9 +381,6 @@ tl.to(footer, {
 	
 }
 
-
-
-updateProgress();
 
 	
 }, false);
