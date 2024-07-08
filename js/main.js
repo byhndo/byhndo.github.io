@@ -23,22 +23,25 @@ let loadingBar = document.getElementById('loading-bar');
     }
 
     function hidePreloader() {
-        anime({
-            targets: '#loading-bar-bg, #loading-text',
+        gsap.to('#loading-bar-bg, #loading-text', {            
             opacity: 0,            
-            duration: 1000,
+            duration: 1,
             easing: 'easeOutExpo',
-            complete: function() {
+            onComplete: ()=> {
                 loadingText.style.display = 'none';
                 loadingBar.style.display = 'none';
-                anime({
-                    targets: '#preloader',
+                gsap.to('#preloader', {
                     opacity: 0,
-                    duration: 1000,
+                    duration: 1,
                     easing: 'easeOutExpo',
-                    complete: function() {
+                    onComplete: ()=> {
                        preloader.style.display = 'none';                                              
-                    }
+                       gsap to('main', {             
+                            opacity: 1,
+                            duration: 1,
+                            easing: 'easeOutExpo'
+                        });
+		    }
                 });
             }
         });
