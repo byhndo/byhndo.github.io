@@ -2,9 +2,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
 window.addEventListener("load", function(e) {
 
 		
-let tl = gsap.timeline({	
- onComplete: contentShow
-});
 
 
 let loadingBar = document.getElementById('loading-bar');
@@ -50,7 +47,9 @@ let loadingBar = document.getElementById('loading-bar');
 
 
 
-
+let tl = gsap.timeline({	
+ onComplete: contentShow
+});
 
 
 	
