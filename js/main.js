@@ -31,15 +31,12 @@ let loadingBar = document.getElementById('loading-bar');
             duration: 1,
             easing: 'easeOutExpo'               
         });
-        tl.to('#preloader', {        
-            opacity: 0,        
+        tl.to('#preloader', {                
             duration: 1,
-            easing: 'easeOutExpo'               
-        });
-	tl.to(mainContent, {  
-            opacity: 1,        
-            duration: 1,
-            easing: 'easeOutExpo'               
+            easing: 'easeOutExpo',
+	    onComplete: () => {
+   document.querySelector("#preloader").style.display = "none";
+		}
         });
     }
 
