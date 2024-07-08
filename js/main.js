@@ -10,7 +10,6 @@ function startLoader(){
 let loadingBar = document.getElementById('loading-bar');
     let loadingText = document.getElementById('loading-text');
     let preloader = document.getElementById('preloader');
-    let mainContent = document.querySelector('main');
     let progress = 0;
 
     function updateProgress() {
@@ -26,24 +25,30 @@ let loadingBar = document.getElementById('loading-bar');
     }
 
     function hidePreloader() {
-        
+        anime({
+            targets: '#loading-bar-bg, #loading-text',
+            opacity: 0,            
+            duration: 1000,
+            easing: 'easeOutExpo',
+            complete: function() {
+                loadingText.style.display = 'none';
+                loadingBar.style.display = 'none';
+                anime({
+                    targets: '#preloader',
+                    opacity: 0,
+                    duration: 1000,
+                    easing: 'easeOutExpo',
+                    complete: function() {
+                       preloader.style.display = 'none';                                              
+                    }
+                });
+            }
+        });
     }
 
     updateProgress();
 }
 
-
-
-tl.to('#loading-bar-bg, #loading-text', {        
-            opacity: 0,        
-            duration: 1,
-            easing: 'easeOutExpo'               
-        });
-tl.to('#preloader', {   
-	    opacity: 0,
-            duration: 1,
-            easing: 'easeOutExpo'
-        }, ">");
 
 startLoader();
 
