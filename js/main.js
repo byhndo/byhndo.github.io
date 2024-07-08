@@ -3,7 +3,7 @@ window.addEventListener("load", function(e) {
 	
 let tl = gsap.timeline({	
  onComplete: contentShow	
-});
+
 
 
 let loadingBar = document.getElementById('loading-bar');
@@ -49,6 +49,10 @@ let loadingBar = document.getElementById('loading-bar');
 updateProgress(); 
 
 
+});
+
+
+	
 
 function contentShow() {
 	
