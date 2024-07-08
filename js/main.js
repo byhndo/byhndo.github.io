@@ -40,6 +40,20 @@ let loadingBar = document.getElementById('loading-bar');
                             opacity: 1,
                             duration: 1
                         });
+
+gsap.set("wnav", {
+ y:-50
+});	
+gsap.to("wnav", {
+ autoAlpha:1, 
+ opacity:1,
+ duration:dur, 
+ y:0,
+ ease: easing,
+ transformOrigin: "center center"
+}, ">");
+
+			    
 		    }
                 });
             }
@@ -119,18 +133,6 @@ gsap.to(".sub-title, .sub-title .char", {
  ease: "quad.out",
  stagger: { each: 0.05, grid: 'auto', from: 'random'}
 });
-
-gsap.set("wnav", {
- y:-50
-});	
-gsap.to("wnav", {
- autoAlpha:1, 
- opacity:1,
- duration:dur, 
- y:0,
- ease: easing,
- transformOrigin: "center center"
-}, ">");
 
 gsap.set("h1, h1 .char", { 
  y:100,
