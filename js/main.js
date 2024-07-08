@@ -36,19 +36,14 @@ let loadingBar = document.getElementById('loading-bar');
             onComplete: () => {
                 loadingText.style.display = 'none';
                 loadingBar.style.display = 'none';
-                tl.to('#preloader',{
-                   
+                tl.to('#preloader',{                 
                     opacity: 0,
                     duration: .1,
                     easing: 'easeOutExpo',
                     onComplete: () => {
                        preloader.style.display = 'none'; 
                         mainContent.style.display = 'block';                     
-                       tl.to(main,{                       
-                            opacity: 1,
-                            duration: .1,
-                            easing: 'easeOutExpo'
-                        }); 
+                       
                                        
                                                           
                     }
