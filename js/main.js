@@ -31,12 +31,7 @@ let loadingBar = document.getElementById('loading-bar');
             duration: 1,
             easing: 'easeOutExpo',
             onComplete: () => {               
-            tl.to('#preloader', {          
-                    opacity: 0,
-                    duration: .1,
-                    easing: 'easeOutExpo'
-                    
-                });
+            document.querySelector("#preloader").style.display = "none";
             }
         });
     }
