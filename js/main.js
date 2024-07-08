@@ -5,6 +5,18 @@ let tl = gsap.timeline({
  onComplete: contentShow	
 });
 
+gsap.set("wnav", {
+ y:-50
+});	
+gsap.to("wnav", {
+ autoAlpha:1, 
+ opacity:1,
+ duration:dur, 
+ y:0,
+ ease: easing,
+ transformOrigin: "center center"
+}, ">");
+
 
 let loadingBar = document.getElementById('loading-bar');
     let loadingText = document.getElementById('loading-text');
@@ -39,21 +51,7 @@ let loadingBar = document.getElementById('loading-bar');
 			    autoAlpha: 1,
                             opacity: 1,
                             duration: 1
-                        });
-
-gsap.set("wnav", {
- y:-50
-});	
-gsap.to("wnav", {
- autoAlpha:1, 
- opacity:1,
- duration:dur, 
- y:0,
- ease: easing,
- transformOrigin: "center center"
-}, ">");
-
-			    
+                        });		    
 		    }
                 });
             }
