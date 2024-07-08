@@ -6,11 +6,14 @@ let tl = gsap.timeline({
  onComplete: contentShow
 });
 
+
 let loadingBar = document.getElementById('loading-bar');
-let loadingText = document.getElementById('loading-text');
-let preloader = document.getElementById('preloader');
-let mainContent = document.querySelector('main');
+    let loadingText = document.getElementById('loading-text');
+    let preloader = document.getElementById('preloader');
+    let mainContent = document.querySelector('main');
+
     let progress = 0;
+
     function updateProgress() {
         if (progress <= 100) {
             loadingText.textContent = `Loading ${progress}`;
@@ -24,37 +27,38 @@ let mainContent = document.querySelector('main');
     }
 
     function hidePreloader() {
-        anime({
-            targets: '#loading-bar-bg, #loading-text',
+        tl.to('#loading-bar-bg, #loading-text',{
+            
             opacity: 0,
-            //width: 0,
-            duration: 1000,
+            
+            duration: 1,
             easing: 'easeOutExpo',
-            complete: function() {
+            onComplete: () => {
                 loadingText.style.display = 'none';
                 loadingBar.style.display = 'none';
-                anime({
-                    targets: '#preloader',
+                tl.to('#preloader',{
+                   
                     opacity: 0,
-                    duration: 1000,
+                    duration: .1,
                     easing: 'easeOutExpo',
-                    complete: function() {
+                    onComplete: () => {
                        preloader.style.display = 'none'; 
                         mainContent.style.display = 'block';                     
-                        anime({
-                            targets: 'main',
-                            opacity: [0, 1],
-                            duration: 1000,
+                        tl.to(main,{                       
+                            opacity: 1,
+                            duration: .1,
                             easing: 'easeOutExpo'
                         });
+                                       
+                                                          
                     }
-    });
+                });
             }
         });
     }
 
-updateProgress();            
-
+    updateProgress();
+                      
 		    
 tl.to(".co1, .co2, .co3, .co4, .co5, .co6, .co7, .co8, .co9, .co10, .co11, .co12, .co13, .co14, .co15, .co16, .co17, .co18, .co19, .co20, .co21, .co22, .co23, .co24, .co25", {
  scale:0,
