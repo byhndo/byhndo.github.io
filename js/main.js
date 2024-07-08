@@ -1,10 +1,14 @@
 document.addEventListener("DOMContentLoaded", function(event) {
 window.addEventListener("load", function(e) {
+	
+let tl = gsap.timeline({	
+ onComplete: contentShow	
+});
 
-gsap.set("wnav", {
+tl.set("wnav", {
  y:-50
 });	
-gsap.to("wnav", {
+tl.to("wnav", {
  autoAlpha:1, 
  opacity:1,
  duration:dur, 
@@ -12,11 +16,6 @@ gsap.to("wnav", {
  ease: easing,
  transformOrigin: "center center"
 }, ">");
-
-	
-let tl = gsap.timeline({	
- onComplete: contentShow	
-});
 
 	
 let loadingBar = document.getElementById('loading-bar');
