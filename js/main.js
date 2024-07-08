@@ -26,18 +26,20 @@ let loadingBar = document.getElementById('loading-bar');
     }
 
     function hidePreloader() {
-        gsap.to('#loading-bar-bg, #loading-text', {        
+        tl.to('#loading-bar-bg, #loading-text', {        
             opacity: 0,        
             duration: 1,
             easing: 'easeOutExpo',
             onComplete: () => {
                 loadingText.style.display = 'none';
                 loadingBar.style.display = 'none';
-                gsap.to('#preloader', {                
+                tl.to('#preloader', {                
                     opacity: 0,
                     duration: 0,
                     easing: 'easeOutExpo',
-                    onComplete: () => {                                          gsap.to(preloader, {                                          autoAlpha:0,
+                    onComplete: () => {                                         
+		    tl.to(preloader, {                                          
+		       autoAlpha:0,
                        opacity: 0,
                        duration: 1,
                         easing: 'easeOutExpo'
@@ -48,7 +50,8 @@ let loadingBar = document.getElementById('loading-bar');
         });
     }
 
-    updateProgress();			  
+    updateProgress();
+    	  
 			
 function contentShow() {
 
