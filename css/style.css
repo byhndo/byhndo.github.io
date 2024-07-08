@@ -48,6 +48,8 @@
 }
 
 #loading-bar-bg {
+ position:absolute;
+ margin:0 auto;
   width: 200px;
   height: 2px;
   background-color: #777;
