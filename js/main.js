@@ -26,21 +26,18 @@ let loadingBar = document.getElementById('loading-bar');
         gsap.to('#loading-bar-bg, #loading-text', {            
             opacity: 0,            
             duration: 1,
-            easing: 'easeOutExpo',
             onComplete: ()=> {
                 loadingText.style.display = 'none';
                 loadingBar.style.display = 'none';
                 gsap.to('#preloader', {
                     opacity: 0,
                     duration: 1,
-                    easing: 'easeOutExpo',
                     onComplete: ()=> {
                        preloader.style.display = 'none';                                              
                        gsap.to('main', { 
 			    autoAlpha: 1,
                             opacity: 1,
-                            duration: 1,
-                            easing: 'easeOutExpo'
+                            duration: 1
                         });
 		    }
                 });
@@ -313,7 +310,7 @@ tl.set(quote, {
  scaleY: 0
 })
 tl.to(quote, {
- animation: Expo.easeIn,
+ ease: Expo.easeIn,
  autoAlpha:1,
  opacity: 1,
  scaleY: 1,
