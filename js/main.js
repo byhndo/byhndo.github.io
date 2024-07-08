@@ -42,10 +42,7 @@ tl.to('#loading-bar-bg, #loading-text', {
         tl.to('#preloader', {   
 	    opacity: 0,
             duration: 1,
-            easing: 'easeOutExpo',
-	    onComplete: () => {
-   document.querySelector("#preloader").style.display = "none";
-	    }
+            easing: 'easeOutExpo'
         });
 
 	
