@@ -31,7 +31,8 @@ let loadingBar = document.getElementById('loading-bar');
             duration: 1,
             easing: 'easeOutExpo'               
         });
-        gsap.to('#preloader', {                
+        gsap.to('#preloader', {   
+	    opacity: 0,
             duration: 1,
             easing: 'easeOutExpo',
 	    onComplete: () => {
