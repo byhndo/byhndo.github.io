@@ -29,24 +29,12 @@ let loadingBar = document.getElementById('loading-bar');
         tl.to('#loading-bar-bg, #loading-text', {        
             opacity: 0,        
             duration: 1,
-            easing: 'easeOutExpo',
-            onComplete: () => {
-                loadingText.style.display = 'none';
-                loadingBar.style.display = 'none';
-                tl.to('#preloader', {                
-                    opacity: 0,
-                    duration: 0,
-                    easing: 'easeOutExpo',
-                    onComplete: () => {                                         
-		    tl.to(preloader, {                                          
-		       autoAlpha:0,
-                       opacity: 0,
-                       duration: 1,
-                        easing: 'easeOutExpo'
-                        });
-                    }
-                });
-            }
+            easing: 'easeOutExpo'               
+        });
+      tl.to('#preloader', {        
+            opacity: 0,        
+            duration: 1,
+            easing: 'easeOutExpo'               
         });
     }
 
