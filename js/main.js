@@ -96,11 +96,11 @@ $('nav li a').click(function(){
     $(this).addClass("active");
 });
 		
-gsap.set("h1, h1 .char", { 
+tl.set("h1, h1 .char", { 
  y:100,
  rotationY:100
 });
-gsap.to("h1, h1 .char", {
+tl.to("h1, h1 .char", {
  autoAlpha:1, 
  opacity:1,
  duration:dur,
@@ -112,11 +112,11 @@ gsap.to("h1, h1 .char", {
  ease:easing	
 }); 
 			
-gsap.set(".sub-title, .sub-title .char", {
+tl.set(".sub-title, .sub-title .char", {
  x: () => gsap.utils.random(-200, 200), 
  y: () => gsap.utils.random(-150, 150)
 });
-gsap.to(".sub-title, .sub-title .char", {
+tl.to(".sub-title, .sub-title .char", {
  autoAlpha:1,
  opacity: 1,
  duration:2,
@@ -138,16 +138,16 @@ tl.to("wnav", {
  transformOrigin: "center center"
 }, ">");	
 
-gsap.set('.indicator', {
+tl.set('.indicator', {
  y:-100	
 });
 	
-gsap.to('.indicator', {
+tl.to('.indicator', {
  y:0,
  duration:dur,
  autoAlpha: 1,
  onComplete: () => {
- gsap.fromTo('.indicator', {
+ tl.fromTo('.indicator', {
   autoAlpha: 1,
   y:0
  }, {
