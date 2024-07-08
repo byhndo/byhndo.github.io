@@ -32,18 +32,21 @@ let loadingBar = document.getElementById('loading-bar');
     updateProgress();
 }
 
-startLoader();
 
-gsap.to('#loading-bar-bg, #loading-text', {        
+
+tl.to('#loading-bar-bg, #loading-text', {        
             opacity: 0,        
             duration: 1,
             easing: 'easeOutExpo'               
         });
-        gsap.to('#preloader', {   
+tl.to('#preloader', {   
 	    opacity: 0,
             duration: 1,
             easing: 'easeOutExpo'
         });
+
+startLoader();
+
 
 	
 function contentShow() {
