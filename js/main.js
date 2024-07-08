@@ -5,7 +5,7 @@ let tl = gsap.timeline({
  onComplete: contentShow
 });
 
-let loadingBar = document.getElementById('loading-bar');
+/*let loadingBar = document.getElementById('loading-bar');
     let loadingText = document.getElementById('loading-text');
     let preloader = document.getElementById('preloader');
     let progress = 0;
@@ -45,7 +45,7 @@ let loadingBar = document.getElementById('loading-bar');
         });
     }
 
-    updateProgress();
+    updateProgress(); */
 
 
 	
