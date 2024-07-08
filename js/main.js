@@ -5,6 +5,11 @@ let tl = gsap.timeline({
  onComplete: contentShow	
 });
 
+	
+function contentShow() {
+
+
+
 
 let loadingBar = document.getElementById('loading-bar');
     let loadingText = document.getElementById('loading-text');
@@ -49,9 +54,14 @@ let loadingBar = document.getElementById('loading-bar');
 updateProgress(); 
 
 
-	
-function contentShow() {
 
+
+
+
+
+
+
+	
 const easing = "sine.out";
 const dur = 1;
 const once = "play none none reset";
