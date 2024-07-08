@@ -1,7 +1,9 @@
 document.addEventListener("DOMContentLoaded", function(event) {
 window.addEventListener("load", function(e) {
 	
-
+let tl = gsap.timeline({	
+ onComplete: contentShow
+});
 
 let loadingBar = document.getElementById('loading-bar');
     let loadingText = document.getElementById('loading-text');
@@ -43,13 +45,6 @@ let loadingBar = document.getElementById('loading-bar');
     }
 
     updateProgress();
-
-
-
-	
-let tl = gsap.timeline({	
- onComplete: contentShow
-});
 
 
 	
