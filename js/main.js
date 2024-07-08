@@ -126,10 +126,10 @@ gsap.to(".sub-title, .sub-title .char", {
  stagger: { each: 0.05, grid: 'auto', from: 'random'}
 });
 
-gsap.set("wnav", {
+tl.set("wnav", {
  y:-50
 });	
-gsap.to("wnav", {
+tl.to("wnav", {
  autoAlpha:1, 
  opacity:1,
  duration:dur, 
