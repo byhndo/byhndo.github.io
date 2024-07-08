@@ -28,7 +28,7 @@
   justify-content: center;
   align-items: center;
   z-index:1000;
- height:100%;
+ height:100vh;
  width:100%;
   background-color:var(--dark);
   position: fixed;
@@ -48,8 +48,6 @@
 }
 
 #loading-bar-bg {
- position:absolute;
- margin:0 auto;
   width: 200px;
   height: 2px;
   background-color: #777;
