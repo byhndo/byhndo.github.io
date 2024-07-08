@@ -26,25 +26,25 @@ let loadingBar = document.getElementById('loading-bar');
     }
 
     function hidePreloader() {
-        tl.to('#loading-bar-bg, #loading-text',{
-            
-            opacity: 0,
-            
+        tl.to('#loading-bar-bg, #loading-text',{        
+            opacity: 0,           
             duration: 1,
             easing: 'easeOutExpo',
             onComplete: () => {
                 loadingText.style.display = 'none';
                 loadingBar.style.display = 'none';
-                tl.to('#preloader',{                 
+                tl.fromTo('#preloader',{
+                  autoAlpha: 1
+                   },
+                    {
+                   autoAlpha: 0,
                     opacity: 0,
                     duration: .1,
                     easing: 'easeOutExpo',
                     onComplete: () => {
-                       preloader.style.display = 'none'; 
-                                            
-                       
-                                       
-                                                          
+                       preloader.style.display = 'none';                    
+                                                           
+                                                                                      
                     }
                 });
             }
@@ -52,6 +52,7 @@ let loadingBar = document.getElementById('loading-bar');
     }
 
     updateProgress();
+        
                       			  
 			
 function contentShow() {
