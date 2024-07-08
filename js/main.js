@@ -10,7 +10,7 @@ let tl = gsap.timeline({
 let loadingBar = document.getElementById('loading-bar');
     let loadingText = document.getElementById('loading-text');
     let preloader = document.getElementById('preloader');
-    
+    let mainContent = document.querySelector('main');
     let progress = 0;
 
     function updateProgress() {
@@ -26,21 +26,32 @@ let loadingBar = document.getElementById('loading-bar');
     }
 
     function hidePreloader() {
-        tl.to('#loading-bar-bg, #loading-text', {       
-            opacity: 0,         
+        tl.to('#loading-bar-bg, #loading-text', {        
+            opacity: 0,        
             duration: 1,
             easing: 'easeOutExpo',
-            onComplete: () => {               
-            tl.to('#preloader', { 
-		autoAlpha:0,
-                opacity: 0,
-                duration: .1,
-                easing: 'easeOutExpo'
+            onComplete: () => {
+                loadingText.style.display = 'none';
+                loadingBar.style.display = 'none';
+                tl.to('#preloader', {                
+                    opacity: 0,
+                    duration: 0,
+                    easing: 'easeOutExpo',
+                    onComplete: () => {
+                       preloader.style.display = 'none';         
+                        tl.to(main, {                           autoAlpha:1,
+                            opacity: 1,
+                            duration: 1,
+                            easing: 'easeOutExpo'
+                        });
+                    }
                 });
-	    }
+            }
         });
+
     }
-updateProgress();
+
+    updateProgress();
                          			  
 			
 function contentShow() {
