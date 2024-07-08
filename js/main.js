@@ -37,7 +37,6 @@ let loadingBar = document.getElementById('loading-bar');
             easing: 'easeOutExpo'               
         });
 	tl.to(mainContent, {  
-	    autoAlpha: 0,
             opacity: 1,        
             duration: 1,
             easing: 'easeOutExpo'               
