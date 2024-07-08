@@ -26,12 +26,20 @@ let loadingBar = document.getElementById('loading-bar');
     }
 
     function hidePreloader() {
-        gsap.to('#loading-bar-bg, #loading-text', {        
+        
+    }
+
+    updateProgress();
+}
+
+startLoader();
+
+tl.to('#loading-bar-bg, #loading-text', {        
             opacity: 0,        
             duration: 1,
             easing: 'easeOutExpo'               
         });
-        gsap.to('#preloader', {   
+        tl.to('#preloader', {   
 	    opacity: 0,
             duration: 1,
             easing: 'easeOutExpo',
@@ -39,13 +47,8 @@ let loadingBar = document.getElementById('loading-bar');
    document.querySelector("#preloader").style.display = "none";
 	    }
         });
-    }
 
-    updateProgress();
-}
-
-startLoader();
-			
+	
 function contentShow() {
 
 const easing = "sine.out";
