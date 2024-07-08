@@ -36,7 +36,8 @@ let loadingBar = document.getElementById('loading-bar');
                     easing: 'easeOutExpo',
                     onComplete: ()=> {
                        preloader.style.display = 'none';                                              
-                       gsap to('main', {             
+                       gsap.to('main', { 
+			    autoAlpha: 1,
                             opacity: 1,
                             duration: 1,
                             easing: 'easeOutExpo'
