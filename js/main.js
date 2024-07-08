@@ -4,7 +4,7 @@ window.addEventListener("load", function(e) {
 let tl = gsap.timeline({	
  //onComplete: contentShow
 	onComplete: () => {
-    contentShow
+    tl.play();
 }
 });
 
