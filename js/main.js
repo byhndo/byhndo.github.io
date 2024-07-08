@@ -36,7 +36,7 @@ let loadingBar = document.getElementById('loading-bar');
         });
     }
 
-    updateProgress();
+    
         
                       			  
 			
@@ -379,5 +379,9 @@ tl.to(footer, {
 }
 
 
+
+updateProgress();
+
+	
 }, false);
 });
