@@ -31,8 +31,14 @@ let loadingBar = document.getElementById('loading-bar');
             duration: 1,
             easing: 'easeOutExpo'               
         });
-      tl.to('#preloader', {        
+        tl.to('#preloader', {        
             opacity: 0,        
+            duration: 1,
+            easing: 'easeOutExpo'               
+        });
+	tl.to(mainContent, {  
+	    autoAlpha: 1,
+            opacity: 1,        
             duration: 1,
             easing: 'easeOutExpo'               
         });
