@@ -31,7 +31,7 @@ let loadingBar = document.getElementById('loading-bar');
             duration: 1,
             easing: 'easeOutExpo',
             onComplete: () => {               
-            document.querySelector(preloader).style.display = "none";
+            document.querySelector('#preloader').style.display = "none";
             }
         });
     }
