@@ -10,8 +10,7 @@ let tl = gsap.timeline({
 let loadingBar = document.getElementById('loading-bar');
     let loadingText = document.getElementById('loading-text');
     let preloader = document.getElementById('preloader');
-    let mainContent = document.querySelector('#app');
-
+    
     let progress = 0;
 
     function updateProgress() {
@@ -42,7 +41,7 @@ let loadingBar = document.getElementById('loading-bar');
                     easing: 'easeOutExpo',
                     onComplete: () => {
                        preloader.style.display = 'none'; 
-                        mainContent.style.display = 'block';                     
+                                            
                        
                                        
                                                           
