@@ -22,6 +22,38 @@
  --fwfooter:500;
 }
 
+#preloader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100%;
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  color: #fff;
+}
+
+#loading-text {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+#loading-bar-bg {
+  width: 200px;
+  height: 2px;
+  background-color: #777;
+}
+
+#loading-bar {
+  width: 0;
+  height: 100%;
+  background-color: #fff;
+}
+
 .co1, .co2, .co3, .co4, .co5, .co6, .co7, .co8, .co9, .co10, .co11, .co12, .co13, .co14, .co15, .co16, .co17, .co18, .co19, .co20, .co21, .co22, .co23, .co24, .co25 {
  position: fixed;
  visibility: visible;
@@ -155,62 +187,6 @@
 .co25{
  top:80%;
  left:80%;
-}
-
-.loader{
- position:fixed;
- z-index:1000;
- height:100%;
- width:100%;
- display:grid;
- place-items:center;
-}
-
-.spin{
- position:absolute;
- margin:0 auto;
- height: 20px;
- width: 20px;
- border-radius: 50%;
- border: 1.6px solid #555;
- border-top-color: var(--grey);
- z-index:1000;
- animation: spin 1s linear infinite;
-}
-
-@keyframes spin{
-  0%{
-    transform : rotate(0deg);
-  }
-  100%{
-    transform : rotate(360deg);
-  }
-}
-
-.spintext{
- position:absolute;
- margin-top:50px;
- font-size:10px;
- font-family:var(--font2);
- color:var(--grey);	 
- z-index:1000;
-}
-
-.textload{
- position:absolute;
- color:var(--grey);
- font-family:var(--font1);
- font-weight:400;
- font-size:28px;
- text-transform:uppercase;
- letter-spacing:-1px;
- z-index:1000;
-}
-
-.textload span{
- display:inline-block;
- opacity:0;
- visibility:hidden;
 }
 
 .svg-filters {
