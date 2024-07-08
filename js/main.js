@@ -131,7 +131,7 @@ gsap.to('.indicator', {
  duration:dur,
  autoAlpha: 1,
  onComplete: () => {
- tl.fromTo('.indicator', {
+ gsap.fromTo('.indicator', {
   autoAlpha: 1,
   y:0
  }, {
