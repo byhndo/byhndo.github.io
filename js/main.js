@@ -26,12 +26,12 @@ let loadingBar = document.getElementById('loading-bar');
     }
 
     function hidePreloader() {
-        tl.to('#loading-bar-bg, #loading-text', {        
+        gsap.to('#loading-bar-bg, #loading-text', {        
             opacity: 0,        
             duration: 1,
             easing: 'easeOutExpo'               
         });
-        tl.to('#preloader', {                
+        gsap.to('#preloader', {                
             duration: 1,
             easing: 'easeOutExpo',
 	    onComplete: () => {
