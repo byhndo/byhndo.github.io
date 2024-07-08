@@ -6,7 +6,7 @@ let tl = gsap.timeline({
  onComplete: contentShow
 });
 
-
+function startLoader(){
 let loadingBar = document.getElementById('loading-bar');
     let loadingText = document.getElementById('loading-text');
     let preloader = document.getElementById('preloader');
@@ -26,12 +26,12 @@ let loadingBar = document.getElementById('loading-bar');
     }
 
     function hidePreloader() {
-        gsap.to('#loading-bar-bg, #loading-text', {        
+        let.to('#loading-bar-bg, #loading-text', {        
             opacity: 0,        
             duration: 1,
             easing: 'easeOutExpo'               
         });
-        gsap.to('#preloader', {   
+        let.to('#preloader', {   
 	    opacity: 0,
             duration: 1,
             easing: 'easeOutExpo',
@@ -42,7 +42,9 @@ let loadingBar = document.getElementById('loading-bar');
     }
 
     updateProgress();
-    	  
+}
+
+startLoader();
 			
 function contentShow() {
 
