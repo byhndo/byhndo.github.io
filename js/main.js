@@ -20,7 +20,8 @@ let loadingBar = document.getElementById('loading-bar');
 
     function hidePreloader() {
     let tl = gsap.timeline({	
-    onComplete: contentShow	
+    //onComplete: contentShow
+	    paused: true
     });
         tl.to('#loading-bar-bg, #loading-text', {            
             opacity: 0,            
@@ -45,7 +46,7 @@ let loadingBar = document.getElementById('loading-bar');
     }
 
 updateProgress(); 
-
+tl.play();
 
 
 
