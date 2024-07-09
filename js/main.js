@@ -35,8 +35,7 @@ let loadingBar = document.getElementById('loading-bar');
                        preloader.style.display = 'none';                                              
                        tl.to('main', { 
 			    autoAlpha: 1,
-                            opacity: 1,
-			    duration: .1
+                            opacity: 1		
                         }, ">");		    
 		    }
                 });
