@@ -51,6 +51,7 @@
   width: 200px;
   height: 2px;
   background-color: #777;
+  border-radius:2px;
 }
 
 #loading-bar {
