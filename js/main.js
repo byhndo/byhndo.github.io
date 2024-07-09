@@ -42,9 +42,11 @@ let loadingBar = document.getElementById('loading-bar');
         });
     }
 
+tl.play();
+
 updateProgress(); 
 
-tl.play();
+
 
 document.addEventListener("DOMContentLoaded", function(event) {
 window.addEventListener("load", function(e) {
