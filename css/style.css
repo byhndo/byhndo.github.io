@@ -45,6 +45,7 @@
 #loading-text {
   margin-bottom: 20px;
   font-size: 11px;
+  text-transform:uppercase;
 }
 
 #loading-bar-bg {
