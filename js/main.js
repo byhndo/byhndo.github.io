@@ -17,14 +17,11 @@ let loadingBar = document.getElementById('loading-bar');
             setTimeout(hidePreloader, 500); 
         }
     }
-
-let tl = gsap.timeline({	
-    onComplete: contentShow	
-    });
-
 	
     function hidePreloader() {
-    
+    let tl = gsap.timeline({	
+    onComplete: contentShow	
+    });
         tl.to('#loading-bar-bg, #loading-text', {            
             opacity: 0,            
             duration: .1,
