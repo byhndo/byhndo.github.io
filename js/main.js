@@ -18,11 +18,13 @@ let loadingBar = document.getElementById('loading-bar');
         }
     }
 
-    function hidePreloader() {
-    let tl = gsap.timeline({	
-    //onComplete: contentShow
-	    paused: true
+let tl = gsap.timeline({	
+    onComplete: contentShow	
     });
+
+	
+    function hidePreloader() {
+    
         tl.to('#loading-bar-bg, #loading-text', {            
             opacity: 0,            
             duration: .1,
@@ -46,10 +48,6 @@ let loadingBar = document.getElementById('loading-bar');
     }
 
 updateProgress(); 
-tl.play();
-
-
-
 	
 
 function contentShow() {
