@@ -5,8 +5,7 @@ let tl = gsap.timeline({
  onComplete: contentShow	
 });
 
-
-tl.add( function(){	
+	
 let loadingBar = document.getElementById('loading-bar');
     let loadingText = document.getElementById('loading-text');
     let preloader = document.getElementById('preloader');
@@ -25,7 +24,7 @@ let loadingBar = document.getElementById('loading-bar');
     }
 
     function hidePreloader() {
-        gsap.to('#loading-bar-bg, #loading-text', {            
+        tl.add(gsap.to('#loading-bar-bg, #loading-text', {            
             opacity: 0,            
             duration: 1,
             onComplete: ()=> {
@@ -44,11 +43,11 @@ let loadingBar = document.getElementById('loading-bar');
 		    }
                 });
             }
-        });
+        }));
     }
 
 updateProgress(); 
-});
+
 
 
 
