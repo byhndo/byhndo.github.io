@@ -1,9 +1,7 @@
 document.addEventListener("DOMContentLoaded", function(event) {
 window.addEventListener("load", function(e) {
 	
-let tl = gsap.timeline({	
- onComplete: contentShow	
-});
+
 
 	
 let loadingBar = document.getElementById('loading-bar');
@@ -24,26 +22,29 @@ let loadingBar = document.getElementById('loading-bar');
     }
 
     function hidePreloader() {
-        tl.add(gsap.to('#loading-bar-bg, #loading-text', {            
+	    let tl = gsap.timeline({	
+ onComplete: contentShow	
+});
+        gsap.to('#loading-bar-bg, #loading-text', {            
             opacity: 0,            
             duration: 1,
             onComplete: ()=> {
                 loadingText.style.display = 'none';
                 loadingBar.style.display = 'none';
-                tl.add(gsap.to('#preloader', {
+                gsap.to('#preloader', {
                     opacity: 0,
                     duration: 1,
                     onComplete: ()=> {
                        preloader.style.display = 'none';                                              
-                       tl.add(gsap.to('main', { 
+                       gsap.to('main', { 
 			    autoAlpha: 1,
                             opacity: 1,
                             duration: 1
-                        }));		    
+                        });		    
 		    }
-                }));
+                });
             }
-        }));
+        });
     }
 
 updateProgress(); 
