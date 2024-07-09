@@ -42,7 +42,7 @@ let loadingBar = document.getElementById('loading-bar');
         });
     }
 
-tl.play();
+
 
 updateProgress(); 
 
@@ -398,3 +398,6 @@ tl.to(footer, {
 	
 }, false);
 });
+
+
+tl.play();
