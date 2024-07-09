@@ -30,7 +30,7 @@ let loadingBar = document.getElementById('loading-bar');
                 loadingBar.style.display = 'none';
                 tl.to('#preloader', {
                     opacity: 0,
-                    duration: 1,
+                    duration: .5,
                     onComplete: ()=> {
                        preloader.style.display = 'none';                                              
                        tl.to('main', { 
