@@ -1,9 +1,6 @@
 document.addEventListener("DOMContentLoaded", function(event) {
 window.addEventListener("load", function(e) {
-	
-
-
-	
+		
 let loadingBar = document.getElementById('loading-bar');
     let loadingText = document.getElementById('loading-text');
     let preloader = document.getElementById('preloader');
@@ -22,9 +19,9 @@ let loadingBar = document.getElementById('loading-bar');
     }
 
     function hidePreloader() {
-	    let tl = gsap.timeline({	
- onComplete: contentShow	
-});
+    let tl = gsap.timeline({	
+    onComplete: contentShow	
+    });
         tl.to('#loading-bar-bg, #loading-text', {            
             opacity: 0,            
             duration: .1,
