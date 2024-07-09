@@ -36,7 +36,7 @@ let loadingBar = document.getElementById('loading-bar');
                        tl.to('main', { 
 			    autoAlpha: 1,
                             opacity: 1,
-			    duration: .3
+			    duration: .1
                         });		    
 		    }
                 });
