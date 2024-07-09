@@ -30,12 +30,13 @@ let loadingBar = document.getElementById('loading-bar');
                 loadingBar.style.display = 'none';
                 tl.to('#preloader', {
                     opacity: 0,
-                    duration: 3,
+                    duration: 1,
                     onComplete: ()=> {
                        preloader.style.display = 'none';                                              
                        tl.to('main', { 
 			    autoAlpha: 1,
-                            opacity: 1
+                            opacity: 1,
+			    duration: .3
                         });		    
 		    }
                 });
