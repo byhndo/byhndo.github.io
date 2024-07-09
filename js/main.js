@@ -30,18 +30,18 @@ let loadingBar = document.getElementById('loading-bar');
             onComplete: ()=> {
                 loadingText.style.display = 'none';
                 loadingBar.style.display = 'none';
-                gsap.to('#preloader', {
+                tl.add(gsap.to('#preloader', {
                     opacity: 0,
                     duration: 1,
                     onComplete: ()=> {
                        preloader.style.display = 'none';                                              
-                       gsap.to('main', { 
+                       tl.add(gsap.to('main', { 
 			    autoAlpha: 1,
                             opacity: 1,
                             duration: 1
-                        });		    
+                        }));		    
 		    }
-                });
+                }));
             }
         }));
     }
