@@ -426,8 +426,12 @@ p.sub2 {
  font-family:var(--font2);
 }
 
+.box3{
+ margin-bottom:var(--marginp);
+}
+
 .quote {
- margin:var(--marginp) auto var(--marginp) auto;
+ margin:var(--marginp) auto -50px auto;
  max-width:76%;
  opacity:0;
  visibility:hidden;
