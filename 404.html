@@ -120,11 +120,19 @@ Beranda</a>
 <script src="js/gsap.js"></script>
 	
 <script>
-gsap.set(".box", {
+document.addEventListener("DOMContentLoaded", function(event) {
+window.addEventListener("load", function(e) {
+
+let tm = gsap.timeline({	
+      onComplete: move		    
+});
+	
+function move() {
+tm.set(".box", {
  y:-150
 }); 
 	
-gsap.to(".box", {
+tm.to(".box", {
  autoAlpha:1,
  opacity:1,
  y:0,
@@ -132,7 +140,7 @@ gsap.to(".box", {
  ease:"cubic.out"
 }); 
 	
-gsap.to(".button1", {
+tm.to(".button1", {
  autoAlpha:1,
  opacity:1,
  delay:1,
@@ -164,6 +172,11 @@ function initBthome() {
 function delay (URL) {
     setTimeout( function() { window.location = URL }, 2000 );
 }
+
+}
+	
+}, false);
+});
 </script>
 </body>
 </html>
