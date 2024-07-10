@@ -23,43 +23,43 @@
 }
 
 #preloader {
-  display: flex;
+ display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   z-index:1000;
- height:100%;
- width:100%;
-  background-color:var(--light);
+  height:100%;
+  width:100%;
+  background-color:var(--dark);
   position: fixed;
   top: 0;
   left: 0;
   right:0;
   bottom:0;
- visibility: visible;
- overflow: hidden;
- opacity: 1;
-  color: var(--dark);
+  visibility: visible;
+  overflow: hidden;
+  opacity: 1;
+  color: var(--light);
 }
 
 #loading-text {
-  margin-bottom: 18px;
-  font-size: 10px;
-  text-transform:uppercase;
+ margin-bottom: 18px;
+ font-size: 10px;
+ text-transform:uppercase;
 }
 
 #loading-bar-bg {
-  width: 200px;
-  height: 2px;
-  background-color: var(--grey);
-  border-radius:5px;
+ width: 200px;
+ height: 2px;
+ background-color: var(--grey);
+ border-radius:5px;
 }
 
 #loading-bar {
-  width: 0;
-  height: 100%;
-  background-color: var(--darkgrey);
-  border-radius:5px;
+ width: 0;
+ height: 100%;
+ background-color: var(--darkgrey);
+ border-radius:5px;
 }
 
 .svg-filters {
