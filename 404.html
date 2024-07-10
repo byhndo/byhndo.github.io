@@ -123,16 +123,12 @@ Beranda</a>
 document.addEventListener("DOMContentLoaded", function(event) {
 window.addEventListener("load", function(e) {
 
-let tm = gsap.timeline({	
-      onComplete: move		    
-});
-	
-function move() {
-tm.set(".box", {
+
+gsap.set(".box", {
  y:-150
 }); 
 	
-tm.to(".box", {
+gsap.to(".box", {
  autoAlpha:1,
  opacity:1,
  y:0,
@@ -140,7 +136,7 @@ tm.to(".box", {
  ease:"cubic.out"
 }); 
 	
-tm.to(".button1", {
+gsap.to(".button1", {
  autoAlpha:1,
  opacity:1,
  delay:1,
@@ -173,7 +169,6 @@ function delay (URL) {
     setTimeout( function() { window.location = URL }, 2000 );
 }
 
-}
 	
 }, false);
 });
