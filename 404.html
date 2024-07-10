@@ -120,9 +120,7 @@ Beranda</a>
 <script src="js/gsap.js"></script>
 	
 <script>
-document.addEventListener("DOMContentLoaded", function(event) {
-window.addEventListener("load", function(e) {
-
+$(window).on("load", function(){
 
 gsap.set(".box", {
  y:-150
@@ -170,7 +168,6 @@ function delay (URL) {
 }
 
 	
-}, false);
 });
 </script>
 </body>
