@@ -22,23 +22,16 @@ let loadingBar = document.getElementById('loading-bar');
     let tl = gsap.timeline({	
       onComplete: contentShow		    
     });
-        tl.to('#loading-bar-bg, #loading-text', {            
+        tl.to('#loading-bar-bg, #loading-text, #preloader', {            
             opacity: 0,            
             duration: 1,
             onComplete: ()=> {
                 loadingText.style.display = 'none';
                 loadingBar.style.display = 'none';
-                tl.to('#preloader', {
-                    opacity: 0,
-                    onComplete: ()=> {
-                       preloader.style.display = 'none';                                              	    
-		    }
-                });
+		preloader.style.display = 'none';                
             }
         });
     }
-
-
 
 updateProgress(); 
 
