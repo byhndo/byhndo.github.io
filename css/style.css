@@ -39,7 +39,7 @@
   visibility: visible;
   overflow: hidden;
   opacity: 1;
-  color: var(--light);
+  color: var(--darkgrey);
 }
 
 #loading-text {
