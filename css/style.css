@@ -453,7 +453,7 @@ p.sub2 {
  font-style: italic;
  color: inherit;
  text-align:center;
- padding-top:10px;
+ padding-top:-var(--marginp);
  padding-bottom: var(--marginp);
 }
 
