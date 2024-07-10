@@ -31,11 +31,7 @@ let loadingBar = document.getElementById('loading-bar');
                 tl.to('#preloader', {
                     opacity: 0,
                     onComplete: ()=> {
-                       preloader.style.display = 'none';                                              
-                       tl.to('main', { 
-			    autoAlpha: 1,
-                            opacity: 1		
-                        });		    
+                       preloader.style.display = 'none';                                              	    
 		    }
                 });
             }
