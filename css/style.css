@@ -427,7 +427,7 @@ p.sub2 {
 }
 
 .quote {
- margin:var(--marginp) auto -50px auto;
+ margin:var(--marginp) auto var(--marginp) auto;
  max-width:76%;
  opacity:0;
  visibility:hidden;
