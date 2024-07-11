@@ -38,7 +38,7 @@ let loadingBar = document.getElementById('loading-bar');
 	   }
         }); 
 	 }
-    }
+    });
 
 updateProgress(); 
 
