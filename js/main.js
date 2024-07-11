@@ -26,13 +26,18 @@ let loadingBar = document.getElementById('loading-bar');
          opacity: 0,  
          autoAlpha:0,
          duration: 1,
-	}); 
-                
-        tl.to('#preloader', {
-         opacity: 0,
-	 autoAlpha:0,
-	 duration:1
-        }, ">");                    
+	 onComplete: () => {
+	  loadingText.style.display = 'none';
+          loadingBar.style.display = 'none';		                
+          tl.to('#preloader', {
+           opacity: 0,
+	   autoAlpha:0,
+	   duration:1,
+	   onComplete: () => { 
+	    preloader.style.display = 'none'; 
+	   }
+        }); 
+	 }
     }
 
 updateProgress(); 
