@@ -1,6 +1,18 @@
 document.addEventListener("DOMContentLoaded", function(event) {
 window.addEventListener("load", function(e) {
-		
+
+
+if (!sessionStorage.viewed){
+              const loader = document.querySelector("#preloader");
+              loader.className += " hidden";
+              sessionStorage.viewed = 1;
+          }else{
+            const loader = document.querySelector("#preloader");
+            loader.style.display = "none";
+}
+
+
+	
 let loadingBar = document.getElementById('loading-bar');
     let loadingText = document.getElementById('loading-text');
     let preloader = document.getElementById('preloader');
