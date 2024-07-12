@@ -1,6 +1,3 @@
-/*document.addEventListener("DOMContentLoaded", function(event) {
-window.addEventListener("load", function(e) {
-*/
 var width = 100,
  perfData = window.performance.timing, 
  EstimatedTime = -(perfData.loadEventEnd - perfData.navigationStart),
@@ -410,8 +407,3 @@ tl.to(footer, {
 
 	
 }
-
-
-	
-/*}, false);
-}); */
