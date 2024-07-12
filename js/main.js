@@ -1,78 +1,88 @@
-/*document.addEventListener("DOMContentLoaded", function(event) {
-window.addEventListener("load", function(e) {
-*/
-var width = 100,
- perfData = window.performance.timing, 
- EstimatedTime = -(perfData.loadEventEnd - perfData.navigationStart),
- time = parseInt((EstimatedTime/1000)%60)*100;
 
-$(".loadbar").animate({
-  width: width + "%"
-}, time);
+// script.js
 
-var PercentageID = $("#precent"),
-		start = 0,
-		end = 100,
-		durataion = time;
-		animateValue(PercentageID, start, end, durataion);
-		
-function animateValue(id, start, end, duration) {
-  
-	var range = end - start,
-      current = start,
-      increment = end > start? 1 : -1,
-      stepTime = Math.abs(Math.floor(duration / range)),
-      obj = $(id);
-    
-	var timer = setInterval(function() {
-		current += increment;
-		$(obj).text(current + "%");      
-		if (current == end) {
-			clearInterval(timer);
-		}
-	}, stepTime);
-}
+document.addEventListener("DOMContentLoaded", function() {
+  // Menghitung waktu estimasi untuk memuat halaman
+  var perfData = window.performance.timing;
+  var EstimatedTime = -(perfData.loadEventEnd - perfData.navigationStart);
+  var time = parseInt((EstimatedTime/1000)%60)*1000;
 
-setTimeout(function(){
-  let preloader = document.getElementById('preloader-wrap');
-  let percentBar = document.getElementById('precent');
-  let loadingBar = document.getElementById('loader');
- let tl = gsap.timeline({
- onComplete: contentShow
- });
-  tl.to('.percentage', {
-    autoAlpha:0,
-    opacity:0,
-    duration:1,
-    delay:1,
-    scale:0,
-    ease:"quart.out",
-    onComplete: () => {
-     percentBar.style.display = 'none'
-  tl.to('#loader' , {
-    autoAlpha:0,
-    opacity:0,
-    duration:1,
-    scaleY:0,
-    ease:"quart.out",
-    onComplete: () => {
-      loadingBar.style.display = 'none'
-      tl.to('#preloader-wrap', {
-        autoAlpha:0,
-        opacity:0,
-        duration:1,       
-        onComplete: () => {
-        preloader.style.display = 'none';        
+  // Animasi loading bar menggunakan GSAP
+  var tl = gsap.timeline({
+    onComplete: contentShow
+  });
+
+  tl.to('.loadbar', {
+    width: '100%',
+    duration: time / 1000,
+    ease: 'power1.out'
+  });
+
+  // Animasi persentase menggunakan fungsi animateValue
+  var PercentageID = $("#precent");
+  var start = 0;
+  var end = 100;
+  animateValue(PercentageID, start, end, time);
+
+  function animateValue(id, start, end, duration) {
+    var range = end - start;
+    var current = start;
+    var increment = end > start ? 1 : -1;
+    var stepTime = Math.abs(Math.floor(duration / range));
+    var obj = $(id);
+
+    var timer = setInterval(function() {
+      current += increment;
+      $(obj).text(current + "%");
+
+      if (current == end) {
+        clearInterval(timer);
       }
-      })
-     } 
-    })
+    }, stepTime);
   }
-    })
-}, time);
 
+  // Fungsi untuk menampilkan konten setelah loading selesai
+  function contentShow() {
+    var preloader = document.getElementById('preloader-wrap');
+    var content = document.getElementById('content');
+    
+    gsap.to(preloader, {
+      autoAlpha: 0,
+      opacity: 0,
+      duration: 1,
+      onComplete: function() {
+        preloader.style.display = 'none';
+        content.style.display = 'block';
+      }
+    });
+  }
+});
+
+
+      
+    
+        
+        
 
 function contentShow() {
+
+var preloader = document.getElementById('preloader-wrap');
+    var content = document.getElementById('content');
+    
+    gsap.to(preloader, {
+      autoAlpha: 0,
+      opacity: 0,
+      duration: 1,
+      onComplete: function() {
+        preloader.style.display = 'none';
+        content.style.display = 'block';
+      }
+    });
+
+
+
+
+
 	
 const easing = "sine.out";
 const dur = 1;
@@ -413,5 +423,4 @@ tl.to(footer, {
 
 
 	
-/*}, false);
-}); */
+})
