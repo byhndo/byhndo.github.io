@@ -34,13 +34,27 @@ function animateValue(id, start, end, duration) {
 }
 
 setTimeout(function(){
-let tl = gsap.timeline({
- onComplete:contentShow
-});   
-  tl.to('#preloader-wrap', {
-    delay:1,
+  let preloader = document.getElementById('preloader-wrap');
+  let loadingBar = document.getElementById('precent');
+ let tl = gsap.timeline();
+  tl.to('#precent, .loader', {
     autoAlpha:0,
-    opacity:0
+    opacity:0,
+    duration:1,
+    delay:1,
+    scaleY:0,
+    onComplete: () => {
+      loadingBar.style.display = 'none'
+      tl.to('#preloader-wrap', {
+        autoAlpha:0,
+        opacity:0,
+        duration:1,       
+        onComplete: () => {
+        preloader.style.display = 'none';        
+      }
+      })
+      
+    }
   })
 }, time);
 
