@@ -35,15 +35,23 @@ function animateValue(id, start, end, duration) {
 
 setTimeout(function(){
   let preloader = document.getElementById('preloader-wrap');
-  let loadingBar = document.getElementById('precent');
+  let percentBar = document.getElementById('precent');
+  let loadingBar = document.getElementById('loader');
  let tl = gsap.timeline({
-  onComplete: contentShow
+ onComplete: contentShow
  });
-  tl.to('#precent, .loader', {
+  tl.to('.percentage', {
     autoAlpha:0,
     opacity:0,
     duration:1,
-    delay:1,
+    delay:.5,
+    height:0,
+    onComplete: () => {
+     percentBar.style.display = 'none'
+  tl.to('#loader' , {
+    autoAlpha:0,
+    opacity:0,
+    duration:1,
     scaleY:0,
     onComplete: () => {
       loadingBar.style.display = 'none'
@@ -55,9 +63,10 @@ setTimeout(function(){
         preloader.style.display = 'none';        
       }
       })
-      
-    }
-  })
+     } 
+    })
+  }
+    })
 }, time);
 
 
