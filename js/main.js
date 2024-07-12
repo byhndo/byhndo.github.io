@@ -39,21 +39,15 @@ function animateValue(id, start, end, duration) {
 
 setTimeout(function(){
    
-let tl = gsap.timeline();
+let tl = gsap.timeline({
+ onComplete:contentShow
+});
   tl.to('#preloader-wrap', {
     duration:.3,
     autoAlpha:0,
     opacity:0
   })
 }, time);
-
-/*setTimeout(function(){
-
-  $('#preloader-wrap').fadeOut(300);
-
-}, time);*/
-      
-
 
 
 function contentShow() {
