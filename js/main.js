@@ -44,7 +44,7 @@ setTimeout(function(){
     autoAlpha:0,
     opacity:0,
     duration:1,
-    delay:.5,
+    delay:1,
     height:0,
     onComplete: () => {
      percentBar.style.display = 'none'
