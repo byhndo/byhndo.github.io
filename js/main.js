@@ -1,10 +1,5 @@
 document.addEventListener("DOMContentLoaded", function(event) {
 window.addEventListener("load", function(e) {
-
-let tl = gsap.timeline({
- onComplete:contentShow
-});
-
 	
 var width = 100,
  perfData = window.performance.timing, 
@@ -39,7 +34,9 @@ function animateValue(id, start, end, duration) {
 }
 
 setTimeout(function(){
-   
+let tl = gsap.timeline({
+ onComplete:contentShow
+});   
   tl.to('#preloader-wrap', {
     duration:.3,
     autoAlpha:0,
