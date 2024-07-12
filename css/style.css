@@ -41,7 +41,7 @@
   line-height:30px
 }
 
-.loader,
+#loader,
 .percentage{
   height: 5px;
   max-width: 200px; 
@@ -55,7 +55,7 @@
   right: 0;
   margin : auto; 
 }
-.loader:after,
+#loader:after,
 .percentage:after {
   content: "";
   display: block;
@@ -75,7 +75,6 @@
   line-height: 30px;
   overflow: hidden;
   position: relative;
-  opacity: 0.99;
 }
 
 .loadbar {
