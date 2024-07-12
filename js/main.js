@@ -1,14 +1,16 @@
 document.addEventListener("DOMContentLoaded", function(event) {
 window.addEventListener("load", function(e) {
 
-	
+let tl = gsap.timeline({
+ onComplete:contentShow
+});
 
+	
 var width = 100,
  perfData = window.performance.timing, 
  EstimatedTime = -(perfData.loadEventEnd - perfData.navigationStart),
  time = parseInt((EstimatedTime/1000)%60)*100;
 
-// Loadbar Animation
 $(".loadbar").animate({
   width: width + "%"
 }, time);
@@ -29,8 +31,7 @@ function animateValue(id, start, end, duration) {
     
 	var timer = setInterval(function() {
 		current += increment;
-		$(obj).text(current + "%");
-      //obj.innerHTML = current;
+		$(obj).text(current + "%");      
 		if (current == end) {
 			clearInterval(timer);
 		}
@@ -39,9 +40,6 @@ function animateValue(id, start, end, duration) {
 
 setTimeout(function(){
    
-let tl = gsap.timeline({
- onComplete:contentShow
-});
   tl.to('#preloader-wrap', {
     duration:.3,
     autoAlpha:0,
