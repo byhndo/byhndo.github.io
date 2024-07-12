@@ -37,21 +37,21 @@ function animateValue(id, start, end, duration) {
 	}, stepTime);
 }
 
-/*setTimeout(function(){
+setTimeout(function(){
    
-   let tl = gsap.timeline();
+let tl = gsap.timeline();
   tl.to('#preloader-wrap', {
     duration:.3,
     autoAlpha:0,
     opacity:0
   })
-}, time);*/
+}, time);
 
-setTimeout(function(){
+/*setTimeout(function(){
 
   $('#preloader-wrap').fadeOut(300);
 
-}, time);
+}, time);*/
       
 
 
