@@ -2,47 +2,59 @@ document.addEventListener("DOMContentLoaded", function(event) {
 window.addEventListener("load", function(e) {
 
 	
-let loadingBar = document.getElementById('loading-bar');
-    let loadingText = document.getElementById('loading-text');
-    let preloader = document.getElementById('preloader');
-    let progress = 0;
 
-    function updateProgress() {
-        if (progress <= 100) {
-            loadingText.textContent = `Loading ${progress}`;
-            loadingBar.style.width = `${progress * 2}px`;
-            progress++;
-            setTimeout(updateProgress, 30); 
-        } else {
-            loadingText.textContent = 'Loading complete';
-            setTimeout(hidePreloader, 500); 
-        }
-    }
-	
-    function hidePreloader() {
-    let tl = gsap.timeline({	
-      onComplete: contentShow		    
-    });
-        tl.to('#loading-bar-bg, #loading-text', {            
-         opacity: 0,  
-         autoAlpha:0,
-         duration: 1,
-	 onComplete: () => {
-	  loadingText.style.display = 'none';
-          loadingBar.style.display = 'none';		                
-          tl.to('#preloader', {
-           opacity: 0,
-	   autoAlpha:0,
-	   duration:1,
-	   onComplete: () => { 
-	    preloader.style.display = 'none'; 
-	   }
-        }); 
-	 }
-    });
-    }
+var width = 100,
+ perfData = window.performance.timing, 
+ EstimatedTime = -(perfData.loadEventEnd - perfData.navigationStart),
+ time = parseInt((EstimatedTime/1000)%60)*100;
 
-updateProgress(); 
+// Loadbar Animation
+$(".loadbar").animate({
+  width: width + "%"
+}, time);
+
+var PercentageID = $("#precent"),
+		start = 0,
+		end = 100,
+		durataion = time;
+		animateValue(PercentageID, start, end, durataion);
+		
+function animateValue(id, start, end, duration) {
+  
+	var range = end - start,
+      current = start,
+      increment = end > start? 1 : -1,
+      stepTime = Math.abs(Math.floor(duration / range)),
+      obj = $(id);
+    
+	var timer = setInterval(function() {
+		current += increment;
+		$(obj).text(current + "%");
+      //obj.innerHTML = current;
+		if (current == end) {
+			clearInterval(timer);
+		}
+	}, stepTime);
+}
+
+/*setTimeout(function(){
+   
+   let tl = gsap.timeline();
+  tl.to('#preloader-wrap', {
+    duration:.3,
+    autoAlpha:0,
+    opacity:0
+  })
+}, time);*/
+
+setTimeout(function(){
+
+  $('#preloader-wrap').fadeOut(300);
+
+}, time);
+      
+
+
 
 function contentShow() {
 	
