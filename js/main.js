@@ -36,7 +36,9 @@ function animateValue(id, start, end, duration) {
 setTimeout(function(){
   let preloader = document.getElementById('preloader-wrap');
   let loadingBar = document.getElementById('precent');
- let tl = gsap.timeline();
+ let tl = gsap.timeline({
+  onComplete: contentShow
+ });
   tl.to('#precent, .loader', {
     autoAlpha:0,
     opacity:0,
