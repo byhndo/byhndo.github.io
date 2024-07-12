@@ -45,7 +45,8 @@ setTimeout(function(){
     opacity:0,
     duration:1,
     delay:1,
-    height:0,
+    scale:0,
+    ease:"quart.out",
     onComplete: () => {
      percentBar.style.display = 'none'
   tl.to('#loader' , {
@@ -53,6 +54,7 @@ setTimeout(function(){
     opacity:0,
     duration:1,
     scaleY:0,
+    ease:"quart.out",
     onComplete: () => {
       loadingBar.style.display = 'none'
       tl.to('#preloader-wrap', {
