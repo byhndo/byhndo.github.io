@@ -38,7 +38,7 @@ let tl = gsap.timeline({
  onComplete:contentShow
 });   
   tl.to('#preloader-wrap', {
-    duration:.3,
+    delay:1,
     autoAlpha:0,
     opacity:0
   })
