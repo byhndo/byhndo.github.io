@@ -36,12 +36,14 @@
 <link rel="stylesheet" href="../css/splitting-cells.css"/>
 </head>
 <body>
-<div id="preloader">
-<span id="loading-text">Loading 0</span>
-<div id="loading-bar-bg">
-<div id="loading-bar"></div>
+<div id="preloader-wrap">
+  <div class="percentage" id="precent"></div>
+  <div class="loader">
+    <div class="trackbar">
+      <div class="loadbar"></div>
+    </div>
+  </div>
 </div>
-</div>    
 <div id="app">
 <div :class="['bg', bg]"> 
 <div class="transition transition-bio"></div>
