@@ -28,7 +28,7 @@
   position: fixed;
   top: 0; 
   bottom: 0;
-  background: rgba(0,0,0,1);
+  background: var(--grey);
   z-index : 1000; 
 }
 
