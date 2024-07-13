@@ -51,7 +51,7 @@ setTimeout(function(){
     opacity:0,
     duration:1,
     scaleY:0,
-    ease:"quart.out",
+    ease:"expo.out",
     onComplete: () => {
       loadingBar.style.display = 'none'
       tl.to('#preloader-wrap', {
@@ -149,7 +149,7 @@ gsap.to("h1, h1 .char", {
  y:0,
  scale:1.0,
  transformOrigin: "center center",
- ease:easing	
+ ease:"expo.out"	
 }); 
 	
 gsap.set("wnav", {
@@ -160,7 +160,7 @@ gsap.to("wnav", {
  opacity:1,
  duration:dur, 
  y:0,
- ease: easing,
+ ease: "expo.out",
  transformOrigin: "center center"
 }, ">");
 	
