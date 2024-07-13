@@ -71,7 +71,7 @@ setTimeout(function(){
 
 function contentShow() {
 	
-const easing = "sine.out";
+const easing = "expo.out";
 const dur = 1;
 const once = "play none none reset";
 	
@@ -132,7 +132,7 @@ gsap.to(".sub-title, .sub-title .char", {
  duration:2,
  x: 0,
  y: 0,
- ease: "quad.out",
+ ease: "expo.inOut",
  stagger: { each: 0.05, grid: 'auto', from: 'random'}
 });
 
@@ -149,7 +149,7 @@ gsap.to("h1, h1 .char", {
  y:0,
  scale:1.0,
  transformOrigin: "center center",
- ease:"expo.out"	
+ ease: easing	
 }); 
 	
 gsap.set("wnav", {
@@ -160,7 +160,7 @@ gsap.to("wnav", {
  opacity:1,
  duration:dur, 
  y:0,
- ease: "expo.out",
+ ease: easing,
  transformOrigin: "center center"
 }, ">");
 	
@@ -172,14 +172,17 @@ gsap.to('.indicator', {
  y:0,
  duration:dur,
  autoAlpha: 1,
+ ease: easing,
  onComplete: () => {
  gsap.fromTo('.indicator', {
   autoAlpha: 1,
-  y:0
+  y:0,
+  ease: easing
  }, {
   autoAlpha: 0,
   y:-100,
   duration: dur,
+  ease: easing,
   scrollTrigger: {
   scrub: 3,
   trigger: '.indicator',
@@ -253,12 +256,12 @@ const RevealBoxsline = container.querySelectorAll(".boxline");
      }); 
 	   	   
 tl.to(line, {
- autoAlpha:1, 
- opacity:1,
- duration:dur,	
- width:"100%",
- stagger:.07,
- ease:easing
+ autoAlpha: 1, 
+ opacity: 1,
+ duration: dur,	
+ width: "100%",
+ stagger: .07,
+ ease: easing
 }, d * .2);	
 
 });	  
