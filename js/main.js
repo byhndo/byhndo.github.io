@@ -57,7 +57,7 @@ setTimeout(function(){
      
 tl.to(".col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9", {
  opacity:0,
- autoAlpha:1,
+ autoAlpha:0,
  delay: gsap.utils.random(.1, 1)
 }); 
     }
