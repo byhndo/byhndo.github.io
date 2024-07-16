@@ -22,6 +22,65 @@
  --fwfooter:500;
 }
 
+
+.co1, .co2, .co3, .co4, .co5, .co6, .co7, .co8, .co9 {
+ position: fixed;
+ visibility: visible;
+ overflow: hidden;
+ opacity: 1;
+ background:var(--darkgrey);
+ width:33.33%;
+ height:33.33%;
+ z-index:10000;
+}
+
+.co1{
+ top:0;
+ left:0;
+}
+
+.co2{
+ top:0;
+ left:33.33%
+}
+
+.co3{
+ top:0;
+ left:66.66%;
+}
+
+.co4{
+ top:33.33%;
+ left:0;
+}
+
+.co5{
+ top:33.33%;
+ left:33.33%;
+}
+
+.co6{
+ top:33.33%;
+ left:66.66%;
+}
+
+.co7{
+ top:66.66%;
+ left:0;
+}
+
+.co8{
+ top:66.66%;
+ left:33.33%;
+}
+
+.co9{
+ top:66.66%;
+ left:66.66%;
+}
+
+
+/*
 #preloader-wrap {
   width: 100%;
   height: 100%;
@@ -31,6 +90,7 @@
   background: var(--darkgrey);
   z-index : 1000; 
 }
+*/
 
 .percentage {
   z-index: 100;
