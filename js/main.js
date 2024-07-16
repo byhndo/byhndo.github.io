@@ -49,14 +49,14 @@ let tl = gsap.timeline({
     scaleY:0,
     ease:"expo.out"
   }, ">")  
- tl.to(".load", {
- autoAlpha:0,
- opacity:0
- })
+  tl.to(".load", {
+    autoAlpha:0,
+    opacity:0
+  })
   tl.to(".col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9", {
    opacity:0,
    delay: gsap.utils.random(.1, 1)
-  }); 
+  }, ">"); 
     
 }, time);
 
