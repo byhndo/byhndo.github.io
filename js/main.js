@@ -54,14 +54,19 @@ setTimeout(function(){
     ease:"expo.out",
     onComplete: () => {
       loadingBar.style.display = 'none'
-      tl.to('#preloader-wrap', {
-        autoAlpha:0,
-        opacity:0,
-        duration:1,       
-        onComplete: () => {
-        preloader.style.display = 'none';        
-      }
-      })
+     
+tl.to(".col1, .col2, .col3, .col4, .col5, .col6, .col7, .col8, .col9", {
+ opacity:0,
+ autoAlpha:1,
+ delay: gsap.utils.random(.1, 1)
+}); 
+    }
+
+
+
+
+
+	    
      } 
     })
   }
