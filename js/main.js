@@ -54,15 +54,10 @@ let tl = gsap.timeline({
    autoAlpha:0,
    delay: gsap.utils.random(.1, 1)
   }, ">"); 
-    }
-});
+    
+}, time);
 
 	    
-     } 
-    })
-  }, time)
-
-
 function contentShow() {
 	
 const easing = "expo.out";
