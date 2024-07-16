@@ -31,7 +31,6 @@ function animateValue(id, start, end, duration) {
 }
 
 setTimeout(function(){
-  let preloader = document.getElementById('preloader-wrap');
   let percentBar = document.getElementById('precent');
   let loadingBar = document.getElementById('loader');
  let tl = gsap.timeline({
