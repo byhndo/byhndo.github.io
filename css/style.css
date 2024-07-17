@@ -53,9 +53,10 @@
 }
 
 #preloader-wrap .intro-screen__shape .shape {
-  height: 100vh;
-  width: 100%;
-  fill: var(--darkgrey);
+ height: 100vh;
+ width: 100%;
+ fill: var(--darkgrey);
+ display: block;
 }
 
 .percentage {
