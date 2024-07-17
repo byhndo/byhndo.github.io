@@ -57,7 +57,7 @@ let tl = gsap.timeline({
     ease:"expo.out",
     onComplete: () => {
       loadingBar.style.display = 'none'
-      gsap.to(landing.intro, {
+      tl.to(landing.intro, {
        duration: 2,
        ease : "sine.inOut",
        y: "-200vh"
