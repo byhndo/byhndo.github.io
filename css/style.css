@@ -27,6 +27,7 @@
  width: 100%;
  height:200vh;
  background: var(--darkgrey);
+ z-index:10000;
 }
 
 #preloader-wrap .shape {
