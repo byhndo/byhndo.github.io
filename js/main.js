@@ -60,10 +60,10 @@ let tl = gsap.timeline({
       tl.to(landing.intro, {
        duration: 2,
        ease : "sine.inOut",
-       translateY: "-200vh"
+       translateY: "-230vh"
       });
       tl.to(landing.path, {		
-       duration: 2,
+       duration: 1,
        ease : "sine.inOut",
        attr: { d : landing.path.getAttribute("pathdata:id")}
       });	    
