@@ -77,7 +77,10 @@ landing.path = landing.intro.querySelector("path");
       tl.to(landing.path, {		
        duration: 1,
        ease: "sine.inOut",
-       attr: { d : landing.path.getAttribute("pathdata:id")}
+       attr: { d : landing.path.getAttribute("pathdata:id")},
+	onComplete: () => {
+        preloader.style.display = 'none';        
+	}
       });
 
 
