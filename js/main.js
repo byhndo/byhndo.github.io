@@ -66,7 +66,7 @@ let tl = gsap.timeline({
        duration: 1,
        ease: "sine.inOut",
        attr: { d : landing.path.getAttribute("data-path-id")}
-      });	    
+      }, ">");	    
      } 
 	  
     })
