@@ -31,7 +31,6 @@
 #preloader-wrap .shape {
   height: 100vh;
   width: 100%;
-  display: block;
   fill: var(--darkgrey);
 }
 
