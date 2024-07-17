@@ -32,7 +32,7 @@
  justify-content: center;
 }
 
-.preloader-wrap .intro-screen__titel {
+.intro-screen__titel {
   height: 100vh;
   width: 100%;
   display: block;
@@ -45,18 +45,18 @@
   justify-content: center;
 }
 
-.preloader-wrap .intro-screen__titel div {
+.intro-screen__titel div {
   font-size: 8px;
   color: #ffffff;
 }
 
-.preloader-wrap .intro-screen__shape {
+.intro-screen__shape {
   width: 100%;
   margin: -0.5rem 0 0 0;
   position: relative;
 }
 
-.preloader-wrap .intro-screen__shape .shape {
+.shape {
  height: 100vh;
  width: 100%;
  fill: var(--darkgrey);
