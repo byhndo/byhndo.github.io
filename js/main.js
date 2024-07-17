@@ -33,7 +33,7 @@ function animateValue(id, start, end, duration) {
 setTimeout(function(){
  /* let preloader = document.getElementById('preloader-wrap');*/
 const landing = {};
-landing.intro = document.querySelector("preloader-wrap");
+landing.intro = document.querySelector("#preloader-wrap");
 landing.path = landing.intro.querySelector("path");
 
 	let percentBar = document.getElementById('precent');
