@@ -1,4 +1,3 @@
-/*
 var width = 100,
  perfData = window.performance.timing, 
  EstimatedTime = -(perfData.loadEventEnd - perfData.navigationStart),
@@ -73,29 +72,7 @@ let tl = gsap.timeline({
     })
   }
     })
-}, time); */
-
-const landing = {};
-landing.intro = document.querySelector(".preloader-wrap");
-landing.path = landing.intro.querySelector("path.goey");
-     
-let tl = gsap.timeline({
- onComplete: contentShow
-});
-tl.to(landing.intro, {
-       duration: 2,
-       ease : "sine.inOut",
-       y: "-200vh"
-      });
-      tl.to(landing.path, {		
-       duration: 1,
-       ease : "sine.inOut",
-       attr: { d : landing.path.getAttribute("pathdata:id")}
-      });	
-
-
-
-
+}, time); 
 
 	    
 function contentShow() {
