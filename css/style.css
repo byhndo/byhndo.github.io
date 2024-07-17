@@ -141,6 +141,7 @@ body {
  -webkit-font-smoothing: antialiased !important;
  overflow:hidden;
  height:100%;
+ position: relative;
 }
 
 *, *:before, *:after {
