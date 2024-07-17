@@ -33,7 +33,7 @@
   width: 100%;
   display: block;
   top: -0.2rem;
-  position: fixed;
+  position: relative;
   background-color: var(--darkgrey);
   display: flex;
   flex-direction: column;
@@ -49,7 +49,7 @@
 #preloader-wrap .intro-screen__shape {
   width: 100%;
   margin: -0.5rem 0 0 0;
-  position: fixed;
+  position: relative;
 }
 
 #preloader-wrap .intro-screen__shape .shape {
