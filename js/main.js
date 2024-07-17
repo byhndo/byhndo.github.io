@@ -78,9 +78,9 @@ landing.path = landing.intro.querySelector("path");
        duration: 1,
        ease: "sine.inOut",
        attr: { d : landing.path.getAttribute("pathdata:id")},
-	onComplete: () => {
-        preloader.style.display = 'none';        
-	}
+      onComplete: () => {
+        landing.intro.style.display = 'none';        
+      }
       });
 
 
