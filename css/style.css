@@ -22,7 +22,7 @@
  --fwfooter:500;
 }
 
-#preloader-wrap{
+.preloader-wrap{
  position:fixed;
  width: 100%;
  height: 200vh;	
@@ -32,7 +32,7 @@
  justify-content: center;
 }
 
-#preloader-wrap .intro-screen__titel {
+.preloader-wrap .intro-screen__titel {
   height: 100vh;
   width: 100%;
   display: block;
@@ -45,18 +45,18 @@
   justify-content: center;
 }
 
-#preloader-wrap .intro-screen__titel div {
+.preloader-wrap .intro-screen__titel div {
   font-size: 8px;
   color: #ffffff;
 }
 
-#preloader-wrap .intro-screen__shape {
+.preloader-wrap .intro-screen__shape {
   width: 100%;
   margin: -0.5rem 0 0 0;
   position: relative;
 }
 
-#preloader-wrap .intro-screen__shape .shape {
+.preloader-wrap .intro-screen__shape .shape {
  height: 100vh;
  width: 100%;
  fill: var(--darkgrey);
