@@ -31,10 +31,6 @@ function animateValue(id, start, end, duration) {
 }
 
 setTimeout(function(){
-let landing = {};
-landing.intro = document.querySelector(".preloader-wrap");
-landing.path = landing.intro.querySelector("path");
-
 let percentBar = document.getElementById('precent');
 let loadingBar = document.getElementById('loader');
 let tl = gsap.timeline({
@@ -57,6 +53,9 @@ let tl = gsap.timeline({
     ease:"expo.out",
     onComplete: () => {
       loadingBar.style.display = 'none'
+      const landing = {};
+      landing.intro = document.querySelector(".preloader-wrap");
+      landing.path = landing.intro.querySelector("path");
       tl.to(landing.intro, {
        duration: 2,
        ease : "sine.inOut",
