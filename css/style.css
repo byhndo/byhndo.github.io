@@ -28,7 +28,31 @@
  height:200vh;
 }
 
-#preloader-wrap .shape {
+#preloader-wrap .intro-screen__titel {
+  height: 100vh;
+  width: 100%;
+  display: block;
+  top: -0.2rem;
+  position: relative;
+  background-color: var(--darlgrey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#preloader-wrap .intro-screen__titel div {
+  font-size: 3rem;
+  color: #ffffff;
+}
+
+#preloader-wrap .intro-screen__shape {
+  width: 100%;
+  margin: -0.5rem 0 0 0;
+  position: relative;
+}
+
+#preloader-wrap .intro-screen__shape .shape {
   height: 100vh;
   width: 100%;
   fill: var(--darkgrey);
