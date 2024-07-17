@@ -31,16 +31,15 @@ function animateValue(id, start, end, duration) {
 }
 
 setTimeout(function(){
- /* let preloader = document.getElementById('preloader-wrap');*/
 const landing = {};
 landing.intro = document.querySelector("#preloader-wrap");
 landing.path = landing.intro.querySelector("path");
 
-	let percentBar = document.getElementById('precent');
-  let loadingBar = document.getElementById('loader');
- let tl = gsap.timeline({
+let percentBar = document.getElementById('precent');
+let loadingBar = document.getElementById('loader');
+let tl = gsap.timeline({
  onComplete: contentShow
- });
+});
   tl.to('.percentage', {
     autoAlpha:0,
     opacity:0,
@@ -58,32 +57,18 @@ landing.path = landing.intro.querySelector("path");
     ease:"expo.out",
     onComplete: () => {
       loadingBar.style.display = 'none'
-      
-	/*tl.to('#preloader-wrap', {
-        autoAlpha:0,
-        opacity:0,
-        duration:1,       
-        onComplete: () => {
-        preloader.style.display = 'none';        
-      }
-      })*/
-
       tl.to(landing.intro, {
        duration: 2,
        ease: "sine.inOut",
        translateY: "-200vh"
       });
-
       tl.to(landing.path, {		
        duration: 1,
        ease: "sine.inOut",
        attr: { d : landing.path.getAttribute("pathdata:id")}
-      });
-
-
-
-	    
+      });	    
      } 
+	  
     })
   }
     })
