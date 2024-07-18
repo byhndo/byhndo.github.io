@@ -69,14 +69,15 @@
   text-align:center;
   color: #ccc;
   font-size : 8px;
-  line-height:30px
+  line-height:30px;
+  opacity:1;
 }
 
 #loader,
 .percentage{
   height: 5px;
   max-width: 200px; 
-  box-shadow: 1px #ccc;
+  border: 1px solid transparent;
   border-radius: 20px;
   font-weight: 400;
   position: absolute; 
