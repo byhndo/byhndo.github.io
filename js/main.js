@@ -1,3 +1,6 @@
+document.addEventListener("DOMContentLoaded", function(event) {
+window.addEventListener("load", function(e) {
+	
 var width = 100,
  perfData = window.performance.timing, 
  EstimatedTime = -(perfData.loadEventEnd - perfData.navigationStart),
@@ -75,9 +78,6 @@ let tl = gsap.timeline({
 }, time); 
 
 
-document.addEventListener("DOMContentLoaded", function(event) {
-window.addEventListener("load", function(e) {
-	    
 function contentShow() {
 	
 const easing = "expo.out";
