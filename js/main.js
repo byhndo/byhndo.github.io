@@ -101,7 +101,7 @@ const {
 		
 createApp({
     methods: {
-        afterEnter(el, done) {
+        afterEnter(el) {
             setupReveal(el);
         },
         afterLeave(el) {
