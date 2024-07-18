@@ -74,6 +74,9 @@ let tl = gsap.timeline({
     })
 }, time); 
 
+
+document.addEventListener("DOMContentLoaded", function(event) {
+window.addEventListener("load", function(e) {
 	    
 function contentShow() {
 	
@@ -90,7 +93,6 @@ $('.one').each(function(){
 $('.quote').each(function(){
   $(this).html($(this).text().replace(/\S/g, "<span>$&</span>"));
 });
-
 	
 const {
     createApp,
@@ -116,7 +118,6 @@ data() {
 }).mount('#app')  	
 
 Splitting();
-
 
 $('html, body').css({
   'overflow': 'auto',
@@ -202,7 +203,7 @@ gsap.to('.indicator', {
 	
 function setupReveal(container) {
 	
- container.ctx = gsap.context(() => {	
+container.ctx = gsap.context(() => {	
 	 
 const RevealBoxsme = container.querySelectorAll(".boxme");
    RevealBoxsme.forEach((boxme, a) => { 	   	   
@@ -227,7 +228,6 @@ tl.to(aboutme, {
 }, a * .2);
 
 });	  
-
 	 
 const RevealBoxs = container.querySelectorAll(".box");
    RevealBoxs.forEach((box, g) => { 	   	   
@@ -249,7 +249,6 @@ tl.to(gr, {
 }, g * .2);	
 
 });	  
-
 	 
 const RevealBoxsline = container.querySelectorAll(".boxline");
    RevealBoxsline.forEach((boxline, d) => { 	   	   
@@ -271,7 +270,6 @@ tl.to(line, {
 }, d * .2);	
 
 });	  
-
 	 
 const RevealBoxs1 = container.querySelectorAll(".box1");
    RevealBoxs1.forEach((box1, o) => { 	   	   
@@ -297,7 +295,6 @@ tl.to(one, {
 }, o * .2);
 	   
 });
-
 	 
 const RevealBoxs2 = container.querySelectorAll(".box2");
  RevealBoxs2.forEach((box2, i) => { 	   	   
@@ -322,8 +319,7 @@ tl.to(two, {
 }, i * .2);
 	   
 });      
-      
-	 
+      	 
 const RevealBoxs3 = container.querySelectorAll(".box3");
  RevealBoxs3.forEach((box3, qt) => {
  const quote = box3.querySelectorAll(".quote, .quote span");                              
@@ -346,7 +342,6 @@ tl.to(quote, {
 }, qt * .2);
 	 	                                                                                                                  
 });
-
 	 
 const revealContainers = container.querySelectorAll(".item"); 
  revealContainers.forEach((el) => {
@@ -371,7 +366,6 @@ tl.to(el, {
  
 });
 	
-
 const RevealSc = container.querySelectorAll(".sc");
    RevealSc.forEach((sc, sos) => {                
     const pl = sc.querySelectorAll(".pl");
@@ -390,7 +384,6 @@ tl.to(pl, {
 }, sos * .2);
 	   
 });
-
 	 
 const RevealBoxs4 = container.querySelectorAll(".box4");
  RevealBoxs4.forEach((box4, foot) => {
@@ -413,6 +406,8 @@ tl.to(footer, {
 	 
 });
 }
-
 	
 }
+
+}, false);
+});			
