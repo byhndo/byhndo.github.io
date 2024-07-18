@@ -65,7 +65,7 @@
 
 .percentage {
   z-index: 100;
-  border: 1px solid #ccc;
+  border: 1px solid transparent;
   text-align:center;
   color: #ccc;
   font-size : 8px;
