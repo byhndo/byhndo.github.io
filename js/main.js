@@ -93,7 +93,7 @@ $('.quote').each(function(){
   $(this).html($(this).text().replace(/\S/g, "<span>$&</span>"));
 });
 	
-/*const {
+const {
     createApp,
     ref,
     onMounted
@@ -101,30 +101,11 @@ $('.quote').each(function(){
 		
 createApp({
     methods: {
-        afterEnter(el, done) {
-            setupReveal(el, done);
-		gsap.to(el, {
-        duration: 1,               
-        ease: 'elastic.out',
-        onComplete: done
-      })
+        afterEnter(el) {
+            setupReveal(el);
         },
-
-        afterLeave(el, done) {
-            el.ctx && el.ctx.revert();
-		gsap.to(el, {
-        duration: 0.7,
-        scaleX: 1,
-        scaleY: 1,
-        x: 300,
-        ease: 'elastic.inOut(2.5, 1)'
-      })
-      gsap.to(el, {
-        duration: 0.2,
-        delay: 0.5,
-        opacity: 0,
-        onComplete: done
-      })
+        afterLeave(el) {
+            el.ctx && el.ctx.revert();		
         },	    
     },	
 data() {
@@ -132,62 +113,7 @@ data() {
             bg: 'bio'
         }
     }
-}).mount('#app') */
-
-
-
-
-
-const app = createApp({
-  methods: {
-    afterEnter(el, done) {
-      setupReveal(el, done);
-      gsap.to(el, {
-        duration: 1,
-        ease: 'elastic.out',
-        onComplete: done
-      });
-    },
-
-    afterLeave(el, done) {
-      el.ctx && el.ctx.revert();
-      gsap.to(el, {
-        duration: 0.7,
-        scaleX: 1,
-        scaleY: 1,
-        x: 300,
-        ease: 'elastic.inOut(2.5, 1)'
-      });
-      gsap.to(el, {
-        duration: 0.2,
-        delay: 0.5,
-        opacity: 0,
-        onComplete: done
-      });
-    }
-  },
-
-  data() {
-    return {
-      bg: 'bio'
-    };
-  }
-});
-
-app.mount('#app');
-
-
-
-
-
-
-
-
-
-
-
-
-	
+}).mount('#app') 
 	
 Splitting();
 
