@@ -44,10 +44,6 @@ let tl = gsap.timeline({
  onComplete: contentShow
 });
   tl.to('.percentage', {
-   autoAlpha: 1,
-   opacity:1
-  },
-    {
     autoAlpha:0,
     opacity:0,
     duration:1,
