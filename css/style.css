@@ -72,11 +72,6 @@
   line-height:30px
 }
 
-.percentage{
- visibility:hidden;
- opacity:0;
-}
-
 #loader,
 .percentage{
   height: 5px;
