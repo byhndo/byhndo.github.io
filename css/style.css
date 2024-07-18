@@ -104,7 +104,7 @@
   text-align: center;
   line-height: 30px;
   overflow: hidden;
-  position: relative;
+  position: absolute;
 }
 
 .loadbar {
