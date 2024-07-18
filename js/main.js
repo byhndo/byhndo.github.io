@@ -124,7 +124,7 @@ beforeEnter(el) {
         scaleY: 0.7,
         opacity: 1,
         x: 150,
-        ease: 'elastic.inOut(2.5, 1)',
+        ease: 'expo.out',
         onComplete: done
       })
     },
@@ -134,7 +134,7 @@ beforeEnter(el) {
         scaleX: 1,
         scaleY: 1,
         x: 300,
-        ease: 'elastic.inOut(2.5, 1)',
+        ease: 'expo.out',
       })
       gsap.to(el, {
         duration: 0.2,
