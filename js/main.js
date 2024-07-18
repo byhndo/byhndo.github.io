@@ -93,7 +93,7 @@ $('.quote').each(function(){
   $(this).html($(this).text().replace(/\S/g, "<span>$&</span>"));
 });
 	
-const {
+/*const {
     createApp,
     ref,
     onMounted
@@ -114,7 +114,74 @@ data() {
             bg: 'bio'
         }
     }
-}).mount('#app')  	
+}).mount('#app') */
+
+
+
+import { createApp } from 'vue';
+
+import gsap from 'gsap';
+
+const app = createApp({
+
+    methods: {
+
+        afterEnter(el) {
+
+            this.setupReveal(el);
+
+        },
+
+        afterLeave(el) {
+
+            if (el.ctx) {
+
+                el.ctx.revert();
+
+            }
+
+        },
+
+        setupReveal(el) {
+
+            gsap.from(el, {
+
+                duration: 1,
+
+                opacity: 0,
+
+                y: -50
+
+            });
+
+        }
+
+    },  
+
+    data() {
+
+        return {
+
+            bg: 'bio'
+
+        }
+
+    }
+
+});
+
+app.mount('#app');
+
+
+
+
+
+
+
+
+
+
+	
 
 Splitting();
 
