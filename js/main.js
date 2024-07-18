@@ -110,8 +110,21 @@ createApp({
       })
         },
 
-        afterLeave(el) {
+        afterLeave(el, done) {
             el.ctx && el.ctx.revert();
+		gsap.to(el, {
+        duration: 0.7,
+        scaleX: 1,
+        scaleY: 1,
+        x: 300,
+        ease: 'elastic.inOut(2.5, 1)'
+      })
+      gsap.to(el, {
+        duration: 0.2,
+        delay: 0.5,
+        opacity: 0,
+        onComplete: done
+      })
         },
 
 
