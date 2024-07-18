@@ -102,7 +102,7 @@ const {
 createApp({
     methods: {
         afterEnter(el, done) {
-            setupReveal(el);
+            /*setupReveal(el, done);*/
 		gsap.to(el, {
         duration: 1,               
         ease: 'elastic.out',
@@ -111,7 +111,7 @@ createApp({
         },
 
         afterLeave(el, done) {
-            el.ctx && el.ctx.revert();
+           /* el.ctx && el.ctx.revert();*/
 		gsap.to(el, {
         duration: 0.7,
         scaleX: 1,
