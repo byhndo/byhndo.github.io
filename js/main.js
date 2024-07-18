@@ -52,7 +52,11 @@ let tl = gsap.timeline({
     ease:"quart.out",
     onComplete: () => {
      percentBar.style.display = 'none'
-  tl.to('#loader' , {
+  tl.fromTo('#loader' , {
+   autoAlpha:1,
+   opacity:1
+  },
+    {
     autoAlpha:0,
     opacity:0,
     duration:1,
