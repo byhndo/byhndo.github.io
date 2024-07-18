@@ -76,7 +76,7 @@
 .percentage{
   height: 5px;
   max-width: 200px; 
-  border: 1px solid transparent;
+  box-shadow: 1px #ccc;
   border-radius: 20px;
   font-weight: 400;
   position: absolute; 
@@ -104,7 +104,7 @@
   text-align: center;
   line-height: 30px;
   overflow: hidden;
-  position: absolute;
+  position: relative;
 }
 
 .loadbar {
