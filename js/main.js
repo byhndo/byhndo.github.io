@@ -101,11 +101,8 @@ const {
 		
 createApp({
     methods: {
-        afterEnter: function(el) {
+        afterEnter(el) {
             setupReveal(el);
-gsap.to(".transition", {
-delay:3	
-})
         },
         afterLeave(el) {
             el.ctx && el.ctx.revert();		
