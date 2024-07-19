@@ -360,7 +360,11 @@ tl.to(el, {
  scale:1,
  duration: 1.5,
  delay: gsap.utils.random(.1, 1),
- ease: "expo.in"
+ ease: "sine.out"
+});  
+tl.to(el, {
+ duration: 1,
+ ease: "expo.out"
 });  
  
 });
