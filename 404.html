@@ -68,12 +68,25 @@
     }
     
     .button1 {
+       -webkit-font-smoothing: antialiased;
+  background-color: #222;
+  border: none;
+  display: inline-block;
+  font-family: 'Wix Madefor Text', sans-serif;
+  font-size: 0.85em;
+  font-weight: 700;
+  text-decoration: none;
+  user-select: none;
+  letter-spacing: 0.1em;
+  color: white;
+  padding: 20px 40px;
+  text-transform: uppercase;
   -webkit-transition: all 0.45s ease-out;
   -moz-transition: all 0.45s ease-out;
   transition: all 0.45s ease-out;
   background-image: -webkit-radial-gradient(60% 20%, circle, #FF6023 0%, #DA305D);
   background-image: radial-gradient(  circle at 60% 20%, #FF6023 0%, #DA305D);
-  box-shadow: 0 0 0 20px #f6f6f6;
+  box-shadow: 0 0 0 20px var(--darkgrey);
   border-radius: 80px;
   color: #FFF;
   width: 80px;
