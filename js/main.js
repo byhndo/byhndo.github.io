@@ -102,7 +102,12 @@ const {
 createApp({
     methods: {
         afterEnter(el) {
-            setupReveal(el);
+           setupReveal(el){
+	   gsap.to(".bg", {
+	    ease: "bounce.out",
+	    duration:2
+	   })
+	   }
         },
         afterLeave(el) {
             el.ctx && el.ctx.revert();		
