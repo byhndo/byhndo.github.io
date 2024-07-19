@@ -102,11 +102,11 @@ const {
 createApp({
     methods: {
         afterEnter(el) {
-            setupReveal(el){
+            setupReveal(el);
 		gsap.to(el, {
 	duration:2,
 	ease: "bounce.out"
-	})	    
+	});	    
 	    }
         },
 
