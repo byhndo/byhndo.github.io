@@ -79,7 +79,7 @@ let tl = gsap.timeline({
 
 function contentShow() {
 	
-const easing = "none";
+const easing = "expoScale(0.5,7,none)";
 const dur = 1;
 const once = "play none none reset";
 	
@@ -166,7 +166,7 @@ gsap.to("wnav", {
  opacity:1,
  duration:dur, 
  y:0,
- ease: "expoScale(0.5,7,none)",
+ ease: easing,
  transformOrigin: "center center"
 }, ">");
 	
