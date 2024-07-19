@@ -116,8 +116,6 @@
   <a href="javascript:delay('/')" id="component1" class="button1" style="filter: url('#filter-ripple-1')">Beranda</a>
 </main>
 
-<script src="js/gsap.js"></script>
-
 <script>
   var isSafari = /constructor/i.test(window.HTMLElement);
   var isFF = !!navigator.userAgent.match(/firefox/i);
@@ -141,26 +139,6 @@
       tl.restart();
     });
   }
-
- /* gsap.set(".box", {
-    y: -150
-  });
-
-  gsap.to(".box", {
-    autoAlpha: 1,
-    opacity: 1,
-    y: 0,
-    duration: 2,
-    ease: "cubic.out"
-  });
-
-  gsap.to(".button1", {
-    autoAlpha: 1,
-    opacity: 1,
-    delay: 1,
-    duration: 2,
-    ease: "cubic.out"
-  });*/
 
   function delay(URL) {
     setTimeout(function() { window.location = URL }, 2000);
