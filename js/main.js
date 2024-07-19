@@ -114,7 +114,7 @@ createApp({
 	duration:2,
 	ease: "bounce.out"
 	})	
-    }),
+    },
 data() {
         return {
             bg: 'bio'
