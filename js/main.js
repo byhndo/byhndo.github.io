@@ -109,7 +109,7 @@ createApp({
             el.ctx && el.ctx.revert();
         }
     },	
-    onMounted( () => {
+    onMounted(() => {
 	gsap.to(".transition-bio", {
 	duration:2,
 	ease: "bounce.out"
