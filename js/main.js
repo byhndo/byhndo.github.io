@@ -79,8 +79,8 @@ let tl = gsap.timeline({
 
 function contentShow() {
 	
-const easing = "expo.out";
-const dur = 1.5;
+const easing = "none";
+const dur = 1;
 const once = "play none none reset";
 	
 gsap.registerPlugin(ScrollTrigger);
