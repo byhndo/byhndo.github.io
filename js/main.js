@@ -80,7 +80,7 @@ let tl = gsap.timeline({
 function contentShow() {
 	
 const easing = "expo.out";
-const dur = 1;
+const dur = 2;
 const once = "play none none reset";
 	
 gsap.registerPlugin(ScrollTrigger);
@@ -359,7 +359,7 @@ tl.set(el, {
 tl.to(el, {
  scale:1,
  duration: 2,
- delay: gsap.utils.random(.1, 1.1),
+ delay: gsap.utils.random(.1, 1.5),
  ease: easing
 });  
  
