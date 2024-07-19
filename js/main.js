@@ -110,7 +110,7 @@ createApp({
         }
     },	
     mounted() {
-	gsap.to(".transition", {
+	gsap.to(".bg", {
 	duration:2,
 	ease: "bounce.out"
 	})	
