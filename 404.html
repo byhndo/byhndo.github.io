@@ -43,7 +43,7 @@
     
     a, a:hover, a:active {
       text-decoration: none;
-      color: #ccc;
+      color: #fff;
     }
     
     html, body {
@@ -59,6 +59,8 @@
     }
     
     .box {
+      visibility: hidden;
+      opacity: 1;
       font-size: 55vw;
       font-family: var(--font1);
       color: var(--darkgrey);
@@ -68,37 +70,24 @@
     }
     
     .button1 {
-  -webkit-font-smoothing: antialiased;
-  background-color: var(--dark);
-  border: none;
-  display: inline-block;
-  font-family: 'Wix Madefor Text', sans-serif;
-  font-size: 0.85em;
-  font-weight: 400;
-  text-decoration: none;
-  user-select: none;
-  letter-spacing: 0.1em;
-  color: white;
-  text-align:center;
-  padding: 20px 40px;
-  text-transform: uppercase;
-  -webkit-transition: all 0.45s ease-out;
-  -moz-transition: all 0.45s ease-out;
-  transition: all 0.45s ease-out;
-  background-image: -webkit-radial-gradient(60% 20%, circle, #FF6023 0%, #DA305D);
-  background-image: radial-gradient(  circle at 60% 20%, #FF6023 0%, #DA305D);
-  box-shadow: 0 0 0 20px var(--dark);
-  border-radius: 80px;
-  color: #FFF;
-  width: 80px;
-  height: 80px;
-  line-height: 80px;
-  padding: 0; }
-  .button1:focus {
-    color: #FFF; }
-  .button1:hover {
-    background-image: -webkit-radial-gradient(60% 20%, circle, #FF6023 0%, #DA305D);
-    background-image: radial-gradient(  circle at 60% 20%, #FF6023 0%, #DA305D);
+      z-index: 1;
+      visibility: hidden;
+      opacity: 1;
+      padding: 12px 40px 10px 40px;
+      background: var(--dark);
+      border: 2px solid rgba(255, 255, 255, .4);
+      outline: 10px solid var(--dark)!important;
+      font-family: var(--font2);
+      font-size: 11px;
+      font-weight: 700;
+      color: rgba(255, 255, 255, .4);
+      text-transform: capitalize;
+      letter-spacing: 5px;
+    }
+    
+    .button1:hover, .button1:focus, .button1:active {
+      color: rgba(255, 255, 255, .4);
+    }
     
     @media (min-width: 500px) {
       main {
@@ -126,7 +115,9 @@
 
   <a href="javascript:delay('/')" id="component1" class="button1" style="filter: url('#filter-ripple-1')">Beranda</a>
 </main>
+
 <script src="js/gsap.js"></script>
+
 <script>
   var isSafari = /constructor/i.test(window.HTMLElement);
   var isFF = !!navigator.userAgent.match(/firefox/i);
@@ -150,6 +141,26 @@
       tl.restart();
     });
   }
+
+ /* gsap.set(".box", {
+    y: -150
+  });
+
+  gsap.to(".box", {
+    autoAlpha: 1,
+    opacity: 1,
+    y: 0,
+    duration: 2,
+    ease: "cubic.out"
+  });
+
+  gsap.to(".button1", {
+    autoAlpha: 1,
+    opacity: 1,
+    delay: 1,
+    duration: 2,
+    ease: "cubic.out"
+  });*/
 
   function delay(URL) {
     setTimeout(function() { window.location = URL }, 2000);
