@@ -102,17 +102,19 @@ const {
 createApp({
     methods: {
         afterEnter(el) {
-           setupReveal(el){
-	   gsap.to(".bg", {
-	    ease: "bounce.out",
-	    duration:2
-	   })
-	   }
+            setupReveal(el);
         },
+
         afterLeave(el) {
-            el.ctx && el.ctx.revert();		
-        }    
+            el.ctx && el.ctx.revert();
+        }
     },	
+    mounted: function () {
+	gsap.to(".bg", {
+	duration:2,
+	ease: "bounce.out"
+	})	
+    },
 data() {
         return {
             bg: 'bio'
