@@ -166,7 +166,7 @@ gsap.to("wnav", {
  opacity:1,
  duration:dur, 
  y:0,
- ease: easing,
+ ease: "expoScale(0.5,7,none)",
  transformOrigin: "center center"
 }, ">");
 	
