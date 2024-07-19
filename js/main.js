@@ -106,7 +106,7 @@ createApp({
         },
         afterLeave(el) {
             el.ctx && el.ctx.revert();		
-        },	    
+        }    
     },	
 data() {
         return {
