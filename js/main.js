@@ -103,7 +103,7 @@ createApp({
     methods: {
         afterEnter(el) {
            function setupReveal(el){
-		gsap.to(".transition", {
+		gsap.to("transition", {
 		duration:2,
 		ease: "bounce.out"	
 		})    
