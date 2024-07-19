@@ -138,7 +138,7 @@ gsap.to(".sub-title, .sub-title .char", {
  duration:2,
  x: 0,
  y: 0,
- ease: "expo.inOut",
+ ease: easing,
  stagger: { each: 0.05, grid: 'auto', from: 'random'}
 });
 
