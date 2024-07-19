@@ -109,12 +109,6 @@ createApp({
             el.ctx && el.ctx.revert();
         }
     },
-    mounted(){
-	gsap.to(".transition", {
-	duration:2,
-	ease: "bounce.out"
-	})		
-	},
 data() {
         return {
             bg: 'bio'
