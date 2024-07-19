@@ -128,20 +128,6 @@ $('nav li a').click(function(){
     $(this).addClass("active");
 });
 					
-gsap.set(".sub-title, .sub-title .char", {
- x: () => gsap.utils.random(-200, 200), 
- y: () => gsap.utils.random(-150, 150)
-});
-gsap.to(".sub-title, .sub-title .char", {
- autoAlpha:1,
- opacity: 1,
- duration:2,
- x: 0,
- y: 0,
- ease: easing,
- stagger: { each: 0.05, grid: 'auto', from: 'random'}
-});
-
 gsap.set("h1, h1 .char", { 
  y:100,
  rotationY:100
@@ -157,7 +143,21 @@ gsap.to("h1, h1 .char", {
  transformOrigin: "center center",
  ease: easing	
 }); 
-	
+
+gsap.set(".sub-title, .sub-title .char", {
+ x: () => gsap.utils.random(-200, 200), 
+ y: () => gsap.utils.random(-150, 150)
+});
+gsap.to(".sub-title, .sub-title .char", {
+ autoAlpha:1,
+ opacity: 1,
+ duration:2,
+ x: 0,
+ y: 0,
+ ease: easing,
+ stagger: { each: 0.05, grid: 'auto', from: 'random'}
+}, ">");
+		
 gsap.set("wnav", {
  y:-50
 });	
