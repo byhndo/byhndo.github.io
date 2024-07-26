@@ -554,7 +554,7 @@ p.sub2 {
 .uncover_slice {
   scale: translateY(1);
   flex-grow: 1;
-  background: #b6916d;
+  background: var(--dark);
   transform-origin: top;
 }
 
