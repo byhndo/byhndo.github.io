@@ -355,7 +355,7 @@ const revealContainers = container.querySelectorAll(".item");
 
 tl.to(el, {
  autoAlpha:1
-}, 0);  	 
+});  	 
 tl.to(el, {
  duration: dur,
  delay: gsap.utils.random(.1, 1),
@@ -367,14 +367,6 @@ tl.to(slices, {
  ease: "sine.out",
  stagger: { amount: 0.33 }
 });
-tl.fromTo(image,{
- scale: 1.4
-},
-{
- duration: 2,
- scale: 1,
- ease: "cubic.out"
-}, "-=1.5");
 	  
 });
 	
