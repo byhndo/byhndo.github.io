@@ -368,8 +368,9 @@ tl.fromTo(image, {
 {
  duration: 2,
  scale: 1,
+ delay:-1,
  ease: "sine.out"
-}, "-=1.7");
+});
 	  
 });
 	
