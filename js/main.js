@@ -363,10 +363,10 @@ tl.to(slices, {
  stagger: { from: "random", amount: .33 }
 });
 tl.fromTo(image, {
- scale: 1.4
+ scale: 1.7
 },
 {
- duration: 3,
+ duration: 2,
  scale: 1,
  delay:-1,
  ease: "sine.out"
