@@ -350,7 +350,7 @@ const revealContainers = container.querySelectorAll(".item");
  scrollTrigger: {
   trigger: el,
   toggleActions: once
-  }, delay:-.33
+  }, delay:0
  });
  
 tl.to(el, {
