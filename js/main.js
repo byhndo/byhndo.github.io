@@ -355,7 +355,10 @@ const revealContainers = container.querySelectorAll(".item");
  
 tl.to(el, {
  autoAlpha:1,
- delay: gsap.utils.random(.1, .5),
+ stagger: { 
+      from: "random", 
+      amount: 1 
+ }
 });  
 tl.to(slices, {
  scaleY: 0,
