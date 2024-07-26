@@ -353,7 +353,6 @@ const revealContainers = container.querySelectorAll(".item");
   }, delay:.3
  });
 
-
 tl.set(el, {
  autoAlpha:1
 });  	 
@@ -361,7 +360,7 @@ tl.to(el, {
  duration: dur,
  delay: gsap.utils.random(.1, 1),
  ease: easing
-}, 0);  
+});  
 tl.to(slices, {
  scaleY: 0,
  duration: 1,
@@ -377,7 +376,7 @@ tl.fromTo(image,{
  ease: "cubic.out"
 }, "-=1.5");
 	  
-});
+}, 0);
 	
 const RevealSc = container.querySelectorAll(".sc");
    RevealSc.forEach((sc, sos) => {                
