@@ -361,13 +361,13 @@ tl.to(el, {
  duration: dur,
  delay: gsap.utils.random(.1, 1),
  ease: easing
-});  
+}, 0);  
 tl.to(slices, {
  scaleY: 0,
  duration: 1,
  ease: "sine.out",
  stagger: { amount: 0.33 }
-}, 0);
+});
 tl.fromTo(image,{
  scale: 1.4
 },
