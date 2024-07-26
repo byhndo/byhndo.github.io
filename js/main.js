@@ -364,7 +364,15 @@ tl.to(slices, {
  duration: 1,
  ease: "sine.out",
  stagger: { amount: 0.33 }
-});
+}, 0);
+tl.fromTo(image, {
+ scale: 1.4
+},
+{
+ duration: 2,
+ scale: 1,
+ ease: "cubic.out"
+}, "-=1.5");
 	  
 });
 	
