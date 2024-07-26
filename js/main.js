@@ -352,11 +352,9 @@ const revealContainers = container.querySelectorAll(".item");
   toggleActions: once
   }, delay:.3
  });
-
+ 
 tl.to(el, {
- autoAlpha:1
-});  	 
-tl.to(el, {
+ autoAlpha:1,
  duration: dur,
  delay: gsap.utils.random(.1, 1),
  ease: easing
