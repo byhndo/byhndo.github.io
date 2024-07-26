@@ -359,7 +359,7 @@ tl.to(el, {
 tl.to(slices, {
  scaleY: 0,
  duration: 1,
- ease: "sine.out",
+ ease: "cubic.out",
  stagger: { from: "random", amount: .33 }
 });
 tl.fromTo(image, {
@@ -369,7 +369,7 @@ tl.fromTo(image, {
  duration: 2,
  scale: 1,
  delay:-1,
- ease: "sine.out"
+ ease: "cubic.out"
 });
 	  
 });
