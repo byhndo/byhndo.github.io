@@ -363,8 +363,8 @@ tl.to(slices, {
  scaleY: 0,
  duration: 1,
  ease: "sine.out",
- stagger: { amount: 0.33 }
-}, 0);
+ stagger: { amount: .33 }
+}, ".33");
 tl.fromTo(image, {
  scale: 1.4
 },
