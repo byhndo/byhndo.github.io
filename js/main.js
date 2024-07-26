@@ -376,7 +376,7 @@ tl.fromTo(image,{
  ease: "cubic.out"
 }, "-=1.5");
 	  
-}, 0);
+}, "-=5");
 	
 const RevealSc = container.querySelectorAll(".sc");
    RevealSc.forEach((sc, sos) => {                
