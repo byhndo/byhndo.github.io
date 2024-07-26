@@ -354,17 +354,13 @@ const revealContainers = container.querySelectorAll(".item");
  });
  
 tl.to(el, {
- autoAlpha:1,
- stagger: { 
-      from: "random", 
-      amount: 1 
- }
+ autoAlpha:1
 });  
 tl.to(slices, {
  scaleY: 0,
  duration: 1,
  ease: easing,
- stagger: { amount: .33 }
+ stagger: { from: "random", amount: .33 }
 });
 tl.fromTo(image, {
  scale: 1.4
