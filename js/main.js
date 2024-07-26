@@ -391,7 +391,7 @@ tl.to(pl, {
  ease:easing
 }, sos * .2);
 	   
-});
+}, ">");
 	 
 const RevealBoxs4 = container.querySelectorAll(".box4");
  RevealBoxs4.forEach((box4, foot) => {
@@ -410,7 +410,7 @@ tl.to(footer, {
  ease: easing
 }, foot * .2); 
 		 	                                                                                                                  
-});	
+}, ">");	
 	 
 });
 }
