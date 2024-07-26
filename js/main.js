@@ -344,6 +344,7 @@ tl.to(quote, {
 	 
 const revealContainers = container.querySelectorAll(".item"); 
  revealContainers.forEach((el) => {
+ const slices = container.querySelectorAll(".uncover_slice");
  const image = el.querySelectorAll("img");
  let tl = gsap.timeline({ 
  scrollTrigger: {
@@ -353,16 +354,29 @@ const revealContainers = container.querySelectorAll(".item");
  });
 
 tl.set(el, {
- autoAlpha: 1,
- scale:0
+ autoAlpha: 1
 })	 
 tl.to(el, {
- scale:1,
  duration: dur,
  delay: gsap.utils.random(.1, 1),
  ease: easing
 });  
- 
+
+tl.to(slices, {
+ scaleY: 0,
+ duration: 1,
+ ease: "sine.out",
+ stagger: { amount: 0.33 }
+});
+tl.fromTo(image,{
+ scale: 1.4
+},
+{
+ duration: 2,
+ scale: 1,
+ ease: "cubic.out"
+}, "-=1.5");
+	  
 });
 	
 const RevealSc = container.querySelectorAll(".sc");
