@@ -366,7 +366,7 @@ tl.fromTo(image, {
  scale: 1.7
 },
 {
- duration: 2,
+ duration: 1.7,
  scale: 1,
  delay:-1,
  ease: "sine.out"
