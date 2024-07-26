@@ -360,7 +360,7 @@ tl.to(el, {
 tl.to(slices, {
  scaleY: 0,
  duration: 1,
- ease: "expo.out",
+ ease: easing,
  stagger: { amount: .33 }
 });
 tl.fromTo(image, {
