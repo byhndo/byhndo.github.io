@@ -350,7 +350,7 @@ const revealContainers = container.querySelectorAll(".item");
  scrollTrigger: {
   trigger: el,
   toggleActions: once
-  }, delay:0
+  }, delay:.3
  });
  
 tl.fromTo(el,
@@ -362,7 +362,7 @@ tl.fromTo(el,
  clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
  webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
  autoAlpha: 1,
- stagger: { from: "random", amount: .33 },
+ delay: gsap.utils.random(.1, 1),
  ease: "sine.out"
 });
  
