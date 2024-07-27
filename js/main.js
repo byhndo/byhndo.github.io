@@ -344,7 +344,6 @@ tl.to(quote, {
 	 
 const revealContainers = container.querySelectorAll(".item"); 
  revealContainers.forEach((el) => {
- const slices = el.querySelectorAll(".uncover_slice");
  const image = el.querySelectorAll("img");
  let tl = gsap.timeline({ 
  scrollTrigger: {
@@ -376,18 +375,7 @@ tl.fromTo(image, {
  delay:-1,
  ease: "sine.out"
 });
-	 
-tl.to(image, {
- y: () => image.offsetHeight - el.offsetHeight,
- ease: "none",
- scrollTrigger: {
-  trigger: el,
-  scrub: true,
-  pin: false,       
-  invalidateOnRefresh: true
-  }
- }); 
-	  
+	 	  
 });
 	
 const RevealSc = container.querySelectorAll(".sc");
