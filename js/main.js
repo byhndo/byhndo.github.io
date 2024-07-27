@@ -357,6 +357,8 @@ tl.to(el, {
  autoAlpha:1
 });  
 tl.to(slices, {
+ autoAlpha:1,
+ opacity:1,
  scaleY: 0,
  duration: 1,
  ease: "sine.out",
