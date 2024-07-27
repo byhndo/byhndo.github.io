@@ -124,8 +124,8 @@ $('html, body').css({
 })
 
 $('nav li a').click(function(){
-    $('li a').removeClass("active");
-    $(this).addClass("active");
+    $('li a').removeClass("link-bio");
+    $(this).addClass("link-bio");
 });
 					
 gsap.set("h1, h1 .char", { 
