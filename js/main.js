@@ -376,6 +376,18 @@ tl.fromTo(image, {
  delay:-1,
  ease: "sine.out"
 });
+	 
+tl.to(image, {
+ y: () => image.offsetHeight - container.offsetHeight,
+ ease: "none",
+ scrollTrigger: {
+  trigger: el,
+  scrub: true,
+  pin: false,
+  markers: false,
+  invalidateOnRefresh: true
+  },
+ }); 
 	  
 });
 	
