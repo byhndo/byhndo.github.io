@@ -541,25 +541,6 @@ p.sub2 {
  opacity: 0;
 }
 
-.uncover {
-  display: flex;
-  flex-direction: row;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-}
-
-.uncover_slice {
- scale: translateY(1);
- flex-grow: 1;
- background: var(--dark);
- transform-origin: top;
- visibility:hidden;
- opacity:0;
-}
-
 img {
  width: 100%;
  height: 100%;
