@@ -354,12 +354,12 @@ const revealContainers = container.querySelectorAll(".item");
  
 tl.fromTo(el,
 {
- clipPath: "polygon(0 0, 0 0, 0 100%, 0% 100%)",
- webkitClipPath: "polygon(0 0, 0 0, 0 100%, 0% 100%)"
+ clipPath: "polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%)",
+ webkitClipPath: "polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%)"
 },
 {
- clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
- webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
+ clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
+ webkitClipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
  autoAlpha: 1,
  duration:1,
  delay: gsap.utils.random(.3, 1),
