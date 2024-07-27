@@ -383,10 +383,9 @@ tl.to(image, {
  scrollTrigger: {
   trigger: el,
   scrub: true,
-  pin: false,
-  markers: false,
+  pin: false,       
   invalidateOnRefresh: true
-  },
+  }
  }); 
 	  
 });
