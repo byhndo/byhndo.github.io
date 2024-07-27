@@ -353,17 +353,19 @@ const revealContainers = container.querySelectorAll(".item");
   }, delay:0
  });
  
-tl.to(el, {
- autoAlpha:1
-});  
-tl.to(slices, {
- autoAlpha:1,
- opacity:1,
- scaleY: 0,
- duration: 1,
- ease: "sine.out",
- stagger: { from: "random", amount: .33 }
+tl.fromTo(el,
+{
+ clipPath: "polygon(0 0, 0 0, 0 100%, 0% 100%)",
+ webkitClipPath: "polygon(0 0, 0 0, 0 100%, 0% 100%)"
+},
+{
+ clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
+ webkitClipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
+ autoAlpha: 1,
+ stagger: { from: "random", amount: .33 },
+ ease: "sine.out"
 });
+ 
 tl.fromTo(image, {
  scale: 1.7
 },
