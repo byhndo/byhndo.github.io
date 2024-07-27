@@ -544,14 +544,8 @@ p.sub2 {
 img {
  object-fit: cover;
  transform-origin:left;
- position: absolute;
- bottom: 0;
- left: 0;
  width: 100%;
- height: 170%;
- object-fit: cover;
- object-position: center;
- padding: 0;
+ height: 100%;
 }
 
 .soc {
