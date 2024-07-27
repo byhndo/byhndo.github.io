@@ -378,7 +378,7 @@ tl.fromTo(image, {
 });
 	 
 tl.to(image, {
- y: () => image.offsetHeight - container.offsetHeight,
+ y: () => image.offsetHeight - el.offsetHeight,
  ease: "none",
  scrollTrigger: {
   trigger: el,
