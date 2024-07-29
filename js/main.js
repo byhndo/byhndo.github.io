@@ -81,7 +81,7 @@ function contentShow() {
 	
 const easing = "expoScale(0.5,7,none)";
 const dur = 1;
-const once = "play pause resume reset";
+const once = "play pause play reset";
 	
 gsap.registerPlugin(ScrollTrigger);
 	
