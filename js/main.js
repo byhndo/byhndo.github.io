@@ -199,8 +199,6 @@ gsap.to('.indicator', {
 }
 }, ">");
 
-	
-function setupReveal(container) {
 
 const lenis = new Lenis({
   duration: 3,
@@ -225,6 +223,9 @@ function raf(time) {
 }
 
 requestAnimationFrame(raf);
+	
+	
+function setupReveal(container) {
 	
 container.ctx = gsap.context(() => {	
 	
