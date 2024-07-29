@@ -196,6 +196,50 @@ gsap.to('.indicator', {
 
 	
 function setupReveal(container) {
+
+
+
+
+const lenis = new Lenis({
+  duration: 2,
+  easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+  direction: "vertical",
+  gestureDirection: "vertical",
+  lerp: 0.05,
+  smooth: 2,
+  smoothTouch: true,
+  touchMultiplier: 2,
+  wheelMultiplier: 1,
+  infinite: false,
+  autoResize: true
+});
+
+lenis.on("scroll", ({ scroll, limit, velocity, direction, progress }) => {});
+
+function raf(time) {
+  lenis.raf(time);
+  requestAnimationFrame(raf);
+}
+
+requestAnimationFrame(raf);
+
+
+$('html, body').css({
+  'overflow': 'auto',
+  'height': 'auto'
+})
+
+
+
+
+
+
+
+
+
+
+
+
 	
 container.ctx = gsap.context(() => {	
 	 
@@ -416,36 +460,6 @@ tl.to(footer, {
 	
 }
 
-
-
-const lenis = new Lenis({
-  duration: 2,
-  easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-  direction: "vertical",
-  gestureDirection: "vertical",
-  lerp: 0.05,
-  smooth: 2,
-  smoothTouch: true,
-  touchMultiplier: 2,
-  wheelMultiplier: 1,
-  infinite: false,
-  autoResize: true
-});
-
-lenis.on("scroll", ({ scroll, limit, velocity, direction, progress }) => {});
-
-function raf(time) {
-  lenis.raf(time);
-  requestAnimationFrame(raf);
-}
-
-requestAnimationFrame(raf);
-
-
-$('html, body').css({
-  'overflow': 'auto',
-  'height': 'auto'
-})
 
 
 	
