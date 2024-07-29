@@ -115,9 +115,14 @@ data() {
         }
     }
 }).mount('#app') 
+
+$('html, body').css({
+  'overflow': 'auto',
+  'height': 'auto'
+})
 	
 Splitting();
-
+	
 $('nav li a').click(function(){
     $('li a').removeClass("active");
     $(this).addClass("active");
@@ -197,9 +202,6 @@ gsap.to('.indicator', {
 	
 function setupReveal(container) {
 
-
-
-
 const lenis = new Lenis({
   duration: 2,
   easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
@@ -222,24 +224,6 @@ function raf(time) {
 }
 
 requestAnimationFrame(raf);
-
-
-$('html, body').css({
-  'overflow': 'auto',
-  'height': 'auto'
-})
-
-
-
-
-
-
-
-
-
-
-
-
 	
 container.ctx = gsap.context(() => {	
 	 
