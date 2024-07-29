@@ -222,6 +222,15 @@ function raf(time) {
   requestAnimationFrame(raf);
 }
 requestAnimationFrame(raf);
+
+
+document.querySelectorAll('nav a').forEach(link => {
+  link.addEventListener('click', function (e) {
+    e.preventDefault();
+    lenis.scrollTo(this.getAttribute(`${e.target.getAttribute("href")}`))
+  });
+})
+
 	
 	
 function setupReveal(container) {
