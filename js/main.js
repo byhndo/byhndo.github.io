@@ -201,6 +201,10 @@ gsap.to('.indicator', {
 
 	
 function setupReveal(container) {
+	
+container.ctx = gsap.context(() => {	
+
+
 
 const lenis = new Lenis({
   duration: 2,
@@ -224,9 +228,12 @@ function raf(time) {
 }
 
 requestAnimationFrame(raf);
+
+
+
+
+
 	
-container.ctx = gsap.context(() => {	
-	 
 const RevealBoxsme = container.querySelectorAll(".boxme");
    RevealBoxsme.forEach((boxme, a) => { 	   	   
     const aboutme = boxme.querySelectorAll(".aboutme");
