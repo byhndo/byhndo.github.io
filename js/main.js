@@ -118,11 +118,6 @@ data() {
 	
 Splitting();
 
-$('html, body').css({
-  'overflow': 'auto',
-  'height': 'auto'
-})
-
 $('nav li a').click(function(){
     $('li a').removeClass("active");
     $(this).addClass("active");
@@ -447,6 +442,10 @@ function raf(time) {
 requestAnimationFrame(raf);
 
 
+$('html, body').css({
+  'overflow': 'auto',
+  'height': 'auto'
+})
 
 
 	
