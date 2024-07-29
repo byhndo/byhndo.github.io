@@ -210,6 +210,7 @@ const lenis = new Lenis({
   lerp: 0.05,
   smooth: 2,
   smoothTouch: true,
+  smoothWheel: true,
   touchMultiplier: 2,
   wheelMultiplier: 1,
   infinite: false,
