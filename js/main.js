@@ -81,7 +81,7 @@ function contentShow() {
 	
 const easing = "expoScale(0.5,7,none)";
 const dur = 1;
-const once = "play none none none";
+const once = "play none none reset";
 	
 gsap.registerPlugin(ScrollTrigger);
 	
@@ -372,7 +372,8 @@ const revealContainers = container.querySelectorAll(".item");
  let tl = gsap.timeline({ 
  scrollTrigger: {
   trigger: el,
-  toggleActions: once
+  toggleActions: once,
+  scrub:1
   }, delay:.3
  });
  
