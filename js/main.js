@@ -378,7 +378,11 @@ const revealContainers = container.querySelectorAll(".item");
   end: 'bottom bottom', 
   }, delay:.3
  });
- 
+
+tl.set(el, {
+ autoAlpha:1	
+})
+	 
 tl.fromTo(el,
 {
  clipPath: "polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%)",
@@ -387,7 +391,6 @@ tl.fromTo(el,
 {
  clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
  webkitClipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
- autoAlpha: 1,
  duration:1,
  delay: gsap.utils.random(.3, 1),
  ease: "sine.out"
