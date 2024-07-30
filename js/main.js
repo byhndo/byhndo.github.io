@@ -373,7 +373,7 @@ const revealContainers = container.querySelectorAll(".item");
  scrollTrigger: {
   trigger: el,
   toggleActions: once,
-  scrub:5,
+  scrub:7,
   start: 'top bottom', 
   end: 'bottom bottom', 
   }, delay:.3
