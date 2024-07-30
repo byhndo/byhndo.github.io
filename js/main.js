@@ -234,6 +234,9 @@ const RevealBoxsme = container.querySelectorAll(".boxme");
     let tl = gsap.timeline({
     scrollTrigger: {
      trigger: boxme,
+     scrub:7,
+     start: 'top bottom', 
+     end: 'bottom bottom', 
      toggleActions: once
      }, delay:.3
      }); 
@@ -258,6 +261,9 @@ const RevealBoxs = container.querySelectorAll(".box");
     let tl = gsap.timeline({
     scrollTrigger: {
      trigger: box,
+     scrub:7,
+     start: 'top bottom', 
+     end: 'bottom bottom', 
      toggleActions: once
      }, delay:.3
      }); 
@@ -279,6 +285,9 @@ const RevealBoxsline = container.querySelectorAll(".boxline");
     let tl = gsap.timeline({
     scrollTrigger: {
      trigger: boxline,
+     scrub:7,
+     start: 'top bottom', 
+     end: 'bottom bottom', 
      toggleActions: once
      }, delay:.3
      }); 
@@ -300,6 +309,9 @@ const RevealBoxs1 = container.querySelectorAll(".box1");
     let tl = gsap.timeline({
     scrollTrigger: {
      trigger: box1,
+     scrub:7,
+     start: 'top bottom', 
+     end: 'bottom bottom', 
      toggleActions: once
      }, delay:.3
      }); 
@@ -417,9 +429,12 @@ const RevealSc = container.querySelectorAll(".sc");
     let tl = gsap.timeline({
     scrollTrigger: {
      trigger:sc,
+     scrub:7,
+     start: 'top bottom', 
+     end: 'bottom bottom', 
      toggleActions: once
-     }, delay:.3
-     }); 
+    }, delay:.3
+    }); 
 
 tl.to(pl, {
  autoAlpha:1,
@@ -436,6 +451,9 @@ const RevealBoxs4 = container.querySelectorAll(".box4");
  let tl = gsap.timeline({
  scrollTrigger: {
   trigger: box4,
+  scrub:7,
+  start: 'top bottom', 
+  end: 'bottom bottom', 
   toggleActions: once
  }, delay: .3
  });  
