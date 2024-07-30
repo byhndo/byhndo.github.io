@@ -400,7 +400,7 @@ tl.fromTo(image, {
  duration: 1.7,
  scale: 1,
  delay:-1,
- ease: "sine.out"
+ ease: "cubic.inOut"
 });
 	 	  
 });
