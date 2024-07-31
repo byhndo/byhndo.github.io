@@ -202,11 +202,7 @@ gsap.to('.indicator', {
 
 gsap.to('h1, h1 .char', {  
  onComplete: () => {
-  gsap.fromTo("h1, h1 .char", {  
-   y:0,
-   autoAlpha: 1
-  },
-  {
+  gsap.to("h1, h1 .char", {  
    y:70,
    ease: "cubic.out",
    stagger: { each: 0.05},
@@ -221,11 +217,7 @@ gsap.to('h1, h1 .char', {
 
 gsap.to('.sub-title, .sub-title .char', {  
  onComplete: () => {
-  gsap.fromTo(".sub-title, .sub-title .char", {  
-   y:0,
-   autoAlpha: 1
-  },
-  {
+  gsap.to(".sub-title, .sub-title .char", {  
    y:70,
    ease: "cubic.out",
    stagger: { each: 0.05},
