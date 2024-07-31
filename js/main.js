@@ -200,24 +200,32 @@ gsap.to('.indicator', {
 }, ">");
 
 gsap.to('h1', {  
- y:100,
- ease: "cubic.out",
- scrollTrigger: {
-  scrub: 5,
-  trigger: 'h1',
-  start: 'top top'
+ onComplete: () => {
+  gsap.to("h1", {        
+   y:100,
+   ease: "cubic.out",
+   scrollTrigger: {
+    scrub: 5,
+    trigger: 'h1',
+    start: 'top top',
   }
-});
+  })
+    }
+ });
 
 gsap.to('.sub-title', {  
- y:50,
- ease: "cubic.out",
- scrollTrigger: {
-  scrub: 5,
-  trigger: '.sub-title',
-  start: 'top top'
+ onComplete: () => {
+  gsap.to(".sub-title", {        
+   y:100,
+   ease: "cubic.out",
+   scrollTrigger: {
+    scrub: 5,
+    trigger: '.sub-title',
+    start: 'top top',
   }
-});
+  })
+    }
+ });
 
 
 const lenis = new Lenis({
