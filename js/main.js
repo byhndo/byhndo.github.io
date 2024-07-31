@@ -202,7 +202,7 @@ gsap.to('.indicator', {
 
 gsap.to('h1', {  
  onComplete: () => {
- gsap.set('h1' {
+ gsap.set('h1', {
  y:0		 
  })
   gsap.to("h1", {  
