@@ -217,16 +217,13 @@ gsap.to('h1, h1 .char', {
 gsap.to('.sub-title, .sub-title .char', { 
  onComplete: () => {
   gsap.to(".sub-title, .sub-title .char", {  
-   autoAlpha:0,
-   opacity:0,
-   x: () => gsap.utils.random(-200, 200), 
-   y: () => gsap.utils.random(-150, 150),
+   y:30,
    ease: "cubic.out",
    stagger: { each: 0.05, grid: 'auto', from: 'random'},
    scrollTrigger: {
     scrub: 5,
     trigger: '.sub-title, .sub-title .char',
-    start: '-200% top'
+    start: '-300% top'
   }
   })
     }
