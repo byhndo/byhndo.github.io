@@ -136,6 +136,14 @@ prlxs.forEach(prlx => {
     scale: 1.25
   });
 });
+
+const prlxs = document.querySelectorAll(".sub-title");
+prlxs.forEach(prlx => {
+  new Ukiyo(prlx, {
+    speed: 3,
+    scale: 1.25
+  });
+});
 	
 gsap.set("h1, h1 .char", { 
  y:100,
