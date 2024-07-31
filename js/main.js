@@ -215,13 +215,6 @@ gsap.to('h1, h1 .char', {
  });
 
 gsap.to('.sub-title, .sub-title .char', { 
- autoAlpha:1,
- opacity: 1,
- duration:2,
- x: 0,
- y: 0,
- ease: easing,
- stagger: { each: 0.05, grid: 'auto', from: 'random'},
  onComplete: () => {
   gsap.to(".sub-title, .sub-title .char", {  
    autoAlpha:0,
