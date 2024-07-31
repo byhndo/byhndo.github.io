@@ -200,32 +200,15 @@ gsap.to('.indicator', {
 }, ">");
 
 
-gsap.to('h1', {  
+gsap.to('.header', {  
  onComplete: () => {
- gsap.set('h1', {
- y:0		 
- })
-  gsap.to("h1", {  
+  gsap.to(".header", {  
    y:100,
    ease: "cubic.out",
    scrollTrigger: {
     scrub: 5,
-    trigger: 'h1',
-    start: 'top top',
-  }
-  })
-    }
- });
-
-gsap.to('.sub-title, .sub-title', {  
- onComplete: () => {
-  gsap.to(".sub-title, .sub-title", {  
-   y:70,
-   ease: "cubic.out",
-   scrollTrigger: {
-    scrub: 5,
-    trigger: '.sub-title',
-    start: 'top top',
+    trigger: '.header',
+    start: 'top top'
   }
   })
     }
