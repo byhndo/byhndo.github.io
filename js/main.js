@@ -200,6 +200,7 @@ gsap.to('.indicator', {
 }, ">");
 
 gsap.to('h1, h1 .char', {  
+ y:0,
  onComplete: () => {
   gsap.to("h1, h1 .char", {        
    y:100,
