@@ -202,7 +202,7 @@ gsap.to('.indicator', {
 gsap.to('h1, h1 .char', {  
  onComplete: () => {
   gsap.to("h1, h1 .char", {        
-   y:150,
+   y:50,
    ease: "cubic.out",
    stagger: { each: 0.05},
    scrollTrigger: {
