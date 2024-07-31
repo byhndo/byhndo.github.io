@@ -203,13 +203,13 @@ gsap.to('h1, h1 .char', {
  y:0,
  onComplete: () => {
   gsap.to("h1, h1 .char", {        
-   y:100,
+   y:70,
    ease: "cubic.out",
    stagger: { each: 0.05},
    scrollTrigger: {
     scrub: 5,
     trigger: 'h1, h1 .char',
-    start: '-100% top',
+    start: '-150% top',
   }
   })
     }
@@ -234,7 +234,7 @@ gsap.to('.sub-title, .sub-title .char', {
    scrollTrigger: {
     scrub: 5,
     trigger: '.sub-title, .sub-title .char',
-    start: '-120% top'
+    start: '-200% top'
   }
   })
     }
