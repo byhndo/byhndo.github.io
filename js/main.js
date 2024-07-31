@@ -199,20 +199,6 @@ gsap.to('.indicator', {
 }
 }, ">");
 
-gsap.to('.sub-title, .sub-title .char', { 
- onComplete: () => {
-  gsap.to(".sub-title, .sub-title .char", {  
-   y:30,
-   ease: "cubic.out",
-   stagger: { each: 0.05, grid: 'auto', from: 'random'},
-   scrollTrigger: {
-    scrub: 5,
-    trigger: '.sub-title, .sub-title .char',
-    start: '-150% top'
-  }
-  })
-    }
- });
 
 gsap.to('h1, h1 .char', {  
  onComplete: () => {
@@ -227,6 +213,25 @@ gsap.to('h1, h1 .char', {
    scrollTrigger: {
     scrub: 5,
     trigger: 'h1, h1 .char',
+    start: '-150% top',
+  }
+  })
+    }
+ });
+
+gsap.to('.sub-title, .sub-title .char', {  
+ onComplete: () => {
+  gsap.fromTo(".sub-title, .sub-title .char", {  
+   y:0,
+   autoAlpha: 1
+  },
+  {
+   y:70,
+   ease: "cubic.out",
+   stagger: { each: 0.05},
+   scrollTrigger: {
+    scrub: 5,
+    trigger: '.sub-title, .sub-title .char',
     start: '-150% top',
   }
   })
