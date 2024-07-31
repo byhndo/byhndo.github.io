@@ -229,6 +229,7 @@ gsap.to('.sub-title, .sub-title .char', {
    x: () => gsap.utils.random(-200, 200), 
    y: () => gsap.utils.random(-150, 150),
    ease: "cubic.out",
+   stagger: { each: 0.05, grid: 'auto', from: 'random'},
    scrollTrigger: {
     scrub: 5,
     trigger: '.sub-title, .sub-title .char',
