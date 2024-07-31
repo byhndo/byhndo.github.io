@@ -209,7 +209,7 @@ gsap.to('h1, h1 .char', {
    scrollTrigger: {
     scrub: 5,
     trigger: 'h1, h1 .char',
-    start: '-150% top',
+    start: '-150% 0',
   }
   })
     }
@@ -224,7 +224,7 @@ gsap.to('.sub-title, .sub-title .char', {
    scrollTrigger: {
     scrub: 5,
     trigger: '.sub-title, .sub-title .char',
-    start: '-150% top',
+    start: '-170% 0',
   }
   })
     }
