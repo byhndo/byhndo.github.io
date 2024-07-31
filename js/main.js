@@ -233,6 +233,7 @@ gsap.to('.sub-title, .sub-title .char', {
     scrub: 5,
     trigger: '.sub-title, .sub-title .char',
     start: 'top top',
+    end: 'bottom bottom'
   }
   })
     }
