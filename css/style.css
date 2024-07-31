@@ -38,7 +38,7 @@
   display: block;
   top: -0.2rem;
   position: relative;
-  background-color: var(--darkgrey);
+  background-color: #23272d;
   display: flex;
   flex-direction: column;
   align-items: center;
