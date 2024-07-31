@@ -38,7 +38,7 @@
   display: block;
   top: -0.2rem;
   position: relative;
-  background-color: #23272d;
+  background-color: var(--darkgrey);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -59,7 +59,7 @@
 .shape {
  height: 100vh;
  width: 100%;
- fill: #23272d;
+ fill: var(--darkgrey);
  display: block;
 }
 
