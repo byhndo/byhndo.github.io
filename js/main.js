@@ -204,7 +204,7 @@ gsap.to('h1, h1 .char', {
   gsap.to("h1, h1 .char", {        
    y:50,
    ease: "cubic.out",
-   stagger: { each: 0.05},
+   stagger: { each: 0.05, from: end},
    scrollTrigger: {
     scrub: 5,
     trigger: 'h1, h1 .char',
