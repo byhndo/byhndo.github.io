@@ -143,7 +143,7 @@ gsap.to("h1, h1 .char", {
  transformOrigin: "center center",
  ease: easing	
 }); 
-
+	
 gsap.set(".sub-title, .sub-title .char", {
  x: () => gsap.utils.random(-200, 200), 
  y: () => gsap.utils.random(-150, 150)
@@ -198,6 +198,26 @@ gsap.to('.indicator', {
  });
 }
 }, ">");
+
+gsap.to('h1', {  
+ y:100,
+ ease: "cubic.out",
+ scrollTrigger: {
+  scrub: 5,
+  trigger: 'h1',
+  start: 'top top'
+  }
+});
+
+gsap.to('.sub-title', {  
+ y:50,
+ ease: "cubic.out",
+ scrollTrigger: {
+  scrub: 5,
+  trigger: '.sub-title',
+  start: 'top top'
+  }
+});
 
 
 const lenis = new Lenis({
