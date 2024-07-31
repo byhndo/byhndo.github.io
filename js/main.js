@@ -202,7 +202,7 @@ gsap.to('.indicator', {
 gsap.to('h1', {  
  onComplete: () => {
   gsap.to("h1", {        
-   y:100,
+   y:150,
    ease: "cubic.out",
    scrollTrigger: {
     scrub: 5,
@@ -216,7 +216,7 @@ gsap.to('h1', {
 gsap.to('.sub-title', {  
  onComplete: () => {
   gsap.to(".sub-title", {        
-   y:100,
+   y:30,
    ease: "cubic.out",
    scrollTrigger: {
     scrub: 5,
