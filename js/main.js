@@ -201,12 +201,12 @@ gsap.to('.indicator', {
 
 gsap.to('h1 .char', {  
  onComplete: () => {
-  gsap.to("h1", {        
+  gsap.to("h1 .char", {        
    y:150,
    ease: "cubic.out",
    scrollTrigger: {
     scrub: 5,
-    trigger: 'h1',
+    trigger: 'h1 .char',
     start: 'top top',
   }
   })
