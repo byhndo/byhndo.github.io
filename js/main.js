@@ -137,9 +137,9 @@ prlxs.forEach(prlx => {
   });
 });
 
-const prlxs = document.querySelectorAll(".sub-title");
-prlxs.forEach(prlx => {
-  new Ukiyo(prlx, {
+const prlxs2 = document.querySelectorAll(".sub-title");
+prlxs2.forEach(prlx2 => {
+  new Ukiyo(prlx2, {
     speed: 3,
     scale: 1.25
   });
