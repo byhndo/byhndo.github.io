@@ -216,7 +216,7 @@ gsap.to('h1', {
 gsap.to('.sub-title', {  
  onComplete: () => {
   gsap.to(".sub-title", {        
-   y:200,
+   yPercent:200,
    ease: "cubic.out",
    scrollTrigger: {
     scrub: 5,
