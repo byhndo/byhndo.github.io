@@ -206,7 +206,7 @@ gsap.to('h1', {
  y:0		 
  })
   gsap.to("h1", {  
-   y:70,
+   y:100,
    ease: "cubic.out",
    scrollTrigger: {
     scrub: 5,
