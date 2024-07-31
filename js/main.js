@@ -216,7 +216,11 @@ gsap.to('.sub-title, .sub-title .char', {
 
 gsap.to('h1, h1 .char', {  
  onComplete: () => {
-  gsap.to("h1, h1 .char", {        
+  gsap.fromTo("h1, h1 .char", {  
+   y:0,
+   autoAlpha: 1
+  },
+  {
    y:70,
    ease: "cubic.out",
    stagger: { each: 0.05},
