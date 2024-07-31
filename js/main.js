@@ -199,7 +199,6 @@ gsap.to('.indicator', {
 }
 }, ">");
 
-
 gsap.to('.header', {  
  onComplete: () => {
   gsap.to(".header", {  
