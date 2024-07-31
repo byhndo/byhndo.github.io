@@ -217,8 +217,11 @@ gsap.to('h1, h1 .char', {
 gsap.to('.sub-title', { 
  y:0,
  onComplete: () => {
-  gsap.to(".sub-title", {        
-   y:120,
+  gsap.to(".sub-title", {  
+   autoAlpha:0,
+   opacity:0,
+   x: () => gsap.utils.random(-200, 200), 
+   y: () => gsap.utils.random(-150, 150),
    ease: "cubic.out",
    scrollTrigger: {
     scrub: 5,
