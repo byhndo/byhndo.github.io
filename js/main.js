@@ -127,7 +127,16 @@ $('nav li a').click(function(){
     $('li a').removeClass("active");
     $(this).addClass("active");
 });
-					
+
+
+const prlxs = document.querySelectorAll("h1");
+prlxs.forEach(prlx => {
+  new Ukiyo(prlx, {
+    speed: 2,
+    scale: 1.25
+  });
+});
+	
 gsap.set("h1, h1 .char", { 
  y:100,
  rotationY:100
