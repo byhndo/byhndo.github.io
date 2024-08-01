@@ -39,7 +39,7 @@
   display: block;
   top: -0.2rem;
   position: relative;
-  background-color: var(--darkgrey);
+  background-color: var(--dark);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -60,7 +60,7 @@
 .shape {
  height: 100vh;
  width: 100%;
- fill: var(--darkgrey);
+ fill: var(--dark);
  display: block;
 }
 
