@@ -230,7 +230,7 @@ h1 .char, .sub-title .char{
  font-weight:400;
  text-transform:uppercase;
  margin-bottom:7px;
- margin-left:-1px;
+ margin-left:-2px;
  transition-duration: 4s;
  writing-mode: vertical-rl;
  text-orientation: mixed;
