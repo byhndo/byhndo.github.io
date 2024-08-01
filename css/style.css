@@ -488,7 +488,7 @@ p.sub2 {
 }
 
 .quote {
- margin:var(--marginp) auto -50px auto;
+ margin:var(--marginp) auto -60px auto;
  max-width:78%;
  opacity:0;
  visibility:hidden;
@@ -510,7 +510,7 @@ p.sub2 {
  font-style: italic;
  color: inherit;
  text-align:center;
- padding-top:-50px;
+ padding-top:-60px;
  padding-bottom: var(--marginp);
 }
 
@@ -574,7 +574,7 @@ img {
 }
 
 .sc{
- margin-top:50px;
+ margin-top:60px;
 }
 .pl{
  visibility:hidden;
