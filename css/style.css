@@ -4,10 +4,10 @@
 
 :root {  
  --light: #F8F9FA;
-/*--dark: #212529;*/
- --dark: #181b1e;
- --darkgrey: #495057;
  --grey: #BBBFCA;
+ --darkgrey: #495057;
+ --semidark: #212529;
+ --dark: #181b1e;
  --soc1: #495057;
  --soc2: #ced4da; 
  --sizebody:12px;
