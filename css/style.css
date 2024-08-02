@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@0;1&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
 :root {  
  --light: #fff;
  --grey: #BBBFCA;
@@ -15,7 +18,7 @@
  --sizenav:9px;
  --font1: 'Anton', sans-serif;	
  --font2: 'Wix Madefor Text', sans-serif;
- --font3: 'Cormorant Garamond', sans-serif;
+ --font3: 'Inter', 'Cormorant Garamond', sans-serif;
  --marginp:60px;
  --fwnav:500;
  --fwtitle:400;
@@ -203,9 +206,9 @@ h1 .char, .sub-title .char{
  opacity:0;
  line-height:2.3;
  font-size:11px;
- font-family: var(--font2);
+ font-family: var(--font3);
  color: var(--soc1);
- font-weight:600;
+ font-weight:100;
  transition: color 4s;
  text-align:center;
  text-transform:uppercase;
