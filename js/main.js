@@ -202,7 +202,7 @@ gsap.to('.indicator', {
 gsap.to('.header', {  
  onComplete: () => {
   gsap.to(".header", {  
-   yPercent:17,
+   yPercent:14,
    ease: "cubic.out",
    scrollTrigger: {
     scrub: 5,
