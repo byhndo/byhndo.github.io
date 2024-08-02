@@ -207,7 +207,7 @@ h1 .char, .sub-title .char{
  font-size:11px;
  font-family: var(--font3);
  color: var(--soc1);
- font-weight:200;
+ font-weight:400;
  transition: color 4s;
  text-align:center;
  text-transform:uppercase;
