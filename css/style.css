@@ -17,11 +17,12 @@
  --font1: 'Anton', sans-serif;	
  --font2: 'Inter', sans-serif;
  --font3: 'Cormorant Garamond', sans-serif;
- --marginp:60px;
- --fwnav:500;
- --fwtitle:400;
- --fwbody:300;
- --fwfooter:500;
+ --marginp: 60px;
+ --fwnav: 500;
+ --fwtitle: 400;
+ --fwhh: 400;
+ --fwbody: 200;
+ --fwfooter: 500;
 }
 
 .preloader-wrap{
@@ -151,7 +152,7 @@ body {
 
 h2, h3, h4, h5, h6, h7 {
  font-family:var(--font2);
- font-weight:500;
+ font-weight:var(--fwhh);
  letter-spacing:-1px;
 }
 
@@ -228,7 +229,7 @@ h1 .char, .sub-title .char{
  font-size:9px;
  font-family:var(--font2);
  color:var(--soc1);
- font-weight:400;
+ font-weight:300;
  text-transform:uppercase;
  margin-bottom:7px;
  margin-left:-2.5px;
