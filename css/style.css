@@ -661,7 +661,7 @@ li.about{
  font-family: var(--font2);
  font-weight: var(--fwfooter);
  opacity: 0;
- visbility: hidden;
+ visibility: hidden;
 }
 
 .footer span {
