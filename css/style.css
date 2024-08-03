@@ -479,7 +479,7 @@ p.sub2 {
 
 .prolog{
  font-size:var(--sizebody);
- font-weight:700;
+ font-weight:400;
  color:var(--dark);
  font-family:var(--font2);
  text-transform: uppercase;
