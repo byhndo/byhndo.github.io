@@ -404,7 +404,7 @@ tl.fromTo(el,
  webkitClipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
  duration:1,
  delay: gsap.utils.random(.3, 1),
- ease: "sine.out"
+ ease: "sine.inOut"
 });
  
 tl.fromTo(image, {
