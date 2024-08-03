@@ -129,8 +129,9 @@ $('nav li a').click(function(){
 });	
 
 gsap.to("h1, h1 .char", {
- autoAlpha:1, 
- opacity:1
+ autoAlpha: 1, 
+ opacity: 1,
+ duration: dur
 }); 
 	
 gsap.set(".sub-title, .sub-title .char", {
