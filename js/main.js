@@ -40,7 +40,7 @@ landing.intro = document.querySelector(".preloader-wrap");
 landing.path = landing.intro.querySelector("path.goey");
      
 let tl = gsap.timeline({
- paused: true
+ onComplete: contentShow
 });
   tl.to('.percentage', {
     autoAlpha:0,
@@ -450,12 +450,7 @@ tl.to(footer, {
 	 
 });
 }
-
-
-tl.play();
-
 	
 }	
-
 	
 })
