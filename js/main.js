@@ -74,12 +74,6 @@ let tl = gsap.timeline({
     })
   }
     })
-
-
-function contentShow(){
-tl.play();
-}
-
 	
 }, time); 
 
@@ -456,6 +450,10 @@ tl.to(footer, {
 	 
 });
 }
+
+
+tl.play();
+
 	
 }	
 
