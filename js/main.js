@@ -74,9 +74,9 @@ var tl = gsap.timeline();
     })
 
 
-tl.progress(1).pause(0);
 
-function loadComplete() {
+tl.progress(1).pause(0);
+function contentShow() {
   tl.play();
 }
 
