@@ -10,6 +10,7 @@
  --dark: #181b1e;
  --soc1: #495057;
  --soc2: #BBBFCA; 
+ --bgloaderscreen: #C7C8CC;
  --sizebody:12px;
  --sizetitle:17vw;
  --sizenav:9px;
@@ -40,7 +41,7 @@
   display: block;
   top: -0.2rem;
   position: relative;
-  background-color: var(--semidark);
+  background-color: var(--bgloaderscreen);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -49,7 +50,7 @@
 
 .intro-screen__titel div {
   font-size: 8px;
-  color: #ccc;
+  color: var(--dark); 
 }
 
 .intro-screen__shape {
@@ -61,7 +62,7 @@
 .shape {
  height: 100vh;
  width: 100%;
- fill: var(--semidark);
+ fill: var(--bgloaderscreen);
  display: block;
 }
 
@@ -69,7 +70,7 @@
   z-index: 100;
   border: 1px solid transparent;
   text-align:center;
-  color: #ccc;
+  color: var(--dark); 
   font-size: 8px;
   line-height:30px;
 }
@@ -78,7 +79,7 @@
 .percentage{
   height: 5px;
   max-width: 200px; 
-  border: 1px solid #ccc;
+  border: 1px solid var(--dark);
   border-radius: 20px;
   font-weight: 300;
   position: absolute; 
@@ -102,7 +103,7 @@
   width: 100%;
   height: 100%;
   border-radius: 20px;
-  color: #ccc;
+  color: var(--dark); 
   text-align: center;
   line-height: 30px;
   overflow: hidden;
@@ -112,7 +113,7 @@
 .loadbar {
   width: 0%;
   height: 100%;
-  background: #ccc; 
+  background: var(--dark); 
   position: absolute;
   top: 0;
   left: 0;
