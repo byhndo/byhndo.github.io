@@ -128,18 +128,12 @@ $('nav li a').click(function(){
     $(this).addClass("active");
 });
 	
-gsap.set("h1, h1 .char", { 
- y:100,
- rotationY:100
-});
+
 gsap.to("h1, h1 .char", {
  autoAlpha:1, 
  opacity:1,
  duration:dur,
  stagger:.06,
- rotationY:0,
- y:0,
- scale:1.0,
  transformOrigin: "center center",
  ease: easing	
 }); 
