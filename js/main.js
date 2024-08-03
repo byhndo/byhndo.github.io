@@ -128,7 +128,7 @@ $('nav li a').click(function(){
     $(this).addClass("active");
 });	
 
-gsap.set("h1, h1 .char", {
+gsap.to("h1, h1 .char", {
  autoAlpha:1, 
  opacity:1
 }); 
