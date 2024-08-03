@@ -41,7 +41,7 @@ landing.path = landing.intro.querySelector("path.goey");
      
 let tl = gsap.timeline({
  onComplete: contentShow
-}, ">");
+});
   tl.to('.percentage', {
     autoAlpha:0,
     opacity:0,
@@ -133,7 +133,7 @@ gsap.to("h1, h1 .char", {
  autoAlpha: 1, 
  opacity: 1,
  duration: dur
-}); 
+}, 0); 
 	
 gsap.set(".sub-title, .sub-title .char", {
  x: () => gsap.utils.random(-200, 200), 
