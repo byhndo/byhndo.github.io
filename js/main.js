@@ -126,16 +126,11 @@ Splitting();
 $('nav li a').click(function(){
     $('li a').removeClass("active");
     $(this).addClass("active");
-});
-	
+});	
 
-gsap.to("h1, h1 .char", {
+gsap.set("h1", {
  autoAlpha:1, 
- opacity:1,
- duration:dur,
- stagger:.06,
- transformOrigin: "center center",
- ease: easing	
+ opacity:1
 }); 
 	
 gsap.set(".sub-title, .sub-title .char", {
