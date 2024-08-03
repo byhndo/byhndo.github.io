@@ -39,7 +39,7 @@ const landing = {};
 landing.intro = document.querySelector(".preloader-wrap");
 landing.path = landing.intro.querySelector("path.goey");
      
-var tl = gsap.timeline();
+let tl = gsap.timeline();
   tl.to('.percentage', {
     autoAlpha:0,
     opacity:0,
