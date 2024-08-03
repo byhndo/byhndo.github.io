@@ -482,6 +482,7 @@ p.sub2 {
  font-weight:700;
  color:var(--dark);
  font-family:var(--font2);
+ text-transform: uppercase;
 }
 
 .box3{
