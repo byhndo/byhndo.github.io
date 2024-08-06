@@ -173,10 +173,12 @@ gsap.to('.indicator', {
  onComplete: () => {
  gsap.fromTo('.indicator', {
   autoAlpha: 1,
+  filter: "blur(0)",
   y:0,
   ease: easing
  }, {
   autoAlpha: 0,
+  filter: "blur(5px)",
   y:-100,
   duration: dur,
   ease: easing,
