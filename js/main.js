@@ -452,10 +452,10 @@ tl.to(footer, {
 	
 }
 
-tl.play();
-
-	
-	
 }	
+
+
+tl.play();
+	
 	
 })
