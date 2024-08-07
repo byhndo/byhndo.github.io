@@ -143,20 +143,23 @@
   }
 
   gsap.set(".box", {
-    y: -150
+   y: -150,
+   autoAlpha: 1,
+   opacity: 1
   });
-
+  
   gsap.to(".box", {
-    autoAlpha: 1,
-    opacity: 1,
     y: 0,
     duration: 2,
     ease: "cubic.out"
   });
 
+  gsap.set(".button1", {
+   autoAlpha: 1,
+   opacity: 1
+  });
+
   gsap.to(".button1", {
-    autoAlpha: 1,
-    opacity: 1,
     delay: 1,
     duration: 2,
     ease: "cubic.out"
