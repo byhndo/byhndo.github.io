@@ -214,8 +214,8 @@ const lenis = new Lenis({
   smooth: true,
   smoothTouch: true,
   smoothWheel: true,
-  touchMultiplier: 2,
-  wheelMultiplier: 1,
+  touchMultiplier: 3,
+  wheelMultiplier: 3,
   infinite: false,
   autoResize: true
 });
