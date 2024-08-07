@@ -59,8 +59,6 @@
     }
     
     .box {
-      visibility: hidden;
-      opacity: 0;
       font-size: 50vw;
       font-family: var(--font1);
       color: var(--textloadercolor);
@@ -70,9 +68,6 @@
     }
     
     .button1 {
-      z-index: 1;
-      visibility: hidden;
-      opacity: 0;
       padding: 12px 40px 10px 40px;
       background: var(--bgloaderscreen);
       border: 2px solid rgba(60, 64, 72, 1);
@@ -98,10 +93,9 @@
 </head>
 <body>
 <main>
-  <div class="box">
-    <span>4</span><span class="red">0</span><span>4</span>
-  </div>
-
+<div class="box">
+ <span>4</span><span class="red">0</span><span>4</span>
+</div>
   <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
     <defs>
       <filter id="filter-ripple-1">
@@ -112,12 +106,9 @@
       </filter>
     </defs>
   </svg>
-
-  <a href="javascript:delay('/')" id="component1" class="button1" style="filter: url('#filter-ripple-1')">Beranda</a>
+<a href="javascript:delay('/')" id="component1" class="button1" style="filter: url('#filter-ripple-1')">Beranda</a>
 </main>
-
 <script src="js/gsap.js"></script>
-
 <script>
   var isSafari = /constructor/i.test(window.HTMLElement);
   var isFF = !!navigator.userAgent.match(/firefox/i);
@@ -141,29 +132,6 @@
     tl.play();
     });
   }
-
-  gsap.set(".box", {
-   y: -150,
-   autoAlpha: 1,
-   opacity: 1
-  });
-  
-  gsap.to(".box", {
-    y: 0,
-    duration: 2,
-    ease: "cubic.out"
-  });
-
-  gsap.set(".button1", {
-   autoAlpha: 1,
-   opacity: 1
-  });
-
-  gsap.to(".button1", {
-    delay: 1,
-    duration: 2,
-    ease: "cubic.out"
-  });
 
   function delay(URL) {
     setTimeout(function() { window.location = URL }, 2000);
