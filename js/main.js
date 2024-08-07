@@ -132,7 +132,7 @@ gsap.to("h1, h1 .char", {
  autoAlpha: 1, 
  opacity: 1,
  duration: dur
-}, "-=1"); 
+}, "-=3"); 
 	
 gsap.set(".sub-title, .sub-title .char", {
  x: () => gsap.utils.random(-200, 200), 
