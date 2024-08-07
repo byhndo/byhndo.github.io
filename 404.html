@@ -41,9 +41,9 @@
       height: 1px;
     }
     
-    a, a:hover, a:active {
+    a, a:hover, a:active, a:focus{
       text-decoration: none;
-      color: rgba(60, 64, 72, 1);
+      color: rgba(60, 64, 72, 1)!important;
     }
     
     html, body {
@@ -68,7 +68,7 @@
     }
     
     .button1 {
-      padding: 12px 40px 10px 40px;
+      padding: 10px 40px 10px 40px;
       background: var(--bgloaderscreen);
       border: 2px solid rgba(60, 64, 72, 1);
       outline: 10px solid var(--bgloaderscreen)!important;
@@ -81,7 +81,7 @@
     }
     
 .button1:hover, .button1:focus, .button1:active {
- color: inherit;    
+ color: rgba(60, 64, 72, 1);
 }
     
 @media (min-width: 500px) {
@@ -106,7 +106,7 @@
       </filter>
     </defs>
   </svg>
-<button href="javascript:delay('/')" id="component1" class="button1" style="filter: url('#filter-ripple-1')">Beranda</button>
+<a href="javascript:delay('/')" id="component1" class="button1" style="filter: url('#filter-ripple-1')">Beranda</a>
 </main>
 <script src="js/gsap.js"></script>
 <script>
