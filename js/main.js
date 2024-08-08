@@ -46,14 +46,14 @@ let tl = gsap.timeline({
     autoAlpha:0,
     duration:1,
     delay:1,
-    ease:"cubic.inOut",
+    ease:"none",
     onComplete: () => {
      percentBar.style.display = 'none';
   tl.to('#loader', {
     autoAlpha:0,
     width:0,
     duration:3,
-    ease: "expo.inOut",
+    ease: "cubic.out",
     onComplete: () => {
       loadingBar.style.display = 'none';
       tl.to(landing.intro, {
