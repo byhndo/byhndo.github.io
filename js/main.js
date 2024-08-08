@@ -48,7 +48,7 @@ let tl = gsap.timeline({
     duration:1,
     delay:1,
     scale:0,
-    ease:"none",
+    ease:"cubic.inOut",
     onComplete: () => {
      percentBar.style.display = 'none';
   tl.to('#loader', {
@@ -56,7 +56,7 @@ let tl = gsap.timeline({
     opacity:0,
     duration:1,
     scaleY:0,
-    ease: "none",
+    ease: "cubic.inOut",
     onComplete: () => {
       loadingBar.style.display = 'none';
       tl.to(landing.intro, {
