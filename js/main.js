@@ -53,6 +53,7 @@ let tl = gsap.timeline({
     autoAlpha:0,
     width:0,
     duration:1,
+    clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
     ease: "cubic.out",
     onComplete: () => {
       loadingBar.style.display = 'none';
