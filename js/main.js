@@ -55,7 +55,6 @@ let tl = gsap.timeline({
     autoAlpha:0,
     opacity:0,
     duration:1,
-    scaleY:0,
     ease: "cubic.inOut",
     onComplete: () => {
       loadingBar.style.display = 'none';
