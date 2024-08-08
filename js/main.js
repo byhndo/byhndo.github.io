@@ -44,7 +44,6 @@ let tl = gsap.timeline({
 });
   tl.to('.percentage', {
     autoAlpha:0,
-    opacity:0,
     duration:1,
     delay:1,
     ease:"cubic.inOut",
