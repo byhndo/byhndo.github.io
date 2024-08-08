@@ -52,7 +52,7 @@ let tl = gsap.timeline({
   tl.to('#loader', {
     autoAlpha:0,
     width:0,
-    duration:1,
+    duration:2,
     clipPath: "inset(0 100% 0 100%)",
     ease: "cubic.out",
     onComplete: () => {
