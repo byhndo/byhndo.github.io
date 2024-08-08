@@ -52,8 +52,8 @@ let tl = gsap.timeline({
   tl.to('#loader', {
     autoAlpha:0,
     width:0,
-    duration:1,
-    ease: "cubic.inOut",
+    duration:3,
+    ease: "elastic.inOut",
     onComplete: () => {
       loadingBar.style.display = 'none';
       tl.to(landing.intro, {
