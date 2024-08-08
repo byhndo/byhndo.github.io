@@ -47,13 +47,13 @@ let tl = gsap.timeline({
     opacity:0,
     duration:1,
     delay:1,
-    scale:0,
     ease:"cubic.inOut",
     onComplete: () => {
      percentBar.style.display = 'none';
   tl.to('#loader', {
     autoAlpha:0,
     opacity:0,
+    scaleX:0,
     duration:1,
     ease: "cubic.inOut",
     onComplete: () => {
