@@ -52,7 +52,6 @@ let tl = gsap.timeline({
      percentBar.style.display = 'none';
   tl.to('#loader', {
     autoAlpha:0,
-    opacity:0,
     scaleX:0,
     duration:1,
     ease: "cubic.inOut",
