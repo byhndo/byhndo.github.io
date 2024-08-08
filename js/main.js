@@ -51,7 +51,6 @@ let tl = gsap.timeline({
      percentBar.style.display = 'none';
   tl.to('#loader', {
     autoAlpha:0,
-    width:0,
     duration:1,
     clipPath: "inset(0 100% 0 100%)",
     ease: "cubic.out",
