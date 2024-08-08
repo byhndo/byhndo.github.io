@@ -60,12 +60,12 @@ let tl = gsap.timeline({
     onComplete: () => {
       loadingBar.style.display = 'none';
       tl.to(landing.intro, {
-       duration: 1,
+       duration: 1.5,
        ease : "none",
        y: "-200vh"
       });
       gsap.to(landing.path, {		
-       duration: 1,
+       duration: .75,
        attr: { d : landing.path.getAttribute("pathdata:id")}
       });	    
      } 
