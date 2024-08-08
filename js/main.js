@@ -41,7 +41,7 @@ landing.path = landing.intro.querySelector("path.goey");
      
 let tl = gsap.timeline({
  onComplete: contentShow
-}, 0);
+});
   tl.to('.percentage', {
     autoAlpha:0,
     opacity:0,
