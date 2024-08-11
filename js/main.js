@@ -62,7 +62,7 @@ let tl = gsap.timeline({
        y: "-200vh"
       });
       gsap.to(landing.path, {		
-       duration: .75,
+       duration: 1,
        ease: "sine.inOut",
        attr: { d : landing.path.getAttribute("pathdata:id")}
       });	    
