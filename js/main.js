@@ -53,7 +53,7 @@ let tl = gsap.timeline({
     autoAlpha:0,
     duration:1,
     clipPath: "inset(0 100% 0 100%)",
-    ease: "cubic.out",
+    ease: "quart.out",
     onComplete: () => {
       loadingBar.style.display = 'none';
       tl.to(landing.intro, {
