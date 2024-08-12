@@ -370,7 +370,7 @@ tl.to(quote, {
 	 
 const revealContainers = container.querySelectorAll(".item"); 
  revealContainers.forEach((el) => {
- const image = el.querySelectorAll("img");
+ const image = el.querySelectorAll(".c-transition");
  let tl = gsap.timeline({ 
  scrollTrigger: {
   trigger: el,
@@ -378,32 +378,12 @@ const revealContainers = container.querySelectorAll(".item");
   }, delay:.3
  });
 
-tl.set(el, {
- autoAlpha:1	
-})
-	 
-tl.fromTo(el,
-{
- clipPath: "polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%)",
- webkitClipPath: "polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%)"
-},
-{
- clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
- webkitClipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
- duration:1,
- delay: gsap.utils.random(.3, 1),
- ease: "cubic.out"
-});
- 
-tl.fromTo(image, {
- scale: 1.7
-},
-{
- duration: 1.7,
- scale: 1,
- delay:-1,
- ease: "cubic.inOut"
-});
+tl.to(el, {
+    autoAlpha:1,
+    "--x": "-98.75%",
+    ease: "steps(39)",
+    duration: 2
+  });	 
 	 	  
 });
 	
