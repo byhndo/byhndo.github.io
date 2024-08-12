@@ -355,7 +355,7 @@ a:hover, a:active{
  display: block;
  position: absolute;
  opacity: 0;
- transition: transform 1.2s ease-in-out;
+ transition: transform 1s ease-in-out;
  width: 100%;
  height: 100%;
  transform: scaleX(0) scaleY(1);
