@@ -1,7 +1,7 @@
 .c-transition {
   height: 250px;
   width: 400px;
-  margin: 5rem 0;
+  margin: 0 0;
   overflow: hidden;
   position: relative;
   --x: -1.25%;
