@@ -1,0 +1,65 @@
+.c-transition {
+  height: 250px;
+  width: 400px;
+  margin: 5rem 0;
+  overflow: hidden;
+  position: relative;
+  --x: -1.25%;
+}
+
+.c-transition::before {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/204808/ink-photo-frame.png");
+  background-size: 100% 100%;
+  background-position: 50% 50%;
+  content: "";
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.c-transition::after {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/204808/ink-transition-sprite.png");
+  background-size: 100% 100%;
+  content: "";
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  top: 0;
+  transform: translateX(var(--x));
+  width: 4000%;
+}
+
+.c-transition--portrait {
+  height: 400px;
+  width: 250px;
+}
+
+.c-transition--portrait::before {
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/204808/ink-photo-frame-portrait.png");
+}
+
+.c-transition--large {
+  height: 375px;
+  width: 600px;
+}
+
+.c-transition--center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.c-transition__img {
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+}
+
+.is-active .c-transition__img {
+  opacity: 1;
+}
+
+.c-transition--img-top .c-transition__img {
+  -o-object-position: 50% 0;
+  object-position: 50% 0;
+}
