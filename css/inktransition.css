@@ -8,7 +8,7 @@
 }
 
 .c-transition::before {
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/204808/ink-photo-frame.png");
+  background-image: url("../img/inkframe/ink3.png");
   background-size: 100% 100%;
   background-position: 50% 50%;
   content: "";
@@ -18,7 +18,7 @@
 }
 
 .c-transition::after {
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/204808/ink-transition-sprite.png");
+  background-image: url("../img/inkframe/ink2.png");
   background-size: 100% 100%;
   content: "";
   height: 100%;
@@ -35,7 +35,7 @@
 }
 
 .c-transition--portrait::before {
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/204808/ink-photo-frame-portrait.png");
+  background-image: url("../img/inkframe/ink1.png");
 }
 
 .c-transition--large {
