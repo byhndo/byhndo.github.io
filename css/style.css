@@ -315,7 +315,7 @@ a:hover, a:active{
     background:inherit;
     min-height: 100vh;
     padding: 0;
-    transition: background 0s 2s, color 1.2s;
+    transition: background 0s 1s, color .6s;
 }
 
 .bio{
