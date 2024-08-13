@@ -8,7 +8,7 @@
 }
 
 .c-transition::before {
-  background-image: url("../img/inkframe/ink3.png");
+  //background-image: url("../img/inkframe/ink3.png");
   background-size: 100% 100%;
   background-position: 50% 50%;
   content: "";
@@ -35,7 +35,7 @@
 }
 
 .c-transition--portrait::before {
-  background-image: url("../img/inkframe/ink1.png");
+  //background-image: url("../img/inkframe/ink1.png");
 }
 
 .c-transition--large {
