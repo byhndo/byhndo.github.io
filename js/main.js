@@ -90,6 +90,30 @@ $('.one').each(function(){
 $('.quote').each(function(){
   $(this).html($(this).text().replace(/\S/g, "<span>$&</span>"));
 });
+
+const lenis = new Lenis({
+  duration: 3,
+  easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+  direction: "vertical",
+  gestureDirection: "vertical",
+  lerp: 0.05,
+  smooth: true,
+  smoothTouch: true,
+  smoothWheel: true,
+  touchMultiplier: 2,
+  wheelMultiplier: 2,
+  infinite: false,
+  autoResize: true
+});
+
+lenis.on("scroll", ({ scroll, limit, velocity, direction, progress }) => {});
+
+function raf(time) {
+  lenis.raf(time);
+  requestAnimationFrame(raf);
+}
+requestAnimationFrame(raf);
+
 	
 const {
     createApp,
@@ -200,30 +224,6 @@ gsap.to('.header', {
   })
     }
  });
-
-	
-const lenis = new Lenis({
-  duration: 3,
-  easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-  direction: "vertical",
-  gestureDirection: "vertical",
-  lerp: 1,
-  smooth: true,
-  smoothTouch: true,
-  smoothWheel: true,
-  touchMultiplier: 2,
-  wheelMultiplier: 2,
-  infinite: false,
-  autoResize: true
-});
-
-lenis.on("scroll", ({ scroll, limit, velocity, direction, progress }) => {});
-
-function raf(time) {
-  lenis.raf(time);
-  requestAnimationFrame(raf);
-}
-requestAnimationFrame(raf);
 
 	
 function setupReveal(container) {
