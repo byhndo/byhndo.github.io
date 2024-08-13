@@ -355,7 +355,7 @@ a:hover, a:active{
  display: block;
  position: absolute;
  opacity: 0;
- transition: transform 1s cubic-bezier(0.770, 0.000, 0.175, 1.000);
+ transition: transform 1s cubic-bezier(0.445, 0.050, 0.550, 0.950);
  width: 100%;
  height: 100%;
  transform: scaleX(0) scaleY(1);
