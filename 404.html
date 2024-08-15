@@ -1,40 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Error 404 Page Not Found - Bayu Handono</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <meta name="title" content="Error 404 Page Not Found - Bayu Handono">
-  <meta name="description" content="Web Personal Bayu Handono">
-  <meta name="keywords" content="Bayu Handono, Web Personal">
-  <meta name="language" content="Indonesia">
-  <meta name="author" content="Bayu Handono">
-  <meta property="og:url" content="https://bayu.monster">
-  <meta property="og:site_name" content="Bayu Handono">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Bayu Handono">
-  <meta property="og:description" content="Bayu Handono">
-  <meta property="og:image" content="https://bayu.monster/img/unnamed.png">
-  <meta property="og:image:type" content="image/png">
-  <meta property="og:image:width" content="300">
-  <meta property="og:image:height" content="300">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta property="twitter:domain" content="bayu.monster">
-  <meta property="twitter:url" content="https://bayu.monster">
-  <meta name="twitter:title" content="Bayu Handono">
-  <meta name="twitter:description" content="Bayu Handono">
-  <meta name="twitter:image" content="https://bayu.monster/img/unnamed.png">
-  <meta name="twitter:site" content="@byhndo">
-  <meta name="twitter:creator" content="@byhndo">
-  <meta name="robots" content="noindex,nofollow">
-  <link rel="icon" type="image/x-icon" href="favicon.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="../css/normalize.css">
-  <link rel="stylesheet" href="../css/font.css">
-  <link rel="stylesheet" href="../css/style.css">
-  <style>
-
+<meta charset="UTF-8">
+<title>Error 404 Page Not Found - Bayu Handono</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="title" content="Error 404 Page Not Found - Bayu Handono">
+<meta name="description" content="Web Personal Bayu Handono">
+<meta name="keywords" content="Bayu Handono, Web Personal">
+<meta name="language" content="Indonesia">
+<meta name="author" content="Bayu Handono">
+<meta property="og:url" content="https://bayu.monster">
+<meta property="og:site_name" content="Bayu Handono">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Bayu Handono">
+<meta property="og:description" content="Bayu Handono">
+<meta property="og:image" content="https://bayu.monster/img/unnamed.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="300">
+<meta property="og:image:height" content="300">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:domain" content="bayu.monster">
+<meta property="twitter:url" content="https://bayu.monster">
+<meta name="twitter:title" content="Bayu Handono">
+<meta name="twitter:description" content="Bayu Handono">
+<meta name="twitter:image" content="https://bayu.monster/img/unnamed.png">
+<meta name="twitter:site" content="@byhndo">
+<meta name="twitter:creator" content="@byhndo">
+<meta name="robots" content="noindex,nofollow">
+<link rel="icon" type="image/x-icon" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="../css/normalize.css">
+<link rel="stylesheet" href="../css/font.css">
+<link rel="stylesheet" href="../css/style.css">
+<style>
+html, body {
+ background: var(--bgloaderscreen);
+ overflow: hidden;
+}  
+	  
+main {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}  
+	  
+.box {
+ font-size: 50vw;
+ font-family: var(--font1);
+ color: var(--textloadercolor);
+ text-align: center;
+ text-transform: uppercase;
+ font-weight: 400;
+}
+	
 .hidden {
 	position: absolute;
 	overflow: hidden;
@@ -84,48 +104,13 @@
 .theme-1 {
 --color-item-bg: transparent;
 --color-action: #121019;
---color-button-bg: var(--textloaderscreen);
+--color-button-bg: var(--textloadercolor);
 --color-button-text: #fff;
 --button-padding: 1.5rem 3rem;
 --radius-button: 5px;
 --border-button: 0;
 }
-	
-.grid__item {
- height: 50vmax;
- width: 100%;
- padding: 1.5rem;
-}
-}
-	  
-.svg-filters {
- position: absolute;
- visibility: hidden;
- width: 1px;
- height: 1px;
-}
-    
-html, body {
- background: var(--bgloaderscreen);
- overflow: hidden;
-}  
-	  
-main {
- display: flex;
- justify-content: center;
- align-items: center;
- flex-direction: column;
-}  
-	  
-.box {
- font-size: 50vw;
- font-family: var(--font1);
- color: var(--textloadercolor);
- text-align: center;
- text-transform: uppercase;
- font-weight: 400;
-}
-        
+	        
 .particles {
  position: relative;
  grid-area: 1 / 1 / 2 / 2;
@@ -179,6 +164,13 @@ main {
  display: grid;
  grid-gap: 22px;
  grid-template-columns: repeat(2,calc(50vmax - 11px));
+}
+
+.grid__item {
+ height: 50vmax;
+ width: 100%;
+ padding: 1.5rem;
+}
 }
 		
 @media (min-width: 500px) {
