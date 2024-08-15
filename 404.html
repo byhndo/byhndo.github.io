@@ -46,12 +46,17 @@ a:hover, a:active{
  opacity:1!important;
 }
 	
-main {
+/*main {
  display: flex;
  justify-content: center;
  align-items: center;
  flex-direction: column;
-}  
+} */
+
+main {
+ position: relative;
+ margin: 0 auto;
+}
 	  
 .box {
  font-size: 50vw;
@@ -113,8 +118,8 @@ main {
 --color-action: #121019;
 --color-button-bg: var(--textloadercolor);
 --color-button-text: #fff;
---button-padding: 1.5rem 3rem;
---radius-button: 5px;
+--button-padding: 1.1rem 3rem;
+--radius-button: 50%;
 --border-button: 0;
 }
 	        
@@ -351,7 +356,7 @@ main {
 })();	
 			
 function delay(URL) {
- setTimeout(function() { window.location = URL }, 2000);
+ setTimeout(function() { window.location = URL }, 2500);
 }
 </script>
 </body>
