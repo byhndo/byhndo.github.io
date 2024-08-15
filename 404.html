@@ -84,18 +84,11 @@
 .theme-1 {
 --color-item-bg: transparent;
 --color-action: #121019;
---color-button-bg: #121019;
+--color-button-bg: var(--textloaderscreen);
 --color-button-text: #fff;
 --button-padding: 1.5rem 3rem;
 --radius-button: 5px;
 --border-button: 0;
-}
-
-@media screen and (min-width: 50em) {
-.grid {
- display: grid;
- grid-gap: 22px;
- grid-template-columns: repeat(2,calc(50vmax - 11px));
 }
 	
 .grid__item {
@@ -112,19 +105,18 @@
  height: 1px;
 }
     
-a, a:hover, a:active, a:focus{
- text-decoration: none;
-}    
 html, body {
  background: var(--bgloaderscreen);
  overflow: hidden;
-}    
+}  
+	  
 main {
  display: flex;
  justify-content: center;
  align-items: center;
  flex-direction: column;
-}    
+}  
+	  
 .box {
  font-size: 50vw;
  font-family: var(--font1);
@@ -181,13 +173,20 @@ main {
 .no-js .particles-button {
 	grid-area: 1 / 1 / 2 / 2;
 }
-    
+
+@media screen and (min-width: 50em) {
+.grid {
+ display: grid;
+ grid-gap: 22px;
+ grid-template-columns: repeat(2,calc(50vmax - 11px));
+}
+		
 @media (min-width: 500px) {
-  main {
-   max-width: 100%;
-   }
-  }
-  </style>
+main {
+ max-width: 100%;
+}
+}
+</style>
 </head>
 <body>
 <main>
