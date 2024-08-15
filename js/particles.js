@@ -20,7 +20,7 @@
             canvasPadding: 150,
             duration: 1000,
             easing: 'easeInOutCubic',
-            direction: 'left',
+            direction: 'bottom',
             size: function() { return Math.floor((Math.random() * 3) + 1); },
             speed: function() { return rand(4); },
             particlesAmountCoefficient: 3,
