@@ -46,17 +46,12 @@ a:hover, a:active{
  opacity:1!important;
 }
 	
-/*main {
+main {
  display: flex;
  justify-content: center;
  align-items: center;
  flex-direction: column;
-} */
-
-main {
- position: relative;
- margin: 0 auto;
-}
+} 
 	  
 .box {
  font-size: 50vw;
@@ -68,32 +63,25 @@ main {
 }
 	
 .hidden {
-	position: absolute;
-	overflow: hidden;
-	width: 0;
-	height: 0;
-	pointer-events: none;
+ position: absolute;
+ overflow: hidden;
+ width: 0;
+ height: 0;
+ pointer-events: none;
 }
 
 .grid__item {
-	position: relative;
-	display: grid;
-	grid-template-columns: 100%;
-	grid-template-rows: 100%;
-	align-items: center;
-	justify-items: center;
-	overflow: hidden;
-	padding: 4rem 1.5rem;
-	height: 100vw;
-	width: 100vw;
-	background: var(--color-item-bg);
-}
-
-.grid__item-title {
-	font-size: 0.85rem;
-	color: var(--color-item-title);
-	align-self: flex-start;
-	margin: 0;
+ position: relative;
+ display: grid;
+ grid-template-columns: 100%;
+ grid-template-rows: 100%;
+ align-items: center;
+ justify-items: center;
+ overflow: hidden;
+ padding: 4rem 1.5rem;
+ height: 100vw;
+ width: 100vw;
+ background: var(--color-item-bg);
 }
 
 .action {
@@ -119,7 +107,7 @@ main {
 --color-button-bg: var(--textloadercolor);
 --color-button-text: #fff;
 --button-padding: 1.1rem 3rem;
---radius-button: 15px;
+--radius-button: 40px;
 --border-button: 0;
 }
 	        
@@ -137,10 +125,10 @@ main {
 }
 
 .particles-wrapper {
-	position: relative;
-	display: inline-block;
-	overflow: hidden;
-	will-change: transform;
+ position: relative;
+ display: inline-block;
+ overflow: hidden;
+ will-change: transform;
 }
 
 .particles-button {
