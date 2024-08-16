@@ -17,7 +17,7 @@
         defaults: {
             type: 'circle',
             style: 'fill',
-            canvasPadding: 150,
+            canvasPadding: 200,
             duration: 1000,
             easing: 'easeInOutCubic',
             direction: 'top',
