@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Error 404 Page Not Found - Bayu Handono</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="title" content="Error 404 Page Not Found - Bayu Handono">
+<meta name="description" content="Web Personal Bayu Handono">
+<meta name="keywords" content="Bayu Handono, Web Personal">
+<meta name="language" content="Indonesia">
+<meta name="author" content="Bayu Handono">
+<meta property="og:url" content="https://bayu.monster">
+<meta property="og:site_name" content="Bayu Handono">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Bayu Handono">
+<meta property="og:description" content="Bayu Handono">
+<meta property="og:image" content="https://bayu.monster/img/unnamed.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="300">
+<meta property="og:image:height" content="300">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:domain" content="bayu.monster">
+<meta property="twitter:url" content="https://bayu.monster">
+<meta name="twitter:title" content="Bayu Handono">
+<meta name="twitter:description" content="Bayu Handono">
+<meta name="twitter:image" content="https://bayu.monster/img/unnamed.png">
+<meta name="twitter:site" content="@byhndo">
+<meta name="twitter:creator" content="@byhndo">
+<meta name="robots" content="noindex,nofollow">
+<link rel="icon" type="image/x-icon" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="../css/normalize.css">
+<link rel="stylesheet" href="../css/font.css">
+<link rel="stylesheet" href="../css/style.css">
+<style>
+html, body {
+ background: var(--bgloaderscreen);
+ overflow: hidden;
+ font-family: var(--font2);
+ font-size:12px;
+}
+
+a {
+ color: inherit;
+}
+a:hover, a:active{
+ opacity:1!important;
+}
+	
+main {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+} 
+	  
+.box {
+ font-size: 50vw;
+ font-family: var(--font1);
+ color: var(--textloadercolor);
+ text-align: center;
+ text-transform: uppercase;
+ font-weight: 400;
+ user-select: none;
+}
+	
+.hidden {
+ position: absolute;
+ overflow: hidden;
+ width: 0;
+ height: 0;
+ pointer-events: none;
+}
+
+.grid__item {
+ position: relative;
+ display: grid;
+ grid-template-columns: 100%;
+ grid-template-rows: 100%;
+ align-items: center;
+ justify-items: center;
+ overflow: hidden;
+ padding: 4rem 1.5rem;
+ height: 100vw;
+ width: 100vw;
+ background: var(--color-item-bg);
+}
+
+.action {
+ position: absolute;
+ top: 0;
+ right: 0;
+ background: none;
+ margin: 2rem;
+ color: var(--color-action);
+ border: 0;
+ padding: 0;
+ opacity: 0;
+ pointer-events: none;
+}
+
+.action:focus {
+ outline: none;
+}
+
+.theme-1 {
+--color-item-bg: transparent;
+--color-action: var(--textloadercolor);
+--color-button-bg: var(--textloadercolor);
+--color-button-text: #fff;
+--button-padding: 1.3rem 3.5rem;
+--radius-button: 40px;
+--border-button: 0;
+}
+	        
+.particles {
+ position: relative;
+ grid-area: 1 / 1 / 2 / 2;
+}
+
+.particles-canvas {
+ position: absolute;
+ pointer-events: none;
+ top: 50%;
+ left: 50%;
+ transform: translate3d(-50%,-50%,0);
+}
+
+.particles-wrapper {
+ position: relative;
+ display: inline-block;
+ overflow: hidden;
+ will-change: transform;
+}
+
+.particles-button {
+ user-select: none;
+ position: relative;
+ border-radius: 5px;
+ border-radius: var(--radius-button);
+ background: var(--color-button-bg);
+ color: var(--color-button-text);
+ border: 0;
+ border: var(--border-button);
+ margin: 0;
+ padding: 1.5rem 3rem;
+ padding: var(--button-padding);
+ will-change: transform;
+}
+
+.particles-button:focus {
+ outline: none;
+}
+
+.no-js .particles-button {
+ grid-area: 1 / 1 / 2 / 2;
+}
+
+@media screen and (min-width: 50em) {
+.grid {
+ display: grid;
+ grid-gap: 22px;
+ grid-template-columns: repeat(2,calc(50vmax - 11px));
+}
+
+.grid__item {
+ height: 50vmax;
+ width: 100%;
+ padding: 1.5rem;
+}
+}
+		
+@media (min-width: 500px) {
+main {
+ max-width: 100%;
+}
+}
+</style>
+</head>
+<body>
+<main>	
+<div class="grid__item theme-1">
+<div class="box">
+ <span>4</span><span class="red">0</span><span>4</span>
+</div>	
+<button class="action"><svg class="icon icon--rewind"><use xlink:href="#icon-rewind"></use></svg></button>
+<a href="javascript:delay('/')"><button class="particles-button">Home</button></a>
+</div>
+	
+</main>
+<script src='js/anime.min.js'></script>
+<script src='js/particles.js'></script>
+<script>
+(function() {
+
+    const arrOpts = [
+        {},
+        {
+            type: 'triangle',
+            easing: 'easeOutQuart',
+            size: 6,
+            particlesAmountCoefficient: 4,
+            oscillationCoefficient: 2,
+            color: function() {
+                return Math.random() < 0.5 ? '#000000' : '#ffffff'; 
+            }
+        },
+        {
+            type: 'rectangle',
+            duration: 500,
+            easing: 'easeOutQuad',
+            color: '#091388',
+            direction: 'top',
+            size: 8
+        },
+        {
+            direction: 'right',
+            size: 4,
+            speed: 1,
+            color: '#e85577',
+            particlesAmountCoefficient: 1.5,
+            oscillationCoefficient: 1
+        },
+        {
+            duration: 1300,
+            easing: 'easeInExpo',
+            size: 3,
+            speed: 1,
+            particlesAmountCoefficient: 10,
+            oscillationCoefficient: 1
+        },
+        {
+            direction: 'bottom',
+            duration: 1000,
+            easing: 'easeInExpo',
+        },
+        {
+            type: 'rectangle',
+            style: 'stroke',
+            size: 15,
+            color: '#e87084',
+            duration: 600,
+            easing: [0.2,1,0.7,1],
+            oscillationCoefficient: 5,
+            particlesAmountCoefficient: 2,
+            direction: 'right'
+        },
+        {
+            type: 'triangle',
+            style: 'stroke',
+            direction: 'top',
+            size: 5,
+            color: 'blue',
+            duration: 1400,
+            speed: 1.5,
+            oscillationCoefficient: 15,
+            direction: 'right'
+        },
+        {
+            duration: 500,
+            easing: 'easeOutQuad',
+            speed: .1,
+            particlesAmountCoefficient: 10,
+            oscillationCoefficient: 80
+        },
+        {
+            direction: 'right',
+            size: 4,
+            color: '#969696',
+            duration: 1200,
+            easing: 'easeInCubic',
+            particlesAmountCoefficient: 8,
+            speed: 0.4,
+            oscillationCoefficient: 1
+        },
+        {
+            style: 'stroke',
+            color: '#1b81ea',
+            direction: 'bottom',
+            duration: 1200,
+            easing: 'easeOutSine',
+            speed: .7,
+            oscillationCoefficient: 5
+        },
+        {
+            type: 'triangle',
+            easing: 'easeOutSine',
+            size: 3,
+            duration: 800,
+            particlesAmountCoefficient: 7,
+            speed: 3,
+            oscillationCoefficient: 1
+        }
+    ];
+    
+    const items = document.querySelectorAll('.grid__item');
+    items.forEach((el, pos) => {
+        const bttn = el.querySelector('button.particles-button');
+        const bttnBack = el.querySelector('button.action');
+        
+        let particlesOpts = arrOpts[pos];
+        particlesOpts.complete = () => {
+            if ( !buttonVisible ) {
+                anime.remove(bttnBack);
+                anime({
+                    targets: bttnBack,
+                    duration: 300,
+                    easing: 'easeOutQuint',
+                    opacity: 1,
+                    scale: [0,1]
+                });
+                bttnBack.style.pointerEvents = 'auto';
+            }
+        };
+        const particles = new Particles(bttn, particlesOpts);
+        
+        let buttonVisible = true;
+        bttn.addEventListener('click', () => {
+            if ( !particles.isAnimating() && buttonVisible ) {
+                particles.disintegrate();
+                buttonVisible = !buttonVisible;
+            }
+        });
+        bttnBack.addEventListener('click', () => {
+            if ( !particles.isAnimating() && !buttonVisible ) {
+                anime.remove(bttnBack);
+                anime({
+                    targets: bttnBack,
+                    duration: 300,
+                    easing: 'easeOutQuint',
+                    opacity: 0,
+                    scale: 0
+                });
+                bttnBack.style.pointerEvents = 'none';
+
+                particles.integrate({
+                    duration: 800,
+                    easing: 'easeOutSine'
+                });
+                buttonVisible = !buttonVisible;
+            }
+        });
+    });
+
+})();	
+			
+function delay(URL) {
+ setTimeout(function() { window.location = URL }, 2500);
+}
+</script>
+</body>
+</html>
