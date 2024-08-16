@@ -43,16 +43,19 @@ html, body {
 a {
  color: inherit;
 }
+	
 a:hover, a:active{
  opacity:1!important;
 }
+	
 .main{
  height:100vh;
  display:flex;
  justify-content:center;
  align-items:center;
  flex-direction: column;
-}  
+} 
+	
 .box {
  position:relative;
  font-size: 50vw;
@@ -70,23 +73,6 @@ a:hover, a:active{
  width: 0;
  height: 0;
  pointer-events: none;
-}
-
-.action {
- position: absolute;
- top: 0;
- right: 0;
- background: none;
- margin: 2rem;
- color: var(--color-action);
- border: 0;
- padding: 0;
- opacity: 0;
- pointer-events: none;
-}
-
-.action:focus {
- outline: none;
 }
 
 .theme-1 {
@@ -143,19 +129,6 @@ padding-bottom:14rem;
  grid-area: 1 / 1 / 2 / 2;
 }
 
-@media screen and (min-width: 50em) {
-.grid {
- display: grid;
- grid-gap: 22px;
- grid-template-columns: repeat(2,calc(50vmax - 11px));
-}
-
-.grid__item {
- height: 50vmax;
- width: 100%;
- padding: 1.5rem;
-}
-}
 		
 @media (min-width: 500px) {
 .box {
