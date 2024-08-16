@@ -325,11 +325,12 @@ main {
         bttnBack.addEventListener('click', () => {
             if ( !particles.isAnimating() && !buttonVisible ) {
                 anime.remove(bttnBack);
-                gsap.to(bttnBack, {       
-                    duration: 3,
-                    ease: 'quint.inOut',
+                anime({  
+		    targets: bttnBack,
+                    duration: 300,
+                    easing: 'easeOutQuint',
                     opacity: 0,
-                    scaleY: 0
+                    scale: 0
                 });
                 bttnBack.style.pointerEvents = 'none';
 
