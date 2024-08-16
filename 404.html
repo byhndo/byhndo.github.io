@@ -52,7 +52,6 @@ main {
  justify-content: center;
  align-items: center;
  flex-direction: column;
- position:relative;
 } 
 	  
 .box {
@@ -81,7 +80,7 @@ main {
  align-items: center;
  justify-items: center;
  overflow: hidden;
- padding: 10rem 1.5rem;
+ padding: 4rem 1.5rem;
  height: 100vw;
  width: 100vw;
  background: var(--color-item-bg);
@@ -180,13 +179,14 @@ main {
 </head>
 <body>
 <main>	
+<div class="grid">
 <div class="grid__item theme-1">
 <div class="box">
  <span>4</span><span class="red">0</span><span>4</span>
 </div>	
 <a href="javascript:delay('/')"><button class="particles-button">Home</button></a>
 </div>
-	
+</div>	
 </main>
 <script src='js/anime.min.js'></script>
 <script src='js/particles.js'></script>
