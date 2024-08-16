@@ -46,7 +46,7 @@ a {
 a:hover, a:active{
  opacity:1!important;
 }
-main{
+.main{
  display:flex;
  justify-content:center;
  align-items:center;
@@ -181,7 +181,7 @@ padding-bottom:14rem;
 </head>
 <body>
 <main>	
-<div class="grid__item theme-1">
+<div class="main theme-1">
 <div class="box">
  <span>4</span><span class="red">0</span><span>4</span>
 </div>	
@@ -293,7 +293,7 @@ padding-bottom:14rem;
         }
     ];
     
-    const items = document.querySelectorAll('.grid__item');
+    const items = document.querySelectorAll('.main');
     items.forEach((el, pos) => {
         const bttn = el.querySelector('button.particles-button');
         const bttnBack = el.querySelector('button.action');
