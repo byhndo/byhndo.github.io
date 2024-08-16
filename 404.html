@@ -50,6 +50,7 @@ a:hover, a:active{
  display:flex;
  justify-content:center;
  align-items:center;
+ flex-direction: column;
 }  
 .box {
  position:relative;
@@ -68,20 +69,6 @@ a:hover, a:active{
  width: 0;
  height: 0;
  pointer-events: none;
-}
-
-.grid__item {
- position: relative;
- display: grid;
- grid-template-columns: 100%;
- grid-template-rows: 100%;
- align-items: center;
- justify-items: center;
- overflow:hidden;
- padding: 4rem 1.5rem ;
- height: 100vw;
- width: 100vw;
- background: var(--color-item-bg);
 }
 
 .action {
