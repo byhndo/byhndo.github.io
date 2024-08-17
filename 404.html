@@ -204,7 +204,7 @@ padding-bottom:14rem;
                 buttonVisible = !buttonVisible;
             }
         });
-        bttnBack.addEventListener('click', () => {
+        window.addEventListener('pageshow', () => {
             if ( !particles.isAnimating() && !buttonVisible ) {
                 anime.remove(bttnBack);
                 anime({
