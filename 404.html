@@ -198,16 +198,6 @@ padding-bottom:14rem;
         const particles = new Particles(bttn, particlesOpts);
         
         let buttonVisible = true;
-
-	window.addEventListener("load", () => {
-      anime({
-        targets: bttn,
-        duration: 300,
-        easing: "easeOutQuint",
-        scale: 1
-      });
-      particles.integrate();
-    });
 	    
         bttn.addEventListener('click', () => {
             if ( !particles.isAnimating() && buttonVisible ) {
