@@ -164,7 +164,7 @@ padding-bottom:14rem;
         let particlesOpts = arrOpts[pos];
         particlesOpts.complete = () => {
             if ( !buttonVisible ) {
-                //anime.remove(bttnBack);
+                anime.remove(bttnBack);
                 anime({
                     targets: bttnBack,
                     duration: 300,
@@ -178,6 +178,7 @@ padding-bottom:14rem;
         const particles = new Particles(bttn, particlesOpts);
         
         let buttonVisible = true;
+	    
         bttn.addEventListener('click', () => {
             if ( !particles.isAnimating() && buttonVisible ) {
                 particles.disintegrate();
@@ -186,7 +187,7 @@ padding-bottom:14rem;
         });
         window.addEventListener('pageshow', () => {
             if ( !particles.isAnimating() && !buttonVisible ) {
-                //anime.remove(bttnBack);
+                anime.remove(bttnBack);
                 anime({
                     targets: bttnBack,
                     duration: 300,
