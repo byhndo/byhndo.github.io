@@ -78,7 +78,9 @@ a:hover, a:active{
 .action {
  position: absolute;
  top: 0;
+ left:0;
  right: 0;
+ bottom:0;
  background: none;
  margin: 2rem;
  color: var(--color-action);
@@ -202,7 +204,7 @@ padding-bottom:14rem;
                 buttonVisible = !buttonVisible;
             }
         });
-        bttn.addEventListener('load', () => {
+        bttnBack.addEventListener('click', () => {
             if ( !particles.isAnimating() && !buttonVisible ) {
                 anime.remove(bttnBack);
                 anime({
