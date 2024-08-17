@@ -164,7 +164,7 @@ padding-bottom:14rem;
         let particlesOpts = arrOpts[pos];
         particlesOpts.complete = () => {
             if ( !buttonVisible ) {
-                anime.remove(bttnBack);
+                //anime.remove(bttnBack);
                 anime({
                     targets: bttnBack,
                     duration: 300,
@@ -186,7 +186,7 @@ padding-bottom:14rem;
         });
         window.addEventListener('pageshow', () => {
             if ( !particles.isAnimating() && !buttonVisible ) {
-                anime.remove(bttnBack);
+                //anime.remove(bttnBack);
                 anime({
                     targets: bttnBack,
                     duration: 300,
