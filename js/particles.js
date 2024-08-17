@@ -17,10 +17,10 @@
         defaults: {
             type: 'circle',
             style: 'fill',
-            canvasPadding: 200,
+            canvasPadding: 150,
             duration: 1000,
             easing: 'easeInOutCubic',
-            direction: 'top',
+            direction: 'left',
             size: function() { return Math.floor((Math.random() * 3) + 1); },
             speed: function() { return rand(4); },
             particlesAmountCoefficient: 3,
