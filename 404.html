@@ -75,25 +75,6 @@ a:hover, a:active{
  pointer-events: none;
 }
 
-.action {
- position: absolute;
- top: 0;
- left:0;
- right: 0;
- bottom:0;
- background: none;
- margin: 2rem;
- color: var(--color-action);
- border: 0;
- padding: 0;
- opacity: 0;
- pointer-events: none;
-}
-
-.action:focus {
- outline: none;
-}
-
 .theme-1 {
 --color-item-bg: transparent;
 --color-action: var(--textloadercolor);
@@ -160,7 +141,6 @@ padding-bottom:14rem;
 <div class="box">
  <span>4</span><span class="red">0</span><span>4</span>
 </div>	
-<button class="action"><svg class="icon icon--rewind"><use xlink:href="#icon-rewind"></use></svg></button>
 <a href="javascript:delay('/')"><button class="particles-button">Home</button></a>
 </div>	
 <script src='js/anime.min.js'></script>
