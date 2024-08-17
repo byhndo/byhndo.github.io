@@ -138,6 +138,8 @@ padding-bottom:14rem;
  padding: 1.5rem 3rem;
  padding: var(--button-padding);
  will-change: transform;
+ opacity:0;
+ scaleY:0
 }
 
 .particles-button:focus {
@@ -197,7 +199,24 @@ padding-bottom:14rem;
         };
         const particles = new Particles(bttn, particlesOpts);
         
-        let buttonVisible = true;
+        let buttonVisible = false;
+
+	window.addEventListener("load", () => {
+      if (!particles.isAnimating() && !buttonVisible) {
+      anime({
+        targets: bttn,
+        duration: 300,
+        easing: "easeOutQuint",
+        opacity:1,
+        scaleX:[0,0]
+      });
+      particles.integrate();
+        buttonVisible = !buttonVisible;
+        }
+     
+    });
+
+	
 	    
         bttn.addEventListener('click', () => {
             if ( !particles.isAnimating() && buttonVisible ) {
