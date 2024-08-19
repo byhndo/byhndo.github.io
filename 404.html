@@ -164,81 +164,53 @@ padding-bottom:14rem;
 <button class="action"><svg class="icon icon--rewind"><use xlink:href="#icon-rewind"></use></svg></button>					
 <a href="javascript:delay('/')"><button class="particles-button">Home</button></a>
 </div>	
+<script src='js/gsap.min.js'></script>
 <script src='js/anime.min.js'></script>
 <script src='js/particles.js'></script>
 <script>
-(function() {
-	
-    const arrOpts = [                                       
-        {
-        direction: 'bottom',
-        duration: 1000,
-        easing: 'easeInExpo'
-	}
-    ];
-    
-    const items = document.querySelectorAll('.main');
-    items.forEach((el, pos) => {
-        const bttn = el.querySelector('button.particles-button');
-        const bttnBack = el.querySelector('button.action');
-        
-        let particlesOpts = arrOpts[pos];
-        particlesOpts.complete = () => {
-            if ( !buttonVisible ) {
-                anime.remove(bttnBack);
-                anime({
-                    targets: bttnBack,
-                    duration: 300,
-                    easing: 'easeOutQuint',
-                    opacity: 1,
-                    scale: [0,1]
-                });
-                bttnBack.style.pointerEvents = 'auto';
-            }
-        };
-        const particles = new Particles(bttn, particlesOpts);
-        
-        let buttonVisible = false;
+(function () {
+  const arrOpts = [
+    {
+      direction: "bottom",
+      duration: 1000,
+      easing: "easeInExpo"
+    }
+  ];
 
-		  window.addEventListener("load", () => {
-      if (!buttonVisible) {
-        anime({
-          targets: bttn,    
-          duration: 1100,       
-          complete: function () {
-                    bttn.style.opacity= "1";
-                }      
-        });
-        particles.integrate();
-        buttonVisible = !buttonVisible;
-      }
-    });
-	    
-        bttn.addEventListener('click', () => {
-            if ( !particles.isAnimating() && buttonVisible ) {
+  const items = document.querySelectorAll(".grid__item");
+
+  items.forEach((el, pos) => {
+    let bttn = el.querySelector("button.particles-button");
+
+    if (!bttn) return;
+
+    let particlesOpts = arrOpts[pos];
+    const particles = new Particles(bttn, particlesOpts);
+
+    window.addEventListener("pageshow", () => {
+      let tl = gsap.timeline();
+      tl.to(bttn, {
+        autoAlpha: 0,
+        onComplete: () => {
+          bttn.style.opacity = "1";
+          tl.to(bttn, {
+            duration: 1,
+            onComplete: () => {
+              bttn.style.visibility = "visible";
+              bttn.addEventListener("click", () => {
                 particles.disintegrate();
-                buttonVisible = !buttonVisible;
+              });
             }
-        });
-        window.addEventListener('pageshow', () => {
-            if ( !particles.isAnimating() && !buttonVisible ) {
-                anime.remove(bttnBack);
-                anime({
-                    targets: bttnBack,
-                    duration: 300,
-                    easing: 'easeOutQuint',
-                    opacity: 0,
-                    scale: 0
-                });
-                bttnBack.style.pointerEvents = 'none';
-
-                particles.integrate();
-                buttonVisible = !buttonVisible;
-            }
-        });
+          });
+          particles.integrate({
+            duration: 800,
+            easing: "easeOutSine"
+          });
+        }
+      });
     });
-
-})();	
+  });
+})();
 			
 function delay(URL) {
  setTimeout(function() { window.location = URL }, 2500);
