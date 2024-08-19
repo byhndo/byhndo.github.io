@@ -184,7 +184,7 @@ padding-bottom:14rem;
 
     if (!bttn) return;
 
-    let particlesOpts = arrOpts[pos] || arrOpts[0];
+    let particlesOpts = arrOpts[pos];
     const particles = new Particles(bttn, particlesOpts);
     
       let tl = gsap.timeline();
