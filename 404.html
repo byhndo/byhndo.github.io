@@ -188,6 +188,7 @@ padding-bottom:14rem;
     const particles = new Particles(bttn, particlesOpts);
     
       let tl = gsap.timeline();
+window.addEventListener('pageshow', ()=>{
       tl.to(bttn, {
         autoAlpha: 0,
         onComplete: () => {
@@ -207,7 +208,8 @@ padding-bottom:14rem;
           });
       }
     });
-  }); 
+  });
+})
 })(); 
 		
 function delay(URL) {
