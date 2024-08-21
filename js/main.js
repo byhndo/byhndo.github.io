@@ -415,7 +415,7 @@ const revealSc = container.querySelectorAll(".item-soc");
     let tl = gsap.timeline({
       scrollTrigger: {
         trigger: sc,
-        toggleActions: once
+        toggleActions: "play none none restart"
       }
     });
 	  
