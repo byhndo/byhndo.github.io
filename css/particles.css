@@ -1,5 +1,5 @@
 .particles {
- position: relative;
+ position: absolute;
  grid-area: 1 / 1 / 2 / 2;
 }
 
