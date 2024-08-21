@@ -193,7 +193,7 @@ window.addEventListener('pageshow', ()=>{
         autoAlpha: 0,
         onComplete: () => {
           bttn.style.opacity = "1";
-          tl.to(bttn, {
+          gsap.to(bttn, {
             duration: .9,
             onComplete: () => {
               bttn.style.visibility = "visible";
