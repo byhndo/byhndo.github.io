@@ -552,11 +552,16 @@ img {
 }
 
 .sc {	
- display: flex; 
+ /*display: flex; 
  flex-direction: row;
  align-items:center;
  justify-content:center;
- align-content:center;
+ align-content:center;*/
+ position:relative;
+ display: grid;
+ grid-gap: 2px;
+ grid-template-columns: 50% 50%;
+ grid-auto-rows: 1fr;
  margin-top:60px;
 }
 
@@ -596,6 +601,7 @@ img {
  text-align:center;
  visibility:hidden;
 }
+
 .one span{
  display: inline-block;
  opacity:0;
