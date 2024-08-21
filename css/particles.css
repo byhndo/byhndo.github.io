@@ -13,8 +13,11 @@
 
 .particles-wrapper {
  position: relative;
- display: inline-block;
- will-change: transform;
+	display: inline-block;
+	overflow: hidden;
+	will-change: transform;
+ width: 50%;
+ height: auto;
 }
 
 .particles-button {
