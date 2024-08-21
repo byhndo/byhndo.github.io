@@ -418,8 +418,7 @@ const revealSc = container.querySelectorAll(".item-soc");
         toggleActions: once
       }
     });
-
-    particles.integrate();
+    
     tl.to(bttn, {
       autoAlpha: 0,
       onComplete: () => {
@@ -438,7 +437,7 @@ const revealSc = container.querySelectorAll(".item-soc");
           easing: "easeOutSine"
         });
       }
-    }, 0);
+    }, pos);
 	  
   });
 })();
