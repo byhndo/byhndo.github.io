@@ -406,7 +406,9 @@ const revealSc = container.querySelectorAll(".item-soc");
 
   revealSc.forEach((sc, pos) => {
     let bttn = sc.querySelector("button.particles-button");
-
+    let particlesOpts = arrOpts[pos];
+    let particles = new Particles(bttn, particlesOpts);
+   
     if (!bttn) return;
     
     let tl = gsap.timeline({
@@ -416,9 +418,6 @@ const revealSc = container.querySelectorAll(".item-soc");
       }
     });
 	  
-   let particlesOpts = arrOpts[pos];
-   let particles = new Particles(bttn, particlesOpts);
-   
    tl.to(bttn, {
       autoAlpha: 0,
       onComplete: () => {
