@@ -423,7 +423,7 @@ const revealSc = container.querySelectorAll(".item-soc");
       autoAlpha: 0,
       onComplete: () => {
         bttn.style.opacity = "1";
-        gsap.to(bttn, {
+        tl.to(bttn, {
           duration: 1,
           onComplete: () => {
             bttn.style.visibility = "visible";
