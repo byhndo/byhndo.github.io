@@ -566,7 +566,7 @@ img {
  --color-action: #121019;
  --color-button-bg: #121019;
  --color-button-text: #fff;
- --button-padding: 1.5rem 3rem;
+ --button-padding: .7rem 1rem;
  --radius-button: 50%;
  --border-button: 0;
 }
