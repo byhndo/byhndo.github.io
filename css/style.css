@@ -568,6 +568,10 @@ img {
  --border-button: 0;
 }
 
+.particles{
+ z-index:100000
+}
+
 .particles-button {
  border-radius: var(--radius-button);
  background: var(--color-button-bg);
