@@ -224,7 +224,11 @@ function raf(time) {
   requestAnimationFrame(raf);
 }
 requestAnimationFrame(raf);
-	   
+
+function delay(URL) {
+ setTimeout(function() { window.location = URL }, 2500);
+}
+	
 	
 function setupReveal(container) {
 	
@@ -387,24 +391,60 @@ tl.to(el, {
 	 	  
 });
 	
-const RevealSc = container.querySelectorAll(".sc");
-   RevealSc.forEach((sc, sos) => {                
-    const pl = sc.querySelectorAll(".pl");
-    let tl = gsap.timeline({
-    scrollTrigger: {
-     trigger:sc,
-     toggleActions: once
-    }, delay:.3
-    }); 
+(function () {
+  const arrOpts = [
+    {
+      direction: "bottom",
+      duration: 1000,
+      easing: "easeInExpo"
+    },   
 
-tl.to(pl, {
- autoAlpha:1,
- opacity:1,
- duration:dur,     
- ease:easing
-}, sos * .2);
-	   
-}, ">");
+    {
+
+      direction: "bottom",
+      duration: 1000,
+      easing: "easeInExpo"
+    }
+  ];
+
+const revealSc = container.querySelectorAll(".sc");
+
+  revealSc.forEach((sc, pos) => {
+    let bttn = sc.querySelector("button.particles-button");
+
+    if (!bttn) return;
+
+    let particlesOpts = arrOpts[pos];
+    const particles = new Particles(bttn, particlesOpts);
+
+    let tl = gsap.timeline({
+      scrollTrigger: {
+        trigger: sc,
+        toggleActions: once
+      }
+    });
+
+    tl.to(bttn, {
+      autoAlpha: 0,
+      onComplete: () => {
+        bttn.style.opacity = "1";
+        gsap.to(bttn, {
+          duration: 1,
+          onComplete: () => {
+            bttn.style.visibility = "visible";
+            bttn.addEventListener("click", () => {
+              particles.disintegrate();
+            });
+          }
+        });
+        particles.integrate({
+          duration: 800,
+          easing: "easeOutSine"
+        });
+      }
+    });
+  });
+})();
 	 
 const RevealBoxs4 = container.querySelectorAll(".box4");
  RevealBoxs4.forEach((box4, foot) => {
