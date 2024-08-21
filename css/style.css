@@ -552,7 +552,7 @@ img {
 }
 
 .sc {	
- display: inline-flex; 
+ display: flex; 
  flex-direction: row;
  align-items:center;
  justify-content:center;
@@ -568,7 +568,12 @@ img {
  --border-button: 0;
 }
 
-.particles-button {
+.photos .theme-soc {
+ --color-button-bg: var(--soc2);
+ --color-button-text: inherit;
+}
+
+/*.particles-button {
  border-radius: var(--radius-button);
  background: var(--color-button-bg);
  color: var(--color-button-text);
@@ -578,7 +583,7 @@ img {
 .photos .particles-button {
   background: var(--soc2);
   color: inherit;
-}
+}*/
 
 .item-soc{
  padding:1rem;
