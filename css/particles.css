@@ -12,7 +12,9 @@
 }
 
 .particles-wrapper {
- overflow: hidden;
+ position:relative;
+ display: inline-block;
+ overflow: clip;
  will-change: transform;
 }
 
