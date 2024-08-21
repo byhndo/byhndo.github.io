@@ -564,7 +564,7 @@ img {
 .theme-soc {
  --color-button-bg: var(--soc1);
  --color-button-text: inherit;
- --button-padding: .5rem .6rem .38rem .6rem;
+ --button-padding: .6rem .6rem .38rem .6rem;
  --radius-button: 50%;
  --border-button: 0;
 }
