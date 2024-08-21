@@ -561,7 +561,7 @@ img {
 }
 
 .theme-soc {
- --color-button-bg: var(--soc1);
+ --color-button-bg: var(--soc2);
  --color-button-text: var(--light);
  --button-padding: .5rem .5rem .4rem;
  --radius-button: 50%;
