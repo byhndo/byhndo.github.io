@@ -227,10 +227,6 @@ requestAnimationFrame(raf);
 
 	
 function setupReveal(container) {
-
-function delay(URL) {
- setTimeout(function() { window.location = URL }, 2500);
-}
 	
 container.ctx = gsap.context(() => {	
 	
@@ -444,6 +440,10 @@ const revealSc = container.querySelectorAll(".item");
     });
   });
 })();
+
+function delay(URL) {
+ setTimeout(function() { window.location = URL }, 2500);
+}	
 	 
 const RevealBoxs4 = container.querySelectorAll(".box4");
  RevealBoxs4.forEach((box4, foot) => {
