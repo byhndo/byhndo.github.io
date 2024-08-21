@@ -404,10 +404,7 @@ tl.to(el, {
 const revealSc = container.querySelectorAll(".item-soc");
 	
   revealSc.forEach((sc, pos) => {
-    let bttn = sc.querySelector("button.particles-button");
-   
-    if (!bttn) return;
-	  
+    let bttn = sc.querySelector("button.particles-button"); 	  
     let particlesOpts = arrOpts[pos];    	  
     let particles = new Particles(bttn, particlesOpts);
            
