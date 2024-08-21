@@ -410,6 +410,17 @@ const revealSc = container.querySelectorAll(".item-soc");
     if (!bttn) return;
 	  
     let particlesOpts = arrOpts[pos];
+    
+    particlesOpts.complete = ()=> {
+      tl.to(bttn, {
+        duration: .3,
+        ease: "quint.out",
+        onComplete: () => {
+          bttn.style.opacity = "1";
+        }
+      });
+    };
+	  
     let particles = new Particles(bttn, particlesOpts);
            
     let tl = gsap.timeline({
