@@ -549,34 +549,15 @@ img {
  height: 100%;
 }
 
-.soc {
- margin:0;
- display: grid;
- align-items: center;
- justify-items: center;
-}
-
-.soc ul.ico {
- list-style: none;
- display: flex;
- text-align: center;
- margin: 0;
- padding: 0;
-}
-
-.soc li.ico {
- display: inline-flex;
- margin:0;
-}
-
-.soc a {
- display: block;
- margin:0 .3rem;
-}
-
-.sc{
+.sc {	
+ display: flex; 
+ flex-direction: row;
+ align-items:center;
+ justify-content:center;
+ align-content:center;
  margin-top:60px;
 }
+
 .pl{
  visibility:hidden;
  opacity:0;
