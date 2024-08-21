@@ -76,10 +76,6 @@ let tl = gsap.timeline({
 
 
 function contentShow() {
-
-function delay(URL) {
- setTimeout(function() { window.location = URL }, 2500);
-}	
 	
 const easing = "expoScale(0.5,7,none)";
 const dur = 1;
