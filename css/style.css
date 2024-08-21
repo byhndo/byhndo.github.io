@@ -553,7 +553,7 @@ img {
 
 .sc {	
  display: flex; 
- flex-direction: row;
+ flex-direction: column;
  align-items:center;
  justify-content:center;
  align-content:center;
@@ -566,10 +566,6 @@ img {
  --button-padding: .5rem .6rem;
  --radius-button: 50%;
  --border-button: 0;
-}
-
-.particles{
- z-index:100000
 }
 
 .particles-button {
