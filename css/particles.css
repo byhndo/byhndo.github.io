@@ -9,7 +9,6 @@
  top: 50%;
  left: 50%;
  transform: translate3d(-50%,-50%,0);
- z-index:10000000;
 }
 
 .particles-wrapper {
@@ -17,6 +16,8 @@
  display: inline-block;
  overflow: hidden;
  will-change: transform;
+ width:20rem;
+ height:20rem;
 }
 
 .particles-button {
