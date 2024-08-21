@@ -1,6 +1,6 @@
 .particles {
  position: relative;
-//grid-area: 1 / 1 / 2 / 2;
+ grid-area: 1 / 1 / 2 / 2;
 }
 
 .particles-canvas {
@@ -9,6 +9,8 @@
  top: 50%;
  left: 50%;
  transform: translate3d(-50%,-50%,0);
+ width:500%;
+ height:auto;
 }
 
 .particles-wrapper {
@@ -39,5 +41,5 @@
 }
 
 .no-js .particles-button {
- //grid-area: 1 / 1 / 2 / 2;
+ grid-area: 1 / 1 / 2 / 2;
 }
