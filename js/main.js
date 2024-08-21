@@ -225,12 +225,12 @@ function raf(time) {
 }
 requestAnimationFrame(raf);
 
+	
+function setupReveal(container) {
+
 function delay(URL) {
  setTimeout(function() { window.location = URL }, 2500);
 }
-	
-	
-function setupReveal(container) {
 	
 container.ctx = gsap.context(() => {	
 	
