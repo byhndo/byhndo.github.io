@@ -418,7 +418,7 @@ const revealSc = container.querySelectorAll(".item");
         toggleActions: once
       }
     });
-window.addEventListener('pageshow', ()=>{
+
     tl.to(bttn, {
       autoAlpha: 0,
       onComplete: () => {
@@ -438,11 +438,7 @@ window.addEventListener('pageshow', ()=>{
         });
       }
     });
-
-})
-
-
-	
+	  
   });
 })();
 
