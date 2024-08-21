@@ -406,7 +406,7 @@ tl.to(el, {
     }
   ];
 
-const revealSc = container.querySelectorAll(".item");
+const revealSc = container.querySelectorAll(".item-soc");
 
   revealSc.forEach((sc, pos) => {
     let bttn = sc.querySelector("button.particles-button");
