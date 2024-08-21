@@ -13,11 +13,9 @@
 
 .particles-wrapper {
  position: relative;
- display: inline-block;
+ display: inline-flex;
  overflow: hidden;
  will-change: transform;
- width: 100%;
- height: auto;
 }
 
 .particles-button {
