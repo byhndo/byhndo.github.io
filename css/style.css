@@ -559,7 +559,7 @@ img {
 }
 
 .theme-soc {
- --color-button-bg: var(--soc2);
+ --color-button-bg: var(--soc1);
  --color-button-text: inherit;
  --button-padding: .5rem .6rem .4rem .6rem;
  --radius-button: 50%;
@@ -567,7 +567,7 @@ img {
 }
 
 .photos .theme-soc {
-  --color-button-bg: var(--soc1);
+  --color-button-bg: var(--soc2);
   --color-button-text: inherit;
 }
 
