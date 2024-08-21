@@ -76,6 +76,10 @@ let tl = gsap.timeline({
 
 
 function contentShow() {
+
+function delay(URL) {
+ setTimeout(function() { window.location = URL }, 2500);
+}	
 	
 const easing = "expoScale(0.5,7,none)";
 const dur = 1;
@@ -441,10 +445,6 @@ const revealSc = container.querySelectorAll(".item");
 	  
   });
 })();
-
-function delay(URL) {
- setTimeout(function() { window.location = URL }, 2500);
-}	
 	 
 const RevealBoxs4 = container.querySelectorAll(".box4");
  RevealBoxs4.forEach((box4, foot) => {
