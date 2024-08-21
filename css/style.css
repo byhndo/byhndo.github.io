@@ -561,10 +561,9 @@ img {
 }
 
 .theme-soc {
- --color-action: #121019;
- --color-button-bg: #121019;
- --color-button-text: #fff;
- --button-padding: .7rem 1rem;
+ --color-button-bg: var(--soc1);
+ --color-button-text: var(--light);
+ --button-padding: .5rem .6rem;
  --radius-button: 50%;
  --border-button: 0;
 }
@@ -577,7 +576,7 @@ img {
 }
 
 .photos .particles-button {
-  background-color: var(--soc2);
+  background: var(--soc2);
   color: inherit;
 }
 
