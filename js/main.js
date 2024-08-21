@@ -408,10 +408,7 @@ const revealSc = container.querySelectorAll(".item-soc");
     let bttn = sc.querySelector("button.particles-button");
 
     if (!bttn) return;
-
-    let particlesOpts = arrOpts[pos];
-    const particles = new Particles(bttn, particlesOpts);
-
+    
     let tl = gsap.timeline({
       scrollTrigger: {
         trigger: sc,
