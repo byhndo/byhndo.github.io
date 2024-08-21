@@ -428,6 +428,13 @@ const revealSc = container.querySelectorAll(".item-soc");
             });
           }
         });
+    tl.to(bttn, {
+      duration: 0.3,
+      ease: "quint.out",
+      onComplete: () => {
+            bttn.style.visibility = "visible";
+          }
+      });
         particles.integrate({
           duration: 800,
           easing: "easeOutSine"
