@@ -13,7 +13,6 @@
 
 .particles-wrapper {
  position: relative;
- overflow:scroll;
  display: inline-block;
  will-change: transform;
 }
