@@ -415,7 +415,7 @@ const revealSc = container.querySelectorAll(".item-soc");
     let tl = gsap.timeline({
       scrollTrigger: {
         trigger: sc,
-        toggleActions: "play none none restart"
+        toggleActions: once
       }
     });
 	  
@@ -437,7 +437,7 @@ const revealSc = container.querySelectorAll(".item-soc");
           easing: "easeOutSine"
         });
       }
-    });
+    }, pos);
 	  
   });
 })();
