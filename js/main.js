@@ -438,7 +438,7 @@ const revealSc = container.querySelectorAll(".item-soc");
           easing: "easeOutSine"
         });
       }
-    }, pos);
+    }, 0);
 	  
   });
 })();
