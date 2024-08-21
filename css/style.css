@@ -556,12 +556,13 @@ img {
  justify-content:center;
  align-content:center;
  margin-top:60px;
+ padding:50px auto 50px;
 }
 
 .theme-soc {
  --color-button-bg: var(--soc1);
  --color-button-text: inherit;
- --button-padding: .5rem .6rem .4rem .6rem;
+ --button-padding: .5rem .6rem .38rem .6rem;
  --radius-button: 50%;
  --border-button: 0;
 }
