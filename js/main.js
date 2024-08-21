@@ -418,7 +418,8 @@ const revealSc = container.querySelectorAll(".item-soc");
         toggleActions: once
       }
     });
-
+   let particlesOpts = arrOpts[pos];
+   let particles = new Particles(bttn, particlesOpts);
     tl.to(bttn, {
       autoAlpha: 0,
       onComplete: () => {
