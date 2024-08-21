@@ -559,11 +559,16 @@ img {
 }
 
 .theme-soc {
-  --color-button-bg: inherit;
+  --color-button-bg: var(--soc2);
   --color-button-text: inherit;
   --button-padding: .5rem .6rem;
   --radius-button: 0;
   --border-button: 0;
+}
+
+.photos .theme-soc {
+  --color-button-bg: var(--soc1);
+  --color-button-text: inherit;
 }
 
 .pl{
