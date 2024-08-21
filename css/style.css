@@ -553,7 +553,7 @@ img {
 
 .sc {	
  display: flex; 
- flex-direction: column;
+ flex-direction: row;
  align-items:center;
  justify-content:center;
  align-content:center;
@@ -563,7 +563,7 @@ img {
 .theme-soc {
  --color-button-bg: var(--soc1);
  --color-button-text: var(--light);
- --button-padding: .5rem .6rem;
+ --button-padding: .5rem .6rem .4rem;
  --radius-button: 50%;
  --border-button: 0;
 }
