@@ -414,7 +414,11 @@ const revealSc = container.querySelectorAll(".item-soc");
         toggleActions: once
       }
     });
-    
+    tl.to(bttn, {
+      onComplete: ()=>{
+      particles.integrate();
+        }
+    })	
     tl.to(bttn, {
       autoAlpha: 0,
       onComplete: () => {
