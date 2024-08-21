@@ -560,10 +560,11 @@ img {
 
 .theme-soc {
  --color-button-bg: var(--soc2);
- --color-button-text: transparent;
+ --color-button-text: inherit;
  --button-padding: .5rem .6rem;
  --radius-button: 50%;
  --border-button: 0;
+ padding:5rem auto 5rem auto;
 }
 
 .photos .theme-soc {
@@ -572,7 +573,7 @@ img {
 }
 
 .item-soc{
- margin: 1rem 1rem 2rem 1rem;
+ margin: 1rem;
 }
 
 .pl{
