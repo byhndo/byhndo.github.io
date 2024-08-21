@@ -12,8 +12,6 @@
 }
 
 .particles-wrapper {
- position: relative;
- display: inline-flex;
  overflow: hidden;
  will-change: transform;
 }
