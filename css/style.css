@@ -550,6 +550,7 @@ img {
 }
 
 .sc {	
+ position:relative;
  display: flex; 
  flex-direction: row;
  align-items:center;
