@@ -564,7 +564,6 @@ img {
  --button-padding: .5rem .6rem;
  --radius-button: 50%;
  --border-button: 0;
- padding:5rem auto 5rem auto;
 }
 
 .photos .theme-soc {
@@ -573,7 +572,8 @@ img {
 }
 
 .item-soc{
- margin: 1rem;
+ margin: 1.11rem 1rem 1rem 1rem;
+ padding:5rem auto 5rem auto;
 }
 
 .pl{
