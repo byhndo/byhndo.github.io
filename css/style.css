@@ -558,8 +558,7 @@ img {
  margin-top:60px;
 }
 
-.theme-1 {
-  --color-item-bg: inherit;
+.theme-soc {
   --color-button-bg: inherit;
   --color-button-text: inherit;
   --button-padding: .5rem .6rem;
