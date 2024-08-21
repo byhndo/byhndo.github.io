@@ -566,6 +566,7 @@ img {
  --button-padding: .5rem .5rem .4rem;
  --radius-button: 50%;
  --border-button: 0;
+ padding:10rem;
 }
 
 .photos .theme-soc {
@@ -573,9 +574,9 @@ img {
  --color-button-text: inherit;
 }
 
-/*.item-soc{
+.item-soc{
  padding:1rem;
-}*/
+}
 
 .pl{
  visibility:hidden;
