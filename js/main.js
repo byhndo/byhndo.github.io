@@ -438,7 +438,7 @@ const revealSc = container.querySelectorAll(".item-soc");
         particles.integrate({
           duration: 800,
           easing: "easeOutSine"
-        });
+        }, pos);
       }
     });
 	  
