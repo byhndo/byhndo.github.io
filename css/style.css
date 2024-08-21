@@ -560,7 +560,7 @@ img {
 
 .theme-soc {
   --color-button-bg: var(--soc2);
-  --color-button-text: inherit;
+  --color-button-text: transparent;
   --button-padding: .5rem .6rem;
   --radius-button: 0;
   --border-button: 0;
