@@ -13,10 +13,10 @@
 
 .particles-wrapper {
  position: relative;
-	display: inline-block;
-	overflow: hidden;
-	will-change: transform;
- width: 50%;
+ display: inline-block;
+ overflow: hidden;
+ will-change: transform;
+ width: 100%;
  height: auto;
 }
 
