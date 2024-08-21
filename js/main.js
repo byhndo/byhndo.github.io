@@ -386,6 +386,9 @@ tl.to(el, {
 	 	  
 });
 	
+
+const revealSc = container.querySelectorAll(".item-soc");
+
 (function () {
   const arrOpts = [
     {
@@ -393,17 +396,15 @@ tl.to(el, {
       duration: 1000,
       easing: "easeInExpo"
     },   
-
     {
-
       direction: "bottom",
       duration: 1000,
       easing: "easeInExpo"
     }
   ];
 
-const revealSc = container.querySelectorAll(".item-soc");
 
+	
   revealSc.forEach((sc, pos) => {
     let bttn = sc.querySelector("button.particles-button");
    
