@@ -563,17 +563,17 @@ img {
  height:100px;
 }
 
-.theme-soc {
- --color-button-bg: var(--soc1);
- --color-button-text: inherit;
- --button-padding: .6rem .6rem .38rem .6rem;
- --radius-button: 50%;
- --border-button: 0;
+.particles-button {
+ background: var(--soc1);
+ color: inherit;
+ padding: .6rem .6rem .38rem .6rem;
+ radius: 50%;
+ border-radius: 0;
 }
 
-.photos .theme-soc {
-  --color-button-bg: var(--soc2);
-  --color-button-text: inherit;
+.photos .particles-button {
+  background: var(--soc2);
+  color: inherit;
 }
 
 .item-soc{
