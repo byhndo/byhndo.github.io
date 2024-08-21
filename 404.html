@@ -90,7 +90,7 @@ padding-bottom:14rem;
 <div class="box">
  <span>4</span><span class="red">0</span><span>4</span>
 </div>	
-<a href="javascript:delay('/')"><button class="particles-button">Home</button></a>
+<a href="javascript:setTimeout(()=>{window. location = '/' },2500);""><button class="particles-button">Home</button></a>
 </div>	
 <script src='js/anime.min.js'></script>
 <script src='js/gsap.js'></script>
@@ -140,9 +140,6 @@ window.addEventListener('pageshow', ()=>{
 })
 })(); 
 		
-function delay(URL) {
- setTimeout(function() { window.location = URL }, 2500);
-}
 </script>
 </body>
 </html>
