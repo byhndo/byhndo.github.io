@@ -561,15 +561,14 @@ img {
 }
 
 .particles-button {
- background: var(--soc1);
+ background-color: var(--soc1);
  color: inherit;
  padding: .6rem .6rem .38rem .6rem;
- radius: 50%;
- border-radius: 0;
+ border-radius: 50%;
 }
 
 .photos .particles-button {
-  background: var(--soc2);
+  background-color: var(--soc2);
   color: inherit;
 }
 
