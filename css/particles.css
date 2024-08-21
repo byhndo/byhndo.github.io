@@ -14,7 +14,7 @@
 .particles-wrapper {
  position:relative;
  display: inline-block;
- overflow: clip;
+ overflow: hidden;
  will-change: transform;
 }
 
