@@ -390,13 +390,11 @@ tl.to(el, {
 (function () {
   const arrOpts = [
     {
-      canvasPadding: 250,
       direction: "bottom",
       duration: 1000,
       easing: "easeInExpo"
     },   
     {
-     canvasPadding: 250,
       direction: "bottom",
       duration: 1000,
       easing: "easeInExpo"
