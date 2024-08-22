@@ -31,6 +31,7 @@
  padding: 1.5rem 3rem;
  padding: var(--button-padding);
  will-change: transform;
+ visibility:hidden;
  opacity:0;
 }
 
