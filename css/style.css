@@ -561,9 +561,8 @@ img {
  overflow:hidden;
 }
 
-
 .particles-button{
- margin:5rem;
+ padding:5rem;
  box-sizing:padding-box;
 }
 
