@@ -16,7 +16,7 @@
  display: inline-block;
  overflow: hidden;
  will-change: transform;
- margin:3rem;
+ margin:3rem 2rem 3rem;
 }
 
 .particles-button {
