@@ -28,11 +28,11 @@
  border: 0;
  border: var(--border-button);
  margin:0;
- height:5rem;
  padding: 1.5rem 3rem;
  padding: var(--button-padding);
  will-change: transform;
  opacity:0;
+ box-sizing: content-box;
 }
 
 .particles-button:focus {
