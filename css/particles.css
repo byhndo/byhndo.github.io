@@ -16,7 +16,10 @@
  display: inline-block;
  overflow: hidden;
  will-change: transform;
- margin:2rem;
+}
+
+.item-soc{
+ margin:2rem
 }
 
 .particles-button {
