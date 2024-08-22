@@ -560,6 +560,10 @@ img {
  margin-top:60px;
 }
 
+.particles-wrapper{
+	margin:5rem;
+}
+
 .theme-soc {
  --color-button-bg: var(--soc2);
  --color-button-text: var(--light);
