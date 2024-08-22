@@ -27,7 +27,7 @@
  color: var(--color-button-text);
  border: 0;
  border: var(--border-button);
- margin: 0 auto;
+ margin: auto;
  padding: 1.5rem 3rem;
  padding: var(--button-padding);
  will-change: transform;
