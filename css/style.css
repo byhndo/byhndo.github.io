@@ -563,7 +563,7 @@ img {
 
 .particles-button{
  padding:5rem;
- box-sizing:padding-box;
+ box-sizing:border-box;
 }
 
 .theme-soc {
