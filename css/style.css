@@ -558,6 +558,13 @@ img {
  justify-content:center;
  align-content:center;
  margin-top:60px;
+	min-height:30rem;
+ padding-bottom:10rem;
+}
+
+.particles-wrapper{
+	min-height:30rem;
+ padding-bottom:10rem;
 }
 
 .theme-soc {
@@ -566,8 +573,6 @@ img {
  --button-padding: .5rem .5rem .37rem;
  --radius-button: 50%;
  --border-button: 0;
- min-height:30rem;
- padding-bottom:10rem;
 }
 
 .photos .theme-soc {
