@@ -574,7 +574,7 @@ img {
  --color-button-text: var(--light);
  --button-padding: .4rem .4rem .26rem;
  --radius-button: 50%;
- --button-margin: 0;
+ --button-margin: 4rem;
  --border-button: 0;
 }
 
@@ -586,7 +586,6 @@ img {
 .item-soc { 
  position: relative; 
  overflow: hidden;
- padding: 4rem;
  background: var(--color-item-bg);
 }
 
