@@ -552,11 +552,11 @@ img {
 }
 
 .sc {	
- /*display: flex; 
+ display: flex; 
  flex-direction: row;
  align-items:center;
  justify-content:center;
- align-content:center;*/
+ align-content:center;
  margin-top:60px;
 }
 
