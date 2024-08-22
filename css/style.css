@@ -564,6 +564,10 @@ img {
 .particles-wrapper{
  margin:5rem auto;
 }
+.particles-button{
+ padding-left:5rem;
+ padding-right:5rem;
+}
 
 .theme-soc {
  --color-button-bg: var(--soc2);
@@ -571,8 +575,6 @@ img {
  --button-padding: .5rem .5rem .37rem;
  --radius-button: 50%;
  --border-button: 0;
- padding-left:5rem;
- padding-right:5rem;
 }
 
 .photos .theme-soc {
