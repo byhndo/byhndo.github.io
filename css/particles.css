@@ -15,8 +15,7 @@
  position:relative;
  display: inline-block;
  overflow: hidden;
-// will-change: transform;
- margin: 4rem;
+ will-change: transform;
 }
 
 .particles-button {
@@ -28,7 +27,7 @@
  color: var(--color-button-text);
  border: 0;
  border: var(--border-button);
- margin: 0;
+ margin: 5rem;
  padding: 1.5rem 3rem;
  padding: var(--button-padding);
  will-change: transform;
