@@ -32,7 +32,6 @@
  padding: var(--button-padding);
  will-change: transform;
  opacity:0;
- box-sizing: border-box;
 }
 
 .particles-button:focus {
