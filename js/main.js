@@ -417,6 +417,7 @@ const revealSc = container.querySelectorAll(".item-soc");
     
     tl.to(bttn, {
       autoAlpha: 0,
+      margin:0,
       onComplete: () => {
         bttn.style.opacity = "1";
         tl.to(bttn, {
