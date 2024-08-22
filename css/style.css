@@ -558,6 +558,11 @@ img {
  justify-content:center;
  align-content:center;
  margin-top:60px;
+ overflow:hidden;
+}
+
+.particles-wrapper{
+ margin:3rem 3rem 3rem;
 }
 
 .theme-soc {
