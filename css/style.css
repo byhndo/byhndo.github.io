@@ -583,7 +583,7 @@ img {
  --color-button-text: inherit;
 }
 
-.item { 
+.item-soc { 
  position: relative; 
  overflow: hidden;
  padding: 4rem;
