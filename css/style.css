@@ -561,7 +561,7 @@ img {
 }
 
 .particles-wrapper{
- overflow: visible; 
+ z-index:100000
 }
 
 .theme-soc {
