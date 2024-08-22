@@ -561,7 +561,7 @@ img {
 }
 
 .particles-wrapper{
- z-index:100000
+ display: inline-flex;
 }
 
 .theme-soc {
