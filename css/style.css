@@ -561,7 +561,7 @@ img {
 }
 
 .particles-wrapper{
- margin:2rem;
+ margin:1rem;
 }
 
 .theme-soc {
@@ -576,10 +576,6 @@ img {
  --color-button-bg: var(--soc2);
  --color-button-text: inherit;
 }
-
-/*.item-soc{
- padding:2rem;
-}*/
 
 .pl{
  visibility:hidden;
