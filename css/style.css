@@ -578,6 +578,10 @@ img {
  --border-button: 0;
 }
 
+.particles-wrapper{
+ overflow:visible;
+}
+
 .photos .theme-soc {
  --color-button-bg: var(--soc2);
  --color-button-text: inherit;
