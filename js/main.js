@@ -422,8 +422,7 @@ const revealSc = container.querySelectorAll(".item-soc");
         tl.to(bttn, {
           duration: 1,
           onComplete: () => {
-            bttn.style.visibility = "visible";	
-	    bttn.style.margin = "0";
+            bttn.style.visibility = "visible";		    
             bttn.addEventListener("click", () => {
               particles.disintegrate();
             });
