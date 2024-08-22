@@ -558,13 +558,10 @@ img {
  justify-content:center;
  align-content:center;
  margin-top:60px;
-	min-height:30rem;
- padding-bottom:10rem;
 }
 
 .particles-wrapper{
-	min-height:30rem;
- padding-bottom:10rem;
+ overflow: visible; 
 }
 
 .theme-soc {
