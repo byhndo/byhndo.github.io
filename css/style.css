@@ -560,16 +560,13 @@ img {
  margin-top:60px;
 }
 
-.particles-wrapper{
- overflow: auto;
-}
-
 .theme-soc {
  --color-button-bg: var(--soc2);
  --color-button-text: var(--light);
  --button-padding: .5rem .5rem .37rem;
  --radius-button: 50%;
  --border-button: 0;
+ margin: 30rem;
 }
 
 .photos .theme-soc {
