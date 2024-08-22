@@ -566,6 +566,7 @@ img {
  --button-padding: .5rem .5rem .37rem;
  --radius-button: 50%;
  --border-button: 0;
+ padding:20rem;
 }
 
 .photos .theme-soc {
