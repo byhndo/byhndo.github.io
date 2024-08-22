@@ -561,12 +561,10 @@ img {
  overflow:hidden;
 }
 
-.particles-wrapper{
- padding-left:5rem;
- padding-right:5rem;
-}
+
 .particles-button{
- margin:5rem auto;
+ margin:5rem;
+ box-sizing:border-box;
 }
 
 .theme-soc {
