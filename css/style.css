@@ -560,11 +560,11 @@ img {
 }
 
 .sc {	
- display: flex; 
- flex-direction: row;
- align-items:center;
- justify-content:center;
- align-content:center;
+ margin: 0 auto;
+ display: grid;
+ grid-template-columns: 2fr 2fr;
+ align-items: center;
+ justify-items: center;  
  margin-top:60px;
  overflow:hidden;
 }
@@ -574,13 +574,20 @@ img {
  --color-button-text: var(--light);
  --button-padding: .4rem .4rem .26rem;
  --radius-button: 50%;
- --button-margin: 3rem;
+ --button-margin: 0;
  --border-button: 0;
 }
 
 .photos .theme-soc {
  --color-button-bg: var(--soc2);
  --color-button-text: inherit;
+}
+
+.item { 
+ position: relative; 
+ overflow: hidden;
+ padding: 4rem;
+ background: var(--color-item-bg);
 }
 
 .pl{
