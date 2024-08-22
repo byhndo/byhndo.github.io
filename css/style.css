@@ -558,7 +558,10 @@ img {
  justify-content:center;
  align-content:center;
  margin-top:60px;
- padding:50rem;
+}
+
+.particles-wrapper{
+ overflow: auto;
 }
 
 .theme-soc {
