@@ -561,10 +561,6 @@ img {
  overflow:hidden;
 }
 
-.particles-wrapper{
- margin: 4rem 3rem 4rem 3rem;
-}
-
 .theme-soc {
  --color-button-bg: var(--soc2);
  --color-button-text: var(--light);
