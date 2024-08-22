@@ -561,10 +561,6 @@ img {
  overflow:hidden;
 }
 
-.particles-button{
- margin:5rem 5rem 5rem 5rem;
-}
-
 .theme-soc {
  --color-button-bg: var(--soc2);
  --color-button-text: var(--light);
