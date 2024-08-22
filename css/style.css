@@ -562,11 +562,11 @@ img {
 }
 
 .particles-wrapper{
- margin:5rem auto;
-}
-.particles-button{
  padding-left:5rem;
  padding-right:5rem;
+}
+.particles-button{
+ margin:5rem auto;
 }
 
 .theme-soc {
