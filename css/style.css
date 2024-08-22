@@ -572,10 +572,10 @@ img {
 .theme-soc {
  --color-button-bg: var(--soc2);
  --color-button-text: var(--light);
- --button-padding: .5rem .5rem .35rem;
+ --button-padding: 0;
  --radius-button: 50%;
- --border-button: 0;
  --button-margin:4rem;
+ --border-button: 1rem solid transparent;
 }
 
 .photos .theme-soc {
