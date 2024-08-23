@@ -387,15 +387,15 @@ tl.to(el, {
 });
 
 const items = container.querySelectorAll(".item-soc");
-  items.forEach((el, pos) => {    
+  items.forEach((soc, pos) => {    
     let tl = gsap.timeline({
       scrollTrigger: {
-        trigger: el,
+        trigger: soc,
         toggleActions: once
       }, delay: .3
     });
 
-   tl.to(el, {
+   tl.to(items, {
     autoAlpha:1,
     opacity:1,
     duration: 1
