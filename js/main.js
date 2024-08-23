@@ -397,8 +397,7 @@ const items = container.querySelectorAll(".item-soc");
 
    tl.to(el, {
     autoAlpha:1,
-    ease: "steps(39)",
-    duration: 2
+    duration: 1
   }, pos * .2);	  
           
 })
