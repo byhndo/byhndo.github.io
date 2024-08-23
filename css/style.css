@@ -584,7 +584,12 @@ img {
 .item-soc { 
  position: relative; 
  background: var(--color-item-bg);
- margin:2rem;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ align-items:center;
+ width:50%;
+ height:10rem;
 }
 
 .pl{
