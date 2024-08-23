@@ -567,7 +567,7 @@ img {
  margin-top:60px;
 }
 
-.item-soc { 
+.soc { 
  background: var(--soc1);
  position: relative; 
  display:flex;
@@ -582,7 +582,7 @@ img {
  visibility: hidden;
 }
 
-.photos .item-soc{
+.photos .soc{
  background: var(--soc2);
 }
 
