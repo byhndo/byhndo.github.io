@@ -8,7 +8,7 @@
  --darkgrey: #495057;
  --semidark: #212529;
  --dark: #181b1e;
- --soc1: #495057;
+ --soc1: #929AAB;
  --soc2: #BBBFCA; 
  --bgloaderscreen: #C7C8CC;
  --textloadercolor: #3C4048;
@@ -568,7 +568,7 @@ img {
 }
 
 .theme-soc {
- --color-button-bg: var(--soc2);
+ --color-button-bg: var(--soc1);
  --color-button-text: var(--light);
  --button-padding: .4rem .4rem .26rem;
  --radius-button: 50%;
