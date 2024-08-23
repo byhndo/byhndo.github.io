@@ -387,61 +387,23 @@ tl.to(el, {
 });
 
 
-(function () {
-  const arrOpts = [
-    {
-      direction: "bottom",
-      duration: 1000,
-      easing: "easeInExpo"
-    },
-
-    {
-      direction: "bottom",
-      duration: 1000,
-      easing: "easeInExpo"
-    }
-  ];
-
-  const items = container.querySelectorAll(".item-soc");
-
-  items.forEach((el, pos) => {
-    let bttn = el.querySelector("button.particles-button");
-
-    if (!bttn) return; 
-
-    let particlesOpts = arrOpts[pos];
-    const particles = new Particles(bttn, particlesOpts);
-
+const items = container.querySelectorAll(".item-soc");
+  items.forEach((el, pos) => {    
     let tl = gsap.timeline({
       scrollTrigger: {
-        trigger: bttn,
+        trigger: el,
         toggleActions: once
-      }
+      }, delay: .3
     });
 
-    tl.to(bttn, {
-      autoAlpha: 0,
-      onComplete: () => {
-        particles.integrate({
-          duration: 800,
-          easing: "easeOutSine"
-        });
-
-        gsap.to(bttn, {
-          duration: 1,
-          onComplete: () => {
-            bttn.style.opacity = "1";
-            bttn.style.visibility = "visible";
-          }
-        });
-      }
-    });
-    
-    bttn.addEventListener("click", () => {
-      particles.disintegrate();
-    });
-  });
-})();
+   tl.to(el, {
+    autoAlpha:1,
+    "--x": "-98.75%",
+    ease: "steps(39)",
+    duration: 2
+  }, pos * .2);	  
+          
+})
         	 
 const RevealBoxs4 = container.querySelectorAll(".box4");
  RevealBoxs4.forEach((box4, foot) => {
