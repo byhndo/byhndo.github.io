@@ -68,7 +68,7 @@ a:hover, a:active{
  user-select: none;
 }
 	
-.particles-button {
+a.particles-button {
 //--color-item-bg: transparent;
 background: var(--textloadercolor);
 colir: #fff;
@@ -115,7 +115,7 @@ border: 0;
   const items = document.querySelectorAll(".main");
 
   items.forEach((el, pos) => {
-    let bttn = el.querySelector(".particles-button");
+    let bttn = el.querySelector("a.particles-button");
 
     if (!bttn) return; 
 
