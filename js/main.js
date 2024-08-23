@@ -393,50 +393,56 @@ tl.to(el, {
       direction: "bottom",
       duration: 1000,
       easing: "easeInExpo"
-    },   
+    },
+
     {
       direction: "bottom",
       duration: 1000,
       easing: "easeInExpo"
     }
   ];
-	
-const revealSc = container.querySelectorAll(".item-soc");
-	
-  revealSc.forEach((sc, pos) => {
-    let bttn = sc.querySelector("button.particles-button"); 	  
-    let particlesOpts = arrOpts[pos];    	  
-    let particles = new Particles(bttn, particlesOpts);
-           
+
+  const items = container.querySelectorAll(".item");
+
+  items.forEach((el, pos) => {
+    let bttn = el.querySelector("button.particles-button");
+
+    if (!bttn) return; 
+
+    let particlesOpts = arrOpts[pos];
+    const particles = new Particles(bttn, particlesOpts);
+
     let tl = gsap.timeline({
       scrollTrigger: {
-        trigger: sc,
+        trigger: bttn,
         toggleActions: once
       }
     });
-    
-tl.to(bttn, { 
-      autoAlpha:0,      
-      onComplete: () => {  
+
+    tl.to(bttn, {
+      autoAlpha: 0,
+      onComplete: () => {
         particles.integrate({
           duration: 800,
-          easing: "easeOutSine"    
+          easing: "easeOutSine"
         });
+
         gsap.to(bttn, {
-         duration: 1,               
-         onComplete: () => {   
-          bttn.style.opacity = "1";
-          bttn.style.visibility = "visible";
-          bttn.addEventListener("click", () => {
-           particles.disintegrate();
-	  });
+          duration: 1,
+          onComplete: () => {
+            bttn.style.opacity = "1";
+            bttn.style.visibility = "visible";
           }
-        });                            
+        });
       }
     });
-  }); 
-})(); 
-	 
+    
+    bttn.addEventListener("click", () => {
+      particles.disintegrate();
+    });
+  });
+})();
+        	 
 const RevealBoxs4 = container.querySelectorAll(".box4");
  RevealBoxs4.forEach((box4, foot) => {
  const footer = box4.querySelectorAll(".footer");                              
