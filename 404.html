@@ -122,7 +122,7 @@ window.addEventListener('pageshow', ()=>{
       tl.to(bttn, {
         autoAlpha: 0,
         onComplete: () => {        
-          tl.to(bttn, {
+          gsap.to(bttn, {
             duration: .9,
             onComplete: () => {
               bttn.style.visibility = "visible";
