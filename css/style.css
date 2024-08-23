@@ -585,7 +585,6 @@ img {
 
 .item-soc { 
  position: relative; 
- overflow: hidden;
  background: var(--color-item-bg);
 }
 
