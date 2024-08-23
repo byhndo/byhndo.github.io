@@ -569,7 +569,6 @@ img {
 }
 
 .item-soc { 
- background: var(--soc1);
  display:flex;
  justify-content:center;
  align-items:center;
@@ -578,10 +577,6 @@ img {
  padding: .4rem .3rem .3rem;
  opacity:0;
  visibility: hidden;
-}
-
-.photos .item-soc{
- background: var(--soc2);
 }
 
 .pl{
