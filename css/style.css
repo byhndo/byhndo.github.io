@@ -565,7 +565,7 @@ img {
  justify-content:center;
  align-items:center;
  flex-direction: row;
- margin-top:60px auto 60px auto;
+ margin:60px auto 60px auto;
 }
 
 .item-soc { 
