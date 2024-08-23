@@ -402,7 +402,7 @@ tl.to(el, {
     }
   ];
 
-  const items = container.querySelectorAll(".item");
+  const items = container.querySelectorAll(".item-soc");
 
   items.forEach((el, pos) => {
     let bttn = el.querySelector("button.particles-button");
