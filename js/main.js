@@ -398,7 +398,6 @@ const items = container.querySelectorAll(".item-soc");
    tl.to(el, {
     autoAlpha:1,
     ease: "steps(39)",
-    clipPath: "circle(100%)",
     duration: 2
   }, pos * .2);	  
           
