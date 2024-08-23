@@ -102,6 +102,12 @@ padding-bottom:14rem;
       direction: "bottom",
       duration: 1000,
       easing: "easeInExpo"
+    },
+
+    {
+      direction: "bottom",
+      duration: 1000,
+      easing: "easeInExpo"
     }
   ];
 
@@ -110,37 +116,42 @@ padding-bottom:14rem;
   items.forEach((el, pos) => {
     let bttn = el.querySelector("button.particles-button");
 
-    if (!bttn) return;
+    if (!bttn) return; 
 
     let particlesOpts = arrOpts[pos];
-    let particles = new Particles(bttn, particlesOpts);
-    
-    let tl = gsap.timeline();
-   
-window.addEventListener('pageshow', ()=>{
-      tl.to(bttn, {
-        autoAlpha: 0,
-        onComplete: () => {        
-          gsap.to(bttn, {
-            duration: .9,
-            onComplete: () => {
-              bttn.style.visibility = "visible";
-	      bttn.style.opacity = "1";
-              bttn.addEventListener("click", () => {
-                particles.disintegrate();
-              });
-            }
-          });
-          particles.integrate({
-            duration: 800,
-            easing: "easeOutSine"
-          });
+    const particles = new Particles(bttn, particlesOpts);
+
+    let tl = gsap.timeline({
+      scrollTrigger: {
+        trigger: bttn,
+        toggleActions: "play none none reset"
       }
     });
+
+    tl.to(bttn, {
+      autoAlpha: 0,
+      onComplete: () => {
+        particles.integrate({
+          duration: 800,
+          easing: "easeOutSine"
+        });
+
+        gsap.to(bttn, {
+          duration: 1,
+          onComplete: () => {
+            bttn.style.opacity = "1";
+            bttn.style.visibility = "visible";
+          }
+        });
+      }
+    });
+    
+    bttn.addEventListener("click", () => {
+      particles.disintegrate();
+    });
   });
-})
-})(); 
-		
+})();
+
 </script>
 </body>
 </html>
