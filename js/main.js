@@ -415,27 +415,27 @@ const revealSc = container.querySelectorAll(".item-soc");
       }
     });
     
-    tl.to(bttn, {
-      autoAlpha: 0,
-      onComplete: () => {        
-        gsap.to(bttn, {
-          duration: 1,
-          onComplete: () => {
-            bttn.style.visibility = "visible";	
-	    bttn.style.opacity = "1";
-            bttn.addEventListener("click", () => {
-              particles.disintegrate();
-            });
-          }
-        });    
+tl.to(bttn, { 
+      autoAlpha:0,      
+      onComplete: () => {  
         particles.integrate({
           duration: 800,
-          easing: "easeOutSine"
+          easing: "easeOutSine"    
         });
+        gsap.to(bttn, {
+         duration: 1,               
+         onComplete: () => {   
+          bttn.style.opacity = "1";
+          bttn.style.visibility = "visible";
+          bttn.addEventListener("click", () => {
+           particles.disintegrate();
+	  });
+          }
+        });                            
       }
-    });	  
-  });
-})();
+    });
+  }); 
+})(); 
 	 
 const RevealBoxs4 = container.querySelectorAll(".box4");
  RevealBoxs4.forEach((box4, foot) => {
