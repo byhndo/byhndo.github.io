@@ -91,7 +91,7 @@ padding-bottom:14rem;
 <div class="box">
  <span>4</span><span class="red">0</span><span>4</span>
 </div>	
-<a href="javascript:setTimeout(()=>{window. location = '/' },2500);""><button class="particles-button">Home</button></a>
+<a class="particles-button" href="javascript:setTimeout(()=>{window. location = '/' },2500);"">Home</a>
 </div>	
 <script src='js/anime.min.js'></script>
 <script src='js/gsap.js'></script>
@@ -115,7 +115,7 @@ padding-bottom:14rem;
   const items = document.querySelectorAll(".main");
 
   items.forEach((el, pos) => {
-    let bttn = el.querySelector("button.particles-button");
+    let bttn = el.querySelector("a.particles-button");
 
     if (!bttn) return; 
 
