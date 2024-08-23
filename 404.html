@@ -121,12 +121,12 @@ padding-bottom:14rem;
 window.addEventListener('pageshow', ()=>{
       tl.to(bttn, {
         autoAlpha: 0,
-        onComplete: () => {
-          bttn.style.opacity = "1";
+        onComplete: () => {        
           tl.to(bttn, {
             duration: .9,
             onComplete: () => {
               bttn.style.visibility = "visible";
+	      bttn.style.opacity = "1";
               bttn.addEventListener("click", () => {
                 particles.disintegrate();
               });
