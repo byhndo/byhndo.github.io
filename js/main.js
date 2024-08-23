@@ -386,9 +386,9 @@ tl.to(el, {
 	 	  
 });
 
-const items = container.querySelectorAll(".item-soc");
+const items = container.querySelectorAll(".sc");
   items.forEach((soc) => {
-    const item = soc.querySelectorAll("button.soc");                              
+    const item = soc.querySelectorAll(".item-soc");                              
     let tl = gsap.timeline({
       scrollTrigger: {
         trigger: soc,
