@@ -419,7 +419,7 @@ tl.to(footer, {
  ease: easing
 }, foot * .2); 
 		 	                                                                                                                  
-}, ">");	
+});	
 	 
 });
 	
