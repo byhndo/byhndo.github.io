@@ -568,7 +568,7 @@ img {
  margin-top:60px auto 60px auto;
 }
 
-.soc { 
+.item-soc { 
  background: var(--soc1);
  display:flex;
  justify-content:center;
@@ -580,7 +580,7 @@ img {
  visibility: hidden;
 }
 
-.photos .soc{
+.photos .item-soc{
  background: var(--soc2);
 }
 
