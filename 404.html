@@ -121,13 +121,8 @@ padding-bottom:14rem;
     let particlesOpts = arrOpts[pos];
     const particles = new Particles(bttn, particlesOpts);
 
-    let tl = gsap.timeline({
-      scrollTrigger: {
-        trigger: bttn,
-        toggleActions: "play none none reset"
-      }
-    });
-
+window.addEventListener("showpage", {	
+ let tl = gsap.timeline()
     tl.to(bttn, {
       autoAlpha: 0,
       onComplete: () => {
@@ -142,10 +137,11 @@ padding-bottom:14rem;
             bttn.style.opacity = "1";
             bttn.style.visibility = "visible";
           }
-        });
+        })
       }
-    });
-    
+    }) 
+})
+      
     bttn.addEventListener("click", () => {
       particles.disintegrate();
     });
