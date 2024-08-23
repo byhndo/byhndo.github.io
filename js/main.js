@@ -399,6 +399,7 @@ const items = container.querySelectorAll(".item-soc");
     autoAlpha:1,
     "--x": "-98.75%",
     ease: "steps(39)",
+    clipPath: "circle(100%)",
     duration: 2
   }, pos * .2);	  
           
