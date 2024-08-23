@@ -346,7 +346,7 @@ tl.to(two, {
 });      
       	 
 const RevealBoxs3 = container.querySelectorAll(".box3");
- RevealBoxs3.forEach((box3, qt) => {
+ RevealBoxs3.forEach((box3) => {
  const quote = box3.querySelectorAll(".quote, .quote span");                              
  let tl = gsap.timeline({
  scrollTrigger: {
@@ -364,7 +364,7 @@ tl.to(quote, {
  opacity: 1,
  scaleY: 1,
  stagger: 0.05
-}, qt * .2);
+});
 	 	                                                                                                                  
 });
 	 
@@ -405,7 +405,7 @@ const items = container.querySelectorAll(".sc");
 })
         	 
 const RevealBoxs4 = container.querySelectorAll(".box4");
- RevealBoxs4.forEach((box4, foot) => {
+ RevealBoxs4.forEach((box4) => {
  const footer = box4.querySelectorAll(".footer");                              
  let tl = gsap.timeline({
  scrollTrigger: {
@@ -419,7 +419,7 @@ tl.to(footer, {
  opacity:1,
  duration:dur,
  ease: easing
-}, foot * .2); 
+}); 
 		 	                                                                                                                  
 });	
 	 
