@@ -572,7 +572,6 @@ img {
  --color-button-text: var(--light);
  --button-padding: .4rem .4rem .26rem;
  --radius-button: 50%;
- --button-margin: 0;
  --border-button: 0;
 }
 
@@ -588,7 +587,7 @@ img {
  justify-content:center;
  align-items:center;
  align-items:center;
- width:50%;
+ width:40%;
  height:10rem;
 }
 
