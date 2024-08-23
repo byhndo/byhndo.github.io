@@ -397,6 +397,7 @@ const items = container.querySelectorAll(".item-soc");
 
    tl.to(el, {
     autoAlpha:1,
+    opacity:1,
     duration: 1
   }, pos * .2);	  
           
