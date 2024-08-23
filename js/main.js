@@ -417,12 +417,12 @@ const revealSc = container.querySelectorAll(".item-soc");
     
     tl.to(bttn, {
       autoAlpha: 0,
-      onComplete: () => {
-        bttn.style.opacity = "1";
-        tl.to(bttn, {
+      onComplete: () => {        
+        gsap.to(bttn, {
           duration: 1,
           onComplete: () => {
-            bttn.style.visibility = "visible";		    
+            bttn.style.visibility = "visible";	
+	    bttn.style.opacity = "1";
             bttn.addEventListener("click", () => {
               particles.disintegrate();
             });
