@@ -126,11 +126,10 @@
   overflow: hidden;
 }
 
-.svg-filters {
- position: absolute;
+svg {
+ height: 0;
+ width: 0;
  visibility: hidden;
- width: 1px;
- height: 1px; 
 }
 	
 html{
