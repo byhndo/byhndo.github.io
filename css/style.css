@@ -126,7 +126,7 @@
   overflow: hidden;
 }
 
-svg {
+svg.title {
  height: 0;
  width: 0;
  visibility: hidden;
