@@ -173,9 +173,6 @@ tl = gsap.timeline();
       }
     }) 
       
-    bttn.addEventListener("click", () => {
-      particles.disintegrate();
-    });
   });
 })();
 
