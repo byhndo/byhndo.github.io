@@ -176,6 +176,7 @@ h5 {
 
 .header{
  height:95vh;
+ max-width:100%;
  display:flex;
  justify-content:center;
  align-items:center;
