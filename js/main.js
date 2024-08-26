@@ -242,7 +242,7 @@ gsap.to('.indicator', {
 }
 }, "<");
 
-gsap.to('.header', {  
+/*gsap.to('.header', {  
  onComplete: () => {
   gsap.to(".header", {  
    yPercent:14,
@@ -254,7 +254,7 @@ gsap.to('.header', {
   }
   })
     }
- });
+ });*/
 
 const lenis = new Lenis({
   duration: 2,
