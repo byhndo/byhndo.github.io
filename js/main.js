@@ -126,56 +126,6 @@ $('nav li a').click(function(){
     $('li a').removeClass("active");
     $(this).addClass("active");
 });	
-
-
-
-(function () {
-  const arrOpts = [
-    {       
-      direction: "bottom",
-      duration: 1000,
-      easing: 'easeOutExpo'
-    }    
-  ];
-
-  const items = document.querySelectorAll(".header");
-
-  items.forEach((el, pos) => {
-    let bttn = el.querySelector("button.particles-button");
-
-    if (!bttn) return; 
-
-    let particlesOpts = arrOpts[pos];
-    const particles = new Particles(bttn, particlesOpts);
-
-tl = gsap.timeline();
-    tl.to(bttn, {
-      autoAlpha: 0,
-      onComplete: () => {
-	bttn.style.pointerEvents = 'none';
-        particles.integrate({
-          duration: 900,
-          easing: "easeOutSine"
-        });
-
-        gsap.to(bttn, {
-          duration: 1,
-          onComplete: () => {
-            bttn.style.opacity = "1";
-            bttn.style.visibility = "visible";
-          }
-        })
-      }
-    }) 
-      
-  });
-})();
-
-
-
-
-
-	
 	
 gsap.set(".sub-title, .sub-title .char", {
  x: () => gsap.utils.random(-200, 200), 
