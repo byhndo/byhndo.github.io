@@ -182,6 +182,7 @@ h5 {
  flex-direction: column;
 } 
 h1 { 
+ filter: url(#noise);
  display:inline;
  opacity:0;
  font-family: var(--font1);
