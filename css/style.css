@@ -220,8 +220,8 @@ h1 .char, .sub-title .char{
 --button-margin: 0;
 --radius-button: 100%;
 --border-button: 0;
-width:80vw;
-height:83vh;
+width:80%;
+height:80vw;
 font-family: var(--font1);
 font-size: var(--sizetitle);
 transition: color 4s; 
