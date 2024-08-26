@@ -144,7 +144,7 @@ $('nav li a').click(function(){
     }
   ];
 
-  const items = document.querySelectorAll(".header");
+  const items = container.querySelectorAll(".header");
 
   items.forEach((el, pos) => {
     let bttn = el.querySelector("button.particles-button");
