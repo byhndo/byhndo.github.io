@@ -127,11 +127,65 @@ $('nav li a').click(function(){
     $(this).addClass("active");
 });	
 
-gsap.to("h1, h1 .char", {
- autoAlpha: 1, 
- opacity: 1,
- duration: dur
-}); 
+
+
+(function () {
+  const arrOpts = [
+    {
+      direction: "bottom",
+      duration: 1000,
+      easing: "easeInExpo"
+    },
+
+    {
+      direction: "bottom",
+      duration: 1000,
+      easing: "easeInExpo"
+    }
+  ];
+
+  const items = document.querySelectorAll(".header");
+
+  items.forEach((el, pos) => {
+    let bttn = el.querySelector("button.particles-button");
+
+    if (!bttn) return; 
+
+    let particlesOpts = arrOpts[pos];
+    const particles = new Particles(bttn, particlesOpts);
+
+let tl = gsap.timeline()
+window.addEventListener("pageshow", ()=> {	 
+    tl.to(bttn, {
+      autoAlpha: 0,
+      onComplete: () => {
+        particles.integrate({
+          duration: 900,
+          easing: "easeOutSine"
+        });
+
+        gsap.to(bttn, {
+          duration: 1,
+          onComplete: () => {
+            bttn.style.opacity = "1";
+            bttn.style.visibility = "visible";
+          }
+        })
+      }
+    }) 
+})
+      
+    bttn.addEventListener("click", () => {
+      particles.disintegrate();
+    });
+  });
+})();
+
+
+
+
+
+	
 	
 gsap.set(".sub-title, .sub-title .char", {
  x: () => gsap.utils.random(-200, 200), 
