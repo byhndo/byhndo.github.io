@@ -132,13 +132,10 @@ $('nav li a').click(function(){
 (function () {
   const arrOpts = [
     { 
-      type: "circle",
-      style: "stroke",
+      type: "rectangle",
       direction: "bottom",
-      duration: 1200,
-      easing: 'easeOutSine',
-      speed: .7,
-      oscillationCoefficient: 5
+      duration: 1000,
+      easing: 'easeOutExpo'
     }    
   ];
 
