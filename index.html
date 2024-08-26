@@ -57,7 +57,6 @@
 </div>	
 <div id="app">
 <div :class="['bg', bg]"> 
-<main>
 <div class="transition transition-bio"></div>
 <div class="transition transition-photos"></div>                                                
 <wnav>
@@ -81,6 +80,7 @@
 </div>	
 </div>
 </header>
+<main>
 <transition appear name="slide-fade" mode="out-in" @after-enter="afterEnter" @after-leave="afterLeave">
 <!-- sub1 -->
 <div class="sub1" key="bio" v-if="bg==='bio'">
