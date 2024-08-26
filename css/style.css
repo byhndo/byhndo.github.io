@@ -207,12 +207,12 @@ h1 .char, .sub-title .char{
 
 .theme-header {
 --color-item-bg: transparent;
---color-button-bg: var(--darkgrey);
+--color-button-bg: var(--grey);
 --color-button-text: var(--light);
 --button-padding: 2rem 5rem;
 --button-margin: 0;
 --radius-button: 0;
---border-button: 0;
+--border-button: 50%;
 font-family: var(--font1);
 font-size: var(--sizetitle);
 transition: color 4s; 
