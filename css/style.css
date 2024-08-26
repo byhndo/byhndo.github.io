@@ -209,10 +209,16 @@ h1 .char, .sub-title .char{
 --color-item-bg: transparent;
 --color-button-bg: var(--dark);
 --color-button-text: var(--light);
---button-padding: 1.3rem 3.5rem;
+--button-padding: 3rem 5rem;
 --button-margin: 0;
---radius-button: 40px;
+--radius-button: 0;
 --border-button: 0;
+font-family: var(--font1);
+font-size: var(--sizetitle);
+transition: color 4s; 
+line-height:1.05;
+font-weight:var(--fwtitle);
+text-align:center;
 padding-bottom:14rem;
 }
 
