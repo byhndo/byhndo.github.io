@@ -153,14 +153,7 @@ $('nav li a').click(function(){
 
     let particlesOpts = arrOpts[pos];
     const particles = new Particles(bttn, particlesOpts);
-
-let tl = gsap.timeline({
-      scrollTrigger: {
-        trigger: bttn,
-        toggleActions: "play none none reset"
-      }
-    });
-bttn.addEventListener("click", ()=> {	 
+	 
     tl.to(bttn, {
       autoAlpha: 0,
       onComplete: () => {
@@ -178,7 +171,6 @@ bttn.addEventListener("click", ()=> {
         })
       }
     }) 
-})
       
     bttn.addEventListener("click", () => {
       particles.disintegrate();
