@@ -126,6 +126,41 @@ $('nav li a').click(function(){
     $('li a').removeClass("active");
     $(this).addClass("active");
 });	
+
+const feBlur = document.querySelector(`#noise feGaussianBlur`);
+const feDisplacementMap = document.querySelector(`#noise feDisplacementMap`);
+
+let primitiveValues = { stdDeviation: 0, scale: 0 };
+ 
+btTl = gsap.timeline({
+    defaults: {
+      duration: 1.6,
+      ease: 'expo.out',
+},
+   
+    onUpdate: function () {
+      feBlur.setAttribute('stdDeviation', primitiveValues.stdDeviation);
+      feDisplacementMap.setAttribute('scale', primitiveValues.scale); 
+    }
+  });
+
+btTl.to(primitiveValues, { 
+    startAt: { stdDeviation: 35, scale: 250 },  
+    stdDeviation: 0,  
+    scale: 0 
+  }, 0)
+
+.to("h1", {
+  duration: 1.3,
+    startAt: {
+      opacity: 0,  
+      scale: 0.8,
+      yPercent: 20
+    },
+    opacity: 1,  
+    scale: 1,
+    yPercent: 0  
+  }, 0);
 	
 gsap.set(".sub-title, .sub-title .char", {
  x: () => gsap.utils.random(-200, 200), 
