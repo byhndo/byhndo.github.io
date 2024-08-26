@@ -144,7 +144,7 @@ $('nav li a').click(function(){
     }
   ];
 
-  const items = container.querySelectorAll(".header");
+  const items = document.querySelectorAll(".header");
 
   items.forEach((el, pos) => {
     let bttn = el.querySelector("button.particles-button");
@@ -155,7 +155,7 @@ $('nav li a').click(function(){
     const particles = new Particles(bttn, particlesOpts);
 
 let tl = gsap.timeline()
-window.addEventListener("pageshow", ()=> {	 
+bttn.addEventListener("click", ()=> {	 
     tl.to(bttn, {
       autoAlpha: 0,
       onComplete: () => {
@@ -242,7 +242,7 @@ gsap.to('.indicator', {
 }
 }, "<");
 
-/*gsap.to('.header', {  
+gsap.to('.header', {  
  onComplete: () => {
   gsap.to(".header", {  
    yPercent:14,
@@ -254,7 +254,7 @@ gsap.to('.indicator', {
   }
   })
     }
- });*/
+ });
 
 const lenis = new Lenis({
   duration: 2,
