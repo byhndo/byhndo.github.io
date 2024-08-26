@@ -133,7 +133,7 @@ $('nav li a').click(function(){
   const arrOpts = [
     { 
       type: "circle",
-      style: "stoke",
+      style: "stroke",
       direction: "bottom",
       duration: 1200,
       easing: 'easeOutSine',
