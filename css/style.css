@@ -182,12 +182,13 @@ h5 {
  flex-direction: column;
 } 
 h1 { 
+ background:black;
+ padding: .5rem;
  display:inline;
  opacity:0;
  font-family: var(--font1);
  color: var(--dark);
  font-size: var(--sizetitle);
- padding: 0;
  transition: color 4s; 
  line-height:1.05;
  font-weight:var(--fwtitle);
