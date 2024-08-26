@@ -174,17 +174,6 @@ h5 {
  font-size:13px;
 }
 
-.theme-header {
---color-item-bg: transparent;
---color-button-bg: var(--dark);
---color-button-text: var(--light);
---button-padding: 1.3rem 3.5rem;
---button-margin: 0;
---radius-button: 40px;
---border-button: 0;
-padding-bottom:14rem;
-}
-
 .header{
  height:95vh;
  display:flex;
@@ -192,6 +181,7 @@ padding-bottom:14rem;
  align-items:center;
  flex-direction: column;
 } 
+
 h1 { 
  background:#686D76;
  padding: .5rem;
@@ -215,6 +205,17 @@ h1 {
 
 h1 .char, .sub-title .char{
  visibility:hidden;
+}
+
+.theme-header {
+--color-item-bg: transparent;
+--color-button-bg: var(--dark);
+--color-button-text: var(--light);
+--button-padding: 1.3rem 3.5rem;
+--button-margin: 0;
+--radius-button: 40px;
+--border-button: 0;
+padding-bottom:14rem;
 }
 
 .sub-title{
