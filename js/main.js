@@ -129,7 +129,7 @@ $('nav li a').click(function(){
 
 
 
-/*(function () {
+(function () {
   const arrOpts = [
     {
       direction: "bottom",
@@ -179,7 +179,7 @@ window.addEventListener("pageshow", ()=> {
       particles.disintegrate();
     });
   });
-})();*/
+})();
 
 
 
