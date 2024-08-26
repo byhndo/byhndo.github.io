@@ -126,12 +126,12 @@
   overflow: hidden;
 }
 
-/*.svg-filters {
+.svg-filters {
  position: absolute;
  visibility: hidden;
  width: 1px;
  height: 1px; 
-}*/
+}
 	
 html{
  background: var(--light);
@@ -207,7 +207,7 @@ h1 .char, .sub-title .char{
 
 .theme-header {
 --color-item-bg: transparent;
---color-button-bg: var(--dark);
+--color-button-bg: var(--darkgrey);
 --color-button-text: var(--light);
 --button-padding: 2rem 5rem;
 --button-margin: 0;
