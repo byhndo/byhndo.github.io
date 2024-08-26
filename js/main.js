@@ -131,17 +131,15 @@ $('nav li a').click(function(){
 
 (function () {
   const arrOpts = [
-    {
+    { 
+      type: "circle",
+      style: "stoke",
       direction: "bottom",
-      duration: 1000,
-      easing: "easeInExpo"
-    },
-
-    {
-      direction: "bottom",
-      duration: 1000,
-      easing: "easeInExpo"
-    }
+      duration: 1200,
+      easing: 'easeOutSine',
+      speed: .7,
+      oscillationCoefficient: 5
+    }    
   ];
 
   const items = document.querySelectorAll(".header");
