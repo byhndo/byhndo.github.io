@@ -153,7 +153,8 @@ $('nav li a').click(function(){
 
     let particlesOpts = arrOpts[pos];
     const particles = new Particles(bttn, particlesOpts);
-	 
+
+tl = gsap.timeline();
     tl.to(bttn, {
       autoAlpha: 0,
       onComplete: () => {
