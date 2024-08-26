@@ -183,8 +183,6 @@ h5 {
 } 
 
 h1 { 
- background:#686D76;
- padding: .5rem;
  display:inline;
  opacity:0;
  font-family: var(--font1);
