@@ -131,8 +131,7 @@ $('nav li a').click(function(){
 
 (function () {
   const arrOpts = [
-    { 
-      type: "rectangle",
+    {       
       direction: "bottom",
       duration: 1000,
       easing: 'easeOutExpo'
