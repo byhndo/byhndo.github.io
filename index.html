@@ -57,6 +57,8 @@
 </div>	
 <div id="app">
 <div :class="['bg', bg]"> 
+<div class="transition transition-bio"></div>
+<div class="transition transition-photos"></div>                                                
 <wnav>
  <nav>
  <ul>
@@ -75,8 +77,6 @@
 <div class="mouse"></div>
 </div>
 </div>	
-<div class="transition transition-bio"></div>
-<div class="transition transition-photos"></div>                                                
 </div>
 <main>	
 <transition appear name="slide-fade" mode="out-in" @after-enter="afterEnter" @after-leave="afterLeave">
