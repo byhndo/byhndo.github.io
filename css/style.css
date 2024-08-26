@@ -176,8 +176,8 @@ h5 {
 
 .theme-header {
 --color-item-bg: transparent;
---color-button-bg: var(--textloadercolor);
---color-button-text: #fff;
+--color-button-bg: var(--dark);
+--color-button-text: var(--light);
 --button-padding: 1.3rem 3.5rem;
 --button-margin: 0;
 --radius-button: 40px;
