@@ -210,10 +210,12 @@ h1 .char, .sub-title .char{
 --color-item-bg: transparent;
 --color-button-bg: var(--grey);
 --color-button-text: var(--light);
---button-padding: 4rem 4rem;
+--button-padding: 0;
 --button-margin: 0;
 --radius-button: 100%;
 --border-button: 0;
+width:70vw;
+height:70vh;
 font-family: var(--font1);
 font-size: var(--sizetitle);
 transition: color 4s; 
