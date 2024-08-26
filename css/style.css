@@ -209,9 +209,9 @@ h1 .char, .sub-title .char{
 --color-item-bg: transparent;
 --color-button-bg: var(--grey);
 --color-button-text: var(--light);
---button-padding: 2rem 5rem;
+--button-padding: 4rem 4rem;
 --button-margin: 0;
---radius-button: 50%;
+--radius-button: 100%;
 --border-button: 0;
 font-family: var(--font1);
 font-size: var(--sizetitle);
