@@ -175,15 +175,15 @@ h5 {
 }
 
 header{ 
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  flex-direction: row;
-}
-
-.header{
  height:95vh;
  max-width:100%;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ flex-direction: row;
+}
+
+.header{ 
  display:flex;
  justify-content:center;
  align-items:center;
