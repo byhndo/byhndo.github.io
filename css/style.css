@@ -220,14 +220,19 @@ h1 .char, .sub-title .char{
 --button-margin: 0;
 --radius-button: 100%;
 --border-button: 0;
-width:70vw;
-height:70vh;
+width:80vw;
+height:83vh;
 font-family: var(--font1);
 font-size: var(--sizetitle);
 transition: color 4s; 
 line-height:1.05;
 font-weight:var(--fwtitle);
 text-align:center;
+}
+
+.photos .theme-header{
+--color-button-bg: #6482AD;
+--color-button-text: var(--light);	
 }
 
 .sub-title{
