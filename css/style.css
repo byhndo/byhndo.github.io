@@ -224,7 +224,7 @@ width:80%;
 height:80vw;
 font-family: var(--font1);
 font-size: var(--sizetitle);
-transition: background 4s; 
+transition: background 1s; 
 line-height:1.05;
 font-weight:var(--fwtitle);
 text-align:center;
