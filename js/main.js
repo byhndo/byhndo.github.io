@@ -158,6 +158,7 @@ tl = gsap.timeline();
     tl.to(bttn, {
       autoAlpha: 0,
       onComplete: () => {
+	bttn.style.pointerEvents = 'none';
         particles.integrate({
           duration: 900,
           easing: "easeOutSine"
