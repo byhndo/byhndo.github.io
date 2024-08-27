@@ -203,21 +203,19 @@ h1 {
  color: var(--light);
 }
 
-h1 .char, .sub-title .char{
- visibility:hidden;
-}
-
 .sub-title{
  display:inline-block;
  opacity:0;
+ visibility:hidden;
  line-height:2.3;
  font-size:11px;
- font-family: var(--font3);
+ font-family: var(--font2);
  color: var(--soc1);
  font-weight:300;
  transition: color 4s;
  text-align:center;
  text-transform:uppercase;
+ filter: url(#noise2);
 }
 
 .photos .sub-title{
