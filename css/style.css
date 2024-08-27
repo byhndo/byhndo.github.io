@@ -126,7 +126,7 @@
   overflow: hidden;
 }
 
-svg.title, svg.trb, svg.sub {
+svg.title, svg.trb, svg.sub, svg.noise3 {
  width: 0;
  height: 0;
  position: absolute;
