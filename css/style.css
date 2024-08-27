@@ -127,9 +127,10 @@
 }
 
 svg.title, svg.sub {
- height: 0;
  width: 0;
- visibility: hidden;
+ height: 0;
+ position: absolute;
+ pointer-events: none;
 }
 	
 html{
