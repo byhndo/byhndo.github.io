@@ -345,25 +345,25 @@ const tl = gsap.timeline({
       trigger: box1, 
      toggleActions: once
     }
-  });
+  })
 
-tl.to(primitiveValues, { 
-      stdDeviation: 0,  
-      scale: 0,
-      startAt: { stdDeviation: 35, scale: 250 }
-    }, 0)
-    .to(one, {
-      duration: 1.3,
-      opacity: 1,  
-      autoAlpha: 1,
-      scale: 1,
-      yPercent: 0,
-      startAt: {
-        opacity: 0,  
-        scale: 0.8,
-        yPercent: 20
-      }
-    }, 0);
+.to(primitiveValues, { 
+    startAt: { stdDeviation: 35, scale: 250 },  
+    stdDeviation: 0,  
+    scale: 0 
+  }, 0)
+
+  .to(one, { 
+    duration: 1.3,
+    startAt: {
+      opacity: 0,  
+      scale: 0.8,
+      yPercent: 20
+    },
+    opacity: 1,  
+    scale: 1,
+    yPercent: 0  
+  }, 0);
 
 });
 		 
