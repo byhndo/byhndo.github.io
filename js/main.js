@@ -141,13 +141,13 @@ const tl = gsap.timeline({
       feBlur.setAttribute('stdDeviation', primitiveValues.stdDeviation);
       feDisplacementMap.setAttribute('scale', primitiveValues.scale); 
     }
-  });
+  })
 
-tl.to(primitiveValues, { 
+.to(primitiveValues, { 
     startAt: { stdDeviation: 30, scale: 150 },  
     stdDeviation: 0,  
     scale: 0 
-  }, 0)
+  })
 
 .to("h1", {
     startAt: {
@@ -345,15 +345,15 @@ const tl = gsap.timeline({
       trigger: box1, 
      toggleActions: "play none none reset"
     }
-  });
+  })
 
-tl.to(primitiveValues, { 
+.to(primitiveValues, { 
     startAt: { stdDeviation: 35, scale: 250 },  
     stdDeviation: 0,  
     scale: 0 
-  }, 0);
+  })
 
-tl.to(one, { 
+.to(one, { 
     duration: 1.3,
     startAt: {
       opacity: 0,  
