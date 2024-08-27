@@ -164,57 +164,39 @@ const feTurbulence = document.querySelector(`#turb feTurbulence`);
 const feDisplacementMap = document.querySelector(`#turb feDisplacementMap`);
 
 let primitiveValues = { stdDeviation: 0, scale: 0, baseFrequency: 0};
- 
+
 const tl = gsap.timeline({
     defaults: {
       duration: 2,
       ease: 'expo.out',
 },
-	
-    onUpdate: function () {
-      feBlur.setAttribute('stdDeviation', primitiveValues.stdDeviation);
+
+onUpdate: function () {
+feBlur.setAttribute('stdDeviation', primitiveValues.stdDeviation);
       feDisplacementMap.setAttribute('scale', primitiveValues.scale);
-      feTurbulence.setAttribute('baseFrequency', primitiveValues.baseFrequency);
+      feTurbulence.setAttribute('baseFrequency', primitiveValues.baseFrequency);     
     }
   })
 
 .to(primitiveValues, { 
     startAt: { 
-      stdDeviation: 90,
-      scale: 300,  
-      baseFrequency: 0.1 
+      stdDeviation: 20,  
+      scale: 100,  
+      baseFrequency: 0.1  
     },
     stdDeviation: 0,  
     scale: 0,
-    baseFrequency: 0.01
-
+    baseFrequency: 0.05
   }, 0)
 
-.to(".sub-title", { 
+  .to(".sub-title", { 
     startAt: {
-      opacity: 0,
-      scaleX: 2.4
+      opacity: 0
     },
-    opacity: 1,
-    autoAlpha:1,
-    scaleX: 1
-}, 0);
-	
-	
-gsap.set(".sub-title, .sub-title .char", {
- x: () => gsap.utils.random(-200, 200), 
- y: () => gsap.utils.random(-150, 150)
-});
-gsap.to(".sub-title, .sub-title .char", {
- autoAlpha:1,
- opacity: 1,
- duration:2,
- x: 0,
- y: 0,
- ease: easing,
- stagger: { each: 0.05, grid: 'auto', from: 'random'}
-}, ">");
-		
+    opacity: 1 ,
+    autoAlpha:1
+  }, 0);
+			
 gsap.set("wnav", {
  y:-50
 });	
