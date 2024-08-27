@@ -184,6 +184,7 @@ h1 {
  filter: url(#noise);
  display:inline;
  opacity:0;
+ visibility:hidden;
  font-family: var(--font1);
  color: var(--dark);
  font-size: var(--sizetitle);
@@ -585,6 +586,7 @@ img {
 
 .one{
  opacity:0;
+ visibility: hidden;
  margin-top:0;
  margin-bottom:0;
  text-align:center;
