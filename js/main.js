@@ -158,6 +158,48 @@ const tl = gsap.timeline({
     autoAlpha:1,
     scale: 1 
   }, 0);
+
+const feBlur = document.querySelector(`#turb feGaussianBlur`);
+const feTurbulence = document.querySelector(`#turb feTurbulence`);
+const feDisplacementMap = document.querySelector(`#turb feDisplacementMap`);
+
+let primitiveValues = { stdDeviation: 0, scale: 0, baseFrequency: 0};
+ 
+const tl = gsap.timeline({
+    defaults: {
+      duration: 2,
+      ease: 'expo.out',
+},
+	
+    onUpdate: function () {
+      feBlur.setAttribute('stdDeviation', primitiveValues.stdDeviation);
+      feDisplacementMap.setAttribute('scale', primitiveValues.scale);
+      feTurbulence.setAttribute('baseFrequency', primitiveValues.baseFrequency);
+    }
+  })
+
+.to(primitiveValues, { 
+    startAt: { 
+      stdDeviation: 90,
+      scale: 300,  
+      baseFrequency: 0.1 
+    },
+    stdDeviation: 0,  
+    scale: 0,
+    baseFrequency: 0.01
+
+  }, 0)
+
+.to(".sub-title", { 
+    startAt: {
+      opacity: 0,
+      scaleX: 2.4
+    },
+    opacity: 1,
+    autoAlpha:1,
+    scaleX: 1
+}, 0);
+	
 	
 gsap.set(".sub-title, .sub-title .char", {
  x: () => gsap.utils.random(-200, 200), 
