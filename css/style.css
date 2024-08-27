@@ -588,7 +588,7 @@ img {
  margin-top:0;
  margin-bottom:0;
  text-align:center;
- filter: url(#noise);
+ filter: url(#noise2);
 }
 
 .two{
