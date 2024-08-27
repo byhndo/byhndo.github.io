@@ -147,9 +147,9 @@ tl.to(primitiveValues, {
     startAt: { stdDeviation: 30, scale: 150 },  
     stdDeviation: 0,  
     scale: 0 
-  }, 0);
+  }, 0)
 
-tl.to("h1", {
+.to("h1", {
     startAt: {
       opacity: 0,  
       scale: 0.9      
