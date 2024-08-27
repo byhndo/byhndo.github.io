@@ -132,7 +132,7 @@ const feDisplacementMap = document.querySelector(`#noise feDisplacementMap`);
 
 let primitiveValues = { stdDeviation: 0, scale: 0 };
  
-const btTl = gsap.timeline({
+const tl = gsap.timeline({
     defaults: {
       duration: 2,
       ease: 'quint.out',
@@ -144,7 +144,7 @@ const btTl = gsap.timeline({
     }
   })
 
-.to(primitiveValues, { 
+tl.to(primitiveValues, { 
     startAt: { stdDeviation: 30, scale: 150 },  
     stdDeviation: 0,  
     scale: 0 
