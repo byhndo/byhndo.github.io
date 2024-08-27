@@ -160,8 +160,8 @@ const tl = gsap.timeline({
   }, 0);
 
 
-const feBlur = document.querySelector(`#trb feGaussianBlur`);
-const feDisplacementMap = document.querySelector(`#trb feDisplacementMap`);
+const feBlur2 = document.querySelector(`#trb feGaussianBlur`);
+const feDisplacementMap2 = document.querySelector(`#trb feDisplacementMap`);
 
 let primitiveValues = { stdDeviation: 0, scale: 0, baseFrequency: 0};
 
@@ -172,8 +172,8 @@ const tl = gsap.timeline({
 },
 
 onUpdate: function () {
- feBlur.setAttribute('stdDeviation', primitiveValues.stdDeviation);
- feDisplacementMap.setAttribute('scale', primitiveValues.scale);
+ feBlur2.setAttribute('stdDeviation', primitiveValues.stdDeviation);
+ feDisplacementMap2.setAttribute('scale', primitiveValues.scale);
     }
   })
 
