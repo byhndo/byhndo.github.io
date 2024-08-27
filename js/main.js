@@ -83,14 +83,13 @@ const once = "play none none reset";
 	
 gsap.registerPlugin(ScrollTrigger);
 	
-$('.one').each(function(){
+/*$('.one').each(function(){
   $(this).html($(this).text().replace(/\S/g, "<span>$&</span>"));
-});
+});*/
 
 $('.quote').each(function(){
   $(this).html($(this).text().replace(/\S/g, "<span>$&</span>"));
 });
-
 	
 const {
     createApp,
