@@ -147,7 +147,7 @@ const tl = gsap.timeline({
     startAt: { stdDeviation: 30, scale: 150 },  
     stdDeviation: 0,  
     scale: 0 
-  })
+  }, 0)
 
 .to("h1", {
     startAt: {
@@ -351,7 +351,7 @@ const tl = gsap.timeline({
     startAt: { stdDeviation: 35, scale: 250 },  
     stdDeviation: 0,  
     scale: 0 
-  })
+  }, 0)
 
 .to(one, { 
     duration: 1.3,
