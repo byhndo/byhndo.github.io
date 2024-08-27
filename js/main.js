@@ -135,7 +135,7 @@ let primitiveValues = { stdDeviation: 0, scale: 0 };
 btTl = gsap.timeline({
     defaults: {
       duration: 2,
-      ease: 'power4.out',
+      ease: 'quint.out',
 },
    
     onUpdate: function () {
