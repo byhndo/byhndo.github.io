@@ -205,8 +205,8 @@ h1 {
 
 .sub-title{
  display:inline-block;
- opacity:0;
- visibility:hidden;
+// opacity:0;
+ //visibility:hidden;
  line-height:2.3;
  font-size:11px;
  font-family: var(--font2);
@@ -215,7 +215,7 @@ h1 {
  transition: color 4s;
  text-align:center;
  text-transform:uppercase;
- filter: url(#trb);
+ //filter: url(#trb);
 }
 
 .photos .sub-title{
