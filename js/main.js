@@ -155,6 +155,7 @@ tl.to(primitiveValues, {
       scale: 0.9      
     },
     opacity: 1,  
+    autoAlpha:1,
     scale: 1 
   }, 0);
 	
@@ -360,6 +361,7 @@ tl.to(primitiveValues, {
       yPercent: 20
     },
     opacity: 1,  
+    autoAlpha:1,
     scale: 1,
     yPercent: 0  
   }, 0);
