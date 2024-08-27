@@ -131,9 +131,10 @@ const tl = gsap.timeline({
       feBlur.setAttribute('stdDeviation', primitiveValues.stdDeviation);
       feDisplacementMap.setAttribute('scale', primitiveValues.scale); 
     }
-  })
+  });
 
-.to(primitiveValues, { 
+window.addEventListener("pageshow", ()=>{
+tl.to(primitiveValues, { 
     startAt: { stdDeviation: 40, scale: 300 },  
     stdDeviation: 0,  
     scale: 0 
@@ -148,6 +149,7 @@ const tl = gsap.timeline({
     autoAlpha:1,
     scale: 1 
   }, 0);
+}}
 	
 (function () {
   const arrOpts = [
