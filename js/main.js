@@ -360,7 +360,8 @@ tl.to(one, {
       scale: 0.8,
       yPercent: 20
     },
-    opacity: 1,  
+    opacity: 1, 
+    autoAlpha:1,
     scale: 1,
     yPercent: 0  
   }, 0);
