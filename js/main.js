@@ -151,8 +151,8 @@ const tl = gsap.timeline({
 
 .to("h1", {
     startAt: {
-      opacity: 0,  
-      autoAlpha:1,
+      opacity: 0, 
+      autoAlpha:0,
       scale: 0.9      
     },
     opacity: 1,  
@@ -351,7 +351,7 @@ const tl = gsap.timeline({
     duration: 1.3,
     startAt: {
       opacity: 0, 
-      autoAlpha:1,
+      autoAlpha:0,
       scale: 0.8,
       yPercent: 20
     },
