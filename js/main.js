@@ -164,8 +164,7 @@ const feDisplacementMap2 = document.querySelector(`#trb feDisplacementMap`);
 
 let primitiveValues = { stdDeviation: 0, scale: 0, baseFrequency: 0 };
 
-const tl = gsap
-  .timeline({
+const tl2 = gsap.timeline({
     defaults: {
       duration: 1.7,
       ease: "expo.out"
