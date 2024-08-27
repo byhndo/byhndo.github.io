@@ -204,7 +204,6 @@ h1 {
 }
 
 .sub-title{
- filter: url(#trb);
  display:inline-block;
  opacity:0;
  visibility:hidden;
