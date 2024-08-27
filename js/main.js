@@ -159,9 +159,9 @@ const tl = gsap.timeline({
     scale: 1 
   }, 0);
 
-const feBlur = document.querySelector(`#turb feGaussianBlur`);
-const feTurbulence = document.querySelector(`#turb feTurbulence`);
-const feDisplacementMap = document.querySelector(`#turb feDisplacementMap`);
+const feBlur = document.querySelector(`#trb feGaussianBlur`);
+const feTurbulence = document.querySelector(`#trb feTurbulence`);
+const feDisplacementMap = document.querySelector(`#trb feDisplacementMap`);
 
 let primitiveValues = { stdDeviation: 0, scale: 0, baseFrequency: 0};
 
@@ -172,7 +172,7 @@ const tl = gsap.timeline({
 },
 
 onUpdate: function () {
-feBlur.setAttribute('stdDeviation', primitiveValues.stdDeviation);
+      feBlur.setAttribute('stdDeviation', primitiveValues.stdDeviation);
       feDisplacementMap.setAttribute('scale', primitiveValues.scale);
       feTurbulence.setAttribute('baseFrequency', primitiveValues.baseFrequency);     
     }
