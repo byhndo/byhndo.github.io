@@ -158,6 +158,13 @@ const tl = gsap.timeline({
     autoAlpha:1,
     scale: 1 
   }, 0);
+
+gsap.to(".sub-title", {
+ autoAlpha:1, 
+ opacity:1,
+ duration:dur, 
+ ease: easing
+}, ">");	
  			
 gsap.set("wnav", {
  y:-50
