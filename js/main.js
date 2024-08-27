@@ -343,7 +343,7 @@ const tl = gsap.timeline({
     
   scrollTrigger: {
       trigger: box1, 
-     toggleActions: once
+     toggleActions: "play none reset reset"
     }
   });
 
