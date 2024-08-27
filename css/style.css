@@ -591,6 +591,15 @@ img {
  filter: url(#noise2);
 }
 
+.one2{
+ opacity:0;
+ visibility: hidden;
+ margin-top:0;
+ margin-bottom:0;
+ text-align:center;
+ filter: url(#noise3);
+}
+
 .two{
  margin-top:var(--marginp);
  margin-bottom: var(--marginp);
