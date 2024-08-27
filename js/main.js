@@ -353,20 +353,25 @@ tl.to(primitiveValues, {
     scale: 0
   }, 0);
 
-tl.to(one, {
-  duration: 1.3,
-    startAt: {
-      opacity: 0,  
-      scale: 0.8,
-      yPercent: 20
-    },
-    opacity: 1,  
-    autoAlpha:1,
-    scale: 1,
-    yPercent: 0  
-  }, 0);
-     
- })
+tl.to(primitiveValues, { 
+      stdDeviation: 0,  
+      scale: 0,
+      startAt: { stdDeviation: 35, scale: 250 }
+    }, 0)
+    .to(one, {
+      duration: 1.3,
+      opacity: 1,  
+      autoAlpha: 1,
+      scale: 1,
+      yPercent: 0,
+      startAt: {
+        opacity: 0,  
+        scale: 0.8,
+        yPercent: 20
+      }
+    }, 0);
+
+});
 		 
 const RevealBoxs2 = container.querySelectorAll(".box2");
  RevealBoxs2.forEach((box2, i) => { 	   	   
