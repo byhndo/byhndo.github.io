@@ -136,7 +136,7 @@ const tl = gsap.timeline({
   });
 
 tl.to(primitiveValues, { 
-    startAt: { stdDeviation: 40, scale: 300 },  
+    startAt: { stdDeviation: 40, scale: 200 },  
     stdDeviation: 0,  
     scale: 0 
   }, 0)
@@ -183,7 +183,7 @@ window.addEventListener("pageshow", ()=> {
       autoAlpha: 0,
       onComplete: () => {
         particles.integrate({
-          duration: 800,
+          duration: 900,
           easing: "easeOutSine"
         });
 
