@@ -317,7 +317,7 @@ tl.to(line, {
 });	  
 	 
 const RevealBoxs1 = container.querySelectorAll(".box1");
- RevealBoxs1.forEach((box1) => { 	
+RevealBoxs1.forEach((box1) => { 	
 const one = box1.querySelectorAll(".one"); 
 const feBlur = box1.querySelector(`#noise2 feGaussianBlur`);
 const feDisplacementMap = box1.querySelector(`#noise2 feDisplacementMap`);
@@ -362,6 +362,57 @@ tl.to(primitiveValues, {
   }, 0);
 
 });
+
+
+const rboxs = container.querySelectorAll(".rbox");
+rboxs.forEach((rbox) => { 	
+const one2 = rbox.querySelectorAll(".one2"); 
+const feBlur = rbox.querySelector(`#noise3 feGaussianBlur`);
+const feDisplacementMap = rbox.querySelector(`#noise3 feDisplacementMap`);
+          
+let primitiveValues = { stdDeviation: 0, scale: 0 };
+ 
+const tl = gsap.timeline({
+    defaults: {
+      duration: 2,
+      ease: 'expo.out'
+},
+  
+  onUpdate: () => {
+      feBlur.setAttribute('stdDeviation', primitiveValues.stdDeviation);
+      feDisplacementMap.setAttribute('scale', primitiveValues.scale);
+    },  
+    
+  scrollTrigger: {
+      trigger: rbox, 
+     toggleActions: "play none none reset"
+    }, delay:.3
+  });
+
+tl.to(primitiveValues, { 
+    startAt: { stdDeviation: 35, scale: 250 },  
+    stdDeviation: 0,  
+    scale: 0 
+  }, 0)
+
+.to(one2, { 
+    duration: 1.3,
+    startAt: {
+      opacity: 0, 
+      autoAlpha:0,
+      scale: 0.8,
+      yPercent: 20
+    },
+    opacity: 1, 
+    autoAlpha:1,
+    scale: 1,
+    yPercent: 0  
+  }, 0);
+
+});
+
+
+	
 		 
 const RevealBoxs2 = container.querySelectorAll(".box2");
  RevealBoxs2.forEach((box2, i) => { 	   	   
