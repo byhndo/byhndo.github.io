@@ -145,7 +145,15 @@ tidak tahu apa-apa.&rdquo;
 </div>
 </div>
 </div>
-	
+<svg class="sub">		  
+  <filter id='noise2' x='0%' y='0%' width='100%' height='100%'>
+<feGaussianBlur in="SourceGraphic" stdDeviation="0" result="blur"></feGaussianBlur>
+<feColorMatrix in="blur" mode="matrix" values="	1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 18 -5" result="goo"></feColorMatrix>
+<feTurbulence type="fractalNoise" baseFrequency="0.07 0.3" numOctaves="1" seed="1" result="noise"></feTurbulence>
+<feDisplacementMap in="goo" in2="noise" scale="0" result="displacement"></feDisplacementMap>
+<feComposite in="SourceGraphic" in2="displacement" operator="atop"></feComposite>			 
+</filter> 
+</svg>	
 <div class="box1">
 <h3 class="one">About</h3>
 </div>
@@ -218,19 +226,28 @@ tidak tahu apa-apa.&rdquo;
 
 <!-- sub2 -->
 <div class="sub2" key="photos" v-if="bg==='photos'">
-                        <div class="box1">
-                            <h3 class="one">Photos</h3>
-                        </div>
-                        <div class="box">
-                            <div class="gr"></div>	
-                        </div>			    
-                        <div class="box2">
-                            <div class="two">
-                                <p class="sub2">
-                                    Koleksi beberapa foto momen berharga, setidaknya untuk saya, yang berhasil saya abadikan. Lebih tepatnya yang berhasil diabadikan oleh teman saya.
-                                </p>
-                            </div>
-                        </div>
+<svg class="sub">		  
+  <filter id='noise2' x='0%' y='0%' width='100%' height='100%'>
+<feGaussianBlur in="SourceGraphic" stdDeviation="0" result="blur"></feGaussianBlur>
+<feColorMatrix in="blur" mode="matrix" values="	1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 18 -5" result="goo"></feColorMatrix>
+<feTurbulence type="fractalNoise" baseFrequency="0.07 0.3" numOctaves="1" seed="1" result="noise"></feTurbulence>
+<feDisplacementMap in="goo" in2="noise" scale="0" result="displacement"></feDisplacementMap>
+<feComposite in="SourceGraphic" in2="displacement" operator="atop"></feComposite>			 
+</filter> 
+</svg>
+<div class="box1">
+<h3 class="one">Photos</h3>
+</div>
+<div class="box">
+<div class="gr"></div>	
+</div>			    
+<div class="box2">
+<div class="two">
+<p class="sub2">
+Koleksi beberapa foto momen berharga, setidaknya untuk saya, yang berhasil saya abadikan. Lebih tepatnya yang berhasil diabadikan oleh teman saya.
+</p>
+</div>
+</div>
                         
 <div class="grid">	
 <div class='item c-transition c-transition--center'>
