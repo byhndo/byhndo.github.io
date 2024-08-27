@@ -215,7 +215,7 @@ h1 {
  transition: color 4s;
  text-align:center;
  text-transform:uppercase;
- filter: url(#turb);
+ filter: url(#trb);
 }
 
 .photos .sub-title{
