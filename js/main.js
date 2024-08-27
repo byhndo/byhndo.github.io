@@ -351,9 +351,9 @@ tl.to(primitiveValues, {
     startAt: { stdDeviation: 35, scale: 250 },  
     stdDeviation: 0,  
     scale: 0 
-  }, 0)
+  }, 0);
 
-  .to(one, { 
+tl.to(one, { 
     duration: 1.3,
     startAt: {
       opacity: 0,  
