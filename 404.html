@@ -177,12 +177,12 @@ window.addEventListener("pageshow", ()=> {
       autoAlpha: 0,
       onComplete: () => {
         particles.integrate({
-          duration: 800,
+          duration: 900,
           easing: "easeOutSine"
         });
 
         gsap.to(bttn, {
-          duration: .95,
+          duration: 1,
           onComplete: () => {
             bttn.style.opacity = "1";
             bttn.style.visibility = "visible";
