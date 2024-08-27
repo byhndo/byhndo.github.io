@@ -90,6 +90,7 @@
 <transition appear name="slide-fade" mode="out-in" @after-enter="afterEnter" @after-leave="afterLeave">
 <!-- sub1 -->
 <div class="sub1" key="bio" v-if="bg==='bio'">
+<div class="box1">
 <svg class="sub">		  
   <filter id='noise2' x='0%' y='0%' width='100%' height='100%'>
 <feGaussianBlur in="SourceGraphic" stdDeviation="0" result="blur"></feGaussianBlur>
@@ -99,7 +100,6 @@
 <feComposite in="SourceGraphic" in2="displacement" operator="atop"></feComposite>			 
 </filter> 
 </svg>
-<div class="box1">
 <h3 class="one">Hello!</h3>
 </div>
 <div class="box">
@@ -145,6 +145,7 @@ tidak tahu apa-apa.&rdquo;
 </div>
 </div>
 </div>
+<div class="box1">
 <svg class="sub">		  
   <filter id='noise2' x='0%' y='0%' width='100%' height='100%'>
 <feGaussianBlur in="SourceGraphic" stdDeviation="0" result="blur"></feGaussianBlur>
@@ -154,7 +155,6 @@ tidak tahu apa-apa.&rdquo;
 <feComposite in="SourceGraphic" in2="displacement" operator="atop"></feComposite>			 
 </filter> 
 </svg>	
-<div class="box1">
 <h3 class="one">About</h3>
 </div>
 <div class="box">
@@ -226,6 +226,7 @@ tidak tahu apa-apa.&rdquo;
 
 <!-- sub2 -->
 <div class="sub2" key="photos" v-if="bg==='photos'">
+<div class="box1">
 <svg class="sub">		  
   <filter id='noise2' x='0%' y='0%' width='100%' height='100%'>
 <feGaussianBlur in="SourceGraphic" stdDeviation="0" result="blur"></feGaussianBlur>
@@ -235,7 +236,6 @@ tidak tahu apa-apa.&rdquo;
 <feComposite in="SourceGraphic" in2="displacement" operator="atop"></feComposite>			 
 </filter> 
 </svg>
-<div class="box1">
 <h3 class="one">Photos</h3>
 </div>
 <div class="box">
