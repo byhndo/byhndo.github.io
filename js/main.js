@@ -158,44 +158,45 @@ const tl = gsap.timeline({
     autoAlpha:1,
     scale: 1 
   }, 0);
-
-
+ 
 const feBlur2 = document.querySelector(`#trb feGaussianBlur`);
 const feDisplacementMap2 = document.querySelector(`#trb feDisplacementMap`);
 
-let primitiveValues = { stdDeviation: 0, scale: 0, baseFrequency: 0};
+let primitiveValues = { stdDeviation: 0, scale: 0, baseFrequency: 0 };
 
-const tl = gsap.timeline({
+const tl = gsap
+  .timeline({
     defaults: {
       duration: 1.7,
-      ease: 'expo.out',
-},
+      ease: "expo.out"
+    },
 
-onUpdate: function () {
- feBlur2.setAttribute('stdDeviation', primitiveValues.stdDeviation);
- feDisplacementMap2.setAttribute('scale', primitiveValues.scale);
+    onUpdate: function () {
+      feBlur2.setAttribute("stdDeviation", primitiveValues.stdDeviation);
+      feDisplacementMap2.setAttribute("scale", primitiveValues.scale);
     }
   })
 
-.to(primitiveValues, { 
-    startAt: { stdDeviation: 35, scale: 250 },  
-    stdDeviation: 0,  
-    scale: 0 
-  }, 0)
+.to(
+    primitiveValues,
+    {
+      startAt: { stdDeviation: 35, scale: 250 },
+      stdDeviation: 0,
+      scale: 0
+    }, 0)
 
-.to(".sub-title", { 
-    duration: 1.3,
-    startAt: {
-      opacity: 0,  
-      scale: 0.8,
-      yPercent: 20
-    },
-    opacity: 1,
-    autoAlpha:1,
-    scale: 1,
-    yPercent: 0  
-}, 0);
-	
+.to(".sub-title", {
+      duration: 1.3,
+      startAt: {
+        opacity: 0,
+        scale: 0.8,
+        yPercent: 20
+      },
+      opacity: 1,
+      autoAlpha: 1,
+      scale: 1,
+      yPercent: 0
+}, 0);	
 			
 gsap.set("wnav", {
  y:-50
