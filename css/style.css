@@ -591,11 +591,6 @@ img {
  filter: url(#noise);
 }
 
-.one span{
- display: inline-block;
- opacity:0;
-}
-
 .two{
  margin-top:var(--marginp);
  margin-bottom: var(--marginp);
