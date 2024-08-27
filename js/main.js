@@ -344,7 +344,7 @@ const tl = gsap.timeline({
   scrollTrigger: {
       trigger: box1, 
      toggleActions: "play none none reset"
-    }
+    }, delay:.3
   })
 
 .to(primitiveValues, { 
