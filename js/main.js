@@ -339,7 +339,7 @@ const tl = gsap.timeline({
       trigger: box1, 
      toggleActions: "play none none reset"
     }, delay:.3
-  })
+  });
 
 tl.to(primitiveValues, { 
     startAt: { stdDeviation: 35, scale: 250 },  
