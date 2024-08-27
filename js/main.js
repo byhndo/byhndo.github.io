@@ -133,7 +133,7 @@ let primitiveValues = { stdDeviation: 0, scale: 0 };
  
 const tl = gsap.timeline({
     defaults: {
-      duration: 2,
+      duration: 2.5,
       ease: 'quint.out',
 },
    
@@ -332,7 +332,7 @@ let primitiveValues = { stdDeviation: 0, scale: 0 };
  
 const tl = gsap.timeline({
     defaults: {
-      duration: 1.6,
+      duration: 2,
       ease: 'expo.out'
 },
   
