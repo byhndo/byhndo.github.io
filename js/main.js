@@ -229,6 +229,7 @@ tl.to(bttn, {
           duration: 800,
           easing: "easeInOutSine"
         });      
+}
 })
 })
 	
