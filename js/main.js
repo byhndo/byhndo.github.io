@@ -216,7 +216,11 @@ const items = document.querySelectorAll(".nav");
     const particles = new Particles(bttn, particlesOpts);
 
 let tl = gsap.timeline()
-	      
+     tl.to(items, {
+       autoAlpha: 1,
+       opacity:1
+        });
+	       
       tl.to(bttn, {
        autoAlpha: 0,
        onComplete: () => {
