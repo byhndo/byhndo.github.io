@@ -365,22 +365,14 @@ wrapnav{
 }
 
 .link-bio{
- background:transparent; 
- color:var(--light);
  border-radius:30px; 
  transition-delay: 1s;
  transition: 2s;
 }
 .link-photos{
- background: transparent;
- color:var(--light);
  border-radius: 30px;
  transition-delay: 1s;
  transition: 2s;
-}
-
-.photos .link-bio, .photos .link-photos{
- color:var(--light);	
 }
 
 .transition {
