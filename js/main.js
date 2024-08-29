@@ -217,7 +217,7 @@ const items = document.querySelectorAll(".nav");
 
 let tl = gsap.timeline()
 
-    tl.to("wrapnav, .link-bio, .link-photos", {
+    tl.to(items, {
       autoAlpha: 1,
       opacity:1
       });
