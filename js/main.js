@@ -240,13 +240,12 @@ tl.to(items, {
           }
         })
       }
-    })     
-
+    })   
+ })
+	
     bttn.addEventListener("click", () => {
       particles.disintegrate();
     });
-
-  })
 	  
   });
 })();
