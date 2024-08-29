@@ -222,9 +222,10 @@ tl.to(items, {
        opacity:1
         });
 
-window.addEventListener("scroll", ()=> {  
+window.addEventListener("mouseover", ()=> {  
   tl.to(bttn, {
-      onComplete: () => {
+      autoAlpha:0,
+      onComplete: () => {	
         particles.integrate({
           duration: 800,
           easing: "easeInOutSine"
