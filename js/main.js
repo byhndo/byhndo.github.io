@@ -121,59 +121,6 @@ $('html, body').css({
 	
 Splitting();
 	
-/*$('nav li a').click(function(){
-    $('li a').removeClass("active");
-    $(this).addClass("active");
-});*/	
- 	
-(function () {
-  const arrOpts = [
-    {
-      direction: "top",
-      duration: 1000,
-      easing: "easeInExpo"
-    }
-  ];
-
-  const items = document.querySelectorAll(".nav");
-
-  items.forEach((el, pos) => {
-    let bttn = el.querySelector(".particles-button");
-
-    if (!bttn) return;
-
-    let particlesOpts = arrOpts[pos];
-
-    const particles = new Particles(bttn, particlesOpts);
-
-    let tl = gsap.timeline();
-
-    window.addEventListener("pageshow", () => {
-      tl.to(bttn, {
-        autoAlpha: 0,
-        onComplete: () => {
-          particles.integrate({
-            duration: 800,
-            easing: "easeInOutSine"
-          });
-
-          gsap.to(bttn, {
-            duration: 1,
-            onComplete: () => {
-              bttn.style.opacity = "1";
-              bttn.style.visibility = "visible";
-            }
-          });
-        }
-      });
-    });
-    
-  });
-})();
-
-
-
-
 const feBlur = document.querySelector(`#noise feGaussianBlur`);
 const feDisplacementMap = document.querySelector(`#noise feDisplacementMap`);
 
@@ -243,6 +190,57 @@ gsap.to('.indicator', {
  });
 }
 }, "<");
+
+
+
+(function () {
+  const arrOpts = [
+    {
+      direction: "top",
+      duration: 1000,
+      easing: "easeInExpo"
+    }
+  ];
+
+  const items = document.querySelectorAll(".nav");
+
+  items.forEach((el, pos) => {
+    let bttn = el.querySelector(".particles-button");
+
+    if (!bttn) return;
+
+    let particlesOpts = arrOpts[pos];
+
+    const particles = new Particles(bttn, particlesOpts);
+
+    let tl = gsap.timeline();
+
+    window.addEventListener("pageshow", () => {
+      tl.to(bttn, {
+        autoAlpha: 0,
+        onComplete: () => {
+          particles.integrate({
+            duration: 800,
+            easing: "easeInOutSine"
+          });
+
+          gsap.to(bttn, {
+            duration: 1,
+            onComplete: () => {
+              bttn.style.opacity = "1";
+              bttn.style.visibility = "visible";
+            }
+          });
+        }
+      });
+    });
+    
+  });
+})();
+
+
+
+	
 
 gsap.to('.header', {  
  onComplete: () => {
