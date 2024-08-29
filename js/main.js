@@ -230,6 +230,7 @@ tl.to(bttn, {
           easing: "easeInOutSine"
         });      
 })
+})
 	
       tl.to(bttn, {
        onComplete: () => {
