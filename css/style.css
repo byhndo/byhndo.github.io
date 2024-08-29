@@ -349,7 +349,7 @@ wrapnav{
  display:flex;
  justify-content:center;
  align-items:center;
- padding: .7rem;
+ padding: .5rem;
  visibility:hidden;
  opacity:0;
 } 
