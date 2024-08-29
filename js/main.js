@@ -223,7 +223,11 @@ tl.to(items, {
         });
 
 window.addEventListener("mouseover", ()=> {  
-  	       
+      particles.integrate({
+          duration: 800,
+          easing: "easeInOutSine"
+        });
+})	       
       tl.to(bttn, {
        onComplete: () => {
         particles.integrate({
@@ -244,8 +248,6 @@ window.addEventListener("mouseover", ()=> {
     bttn.addEventListener("click", () => {
       particles.disintegrate();
     });
-
-  })
 	  
   });
 })();
