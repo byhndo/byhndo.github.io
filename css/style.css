@@ -345,9 +345,9 @@ a:hover, a:active{
  transition: 2s;
 }
 .link-photos{
- background:transparent;
+ background: var(--darkgrey);
  color:var(--dark);
- border:1px solid var(--dark);
+ //border:1px solid var(--dark);
  border-radius: 30px;
  transition-delay: 1s;
  transition: 2s;
@@ -355,7 +355,7 @@ a:hover, a:active{
 
 .photos .link-bio, .photos .link-photos{
  color:var(--light);
- border:1px solid var(--light);	
+ //border:1px solid var(--light);	
 }
 
 .transition {
@@ -429,10 +429,6 @@ nav a {
  text-transform: uppercase;
  font-size: var(--sizenav);
  font-weight: var(--fwnav);
-}
-
-nav li a{
- background: var(--dark);
 }
 
 nav li a:hover, nav li a:active, nav li a:focus{
