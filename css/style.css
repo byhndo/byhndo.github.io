@@ -321,10 +321,10 @@ a:hover, a:active{
 }
 
 .bg {
-    background:inherit;
-    min-height: 100vh;
-    padding: 0;
-    transition: background 0s 1s, color .6s;
+ background:inherit;
+ min-height: 100vh;
+ padding: 0;
+ transition: background 0s 1s, color .6s;
 }
 
 .bio{
@@ -362,17 +362,6 @@ wrapnav{
  font-size:10px;
  position:relative;
  top:10px;
-}
-
-.link-bio{
- border-radius:30px; 
- transition-delay: 1s;
- transition: 2s;
-}
-.link-photos{
- border-radius: 30px;
- transition-delay: 1s;
- transition: 2s;
 }
 
 .transition {
