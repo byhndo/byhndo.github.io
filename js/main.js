@@ -167,17 +167,59 @@ gsap.to(".sub-title", {
  ease: easing
 }, ">");	
  			
-gsap.set("wnav", {
- y:-50
-});	
-gsap.to("wnav", {
- autoAlpha:1, 
- opacity:1,
- duration:dur, 
- y:0,
- ease: easing,
- transformOrigin: "center center"
-}, ">");
+
+(function () {
+  const arrOpts = [
+    {
+      direction: "top",
+      duration: 1000,
+      easing: "easeInExpo"
+    }
+  ];
+
+  const items = document.querySelectorAll("wnav");
+
+  items.forEach((el, pos) => {
+    let bttn = el.querySelector("button.particles-button");
+
+    if (!bttn) return;
+
+    let particlesOpts = arrOpts[pos];
+
+    const particles = new Particles(bttn, particlesOpts);
+
+    let tl = gsap.timeline();
+
+    window.addEventListener("pageshow", () => {
+      tl.to(bttn, {
+        autoAlpha: 0,
+        onComplete: () => {
+          particles.integrate({
+            duration: 800,
+            easing: "easeInOutSine"
+          });
+
+          gsap.to(bttn, {
+            duration: 1,
+            onComplete: () => {
+              bttn.style.opacity = "1";
+              bttn.style.visibility = "visible";
+            }
+          });
+        }
+      });
+    });
+
+    bttn.addEventListener("click", () => {
+      particles.disintegrate();
+    });
+  });
+})();
+
+
+
+
+	
 	
 gsap.set('.indicator', {
  y:-100	
