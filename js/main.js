@@ -231,19 +231,18 @@ window.addEventListener("mouseover", ()=> {
           easing: "easeInOutSine"
         });
 
-        gsap.to(bttn, {
+       /* gsap.to(bttn, {
           duration: 1,
           onComplete: () => {
             bttn.style.opacity = "1";
             bttn.style.visibility = "visible";
           }
-        })
+        })*/
       }
     }) 
   })
 	       
       tl.to(bttn, {
-       autoAlpha: 0,
        onComplete: () => {
         particles.integrate({
           duration: 800,
