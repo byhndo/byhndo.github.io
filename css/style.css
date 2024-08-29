@@ -337,7 +337,7 @@ a:hover, a:active{
 }
 
 .link-bio{
- background:transparent; 
+ background:var(--darkgrey); 
  color:var(--dark);
  border:1px solid var(--dark);
  border-radius:30px; 
