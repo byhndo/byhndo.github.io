@@ -224,19 +224,15 @@ tl.to(items, {
 
 window.addEventListener("mouseover", ()=> {  
   tl.to(bttn, {
-      onComplete: () => {
-	tl.to(bttn, {
-	autoAlpha:0,
-	onComplete : ()=> {  
+       onComplete: () => {
         particles.integrate({
           duration: 800,
           easing: "easeInOutSine"
         });
-	   }
-	})
-
+	
         gsap.to(bttn, {
           duration: 1,
+	  autoAlpha:0,
           onComplete: () => {
             bttn.style.opacity = "1";
             bttn.style.visibility = "visible";
