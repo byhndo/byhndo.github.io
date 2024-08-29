@@ -167,10 +167,7 @@ $('nav li a').click(function(){
         }
       });
     });
-
-    bttn.addEventListener("click", () => {
-      particles.disintegrate();
-    });
+    
   });
 })();
 
