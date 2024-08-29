@@ -177,7 +177,7 @@ gsap.to(".sub-title", {
     }
   ];
 
-  const items = document.querySelectorAll("ul");
+  const items = document.querySelectorAll("ul.theme");
 
   items.forEach((el, pos) => {
     let bttn = el.querySelector("button.particles-button");
