@@ -408,8 +408,6 @@ wnav{
  padding:10px;
  border-radius:30px;
  background:transparent;
- visibility:hidden;
- opacity:0;
  backdrop-filter: blur(5px);
 }
 nav { 
