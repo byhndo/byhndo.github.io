@@ -60,14 +60,10 @@
 <div class="transition transition-bio"></div>
 <div class="transition transition-photos"></div>                                                
 <main>	
-<wnav>
- <nav>
- <ul>
- <li><a class="link-bio" href="#" @click="bg = 'bio'"><div class="particles-button>Bio</div></a></li> 
- <li><a class="link-bio" href="#" @click="bg = 'photos'"><div class="particles-button>Foto</div></a></li>                                         
- </ul>
- </nav> 
-</wnav>	
+<nav class="theme">
+ <a class="link-bio" href="#" @click="bg = 'bio'"><div class="particles-button">Bio</div></a>
+ <a class="link-photos" href="#" @click="bg = 'photos'"><div class="particles-button">Foto</div></a>                                         
+</nav>	
 <div class="header">
 <svg class="title">
 <defs>
