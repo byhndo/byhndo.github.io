@@ -135,7 +135,7 @@ $('nav li a').click(function(){
     }
   ];
 
-  const items = document.querySelectorAll(".link-bio");
+  const items = document.querySelectorAll("li.theme");
 
   items.forEach((el, pos) => {
     let bttn = el.querySelector("button.particles-button");
