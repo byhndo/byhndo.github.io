@@ -121,10 +121,10 @@ $('html, body').css({
 	
 Splitting();
 	
-$('nav li a').click(function(){
+/*$('nav li a').click(function(){
     $('li a').removeClass("active");
     $(this).addClass("active");
-});	
+});*/	
  	
 (function () {
   const arrOpts = [
@@ -135,7 +135,7 @@ $('nav li a').click(function(){
     }
   ];
 
-  const items = document.querySelectorAll("wnav.theme");
+  const items = document.querySelectorAll(".theme");
 
   items.forEach((el, pos) => {
     let bttn = el.querySelector(".particles-button");
