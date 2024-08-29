@@ -423,7 +423,7 @@ nav li {
 
 nav a {    
  display: block;
- color: var(--light);
+ color: var(--dark);
  padding:.3rem 0 .17rem;
  text-decoration: none;
  text-transform: uppercase;
@@ -436,7 +436,7 @@ nav li a:hover, nav li a:active, nav li a:focus{
 }
 
 li a.active{
- background:var(--darkgrey);
+ background:var(--grey);
 }
 
 .photos li a.active{
