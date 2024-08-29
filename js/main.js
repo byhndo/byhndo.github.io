@@ -205,7 +205,7 @@ gsap.to('.indicator', {
 const items = document.querySelectorAll(".theme");
 
 items.forEach((el, pos) => {
-let bttn = el.querySelector(".particles-button");
+let bttn = el.querySelector("button.particles-button");
 
 if (!bttn) return;
 
