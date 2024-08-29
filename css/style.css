@@ -348,14 +348,14 @@ a:hover, a:active{
   //padding-bottom: 14rem;
 }
 
-#link-bio{
+.link-bio{
  background:var(--darkgrey); 
  color:var(--light);
  border-radius:30px; 
  transition-delay: 1s;
  transition: 2s;
 }
-#link-photos{
+.link-photos{
  background: var(--darkgrey);
  color:var(--light);
  border-radius: 30px;
@@ -400,8 +400,13 @@ a:hover, a:active{
 .photos .transition-photos {
     transform: scale(1) translateX(0);
 }
-wnav{
+
+nav{
  position:fixed;
+ display:flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items:center;
  top:10px;
  left:17%;
  right:17%;
@@ -410,23 +415,9 @@ wnav{
  border-radius:30px;
  background:transparent;
  backdrop-filter: blur(5px);
-}
-nav { 
  font-family: var(--font2);
 }
 
-nav ul {
- list-style: none;
- display: flex;
- text-align: center;
- margin: 0;
- padding: 0;  
-}
-
-nav li {
- flex:1 0 .75rem;
- margin:0 5px 0 5px;
-}
 
 nav a {    
  display: block;
@@ -438,15 +429,15 @@ nav a {
  font-weight: var(--fwnav);
 }
 
-nav li a:hover, nav li a:active, nav li a:focus{
+nav a:hover, nav  a:active, nav a:focus{
  opacity:1;
 }
 
-/*li a.active{
+/*a.active{
  background:var(--grey);
 }
 
-.photos li a.active{
+.photos a.active{
  background:var(--darkgrey);
 }*/
 
