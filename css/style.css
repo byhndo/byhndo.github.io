@@ -338,15 +338,15 @@ a:hover, a:active{
 
 .link-bio{
  background:var(--darkgrey); 
- color:var(--dark);
- border:1px solid var(--dark);
+ color:var(--light);
+//border:1px solid var(--dark);
  border-radius:30px; 
  transition-delay: 1s;
  transition: 2s;
 }
 .link-photos{
  background: var(--darkgrey);
- color:var(--dark);
+ color:var(--light);
  //border:1px solid var(--dark);
  border-radius: 30px;
  transition-delay: 1s;
