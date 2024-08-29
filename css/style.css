@@ -423,13 +423,16 @@ nav li {
 
 nav a {    
  display: block;
- background: var(--dark);
  color: var(--darkgrey);
  padding:.3rem 0 .17rem;
  text-decoration: none;
  text-transform: uppercase;
  font-size: var(--sizenav);
  font-weight: var(--fwnav);
+}
+
+nav li{
+ background: var(--dark);
 }
 
 nav li a:hover, nav li a:active, nav li a:focus{
