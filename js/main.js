@@ -217,8 +217,7 @@ const items = document.querySelectorAll(".nav");
 
 let tl = gsap.timeline()
 
-window.addEventListener("pageshow", ()=> {	 
-     tl.to("wrapnav, .link-bio, .link-photos", {
+    tl.to("wrapnav, .link-bio, .link-photos", {
       autoAlpha: 1,
       opacity:1
       });
@@ -239,8 +238,7 @@ window.addEventListener("pageshow", ()=> {
           }
         })
       }
-    }) 
-})     
+    })     
 
     bttn.addEventListener("click", () => {
       particles.disintegrate();
@@ -450,9 +448,6 @@ tl.to(primitiveValues, {
   }, 0);
 
 });
-
-
-	
 		 
 const RevealBoxs2 = container.querySelectorAll(".box2");
  RevealBoxs2.forEach((box2, i) => { 	   	   
