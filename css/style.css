@@ -431,7 +431,7 @@ nav a {
  font-weight: var(--fwnav);
 }
 
-nav li{
+nav li a{
  background: var(--dark);
 }
 
