@@ -191,8 +191,6 @@ gsap.to('.indicator', {
 }
 }, "<");
 
-
-
 (function () {
 
   const arrOpts = [    
@@ -220,9 +218,14 @@ const items = document.querySelectorAll(".nav");
 let tl = gsap.timeline()
 
 window.addEventListener("pageshow", ()=> {	 
-    tl.to(bttn, {
-      autoAlpha: 0,
-      onComplete: () => {
+     tl.to(items, {
+      autoAlpha: 1,
+      opacity:1
+      });
+	      
+      tl.to(bttn, {
+       autoAlpha: 0,
+       onComplete: () => {
         particles.integrate({
           duration: 800,
           easing: "easeInOutSine"
@@ -244,11 +247,7 @@ window.addEventListener("pageshow", ()=> {
     });
   });
 })();
-
-
-
 	
-
 gsap.to('.header', {  
  onComplete: () => {
   gsap.to(".header", {  
