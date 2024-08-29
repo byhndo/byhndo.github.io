@@ -218,7 +218,7 @@ const items = document.querySelectorAll(".nav");
 let tl = gsap.timeline()
 
 window.addEventListener("pageshow", ()=> {	 
-     tl.to(items, {
+     tl.to("wrapnav", {
       autoAlpha: 1,
       opacity:1
       });
