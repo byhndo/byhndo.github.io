@@ -217,10 +217,10 @@ const items = document.querySelectorAll(".nav");
 
 let tl = gsap.timeline()
 
-    tl.to(items, {
+    /*tl.to(items, {
       autoAlpha: 1,
       opacity:1
-      });
+      });*/
 	      
       tl.to(bttn, {
        autoAlpha: 0,
