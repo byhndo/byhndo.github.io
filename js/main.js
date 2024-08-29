@@ -224,20 +224,24 @@ tl.to(items, {
 
 window.addEventListener("mouseover", ()=> {  
   tl.to(bttn, {
-      autoAlpha:0,
-      onComplete: () => {	
+      onComplete: () => {
+	tl.to(bttn, {
+	autoAlpha:0,
+	onComplete : ()=> {  
         particles.integrate({
           duration: 800,
           easing: "easeInOutSine"
         });
+	   }
+	})
 
-       /* gsap.to(bttn, {
+        gsap.to(bttn, {
           duration: 1,
           onComplete: () => {
             bttn.style.opacity = "1";
             bttn.style.visibility = "visible";
           }
-        })*/
+        })
       }
     }) 
   })
