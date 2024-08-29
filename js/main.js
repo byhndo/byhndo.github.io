@@ -221,6 +221,26 @@ tl.to(items, {
        autoAlpha: 1,
        opacity:1
         });
+
+window.addEventListener("mouseout", ()=> {
+  
+  tl.to(bttn, {
+      onComplete: () => {
+        particles.integrate({
+          duration: 800,
+          easing: "easeInOutSine"
+        });
+
+        gsap.to(bttn, {
+          duration: 1,
+          onComplete: () => {
+            bttn.style.opacity = "1";
+            bttn.style.visibility = "visible";
+          }
+        })
+      }
+    }) 
+  })
 	       
       tl.to(bttn, {
        autoAlpha: 0,
