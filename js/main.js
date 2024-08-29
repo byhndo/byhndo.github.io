@@ -125,49 +125,7 @@ $('nav li a').click(function(){
     $('li a').removeClass("active");
     $(this).addClass("active");
 });	
-
-const feBlur = document.querySelector(`#noise feGaussianBlur`);
-const feDisplacementMap = document.querySelector(`#noise feDisplacementMap`);
-
-let primitiveValues = { stdDeviation: 0, scale: 0 };
- 
-const tl = gsap.timeline({
-    defaults: {
-      duration: 2.5,
-      ease: 'quint.out',
-},
-   
-    onUpdate: function () {
-      feBlur.setAttribute('stdDeviation', primitiveValues.stdDeviation);
-      feDisplacementMap.setAttribute('scale', primitiveValues.scale); 
-    }
-  })
-
-tl.to(primitiveValues, { 
-    startAt: { stdDeviation: 30, scale: 150 },  
-    stdDeviation: 0,  
-    scale: 0 
-  }, 0)
-
-.to("h1", {
-    startAt: {
-      opacity: 0, 
-      autoAlpha:0,
-      scale: 0.9      
-    },
-    opacity: 1,  
-    autoAlpha:1,
-    scale: 1 
-  }, 0);
-
-gsap.to(".sub-title", {
- autoAlpha:1, 
- opacity:1,
- duration:dur, 
- ease: easing
-}, ">");	
- 			
-
+ 	
 (function () {
   const arrOpts = [
     {
@@ -219,7 +177,46 @@ gsap.to(".sub-title", {
 
 
 
-	
+const feBlur = document.querySelector(`#noise feGaussianBlur`);
+const feDisplacementMap = document.querySelector(`#noise feDisplacementMap`);
+
+let primitiveValues = { stdDeviation: 0, scale: 0 };
+ 
+const tl = gsap.timeline({
+    defaults: {
+      duration: 2.5,
+      ease: 'quint.out',
+},
+   
+    onUpdate: function () {
+      feBlur.setAttribute('stdDeviation', primitiveValues.stdDeviation);
+      feDisplacementMap.setAttribute('scale', primitiveValues.scale); 
+    }
+  })
+
+tl.to(primitiveValues, { 
+    startAt: { stdDeviation: 30, scale: 150 },  
+    stdDeviation: 0,  
+    scale: 0 
+  }, 0)
+
+.to("h1", {
+    startAt: {
+      opacity: 0, 
+      autoAlpha:0,
+      scale: 0.9      
+    },
+    opacity: 1,  
+    autoAlpha:1,
+    scale: 1 
+  }, 0);
+
+gsap.to(".sub-title", {
+ autoAlpha:1, 
+ opacity:1,
+ duration:dur, 
+ ease: easing
+}, ">");		
 	
 gsap.set('.indicator', {
  y:-100	
