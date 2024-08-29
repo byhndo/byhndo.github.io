@@ -202,40 +202,45 @@ gsap.to('.indicator', {
     }
   ];
 
-  const items = document.querySelectorAll(".theme");
+const items = document.querySelectorAll(".theme");
 
-  items.forEach((el, pos) => {
-    let bttn = el.querySelector(".particles-button");
+items.forEach((el, pos) => {
+let bttn = el.querySelector(".particles-button");
 
-    if (!bttn) return;
+if (!bttn) return;
 
-    let particlesOpts = arrOpts[pos];
+let particlesOpts = arrOpts[pos];
 
-    const particles = new Particles(bttn, particlesOpts);
+const particles = new Particles(bttn, particlesOpts);
 
-    let tl = gsap.timeline();
+let tl = gsap.timeline();
 
-    window.addEventListener("pageshow", () => {
-      tl.to(bttn, {
-        autoAlpha: 0,
-        onComplete: () => {
-          particles.integrate({
-            duration: 800,
-            easing: "easeInOutSine"
-          });
+window.addEventListener("pageshow", () => {
+tl.to(items, {
+ autoAlpha: 1,
+ opacity:1
+});
+	    
+tl.to(bttn, {
+ autoAlpha: 0,
+ onComplete: () => {
+  particles.integrate({
+  duration: 800,
+  easing: "easeInOutSine"
+ });
 
-          gsap.to(bttn, {
-            duration: 1,
-            onComplete: () => {
-              bttn.style.opacity = "1";
-              bttn.style.visibility = "visible";
+gsap.to(bttn, {
+ duration: 1,
+ onComplete: () => {
+  bttn.style.opacity = "1";
+  bttn.style.visibility = "visible";
             }
-          });
-        }
-      });
-    });
+ });
+}
+});
+});
     
-  });
+});
 })();
 
 
