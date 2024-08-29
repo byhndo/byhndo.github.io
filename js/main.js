@@ -135,7 +135,7 @@ $('nav li a').click(function(){
     }
   ];
 
-  const items = document.querySelectorAll("li.theme");
+  const items = document.querySelectorAll("wnav.theme");
 
   items.forEach((el, pos) => {
     let bttn = el.querySelector("button.particles-button");
