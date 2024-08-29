@@ -177,7 +177,7 @@ gsap.to(".sub-title", {
     }
   ];
 
-  const items = document.querySelectorAll("wnav");
+  const items = document.querySelectorAll("nav");
 
   items.forEach((el, pos) => {
     let bttn = el.querySelector("button.particles-button");
