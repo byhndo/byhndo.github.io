@@ -416,8 +416,9 @@ nav{
  background:transparent;
  backdrop-filter: blur(5px);
  font-family: var(--font2);
+ visibility:hidden;
+ opacity:0;
 }
-
 
 nav a {    
  display: block;
