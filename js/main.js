@@ -222,7 +222,7 @@ tl.to(items, {
        opacity:1
         });
 
-window.addEventListener("mouseout", ()=> {  
+window.addEventListener("mouseleave", ()=> {  
   tl.to(bttn, {
       onComplete: () => {
         particles.integrate({
