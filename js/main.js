@@ -228,9 +228,17 @@ tl.to(bttn, {
         particles.integrate({
           duration: 800,
           easing: "easeInOutSine"
-        });      
-}
-})
+        });
+
+        gsap.to(bttn, {
+          duration: 1,
+          onComplete: () => {
+            bttn.style.opacity = "1";
+            bttn.style.visibility = "visible";
+          }
+        })
+      }
+    })   
 })
 	
       tl.to(bttn, {
