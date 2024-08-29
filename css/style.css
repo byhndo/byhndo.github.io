@@ -263,6 +263,7 @@ h1 {
  transition:color 4s;
  animation: ani-mouse 2s linear infinite;
 }
+
 .mouse > * {
  position: absolute;
  display: block;
@@ -352,7 +353,7 @@ wrapnav{
 } 
 
 .theme {
- --color-item-bg: brown;
+ --color-item-bg: transparent;
  --color-button-bg: #000;
  --color-button-text: #fff;
  --button-padding: .5rem 2rem;
@@ -360,7 +361,6 @@ wrapnav{
  --radius-button: 40px;
  --border-button: 0;
  font-size:10px;
- position:relative;
  top:10px;
 }
 
