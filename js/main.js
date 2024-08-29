@@ -135,7 +135,7 @@ $('nav li a').click(function(){
     }
   ];
 
-  const items = document.querySelectorAll("a.link-bio, a.link-photos");
+  const items = document.querySelectorAll("a.link-bio");
 
   items.forEach((el, pos) => {
     let bttn = el.querySelector("button.particles-button");
