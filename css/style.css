@@ -339,7 +339,6 @@ a:hover, a:active{
 .link-bio{
  background:var(--darkgrey); 
  color:var(--light);
-//border:1px solid var(--dark);
  border-radius:30px; 
  transition-delay: 1s;
  transition: 2s;
@@ -347,15 +346,13 @@ a:hover, a:active{
 .link-photos{
  background: var(--darkgrey);
  color:var(--light);
- //border:1px solid var(--dark);
  border-radius: 30px;
  transition-delay: 1s;
  transition: 2s;
 }
 
 .photos .link-bio, .photos .link-photos{
- color:var(--light);
- //border:1px solid var(--light);	
+ color:var(--light);	
 }
 
 .transition {
@@ -423,7 +420,7 @@ nav li {
 
 nav a {    
  display: block;
- color: var(--darkgrey);
+ color: var(--light);
  padding:.3rem 0 .17rem;
  text-decoration: none;
  text-transform: uppercase;
