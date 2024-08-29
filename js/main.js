@@ -217,8 +217,6 @@ const items = document.querySelectorAll(".nav");
 
 let tl = gsap.timeline()
 
-window.addEventListener("pageshow", ()=> {
-     
 tl.to(items, {
        autoAlpha: 1,
        opacity:1
@@ -241,7 +239,6 @@ tl.to(items, {
         })
       }
     })   
- })
 	
     bttn.addEventListener("click", () => {
       particles.disintegrate();
