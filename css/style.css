@@ -336,6 +336,17 @@ a:hover, a:active{
  color: var(--light);
 }
 
+.theme {
+  --color-item-bg: transparent;
+  --color-button-bg: #000;
+  --color-button-text: #fff;
+  --button-padding: .3rem .7rem;
+  --button-margin: 0;
+  --radius-button: 40px;
+  --border-button: 0;
+  //padding-bottom: 14rem;
+}
+
 .link-bio{
  background:var(--darkgrey); 
  color:var(--light);
