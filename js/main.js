@@ -216,7 +216,10 @@ const items = document.querySelectorAll(".nav");
     const particles = new Particles(bttn, particlesOpts);
 
 let tl = gsap.timeline()
-     tl.to(items, {
+
+window.addEventListener("pageshow", ()=> {
+     
+tl.to(items, {
        autoAlpha: 1,
        opacity:1
         });
@@ -237,11 +240,14 @@ let tl = gsap.timeline()
           }
         })
       }
-    }, ">")     
+    })     
 
     bttn.addEventListener("click", () => {
       particles.disintegrate();
     });
+
+  })
+	  
   });
 })();
 	
