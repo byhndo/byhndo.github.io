@@ -240,6 +240,12 @@ window.addEventListener("mouseover", ()=> {
         })
       }
     }) 
+
+bttn.addEventListener("click", () => {
+      particles.disintegrate();
+    });
+
+	
   })
 	       
       tl.to(bttn, {
