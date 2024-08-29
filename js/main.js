@@ -222,7 +222,7 @@ tl.to(items, {
        opacity:1
         });
 
-window.addEventListener("mouseleave", ()=> {  
+window.addEventListener("scroll", ()=> {  
   tl.to(bttn, {
       onComplete: () => {
         particles.integrate({
