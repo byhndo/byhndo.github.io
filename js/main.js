@@ -259,7 +259,7 @@ window.addEventListener("click", () => {
           }
         })
       }
-    })  
+    }, pos)  
  
     bttn.addEventListener("click", () => {
       particles.disintegrate();
