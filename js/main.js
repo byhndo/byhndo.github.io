@@ -222,7 +222,7 @@ tl.to(items, {
  opacity:1
 });
 	  
-window.addEventListener("mouseover", () => {    
+window.addEventListener("click", () => {    
     
    tl.to(bttn, {
       autoAlpha: 1,    
