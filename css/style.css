@@ -179,6 +179,8 @@ wrapnav{
  justify-content:center;
  align-items:center;
  flex-direction:row;
+ position:relative;
+ top:40px
 }
 
 .nav{
@@ -205,8 +207,6 @@ wrapnav{
  font-size: var(--sizenav);
  font-weight: var(--fwnav);
  font-family: var(--font2);
- position: relative;
- top:30px;
 }
 
 .header{
