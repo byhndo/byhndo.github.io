@@ -339,6 +339,10 @@ a:hover, a:active{
 }
 
 wrapnav{
+ position: fixed;
+ top:20px;
+ left:0;
+ right:0;
  display:flex;
  justify-content:center;
  align-items:center;
