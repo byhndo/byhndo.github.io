@@ -174,6 +174,35 @@ h5 {
  font-size:13px;
 }
 
+wrapnav{
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ flex-direction:row;
+}
+
+.nav{
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ padding: 1rem .5rem 0 .5rem;
+ visibility:hidden;
+ opacity:0;
+ text-transform: uppercase;
+} 
+
+.theme {
+ --color-item-bg: transparent;
+ --color-button-bg: var(--darkgrey);
+ --color-button-text: var(--light);
+ --button-padding: .5rem 3rem;
+ --button-margin: 0;
+ --radius-button: 40px;
+ --border-button: 0;
+ font-size:10px;
+ font-family: var(--font2);
+}
+
 .header{
  height:88vh;
  display:flex;
@@ -336,35 +365,6 @@ a:hover, a:active{
 .photos{
  background:var(--dark);
  color: var(--light);
-}
-
-wrapnav{
- display:flex;
- justify-content:center;
- align-items:center;
- flex-direction:row;
-}
-
-.nav{
- display:flex;
- justify-content:center;
- align-items:center;
- padding: 1rem .5rem 0 .5rem;
- visibility:hidden;
- opacity:0;
-} 
-
-.theme {
- --color-item-bg: transparent;
- --color-button-bg: var(--darkgrey);
- --color-button-text: var(--light);
- --button-padding: .5rem 3rem;
- --button-margin: 0;
- --radius-button: 40px;
- --border-button: 0;
- font-size:10px;
- text-transform: uppercase;
- font-family: var(--font2);
 }
 
 .transition {
