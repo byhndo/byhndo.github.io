@@ -190,7 +190,7 @@ wrapnav{
  opacity:0; 
 } 
 
-.theme a{
+.nav .theme a{
  text-transform: uppercase;	
 }
 
