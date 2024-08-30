@@ -206,7 +206,7 @@ gsap.to('.indicator', {
     }
   ];
 
-const items = document.querySelectorAll(".nav");
+  const items = document.querySelectorAll(".nav");
 
   items.forEach((el, pos) => {
 
@@ -216,15 +216,11 @@ const items = document.querySelectorAll(".nav");
     const particles = new Particles(bttn, particlesOpts);
 
 let tl = gsap.timeline()
-
-tl.to(items, {
-       autoAlpha: 1,
-       opacity:1
-        });
-
-window.addEventListener("mouseover", ()=> {  
-tl.to(bttn, {
-       onComplete: () => {
+window.addEventListener("mouseover", () => {    
+    
+   tl.to(bttn, {
+      autoAlpha: 1,    
+      onComplete: () => {
         particles.integrate({
           duration: 800,
           easing: "easeInOutSine"
@@ -238,11 +234,12 @@ tl.to(bttn, {
           }
         })
       }
-    })   
-})
-	
-      tl.to(bttn, {
-       onComplete: () => {
+    })     
+   })
+ 
+    tl.to(bttn, {
+      autoAlpha: 0,
+      onComplete: () => {
         particles.integrate({
           duration: 800,
           easing: "easeInOutSine"
@@ -256,12 +253,12 @@ tl.to(bttn, {
           }
         })
       }
-    })   
-	
+    })  
+ 
     bttn.addEventListener("click", () => {
       particles.disintegrate();
-    });
-	  
+    });       
+     
   });
 })();
 	
@@ -277,7 +274,7 @@ gsap.to('.header', {
   }
   })
     }
- });
+});
 
 const lenis = new Lenis({
   duration: 2,
