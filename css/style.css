@@ -205,7 +205,8 @@ wrapnav{
  font-size: var(--sizenav);
  font-weight: var(--fwnav);
  font-family: var(--font2);
- top:40px;
+ position: relative;
+ top:20px;
 }
 
 .header{
