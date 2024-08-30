@@ -185,8 +185,6 @@ wrapnav{
  display:flex;
  justify-content:center;
  align-items:center;
- margin-top: 25px;
- padding: 0 .5rem;
  visibility:hidden;
  opacity:0; 
 } 
@@ -206,6 +204,7 @@ wrapnav{
  font-size: var(--sizenav);
  font-weight: var(--fwnav);
  font-family: var(--font2);
+ padding:25px 1rem 0 1rem;
 }
 
 .header{
