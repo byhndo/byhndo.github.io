@@ -179,8 +179,7 @@ wrapnav{
  justify-content:center;
  align-items:center;
  flex-direction:row;
- position:relative;
- top:40px
+ margin-top: 30px;
 }
 
 .nav{
@@ -200,7 +199,7 @@ wrapnav{
  --color-item-bg: transparent;
  --color-button-bg: var(--darkgrey);
  --color-button-text: var(--light);
- --button-padding: .5rem 3rem .3rem;
+ --button-padding: .5rem 3rem .4rem;
  --button-margin: 0;
  --radius-button: 40px;
  --border-button: 0;
