@@ -198,7 +198,7 @@ wrapnav{
  --color-item-bg: transparent;
  --color-button-bg: var(--darkgrey);
  --color-button-text: var(--light);
- --button-padding: .5rem 3rem;
+ --button-padding: .5rem 3rem .3rem;
  --button-margin: 0;
  --radius-button: 40px;
  --border-button: 0;
@@ -206,7 +206,7 @@ wrapnav{
  font-weight: var(--fwnav);
  font-family: var(--font2);
  position: relative;
- top:20px;
+ top:30px;
 }
 
 .header{
