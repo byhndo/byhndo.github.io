@@ -190,7 +190,7 @@ wrapnav{
  opacity:0; 
 } 
 
-.nav a{
+.theme a{
  text-transform: uppercase;	
 }
 
@@ -204,6 +204,7 @@ wrapnav{
  --border-button: 0;
  font-size:10px;
  font-family: var(--font2);
+ top:30px;
 }
 
 .header{
