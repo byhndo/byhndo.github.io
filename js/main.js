@@ -216,6 +216,12 @@ gsap.to('.indicator', {
     const particles = new Particles(bttn, particlesOpts);
 
 let tl = gsap.timeline()
+
+tl.to(items, {
+ autoAlpha: 1,
+ opacity:1
+});
+	  
 window.addEventListener("mouseover", () => {    
     
    tl.to(bttn, {
