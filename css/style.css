@@ -187,9 +187,12 @@ wrapnav{
  align-items:center;
  padding: 1rem .5rem 0 .5rem;
  visibility:hidden;
- opacity:0;
- text-transform: uppercase;
+ opacity:0; 
 } 
+
+.nav a{
+ text-transform: uppercase;	
+}
 
 .theme {
  --color-item-bg: transparent;
