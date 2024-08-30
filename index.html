@@ -59,7 +59,6 @@
 <div :class="['bg', bg]"> 
 <div class="transition transition-bio"></div>
 <div class="transition transition-photos"></div>                                                
-<main>	
 <wrapnav>
 <div class="nav theme">
  <a href="#" @click="bg = 'bio'"><button class="particles-button">Bio</button></a>
@@ -89,6 +88,7 @@
 </div>
 </div>	
 </div>
+<main>
 <transition appear name="slide-fade" mode="out-in" @after-enter="afterEnter" @after-leave="afterLeave">
 <!-- sub1 -->
 <div class="sub1" key="bio" v-if="bg==='bio'">
