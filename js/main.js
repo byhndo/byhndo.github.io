@@ -227,6 +227,7 @@ window.addEventListener("click", () => {
    tl.to(bttn, {
       autoAlpha: 1,    
       onComplete: () => {
+	bttn.style.visibility = "hidden";
         particles.integrate({
           duration: 800,
           easing: "easeInOutSine"
