@@ -361,6 +361,7 @@ a:hover, a:active{
  min-height: 100vh;
  padding: 0;
  transition: background 0s 1s, color .6s;
+ overflow:hidden;
 }
 
 .bio{
