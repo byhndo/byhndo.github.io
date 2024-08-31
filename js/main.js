@@ -189,7 +189,7 @@ gsap.to('.indicator', {
   }
  });
 }
-}, "<");
+}, "=<");
 
 (function () {
 
