@@ -135,6 +135,7 @@ svg.title, svg.trb, svg.sub, svg.noise3 {
 	
 html{
  background: var(--light);
+ overflow:hidden;
 }
 body {
  background-color: var(--light);
