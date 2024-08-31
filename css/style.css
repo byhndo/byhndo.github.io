@@ -199,7 +199,7 @@ wrapnav{
  --color-item-bg: transparent;
  --color-button-bg: var(--darkgrey);
  --color-button-text: var(--light);
- --button-padding: 0 3rem .4rem;
+ --button-padding: .5rem 3rem .4rem;
  --button-margin: 0;
  --radius-button: 40px;
  --border-button: 0;
