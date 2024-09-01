@@ -163,7 +163,7 @@ gsap.to(".sub-title", {
  opacity:1,
  duration:dur, 
  ease: easing
-}, "<1");		
+}, "<");		
 	
 gsap.set('.indicator', {
  y:-100	
