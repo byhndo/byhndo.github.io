@@ -35,10 +35,11 @@ function animateValue(id, start, end, duration) {
 setTimeout(function(){
 let percentBar = document.getElementById('precent');
 let loadingBar = document.getElementById('loader');
-const landing = {};
-landing.intro = document.querySelector(".preloader-wrap");
-landing.path = landing.intro.querySelector("path.goey");
-     
+const DOM = {};
+DOM.intro = document.querySelector(".preloader-wrap");
+DOM.shape = DOM.intro.querySelector("svg.shape");
+DOM.path = DOM.intro.querySelector("path.goey");
+	
 let tl = gsap.timeline({
  onComplete: contentShow
 });
@@ -56,21 +57,23 @@ let tl = gsap.timeline({
     ease: "quart.out",
     onComplete: () => {
       loadingBar.style.display = 'none';
-      tl.to(landing.intro, {
-       duration: 1.5,
-       ease: "quad.inOut",
-       y: "-200vh"
-      });
-      gsap.to(landing.path, {		
-       duration: 1,
-       ease: "quad.inOut",
-       attr: { d : landing.path.getAttribute("pathdata:id")}
-      });	    
-     } 
-	  
+      tl.to(DOM.intro, {
+	y: "-200vh",
+	delay: .1,
+	duration: 2,
+	ease: "quad.inOut"
+		
+	});
+      gsap.to(DOM.path, {
+	duration: 1.2,
+	ease: "linear",
+	attr: { d :  DOM.path.getAttribute("pathdata:id")}	
+	});
+	    
+     } 	  
     })
   }
-    })
+})
 	
 }, time); 
 
