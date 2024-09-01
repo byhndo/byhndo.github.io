@@ -192,7 +192,7 @@ gsap.to('.indicator', {
   }
  });
 }
-}, ">1");
+}, ">.5");
 
 (function () {
 
