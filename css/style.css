@@ -190,7 +190,7 @@ wrapnav{
  padding: 0 .5rem 0;
 } 
 
-.nav, .nav a{
+.nav a{
  visibility:hidden;
  opacity:0; 
 }
