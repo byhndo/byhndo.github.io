@@ -147,7 +147,7 @@ tl.to(primitiveValues, {
     scale: 0 
   }, 0)
 
-.to("h1, .sub-title", {
+.to("h1", {
     startAt: {
       opacity: 0, 
       autoAlpha:0,
@@ -156,7 +156,20 @@ tl.to(primitiveValues, {
     opacity: 1,  
     autoAlpha:1,
     scale: 1 
-  }, 0);
+  }, 0)
+	
+.to(".sub-title", {
+    startAt: {
+      opacity: 0, 
+      autoAlpha:0,
+      scale: 0.9      
+    },
+    opacity: 1,  
+    autoAlpha:1,
+    scale: 1 
+}, ">");
+
+	
 	
 gsap.set('.indicator', {
  y:-100	
