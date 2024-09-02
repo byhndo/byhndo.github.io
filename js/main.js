@@ -167,7 +167,7 @@ tl.to(primitiveValues, {
     opacity: 1,  
     autoAlpha:1,
     scale: 1 
-}, "<");
+}, 0);
 	
 gsap.set('.indicator', {
  y:-100	
