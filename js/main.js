@@ -158,8 +158,8 @@ tl.to(primitiveValues, {
     scale: 1 
   }, 0)
 	
-const feBlur = box1.querySelector(`#noisesub feGaussianBlur`);
-const feDisplacementMap = box1.querySelector(`#noisesub feDisplacementMap`);
+const feBlur = document.querySelector(`#noisesub feGaussianBlur`);
+const feDisplacementMap = document.querySelector(`#noisesub feDisplacementMap`);
           
 let primitiveValues = { stdDeviation: 0, scale: 0 };
  
