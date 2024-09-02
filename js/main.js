@@ -156,43 +156,17 @@ tl.to(primitiveValues, {
     opacity: 1,  
     autoAlpha:1,
     scale: 1 
-  }, 0)
-	
-const feBlurst = document.querySelector(`#noisesub feGaussianBlur`);
-const feDisplacementMapst = document.querySelector(`#noisesub feDisplacementMap`);
-          
-let primitiveValues = { stdDeviation: 0, scale: 0 };
- 
-const tl = gsap.timeline({
-    defaults: {
-      duration: 2,
-      ease: 'expo.out'
-},
-  
-  onUpdate: function () {
-      feBlurst.setAttribute('stdDeviation', primitiveValues.stdDeviation);
-      feDisplacementMapst.setAttribute('scale', primitiveValues.scale);
-    }
-})
-    
-tl.to(primitiveValues, { 
-    startAt: { stdDeviation: 35, scale: 250 },  
-    stdDeviation: 0,  
-    scale: 0 
-  }, 0)
-
-.to(".sub-title", { 
-    duration: 1.3,
+}, 0)
+	  
+.to(".sub-title", {
     startAt: {
       opacity: 0, 
       autoAlpha:0,
-      scale: 0.8,
-      yPercent: 20
+      scale: 0.9      
     },
-    opacity: 1, 
+    opacity: 1,  
     autoAlpha:1,
-    scale: 1,
-    yPercent: 0  
+    scale: 1 
 }, 0);
 	
 gsap.set('.indicator', {
