@@ -126,7 +126,7 @@
   overflow: hidden;
 }
 
-svg.title, svg.stitle, svg.trb, svg.sub, svg.noise3 {
+svg.title, svg.trb, svg.sub, svg.noise3 {
  width: 0;
  height: 0;
  position: absolute;
@@ -251,7 +251,7 @@ h1 {
  text-transform:uppercase;
  opacity:0;
  visibility:hidden;
- filter: url(#noisesub);
+ filter: url(#noise);
 }
 
 .photos .sub-title{
