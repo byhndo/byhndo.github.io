@@ -243,7 +243,7 @@ window.addEventListener("click", () => {
           }
         })
       }
-    })     
+    }, ">2");    
    })
  
     tl.to(bttn, {
