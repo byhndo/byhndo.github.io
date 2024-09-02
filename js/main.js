@@ -209,7 +209,7 @@ gsap.to('.indicator', {
     }
   ];
 
-  const items = document.querySelectorAll(".nav");
+  const items = document.querySelectorAll(".nav, .nav a");
 
   items.forEach((el, pos) => {
 
