@@ -196,7 +196,7 @@ gsap.to('.indicator', {
   }
  });
 }
-}, ">.1");
+}, "<");
 
 (function () {
 
