@@ -227,7 +227,7 @@ let tl = gsap.timeline()
 tl.to(items, {
  autoAlpha: 1,
  opacity:1
-});
+}, ">");
 	  
 window.addEventListener("click", () => {    
     
