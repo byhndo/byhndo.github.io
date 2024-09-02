@@ -142,7 +142,7 @@ const tl = gsap.timeline({
   })
 
 tl.to(primitiveValues, { 
-    startAt: { stdDeviation: 30, scale: 150 },  
+    startAt: { stdDeviation: 40, scale: 150 },  
     stdDeviation: 0,  
     scale: 0 
   }, 0)
