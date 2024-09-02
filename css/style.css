@@ -126,7 +126,7 @@
   overflow: hidden;
 }
 
-svg.title, svg.trb, svg.sub, svg.noise3 {
+svg.title, svg.s-title, svg.trb, svg.sub, svg.noise3 {
  width: 0;
  height: 0;
  position: absolute;
@@ -241,8 +241,6 @@ h1 {
 
 .sub-title{
  display:inline-block;
- opacity:0;
- visibility:hidden;
  line-height:2.3;
  font-size:11px;
  font-family: var(--font2);
@@ -251,6 +249,9 @@ h1 {
  transition: color 4s;
  text-align:center;
  text-transform:uppercase;
+ opacity:0;
+ visibility:hidden;
+ filter: url(#noisesub);
 }
 
 .photos .sub-title{
