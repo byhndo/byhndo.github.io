@@ -169,7 +169,7 @@ const tl = gsap.timeline({
       duration: 1.7,
       ease: 'cubic.out'
 },
-  onUpdate: () => {
+  onUpdate: function () {
 feBlur.setAttribute('stdDeviation', primitiveValues.stdDeviation);
 feDisplacementMap.setAttribute('scale', primitiveValues.scale);
     },  
