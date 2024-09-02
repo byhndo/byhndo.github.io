@@ -228,7 +228,7 @@ tl.to(items, {
 window.addEventListener("click", () => {    
     
    tl.to(bttn, {
-      autoAlpha: 1,    
+      autoAlpha: 0,    
       onComplete: () => {	
         particles.integrate({
           duration: 800,
@@ -243,7 +243,7 @@ window.addEventListener("click", () => {
           }
         })
       }
-    }, ">2");    
+    }, ">1");    
    })
  
     tl.to(bttn, {
