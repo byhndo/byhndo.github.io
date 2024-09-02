@@ -188,12 +188,9 @@ wrapnav{
  align-items:center;
  margin-top: 1.5rem;
  padding: 0 .5rem 0;
-} 
-
-.nav a{
  visibility:hidden;
  opacity:0; 
-}
+} 
 
 .particles-button {
  text-transform: uppercase;	
