@@ -180,7 +180,7 @@ tl.to(primitiveValues, {
     scale: 0 
   }, 0)
 
-.to(".sub-title, { 
+.to(".sub-title", { 
     duration: 1.3,
     startAt: {
       opacity: 0, 
