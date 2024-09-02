@@ -186,11 +186,14 @@ wrapnav{
  display:flex;
  justify-content:center;
  align-items:center;
- visibility:hidden;
- opacity:0; 
  margin-top: 1.5rem;
  padding: 0 .5rem 0;
 } 
+
+.nav, .nav a{
+ visibility:hidden;
+ opacity:0; 
+}
 
 .particles-button {
  text-transform: uppercase;	
