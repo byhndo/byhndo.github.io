@@ -149,7 +149,7 @@ body {
  height:100%;
  position: relative;
  text-rendering: geometricPrecision!important;
- font-feature-settings: "calt" 0;
+ font-feature-settings: "calt" 1;
 }
 
 *, *:before, *:after {
