@@ -149,7 +149,7 @@ body {
  height:100%;
  position: relative;
  text-rendering: geometricPrecision!important;
- font-feature-settings: "liga", "dlig", "hlig", "calt", "caps", "case", "clig", "cswh", "dnom", "expt", "fina", "frac", "init", "numr", "onum", "ornm", "swsh";
+ font-feature-settings: "calt" 0;
 }
 
 *, *:before, *:after {
