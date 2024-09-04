@@ -88,7 +88,7 @@
   height: 5px;
   max-width: 200px; 
   border: 1px solid var(--textloadercolor);
-  font-weight: 300;
+  font-weight: 700;
   position: absolute; 
   top: 0; 
   bottom: 0; 
@@ -149,7 +149,6 @@ body {
  height:100%;
  position: relative;
  text-rendering: geometricPrecision!important;
- font-feature-settings: "calt" 1;
 }
 
 *, *:before, *:after {
