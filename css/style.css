@@ -149,10 +149,11 @@ body {
  height:100%;
  position: relative;
  text-rendering: geometricPrecision!important;
+ font-feature-settings: "liga", "dlig", "hlig", "calt", "caps", "case", "clig", "cswh", "dnom", "expt", "fina", "frac", "init", "numr", "onum", "ornm", "swsh";
 }
 
 *, *:before, *:after {
-    box-sizing: border-box;
+ box-sizing: border-box;
 }
 
 h2, h3, h4, h5, h6, h7 {
