@@ -145,11 +145,10 @@ body {
  font-weight:var(--fwbody);
  line-height:1.5;
  word-wrap: break-word;
- text-rendering: optimizeLegibility !important;
- -webkit-font-smoothing: antialiased !important;
  overflow:hidden;
  height:100%;
  position: relative;
+ text-rendering: geometricPrecision!important;
 }
 
 *, *:before, *:after {
