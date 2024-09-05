@@ -58,6 +58,11 @@ let tl = gsap.timeline({
     ease: "quart.out",
     onComplete: () => {
       loadingBar.style.display = 'none';
+      tl.to(".play", {
+	duration:1,
+	autoAlpha:1,
+	opacity:1
+      })
       tl.to(DOM.intro, {
 	y: "-200vh",
 	delay: .1,
@@ -74,7 +79,9 @@ let tl = gsap.timeline({
   }
 })
 
-tl.play();
+$(".play").click(function () {
+ tl.play();
+});
 	
 }, time); 
 
