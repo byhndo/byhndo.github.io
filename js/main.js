@@ -40,24 +40,24 @@ DOM.intro = document.querySelector(".preloader-wrap");
 DOM.shape = DOM.intro.querySelector("svg.shape");
 DOM.path = DOM.intro.querySelector("path.goey");
 	
-let tl = gsap.timeline({
+/*let tl = gsap.timeline({
  onComplete: contentShow
-});
-  tl.to('.percentage', {
+});*/
+  gsap.to('.percentage', {
     autoAlpha:0,
     duration:1,
     delay:1,
     ease:"none",
     onComplete: () => {
      percentBar.style.display = 'none';
-  tl.to('#loader', {
+  gsap.to('#loader', {
     autoAlpha:0,
     duration:1,
     clipPath: "inset(0 100% 0 100%)",
     ease: "quart.out",
     onComplete: () => {
       loadingBar.style.display = 'none';
-      tl.to(DOM.intro, {
+      gsap.to(DOM.intro, {
 	y: "-200vh",
 	delay: .1,
 	duration: 2,
@@ -77,7 +77,10 @@ let tl = gsap.timeline({
 	
 }, time); 
 
-	
+let tl = gsap.timeline({
+ paused: true,
+ onComplete: contentShow
+});	
 function contentShow() {
 	
 const easing = "expoScale(0.5,7,none)";
@@ -585,5 +588,7 @@ tl.to(footer, {
 }
 	 
 }
+
+tl.play();
 	
 })
