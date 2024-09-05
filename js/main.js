@@ -35,6 +35,7 @@ var timer = setInterval(function() {
 setTimeout(function(){
 let percentBar = document.getElementById('precent');
 let loadingBar = document.getElementById('loader');
+let play = document.getElementById('play');
 const DOM = {};
 DOM.intro = document.querySelector(".preloader-wrap");
 DOM.shape = DOM.intro.querySelector("svg.shape");
@@ -58,11 +59,7 @@ let tl = gsap.timeline({
     ease: "quart.out",
     onComplete: () => {
       loadingBar.style.display = 'none';
-      tl.to(".play", {
-	duration:1,
-	autoAlpha:1,
-	opacity:1
-      });
+      play.style.display = "visible";
       tl.to(DOM.intro, {
 	y: "-200vh",
 	delay: .1,
@@ -79,7 +76,7 @@ let tl = gsap.timeline({
   }
 })
 
-$(".play").click(function () {
+$("#play").click(function () {
  tl.play();
 });
 	
