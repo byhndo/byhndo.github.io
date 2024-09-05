@@ -62,7 +62,7 @@ let tl = gsap.timeline({
 	duration:1,
 	autoAlpha:1,
 	opacity:1
-      })
+      });
       tl.to(DOM.intro, {
 	y: "-200vh",
 	delay: .1,
