@@ -81,7 +81,7 @@ let tl = gsap.timeline({
   }
 })
 
-$("#start").click(function () {
+start.addEventListener("click", ()=> {
  tl.play();
 });
 	
