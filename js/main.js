@@ -63,7 +63,7 @@ let tl = gsap.timeline({
         autoAlpha:1,
 	duration:1,
 	onComplete: () => {
-	start.style.display = 'visible';
+	start.style.visibility = 'visible';
       tl.to(DOM.intro, {
 	y: "-200vh",
 	delay: .1,
