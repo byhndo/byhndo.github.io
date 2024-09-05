@@ -78,7 +78,7 @@ let tl = gsap.timeline({
 }, time); 
 
 
-function contentShow() {
+function () {
 	
 const easing = "expoScale(0.5,7,none)";
 const dur = 1;
