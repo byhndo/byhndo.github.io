@@ -59,11 +59,6 @@ let tl = gsap.timeline({
     ease: "quart.out",
     onComplete: () => {
       loadingBar.style.display = 'none';
-      tl.to(start, {
-        autoAlpha:1,
-	duration:1,
-	onComplete: () => {
-	start.style.visibility = 'visible';
       tl.to(DOM.intro, {
 	y: "-200vh",
 	delay: .1,
@@ -79,12 +74,9 @@ let tl = gsap.timeline({
     })
      } 	  
     })
-  }
-})
+}
 
-start.addEventListener("click", ()=> {
- tl.play();
-});
+tl.play();
 	
 }, time); 
 
