@@ -40,9 +40,10 @@ DOM.intro = document.querySelector(".preloader-wrap");
 DOM.shape = DOM.intro.querySelector("svg.shape");
 DOM.path = DOM.intro.querySelector("path.goey");
 	
-/*let tl = gsap.timeline({
- onComplete: contentShow
-});*/
+let tl = gsap.timeline({
+ onComplete: contentShow,
+ paused: true
+});
   gsap.to('.percentage', {
     autoAlpha:0,
     duration:1,
@@ -77,10 +78,6 @@ DOM.path = DOM.intro.querySelector("path.goey");
 	
 }, time); 
 
-let tl = gsap.timeline({
- paused: true,
- onComplete: contentShow
-});	
 function contentShow() {
 	
 const easing = "expoScale(0.5,7,none)";
