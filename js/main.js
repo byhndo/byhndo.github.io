@@ -80,11 +80,11 @@ let tl = gsap.timeline({
 
 
 let cs = gsap.timeline({
- //onComplete: contentShow
+ onComplete: contentShow,
  paused: true
 });
 	
-//function contentShow() {
+function contentShow() {
 	
 const easing = "expoScale(0.5,7,none)";
 const dur = 1;
@@ -590,7 +590,7 @@ tl.to(footer, {
 	
 }
 	 
-//}
+}
 
 cs.play();
 	
