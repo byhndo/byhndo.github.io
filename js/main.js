@@ -79,7 +79,7 @@ let tl = gsap.timeline({
 }, time); 
 
 
-let tl = gsap.timeline({
+let cs = gsap.timeline({
  //onComplete: contentShow
  paused: true
 });
@@ -592,6 +592,6 @@ tl.to(footer, {
 	 
 //}
 
-tl.play();
+cs.play();
 	
 })
