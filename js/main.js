@@ -76,6 +76,8 @@ let tl = gsap.timeline({
 	
 }, time); 
 
+tl.play();
+
 function contentShow() {
 	
 const easing = "expoScale(0.5,7,none)";
@@ -583,7 +585,5 @@ tl.to(footer, {
 }
 	 
 }
-
-tl.play();
 	
 })
