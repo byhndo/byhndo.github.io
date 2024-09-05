@@ -41,7 +41,8 @@ DOM.shape = DOM.intro.querySelector("svg.shape");
 DOM.path = DOM.intro.querySelector("path.goey");
 	
 let tl = gsap.timeline({
- onComplete: contentShow
+ //onComplete: contentShow
+ paused: true
 });
   tl.to('.percentage', {
     autoAlpha:0,
@@ -78,7 +79,7 @@ let tl = gsap.timeline({
 }, time); 
 
 
-function contentShow() {
+//function contentShow() {
 	
 const easing = "expoScale(0.5,7,none)";
 const dur = 1;
@@ -584,6 +585,8 @@ tl.to(footer, {
 	
 }
 	 
-}
+//}
+
+tl.play();
 	
 })
