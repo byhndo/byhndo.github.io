@@ -44,33 +44,31 @@ let tl = gsap.timeline({
  onComplete: contentShow,
  paused: true
 });
-  gsap.to('.percentage', {
+  tl.to('.percentage', {
     autoAlpha:0,
     duration:1,
     delay:1,
     ease:"none",
     onComplete: () => {
      percentBar.style.display = 'none';
-  gsap.to('#loader', {
+  tl.to('#loader', {
     autoAlpha:0,
     duration:1,
     clipPath: "inset(0 100% 0 100%)",
     ease: "quart.out",
     onComplete: () => {
       loadingBar.style.display = 'none';
-      gsap.to(DOM.intro, {
+      tl.to(DOM.intro, {
 	y: "-200vh",
 	delay: .1,
 	duration: 2,
-	ease: "quad.inOut"
-		
+	ease: "quad.inOut"		
 	});
       gsap.to(DOM.path, {
 	duration: 1.2,
 	ease: "linear",
 	attr: { d :  DOM.path.getAttribute("pathdata:id")}	
-	});
-	    
+	});	    
      } 	  
     })
   }
