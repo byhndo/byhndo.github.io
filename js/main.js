@@ -17,18 +17,18 @@ var PercentageID = $("#precent"),
 		
 function animateValue(id, start, end, duration) {
   
-	var range = end - start,
+var range = end - start,
       current = start,
       increment = end > start? 1 : -1,
       stepTime = Math.abs(Math.floor(duration / range)),
       obj = $(id);
     
-	var timer = setInterval(function() {
+var timer = setInterval(function() {
 		current += increment;
 		$(obj).text(current + "%");      
 		if (current == end) {
 			clearInterval(timer);
-		}
+        }
 	}, stepTime);
 }
 
@@ -41,8 +41,7 @@ DOM.shape = DOM.intro.querySelector("svg.shape");
 DOM.path = DOM.intro.querySelector("path.goey");
 	
 let tl = gsap.timeline({
- onComplete: contentShow,
- paused: true
+ onComplete: contentShow
 });
   tl.to('.percentage', {
     autoAlpha:0,
@@ -586,8 +585,5 @@ tl.to(footer, {
 }
 	 
 }
-
-tl.play();
-	cs();
 	
 })
