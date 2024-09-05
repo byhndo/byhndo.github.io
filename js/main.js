@@ -73,10 +73,11 @@ let tl = gsap.timeline({
     })
   }
 })
+
+tl.play();
 	
 }, time); 
 
-tl.play();
 
 function contentShow() {
 	
