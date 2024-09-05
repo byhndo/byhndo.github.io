@@ -69,12 +69,11 @@ let tl = gsap.timeline({
 	duration: 1.2,
 	ease: "linear",
 	attr: { d :  DOM.path.getAttribute("pathdata:id")}	
-	});
-    }
+	});    
+    } 	  
     })
-     } 	  
-    })
-}
+  }
+})
 
 tl.play();
 	
