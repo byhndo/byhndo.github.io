@@ -74,7 +74,9 @@ let tl = gsap.timeline({
   }
 })
 
-tl.play();
+$(".play").click(function () {
+ tl.play();
+});
 	
 }, time); 
 
