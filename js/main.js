@@ -588,5 +588,6 @@ tl.to(footer, {
 }
 
 tl.play();
+	cs();
 	
 })
