@@ -42,7 +42,7 @@ DOM.path = DOM.intro.querySelector("path.goey");
 	
 let tl = gsap.timeline({
  //onComplete: contentShow
- paused: true
+//paused: true
 });
   tl.to('.percentage', {
     autoAlpha:0,
@@ -79,6 +79,11 @@ let tl = gsap.timeline({
 }, time); 
 
 
+let tl = gsap.timeline({
+ //onComplete: contentShow
+ paused: true
+});
+	
 //function contentShow() {
 	
 const easing = "expoScale(0.5,7,none)";
