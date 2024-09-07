@@ -40,7 +40,7 @@ setTimeout(function () {
   DOM.path = DOM.intro.querySelector("path.goey");
 
 let tl = gsap.timeline({
- paused: true,
+// paused: true,
  onComplete: contentShow
 });
 
@@ -101,7 +101,7 @@ gsap.to(bttn, {
       bttn.style.opacity = "1";     
       bttn.addEventListener("click", function () {        
         particles.disintegrate();
-        tl.play();
+        //tl.play();
       })
     }
   })
