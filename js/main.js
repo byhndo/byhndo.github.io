@@ -76,7 +76,7 @@ onComplete: contentShow
 (function show() {
   const arrOpts = [    
     {
-      color: "blue",
+      color: "#8294C4",
       direction: "bottom",
       duration: 1000,
       easing: "easeInExpo"
