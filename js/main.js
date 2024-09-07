@@ -41,7 +41,7 @@ setTimeout(function () {
 
 let tl = gsap.timeline({
  paused: true,
- onComplete: contentShow
+// onComplete: contentShow
 });
 
   tl.to(".percentage", {
