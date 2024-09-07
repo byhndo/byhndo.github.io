@@ -84,7 +84,7 @@ function () {
     }     
   ];
 
-  const items = document.querySelectorAll(".nav");
+  const items = document.querySelectorAll(".wrapbtnloader");
   items.forEach((el, pos) => {
     let bttn = el.querySelector("button.particles-button");
     if (!bttn) return; 
