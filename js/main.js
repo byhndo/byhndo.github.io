@@ -85,7 +85,7 @@ function () {
   ];
 
   const itemloader = document.querySelectorAll(".wrapbtnloader");
-  items.forEach((il, pos) => {
+  itemloader.forEach((il, pos) => {
     let bttn = il.querySelector("button.particles-button");
     if (!bttn) return; 
     let particlesOpts = arrOpts[pos];
