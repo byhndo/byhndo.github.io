@@ -71,9 +71,9 @@ let tl = gsap.timeline({
 	attr: { d :  DOM.path.getAttribute("pathdata:id")}	
 	});    
     } 	  
-    })
+    });
   }
-})
+});
 
 function () {
   const arrOpts = [    
