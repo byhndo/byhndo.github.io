@@ -89,10 +89,12 @@
  max-width: 200px; 
  border: 1px solid var(--textloadercolor);
  font-weight: 700;
- position: fixed; 
- top: 50%;
- left: 50%;
- transform: translateX(-50%) translateY(-50%);
+ position: absolute; 
+ top: 0; 
+ bottom: 0; 
+ left: 0; 
+ right: 0;
+ margin : auto; 
  z-index:500;
 }
 
