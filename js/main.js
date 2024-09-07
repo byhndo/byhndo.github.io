@@ -93,9 +93,9 @@ onComplete: contentShow
     autoAlpha: 1,
     onComplete: () => {
      bttn.style.visibility = "visible";
-      bttn.style.opacity = "1";   
-      bttn.addEventListener("click", function () {        
-        particles.disintegrate();
+     bttn.style.opacity = "1";   
+     bttn.addEventListener("click", function () {        
+      //  particles.disintegrate();
         tl.play();
       })
     }
