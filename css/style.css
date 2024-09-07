@@ -126,14 +126,14 @@
   overflow: hidden;
 }
 
-.wrapbtnloader{
+/*.wrapbtnloader{
  position: absolute;
  top: 50%;
  margin-top:3rem;
  left: 50%;
  transform: translateX(-50%) translateY(-50%);
  z-index:100000;
-} 
+} */
 
 .theme-loader{
  --color-item-bg: transparent;
