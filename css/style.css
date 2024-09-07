@@ -148,6 +148,9 @@
  z-index:100000;
 }
 
+.particles-button{
+ z-index:10000000
+}
 
 svg.title, svg.trb, svg.sub, svg.noise3 {
  width: 0;
