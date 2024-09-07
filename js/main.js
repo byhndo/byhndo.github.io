@@ -73,7 +73,7 @@ let tl = gsap.timeline({
     if (!bttn) return; 
     let particlesOpts = arrOpts[pos];
     const particles = new Particles(bttn, particlesOpts);         
-  gsap.to(bttn, {
+  tl.to(bttn, {
     autoAlpha: 1,
     onComplete: () => {
      bttn.style.visibility = "visible";
