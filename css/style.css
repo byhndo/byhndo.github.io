@@ -89,7 +89,7 @@
  max-width: 200px; 
  border: 1px solid var(--textloadercolor);
  font-weight: 700;
- position: absolute; 
+ position: relative; 
  top: 50%;
  left: 50%;
  transform: translateX(-50%) translateY(-50%);
@@ -141,11 +141,11 @@
  --color-item-bg: transparent;
  --color-button-bg: white;
  --color-button-text: #000;
- --button-padding: 1rem 2rem;
+ --button-padding: 1rem 3rem;
  --button-margin: 0;
  --radius-button: 40px;
  --border-button: 0;
- font-size:14px;
+ font-size:20px;
  padding:5px 1rem 0 1rem; 
 }
 
