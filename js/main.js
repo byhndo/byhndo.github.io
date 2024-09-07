@@ -35,7 +35,6 @@ var timer = setInterval(function() {
 setTimeout(function(){
 let percentBar = document.getElementById('precent');
 let loadingBar = document.getElementById('loader');
-let start = document.getElementById('start');
 const DOM = {};
 DOM.intro = document.querySelector(".preloader-wrap");
 DOM.shape = DOM.intro.querySelector("svg.shape");
