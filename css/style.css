@@ -130,7 +130,7 @@
 .wrapbtnloader{
  position: absolute;
  top: 50%;
- margin-top:3rem;
+ margin-top:5rem;
  left: 50%;
  transform: translateX(-50%) translateY(-50%);
  z-index:10000000;
@@ -140,7 +140,7 @@
  --color-item-bg: transparent;
  --color-button-bg: white;
  --color-button-text: #000;
- --button-padding: 1.5rem 2rem;
+ --button-padding: 1rem 1.5rem;
  --button-margin: 0;
  --radius-button: 0;
  --border-button: 0;
