@@ -127,7 +127,7 @@
 }
 
 .wrapbtnloader{
- position: absolute;
+ position: fixed;
  top: 50%;
  margin-top:3rem;
  left: 50%;
