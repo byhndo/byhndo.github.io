@@ -73,7 +73,7 @@ onComplete: contentShow
     }
   });
 
-(function show() {
+/*(function show() {
   const arrOpts = [    
     {
       direction: "bottom",
@@ -100,7 +100,9 @@ onComplete: contentShow
    }
   })    
   });
-})();
+})();*/
+
+tl.play();
     
 }, time);
    
