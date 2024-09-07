@@ -95,9 +95,9 @@ onComplete: contentShow
      bttn.style.visibility = "visible";
      bttn.style.opacity = "1";   
      bttn.addEventListener("click", function () {        
-      //  particles.disintegrate();
-        tl.play();
-      })
+      particles.disintegrate();
+      tl.play();
+     })
     }
   })    
   });
