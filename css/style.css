@@ -126,13 +126,13 @@
   overflow: hidden;
 }
 
-.wrapbtnloader{
+/*.wrapbtnloader{
  position: absolute;
  top: 50%;
  margin-top:3rem;
  left: 50%;
  transform: translateX(-50%) translateY(-50%);
-} 
+} */
 
 .theme-loader{
  --color-item-bg: transparent;
