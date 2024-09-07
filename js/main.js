@@ -1,80 +1,79 @@
 document.addEventListener("DOMContentLoaded", function() {
 
-var width = 100,
- perfData = window.performance.timing, 
- EstimatedTime = -(perfData.loadEventEnd - perfData.navigationStart),
- time = parseInt((EstimatedTime/1000)%60)*100;
+ var width = 100,
+  perfData = window.performance.timing,
+  EstimatedTime = Math.abs(perfData.loadEventEnd - perfData.navigationStart),
+  time = Math.floor((EstimatedTime / 1000) % 60) * 100;
 
 $(".loadbar").animate({
-  width: width + "%"
-}, time);
+    width: width + "%"
+ }, time);
 
 var PercentageID = $("#precent"),
-		start = 0,
-		end = 100,
-		durataion = time;
-		animateValue(PercentageID, start, end, durataion);
-		
+  start = 0,
+  end = 100,
+  duration = time;
+animateValue(PercentageID, start, end, duration);
+
 function animateValue(id, start, end, duration) {
-  
-var range = end - start,
-      current = start,
-      increment = end > start? 1 : -1,
-      stepTime = Math.abs(Math.floor(duration / range)),
-      obj = $(id);
-    
-var timer = setInterval(function() {
-		current += increment;
-		$(obj).text(current + "%");      
-		if (current == end) {
-			clearInterval(timer);
-        }
-	}, stepTime);
+  var range = end - start,
+    current = start,
+    increment = end > start ? 1 : -1,
+    stepTime = Math.abs(Math.floor(duration / range)),
+    obj = $(id);
+
+  var timer = setInterval(function () {
+    current += increment;
+    $(obj).text(current + "%");
+    if (current == end) {
+      clearInterval(timer);
+    }
+  }, stepTime);
 }
 
-setTimeout(function(){
-let percentBar = document.getElementById('precent');
-let loadingBar = document.getElementById('loader');
-const DOM = {};
-DOM.intro = document.querySelector(".preloader-wrap");
-DOM.shape = DOM.intro.querySelector("svg.shape");
-DOM.path = DOM.intro.querySelector("path.goey");
-	
+setTimeout(function () {
+  let percentBar = document.getElementById("precent");
+  let loadingBar = document.getElementById("loader");
+  const DOM = {};
+  DOM.intro = document.querySelector(".preloader-wrap");
+  DOM.shape = DOM.intro.querySelector("svg.shape");
+  DOM.path = DOM.intro.querySelector("path.goey");
+
 let tl = gsap.timeline({
- onComplete: contentShow,
- paused: true
+ paused: true,
+ onComplete: contentShow
 });
-  tl.to('.percentage', {
-    autoAlpha:0,
-    duration:1,
-    delay:1,
-    ease:"none",
+
+  tl.to(".percentage", {
+    autoAlpha: 0,
+    duration: 1,
+    delay: 1,
+    ease: "none",
     onComplete: () => {
-     percentBar.style.display = 'none';
-  tl.to('#loader', {
-    autoAlpha:0,
-    duration:1,
-    clipPath: "inset(0 100% 0 100%)",
-    ease: "quart.out",
-    onComplete: () => {
-      loadingBar.style.display = 'none';
-      tl.to(DOM.intro, {
-	y: "-200vh",
-	delay: .1,
-	duration: 2,
-	ease: "quad.inOut"		
-	});
-      gsap.to(DOM.path, {
+      percentBar.style.display = "none";
+      tl.to("#loader", {
+        autoAlpha: 0,
+        duration: 1,
+        ease: "quart.out",
+        onComplete: () => {
+          loadingBar.style.display = "none";
+          tl.to(DOM.intro, {
+            y: "-200vh",
+            delay: 0.1,
+            duration: 2,
+            ease: "quad.inOut"
+          });
+          gsap.to(DOM.path, {
 	duration: 1.2,
 	ease: "linear",
 	attr: { d :  DOM.path.getAttribute("pathdata:id")}	
-	}); 
-    } 	  
-    });
-  }
-});
+	});
+        }
+      });
+    }
+  });
 
-function () {
+(function () {
   const arrOpts = [    
     {
       direction: "bottom",
@@ -83,18 +82,12 @@ function () {
     }     
   ];
 
-  const itemloader = document.querySelectorAll(".wrapbtnloader");
-  itemloader.forEach((il, pos) => {
-    let bttn = il.querySelector("button.particles-button");
+  const items = document.querySelectorAll(".wrapbtnloader");
+  items.forEach((el, pos) => {
+    let bttn = el.querySelector("button.particles-button");
     if (!bttn) return; 
     let particlesOpts = arrOpts[pos];
-    const particles = new Particles(bttn, particlesOpts);
-
-tl.to(itemloader, {
- autoAlpha:1,
- opacity:1
-})
-	  
+    const particles = new Particles(bttn, particlesOpts);         
   gsap.to(bttn, {
     autoAlpha: 1,
     onComplete: () => {
@@ -105,13 +98,15 @@ tl.to(itemloader, {
         tl.play();
       })
     }
-  })    
+  })
+    
   });
+
 })();
   
 }, time);
-
-
+   
+	
 function contentShow() {
 	
 const easing = "expoScale(0.5,7,none)";
