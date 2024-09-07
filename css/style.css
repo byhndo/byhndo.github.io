@@ -132,7 +132,7 @@
  margin-top:3rem;
  left: 50%;
  transform: translateX(-50%) translateY(-50%);
- z-index:100000;
+ z-index:100000000000000;
 } 
 
 .theme-loader{
