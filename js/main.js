@@ -198,7 +198,7 @@ gsap.to('.indicator', {
 }
 }, "<");
 
-/*(function () {
+(function () {
 
   const arrOpts = [    
     {
@@ -225,8 +225,10 @@ gsap.to('.indicator', {
 let tl = gsap.timeline()
 
 tl.to(items, {
- autoAlpha: 1,
- opacity:1
+ onComplete: ()=> {
+ bttn.style.opacity = "1";
+ bttn.style.visibility = "visible";         
+ }
 });
 	  
 window.addEventListener("click", () => {    
@@ -273,7 +275,7 @@ window.addEventListener("click", () => {
     });       
      
   });
-})();*/
+})();
 	
 gsap.to('.header', {  
  onComplete: () => {
