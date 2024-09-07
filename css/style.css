@@ -43,7 +43,7 @@
  justify-content: center;
 }
 
-.intro-screen__titel {
+.intro-screen__title {
   height: 100vh;
   width: 100%;
   display: block;
@@ -56,7 +56,7 @@
   justify-content: center;
 }
 
-.intro-screen__titel div {
+.intro-screen__title div {
   font-size: 8px;
   color: var(--textloadercolor); 
 }
