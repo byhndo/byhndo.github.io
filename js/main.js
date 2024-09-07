@@ -84,14 +84,14 @@ function () {
     }     
   ];
 
-  const items = document.querySelectorAll(".wrapbtnloader");
-  items.forEach((el, pos) => {
-    let bttn = el.querySelector("button.particles-button");
+  const itemloader = document.querySelectorAll(".wrapbtnloader");
+  items.forEach((il, pos) => {
+    let bttn = il.querySelector("button.particles-button");
     if (!bttn) return; 
     let particlesOpts = arrOpts[pos];
     const particles = new Particles(bttn, particlesOpts);
 
-tl.to(items, {
+tl.to(itemloader, {
  autoAlpha:1,
  opacity:1
 })
