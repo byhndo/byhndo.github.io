@@ -40,7 +40,7 @@ setTimeout(function () {
   DOM.path = DOM.intro.querySelector("path.goey");
 
 let tl = gsap.timeline({
-// paused: true,
+ paused: true,
  onComplete: contentShow
 });
 
@@ -73,42 +73,7 @@ let tl = gsap.timeline({
     }
   });
 
-(function hideloader() {
-  const arrOpts = [    
-    {
-      direction: "bottom",
-      duration: 1000,
-      easing: "easeInExpo"
-    }     
-  ];
-
-  const it = document.querySelectorAll(".wrapbtnloader");
-  it.forEach((il, pos) => {
-    let bttn = il.querySelector(".particles-button");
-    if (!bttn) return; 
-    let particlesOpts = arrOpts[pos];
-    const particles = new Particles(bttn, particlesOpts);         
-
-tl.to(it, {
- autoAlpha:1,
- opacity:1
-})
-	  
-tl.to(bttn, {
-    autoAlpha: 1,
-    onComplete: () => {
-     bttn.style.visibility = "visible";
-      bttn.style.opacity = "1";     
-      bttn.addEventListener("click", function () {        
-        particles.disintegrate();
-        //tl.play();
-      })
-    }
-  })
-    
-  });
-
-})();
+tl.play();
   
 }, time);
    
