@@ -88,7 +88,11 @@ onComplete: contentShow
     if (!bttn) return; 
     let particlesOpts = arrOpts[pos];
     const particles = new Particles(bttn, particlesOpts);    
-let tl = gsap.timeline();        
+let tl = gsap.timeline();  
+  tl.to(it, {
+   autoAlpha:1	
+  });
+	  
   tl.to(bttn, {
     autoAlpha: 1,
     onComplete: () => {
