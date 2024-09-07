@@ -126,13 +126,14 @@
   overflow: hidden;
 }
 
-/*.wrapbtnloader{
+.wrapbtnloader{
  position: absolute;
  top: 50%;
  margin-top:3rem;
  left: 50%;
  transform: translateX(-50%) translateY(-50%);
-} */
+ z-index:100000000000000;
+} 
 
 .theme-loader{
  --color-item-bg: transparent;
@@ -144,10 +145,6 @@
  --border-button: 0;
  font-size:10px;
  padding:5px 1rem 0 1rem; 
-}
-
-.wrapbtnloader, .theme-loader, button.particles-button, .particles-button{
- z-index:100000000000000;	
 }
 
 svg.title, svg.trb, svg.sub, svg.noise3 {
