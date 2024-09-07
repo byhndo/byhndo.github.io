@@ -103,7 +103,7 @@ let tl = gsap.timeline({
     }
   });
 
-tl.play();
+
   
 }, time);
    
