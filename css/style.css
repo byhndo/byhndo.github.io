@@ -34,6 +34,7 @@
 }
 
 .preloader-wrap{
+ position: fixed;
  width: 100%;
  height: 200vh;	
  display: flex;
@@ -74,26 +75,25 @@
 }
 
 .percentage {
-  z-index: 100;
-  border: 1px solid transparent;
-  text-align:center;
-  color: var(--textloadercolor);
-  font-size: 8px;
-  line-height:30px;
+ z-index: 100;
+ border: 1px solid transparent;
+ text-align:center;
+ color: var(--textloadercolor);
+ font-size: 8px;
+ line-height:30px;
 }
 
 #loader,
 .percentage{
-  height: 5px;
-  max-width: 200px; 
-  border: 1px solid var(--textloadercolor);
-  font-weight: 700;
-  position: absolute; 
-  top: 0; 
-  bottom: 0; 
-  left: 0; 
-  right: 0;
-  margin: auto; 
+ height: 5px;
+ max-width: 200px; 
+ border: 1px solid var(--textloadercolor);
+ font-weight: 700;
+ position: absolute; 
+ top: 50%;
+ margin-top:3rem;
+ left: 50%;
+ transform: translateX(-50%) translateY(-50%);
 }
 #loader:after, .percentage:after {
   content: "";
@@ -131,18 +131,18 @@
  margin-top:3rem;
  left: 50%;
  transform: translateX(-50%) translateY(-50%);
- z-index:100000000000000;
+ z-index:10000000;
 } 
 
 .theme-loader{
  --color-item-bg: transparent;
- --color-button-bg: white;
- --color-button-text: #000;
- --button-padding: .5rem 3rem;
+ --color-button-bg: var(--bgloaderscreen);
+ --color-button-text: var(--textloadercolor);
+ --button-padding: .6rem 4rem;
  --button-margin: 0;
- --radius-button: 40px;
+ --radius-button: 0;
  --border-button: 0;
- font-size:10px;
+ font-size:11px;
  padding:5px 1rem 0 1rem; 
 }
 
