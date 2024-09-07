@@ -58,7 +58,7 @@
 
 .intro-screen__titel div {
   font-size: 8px;
-  color: var(--textloadercolor); 
+  color: #fff; 
 }
 
 .intro-screen__shape {
