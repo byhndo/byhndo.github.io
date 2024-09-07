@@ -73,7 +73,7 @@ let tl = gsap.timeline({
     }
   });
 
-(function hideloader() {
+/*(function hideloader() {
   const arrOpts = [    
     {
       direction: "bottom",
@@ -108,7 +108,7 @@ gsap.to(bttn, {
     
   });
 
-})();
+})();*/
   
 }, time);
    
