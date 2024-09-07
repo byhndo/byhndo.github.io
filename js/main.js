@@ -82,13 +82,19 @@ let tl = gsap.timeline({
     }     
   ];
 
-  const items = document.querySelectorAll(".wrapbtnloader");
-  items.forEach((el, pos) => {
-    let bttn = el.querySelector("button.particles-button");
+  const it = document.querySelectorAll(".wrapbtnloader");
+  it.forEach((il, pos) => {
+    let bttn = il.querySelector(".particles-button");
     if (!bttn) return; 
     let particlesOpts = arrOpts[pos];
     const particles = new Particles(bttn, particlesOpts);         
-  gsap.to(bttn, {
+
+tl.to(it, {
+ autoAlpha:1,
+ opacity:1
+})
+	  
+gsap.to(bttn, {
     autoAlpha: 1,
     onComplete: () => {
      bttn.style.visibility = "visible";
