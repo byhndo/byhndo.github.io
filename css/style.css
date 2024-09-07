@@ -78,14 +78,14 @@
   z-index: 100;
   border: 1px solid transparent;
   text-align:center;
-  color: var(--textloadercolor);
+  color: #fff;
   font-size: 8px;
   line-height:30px;
 }
 
 #loader,
 .percentage{
-  height: 5px;
+  height: 10px;
   max-width: 200px; 
   border: 1px solid var(--textloadercolor);
   font-weight: 700;
