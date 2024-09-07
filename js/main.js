@@ -233,7 +233,7 @@ gsap.to('.indicator', {
 }
 }, "<");
 
-(function () {
+/*(function () {
 
   const arrOpts = [    
     {
@@ -308,7 +308,7 @@ window.addEventListener("click", () => {
     });       
      
   });
-})();
+})();*/
 	
 gsap.to('.header', {  
  onComplete: () => {
