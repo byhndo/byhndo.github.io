@@ -137,12 +137,12 @@
 .theme-loader{
  --color-item-bg: transparent;
  --color-button-bg: white;
- --color-button-text: blue;
- --button-padding: .6rem 4rem;
+ --color-button-text: #000;
+ --button-padding: .7rem .5rem;
  --button-margin: 0;
  --radius-button: 0;
  --border-button: 0;
- font-size:11px;
+ font-size:14px;
  padding:5px 1rem 0 1rem; 
 }
 
