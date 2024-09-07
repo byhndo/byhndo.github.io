@@ -75,7 +75,35 @@ let tl = gsap.timeline({
   }
 })
 
-tl.play();
+function () {
+  const arrOpts = [    
+    {
+      direction: "bottom",
+      duration: 1000,
+      easing: "easeInExpo"
+    }     
+  ];
+
+  const items = document.querySelectorAll(".nav");
+  items.forEach((el, pos) => {
+    let bttn = el.querySelector("button.particles-button");
+    if (!bttn) return; 
+    let particlesOpts = arrOpts[pos];
+    const particles = new Particles(bttn, particlesOpts);
+          
+  gsap.to(bttn, {
+    autoAlpha: 1,
+    onComplete: () => {
+     bttn.style.visibility = "visible";
+      bttn.style.opacity = "1";     
+      bttn.addEventListener("click", function () {        
+        particles.disintegrate();
+        tl.play();
+      });
+    }
+  });
+}) 
+})();
 	
 }, time); 
 
