@@ -106,11 +106,11 @@ tl.to(itemloader, {
         tl.play();
       })
     }
-  })
-}); 
+  })    
+  });
 })();
-	
-}, time); 
+  
+}, time);
 
 
 function contentShow() {
