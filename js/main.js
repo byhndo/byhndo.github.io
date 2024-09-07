@@ -73,7 +73,7 @@ let tl = gsap.timeline({
     }
   });
 
-/*(function hideloader() {
+(function hideloader() {
   const arrOpts = [    
     {
       direction: "bottom",
@@ -94,7 +94,7 @@ tl.to(it, {
  opacity:1
 })
 	  
-gsap.to(bttn, {
+tl.to(bttn, {
     autoAlpha: 1,
     onComplete: () => {
      bttn.style.visibility = "visible";
@@ -108,7 +108,7 @@ gsap.to(bttn, {
     
   });
 
-})();*/
+})();
   
 }, time);
    
