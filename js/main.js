@@ -73,26 +73,10 @@ onComplete: contentShow
     }
   });
 
-(function show() {
-  const arrOpts = [    
-    {
-      direction: "bottom",
-      duration: 1000,
-      easing: "easeInExpo"
-    }     
-  ];
 
-  const it = document.querySelectorAll(".wrapbtnloader");
-  it.forEach((il, pos) => {
-    let bttn = il.querySelector("button.particles-button");
-    if (!bttn) return; 
-    let particlesOpts = arrOpts[pos];
-    const particles = new Particles(bttn, particlesOpts);    
- 
-tl.to(it, {
- autoAlpha: 1,
- opacity:1
-});
+
+  
+let bttn = document.querySelector(".particles-button");
   gsap.to(bttn, {
     autoAlpha: 1,
     onComplete: () => {
@@ -104,8 +88,8 @@ tl.to(it, {
      })
     }
   })    
-  });
-})();
+  
+
   
 }, time);
    
