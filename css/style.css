@@ -58,7 +58,7 @@
 
 .intro-screen__titel div {
   font-size: 8px;
-  color: #fff; 
+  color: var(--textloadercolor); 
 }
 
 .intro-screen__shape {
@@ -78,14 +78,14 @@
   z-index: 100;
   border: 1px solid transparent;
   text-align:center;
-  color: #fff;
+  color: var(--textloadercolor);
   font-size: 8px;
   line-height:30px;
 }
 
 #loader,
 .percentage{
-  height: 7px;
+  height: 5px;
   max-width: 200px; 
   border: 1px solid var(--textloadercolor);
   font-weight: 700;
