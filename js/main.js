@@ -225,6 +225,7 @@ gsap.to('.indicator', {
 let tl = gsap.timeline()
 
 tl.to(items, {
+ autoAlpha:1,
  onComplete: ()=> {
  bttn.style.opacity = "1";
  bttn.style.visibility = "visible";         
