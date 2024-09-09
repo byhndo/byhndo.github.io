@@ -85,7 +85,7 @@
 
 #loader,
 .percentage{
- height: 20px;
+ height: 10px;
  font-weight: 700;
  position: absolute; 
  top: -50%; 
@@ -93,7 +93,8 @@
  left: 0; 
  right: 0;
  margin : auto; 
- z-index:100;
+ z-index:500;
+ color: var(--grey);
 }
 
 #loader:after, .percentage:after {
