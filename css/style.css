@@ -117,8 +117,8 @@
  width: 0%;
  height: 15px;
  background: var(--textloadercolor);
- position:fixed;
- top:47.5%;
+ position:relative;
+ top:0;
  overflow: hidden;
 }
 
