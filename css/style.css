@@ -78,7 +78,7 @@
 .percentage {
  color: var(--light);
  font-size: 8px;
- line-height:15px;
+ line-height:16px;
  z-index:500;
 }
 
@@ -143,7 +143,7 @@
 
 #btnload{
  font-size:10px;
- font-weight:700;
+ font-weight:500;
 }
 
 svg.title, svg.trb, svg.sub, svg.noise3 {
