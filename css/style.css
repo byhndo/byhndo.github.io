@@ -119,7 +119,7 @@
 
 .loadbar {
  width: 0%;
- height: 5px;
+ height: 100%;
  background: var(--textloadercolor);
  position:relative;
  top:0;
