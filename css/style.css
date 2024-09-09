@@ -130,20 +130,20 @@
  display:flex;
  justify-content: center;
  align-items: center;  
- margin-top:30%; 
+ margin-top:23%; 
  z-index:1000000000;
 } 
 
 .theme-loader{
  --color-item-bg: transparent;
- --color-button-bg: #F4CE14;
+ --color-button-bg: #A9A9A9;
  --color-button-text: #45474B;
  --button-padding: 1rem 3rem;
  --button-margin: 0;
  --radius-button: 40px;
  --border-button: 0;
- font-size:20px;
- padding:5px 1rem 0 1rem; 
+ font-size:25px;
+ padding:1px 1rem 0 1rem; 
 }
 
 svg.title, svg.trb, svg.sub, svg.noise3 {
