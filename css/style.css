@@ -127,14 +127,14 @@
  display:flex;
  justify-content: center;
  align-items: center;  
- margin-top:26%; 
+ margin-top:30%; 
  z-index:1000000000;
 } 
 
 .theme-loader{
  --color-item-bg: transparent;
  --color-button-bg: var(--textloadercolor);
- --color-button-text: #fff;
+ --color-button-text: var(--light);
  --button-padding: .8rem 2.5rem;
  --button-margin: 0;
  --radius-button: 40px;
