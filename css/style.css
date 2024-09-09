@@ -75,16 +75,6 @@
  display: block;
 }
 
-.percentage {
- color: var(--light);
- font-size: 8px;
- font-weight:500;
- z-index:500;
- padding-top: 2px;
- text-align: right;
- margin-right:3px;
-}
-
 #loader,
 .percentage{
  width:75%;
@@ -106,6 +96,16 @@
  position: absolute;
  top: -50%;
  left: 0; 
+}
+
+.percentage {
+ color: var(--light);
+ font-size: 8px;
+ font-weight:500;
+ z-index:500;
+ padding-top: 2px;
+ text-align: right;
+ margin-right:3px;
 }
 
 .trackbar {
