@@ -117,7 +117,7 @@
 .loadbar {
  width: 0%;
  height: 15px;
- background: var(--textloadercolor);
+ background: rgba(255,255,255, .1);
  position:relative;
  top:0;
  overflow: hidden;
