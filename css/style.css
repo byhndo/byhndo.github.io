@@ -78,7 +78,7 @@
 .percentage {
  color: var(--light);
  font-size: 8px;
- padding-top:5px;
+ padding-top:2px;
  z-index:500;
  vertical-align:middle;
 }
