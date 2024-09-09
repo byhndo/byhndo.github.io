@@ -122,6 +122,10 @@
  overflow: hidden;
 }
 
+#start{
+ user-select: none;
+}
+
 .wrapbtnloader{
  position: relative;
  display:flex;
