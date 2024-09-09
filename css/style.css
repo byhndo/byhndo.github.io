@@ -106,7 +106,8 @@
  z-index:500;
  text-align: center;
  position:relative;
- top:10%;
+ top:5%;
+ margin:0;
 }
 
 .trackbar {
