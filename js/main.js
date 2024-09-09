@@ -41,7 +41,7 @@ setTimeout(function () {
 
 let tl = gsap.timeline({
  paused: true,
-onComplete: contentShow
+ onComplete: contentShow
 });
 
   tl.to(".percentage", {
@@ -76,7 +76,7 @@ onComplete: contentShow
 (function show() {
   const arrOpts = [    
     {
-      color: "#405D72",
+      color: "#495057",
       direction: "bottom",
       duration: 1000,
       easing: "easeInExpo"
