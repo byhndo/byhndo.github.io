@@ -100,12 +100,14 @@
 
 .percentage {
  color: var(--light);
- font-size: 8px;
+ font-size: 20vw;
  font-family: var(--font1);
  font-weight:400;
  z-index:500;
  padding-top: 2px;
  text-align: center;
+ position:relative;
+ top:10%;
 }
 
 .trackbar {
