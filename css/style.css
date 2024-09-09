@@ -49,7 +49,7 @@
   height: 100vh;
   width: 100%;
   display: block;
-  //top: -0.2rem;
+  top: -0.2rem;
   position: relative;
   background-color: var(--bgloaderscreen);
   display: flex;
@@ -107,6 +107,7 @@
  z-index:500;
  text-align: center;
  position:relative;
+ top:10%;
 }
 
 .trackbar {
@@ -116,7 +117,6 @@
  color: var(--light);
  text-align: center;
  overflow: hidden;
- border-radius:30px;
 }
 
 .loadbar {
