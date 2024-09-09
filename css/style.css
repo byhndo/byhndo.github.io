@@ -142,7 +142,10 @@
  --radius-button: 40px;
  --border-button: 0;
  padding:1px 1rem 0 1rem; 
- font-size:30px;
+}
+
+.particles-button{
+ font-size:10px;
  font-weight:700;
 }
 
