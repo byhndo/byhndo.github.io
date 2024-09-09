@@ -80,7 +80,7 @@
  font-size: 8px;
  font-weight:500;
  z-index:500;
- line-height: 45px;
+ padding-top: 3px;
  position:fixed;
  top:50%;
 }
