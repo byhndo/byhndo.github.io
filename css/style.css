@@ -144,6 +144,11 @@
  padding:1px 1rem 0 1rem; 
 }
 
+#btnload{
+ font-size:10px;
+ font-weight:700;
+}
+
 svg.title, svg.trb, svg.sub, svg.noise3 {
  width: 0;
  height: 0;
