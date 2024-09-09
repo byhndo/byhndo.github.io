@@ -76,11 +76,10 @@
 }
 
 .percentage {
- z-index: 100;
  text-align:center;
  color: var(--textloadercolor);
- font-size: 8px;
- line-height:30px;
+ font-size: 10px;
+ line-height:25px;
 }
 
 #loader,
@@ -142,8 +141,9 @@
  --button-margin: 0;
  --radius-button: 40px;
  --border-button: 0;
- font-size:25px;
  padding:1px 1rem 0 1rem; 
+ font-size:30px;
+ font-weight:700;
 }
 
 svg.title, svg.trb, svg.sub, svg.noise3 {
