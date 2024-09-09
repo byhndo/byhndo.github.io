@@ -74,7 +74,6 @@
 
 .percentage {
  z-index: 100;
- border: 1px solid transparent;
  text-align:center;
  color: var(--textloadercolor);
  font-size: 8px;
@@ -84,7 +83,6 @@
 #loader,
 .percentage{
  height: 20px;
- border: 1px solid var(--textloadercolor);
  font-weight: 700;
  position: absolute; 
  top: -50%; 
@@ -101,7 +99,7 @@
  width: 100%;
  height: 100%;
  position: absolute;
- top: 0;
+ top: -50%;
  left: 0; 
  z-index:500;
 }
@@ -113,29 +111,24 @@
  text-align: center;
  line-height: 30px;
  overflow: hidden;
- position: absolute;
- top: 50%;
- left: 50%;
- transform: translateX(-50%) translateY(-50%);
 }
 
 .loadbar {
  width: 0%;
- height: 100%;
+ height: 30px;
  background: var(--textloadercolor);
- position: absolute;
- top: 0;
- left: 0;
+ position:fixed;
+ top:47.5%;
  overflow: hidden;
 }
 
 .wrapbtnloader{
- position: absolute;
- top: 50%;
- margin-top:5rem;
- left: 50%;
- transform: translateX(-50%) translateY(-50%);
- z-index:10000000;
+ position: relative;
+ display:flex;
+ justify-content: center;
+ align-items: center;  
+ margin-top:30%; 
+ z-index:1000000000;
 } 
 
 .theme-loader{
