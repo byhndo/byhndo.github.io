@@ -80,6 +80,7 @@
  color: var(--textloadercolor);
  font-size: 10px;
  line-height:24px;
+ z-index:100;
 }
 
 #loader,
@@ -91,7 +92,6 @@
  left: 0; 
  right: 0;
  margin : auto; 
- z-index:500;
  color: var(--textloadercolor);
 }
 
@@ -103,7 +103,6 @@
  position: absolute;
  top: -50%;
  left: 0; 
- z-index:500;
 }
 
 .trackbar {
