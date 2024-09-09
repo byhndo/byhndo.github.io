@@ -99,7 +99,7 @@
 }
 
 .percentage {
- color: rgba(255, 255, 255, .05);
+ color: rgba(255, 255, 255, .1);
  font-size: 20vw;
  font-family: var(--font1);
  font-weight:400;
