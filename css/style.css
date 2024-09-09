@@ -79,13 +79,13 @@
  text-align:center;
  color: var(--textloadercolor);
  font-size: 10px;
- line-height:25px;
+ line-height:24px;
+ font-weight: 700;
 }
 
 #loader,
 .percentage{
  height: 10px;
- font-weight: 700;
  position: absolute; 
  top: -50%; 
  bottom: 0; 
