@@ -76,11 +76,11 @@
 }
 
 .percentage {
- text-align:center;
- color: var(--textloadercolor);
+ color: #fff;
  font-size: 10px;
  line-height:24px;
  z-index:500;
+ text-align:center;
 }
 
 #loader,
@@ -92,7 +92,7 @@
  left: 0; 
  right: 0;
  margin : auto; 
- color: var(--textloadercolor);
+ color: #fff;
 }
 
 #loader:after, .percentage:after {
@@ -127,7 +127,7 @@
  display:flex;
  justify-content: center;
  align-items: center;  
- margin-top:25%; 
+ margin-top:26%; 
  z-index:1000000000;
 } 
 
@@ -139,7 +139,7 @@
  --button-margin: 0;
  --radius-button: 40px;
  --border-button: 0;
- padding:1px 1rem 0 1rem; 
+ padding:0 1rem 0 1rem; 
 }
 
 #btnload{
