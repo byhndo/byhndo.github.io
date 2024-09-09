@@ -77,10 +77,12 @@
 
 .percentage {
  color: var(--light);
- font-size: 5px;
- padding-top:3px;
+ font-size: 40px;
+ font-weight:500;
  z-index:500;
- vertical-align:middle;
+ line-height: 45px;
+ position:fixed;
+ top:50%;
 }
 
 #loader,
@@ -117,7 +119,7 @@
 
 .loadbar {
  width: 0%;
- height: 15px;
+ height: 5px;
  background: var(--textloadercolor);
  position:relative;
  top:0;
