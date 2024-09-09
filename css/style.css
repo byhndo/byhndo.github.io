@@ -80,8 +80,8 @@
  font-size: 8px;
  font-weight:500;
  z-index:500;
- padding-top: 3px;
- text-align: right;
+ padding-top: 1px;
+ text-align: center;
 }
 
 #loader,
