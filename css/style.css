@@ -101,7 +101,8 @@
 .percentage {
  color: var(--light);
  font-size: 8px;
- font-weight:500;
+ font-family: var(--font1);
+ font-weight:400;
  z-index:500;
  padding-top: 2px;
  text-align: right;
