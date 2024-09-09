@@ -114,7 +114,7 @@
 
 .loadbar {
  width: 0%;
- height: 30px;
+ height: 10px;
  background: var(--textloadercolor);
  position:fixed;
  top:47.5%;
