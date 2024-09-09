@@ -92,7 +92,7 @@
  right: 0;
  margin : auto; 
  z-index:500;
- color: var(--grey);
+ color: var(--textloadercolor);
 }
 
 #loader:after, .percentage:after {
