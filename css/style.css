@@ -135,8 +135,8 @@
 
 .theme-loader{
  --color-item-bg: transparent;
- --color-button-bg: #405D72;
- --color-button-text: #45474B;
+ --color-button-bg: var(--darkgrey);
+ --color-button-text: #fff;
  --button-padding: 1rem 3rem;
  --button-margin: 0;
  --radius-button: 40px;
