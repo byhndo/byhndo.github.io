@@ -76,8 +76,7 @@ let tl = gsap.timeline({
 (function show() {
   const arrOpts = [    
     {
-      color: "#495057",
-      direction: "bottom",
+      direction: "right",
       duration: 1000,
       easing: "easeInExpo"
     }     
