@@ -85,6 +85,7 @@
 
 #loader,
 .percentage{
+ width:75%;
  height: 10px;
  position: absolute; 
  top: -50%; 
