@@ -89,7 +89,6 @@ let tl = gsap.timeline({
     let particlesOpts = arrOpts[pos];
     const particles = new Particles(bttn, particlesOpts);  
 
-window.addEventListener("pageshow", ()=> {	 
 gsap.to(bttn, {
       autoAlpha: 0,
       onComplete: () => {
@@ -106,7 +105,6 @@ gsap.to(bttn, {
         })
       }
     });
-});
 	  
 gsap.to(bttn, {
     onComplete: () => {        
