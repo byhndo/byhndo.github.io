@@ -88,11 +88,28 @@ let tl = gsap.timeline({
     if (!bttn) return; 
     let particlesOpts = arrOpts[pos];
     const particles = new Particles(bttn, particlesOpts);  
-  gsap.to(bttn, {
-    autoAlpha: 1,
-    onComplete: () => {
-     bttn.style.visibility = "visible";
-      bttn.style.opacity = "1";   
+
+window.addEventListener("pageshow", ()=> {	 
+gsap.to(bttn, {
+      autoAlpha: 0,
+      onComplete: () => {
+        particles.integrate({
+          duration: 800,
+          easing: "easeInOutSine"
+        });
+        gsap.to(bttn, {
+         duration: 1,
+          onComplete: () => {
+            bttn.style.opacity = "1";
+            bttn.style.visibility = "visible";
+          }
+        })
+      }
+    });
+});
+	  
+gsap.to(bttn, {
+    onComplete: () => {        
       bttn.addEventListener("click", function () {        
         particles.disintegrate();
         tl.play();
