@@ -144,7 +144,7 @@
  --color-item-bg: transparent;
  --color-button-bg: var(--textloadercolor);
  --color-button-text: var(--bgloaderscreen);
- --button-padding: 1rem 3rem .9rem;
+ --button-padding: .9rem 3rem .8rem;
  --button-margin: 0;
  --radius-button: 40px;
  --border-button: 0;
