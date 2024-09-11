@@ -247,7 +247,7 @@ gsap.to('.indicator', {
       color: "#1b81ea",
       style: 'stroke',          
       direction: 'bottom',
-      duration: 1200,
+      duration: 1000,
       easing: 'easeOutQuart',
       speed: .7,
       oscillationCoefficient: 1
@@ -256,7 +256,7 @@ gsap.to('.indicator', {
       color: "#1b81ea",
       style: 'stroke',          
       direction: 'bottom',
-      duration: 1200,
+      duration: 1000,
       easing: 'easeOutQuart',
       speed: .7,
       oscillationCoefficient: 1
