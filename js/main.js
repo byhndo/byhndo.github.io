@@ -246,7 +246,7 @@ gsap.to('.indicator', {
     {
       color: "#1b81ea",
       direction: "bottom",
-      duration: 900,
+      duration: 870,
       easing: "easeOutQuart",
       particlesAmountCoefficient: 5,
       speed: .5,
@@ -255,7 +255,7 @@ gsap.to('.indicator', {
     {
       color: "#1b81ea",
       direction: "bottom",
-      duration: 900,
+      duration: 870,
       easing: "easeOutQuart",
       particlesAmountCoefficient: 5,
       speed: .5,
