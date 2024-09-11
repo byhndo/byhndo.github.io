@@ -244,18 +244,24 @@ gsap.to('.indicator', {
 
   const arrOpts = [    
     {
-      duration: 500,
-      easing: "easeOutQuad",
-      speed: 1,
-      particlesAmountCoefficient: 10,
-      oscillationCoefficient: 80
+      direction: 'right',
+      size: 4,
+      color: '#969696',
+      duration: 1200,
+      easing: 'easeInCubic',
+      particlesAmountCoefficient: 8,
+      speed: 0.4,
+      oscillationCoefficient: 1
     },
     {
-      duration: 500,
-      easing: "easeOutQuad",
-      speed: 1,
-      particlesAmountCoefficient: 10,
-      oscillationCoefficient: 80
+      direction: 'right',
+      size: 4,
+      color: '#969696',
+      duration: 1200,
+      easing: 'easeInCubic',
+      particlesAmountCoefficient: 8,
+      speed: 0.4,
+      oscillationCoefficient: 1
     }
   ];
 
