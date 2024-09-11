@@ -244,22 +244,22 @@ gsap.to('.indicator', {
 
   const arrOpts = [    
     {
-      color: '#1b81ea',
-      direction: 'bottom',
-      duration: 1200, 
-      easing: 'easeOutBack',
-      particlesAmountCoefficient: 2,
-      speed: 0.4,
-      oscillationCoefficient: 1
+      color: "#1b81ea",
+      direction: "bottom",
+      duration: 1000,
+      easing: "easeOutQuart",
+      particlesAmountCoefficient: 5,
+      speed: .5,
+      oscillationCoefficient: 20
     },
     {
-      color: '#1b81ea',
-      direction: 'bottom',
-      duration: 1200, 
-      easing: 'easeOutBack',
-      particlesAmountCoefficient: 2,
-      speed: 0.4,
-      oscillationCoefficient: 1
+      color: "#1b81ea",
+      direction: "bottom",
+      duration: 1000,
+      easing: "easeOutQuart",
+      particlesAmountCoefficient: 5,
+      speed: .5,
+      oscillationCoefficient: 20
     }
   ];
 
