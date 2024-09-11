@@ -144,11 +144,11 @@
  --color-item-bg: transparent;
  --color-button-bg: var(--textloadercolor);
  --color-button-text: var(--bgloaderscreen);
- --button-padding: .8rem 2.5rem .75rem;
+ --button-padding: .8rem 3rem .75rem;
  --button-margin: 0;
  --radius-button: 40px;
  --border-button: 0;
- padding:0 1rem 0 1rem; 
+// padding:0 1rem 0 1rem; 
 }
 
 #btnload{
