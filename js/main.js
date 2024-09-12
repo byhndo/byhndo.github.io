@@ -96,14 +96,14 @@ gsap.to(bttn, {
           duration: 800,
           easing: "easeOutSine"
         });
-        gsap.to(bttn, {
+       /* gsap.to(bttn, {
          duration: .9,
 	 ease: "quint.out",
           onComplete: () => {
             bttn.style.opacity = "1";
             bttn.style.visibility = "visible";
           }
-        })
+        })*/
       }
     });
 	  
