@@ -91,22 +91,20 @@ let tl = gsap.timeline({
 
 gsap.to(bttn, {
       autoAlpha: 0,
-	duration:1,
+      duration:1,
       onComplete: () => {
-	      bttn.style.opacity = "1";
-            bttn.style.visibility = "visible";
-        particles.integrate({
+	particles.integrate({
           duration: 800,
           easing: "easeOutSine"
         });
-       /* gsap.to(bttn, {
-         duration: .9,
+       gsap.to(bttn, {
+       //duration: 1,
 	 ease: "quint.out",
           onComplete: () => {
             bttn.style.opacity = "1";
             bttn.style.visibility = "visible";
           }
-        })*/
+        })
       }
     });
 	  
