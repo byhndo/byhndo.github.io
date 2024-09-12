@@ -76,9 +76,11 @@ let tl = gsap.timeline({
 (function show() {
   const arrOpts = [    
     {
-      direction: "left",
-      duration: 1000,
-      easing: "easeInExpo"
+      duration: 500,
+      easing: 'easeOutQuad',
+      speed: .1,
+      particlesAmountCoefficient: 10,
+      oscillationCoefficient: 80
     }     
   ];
 
