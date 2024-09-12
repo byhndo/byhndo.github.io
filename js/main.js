@@ -247,13 +247,13 @@ gsap.to('.indicator', {
     {
       color: "#1b81ea",
       direction: 'bottom',
-      duration: 1000,
+      duration: 1200,
       easing: 'easeOutQuart'   
     },
     {
       color: "#1b81ea",
       direction: 'bottom',
-      duration: 1000,
+      duration: 1200,
       easing: 'easeOutQuart'   
     }
   ];
