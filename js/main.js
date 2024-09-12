@@ -246,14 +246,14 @@ gsap.to('.indicator', {
     {
       color: "#1b81ea",
       direction: 'top',
-      duration: 1000,
-      easing: 'easeInOutCubic'   
+      duration: 500,
+      easing: 'easeOutQuad'   
     },
     {
       color: "#1b81ea",
       direction: 'top',
-      duration: 1000,
-      easing: 'easeInOutCubic'   
+      duration: 500,
+      easing: 'easeOutQuad'   
     }
   ];
 
