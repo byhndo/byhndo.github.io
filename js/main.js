@@ -98,6 +98,7 @@ gsap.to(bttn, {
         });
         gsap.to(bttn, {
          duration: 1,
+	 ease: "quint.out",
           onComplete: () => {
             bttn.style.opacity = "1";
             bttn.style.visibility = "visible";
@@ -279,11 +280,12 @@ window.addEventListener("click", () => {
       onComplete: () => {	
         particles.integrate({
           duration: 800,
-          easing: "easeInOutQuint"
+          easing: "easeOutSine"
         });
 
         gsap.to(bttn, {
           duration: 1,
+	  ease: "quint.out",
           onComplete: () => {
             bttn.style.opacity = "1";
             bttn.style.visibility = "visible";
