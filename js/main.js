@@ -245,13 +245,13 @@ gsap.to('.indicator', {
   const arrOpts = [    
     {
       color: "#1b81ea",
-      direction: 'right',
+      direction: 'top',
       duration: 1000,
       easing: 'easeInOutCubic'   
     },
     {
       color: "#1b81ea",
-      direction: 'right',
+      direction: 'top',
       duration: 1000,
       easing: 'easeInOutCubic'   
     }
