@@ -250,16 +250,14 @@ gsap.to('.indicator', {
       direction: 'bottom',
       duration: 1000,
       easing: 'easeInExpo',
-      oscillationCoefficient: 5,
-      particlesAmountCoefficient: 2
+      oscillationCoefficient: 5
     },
     {
       color: "#1b81ea",
       direction: 'bottom',
       duration: 1000,
       easing: 'easeInExpo',
-      oscillationCoefficient: 5,
-      particlesAmountCoefficient: 2
+      oscillationCoefficient: 5
     }
   ];
 
