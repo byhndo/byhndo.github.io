@@ -95,7 +95,7 @@ gsap.to(bttn, {
       autoAlpha: 0,
       onComplete: () => {
 	particles.integrate({
-          duration: 930,
+          duration: 900,
           easing: "easeOutSine"
         });
        gsap.to(bttn, {
