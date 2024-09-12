@@ -91,6 +91,7 @@ let tl = gsap.timeline({
 
 gsap.to(bttn, {
       autoAlpha: 0,
+	duration:1,
       onComplete: () => {
 	      bttn.style.opacity = "1";
             bttn.style.visibility = "visible";
