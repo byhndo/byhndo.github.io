@@ -97,7 +97,7 @@ gsap.to(bttn, {
           easing: "easeOutSine"
         });
         gsap.to(bttn, {
-         duration: 1.1,
+         duration: .9,
 	 ease: "quint.out",
           onComplete: () => {
             bttn.style.opacity = "1";
