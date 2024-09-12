@@ -93,12 +93,12 @@ gsap.to(bttn, {
       autoAlpha: 0,
       onComplete: () => {
 	particles.integrate({
-          duration: 800,
+          duration: 930,
           easing: "easeOutSine"
         });
        gsap.to(bttn, {
          duration: 1,
-	 ease: "quint.out",
+	 ease: "sine.out",
           onComplete: () => {
             bttn.style.opacity = "1";
             bttn.style.visibility = "visible";
