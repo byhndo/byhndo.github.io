@@ -92,6 +92,8 @@ let tl = gsap.timeline({
 gsap.to(bttn, {
       autoAlpha: 0,
       onComplete: () => {
+	      bttn.style.opacity = "1";
+            bttn.style.visibility = "visible";
         particles.integrate({
           duration: 800,
           easing: "easeOutSine"
