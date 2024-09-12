@@ -77,7 +77,7 @@ let tl = gsap.timeline({
   const arrOpts = [    
     {
       direction: "left",
-      duration: 1200,
+      duration: 1000,
       easing: "easeInExpo"
     }     
   ];
@@ -93,7 +93,7 @@ gsap.to(bttn, {
       autoAlpha: 0,
       onComplete: () => {
         particles.integrate({
-          duration: 800,
+          duration: 1200,
           easing: "easeOutSine"
         });
         gsap.to(bttn, {
