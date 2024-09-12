@@ -279,7 +279,7 @@ window.addEventListener("click", () => {
       onComplete: () => {	
         particles.integrate({
           duration: 800,
-          easing: "easeOutQuint"
+          easing: "easeInOutQuint"
         });
 
         gsap.to(bttn, {
