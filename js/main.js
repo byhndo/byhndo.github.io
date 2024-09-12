@@ -105,7 +105,7 @@ gsap.to(bttn, {
           }
         })
       }
-    });
+    }, ">1");
 	  
 gsap.to(bttn, {
     onComplete: () => {        
