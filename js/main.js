@@ -250,7 +250,7 @@ gsap.to('.indicator', {
       direction: 'bottom',
       duration: 1000,
       easing: 'easeInOutCubic',
-      oscillationCoefficient: 50,
+      oscillationCoefficient: 40,
       particlesAmountCoefficient: 2
     },
     {
@@ -258,7 +258,7 @@ gsap.to('.indicator', {
       direction: 'bottom',
       duration: 1000,
       easing: 'easeInOutCubic',
-      oscillationCoefficient: 50,
+      oscillationCoefficient: 40,
       particlesAmountCoefficient: 2
     }
   ];
