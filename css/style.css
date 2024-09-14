@@ -223,7 +223,7 @@ wrapnav{
 } 
 
 #btn-nav{
- text-transform: uppercase;
+ text-transform: none;
  font-family: var(--font2);
  font-size: var(--sizenav);
  font-weight: var(--fwnav);
