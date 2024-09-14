@@ -278,7 +278,7 @@ tl.to(items, {
  autoAlpha:1
 });
 	  
-window.addEventListener("click", () => {    
+bttn.addEventListener("click", () => {    
     
    tl.to(bttn, {
       autoAlpha: 0,    
