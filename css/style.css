@@ -18,7 +18,7 @@
  --font2: 'Inter', sans-serif;
  --font3: 'Cormorant Garamond', sans-serif;
  --marginp: 60px;
- --fwnav: 400;
+ --fwnav: 700;
  --fwtitle: 400;
  --fwhh: 400;
  --fwbody: 300;
@@ -222,8 +222,11 @@ wrapnav{
  opacity:0; 
 } 
 
-.particles-button {
- text-transform: uppercase;	
+#btn-nav{
+ text-transform: uppercase;
+ font-family: var(--font2);
+ font-size: var(--sizenav);
+ font-weight: var(--fwnav);
 }
 
 .theme {
