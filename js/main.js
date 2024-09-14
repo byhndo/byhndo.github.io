@@ -247,18 +247,18 @@ gsap.to('.indicator', {
   const arrOpts = [    
     {
       color: "#1b81ea",
-      direction: 'bottom',
+      direction: 'right',
       duration: 1000,
       easing: 'easeInOutCubic',
-      oscillationCoefficient: 30,
+      oscillationCoefficient: 10,
       particlesAmountCoefficient: 1
     },
     {
       color: "#1b81ea",
-      direction: 'bottom',
+      direction: 'left',
       duration: 1000,
       easing: 'easeInOutCubic',
-      oscillationCoefficient: 30,
+      oscillationCoefficient: 10,
       particlesAmountCoefficient: 1
     }
   ];
