@@ -284,7 +284,7 @@ window.addEventListener("click", () => {
       autoAlpha: 0,    
       onComplete: () => {	
         particles.integrate({
-          duration: 900,
+          duration: 850,
           easing: "easeOutSine"
         });
 
