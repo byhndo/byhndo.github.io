@@ -297,7 +297,6 @@ window.addEventListener("click", () => {
         })
       }
     }, ">1");    
-   })
 
    tl.to(bttn, {
       autoAlpha: 0,    
@@ -316,7 +315,7 @@ window.addEventListener("click", () => {
         })
       }
     }, ">1");    
-   })
+   });
 	 
     tl.to(bttn, {
       autoAlpha: 0,
