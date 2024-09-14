@@ -298,7 +298,26 @@ window.addEventListener("click", () => {
       }
     }, ">1");    
    })
- 
+
+   tl.to(bttn, {
+      autoAlpha: 0,    
+      onUpdate: () => {	
+        particles.integrate({
+          duration: 900,
+          easing: "easeOutSine"
+        });
+
+        gsap.to(bttn, {
+          duration: 1,	  
+          onUpdate: () => {
+            bttn.style.opacity = "1";
+            bttn.style.visibility = "visible";
+          }
+        })
+      }
+    }, ">1");    
+   })
+	 
     tl.to(bttn, {
       autoAlpha: 0,
       onComplete: () => {
