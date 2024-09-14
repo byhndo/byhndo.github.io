@@ -314,7 +314,7 @@ bttn.addEventListener("click", () => {
           }
         })
       }
-    }, ">1");    
+    }, ">1.5");    
    });
 	 
     tl.to(bttn, {
