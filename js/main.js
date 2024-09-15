@@ -301,20 +301,20 @@ bttn.addEventListener("click", () => {
 bttn.addEventListener("click", () => {
     tl.to(bttn, {
       autoAlpha: 0,  
-      duration:1,
       onUpdate: () => {	
         particles.integrate({
           duration: 900,
           easing: "easeOutSine"
         });
+
         gsap.to(bttn, {
-          duration: 1,	 
-          autoAlpha:1,
-          opacity:1                
+          duration: 1,	        
+          autoAlpha: 1,
+          opacity:1
           });
       }
     }, "+=1.5");  
-    });
+});
 	 
     tl.to(bttn, {
       autoAlpha: 0,
