@@ -309,8 +309,12 @@ tl.to(items, {
 
         gsap.to(bttn, {
           duration: 1,	        
-          autoAlpha: 1,
-          opacity:1
+          //autoAlpha: 1,
+         //opacity:1,
+		onComplete: () => {
+            bttn.style.opacity = "1";
+            bttn.style.visibility = "visible";
+		}
           });
       }
     }, "+=1.5");  
