@@ -278,8 +278,7 @@ tl.to(items, {
  autoAlpha:1
 });
 	  
-bttn.addEventListener("click", () => {    
-    
+bttn.addEventListener("click", () => {      
    tl.to(bttn, {
       autoAlpha: 0,    
       onComplete: () => {	
@@ -296,8 +295,10 @@ bttn.addEventListener("click", () => {
           }
         })
       }
-    }, ">1");    
+    }, ">1");  
+});
 
+bttn.addEventListener("click", () => {
    tl.to(bttn, {
       autoAlpha: 0,    
       onUpdate: () => {	
