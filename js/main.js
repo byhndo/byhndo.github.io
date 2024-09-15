@@ -249,17 +249,13 @@ gsap.to('.indicator', {
       color: "#1b81ea",
       direction: 'right',
       duration: 1000,
-      easing: 'easeInOutCubic',
-      oscillationCoefficient: 5,
-      particlesAmountCoefficient: 1
+      easing: 'easeInOutCubic'
     },
     {
       color: "#1b81ea",
       direction: 'left',
       duration: 1000,
-      easing: 'easeInOutCubic',
-      oscillationCoefficient: 5,
-      particlesAmountCoefficient: 1
+      easing: 'easeInOutCubic'
     }
   ];
 
