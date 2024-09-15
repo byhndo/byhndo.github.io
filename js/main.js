@@ -295,9 +295,6 @@ tl.to(items, {
 }); */
 
 bttn.addEventListener("click", () => {
-tl.to(items, {                
- autoAlpha: 1
-});
 	
     tl.to(bttn, {
       autoAlpha: 0,  
@@ -307,6 +304,9 @@ tl.to(items, {
           easing: "easeOutSine"
         });
 
+	tl.to(items, {                
+         autoAlpha: 1
+        });
         gsap.to(bttn, {
           duration: 1,	        
           //autoAlpha: 1,
