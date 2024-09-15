@@ -300,7 +300,8 @@ bttn.addEventListener("click", () => {
 
 bttn.addEventListener("click", () => {
     tl.to(bttn, {
-      autoAlpha: 0,    
+      autoAlpha: 0,  
+      duration:1,
       onUpdate: () => {	
         particles.integrate({
           duration: 900,
