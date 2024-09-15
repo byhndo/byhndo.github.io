@@ -311,7 +311,7 @@ tl.to(items, {
           duration: 1,	        
           //autoAlpha: 1,
          //opacity:1,
-		onComplete: () => {
+	onUpdate: () => {
             bttn.style.opacity = "1";
             bttn.style.visibility = "visible";
 		}
