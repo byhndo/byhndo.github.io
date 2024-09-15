@@ -299,24 +299,21 @@ bttn.addEventListener("click", () => {
 });
 
 bttn.addEventListener("click", () => {
-   tl.to(bttn, {
+    tl.to(bttn, {
       autoAlpha: 0,    
       onUpdate: () => {	
         particles.integrate({
           duration: 900,
           easing: "easeOutSine"
         });
-
         gsap.to(bttn, {
-          duration: 1,	  
-          onUpdate: () => {
-            bttn.style.opacity = "1";
-            bttn.style.visibility = "visible";
-          }
-        })
+          duration: 1,	 
+          autoAlpha:1,
+          opacity:1                
+          });
       }
-    }, "+=1.5");    
-   });
+    }, "+=1.5");  
+    });
 	 
     tl.to(bttn, {
       autoAlpha: 0,
