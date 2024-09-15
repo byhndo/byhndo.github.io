@@ -295,6 +295,10 @@ bttn.addEventListener("click", () => {
 });
 
 bttn.addEventListener("click", () => {
+tl.to(items, {                
+ autoAlpha: 1
+});
+	
     tl.to(bttn, {
       autoAlpha: 0,  
       onUpdate: () => {	
