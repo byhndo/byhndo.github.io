@@ -274,7 +274,7 @@ tl.to(items, {
  autoAlpha:1
 });
 	  
-/*bttn.addEventListener("click", () => {      
+bttn.addEventListener("click", () => {      
    tl.to(bttn, {
       autoAlpha: 0,    
       onComplete: () => {	
@@ -292,9 +292,12 @@ tl.to(items, {
         })
       }
     }, ">1");  
-}); */
+}); 
 
 bttn.addEventListener("click", () => {
+tl.to(items, {                
+ autoAlpha: 1
+});
 	
     tl.to(bttn, {
       autoAlpha: 0,  
@@ -303,19 +306,12 @@ bttn.addEventListener("click", () => {
           duration: 900,
           easing: "easeOutSine"
         });
-
-	tl.to(items, {                
-         autoAlpha: 1
-        });
+	
         gsap.to(bttn, {
-          duration: 1,	        
-          //autoAlpha: 1,
-         //opacity:1,
-	onUpdate: () => {
-            bttn.style.opacity = "1";
-            bttn.style.visibility = "visible";
-		}
-          });
+         duration: 1,	        
+         autoAlpha: 1,
+	 opacity:1
+        });
       }
     }, "+=1.5");  
 });
