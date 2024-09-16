@@ -33,6 +33,26 @@
  pointer-events: none;
 }
 
+html{
+ background: var(--light);
+ overflow:hidden;
+}
+
+body {
+ background-color: var(--light);
+ font-family: var(--font2);
+ color: var(--dark);
+ font-size: var(--sizebody);
+ font-weight:var(--fwbody);
+ line-height:1.5;
+ word-wrap: break-word;
+ overflow:hidden;
+ height:100%;
+ position: relative;
+ text-rendering: geometricPrecision!important;
+ letter-spacing:.02em;
+}
+
 .preloader-wrap{
  position: fixed;
  width: 100%;
@@ -164,24 +184,6 @@ svg.title, svg.trb, svg.sub, svg.noise3 {
  pointer-events: none;
 }
 	
-html{
- background: var(--light);
- overflow:hidden;
-}
-body {
- background-color: var(--light);
- font-family: var(--font2);
- color: var(--dark);
- font-size: var(--sizebody);
- font-weight:var(--fwbody);
- line-height:1.5;
- word-wrap: break-word;
- overflow:hidden;
- height:100%;
- position: relative;
- text-rendering: geometricPrecision!important;
-}
-
 *, *:before, *:after {
  box-sizing: border-box;
 }
