@@ -231,14 +231,13 @@ wrapnav{
  font-family: var(--font2);
  font-size: var(--sizenav);
  font-weight: var(--fwnav);
- padding: 7px 45px;
 }
 
 .theme {
  --color-item-bg: transparent;
  --color-button-bg: var(--darkgrey);
  --color-button-text: var(--light);
- --button-padding:0;
+ --button-padding: 7px 50px 6px;
  --button-margin: 0;
  --radius-button: 40px;
  --border-button: 0;
