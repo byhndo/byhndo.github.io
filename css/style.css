@@ -49,7 +49,7 @@ body {
  overflow:hidden;
  height:100%;
  position: relative;
- letter-spacing:.01em;
+ letter-spacing:.03em;
  text-rendering: optimizeLegibility!important;
  -webkit-font-smoothing:antialiased;
  -moz-osx-font-smoothing:grayscale;
