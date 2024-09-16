@@ -86,7 +86,7 @@ let tl = gsap.timeline({
 
   const it = document.querySelectorAll(".wrapbtnloader");
   it.forEach((il, pos) => {
-    let bttn = il.querySelector(".particles-button");
+    let bttn = il.querySelector("button.particles-button");
     if (!bttn) return; 
     let particlesOpts = arrOpts[pos];
     const particles = new Particles(bttn, particlesOpts);  
