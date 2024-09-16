@@ -49,8 +49,10 @@ body {
  overflow:hidden;
  height:100%;
  position: relative;
- text-rendering: geometricPrecision!important;
  letter-spacing:.02em;
+ text-rendering: geometricPrecision!important;
+ -webkit-font-smoothing:antialiased;
+ -moz-osx-font-smoothing:grayscale;
 }
 
 .preloader-wrap{
