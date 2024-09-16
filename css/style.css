@@ -173,7 +173,7 @@ body {
  --color-item-bg: transparent;
  --color-button-bg: var(--textloadercolor);
  --color-button-text: var(--bgloaderscreen);
- --button-padding: 1rem 3.5rem .9rem;
+ --button-padding: 1rem 3.5rem .95rem;
  --button-margin: 0;
  --radius-button: 40px;
  --border-button: 0;
