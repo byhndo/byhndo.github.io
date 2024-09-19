@@ -138,6 +138,7 @@ body {
  color: var(--light);
  text-align: center;
  overflow: hidden;
+ z-index:1000;
 }
 
 .loadbar {
@@ -147,6 +148,7 @@ body {
  position:relative;
  top:0;
  overflow: hidden;
+ z-index:1000;
 }
 
 #start{
