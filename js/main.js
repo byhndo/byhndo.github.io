@@ -127,6 +127,11 @@ function contentShow() {
 const easing = "expoScale(0.5,7,none)";
 const dur = 1;
 const once = "play none none reset";
+
+$('html, body').css({
+  'overflow': 'auto',
+  'height': 'auto'
+})
 	
 gsap.registerPlugin(ScrollTrigger);
 	
@@ -160,11 +165,6 @@ data() {
         }
     }
 }).mount('#app') 
-
-$('html, body').css({
-  'overflow': 'auto',
-  'height': 'auto'
-})
 	
 Splitting();
 	
