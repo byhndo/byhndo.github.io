@@ -124,12 +124,17 @@ padding-bottom:14rem;
 <a href="javascript:setTimeout(()=>{window. location = '/' },2500);"><button id="btn404" class="particles-button">Beranda</button></a>
 </div>	
 <script src='js/anime.min.js'></script>
+<script src='js/jquery.js'></script>
 <script src='js/gsap.js'></script>
 <script src='js/particles.js'></script>
 <script>
 document.addEventListener("DOMContentLoaded", function() {
 	
 window.addEventListener("pageshow", ()=>{
+$('html, body').css({
+  'overflow': 'auto',
+  'height': 'auto'
+})
 
 const feBlur = document.querySelector(`#noise feGaussianBlur`);
 const feDisplacementMap = document.querySelector(`#noise feDisplacementMap`);
