@@ -58,11 +58,12 @@ a:hover, a:active{
 }
 	
 .main{
+ position:relative;
  display:flex;
  justify-content:center;
  align-items:center;
  flex-direction: column;
- height:100dvh;
+ height:100%;
 } 
 	
 .box {
@@ -83,22 +84,26 @@ a:hover, a:active{
 }
 	
 .theme-404 {
---color-item-bg: transparent;
---color-button-bg: var(--textloadercolor);
---color-button-text: var(--bgloaderscreen);
---button-padding: 1rem 3.5rem .93rem;
---button-margin: 0;
---radius-button: 40px;
---border-button: 0;
-padding-bottom:14rem;
+ --color-item-bg: transparent;
+ --color-button-bg: var(--textloadercolor);
+ --color-button-text: var(--bgloaderscreen);
+ --button-padding: 1rem 3.5rem .93rem;
+ --button-margin: 0;
+ --radius-button: 40px;
+ --border-button: 0;
+ padding-bottom:14rem;
 }
 
 #btn404{
+ position:relative;
+ display:flex;
+ justify-content:center;
+ align-items:center;
  text-transform: none;
  font-family: var(--font2);
  font-size:10px;
  font-weight:600;
- }
+}
 	        		
 @media (min-width: 500px) {
 .box {
