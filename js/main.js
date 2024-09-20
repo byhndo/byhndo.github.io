@@ -344,7 +344,7 @@ tl.to(items, {
 gsap.to('.header', {  
  onComplete: () => {
   gsap.to(".header", {  
-   yPercent:12,
+   y: "12dvh",
    ease: "cubic.out",
    scrollTrigger: {
     scrub: 5,
