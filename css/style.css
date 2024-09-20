@@ -675,25 +675,21 @@ li.about{
  visibility: hidden;
 }
 
-.footer span {
- color: var(--dark);
- font-size:var(--sizenav);
+.footer span, .footer span a {
  text-decoration: none;
+ font-size:var(--sizenav);
+ font-weight:var(--fwfooter); 
+ color: var(--dark);
 }
 
 .photos .footer span, .photos .footer span a {
- color: var(--light);
-}
-
-.footer span, .footer span a {
  text-decoration: none;
+ font-size:var(--sizenav);
+ font-weight:var(--fwfooter); 
+ color: var(--light);     
 }
 
-.footer span a{
- font-weight:var(--fwfooter);     
-}
-
-.footer span.fc {
+.footer span.fc, .photos span.fc {
  font-size:var(--sizenav);
  font-weight: var(--fwfooter);
 }
