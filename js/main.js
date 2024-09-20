@@ -344,7 +344,7 @@ tl.to(items, {
 gsap.to('.header', {  
  onComplete: () => {
   gsap.to(".header", {  
-   y: "12dvh",
+   y: "10dvh",
    ease: "cubic.out",
    scrollTrigger: {
     scrub: 5,
