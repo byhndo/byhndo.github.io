@@ -672,9 +672,13 @@ li.about{
  font-family: var(--font2);
  font-size:var(--sizenav);
  font-weight: var(--fwfooter);
- text-decoration: none!important;
+ text-decoration: none;
  opacity: 0;
  visibility: hidden;
+}
+
+.footer span a{
+ text-decoration: none;
 }
 
 .footer span, .footer span a {
