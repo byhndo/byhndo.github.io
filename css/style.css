@@ -670,6 +670,7 @@ li.about{
  align-items: center;
  margin: 0 0 0 0;
  font-family: var(--font2);
+ font-size:var(--sizenav);
  font-weight: var(--fwfooter);
  opacity: 0;
  visibility: hidden;
@@ -689,7 +690,7 @@ li.about{
  color: var(--light);     
 }
 
-.footer span.fc, .photos span.fc {
+.footer span.fc, .photos .footer span.fc {
  font-size:var(--sizenav);
  font-weight: var(--fwfooter);
 }
