@@ -672,28 +672,19 @@ li.about{
  font-family: var(--font2);
  font-size:var(--sizenav);
  font-weight: var(--fwfooter);
+ text-decoration: none;
  opacity: 0;
  visibility: hidden;
 }
 
 .footer span, .footer span a {
- text-decoration: none;
- font-size:var(--sizenav);
- font-weight:var(--fwfooter); 
  color: var(--dark);
 }
 
 .photos .footer span, .photos .footer span a {
- text-decoration: none;
- font-size:var(--sizenav);
- font-weight:var(--fwfooter); 
  color: var(--light);     
 }
 
-.footer span.fc, .photos .footer span.fc {
- font-size:var(--sizenav);
- font-weight: var(--fwfooter);
-}
 @media(min-width:500px){
  main{
   max-width:60%;
