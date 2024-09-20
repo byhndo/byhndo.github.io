@@ -58,7 +58,7 @@ a:hover, a:active{
 }
 	
 .main{
- position:relative;
+ position:fixed;
  display:flex;
  justify-content:center;
  align-items:center;
@@ -67,7 +67,6 @@ a:hover, a:active{
 } 
 	
 .box {
- position:relative;
  font-size: 50vw;
  font-family: var(--font1);
  color: var(--textloadercolor);
@@ -78,9 +77,6 @@ a:hover, a:active{
  filter: url(#noise);
  opacity:0;
  visibility:hidden;
- display:flex;
- justify-content:center;
- align-items:center;
 }
 	
 .theme-404 {
@@ -95,10 +91,6 @@ a:hover, a:active{
 }
 
 #btn404{
- position:relative;
- display:flex;
- justify-content:center;
- align-items:center;
  text-transform: none;
  font-family: var(--font2);
  font-size:10.5px;
@@ -107,6 +99,7 @@ a:hover, a:active{
 	        		
 @media (min-width: 500px) {
 .box {
+ margin-top:10dvh;
  font-size: 30vw;
 }
 }
