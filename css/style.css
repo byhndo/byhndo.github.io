@@ -303,7 +303,7 @@ h1 {
  top:30dvh;
  width: 7px;
  height: 35px;
- border: 1px solid #fff;
+ border: 1px solid var(--soc1);
  border-radius: 50px;
  visibility: hidden;
  opacity: 0;
@@ -313,7 +313,7 @@ h1 {
  position: absolute;
  width: 5px;
  height: 5px;
- background: #fff;
+ background: var(--soc1);
  border-radius: 100%;
  margin: auto auto auto 1px;
  animation: animate 2s linear infinite;
