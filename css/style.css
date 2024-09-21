@@ -296,95 +296,55 @@ h1 {
 .photos .sub-title{
   color:var(--soc2);
 }
-
+ 
 .indicator {
- position:absolute;
- top:50vh;	
- opacity: 0;
- visibility: hidden;
- left:5px;
+  width: 7px;
+  height: 35px;
+  border: 1px solid var(--soc1);
+  border-radius: 50px;
+  position: relative;
 }
 
-.textsc{
- font-size:9px;
- font-family:var(--font2);
- color:var(--soc1);
- font-weight:300;
- text-transform:uppercase;
- margin-bottom:7px;
- margin-left:-2.5px;
- transition-duration: 4s;
- writing-mode: vertical-rl;
- text-orientation: mixed;
-}
-	
-.scroll{
- left:0px;
- background: none;
- width: 10px;
- height: 40px;
- border-radius: 32px;
- border: 2px solid var(--soc1);
- transition:border-color 4s;
-}
-	
-.mouse {
- position: relative;
- display:block;
- width: 8px;
- height: 25px;
- margin: 0 auto 20px;
- color:var(--soc1);
- transition:color 4s;
- animation: ani-mouse 2s linear infinite;
+.indicator:after {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background: var(--soc1);
+  border-radius: 100%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  animation: animate 2s linear infinite;
 }
 
-.mouse > * {
- position: absolute;
- display: block;
- top: 0%;
- left: 50%;
- width: 4.5px;
- height: 18px;
- margin: -3px 0 0 -3px;
- background: var(--soc1);
- border-radius: 6px;
- transition: background-color 2s;
- animation: ani-mouse 2s linear infinite;
+.photos .indicator, .photos .indicator:after{
+ border: 1px solid var(--soc2);
+ background: var(--soc2);
 }
 
-.photos .scroll{
- border: 2px solid var(--soc2);	
-}
-.photos .mouse > * {
- background: var(--soc2);	
-}
+@keyframes animate {
+  0% {
+    opacity: 0;
+    top: 0;
+  }
 
-.photos .textsc{
- color:var(--soc2);
-}
+  35% {
+    opacity: 1;
+    top: 30%;
+    transform: scale(1);
+  }
+  65% {
+    opacity: 1;
+    top: 60%;
+    transform: scale(1);
+  }
 
-@keyframes ani-mouse {
-	0% {
-	opacity: 0;
-	top: 10%;
-	}
-  1% {
-	opacity: 1;
-	top: 10%;
-	}
-	50% {
-	opacity: 1;
-	top: 25%;
-	}
-	99% {
-	opacity: 0;
-	top: 25%;
-	}
-	100% {
-	opacity: 0;
-	top: 15%;
-	}
+  100% {
+    opacity: 0;
+    top: 88%;
+  }
 }
 
 a {
