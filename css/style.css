@@ -297,7 +297,7 @@ h1 {
   color:var(--soc2);
 }
  
-.indicator {
+/*.indicator {
  position: absolute;
  left:5px;
  width: 7px;
@@ -347,7 +347,7 @@ h1 {
     opacity: 0;
     top: 30px;
   }
-}
+} */
 
 a {
  color: inherit;
