@@ -121,7 +121,7 @@ body {
 }
 
 .percentage {
- color: rgba(255, 255, 255, .2);
+ color: var(--textloadercolor);
  font-size: 20vw;
  font-family: var(--font1);
  font-weight:400;
