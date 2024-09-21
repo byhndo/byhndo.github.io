@@ -335,11 +335,11 @@ h1 {
   }
   35% {
     opacity: 1;
-    transform: translate(10px), scale(1);
+    transform: translateY(10px);
   }
   65% {
     opacity: 1;
-    transform: translate(22px), scale(1);
+    transform: translateY(22px);
   }
   100% {
     opacity: 0;
