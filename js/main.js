@@ -213,7 +213,7 @@ tl.to(primitiveValues, {
     scale: 1 
 }, "<");
 	
-gsap.set('.indicator', {
+/*gsap.set('.indicator', {
  y:-100	
 });
 	
@@ -240,7 +240,7 @@ gsap.to('.indicator', {
   }
  });
 }
-}, "<");
+}, "<");*/
 
 (function () {
 
