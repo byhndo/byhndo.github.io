@@ -576,8 +576,8 @@ const RevealBoxs3 = container.querySelectorAll(".box3");
   trigger: box3,
   toggleActions: once,
   scrub:1,
-  start: "top bottom", 
-  end: "bottom top"
+  start: "top bottom",
+  end : "bottom 50%"
  }, delay: .3
  });  
 	 
