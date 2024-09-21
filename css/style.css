@@ -314,7 +314,7 @@ h1 {
  height: 5px;
  background: var(--soc1);
  border-radius: 100%;
- margin: auto auto auto -1px;
+ margin: auto;
  animation: animate 2s linear infinite;
 }
 
