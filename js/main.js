@@ -347,7 +347,7 @@ gsap.to('.header', {
    y: "10dvh",
    ease: "cubic.out",
    scrollTrigger: {
-    scrub: 5,
+    scrub: 4,
     trigger: '.header',
     start: 'top top'
   }
@@ -574,7 +574,8 @@ const RevealBoxs3 = container.querySelectorAll(".box3");
  let tl = gsap.timeline({
  scrollTrigger: {
   trigger: box3,
-  toggleActions: once
+  toggleActions: once,
+  scrub:1
  }, delay: .3
  });  
 	 
