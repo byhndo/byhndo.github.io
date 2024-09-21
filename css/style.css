@@ -300,7 +300,6 @@ h1 {
 .indicator {
  position: absolute;
  left:5px;
- //top:30vh;
  width: 7px;
  height: 35px;
  border: 1px solid var(--soc1);
@@ -315,12 +314,15 @@ h1 {
  height: 5px;
  background: var(--soc1);
  border-radius: 100%;
- margin: auto auto auto 1px;
+ margin: auto auto auto -1px;
  animation: animate 2s linear infinite;
 }
 
-.photos .indicator, .photos .indicator-dot{
+.photos .indicator{
  border: 1px solid var(--soc2);
+}
+
+.photos .indicator-dot{
  background: var(--soc2);
 }
 
