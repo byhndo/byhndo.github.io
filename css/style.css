@@ -299,6 +299,8 @@ h1 {
  
 .indicator {
  position: absolute;
+ left:0;
+ top:30dvh;
  width: 7px;
  height: 35px;
  border: 1px solid #fff;
@@ -317,7 +319,7 @@ h1 {
  animation: animate 2s linear infinite;
 }
 
-.photos .indicator, .photos .indicator:after{
+.photos .indicator, .photos .indicator-dot{
  border: 1px solid var(--soc2);
  background: var(--soc2);
 }
