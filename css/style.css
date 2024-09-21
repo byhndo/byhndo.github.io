@@ -331,7 +331,7 @@ h1 {
 @keyframes animate {
   0% {
     opacity: 0;
-    top: 0;
+    transform: translateY(0);
   }
   35% {
     opacity: 1;
@@ -343,7 +343,7 @@ h1 {
   }
   100% {
     opacity: 0;
-    top: 30px;
+    transform: translateY(30px);
   }
 }
 
