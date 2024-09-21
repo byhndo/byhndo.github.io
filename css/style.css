@@ -540,7 +540,8 @@ p.sub2 {
 }
 
 .cite {
- font-family: var(--font3);
+ font-family: var(--font2);
+ font-weight:400;
  font-size: 80%;
  font-style: italic;
  color: inherit;
