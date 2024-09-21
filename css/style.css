@@ -298,11 +298,13 @@ h1 {
 }
  
 .indicator {
-  width: 7px;
-  height: 35px;
-  border: 1px solid var(--soc1);
-  border-radius: 50px;
-  position: relative;
+ position: relative;
+ width: 7px;
+ height: 35px;
+ border: 1px solid var(--soc1);
+ border-radius: 50px;
+ visibilty: hidden;
+ opacity: 0;
 }
 
 .indicator:after {
