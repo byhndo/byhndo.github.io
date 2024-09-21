@@ -335,17 +335,17 @@ h1 {
   }
   35% {
     opacity: 1;
-    top: 12px;
+    transform: translate(10px), scale(1);
   }
   65% {
     opacity: 1;
-    top: 22px;
+    transform: translate(22px), scale(1);
   }
   100% {
     opacity: 0;
     top: 30px;
   }
-} 
+}
 
 a {
  color: inherit;
