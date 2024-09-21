@@ -1,9 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @font-face{
  font-family:Anton;
  font-weight:400;
  font-style:normal;
  src: local('Anton'), url(../fonts/Anton-Regular.woff) format('woff');
+ font-display: block;
+}
+
+@font-face{
+ font-family:Inter;
+ font-weight:400;
+ font-style:normal;
+ src: local('Inter'), url(../fonts/Inter-400.woff) format('woff');
+ font-display: block;
+}
+
+@font-face{
+ font-family:Inter;
+ font-weight:500;
+ font-style:normal;
+ src: local('Inter'), url(../fonts/Inter-500.woff) format('woff');
+ font-display: block;
+}
+
+@font-face{
+ font-family:Inter;
+ font-weight:600;
+ font-style:normal;
+ src: local('Inter'), url(../fonts/Inter-600.woff) format('woff');
  font-display: block;
 }
 
