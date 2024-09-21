@@ -299,8 +299,8 @@ h1 {
  
 .indicator {
  position: absolute;
- left:0;
- top:30dvh;
+ left:5px;
+ top:30vh;
  width: 7px;
  height: 35px;
  border: 1px solid var(--soc1);
