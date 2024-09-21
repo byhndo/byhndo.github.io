@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 @font-face{
  font-family:Anton;
  font-weight:400;
  font-style:normal;
  src: local('Anton'), url(../fonts/Anton-Regular.woff) format('woff');
+ font-display: block;
+}
+
+@font-face{
+ font-family:Cormorant-Garamond;
+ font-weight:400;
+ font-style:normal;
+ src: local('Cormorant-Garamond'), url(../fonts/CormorantGaramond-Regular.woff) format('woff');
  font-display: block;
 }
 
@@ -22,7 +29,7 @@
  --sizenav:9.5px;
  --font1: 'Anton', sans-serif;	
  --font2: 'Inter', sans-serif;
- --font3: 'Cormorant Garamond', sans-serif;
+ --font3: 'Cormorant-Garamond', sans-serif;
  --marginp: 60px;
  --fwnav: 500;
  --fwtitle: 400;
