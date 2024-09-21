@@ -317,7 +317,7 @@ h1 {
  transition: background 4s, color 4s;
  border-radius: 100%;
  margin: auto auto auto .5px;
- animation: animate 2s linear infinite;
+ animation: animate 2s linear infinite both;
 }
 
 .photos .indicator{
