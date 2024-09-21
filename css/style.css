@@ -316,7 +316,7 @@ h1 {
  background: var(--soc1);
  transition: background 4s, color 4s;
  border-radius: 100%;
- margin: auto;
+ margin: auto auto auto 1px;
  animation: animate 2s linear infinite;
 }
 
