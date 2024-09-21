@@ -304,7 +304,7 @@ h1 {
  height: 35px;
  border: 1px solid var(--soc1);
  border-radius: 50px;
- transition: all 4s;
+ transition: background 4s, color 4s;
  visibility: hidden;
  opacity: 0;
 }
