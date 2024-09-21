@@ -542,7 +542,7 @@ p.sub2 {
 .cite .quote{
  font-family: var(--font2);
  font-weight:400;
- font-size: 80%;
+ font-size: 60%;
  font-style: italic;
  color: inherit;
  text-align:center;
