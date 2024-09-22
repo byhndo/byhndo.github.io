@@ -165,9 +165,7 @@ data() {
         }
     }
 }).mount('#app') 
-	
-Splitting();
-	
+		
 const feBlur = document.querySelector(`#noise feGaussianBlur`);
 const feDisplacementMap = document.querySelector(`#noise feDisplacementMap`);
 
