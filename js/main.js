@@ -1,13 +1,13 @@
 document.addEventListener("DOMContentLoaded", function() {
 
- var width = 100,
+var width = 100,
   perfData = window.performance.timing,
   EstimatedTime = Math.abs(perfData.loadEventEnd - perfData.navigationStart),
   time = Math.floor((EstimatedTime / 1000) % 60) * 100;
 
 $(".loadbar").animate({
-    width: width + "%"
- }, time);
+  width: width + "%"
+}, time);
 
 var PercentageID = $("#precent"),
   start = 0,
@@ -31,7 +31,9 @@ function animateValue(id, start, end, duration) {
   }, stepTime);
 }
 
-setTimeout(function () {
+async function animateLoader() {
+  await new Promise((resolve) => setTimeout(resolve, time));
+  
   let percentBar = document.getElementById("precent");
   let loadingBar = document.getElementById("loader");
   const DOM = {};
@@ -39,10 +41,10 @@ setTimeout(function () {
   DOM.shape = DOM.intro.querySelector("svg.shape");
   DOM.path = DOM.intro.querySelector("path.goey");
 
-let tl = gsap.timeline({
- paused: true,
- onComplete: contentShow
-});
+  let tl = gsap.timeline({
+    paused: true,
+    onComplete: contentShow
+  });
 
   tl.to(".percentage", {
     autoAlpha: 0,
@@ -56,7 +58,7 @@ let tl = gsap.timeline({
         duration: 1,
         ease: "quart.out",
         onComplete: () => {
-          loadingBar.style.display = "none";  		
+          loadingBar.style.display = "none";
           tl.to(DOM.intro, {
             y: "-200vh",
             delay: 0.1,
@@ -64,64 +66,62 @@ let tl = gsap.timeline({
             ease: "quad.inOut"
           });
           gsap.to(DOM.path, {
-	duration: 1.2,
-	ease: "linear",
-	attr: { d :  DOM.path.getAttribute("pathdata:id")}	
-	});
+            duration: 1.2,
+            ease: "linear",
+            attr: { d: DOM.path.getAttribute("pathdata:id") }
+          });
         }
       });
     }
   });
 
-(function show() {
-  const arrOpts = [    
-    {
+  (function show() {
+    const arrOpts = [{
       duration: 500,
       easing: 'easeOutQuad',
       speed: .1,
       particlesAmountCoefficient: 10,
       oscillationCoefficient: 80
-    }     
-  ];
+    }];
 
-  const it = document.querySelectorAll(".wrapbtnloader");
-  it.forEach((il, pos) => {
-    let bttn = il.querySelector("button.particles-button");
-    if (!bttn) return; 
-    let particlesOpts = arrOpts[pos];
-    const particles = new Particles(bttn, particlesOpts);  
+    const it = document.querySelectorAll(".wrapbtnloader");
+    it.forEach((il, pos) => {
+      let bttn = il.querySelector("button.particles-button");
+      if (!bttn) return;
+      let particlesOpts = arrOpts[pos];
+      const particles = new Particles(bttn, particlesOpts);
 
-gsap.to(bttn, {
-      autoAlpha: 0,
-      onComplete: () => {
-	particles.integrate({
-          duration: 900,
-          easing: "easeOutSine"
-        });
-       gsap.to(bttn, {
-         duration: 1,
-          onComplete: () => {
-            bttn.style.opacity = "1";
-            bttn.style.visibility = "visible";
-          }
-        })
-      }
+      gsap.to(bttn, {
+        autoAlpha: 0,
+        onComplete: () => {
+          particles.integrate({
+            duration: 900,
+            easing: "easeOutSine"
+          });
+          gsap.to(bttn, {
+            duration: 1,
+            onComplete: () => {
+              bttn.style.opacity = "1";
+              bttn.style.visibility = "visible";
+            }
+          });
+        }
+      });
+
+      gsap.to(bttn, {
+        onComplete: () => {
+          bttn.addEventListener("click", function () {
+            particles.disintegrate();
+            tl.play();
+          });
+        }
+      });
     });
-	  
-gsap.to(bttn, {
-    onComplete: () => {        
-      bttn.addEventListener("click", function () {        
-        particles.disintegrate();
-        tl.play();
-      })
-   }
-  })    
-  });
-})();
-    
-}, time);
-   
-	
+  })();
+}
+
+animateLoader();
+		
 function contentShow() {
 	
 const easing = "expoScale(0.5,7,none)";
