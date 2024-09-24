@@ -365,8 +365,7 @@ const lenis = new Lenis({
  touchMultiplier: 2,
  wheelMultiplier: 2,
  autoResize: true,
- infinite: true,
- syncTouch: true
+ infinite: false
 });
 
 lenis.on("scroll", ({ scroll, limit, velocity, direction, progress }) => {});
