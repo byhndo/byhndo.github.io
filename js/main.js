@@ -354,18 +354,20 @@ gsap.to('.header', {
 });
 
 const lenis = new Lenis({
-  duration: 2.5,
-  easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-  direction: "vertical",
-  gestureDirection: "vertical",
-  lerp: 0.05,
-  smooth: true,
-  smoothTouch: true,
-  smoothWheel: true,
-  touchMultiplier: 2,
-  wheelMultiplier: 2,
-  infinite: false,
-  autoResize: true
+ duration: 2.5,
+ easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+ direction: "vertical",
+ gestureDirection: "vertical",
+ lerp: 0.05,
+ smooth: true,
+ smoothTouch: true,
+ smoothWheel: true,
+ touchMultiplier: 2,
+ wheelMultiplier: 2,
+ infinite: false,
+ autoResize: true,
+ infinite: true,
+ syncTouch: true
 });
 
 lenis.on("scroll", ({ scroll, limit, velocity, direction, progress }) => {});
