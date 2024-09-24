@@ -97,6 +97,7 @@
 html{
  background: var(--light);
  overflow:hidden;
+ overflow-x: clip;
 }
 
 body {
