@@ -654,6 +654,7 @@ img {
  text-transform: uppercase;
  font-weight:500;
  filter: url(#noise2);
+ letter-spacing:-2px;
 }
 
 .one2{
