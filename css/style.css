@@ -697,6 +697,17 @@ img {
  transition:background 1s;
 }
 
+.vline{
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.path-vert {
+  stroke-dasharray: 1000;
+  visibility:hidden
+}
+
 .line {
  position:absolute;
  display:block;
