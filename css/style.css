@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=block');
+
+
 @font-face{
  font-family:Anton;
  font-weight:400;
@@ -6,7 +9,7 @@
  font-display: block;
 }
 
-@font-face{
+/*@font-face{
  font-family:Inter;
  font-weight:400;
  font-style:normal;
@@ -52,7 +55,7 @@
  font-style:italic;
  src: local('Inter'), url(../fonts/Inter-600-Italic.woff) format('woff');
  font-display: block;
-}
+} */
 
 @font-face{
  font-family:Cormorant-Garamond;
@@ -71,7 +74,7 @@
  --soc2: #BBBFCA; 
  --bgloaderscreen: #C7C8CC;
  --textloadercolor: #3C4048;
- --sizebody: 11.5px;
+ --sizebody: 10px;
  --sizetitle:17vw;
  --sizenav:9.5px;
  --font1: 'Anton', sans-serif;	
@@ -82,7 +85,7 @@
  --fwnav: 500;
  --fwtitle: 400;
  --fwhh: 400;
- --fwbody: 400;
+ --fwbody: 200;
  --fwfooter: 400;
 }
 
