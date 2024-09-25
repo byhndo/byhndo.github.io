@@ -348,11 +348,7 @@ document.getElementById("year2").textContent = currentYear2</script>
 <script src="js/main.js"></script>
 
 <script>
-	if(window.history.pushState) {
-    window.history.pushState('', '/', window.location.pathname)
-} else {
-    window.location.hash = '';
-	}
+history.replaceState(null, null, ' ');
 </script>
 </body>
 </html>
