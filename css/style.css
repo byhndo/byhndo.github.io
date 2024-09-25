@@ -649,7 +649,7 @@ img {
  opacity:0;
  visibility: hidden;
  margin-top:0;
- margin-bottom:60px;
+ margin-bottom:50dvh;
  text-align:center;
  text-transform: uppercase;
  font-weight:500;
