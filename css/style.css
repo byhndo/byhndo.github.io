@@ -700,12 +700,20 @@ img {
 .vline{
   display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: center;
+}
+.vl{
+  border-left: .3px solid var(--dark);
+  height: 0;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px; 
+  top: 0;
+  visibility: hidden
 }
 
-.path-vert {
-  stroke-dasharray: 1000;
-  visibility:hidden
+.photos .vl{
+ border-left-color: var(--light);
 }
 
 .line {
