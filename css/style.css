@@ -651,6 +651,7 @@ img {
  margin-top:0;
  margin-bottom:60px;
  text-align:center;
+ text-transform: uppercase;
  filter: url(#noise2);
 }
 
