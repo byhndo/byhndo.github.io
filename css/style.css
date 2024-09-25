@@ -649,7 +649,7 @@ img {
  opacity:0;
  visibility: hidden;
  margin-top:0;
- margin-bottom:0;
+ margin-bottom:60px;
  text-align:center;
  filter: url(#noise2);
 }
