@@ -662,7 +662,7 @@ img {
  visibility: hidden;
  margin-top:0;
  margin-bottom:0;
- text-align:center;
+ text-align:left;
  filter: url(#noise3);
 }
 
