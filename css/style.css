@@ -705,7 +705,7 @@ img {
  margin-bottom:300px;
 }
 .vl{
- border-left: .3px solid var(--dark);
+ border-left: .4px solid var(--dark);
  height: 0;
  position: absolute;
  left: 50%;
