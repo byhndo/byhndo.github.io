@@ -496,6 +496,30 @@ tl.to(primitiveValues, {
 
 });
 
+const revealvline = container.querySelectorAll(".vline");
+
+revealvline.forEach((vline) => {
+  var path = vline.querySelector('.path-vert');
+var length = path.getTotalLength();
+  let tl = gsap.timeline({
+    scrollTrigger: {
+      trigger: vline,
+      toggleActions: once
+    }
+  });
+
+tl.set(path,{
+   autoAlpha:1
+ })
+  
+tl.fromTo(path, {
+  attr: { "stroke-dashoffset": 1200 }
+  }, {
+  attr: { "stroke-dashoffset": 600 },
+  duration: 3
+})
+  
+});
 
 const rboxs = container.querySelectorAll(".rbox");
 rboxs.forEach((rbox) => { 	
