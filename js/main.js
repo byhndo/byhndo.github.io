@@ -497,10 +497,8 @@ tl.to(primitiveValues, {
 });
 
 const revealvline = container.querySelectorAll(".vline");
-
 revealvline.forEach((vline) => {
-  var path = vline.querySelector('.path-vert');
-var length = path.getTotalLength();
+  const vl = vline.querySelectorAll(".vl");             
   let tl = gsap.timeline({
     scrollTrigger: {
       trigger: vline,
@@ -508,15 +506,15 @@ var length = path.getTotalLength();
     }
   });
 
-tl.set(path,{
+tl.set(vl,{
    autoAlpha:1
  })
   
-tl.fromTo(path, {
-  attr: { "stroke-dashoffset": 1200 }
+tl.fromTo(vl, {
+  height:0
   }, {
-  attr: { "stroke-dashoffset": 600 },
-  duration: 3
+  height:"200px",
+  duration: 1
 })
   
 });
