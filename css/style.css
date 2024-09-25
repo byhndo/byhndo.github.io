@@ -698,18 +698,19 @@ img {
 }
 
 .vline{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+ position:relative;
+ display: flex;
+ align-items: center;
+ justify-content: center;
 }
 .vl{
-  border-left: .3px solid var(--dark);
-  height: 0;
-  position: absolute;
-  left: 50%;
-  margin-left: -3px; 
-  top: 0;
-  visibility: hidden
+ border-left: .3px solid var(--dark);
+ height: 0;
+ position: absolute;
+ left: 50%;
+ margin-left: -3px; 
+ top: 0;
+ visibility: hidden
 }
 
 .photos .vl{
