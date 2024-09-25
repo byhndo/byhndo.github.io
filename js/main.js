@@ -502,8 +502,11 @@ revealvline.forEach((vline) => {
   let tl = gsap.timeline({
     scrollTrigger: {
       trigger: vline,
-      toggleActions: once
-    }
+      toggleActions: once,
+      scrub: 2,
+      start: "top bottom",
+      end : "bottom 50%"
+    }, delay : .3
   });
 
 tl.set(vl,{
