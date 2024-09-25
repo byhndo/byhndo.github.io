@@ -348,7 +348,9 @@ document.getElementById("year2").textContent = currentYear2</script>
 <script src="js/main.js"></script>
 
 <script>
-var urlWithoutHash = document.location.href.replace(location.hash , "" );
+if(window.location.hash){
+ window.location.hash = '';	
+}
 </script>
 </body>
 </html>
