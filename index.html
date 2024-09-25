@@ -61,10 +61,10 @@
 <div class="transition transition-photos" id="photos"></div>                                                
 <wrapnav>
 <div class="nav theme">
- <button onclick="window.location.href='#bio';" @click="bg = 'bio'" id="btn-nav" class="particles-button">Bio</button>
+ <button onclick="window.location.hash='bio';" @click="bg = 'bio'" id="btn-nav" class="particles-button">Bio</button>
 </div>
 <div class="nav theme">
- <button onclick="window.location.href='#photos';" @click="bg = 'photos'" id="btn-nav" class="particles-button">Foto</button>                                        
+ <button onclick="window.location.hash='photos';" @click="bg = 'photos'" id="btn-nav" class="particles-button">Foto</button>                                        
 </div>
 </wrapnav>	
 <main>
@@ -348,7 +348,20 @@ document.getElementById("year2").textContent = currentYear2</script>
 <script src="js/main.js"></script>
 
 <script>
-window.location.href = window.location.href.split('#')[0];
+function removeLocationHash(){
+    var noHashURL = window.location.href.replace(/#.*$/, '');
+    window.history.replaceState('', document.title, noHashURL) 
+}
+window.addEventListener("popstate", function(event){
+    removeLocationHash();
+});
+window.addEventListener("hashchange", function(event){
+    event.preventDefault();
+    removeLocationHash();
+});
+window.addEventListener("load", function(){
+    removeLocationHash();
+});
 </script>
 </body>
 </html>
