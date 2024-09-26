@@ -516,8 +516,7 @@ tl.set(vl,{
 tl.fromTo(vl, {
   height:0
   }, {
-  height:"200px",
-  duration: 1
+  height:"200px"
 })
   
 });
