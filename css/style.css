@@ -707,7 +707,6 @@ img {
  height: 0;
  position: absolute;
  left: 50%;
- margin-left: -3px; 
  top: 0;
  visibility: hidden
 }
