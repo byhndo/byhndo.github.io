@@ -20,6 +20,7 @@
 }
 
 .particles-button {
+ cursor: pointer;
  user-select: none;
  position: relative;
  border-radius: 5px;
