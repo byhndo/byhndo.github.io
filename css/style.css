@@ -72,14 +72,6 @@
  font-display: block;
 } 
 
-@font-face{
- font-family:Cormorant-Garamond;
- font-weight:400;
- font-style:normal;
- src: local('Cormorant-Garamond'), url(../fonts/CormorantGaramond-Regular.woff) format('woff');
- font-display: block;
-}
-
 :root {  
  --light: #eceef3;
  --grey: #BBBFCA;
@@ -94,8 +86,7 @@
  --sizenav:9.5px;
  --font1: 'Anton', sans-serif;	
  --font2: 'Inter', sans-serif;
- --font3: 'Cormorant-Garamond', sans-serif;
- --font4: 'Bruno Ace', sans-serif;	
+ --font3: 'Bruno Ace', sans-serif;	
  --marginp: 60px;
  --fwbtn: 600;
  --fwnav: 500;
@@ -568,7 +559,7 @@ p.sub2 {
  max-width:78%;
  opacity:0;
  visibility:hidden;
- font-family:var(--font3);
+ font-family:var(--font2);
  text-align:center;
 }
 
