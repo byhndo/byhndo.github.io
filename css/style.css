@@ -79,8 +79,7 @@
 }
 
 :root {  
- --light: #eceef3;
- $light: #fff;
+ $light: #eceef3;
  --grey: #BBBFCA;
  --darkgrey: #495057;
  --dark: #181b1e;
@@ -205,7 +204,7 @@ html.lenis, html.lenis body {
  left: 0; 
  right: 0;
  margin : auto; 
- color: var(--light);
+ color: $light;
 }
 
 #loader:after, .percentage:after {
@@ -233,7 +232,7 @@ html.lenis, html.lenis body {
  width: 100%;
  height: 100%;
  background: rgba(0,0,0, .1);
- color: var(--light);
+ color: $light;
  text-align: center;
  overflow: hidden;
  z-index:1000;
@@ -336,7 +335,7 @@ wrapnav{
 .theme {
  --color-item-bg: transparent;
  --color-button-bg: var(--darkgrey);
- --color-button-text: var(--light);
+ --color-button-text: $light;
  --button-padding: 7.5px 50px 6px;
  --button-margin: 0;
  --radius-button: 40px;
@@ -373,7 +372,7 @@ h1 {
 }
 
 .photos h1{
- color: var(--light);
+ color: $light;
 }
 
 .sub-title{
@@ -694,7 +693,7 @@ img {
 }
 
 .photos .gr{
- background:var(--light);
+ background:$light;
  transition:background 1s;
 }
 
@@ -716,7 +715,7 @@ img {
 }
 
 .photos .vl{
- border-left-color: var(--light);
+ border-left-color: $light;
 }
 
 .line {
@@ -731,7 +730,7 @@ img {
 }
 
 .photos .line{
- background:var(--light);
+ background:$light;
  transition:background 1s;
 }
 
@@ -769,7 +768,7 @@ li.about{
 }
 
 .photos .footer span, .photos .footer span a {
- color: var(--light);     
+ color: $light;     
 }
 
 @media(min-width:500px){
