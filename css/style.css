@@ -657,7 +657,7 @@ img {
  margin-bottom:110px;
  text-align:center;
  text-transform: uppercase;
- font-weight:500;
+ font-weight:400;
  filter: url(#noise2);
  letter-spacing:-1px;
  font-family: var(--font4);
