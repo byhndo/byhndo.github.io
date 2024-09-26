@@ -469,7 +469,7 @@ a:hover, a:active{
 
 .photos{
  background:var(--dark);
- color: var(--light);
+ color: $light;
 }
 
 .transition {
@@ -485,7 +485,7 @@ a:hover, a:active{
 }
 
 .transition-bio {
- background: var(--light);
+ background: $light;
  transform-origin:0 ;
 }
 
@@ -532,7 +532,7 @@ main {
 }
 
 .sub2 {
- color: var(--light);
+ color: $light;
 }
 
 p.sub1, p.sub2 {
@@ -544,7 +544,7 @@ p.sub1 {
 }
 
 p.sub2 {
-  color: var(--light);
+  color: $light;
 }
 
 .prolog{
