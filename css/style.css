@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=block');
+
 @font-face{
  font-family:Anton;
  font-weight:400;
@@ -93,6 +95,7 @@
  --font1: 'Anton', sans-serif;	
  --font2: 'Inter', sans-serif;
  --font3: 'Cormorant-Garamond', sans-serif;
+ --font4: 'Bruno Ace', sans-serif;	
  --marginp: 60px;
  --fwbtn: 600;
  --fwnav: 500;
@@ -657,6 +660,7 @@ img {
  font-weight:500;
  filter: url(#noise2);
  letter-spacing:-2px;
+ font-family: var(--font4);
 }
 
 .one2{
