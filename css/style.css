@@ -331,6 +331,7 @@ wrapnav{
  font-family: var(--font2);
  font-size: var(--sizenav);
  font-weight: var(--fwnav);
+ text-align: center;
 }
 
 .theme {
