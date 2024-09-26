@@ -112,12 +112,12 @@
 }
 
 html{
- background: var(--light);
+ background: $light;
  overflow:hidden;
 }
 
 body {
- background-color: var(--light);
+ background-color: $light;
  font-family: var(--font2);
  color: var(--dark);
  font-size: var(--sizebody);
