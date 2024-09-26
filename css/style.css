@@ -79,7 +79,7 @@
 }
 
 :root {  
- $light: #eceef3;
+ --light: #eceef3;
  --grey: #BBBFCA;
  --darkgrey: #495057;
  --dark: #181b1e;
@@ -111,12 +111,12 @@
 }
 
 html{
- background: $light;
+ background: var(--light);     
  overflow:hidden;
 }
 
 body {
- background-color: $light;
+ background-color: var(--light);     
  font-family: var(--font2);
  color: var(--dark);
  font-size: var(--sizebody);
@@ -204,7 +204,7 @@ html.lenis, html.lenis body {
  left: 0; 
  right: 0;
  margin : auto; 
- color: $light;
+ color: var(--light);     
 }
 
 #loader:after, .percentage:after {
@@ -335,7 +335,7 @@ wrapnav{
 .theme {
  --color-item-bg: transparent;
  --color-button-bg: var(--darkgrey);
- --color-button-text: $light;
+ --color-button-text: var(--light);     
  --button-padding: 7.5px 50px 6px;
  --button-margin: 0;
  --radius-button: 40px;
@@ -372,7 +372,7 @@ h1 {
 }
 
 .photos h1{
- color: $light;
+ color: var(--light);     
 }
 
 .sub-title{
@@ -462,7 +462,7 @@ a:hover, a:active{
 }
 
 .bio{
- background: $light;
+ background: var(--light);     
  color: var(--dark);
 }
 
@@ -484,7 +484,7 @@ a:hover, a:active{
 }
 
 .transition-bio {
- background: $light;
+ background: var(--light);     
  transform-origin:0 ;
 }
 
@@ -543,7 +543,7 @@ p.sub1 {
 }
 
 p.sub2 {
-  color: $light;
+  color: var(--light);     
 }
 
 .prolog{
@@ -715,7 +715,7 @@ img {
 }
 
 .photos .vl{
- border-left-color: $light;
+ border-left-color: var(--light);     
 }
 
 .line {
@@ -730,7 +730,7 @@ img {
 }
 
 .photos .line{
- background:$light;
+ background:var(--light);     
  transition:background 1s;
 }
 
@@ -768,7 +768,7 @@ li.about{
 }
 
 .photos .footer span, .photos .footer span a {
- color: $light;     
+ color: var(--light);     
 }
 
 @media(min-width:500px){
