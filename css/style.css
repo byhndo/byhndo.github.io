@@ -468,7 +468,7 @@ a:hover, a:active{
 
 .photos{
  background:var(--dark);
- color: $light;
+ color: var(--light);     
 }
 
 .transition {
@@ -531,7 +531,7 @@ main {
 }
 
 .sub2 {
- color: $light;
+ color: var(--light);     
 }
 
 p.sub1, p.sub2 {
@@ -693,7 +693,7 @@ img {
 }
 
 .photos .gr{
- background:$light;
+ background:var(--light);     
  transition:background 1s;
 }
 
@@ -704,6 +704,7 @@ img {
  justify-content: center;
  margin-bottom:300px;
 }
+
 .vl{
  border-left: .4px solid var(--dark);
  height: 0;
