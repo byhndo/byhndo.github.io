@@ -80,6 +80,7 @@
 
 :root {  
  --light: #eceef3;
+ $light: #fff;
  --grey: #BBBFCA;
  --darkgrey: #495057;
  --dark: #181b1e;
@@ -462,7 +463,7 @@ a:hover, a:active{
 }
 
 .bio{
- background: var(--light);
+ background: $light;
  color: var(--dark);
 }
 
