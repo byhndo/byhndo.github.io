@@ -632,7 +632,7 @@ tl.set(el, {
 });
 	 
 tl.from(el, {
- clipPath: "inset(100% round 20px)",
+ clipPath: "inset(100% round 10px)",
  duration: 1.5,
  ease: easing
 });	 
