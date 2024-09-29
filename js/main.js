@@ -626,12 +626,12 @@ const revealContainers = container.querySelectorAll(".item");
   toggleActions: once
   }, delay:.3
  });
-	 
-tl.fromTo(el, {
- clipPath: "inset(100% round 20px)"
-},
-{
- autoAlpha:1,
+
+tl.set(el, {
+autoAlpha: 1	
+});	 
+tl.from(el, {
+ clipPath: "inset(100% round 20px)",
 // "--x": "-98.75%",
 // ease: "steps(39)",
  duration: 2
