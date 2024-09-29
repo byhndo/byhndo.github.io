@@ -7,7 +7,7 @@
   --x: -1.25%;
 }
 
-/*.c-transition::before {
+.c-transition::before {
   background-image: url("../img/inkframe/ink3.webp");
   background-size: 100% 100%;
   background-position: 50% 50%;
@@ -15,7 +15,7 @@
   height: 100%;
   position: absolute;
   width: 100%;
-}*/
+}
 
 .c-transition::after {
   background-image: url("../img/inkframe/ink2.webp");
@@ -34,9 +34,9 @@
   width: 250px;
 }
 
-/*.c-transition--portrait::before {
+.c-transition--portrait::before {
   background-image: url("../img/inkframe/ink1.webp");
-}*/
+}
 
 .c-transition--large {
   height: 375px;
