@@ -632,8 +632,8 @@ tl.fromTo(el, {
 },
 {
  autoAlpha:1,
- "--x": "-98.75%",
- ease: "steps(39)",
+// "--x": "-98.75%",
+// ease: "steps(39)",
  duration: 2
  });	 
 
