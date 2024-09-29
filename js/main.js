@@ -627,13 +627,19 @@ const revealContainers = container.querySelectorAll(".item");
   }, delay:.3
  });
 
-tl.to(el, {
-    autoAlpha:1,
-    "--x": "-98.75%",
-    ease: "steps(39)",
-    duration: 2
-  });	 
-	 	  
+tl.set(el, {
+ autoAlpha:1	
+})
+	 
+tl.fromTo(el, {
+ clipPath: "inset(100% round 20px)"
+},
+{
+ "--x": "-98.75%",
+ ease: "steps(39)",
+ duration: 2
+ });	 
+
 });
 
 const items = container.querySelectorAll(".sc");
