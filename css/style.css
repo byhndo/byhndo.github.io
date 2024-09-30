@@ -581,10 +581,6 @@ p.sub2 {
  margin-bottom: var(--marginp);
 }
 
-.cite{
- margin-bottom: var(--marginp);
-}
-
 .b-text{
  font-size:180%;
  text-transform:uppercase;
