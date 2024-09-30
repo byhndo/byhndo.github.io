@@ -650,12 +650,13 @@ const items = container.querySelectorAll(".sc");
         toggleActions: once
       }, delay: .3
     });
-
-   tl.to(item, {
-    autoAlpha:1,
-    opacity:1,
-    duration: 1
-  });	  
+	  
+tl.set(item, {
+ autoAlpha:1
+})
+tl.to(item, {
+ duration: 1
+});	  
           
 })
         	 
@@ -669,9 +670,11 @@ const RevealBoxs4 = container.querySelectorAll(".box4");
  }, delay: .3
  });  
 
+tl.set(footer, {
+ autoAlpha:1
+})
+	 
 tl.to(footer, {
- autoAlpha:1, 
- opacity:1,
  duration:dur,
  ease: easing
 }); 
