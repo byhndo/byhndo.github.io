@@ -555,7 +555,7 @@ p.sub2 {
 }
 
 .quote {
- margin:60px auto -60px auto;
+ margin:60px auto -30px auto;
  max-width:78%;
  opacity:0;
  visibility:hidden;
@@ -578,7 +578,6 @@ p.sub2 {
  font-style: italic;
  color: inherit;
  text-align:center;
- padding-top: -10rem;
  padding-bottom: var(--marginp);
 }
 
