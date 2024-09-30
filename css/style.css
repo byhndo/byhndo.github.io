@@ -600,7 +600,7 @@ p.sub2 {
  display: grid;  
  grid-template-columns: repeat(2, 1fr);
  grid-template-rows: masonry;
- gap: 2.5vw;
+ gap:3vw;
  box-sizing: border-box;
 }
 
