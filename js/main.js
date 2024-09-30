@@ -395,7 +395,8 @@ const RevealBoxsme = container.querySelectorAll(".boxme");
 
 tl.set(aboutme, {
  y:50	
-});	   
+});
+	   
 tl.to(aboutme, {
  autoAlpha: 1,
  opacity: 1,
@@ -419,7 +420,7 @@ const RevealBoxs = container.querySelectorAll(".box");
 
 tl.set(gr, {
  autoAlpha:1
-})
+});
 	   
 tl.to(gr, {
  duration:dur,	
@@ -442,7 +443,7 @@ const RevealBoxsline = container.querySelectorAll(".boxline");
 
 tl.set(line, {
  autoAlpha:1
-})
+});
 	   
 tl.to(line, {
  duration: dur,	
@@ -515,7 +516,7 @@ revealvline.forEach((vline) => {
 
 tl.set(vl, {
  autoAlpha:1
-})
+});
 	
 tl.to(vl, {
  height:"200px"
@@ -582,7 +583,8 @@ const RevealBoxs2 = container.querySelectorAll(".box2");
 	 
 tl.set(two, {
  y:50	
-});	   
+});
+	 
 tl.to(two, {
  autoAlpha: 1,
  opacity: 1,
@@ -609,7 +611,8 @@ const RevealBoxs3 = container.querySelectorAll(".box3");
 	 
 tl.set(quote, {
  scaleY: 0
-})
+});
+	 
 tl.to(quote, {
  ease: Expo.easeIn,
  autoAlpha:1,
@@ -653,7 +656,8 @@ const items = container.querySelectorAll(".sc");
 	  
 tl.set(item, {
  autoAlpha:1
-})
+});
+	  
 tl.to(item, {
  duration: 1
 });	  
@@ -672,7 +676,7 @@ const RevealBoxs4 = container.querySelectorAll(".box4");
 
 tl.set(footer, {
  autoAlpha:1
-})
+});
 	 
 tl.to(footer, {
  duration:dur,
