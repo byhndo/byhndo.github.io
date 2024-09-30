@@ -508,15 +508,10 @@ revealvline.forEach((vline) => {
       end : "bottom 50%"
     }, delay : .3
   });
-
-tl.set(vl,{
-   autoAlpha:1
- })
   
-tl.fromTo(vl, {
-  height:0
-  }, {
-  height:"200px"
+tl.to(vl, {
+ autoAlpha:1,
+ height:"200px"
 })
   
 });
