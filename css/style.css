@@ -551,11 +551,11 @@ p.sub2 {
 }
 
 .box3{
- margin-bottom:var(--marginp);
+ margin-bottom:3rem;
 }
 
 .quote {
- margin:var(--marginp) auto -30px auto;
+ margin:var(--marginp) auto -60px auto;
  max-width:78%;
  opacity:0;
  visibility:hidden;
