@@ -578,7 +578,7 @@ p.sub2 {
  font-style: italic;
  color: inherit;
  text-align:center;
- padding-top: var(--marginp);
+ padding-top: -6rem;
  padding-bottom: var(--marginp);
 }
 
