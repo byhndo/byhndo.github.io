@@ -416,10 +416,12 @@ const RevealBoxs = container.querySelectorAll(".box");
      toggleActions: once
      }, delay:.3
      }); 
-	   	   
+
+tl.set(gr, {
+ autoAlpha:1
+})
+	   
 tl.to(gr, {
- autoAlpha:1, 
- opacity:1,
  duration:dur,	
  width:"100%",
  stagger:.07,
@@ -437,10 +439,12 @@ const RevealBoxsline = container.querySelectorAll(".boxline");
      toggleActions: once
      }, delay:.3
      }); 
-	   	   
+
+tl.set(line, {
+ autoAlpha:1
+})
+	   
 tl.to(line, {
- autoAlpha: 1, 
- opacity: 1,
  duration: dur,	
  width: "100%",
  stagger: .07,
@@ -508,9 +512,12 @@ revealvline.forEach((vline) => {
       end : "bottom 50%"
     }, delay : .3
   });
-  
+
+tl.set(vl, {
+ autoAlpha:1
+})
+	
 tl.to(vl, {
- autoAlpha:1,
  height:"200px"
 })
   
