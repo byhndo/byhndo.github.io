@@ -284,23 +284,27 @@ svg.title, svg.trb, svg.sub, svg.noise3 {
  box-sizing: border-box;
 }
 
-h2, h3, h4, h5, h6, h7 {
+h2, h3, h4, h5 {
  font-family:var(--font2);
  font-weight:var(--fwhh);
  letter-spacing:-1px;
 }
 
+
 h2 {
- font-size:25px;
+ font-size: 2em; 
 }
+
 h3 {
- font-size:21px;
+ font-size: 1.75em; 
 }
+
 h4 {
- font-size:17px;
+ font-size: 1.5em; 
 }
+
 h5 {
- font-size:13px;
+ font-size: 1.25em;
 }
 
 wrapnav{
