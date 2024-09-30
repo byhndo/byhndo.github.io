@@ -578,6 +578,9 @@ p.sub2 {
  font-style: italic;
  color: inherit;
  text-align:center;
+}
+
+.cite{
  margin-bottom: var(--marginp);
 }
 
