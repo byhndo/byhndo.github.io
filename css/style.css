@@ -578,7 +578,7 @@ p.sub2 {
  font-style: italic;
  color: inherit;
  text-align:center;
- padding-bottom: var(--marginp);
+ margin-bottom: var(--marginp);
 }
 
 .b-text{
