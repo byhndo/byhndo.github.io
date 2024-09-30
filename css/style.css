@@ -190,8 +190,8 @@ html.lenis, html.lenis body {
 
 #loader,
 .percentage{
- width:75%;
- height: 3px;
+ width: 75%;
+ height: .18rem;
  position: absolute; 
  top: -50%; 
  bottom: 0; 
