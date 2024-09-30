@@ -570,7 +570,7 @@ p.sub2 {
 .quote span{
  display: inline-block;
  opacity:0;
- font-size:130%;
+ font-size:125%;
  font-weight:400;
  color:inherit;
 }
@@ -578,7 +578,7 @@ p.sub2 {
 .cite .quote{
  font-family: var(--font2);
  font-weight:400;
- font-size: 60%;
+ font-size: 65%;
  font-style: italic;
  color: inherit;
  text-align:center;
