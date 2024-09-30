@@ -683,7 +683,7 @@ img {
  display:block;
  margin:0px auto -17px auto;
  width:0;
- height:.3px;
+ height:.02rem;
  opacity:0;
  background:var(--dark);
  transition:background 1s;
@@ -704,7 +704,7 @@ img {
 }
 
 .vl{
- border-left: .4px solid var(--dark);
+ border-left: .02rem solid var(--dark);
  height: 0;
  position: absolute;
  left: 50%;
@@ -720,7 +720,7 @@ img {
  position:absolute;
  display:block;
  width:0;
- height:.3px;
+ height:.02rem;
  opacity:0;
  background:var(--dark);
  transition:background 1s;
