@@ -661,6 +661,9 @@ img {
  margin-top:0;
  margin-bottom:0;
  text-align:center;
+ font-family: var(--font3);
+ font-weight:400;
+ letter-spacing:-1px;
  filter: url(#noise3);
 }
 
