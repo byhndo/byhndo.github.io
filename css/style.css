@@ -579,7 +579,7 @@ p.sub2 {
  color: inherit;
  text-align:center;
  padding-top:-60px;
- padding-bottom: var(--marginp);
+ padding-bottom: 60px;
 }
 
 .b-text{
