@@ -578,8 +578,8 @@ p.sub2 {
  font-style: italic;
  color: inherit;
  text-align:center;
- padding-top:-60px;
- padding-bottom: 60px;
+ padding-top: var(--marginp);
+ padding-bottom: var(--marginp);
 }
 
 .b-text{
