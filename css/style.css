@@ -646,7 +646,7 @@ img {
  opacity:0;
  visibility: hidden;
  margin-top:0;
- margin-bottom:110px;
+ margin-bottom:1.83rem;
  text-align:center;
  text-transform: uppercase;
  font-weight:400;
@@ -703,7 +703,7 @@ img {
  display: flex;
  align-items: center;
  justify-content: center;
- margin-bottom:300px;
+ margin-bottom:5rem;
 }
 
 .vl{
