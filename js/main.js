@@ -653,13 +653,11 @@ const items = container.querySelectorAll(".sc");
         toggleActions: once
       }, delay: .3
     });
-	  
-tl.set(item, {
- autoAlpha:1
-});
-	  
+	  	  
 tl.to(item, {
- duration: 1
+ autoAlpha:1,
+ duration: dur,
+ ease: easing
 });	  
           
 })
@@ -673,12 +671,9 @@ const RevealBoxs4 = container.querySelectorAll(".box4");
   toggleActions: once
  }, delay: .3
  });  
-
-tl.set(footer, {
- autoAlpha:1
-});
 	 
 tl.to(footer, {
+ autoAlpha:1,
  duration:dur,
  ease: easing
 }); 
