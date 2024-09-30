@@ -555,7 +555,7 @@ p.sub2 {
 }
 
 .quote {
- margin:60px auto -30px auto;
+ margin:var(--marginp) auto -30px auto;
  max-width:78%;
  opacity:0;
  visibility:hidden;
