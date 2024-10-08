@@ -612,6 +612,20 @@ p.sub2 {
  overflow: hidden;
 }
 
+.item::after {
+  //animation: ink-transition 1.5s steps(39) 0.5s forwards;
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/204808/ink-transition-sprite.png");  
+  background-size: 100% 100%;
+  content: "";
+  height: 100%;
+  left: 50%;
+  position: absolute;
+  top: 0;
+  transform: translateX(var(--x));
+  width: 4000%;
+  filter: brightness(0) saturate(100%) invert(8%) sepia(1%) saturate(7054%) hue-rotate(168deg) brightness(95%) contrast(93%)
+}
+
 img {
  object-fit: cover;
  transform-origin:center;
