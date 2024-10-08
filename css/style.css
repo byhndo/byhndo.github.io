@@ -615,7 +615,7 @@ p.sub2 {
 
 .item::after {
   //animation: ink-transition 1.5s steps(39) 0.5s forwards;
-  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/204808/ink-transition-sprite.png");  
+  background-image: url("../img/ink-transition-sprite.png");  
   background-size: 100% 100%;
   content: "";
   height: 100%;
