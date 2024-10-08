@@ -610,6 +610,7 @@ p.sub2 {
  height: auto;
  visibility: hidden;
  overflow: hidden;
+ --x: -1.25%;
 }
 
 .item::after {
