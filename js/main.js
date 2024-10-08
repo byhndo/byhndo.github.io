@@ -631,16 +631,13 @@ const revealContainers = container.querySelectorAll(".item");
   toggleActions: once
   }, delay:.3
  });
-
-tl.set(el, {
- autoAlpha:1	
-});
 	 
-tl.from(el, {
- clipPath: "inset(100% round 10px)",
- duration: 1.5,
- ease: easing
-});	 
+tl.to(el, {
+ autoAlpha: 1,
+ "--x": "-98.75%",
+ ease: "steps(39)",
+ duration: 2   
+});
 
 });
 
