@@ -602,13 +602,12 @@ p.sub2 {
  grid-template-rows:masonry;
  gap:3.5vw;
  box-sizing: border-box;
- grid-auto-flow: row dense;
 }
 
 .item {
  position: relative;
  width: 100%;
- height: auto;
+ height: 100%;
  visibility: hidden;
  overflow: hidden;
  --x: -1.25%;
