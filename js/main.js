@@ -636,7 +636,11 @@ tl.to(el, {
  autoAlpha: 1,
  "--x": "-98.75%",
  ease: "steps(39)",
- duration: 2   
+ duration: 2 ,
+ stagger: { 
+  from: "random", 
+  amount: 1 
+ }
 });
 
 });
