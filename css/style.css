@@ -607,12 +607,10 @@ p.sub2 {
 .item {
  position: relative;
  width: 100%;
- height: auto;
+ height:100%;
  visibility: hidden;
  overflow: hidden;
  --x: -1.25%;
- display: inline-block;
- margin-bottom: 0px;
 }
 
 .item::after {
