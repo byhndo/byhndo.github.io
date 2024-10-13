@@ -624,7 +624,7 @@ tl.to(quote, {
 });
 	 
 const revealContainers = container.querySelectorAll(".item"); 
- revealContainers.forEach((el) => {
+ revealContainers.forEach((el, i) => {
  let tl = gsap.timeline({ 
  scrollTrigger: {
   trigger: el,
@@ -636,12 +636,8 @@ tl.to(el, {
  autoAlpha: 1,
  "--x": "-98.75%",
  ease: "steps(39)",
- duration: 2 ,
- stagger: { 
-  each: 0.02,
-  from: 'random'
- }
-});
+ duration: 2 
+}, i * 0.02);
 
 });
 
