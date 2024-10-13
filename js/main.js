@@ -638,8 +638,8 @@ tl.to(el, {
  ease: "steps(39)",
  duration: 2 ,
  stagger: { 
-  from: "random", 
-  amount: 1 
+  each: 0.02,
+  from: 'random'
  }
 });
 
