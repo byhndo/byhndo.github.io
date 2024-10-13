@@ -636,7 +636,8 @@ tl.to(el, {
  autoAlpha: 1,
  "--x": "-98.75%",
  ease: "steps(39)",
- duration: 2 
+ duration: 2, 
+ delay: gsap.utils.random(.3, 1)
 }, i * 0.02);
 
 });
