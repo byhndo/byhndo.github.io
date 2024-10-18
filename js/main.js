@@ -77,11 +77,9 @@ async function animateLoader() {
 
   (function show() {
     const arrOpts = [{
-      duration: 500,
-      easing: 'easeOutQuad',
-      speed: .1,
-      particlesAmountCoefficient: 10,
-      oscillationCoefficient: 80
+      direction: 'bottom',
+      duration: 1000,
+      easing: 'easeInExpo'
     }];
 
     const it = document.querySelectorAll(".wrapbtnloader");
