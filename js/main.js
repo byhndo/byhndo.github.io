@@ -76,11 +76,9 @@ async function animateLoader() {
   });
 
   (function show() {
-    const arrOpts = [{
-      type: 'triangle',      
+    const arrOpts = [{      
       direction: 'top',
       size: 5,
-      color: 'blue',
       duration: 1400,
       speed: 1.5,
       oscillationCoefficient: 15,
