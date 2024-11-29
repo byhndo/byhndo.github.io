@@ -219,7 +219,8 @@ html.lenis, html.lenis body {
  z-index:500;
  position:relative;
  top:20dvh;
- margin: 0 auto;
+ display: flex; 
+ justify-content: center;
 }
 
 .trackbar {
