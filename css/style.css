@@ -221,6 +221,7 @@ html.lenis, html.lenis body {
  top:20dvh;
  display: flex; 
  justify-content: center;
+ align-items: center;
 }
 
 .trackbar {
