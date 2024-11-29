@@ -218,7 +218,7 @@ html.lenis, html.lenis body {
  font-weight:400;
  z-index:500;
  position:relative;
- top:22dvh;
+ top:23dvh;
  display: flex; 
  justify-content: center;
  align-items: center;
@@ -801,7 +801,7 @@ li.about{
 
 @media only screen and (orientation: landscape) {
 .percentage {
- top:5dvh;
+ top:10dvh;
  font-size: 10vw;
 }
 }
