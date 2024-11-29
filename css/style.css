@@ -73,10 +73,8 @@
 } 
 
 :root {  
-// --light: #eceef3;
-// --dark: #181b1e;
- --light: #e8e6eb;
- --dark: #232126;
+ --light: #eceef3;
+ --dark: #181b1e;
  --grey: #BBBFCA;
  --darkgrey: #495057; 
  --soc1: #393E46;
