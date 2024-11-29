@@ -801,7 +801,7 @@ li.about{
 
 @media only screen and (orientation: landscape) {
 .percentage {
- top:10dvh;
+ top:30dvh;
  font-size: 10vw;
 }
 }
