@@ -762,7 +762,7 @@ ul{
 li.about{
  list-style-type:decimal;
  padding-top:10px;
- margin-bottom:-10px;
+ margin-bottom: 0px;
 }
 
 .footer {
