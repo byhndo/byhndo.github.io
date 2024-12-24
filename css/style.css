@@ -228,7 +228,7 @@ html.lenis, html.lenis body {
  text-align: center;
  overflow: hidden;
  z-index:1000;
- border-radius:4px;
+ border-radius:10px;
 }
 
 .loadbar {
