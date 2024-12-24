@@ -191,7 +191,7 @@ html.lenis, html.lenis body {
 #loader,
 .percentage{
  width: 75%;
- height: 2px;
+ height: 10px;
  position: absolute; 
  top: -50%; 
  bottom: 0; 
@@ -212,15 +212,11 @@ html.lenis, html.lenis body {
 }
 
 .percentage {
- color: var(--textloadercolor);
- font-size: 20vw;
+ color: var(--bgloaderscreen);
+ font-size: 11px;
  font-family: var(--font3);
  font-weight:400;
  z-index:500;
- position:relative;
- top:23dvh;
- display: flex; 
- justify-content: center;
  align-items: center;
 }
 
