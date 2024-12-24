@@ -217,8 +217,8 @@ html.lenis, html.lenis body {
  font-family: var(--font2);
  font-weight:400;
  z-index:2000;
- line-height:2;
- width:100%;
+ line-height:1.8;
+ width:98%;
  text-align:right;
 }
 
