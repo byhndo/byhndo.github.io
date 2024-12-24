@@ -213,11 +213,10 @@ html.lenis, html.lenis body {
 
 .percentage {
  color: var(--bgloaderscreen);
- font-size: 11px;
+ font-size: 10px;
  font-family: var(--font2);
  font-weight:400;
  z-index:2000;
- align-items: center;
 }
 
 .trackbar {
