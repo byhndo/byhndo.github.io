@@ -216,7 +216,7 @@ html.lenis, html.lenis body {
  font-size: 11px;
  font-family: var(--font3);
  font-weight:400;
- z-index:500;
+ z-index:2000;
  align-items: center;
 }
 
