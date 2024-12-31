@@ -217,8 +217,7 @@ html.lenis, html.lenis body {
  font-family: var(--font2);
  font-weight:400;
  z-index:2000;
- width:98%;
- top:45%;
+ top:40%;
 }
 
 .trackbar {
