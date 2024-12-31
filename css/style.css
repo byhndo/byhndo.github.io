@@ -795,10 +795,3 @@ li.about{
   font-size:10vw;
  }
 }
-
-@media only screen and (orientation: landscape) {
-.percentage {
- top:30dvh;
- font-size: 10vw;
-}
-}
