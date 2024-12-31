@@ -191,7 +191,7 @@ html.lenis, html.lenis body {
 #loader,
 .percentage{
  width: 75%;
- height: 5px;
+ height: 4px;
  position: absolute; 
  top: -50%; 
  bottom: 0; 
@@ -229,7 +229,7 @@ html.lenis, html.lenis body {
  text-align: center;
  overflow: hidden;
  z-index:1000;
- border-radius:5px;
+ border-radius:4px;
 }
 
 .loadbar {
