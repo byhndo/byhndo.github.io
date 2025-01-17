@@ -603,6 +603,7 @@ p.sub2 {
  masonry;*/
  columns: 2;
  column-fill: balance; 
+ margin-bottom:3.5vw;
  column-gap: 3.5vw;
  box-sizing: border-box;
 }
