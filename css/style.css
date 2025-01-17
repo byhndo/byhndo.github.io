@@ -595,11 +595,15 @@ p.sub2 {
 }
 
 .grid {
- --auto-grid-min-size:10rem;
+/* --auto-grid-min-size:10rem;
  display: grid;  
  grid-template-columns: repeat(2, 1fr);
- grid-template-rows:masonry;
- gap:3.5vw;
+ grid-template-rows:
+ gap:3.5vw;	
+ masonry;*/
+ columns: 2;
+ column-fill: balance; 
+ column-gap: 3.5vw;
  box-sizing: border-box;
 }
 
