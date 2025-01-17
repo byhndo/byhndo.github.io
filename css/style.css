@@ -604,6 +604,7 @@ p.sub2 {
  columns: 2;
  column-fill: balance; 
  column-gap: 3.5vw;
+ margin: 3.5vw;
  box-sizing: border-box;
 }
 
