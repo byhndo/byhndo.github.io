@@ -180,6 +180,23 @@ tl.to(primitiveValues, {
     scale: 1 
   }, 0)
 });
+
+
+	
+let er4 = document.querySelector(".box");
+	
+tl.to(".box", {
+onComplete: () => {
+er4.style.opacity = "0";
+tl.to(er4, {
+        autoAlpha: 0,
+        duration: 1,
+        ease: "quart.out"		
+})
+}
+});
+
+	
 	
 (function () {
   const arrOpts = [    
