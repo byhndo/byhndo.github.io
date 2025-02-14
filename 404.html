@@ -146,9 +146,6 @@ a:hover, a:active{
 document.addEventListener("DOMContentLoaded", function() {
 	
 window.addEventListener("pageshow", ()=>{
-
-let er4 = document.querySelector(".box");
-
 	
 const feBlur = document.querySelector(`#noise feGaussianBlur`);
 const feDisplacementMap = document.querySelector(`#noise feDisplacementMap`);
@@ -183,22 +180,6 @@ tl.to(primitiveValues, {
     scale: 1 
   }, 0)
 });
-
-
-	
-	
-gsap.to(".box", {
-onComplete: () => {
-er4.style.opacity = "0";
-gsap.to(er4, {
-        autoAlpha: 0,
-        duration: 1,
-        ease: "quart.out"		
-})
-}
-});
-
-	
 	
 (function () {
   const arrOpts = [    
@@ -247,6 +228,23 @@ window.addEventListener("pageshow", ()=> {
 })();
 
 
+	
+let er4 = document.querySelector(".box");
+	
+gsap.to(".box", {
+onComplete: () => {
+er4.style.opacity = "0";
+gsap.to(er4, {
+        autoAlpha: 0,
+        duration: 1,
+        ease: "quart.out"		
+})
+}
+});	
+
+
+
+	
 });
 </script>
 </body>
