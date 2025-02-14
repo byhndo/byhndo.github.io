@@ -147,6 +147,9 @@ document.addEventListener("DOMContentLoaded", function() {
 	
 window.addEventListener("pageshow", ()=>{
 
+let er4 = document.querySelector(".box")
+
+	
 const feBlur = document.querySelector(`#noise feGaussianBlur`);
 const feDisplacementMap = document.querySelector(`#noise feDisplacementMap`);
 
@@ -183,7 +186,6 @@ tl.to(primitiveValues, {
 
 
 	
-let er4 = document.querySelector(".box");
 	
 gsap.to(".box", {
 onComplete: () => {
