@@ -185,10 +185,10 @@ tl.to(primitiveValues, {
 	
 let er4 = document.querySelector(".box");
 	
-tl.to(".box", {
+gsap.to(".box", {
 onComplete: () => {
 er4.style.opacity = "0";
-tl.to(er4, {
+gsap.to(er4, {
         autoAlpha: 0,
         duration: 1,
         ease: "quart.out"		
