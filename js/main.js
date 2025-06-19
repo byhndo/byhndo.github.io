@@ -9,12 +9,6 @@ $(".loadbar").animate({
   width: width + "%"
 }, time);
 
-gsap.to(".percentage", {
-    autoAlpha: 1,
-    duration: 1,
-    ease: "power2.out"
-  });
-
 var PercentageID = $("#precent"),
   start = 0,
   end = 100,
