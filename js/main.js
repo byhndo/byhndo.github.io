@@ -48,14 +48,14 @@ async function animateLoader() {
   });
 
 	
-tl.fromTo(percentBar, {
-   autoAlpha:1
+tl.fromTo(".percentage", {
+   autoAlpha:0
 },{
-    autoAlpha: 0,
+    autoAlpha: 1,
     duration: 1,
     ease: "power2.out"
-  });
-  tl.to(".percentage", {
+  })
+  .to(".percentage", {
     autoAlpha: 0,
     duration: 1,
     delay: 1,
