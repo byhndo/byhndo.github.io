@@ -239,7 +239,6 @@ html.lenis, html.lenis body {
  top:0;
  overflow: hidden;
  z-index:1000;
- visibility:hidden;
 }
 
 #start{
