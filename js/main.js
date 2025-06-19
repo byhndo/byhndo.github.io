@@ -47,6 +47,13 @@ async function animateLoader() {
     onComplete: contentShow
   });
 
+	
+tl.to(percentBar, {
+    opacity: 1,
+    y: 0,
+    duration: 1,
+    ease: "power2.out"
+  });
   tl.to(".percentage", {
     autoAlpha: 0,
     duration: 1,
