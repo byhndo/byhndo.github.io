@@ -49,10 +49,9 @@ async function animateLoader() {
 
 	
 tl.fromTo(percentBar, {
-   autoAlpha:0
+   autoAlpha:1
 },{
-    autoAlpha: 1,
-    y: 0,
+    autoAlpha: 0,
     duration: 1,
     ease: "power2.out"
   });
