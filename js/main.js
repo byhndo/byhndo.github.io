@@ -48,8 +48,10 @@ async function animateLoader() {
   });
 
 	
-tl.to(percentBar, {
-    opacity: 1,
+tl.fromTo(percentBar, {
+   autoAlpha:0
+},{
+    autoAlpha: 1,
     y: 0,
     duration: 1,
     ease: "power2.out"
