@@ -218,7 +218,6 @@ html.lenis, html.lenis body {
  font-weight:400;
  z-index:2000; 
  top:-52%;
- visibility: hidden;
 }
 
 .trackbar {
