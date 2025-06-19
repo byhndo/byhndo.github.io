@@ -48,12 +48,13 @@ async function animateLoader() {
   });
 
 	
-tl.to(".percentage", {
+gsap.to(".percentage", {
     autoAlpha: 1,
     duration: 1,
     ease: "power2.out"
-  })
-  .to(".percentage", {
+  });
+	
+  tl.to(".percentage", {
     autoAlpha: 0,
     duration: 1,
     delay: 1,
