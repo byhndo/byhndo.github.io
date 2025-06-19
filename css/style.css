@@ -96,15 +96,6 @@
  --fwfooter: 300;
 }
 
-.message {
-  position: absolute;
-  bottom: 20px;
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-  color: #222;
-}
-
 .hidden {
  position: absolute;
  overflow: hidden;
