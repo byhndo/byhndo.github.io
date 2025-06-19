@@ -48,14 +48,14 @@ async function animateLoader() {
   });
 	
   tl.to(".percentage", {
-    autoAlpha: 1,
+    autoAlpha: 0,
     duration: 1,
     delay: 1,
     ease: "none",
     onComplete: () => {
       percentBar.style.display = "none";
       tl.to("#loader", {
-        autoAlpha: 0,
+        autoAlpha: 1,
         duration: 1,
         ease: "quart.out",
         onComplete: () => {
