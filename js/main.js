@@ -31,46 +31,17 @@ function animateValue(id, start, end, duration) {
   }, stepTime);
 }
 
-	function updateMessage(stepTime) {
-    const messageIndex = Math.min(
-      Math.floor(stepTime / 25),
-      messages.length - 1
-    );
-    const currentMessage = messages[messageIndex];
-
-    if (message.textContent !== currentMessage) {
-      gsap.to(message, {
-        opacity: 0,
-        duration: 0.5,
-        onComplete: function () {
-          message.textContent = currentMessage;
-          gsap.to(message, {
-            opacity: 0.7,
-            duration: 0.5
-          });
-        }
-      });
-    }
-	}
-
 async function animateLoader() {
   await new Promise((resolve) => setTimeout(resolve, time));
   
   let percentBar = document.getElementById("precent");
   let loadingBar = document.getElementById("loader");
-  const messages = [
-    "Initializing",
-    "Loading assets",
-    "Preparing interface",
-    "Almost ready",
-    "Finalizing"
-  ];
+  
   const DOM = {};
   DOM.intro = document.querySelector(".preloader-wrap");
   DOM.shape = DOM.intro.querySelector("svg.shape");
   DOM.path = DOM.intro.querySelector("path.goey");
-  DOM.message = document.querySelector(".message");
-
+  
   let tl = gsap.timeline({
     paused: true,
     onComplete: contentShow
@@ -81,10 +52,6 @@ async function animateLoader() {
     duration: 1,
     delay: 1,
     ease: "none",
-onUpdate: function () {
-	updateMessage(stepTime);
-
-},
     onComplete: () => {
       percentBar.style.display = "none";
       tl.to("#loader", {
