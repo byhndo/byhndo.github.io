@@ -48,9 +48,7 @@ async function animateLoader() {
   });
 
 	
-tl.fromTo(".percentage", {
-   autoAlpha:0
-},{
+tl.to(".percentage", {
     autoAlpha: 1,
     duration: 1,
     ease: "power2.out"
