@@ -1,8 +1,3 @@
-import { gsap } from "https://unpkg.com/gsap@3/dist/gsap.min.js";
-import { ScrollTrigger } from "https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js";
-
-gsap.registerPlugin(ScrollTrigger);
-
 document.addEventListener("DOMContentLoaded", function() {
 
 var width = 100,
@@ -139,7 +134,7 @@ $('html, body').css({
   'height': 'auto'
 })
 		
-//gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger);
 	
 /*$('.one').each(function(){
   $(this).html($(this).text().replace(/\S/g, "<span>$&</span>"));
