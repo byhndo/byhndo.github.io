@@ -1,8 +1,9 @@
-document.addEventListener("DOMContentLoaded", function() {
-
 import { gsap } from "https://unpkg.com/gsap@3/dist/gsap.min.js";
 import { ScrollTrigger } from "https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js";
-	
+
+document.addEventListener("DOMContentLoaded", function() {
+
+
 var width = 100,
   perfData = window.performance.timing,
   EstimatedTime = Math.abs(perfData.loadEventEnd - perfData.navigationStart),
