@@ -381,7 +381,7 @@ gsap.ticker.add((time)=>{
 gsap.ticker.lagSmoothing(0)*/
 
 let smoother = ScrollSmoother.create({
-  smooth: 2,
+  smooth: 1,
   effects: true,
   normalizeScroll: true,
   smoothTouch: 3,
