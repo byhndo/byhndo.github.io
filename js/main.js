@@ -384,7 +384,8 @@ let smoother = ScrollSmoother.create({
   smooth: 2,
   effects: true,
   normalizeScroll: true,
-  smoothTouch: 1
+  smoothTouch: 3,
+  speed:3
 });
 
 	
