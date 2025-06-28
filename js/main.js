@@ -134,7 +134,7 @@ $('html, body').css({
   'height': 'auto'
 })
 		
-gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 	
 /*$('.one').each(function(){
   $(this).html($(this).text().replace(/\S/g, "<span>$&</span>"));
@@ -354,7 +354,7 @@ gsap.to('.header', {
     }
 });
 
-const lenis = new Lenis({
+/*const lenis = new Lenis({
  duration: 2.5,
  easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
  orientation: "vertical",
@@ -378,7 +378,15 @@ gsap.ticker.add((time)=>{
   lenis.raf(time * 1000)
 })
 
-gsap.ticker.lagSmoothing(0)
+gsap.ticker.lagSmoothing(0)*/
+
+let smoother = ScrollSmoother.create({
+  smooth: 2,
+  effects: true,
+  normalizeScroll: true,
+  smoothTouch: 1
+});
+
 	
 function setupReveal(container) {
 	
