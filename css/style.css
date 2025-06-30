@@ -146,6 +146,10 @@ html.lenis, html.lenis body {
   pointer-events: none;
 }
 
+.smooth-content {  
+  will-change: transform;
+}
+
 .preloader-wrap{
  position: fixed;
  width: 100%;
