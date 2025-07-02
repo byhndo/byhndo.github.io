@@ -41,18 +41,17 @@ async function animateLoader() {
   DOM.intro = document.querySelector(".preloader-wrap");
   DOM.shape = DOM.intro.querySelector("svg.shape");
   DOM.path = DOM.intro.querySelector("path.goey");
-
-  gsap.to(".percentage:before, .percentage:after", {
-    duration:.5,
-    ease: "elastic.out"
-  })
 	
   let tl = gsap.timeline({
     paused: true,
     onComplete: contentShow
   });
+  tl.to(".percentage:before, .percentage:after", {
+    duration:.5,
+    ease: "elastic.out"
+  })
   	
-  tl.to(".percentage", {
+  .to(".percentage", {
     autoAlpha: 0,
     duration: 1,
     delay: 1,
