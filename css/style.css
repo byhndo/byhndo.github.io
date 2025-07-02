@@ -211,6 +211,16 @@ html.lenis, html.lenis body {
  left: 0; 
 }
 
+.percentage {
+ color: var(--textloadercolor);
+ font-size: 8px;
+ font-family: var(--font2);
+ font-weight:400;
+ z-index:2000; 
+ top:-52%;
+ text-align: right;
+}
+
 .percentage:before{
  content: "[ ";
  display: block;
@@ -218,7 +228,7 @@ html.lenis, html.lenis body {
  height: 100%;
  position: absolute;
  top: 0;
- left: 0; 
+ left: -50%; 
 }
 
 .percentage:after{
@@ -230,16 +240,6 @@ html.lenis, html.lenis body {
  top: 0;
  right: 0; 
  padding-left: 5px;
-}
-
-.percentage {
- color: var(--textloadercolor);
- font-size: 8px;
- font-family: var(--font2);
- font-weight:400;
- z-index:2000; 
- top:-52%;
- text-align: right;
 }
 
 .trackbar {
