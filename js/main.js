@@ -9,6 +9,12 @@ $(".loadbar").animate({
   width: width + "%"
 }, time);
 
+gsap.to(".percentage:before, .percentage:after", {
+ duration: 1,
+ autoAlpha: 1,
+ ease: "elastic.out"
+});
+
 var PercentageID = $("#precent"),
   start = 0,
   end = 100,
@@ -46,13 +52,7 @@ async function animateLoader() {
     paused: true,
     onComplete: contentShow
   });
-	
-  tl.to(".percentage:before, .percentage:after", {
-    duration: 1,
-    autoAlpha: 1,
-    ease: "elastic.out",
-    onComplete: ()=> {
-  	
+	    	
   tl.to(".percentage", {
     autoAlpha: 0,
     duration: 1,
@@ -79,9 +79,6 @@ async function animateLoader() {
           });
         }
       });
-    }
-  });
-
     }
   });
 
