@@ -24,7 +24,7 @@ function animateValue(id, start, end, duration) {
 
   var timer = setInterval(function () {
     current += increment;
-    $(obj).text("[" + current + "]");
+    $(obj).text(current);
     if (current == end) {
       clearInterval(timer);
     }
