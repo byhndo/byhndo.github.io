@@ -47,7 +47,7 @@ async function animateLoader() {
     onComplete: contentShow
   });
 
-  tl.to(".percentage:before, .percentage:after", {
+  gsap.to(".percentage:before, .percentage:after", {
     duration:.5,
     ease: "elastic.out"
   })
