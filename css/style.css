@@ -211,6 +211,26 @@ html.lenis, html.lenis body {
  left: 0; 
 }
 
+.percentage:before{
+ content: "[ ";
+ display: block;
+ width: 100%;
+ height: 100%;
+ position: absolute;
+ top: 0;
+ left: 100%; 
+}
+
+.percentage:after{
+ content: " ]";
+ display: block;
+ width: 100%;
+ height: 100%;
+ position: absolute;
+ top: 0;
+ right: 0; 
+}
+
 .percentage {
  color: var(--textloadercolor);
  font-size: 8px;
