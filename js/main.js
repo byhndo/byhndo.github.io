@@ -46,6 +46,11 @@ async function animateLoader() {
     paused: true,
     onComplete: contentShow
   });
+
+  tl.to(".percentage:before, .percentage:after", {
+    duration:.5,
+    ease: "elastic.out"
+  })
 	
   tl.to(".percentage", {
     autoAlpha: 0,
