@@ -41,12 +41,6 @@ async function animateLoader() {
   DOM.intro = document.querySelector(".preloader-wrap");
   DOM.shape = DOM.intro.querySelector("svg.shape");
   DOM.path = DOM.intro.querySelector("path.goey");
-
-gsap.to(".percentage:before, .percentage:after", {
- duration: 1,
- autoAlpha: 1,
- ease: "elastic.out"
-});
 	
   let tl = gsap.timeline({
     paused: true,
