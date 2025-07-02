@@ -46,12 +46,13 @@ async function animateLoader() {
     paused: true,
     onComplete: contentShow
   });
+	
   tl.to(".percentage:before, .percentage:after", {
-    duration:.5,
-    ease: "elastic.out"
-  })
+    duration: 1,
+    ease: "elastic.out",
+    onComplete: ()=> {
   	
-  .to(".percentage", {
+  tl.to(".percentage", {
     autoAlpha: 0,
     duration: 1,
     delay: 1,
@@ -77,6 +78,9 @@ async function animateLoader() {
           });
         }
       });
+    }
+  });
+
     }
   });
 
