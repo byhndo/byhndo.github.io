@@ -222,17 +222,17 @@ html.lenis, html.lenis body {
 }
 
 .percentage:before{
- content: "[ ";
+ content: "[";
  display: block;
  width: 100%;
  height: 100%;
  position: absolute;
  top: 0;
- left: -50%; 
+ left: -5%; 
 }
 
 .percentage:after{
- content: " ]";
+ content: "]";
  display: block;
  width: 100%;
  height: 100%;
