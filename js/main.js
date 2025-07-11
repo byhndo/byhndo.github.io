@@ -4,7 +4,7 @@ var width = 100,
   perfData = window.performance.timing,
   EstimatedTime = Math.abs(perfData.loadEventEnd - perfData.navigationStart),
   time = Math.floor((EstimatedTime / 1000) % 60) * 100;
-
+	
 $(".loadbar").animate({
   width: width + "%"
 }, time);
@@ -46,15 +46,6 @@ async function animateLoader() {
     paused: true,
     onComplete: contentShow
   })
-
-.set(".percentage, #loader", {
- autoAlpha:0})
-.to(".percentage, #loader", {
- autoAlpha: 1,
- duration: 1,
- ease: "power2.out"})
-
-	
 	    	
   .to(".percentage", {
     autoAlpha: 0,
