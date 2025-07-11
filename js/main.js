@@ -46,6 +46,14 @@ async function animateLoader() {
     paused: true,
     onComplete: contentShow
   });
+
+
+  tl.fromTo(".percentage", {autoAlpha: 0},
+{
+autoAlpha:1,
+duration:1,
+onComplete: ()=> {
+  
 	    	
   tl.to(".percentage", {
     autoAlpha: 0,
@@ -74,7 +82,11 @@ async function animateLoader() {
         }
       });
     }
-  });
+  })
+
+}});
+
+	
 
   (function show() {
     const arrOpts = [{      
