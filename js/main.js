@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {	
 
-let tl = gsap.timeline({paused: true, onCompleted: animateLoader})
+let l = gsap.timeline({paused: true, onCompleted: animateLoader})
 	
-.set(".percentage", {
+l.set(".percentage", {
  autoAlpha: 0
 })	
 .to(".percentage", {
