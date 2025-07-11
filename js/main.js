@@ -48,7 +48,7 @@ async function animateLoader() {
   });
 
 
-  tl.set(".percentage, #loader", {
+  tl.to(".percentage, #loader", {
 autoAlpha:0,
 duration:1,
  onComplete: ()=>{
