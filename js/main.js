@@ -40,10 +40,7 @@ function animateLoader() {
   DOM.shape = DOM.intro.querySelector("svg.shape");
   DOM.path = DOM.intro.querySelector("path.goey");
 
-gsap.set(".percentage", {
-    autoAlpha:0,
-    duration:1
-  });
+
 gsap.to(".percentage", {
 duration:1,
 autoAlpha:1
