@@ -437,8 +437,8 @@ tl.set([bioPath, photoPath], {
     attr: { d: paths.step2.unfilled }
 });
 
-const bioBtn = document.getElementById("bio");
-const photoBtn = document.getElementById("photo");
+const bioBtn = document.getElementById("btn-nav-1");
+const photoBtn = document.getElementById("btn-nav-2");
 const allMorphBtns = [bioBtn, photoBtn];
 
 allMorphBtns.forEach((btn) => {
