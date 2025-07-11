@@ -50,11 +50,11 @@ async function animateLoader() {
 
   tl.set(".percentage, #loader", {
 autoAlpha:0,
-duration:1
-})
+duration:1,
+ onComplete: ()=>{
   
 	    	
-  .to(".percentage", {
+  tl.to(".percentage", {
     autoAlpha: 0,
     duration: 1,
     delay: 1,
@@ -82,6 +82,11 @@ duration:1
       });
     }
   })
+
+
+ }});
+
+	  
 
   (function show() {
     const arrOpts = [{      
