@@ -199,6 +199,7 @@ html.lenis, html.lenis body {
  right: 0;
  margin: auto; 
  color: var(--light);   
+ visibility:hidden;
 }
 
 #loader:after, .percentage:after {
@@ -209,10 +210,6 @@ html.lenis, html.lenis body {
  position: absolute;
  top: -50%;
  left: 0; 
-}
-
-#loader{
- visibility:hidden;
 }
 
 .percentage {
