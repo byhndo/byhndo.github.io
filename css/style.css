@@ -496,13 +496,13 @@ a:hover, a:active{
  left: 0;
  right: 0;
  bottom: 0;
- display: block;
+/*display: block;*/
  opacity: 0;
- transition: transform 1s cubic-bezier(0.445, 0.050, 0.550, 0.950);
+ /*transition: transform 1s cubic-bezier(0.445, 0.050, 0.550, 0.950);*/
  width: 100%;
  height: 100%;
- transform: scaleX(0) scaleY(1);
- transform-origin: 0 0;
+ /*transform: scaleX(0) scaleY(1);*/
+ /*transform-origin: 0 0;*/
 }
 
 /*.transition-bio {
