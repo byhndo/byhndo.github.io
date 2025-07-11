@@ -65,14 +65,14 @@ async function animateLoader() {
             delay: 0.1,
             duration: 2,
             ease: "quad.inOut"
-          }, ">");
+          });
           gsap.to(DOM.path, {
             duration: 1.2,
             ease: "linear",
             attr: { d: DOM.path.getAttribute("pathdata:id") }
           });
         }
-      });
+      }, ">");
     }
   });	  
 
