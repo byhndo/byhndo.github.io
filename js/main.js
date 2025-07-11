@@ -49,7 +49,7 @@ function animateLoader() {
     autoAlpha: 1,
     duration: 1,
     ease: "power2.out"
-  }, ">")
+  })
 	    	
   .to(".percentage", {
     autoAlpha: 0,
@@ -78,7 +78,7 @@ function animateLoader() {
         }
       });
     }
-  });	  
+  }, "<");	  
 
   (function show() {
     const arrOpts = [{      
