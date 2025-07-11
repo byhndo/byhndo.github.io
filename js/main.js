@@ -31,10 +31,10 @@ function animateValue(id, start, end, duration) {
   }, stepTime);
 }
 
-gsap.to(".percentage", {
+gsap.set(".percentage", {
  autoAlpha: 0
-});	
-gsap.to(".percentage", {
+})	
+.to(".percentage", {
  autoAlpha: 1,
  duration:1, 
  onComplete:animateLoader
