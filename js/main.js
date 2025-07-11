@@ -4,7 +4,10 @@ document.addEventListener("DOMContentLoaded", function() {
 gsap.to(".percentage", {
  autoAlpha: 1,
  duration:1,
- onComplete: animateLoader
+ onComplete: ()=> {
+gsap.to(".percentage", {
+  onComplete: animateLoader
+ }); }
 });
 
 var width = 100,
