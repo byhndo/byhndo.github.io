@@ -31,14 +31,6 @@ function animateValue(id, start, end, duration) {
   }, stepTime);
 }
 
-let l = gsap.timeline({animateLoader})
-.to(".percentage", {
- autoAlpha: 1,
- duration: 1,
- ease: "power2.out"
-});
-
-	
 async function animateLoader() {
   await new Promise((resolve) => setTimeout(resolve, time));
 	
