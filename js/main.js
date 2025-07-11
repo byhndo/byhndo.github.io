@@ -168,20 +168,12 @@ data() {
 }).mount('#app') 
 		
 
-const tltitle = gsap.timeline()
-
-.to("h1", { 
-      autoAlpha:0    
-    },
-    opacity: 1,  
-    autoAlpha:1,
-    scale: 1 
-})
+gsap.to("h1", { 
+ autoAlpha:1
+});
 	  
-.to(".sub-title", {     
-      autoAlpha:0,          
-    },      
-    autoAlpha:1,
+gsap.to(".sub-title", {     
+ autoAlpha:1,
 });
 	
 gsap.set('.indicator', {
