@@ -1,12 +1,11 @@
-let tl = gsap.timeline()
+let tl = gsap.timeline({paused: true, onCompleted: animateLoader})
 	
 .set(".percentage", {
  autoAlpha: 0
 })	
 .to(".percentage", {
  autoAlpha: 1,
- duration:1,  
- onComplete: animateLoader
+ duration:1
 });
 
 
