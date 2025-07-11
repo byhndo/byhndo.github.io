@@ -46,6 +46,15 @@ async function animateLoader() {
     paused: true,
     onComplete: contentShow
   });
+
+tl.set(".percentage, #loader", {
+ visibility: "visible"}, "<")
+.to(".percentage, #loader", {
+ opacity: 1,
+ duration: 1,
+ ease: "power2.out"}, "<0.3");
+
+	
 	    	
   tl.to(".percentage", {
     autoAlpha: 0,
@@ -74,17 +83,7 @@ async function animateLoader() {
         }
       });
     }
-  })
-
-
-tl.set(".percentage, #loader", {
- visibility: "visible"}, "<")
-.to(".percentage, #loader", {
- opacity: 1,
- duration: 1,
- ease: "power2.out"}, "<0.3");
-
-	  
+  });	  
 
   (function show() {
     const arrOpts = [{      
