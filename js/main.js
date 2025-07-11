@@ -31,9 +31,7 @@ function animateValue(id, start, end, duration) {
   }, stepTime);
 }
 
-async function animateLoader() {
-  await new Promise((resolve) => setTimeout(resolve, time));
-	
+function animateLoader() { 
   let percentBar = document.getElementById("precent");
   let loadingBar = document.getElementById("loader");
   
@@ -45,6 +43,11 @@ async function animateLoader() {
   let tl = gsap.timeline({
     paused: true,
     onComplete: contentShow
+  })
+
+  .set(".percentage", {
+    autoAlpha:0,
+    duration:1
   })
 	    	
   .to(".percentage", {
@@ -72,7 +75,7 @@ async function animateLoader() {
             attr: { d: DOM.path.getAttribute("pathdata:id") }
           });
         }
-      }, ">");
+      });
     }
   });	  
 
