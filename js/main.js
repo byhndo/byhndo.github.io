@@ -52,7 +52,7 @@ async function animateLoader() {
 {
 autoAlpha:1,
 duration:1,
-onComplete: ()=> {
+onStart: ()=> {
   
 	    	
   tl.to(".percentage", {
