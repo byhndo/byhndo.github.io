@@ -1,15 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {	
 
-
-gsap.to(".percentage", {
- autoAlpha: 1,
- duration:1,
- onComplete: ()=> {
-gsap.to(".percentage", {
-  onComplete: animateLoader
- }); }
-});
-
 var width = 100,
   perfData = window.performance.timing,
   EstimatedTime = Math.abs(perfData.loadEventEnd - perfData.navigationStart),
