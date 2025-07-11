@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 gsap.set(".percentage", {
  autoAlpha: 0
-})	
+});	
 gsap.to(".percentage", {
  autoAlpha: 1,
  duration:1,
