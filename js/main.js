@@ -41,15 +41,17 @@ function animateLoader() {
   DOM.path = DOM.intro.querySelector("path.goey");
 
 
-gsap.to(".percentage", {
-duration:1,
-autoAlpha:1
-}, "<");
+
 	
   let tl = gsap.timeline({
     paused: true,
     onComplete: contentShow
   })
+
+gsap.to(".percentage", {
+duration:1,
+autoAlpha:1
+}, "<")
 	    	
   .to(".percentage", {
     autoAlpha: 0,
