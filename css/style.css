@@ -211,6 +211,10 @@ html.lenis, html.lenis body {
  left: 0; 
 }
 
+#loader{
+ visibility:hidden;
+}
+
 .percentage {
  color: var(--textloadercolor);
  font-size: 8px;
@@ -219,7 +223,6 @@ html.lenis, html.lenis body {
  z-index:2000; 
  top:-52%;
  text-align: center;
- visibility:hidden;
 }
 
 .percentage:before{
