@@ -1,13 +1,13 @@
 document.addEventListener("DOMContentLoaded", function() {	
 
-let l = gsap.timeline({paused: true, onCompleted: animateLoader})
-	
-l.set(".percentage", {
+
+gsap.set(".percentage", {
  autoAlpha: 0
 })	
-.to(".percentage", {
+gsap.to(".percentage", {
  autoAlpha: 1,
- duration:1
+ duration:1,
+ onComplete: animateLoader
 });
 
 var width = 100,
