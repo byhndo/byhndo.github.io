@@ -47,8 +47,13 @@ async function animateLoader() {
     onComplete: contentShow
   });
 
+  tl.to(loader, {
+   delay:3,
+   duration: 1,
+   autoAlpha:1
+  })
 	    	
-  .to(".percentage", {
+  tl.to(".percentage", {
     autoAlpha: 0,
     duration: 1,
     delay: 1,
