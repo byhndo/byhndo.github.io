@@ -40,9 +40,15 @@ function animateLoader() {
   DOM.shape = DOM.intro.querySelector("svg.shape");
   DOM.path = DOM.intro.querySelector("path.goey");
 	
-  let tl = gsap.timeline({
+  const tl = gsap.timeline({
     paused: true,
     onComplete: contentShow
+  });
+
+  tl.to(".percentage", {
+    autoAlpha: 1,
+    duration: 1,
+    ease: "power2.out"
   })
 	    	
   .to(".percentage", {
