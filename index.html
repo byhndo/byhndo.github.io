@@ -56,18 +56,14 @@
 </div>	
 <div id="app">
 <div :class="['bg', bg]"> 
-<svg class="transition transition-bio" id="bio" viewBox="0 0 100 100" preserveAspectRatio="none">
-<path id="bioPath" d="M 0 100 V 100 Q 50 100 100 100 V 100 z" fill="grey" />	
-</svg>
-<svg class="transition transition-photos" id="photos" viewBox="0 0 100 100" preserveAspectRatio="none">
-<path id="photosPath" d="M 0 100 V 100 Q 50 100 100 100 V 100 z" fill="grey" />	
-</svg>  
+<div class="transition transition-bio" id="bio"></div>
+<div class="transition transition-photos" id="photos"></div>                                                
 <wrapnav>
 <div class="nav theme">
- <button onclick="window.location.hash='bio';" @click="bg = 'bio'" id="btn-nav-1" class="particles-button">About</button>
+ <button onclick="window.location.hash='bio';" @click="bg = 'bio'" id="btn-nav" class="particles-button">About</button>
 </div>
 <div class="nav theme">
- <button onclick="window.location.hash='photos';" @click="bg = 'photos'" id="btn-nav-2" class="particles-button">Photo</button>                                        
+ <button onclick="window.location.hash='photos';" @click="bg = 'photos'" id="btn-nav" class="particles-button">Photo</button>                                        
 </div>
 </wrapnav>	
 <main>
@@ -75,9 +71,9 @@
 <div class="indicator">
 <div class="indicator-dot"></div>
 </div>
-<!--<svg class="title">
+<svg class="title">
 <defs>
-<filter id='noise-title' ref="noiseFilter" x='0%' y='0%' width='100%' height='100%'>
+<filter id='noise' x='0%' y='0%' width='100%' height='100%'>
 <feGaussianBlur in="SourceGraphic" stdDeviation="0" result="blur"></feGaussianBlur>
 <feColorMatrix in="blur" mode="matrix" values="	1 0 0 0 0 0 1 0 0 0 1 0 1 0 0 0 0 0 15 -8" result="goo"></feColorMatrix>
 <feTurbulence type="fractalNoise" baseFrequency="0.1 0.5" numOctaves="5" seed="2" result="noise"></feTurbulence>
@@ -85,7 +81,7 @@
 <feComposite in="SourceGraphic" in2="displacement" operator="atop"></feComposite>
 </filter> 
 </defs>
-</svg>-->				
+</svg>				
 <h1>Bayu<br>Handono</h1> 
 <div class="sub-title">Life Sucks and Then You Die!</div>
 </div>	
@@ -346,6 +342,7 @@ document.getElementById("year2").textContent = currentYear2</script>
 <script src="js/vue.js"></script>
 <script src="js/jquery.js"></script>
 <script src="js/gsap.js"></script>
+<script src="js/scrollsmoother.js"></script>	
 <script src="js/scrolltrigger.js"></script>
 <script src="js/main.js"></script>
 <script>
