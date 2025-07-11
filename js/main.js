@@ -167,8 +167,8 @@ data() {
     }
 }).mount('#app') 
 		
-const feBlur = document.querySelector(`#noise feGaussianBlur`);
-const feDisplacementMap = document.querySelector(`#noise feDisplacementMap`);
+const feBlur = document.querySelector(`#noise-title feGaussianBlur`);
+const feDisplacementMap = document.querySelector(`#noise-title feDisplacementMap`);
 
 let primitiveValues = { stdDeviation: 0, scale: 0 };
  
