@@ -48,7 +48,7 @@ function animateLoader() {
     onComplete: contentShow
   })
 
-gsap.to(".percentage", {
+.to(".percentage", {
 duration:1,
 autoAlpha:1
 }, "<")
