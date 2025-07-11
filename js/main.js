@@ -31,7 +31,9 @@ function animateValue(id, start, end, duration) {
   }, stepTime);
 }
     
-function animateLoader() { 
+async function animateLoader() {
+  await new Promise((resolve) => setTimeout(resolve, time));
+	
   let percentBar = document.getElementById("precent");
   let loadingBar = document.getElementById("loader");
   
