@@ -46,13 +46,6 @@ async function animateLoader() {
     paused: true,
     onComplete: contentShow
   });
-
-
-  tl.to(".percentage, #loader", {
-autoAlpha:0,
-duration:1,
- onComplete: ()=>{
-  
 	    	
   tl.to(".percentage", {
     autoAlpha: 0,
@@ -84,7 +77,12 @@ duration:1,
   })
 
 
- }});
+tl.set(".percentage, #loader", {
+ visibility: "visible"}, "<")
+.to(".percentage, #loader", {
+ opacity: 1,
+ duration: 1,
+ ease: "power2.out"}, "<0.3");
 
 	  
 
