@@ -33,10 +33,10 @@ function animateValue(id, start, end, duration) {
 
 let tl = gsap.timeline({paused : true})
 	
-.set(".percentage", {
+tl.set(".percentage", {
  autoAlpha: 0
-})	
-.to(".percentage", {
+});	
+tl.to(".percentage", {
  autoAlpha: 1,
  duration:1,  
  onComplete: animateLoader
