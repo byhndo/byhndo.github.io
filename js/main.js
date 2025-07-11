@@ -40,7 +40,7 @@ function animateLoader() {
   DOM.shape = DOM.intro.querySelector("svg.shape");
   DOM.path = DOM.intro.querySelector("path.goey");
 	
-  const tl = gsap.timeline({
+  let tl = gsap.timeline({
     paused: true,
     onComplete: contentShow
   });
