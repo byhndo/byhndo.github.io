@@ -44,14 +44,8 @@ function animateLoader() {
     paused: true,
     onComplete: contentShow
   });
-
-  tl.to(".percentage", {
-    autoAlpha: 1,
-    duration: 1,
-    ease: "power2.out"
-  })
 	    	
-  .to(".percentage", {
+  tl.to(".percentage", {
     autoAlpha: 0,
     duration: 1,
     delay: 1,
