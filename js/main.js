@@ -1,9 +1,9 @@
-let tl = gsap.timeline({paused : true})
+let tl = gsap.timeline()
 	
-tl.set(".percentage", {
+.set(".percentage", {
  autoAlpha: 0
-});	
-tl.to(".percentage", {
+})	
+.to(".percentage", {
  autoAlpha: 1,
  duration:1,  
  onComplete: animateLoader
