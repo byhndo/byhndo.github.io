@@ -168,7 +168,7 @@ data() {
 }).mount('#app') 
 		
 
-const tl = gsap.timeline()
+const tltitle = gsap.timeline()
 
 .to("h1", { 
       autoAlpha:0    
