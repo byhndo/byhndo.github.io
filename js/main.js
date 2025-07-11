@@ -31,6 +31,15 @@ function animateValue(id, start, end, duration) {
   }, stepTime);
 }
 
+gsap.to(".percentage", {
+ autoAlpha: 0
+});	
+gsap.to(".percentage", {
+ autoAlpha: 1,
+ duration:1, 
+ onComplete:animateLoader
+});
+
 function animateLoader() { 
   let percentBar = document.getElementById("precent");
   let loadingBar = document.getElementById("loader");
