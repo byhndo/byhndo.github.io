@@ -198,8 +198,7 @@ html.lenis, html.lenis body {
  left: 0; 
  right: 0;
  margin: auto; 
- color: var(--light);  
- visibility:hidden;   
+ color: var(--light);   
 }
 
 #loader:after, .percentage:after {
@@ -220,6 +219,7 @@ html.lenis, html.lenis body {
  z-index:2000; 
  top:-52%;
  text-align: center;
+ visibility:hidden;
 }
 
 .percentage:before{
