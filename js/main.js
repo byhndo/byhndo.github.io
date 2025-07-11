@@ -167,7 +167,7 @@ data() {
     }
 }).mount('#app') 
 		
-const feBlur = document.querySelector(`#noise-title feGaussianBlur`);
+/*const feBlur = document.querySelector(`#noise-title feGaussianBlur`);
 const feDisplacementMap = document.querySelector(`#noise-title feDisplacementMap`);
 
 let primitiveValues = { stdDeviation: 0, scale: 0 };
@@ -210,7 +210,7 @@ tl.to(primitiveValues, {
     opacity: 1,  
     autoAlpha:1,
     scale: 1 
-}, "<");
+}, "<");*/
 	
 gsap.set('.indicator', {
  y:-100	
