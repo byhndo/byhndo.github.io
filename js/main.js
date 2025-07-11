@@ -31,14 +31,15 @@ function animateValue(id, start, end, duration) {
   }, stepTime);
 }
 
-gsap.set(".percentage", {
+let tl = gsap.timeline({paused : true, onComplete: animateLoader})
+	
+.set(".percentage", {
  autoAlpha: 0
 });	
-gsap.to(".percentage", {
+.to(".percentage", {
  autoAlpha: 1,
- duration:1, 
- onComplete:animateLoader
-}, ">1");
+ duration:1,  
+});
 
 function animateLoader() { 
   let percentBar = document.getElementById("precent");
