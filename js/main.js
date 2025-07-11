@@ -44,7 +44,7 @@ function animateLoader() {
 gsap.to(".percentage", {
 duration:1,
 autoAlpha:1
-}, ">");
+}, "<");
 	
   let tl = gsap.timeline({
     paused: true,
