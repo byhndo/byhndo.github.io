@@ -31,7 +31,7 @@ function animateValue(id, start, end, duration) {
   }, stepTime);
 }
 
-let tl = gsap.timeline({paused : true, onComplete: animateLoader})
+let tl = gsap.timeline({paused : true})
 	
 .set(".percentage", {
  autoAlpha: 0
@@ -39,6 +39,7 @@ let tl = gsap.timeline({paused : true, onComplete: animateLoader})
 .to(".percentage", {
  autoAlpha: 1,
  duration:1,  
+ onComplete: animateLoader
 });
 
 function animateLoader() { 
