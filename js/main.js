@@ -51,9 +51,9 @@ tl.to(".percentage", {
 delay: 3,
 duration: 1,
 autoAlpha: 1
-});
+})
 	    	
-  tl.to(".percentage", {
+  .to(".percentage", {
     autoAlpha: 0,
     duration: 1,
     delay: 1,
