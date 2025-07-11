@@ -1,4 +1,16 @@
-document.addEventListener("DOMContentLoaded", function() {
+let tl = gsap.timeline({paused : true})
+	
+tl.set(".percentage", {
+ autoAlpha: 0
+});	
+tl.to(".percentage", {
+ autoAlpha: 1,
+ duration:1,  
+ onComplete: animateLoader
+});
+
+
+document.addEventListener("DOMContentLoaded", function() {	
 
 var width = 100,
   perfData = window.performance.timing,
@@ -30,17 +42,6 @@ function animateValue(id, start, end, duration) {
     }
   }, stepTime);
 }
-
-let tl = gsap.timeline({paused : true})
-	
-tl.set(".percentage", {
- autoAlpha: 0
-});	
-tl.to(".percentage", {
- autoAlpha: 1,
- duration:1,  
- onComplete: animateLoader
-});
 
 function animateLoader() { 
   let percentBar = document.getElementById("precent");
