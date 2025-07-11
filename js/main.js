@@ -382,7 +382,7 @@ gsap.ticker.add((time)=>{
 gsap.ticker.lagSmoothing(0)
 
 const bioPath = document.getElementById("bioPath");
-const photoPath = document.getElementById("photoPath");
+const photosPath = document.getElementById("photosPath");
 
 const paths = {
   step1: {
@@ -406,40 +406,40 @@ let tl = gsap.timeline({
     paused: true
 });
 
-tl.set([bioPath, photoPath], {
+tl.set([bioPath, photosPath], {
     attr: { d: paths.step1.unfilled }
 })
 
-.to([bioPath, photoPath], {
+.to([bioPath, photosPath], {
       duration: 0.8,
       ease: "power3.in",
       attr: { d: paths.step1.inBetween }},0)
 
-.to([bioPath, photoPath], {
+.to([bioPath, photosPath], {
     duration: 0.2,
     ease: "power1",
     attr: { d: paths.step1.filled }
   })
 
-.set([bioPath, photoPath], {
+.set([bioPath, photosPath], {
     attr: { d: paths.step2.filled }
   })
 
-.to([bioPath, photoPath], {
+.to([bioPath, photosPath], {
     duration: 0.15,
     ease: "sine.in",
     attr: { d: paths.step2.inBetween }
   })
 
-.to([bioPath, photoPath], {
+.to([bioPath, photosPath], {
     duration: 1,
     ease: "power4",
     attr: { d: paths.step2.unfilled }
 });
 
 const bioBtn = document.getElementById("btn-nav-1");
-const photoBtn = document.getElementById("btn-nav-2");
-const allMorphBtns = [bioBtn, photoBtn];
+const photosBtn = document.getElementById("btn-nav-2");
+const allMorphBtns = [bioBtn, photosBtn];
 
 allMorphBtns.forEach((btn) => {
   btn.addEventListener("click", () => {
