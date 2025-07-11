@@ -492,9 +492,9 @@ a:hover, a:active{
 }
 
 .transition {
+ position: fixed;
  top: 0;
  display: block;
- position: absolute;
  opacity: 0;
  transition: transform 1s cubic-bezier(0.445, 0.050, 0.550, 0.950);
  width: 100%;
