@@ -366,11 +366,11 @@ const paths = {
   }
 };
 
-const tsvg = gsap.timeline({
+const tl = gsap.timeline({
     paused: true
-});
+})
 
-tl.set([bioPath, photosPath], {
+.set([bioPath, photosPath], {
     attr: { d: paths.step1.unfilled }
 })
 
