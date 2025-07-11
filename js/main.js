@@ -51,10 +51,10 @@ async function animateLoader() {
   tl.set(".percentage, #loader", {
 autoAlpha:0,
 duration:1
-});
+})
   
 	    	
-  tl.to(".percentage", {
+  .to(".percentage", {
     autoAlpha: 0,
     duration: 1,
     delay: 1,
