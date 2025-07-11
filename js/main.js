@@ -49,7 +49,8 @@ async function animateLoader() {
 
 tl.to(loadingbar, {
 delay: 3,
-duration: 1
+duration: 1,
+autoAlpha: 1
 });
 	    	
   tl.to(".percentage", {
