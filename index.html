@@ -56,12 +56,14 @@
 </div>	
 <div id="app">
 <div :class="['bg', bg]"> 
+<transition name="svg-fade" mode="out-in">
 <svg v-if="bg === 'bio'" class="transition transition-bio" id="bio" viewBox="0 0 100 100" preserveAspectRatio="none">
 <path id="bioPath" d="M 0 100 V 100 Q 50 100 100 100 V 100 z" fill="grey" />	
 </svg>
-<svg v-else class="transition transition-photos" id="photos" viewBox="0 0 100 100" preserveAspectRatio="none">
+<svg v-if="bg === 'photos'" class="transition transition-photos" id="photos" viewBox="0 0 100 100" preserveAspectRatio="none">
 <path id="photosPath" d="M 0 100 V 100 Q 50 100 100 100 V 100 z" fill="grey" />	
-</svg>                                                
+</svg>  
+</transition>
 <wrapnav>
 <div class="nav theme">
  <button onclick="window.location.hash='bio';" @click="bg = 'bio'" id="btn-nav-1" class="particles-button">About</button>
