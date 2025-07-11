@@ -72,7 +72,7 @@ function animateLoader() {
         }
       });
     }
-  }, ">");	  
+  });	  
 
   (function show() {
     const arrOpts = [{      
