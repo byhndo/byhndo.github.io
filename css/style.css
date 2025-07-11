@@ -311,7 +311,6 @@ h2, h3, h4, h5 {
  letter-spacing:-1px;
 }
 
-
 h2 {
  font-size: 2em; 
 }
@@ -492,7 +491,7 @@ a:hover, a:active{
 }
 
 .transition {
- position: absolute;
+ position: fixed;
  top: 0;
  left: 0;
  right: 0;
@@ -506,7 +505,7 @@ a:hover, a:active{
  transform-origin: 0 0;
 }
 
-.transition-bio {
+/*.transition-bio {
  background: var(--light);     
  transform-origin:0 ;
 }
@@ -514,19 +513,19 @@ a:hover, a:active{
 .transition-photos {
  background: var(--dark);
  transform-origin:100%;
-}
+}*/
 
 .bio .transition-bio, .photos .transition-photos{
     opacity: 1;
 }
 
-.bio .transition-bio {
+/*.bio .transition-bio {
     transform: scale(1) translateX(0);
 }
 
 .photos .transition-photos {
     transform: scale(1) translateX(0);
-}
+}*/
 
 main {
  position: relative;
