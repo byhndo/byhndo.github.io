@@ -47,7 +47,7 @@ async function animateLoader() {
     autoAlpha: 1,
     duration: 1,
     ease: "power2.out"
-  });
+  }, ">");
 	
   let tl = gsap.timeline({
     paused: true,
