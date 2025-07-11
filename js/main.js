@@ -52,7 +52,7 @@ async function animateLoader() {
 {
 autoAlpha:1,
 duration:1,
-onStart: ()=> {
+})
   
 	    	
   tl.to(".percentage", {
@@ -83,10 +83,6 @@ onStart: ()=> {
       });
     }
   })
-
-}});
-
-	
 
   (function show() {
     const arrOpts = [{      
