@@ -51,7 +51,7 @@ function animateLoader() {
 .to(".percentage", {
 duration:1,
 autoAlpha:1
-}, "<")
+}, ">")
 	    	
   .to(".percentage", {
     autoAlpha: 0,
