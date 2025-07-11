@@ -48,11 +48,11 @@ async function animateLoader() {
   });
 
 
-  tl.fromTo(".percentage", {autoAlpha: 0},
+  tl.fromTo(".percentage, #loader", {autoAlpha: 0},
 {
 autoAlpha:1,
 duration:1,
-})
+});
   
 	    	
   tl.to(".percentage", {
