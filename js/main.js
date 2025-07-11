@@ -33,21 +33,22 @@ function animateValue(id, start, end, duration) {
     
 async function animateLoader() {
   await new Promise((resolve) => setTimeout(resolve, time));
+
+	
+gsap.to(".percentage", {
+    autoAlpha: 1,
+    duration: 1,
+    ease: "power2.out"
+  });
+
 	
   let percentBar = document.getElementById("precent");
   let loadingBar = document.getElementById("loader");
-  
+	
   const DOM = {};
   DOM.intro = document.querySelector(".preloader-wrap");
   DOM.shape = DOM.intro.querySelector("svg.shape");
   DOM.path = DOM.intro.querySelector("path.goey");
-	
- let l = gsap.timeline()
-  .to(".percentage", {
-    autoAlpha: 1,
-    duration: 1,
-    ease: "power2.out"
-  }, ">");
 	
   let tl = gsap.timeline({
     paused: true,
