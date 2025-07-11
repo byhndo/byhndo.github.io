@@ -380,6 +380,71 @@ gsap.ticker.add((time)=>{
 })
 
 gsap.ticker.lagSmoothing(0)
+
+
+const paths = {
+  step1: {
+    unfilled: "M 0 0 h 0 c 0 50 0 50 0 100 H 0 V 0 Z",
+ // inBetween: "M 0 0 h 33 c -30 54 113 65 0 100 H 0 V 0 Z",    
+ // inbetween:  "M 0 0 h 34 c 73 7 73 94 0 100 H 0 V 0 Z",
+    inBetween:" M 0 0 h 33 c -30 54 113 65 0 100 H 0 V 0 Z",
+ // inBetween: " M 0 0 h 34 c 112 44 -32 49 0 100 H 0 V 0 Z",        
+    filled: "M 0 0 h 100 c 0 50 0 50 0 100 H 0 V 0 Z"
+  },
+
+  step2: {
+    filled: "M 100 0 H 0 c 0 50 0 50 0 100 h 100 V 50 Z",
+ // inBetween: 'M 100 0 H 50 c 20 33 20 67 0 100 h 50 V 0 Z',
+    inBetween: "M 100 0 H 50 c 28 43 4 81 0 100 h 50 V 0 Z",
+    unfilled: "M 100 0 H 100 c 0 50 0 50 0 100 h 0 V 0 Z"
+  }
+};
+
+let tl = gsap.timeline({
+    paused: true
+});
+
+tl.set([bioPath, photoPath], {
+    attr: { d: paths.step1.unfilled }
+})
+
+.to([bioPath, photoPath], {
+      duration: 0.8,
+      ease: "power3.in",
+      attr: { d: paths.step1.inBetween }},0)
+
+.to([bioPath, photoPath], {
+    duration: 0.2,
+    ease: "power1",
+    attr: { d: paths.step1.filled }
+  })
+
+.set([bioPath, photoPath], {
+    attr: { d: paths.step2.filled }
+  })
+
+.to([bioPath, photoPath], {
+    duration: 0.15,
+    ease: "sine.in",
+    attr: { d: paths.step2.inBetween }
+  })
+
+.to([bioPath, photoPath], {
+    duration: 1,
+    ease: "power4",
+    attr: { d: paths.step2.unfilled }
+});
+
+const bioBtn = document.getElementById("bio");
+const photoBtn = document.getElementById("photo");
+const allMorphBtns = [bioBtn, photoBtn];
+
+allMorphBtns.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    tl.restart();
+  });
+});
+	
 	
 function setupReveal(container) {
 	
