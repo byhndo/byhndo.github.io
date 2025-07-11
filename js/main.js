@@ -381,6 +381,8 @@ gsap.ticker.add((time)=>{
 
 gsap.ticker.lagSmoothing(0)
 
+const bioPath = document.getElementById("bioPath");
+const photoPath = document.getElementById("photoPath");
 
 const paths = {
   step1: {
