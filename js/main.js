@@ -402,7 +402,7 @@ const paths = {
   }
 };
 
-let tl = gsap.timeline({
+const tsvg = gsap.timeline({
     paused: true
 });
 
