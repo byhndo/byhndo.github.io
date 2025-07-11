@@ -30,17 +30,18 @@ function animateValue(id, start, end, duration) {
     }
   }, stepTime);
 }
-    
-async function animateLoader() {
-  await new Promise((resolve) => setTimeout(resolve, time));
+
+
+gsap.to(".percentage", {
+ autoAlpha: 1,
+ duration: 1,
+ ease: "power2.out",
+ onComplete: animateLoader
+});
 
 	
-gsap.to(".percentage", {
-    autoAlpha: 1,
-    duration: 1,
-    ease: "power2.out"
-  });
-
+async function animateLoader() {
+  await new Promise((resolve) => setTimeout(resolve, time));
 	
   let percentBar = document.getElementById("precent");
   let loadingBar = document.getElementById("loader");
