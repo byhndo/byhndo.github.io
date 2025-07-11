@@ -33,8 +33,8 @@ function animateValue(id, start, end, duration) {
 
 gsap.set(".percentage", {
  autoAlpha: 0
-})	
-.to(".percentage", {
+});	
+gsap.to(".percentage", {
  autoAlpha: 1,
  duration:1, 
  onComplete:animateLoader
