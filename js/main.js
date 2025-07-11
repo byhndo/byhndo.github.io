@@ -48,11 +48,11 @@ async function animateLoader() {
   })
 
 .set(".percentage, #loader", {
- autoAlpha:0}, "<")
+ autoAlpha:0})
 .to(".percentage, #loader", {
  autoAlpha: 1,
  duration: 1,
- ease: "power2.out"}, "<0.3")
+ ease: "power2.out"})
 
 	
 	    	
