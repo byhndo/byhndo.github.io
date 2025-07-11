@@ -48,9 +48,9 @@ async function animateLoader() {
   })
 
 .set(".percentage, #loader", {
- visibility: "visible"}, "<")
+ autoAlpha:0}, "<")
 .to(".percentage, #loader", {
- opacity: 1,
+ autoAlpha: 1,
  duration: 1,
  ease: "power2.out"}, "<0.3")
 
