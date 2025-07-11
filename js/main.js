@@ -1,10 +1,10 @@
-document.addEventListener("DOMContentLoaded", function() {	
+document.addEventListener("DOMContentLoaded", function() {
 
 var width = 100,
   perfData = window.performance.timing,
   EstimatedTime = Math.abs(perfData.loadEventEnd - perfData.navigationStart),
   time = Math.floor((EstimatedTime / 1000) % 60) * 100;
-	
+
 $(".loadbar").animate({
   width: width + "%"
 }, time);
@@ -30,7 +30,7 @@ function animateValue(id, start, end, duration) {
     }
   }, stepTime);
 }
-
+    
 function animateLoader() { 
   let percentBar = document.getElementById("precent");
   let loadingBar = document.getElementById("loader");
