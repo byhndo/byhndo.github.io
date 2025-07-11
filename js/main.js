@@ -38,7 +38,7 @@ gsap.to(".percentage", {
  autoAlpha: 1,
  duration:1, 
  onComplete:animateLoader
-}, ">1");
+}, "<1");
 
 function animateLoader() { 
   let percentBar = document.getElementById("precent");
