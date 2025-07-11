@@ -31,12 +31,11 @@ function animateValue(id, start, end, duration) {
   }, stepTime);
 }
 
-
-gsap.to(".percentage", {
+let l = gsap.timeline({animateLoader})
+.to(".percentage", {
  autoAlpha: 1,
  duration: 1,
- ease: "power2.out",
- onComplete: animateLoader
+ ease: "power2.out"
 });
 
 	
