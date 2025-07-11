@@ -345,7 +345,7 @@ wrapnav{
  opacity:0; 
 } 
 
-#btn-nav{
+#btn-nav-1, #btn-nav-2{
  text-transform: none;
  font-family: var(--font2);
  font-size: var(--sizenav);
