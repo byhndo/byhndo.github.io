@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", function() {	
+
 let tl = gsap.timeline({paused: true, onCompleted: animateLoader})
 	
 .set(".percentage", {
@@ -7,9 +9,6 @@ let tl = gsap.timeline({paused: true, onCompleted: animateLoader})
  autoAlpha: 1,
  duration:1
 });
-
-
-document.addEventListener("DOMContentLoaded", function() {	
 
 var width = 100,
   perfData = window.performance.timing,
