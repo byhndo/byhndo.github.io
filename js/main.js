@@ -47,11 +47,6 @@ async function animateLoader() {
     onComplete: contentShow
   });
 
-tl.to(".percentage", {
-delay: 3,
-duration: 1,
-autoAlpha: 1
-})
 	    	
   .to(".percentage", {
     autoAlpha: 0,
