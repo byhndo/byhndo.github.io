@@ -45,18 +45,18 @@ async function animateLoader() {
   let tl = gsap.timeline({
     paused: true,
     onComplete: contentShow
-  });
+  })
 
-tl.set(".percentage, #loader", {
+.set(".percentage, #loader", {
  visibility: "visible"}, "<")
 .to(".percentage, #loader", {
  opacity: 1,
  duration: 1,
- ease: "power2.out"}, "<0.3");
+ ease: "power2.out"}, "<0.3")
 
 	
 	    	
-  tl.to(".percentage", {
+  .to(".percentage", {
     autoAlpha: 0,
     duration: 1,
     delay: 1,
