@@ -43,8 +43,8 @@ function animateLoader() {
 gsap.set(".percentage", {
     autoAlpha:0,
     duration:1
-  })
-.to(".percentage", {
+  });
+gsap.to(".percentage", {
 duration:1,
 autoAlpha:1
 });
