@@ -56,16 +56,19 @@
 </div>	
 <div id="app">
 <div :class="['bg', bg]"> 
-<div class="transition transition-bio" id="bio"></div>
-<div class="transition transition-photos" id="photos"></div>                                                
+<svg class="transition transition-bio" id="bio" viewBox="0 0 100 100" preserveAspectRatio="none">
+<path id="bioPath" d="M 0 100 V 100 Q 50 100 100 100 V 100 z" fill="grey" />	
+</svg>
+<svg class="transition transition-photos" id="photos" viewBox="0 0 100 100" preserveAspectRatio="none">
+<path id="photosPath" d="M 0 100 V 100 Q 50 100 100 100 V 100 z" fill="grey" />	
+</svg>  
 <wrapnav>
 <div class="nav theme">
- <button onclick="window.location.hash='bio';" @click="bg = 'bio'" id="btn-nav" class="particles-button">About</button>
+ <button onclick="window.location.hash='bio';" @click="bg = 'bio'" id="btn-nav-1" class="particles-button">About</button>
 </div>
 <div class="nav theme">
- <button onclick="window.location.hash='photos';" @click="bg = 'photos'" id="btn-nav" class="particles-button">Photo</button>                                        
+ <button onclick="window.location.hash='photos';" @click="bg = 'photos'" id="btn-nav-2" class="particles-button">Photo</button>                                        
 </div>
-</wrapnav>	
 <main>
 <div class="header">
 <div class="indicator">
@@ -342,7 +345,6 @@ document.getElementById("year2").textContent = currentYear2</script>
 <script src="js/vue.js"></script>
 <script src="js/jquery.js"></script>
 <script src="js/gsap.js"></script>
-<script src="js/scrollsmoother.js"></script>	
 <script src="js/scrolltrigger.js"></script>
 <script src="js/main.js"></script>
 <script>
