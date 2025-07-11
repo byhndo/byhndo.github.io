@@ -167,50 +167,22 @@ data() {
     }
 }).mount('#app') 
 		
-/*const feBlur = document.querySelector(`#noise-title feGaussianBlur`);
-const feDisplacementMap = document.querySelector(`#noise-title feDisplacementMap`);
 
-let primitiveValues = { stdDeviation: 0, scale: 0 };
- 
-const tl = gsap.timeline({
-    defaults: {
-      duration: 2.5,
-      ease: 'quint.out',
-},
-   
-    onUpdate: function () {
-      feBlur.setAttribute('stdDeviation', primitiveValues.stdDeviation);
-      feDisplacementMap.setAttribute('scale', primitiveValues.scale); 
-    }
-  })
+const tl = gsap.timeline()
 
-tl.to(primitiveValues, { 
-    startAt: { stdDeviation: 40, scale: 150 },  
-    stdDeviation: 0,  
-    scale: 0 
-  }, 0)
-
-.to("h1", {
-    startAt: {
-      opacity: 0, 
-      autoAlpha:0,
-      scale: 0.9      
+.to("h1", { 
+      autoAlpha:0    
     },
     opacity: 1,  
     autoAlpha:1,
     scale: 1 
-}, 0)
+})
 	  
-.to(".sub-title", {
-    startAt: {
-      opacity: 0, 
-      autoAlpha:0,
-      scale: 0.9      
-    },
-    opacity: 1,  
+.to(".sub-title", {     
+      autoAlpha:0,          
+    },      
     autoAlpha:1,
-    scale: 1 
-}, "<");*/
+});
 	
 gsap.set('.indicator', {
  y:-100	
