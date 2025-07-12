@@ -144,24 +144,6 @@ gsap.registerPlugin(ScrollTrigger);
 $('.quote').each(function(){
   $(this).html($(this).text().replace(/\S/g, "<span>$&</span>"));
 });
-
-document.querySelectorAll('.particles-button').forEach(button => {
-  button.addEventListener('click', function () {
-    const sectionId = this.getAttribute('data-hash');
-    const targetElement = document.getElementById(sectionId);
-     
-    const headerHeight = document.querySelector('.wrapnav')?.offsetHeight || 0;
-
-    if (targetElement) {
-      window.scrollTo({
-        top: targetElement.offsetTop - headerHeight,
-        behavior: 'auto' 
-      });
-       
-      history.replaceState(null, null, '#' + sectionId);
-    }
-  });
-});
 	
 const {
     createApp,
