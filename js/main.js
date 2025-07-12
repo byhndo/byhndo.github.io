@@ -149,16 +149,19 @@ document.querySelectorAll('.particles-button').forEach(button => {
   button.addEventListener('click', function () {
     const sectionId = this.getAttribute('data-hash');
     const targetElement = document.getElementById(sectionId);
-    const headerHeight = document.querySelector('.nav.theme')?.offsetHeight || 0;
-    
+     
+    const headerHeight = document.querySelector('.wrapnav')?.offsetHeight || 0;
+
     if (targetElement) {
       window.scrollTo({
-        top: targetElement.offsetTop - headerHeight
+        top: targetElement.offsetTop - headerHeight,
+        behavior: 'auto' 
       });
-      window.location.hash = sectionId;
+       
+      history.replaceState(null, null, '#' + sectionId);
     }
   });
-});	
+});
 	
 const {
     createApp,
