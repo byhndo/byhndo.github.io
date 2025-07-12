@@ -361,40 +361,46 @@ gsap.ticker.add((time)=>{
 })
 
 gsap.ticker.lagSmoothing(0)
+        
+  const bioPath = document.getElementById("bioPath");
+  const photosPath = document.getElementById("photosPath");
+  
+  const paths = {
+    step1: {
+      unfilled: "M 0 0 h 0 c 0 50 0 50 0 100 H 0 V 0 Z",
+      inBetween: "M 0 0 h 33 c -30 54 113 65 0 100 H 0 V 0 Z",
+      /*
+        M 0 0 h 34 c 73 7 73 94 0 100 H 0 V 0 Z
+        M 0 0 h 33 c -30 54 113 65 0 100 H 0 V 0 Z
+        M 0 0 h 34 c 112 44 -32 49 0 100 H 0 V 0 Z
+        */
+      filled: "M 0 0 h 100 c 0 50 0 50 0 100 H 0 V 0 Z"
+    },
 
-const bioPath = document.getElementById("bioPath");
-const photosPath = document.getElementById("photosPath");
+    step2: {
+      filled: "M 100 0 H 0 c 0 50 0 50 0 100 h 100 V 50 Z",
+      //inBetween: 'M 100 0 H 50 c 20 33 20 67 0 100 h 50 V 0 Z',
+      inBetween: "M 100 0 H 50 c 28 43 4 81 0 100 h 50 V 0 Z",
+      unfilled: "M 100 0 H 100 c 0 50 0 50 0 100 h 0 V 0 Z"
+    }
+  };
 
-const paths = {
-  step1: {
-    unfilled: "M 0 0 h 0 c 0 50 0 50 0 100 H 0 V 0 Z",
- // inBetween: "M 0 0 h 33 c -30 54 113 65 0 100 H 0 V 0 Z",    
- // inbetween:  "M 0 0 h 34 c 73 7 73 94 0 100 H 0 V 0 Z",
-    inBetween:" M 0 0 h 33 c -30 54 113 65 0 100 H 0 V 0 Z",
- // inBetween: " M 0 0 h 34 c 112 44 -32 49 0 100 H 0 V 0 Z",        
-    filled: "M 0 0 h 100 c 0 50 0 50 0 100 H 0 V 0 Z"
-  },
+const tl = gsap.timeline({
+      paused: true
+    })
 
-  step2: {
-    filled: "M 100 0 H 0 c 0 50 0 50 0 100 h 100 V 50 Z",
- // inBetween: 'M 100 0 H 50 c 20 33 20 67 0 100 h 50 V 0 Z',
-    inBetween: "M 100 0 H 50 c 28 43 4 81 0 100 h 50 V 0 Z",
-    unfilled: "M 100 0 H 100 c 0 50 0 50 0 100 h 0 V 0 Z"
-  }
-};
-
-tl.set(bioPath, {
+    .set(bioPath, {
       attr: { d: paths.step1.unfilled }
     })
 
     .to(bioPath,{
-        duration: 1.1,
+        duration: 0.8,
         ease: "power3.in",
         attr: { d: paths.step1.inBetween }
       },0)
 
     .to(bioPath, {
-      duration: .5,
+      duration: 0.2,
       ease: "power1",
       attr: { d: paths.step1.filled }
     });
@@ -406,28 +412,28 @@ const tl2 = gsap.timeline({paused: true})
     })
 
     .to(photosPath, {
-        duration: 1.1,
+        duration: 0.8,
         ease: "power3.in",
         attr: { d: paths.step1.inBetween }
       },0)
 
     .to(photosPath, {
-      duration: .5,
+      duration: 0.2,
       ease: "power1",
       attr: { d: paths.step1.filled }
     });
 
-const bioBtn = document.getElementById("btn-nav-1");
-const photosBtn = document.getElementById("btn-nav-2");
-
-bioBtn.addEventListener("click", () => {
+  const bioBtn = document.getElementById("bio");
+  const photosBtn = document.getElementById("photos"); 
+  
+  bioBtn.addEventListener("click", () => {
     tl.restart();
   });
 
-photosBtn.addEventListener("click", () => {         
+  photosBtn.addEventListener("click", () => {         
     tl2.restart();
   });
-	
+  
 	
 function setupReveal(container) {
 	
