@@ -128,6 +128,7 @@ function contentShow() {
 const easing = "expoScale(0.5,7,none)";
 const dur = 1;
 const once = "play none none reset";
+const delaytl = .5;
 
 $('html, body').css({
   'overflow': 'auto',
@@ -423,7 +424,7 @@ const RevealBoxsme = container.querySelectorAll(".boxme");
     scrollTrigger: {
      trigger: boxme,
      toggleActions: once
-     }, delay:.3
+     }, delay:delaytl
      }); 
 
 tl.set(aboutme, {
@@ -448,7 +449,7 @@ const RevealBoxs = container.querySelectorAll(".box");
     scrollTrigger: {
      trigger: box,
      toggleActions: once
-     }, delay:.3
+     }, delay:delaytl
      }); 
 
 tl.set(gr, {
@@ -471,7 +472,7 @@ const RevealBoxsline = container.querySelectorAll(".boxline");
     scrollTrigger: {
      trigger: boxline,
      toggleActions: once
-     }, delay:.3
+     }, delay:delaytl
      }); 
 
 tl.set(line, {
@@ -509,7 +510,7 @@ const tl = gsap.timeline({
   scrollTrigger: {
       trigger: box1, 
      toggleActions: "play none none reset"
-    }, delay:.3
+    }, delay:delaytl
   });
 
 tl.to(primitiveValues, { 
@@ -544,7 +545,7 @@ revealvline.forEach((vline) => {
       scrub: 2,
       start: "top bottom",
       end : "bottom 50%"
-    }, delay : .3
+    }, delay : delaytl
   });
 
 tl.set(vl, {
@@ -579,7 +580,7 @@ const tl = gsap.timeline({
   scrollTrigger: {
       trigger: rbox, 
      toggleActions: "play none none reset"
-    }, delay:.3
+    }, delay:delaytl
   });
 
 tl.to(primitiveValues, { 
@@ -611,7 +612,7 @@ const RevealBoxs2 = container.querySelectorAll(".box2");
   scrollTrigger: {
    trigger: box2,
    toggleActions: once
-   }, delay:.3
+   }, delay:delaytl
    });
 	 
 tl.set(two, {
@@ -639,7 +640,7 @@ const RevealBoxs3 = container.querySelectorAll(".box3");
   scrub:2,
   start: "top bottom",
   end : "bottom 50%"
- }, delay: .3
+ }, delay: delaytl
  });  
 	 
 tl.set(quote, {
@@ -662,7 +663,7 @@ const revealContainers = container.querySelectorAll(".item");
  scrollTrigger: {
   trigger: el,
   toggleActions: once
-  }, delay:.3
+  }, delay:delaytl
  });
 	 
 tl.to(el, {
@@ -681,7 +682,7 @@ const items = container.querySelectorAll(".sc");
       scrollTrigger: {
         trigger: soc,
         toggleActions: once
-      }, delay: .3
+      }, delay: delaytl
     });
 	  	  
 tl.to(item, {
@@ -699,7 +700,7 @@ const RevealBoxs4 = container.querySelectorAll(".box4");
  scrollTrigger: {
   trigger: box4,
   toggleActions: once
- }, delay: .3
+ }, delay: delaytl
  });  
 	 
 tl.to(footer, {
