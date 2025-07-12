@@ -385,7 +385,7 @@ const tl = gsap.timeline({
     attr: { d: paths.step1.filled }
   })
 
-.set([bioPath, photosPath], {
+/*.set([bioPath, photosPath], {
     attr: { d: paths.step2.filled }
   })
 
@@ -399,7 +399,7 @@ const tl = gsap.timeline({
     duration: 1,
     ease: "power4",
     attr: { d: paths.step2.unfilled }
-});
+});*/
 
 const bioBtn = document.getElementById("btn-nav-1");
 const photosBtn = document.getElementById("btn-nav-2");
