@@ -327,7 +327,7 @@ h5 {
  font-size: 1.25em;
 }
 
-wrapnav{
+.wrapnav{
  display:flex;
  justify-content:center;
  align-items:center;
