@@ -474,7 +474,7 @@ a:hover, a:active{
  background:inherit;
  min-height: 100vh;
  padding: 0;
- transition: background 0s 1s, color .6s;
+ transition: background 0s .95s, color .6s;
  overflow:hidden;
 }
 
