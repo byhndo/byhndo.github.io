@@ -1,8 +1,8 @@
-  const bioPath = document.getElementById("bioPath");
-  const photosPath = document.getElementById("photosPath");
-  const findmePath = document.getElementById("findmePath"); 
+const bioPath = document.getElementById("bioPath");
+const photosPath = document.getElementById("photosPath");
+const findmePath = document.getElementById("findmePath");
 
-  const paths = {
+const paths = {
     step1: {
       unfilled: "M 0 0 h 0 c 0 50 0 50 0 100 H 0 V 0 Z",
       inBetween: "M 0 0 h 33 c -30 54 113 65 0 100 H 0 V 0 Z",
@@ -23,8 +23,8 @@
   };
 
 const tl = gsap.timeline({
-      paused: true
-    })
+    paused: true
+  })
 
     .set(bioPath, {
       attr: { d: paths.step1.unfilled }
@@ -34,16 +34,16 @@ const tl = gsap.timeline({
         duration: 0.8,
         ease: "power3.in",
         attr: { d: paths.step1.inBetween }
-      },0)
+      }, 0)
 
     .to(bioPath, {
       duration: 0.2,
       ease: "power1",
       attr: { d: paths.step1.filled }
     });
-
-const tl2 = gsap.timeline({paused: true})
   
+  const tl2 = gsap.timeline({paused: true}) 
+
     .set(photosPath, {
       attr: { d: paths.step1.unfilled }
     })
@@ -52,7 +52,7 @@ const tl2 = gsap.timeline({paused: true})
         duration: 0.8,
         ease: "power3.in",
         attr: { d: paths.step1.inBetween }
-      },0)
+      }, 0)
 
     .to(photosPath, {
       duration: 0.2,
@@ -63,7 +63,6 @@ const tl2 = gsap.timeline({paused: true})
 const tl3 = gsap.timeline({ paused: true })
 
   .set(findmePath, { attr: { d: paths.step1.unfilled } })
-
   .to(findmePath, {
     duration: 0.8,
     ease: "power3.in",
@@ -75,11 +74,11 @@ const tl3 = gsap.timeline({ paused: true })
     ease: "power1",
     attr: { d: paths.step1.filled }
   });
-
-  const bioBtn = document.getElementById("bio");
-  const photosBtn = document.getElementById("photos"); 
-  const findmeBtn = document.getElementById("findme");
   
+  const bioBtn = document.getElementById("btn-nav-1");
+  const photosBtn = document.getElementById("btn-nav-2"); 
+  const findmeBtn = document.getElementById("btn-nav-3"); 
+
   bioBtn.addEventListener("click", () => {
     tl.restart();
   });
