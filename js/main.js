@@ -145,7 +145,7 @@ $('.quote').each(function(){
   $(this).html($(this).text().replace(/\S/g, "<span>$&</span>"));
 });
 
-document.querySelectorAll('#btn-nav-1, #btn-nav-2').forEach(button => {
+document.querySelectorAll('.particles-button').forEach(button => {
   button.addEventListener('click', function () {
     const sectionId = this.getAttribute('data-hash');
     const targetElement = document.getElementById(sectionId);
