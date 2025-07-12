@@ -294,7 +294,7 @@ html.lenis, html.lenis body {
  --border-button: 0;
 }
 
-svg.noise3 {
+svg.title, svg.trb, svg.sub, svg.noise3 {
  width: 0;
  height: 0;
  position: absolute;
@@ -489,7 +489,7 @@ a:hover, a:active{
 }
 
 .transition {
- position: absolute;
+ position: fixed;
  top: 0;
  left: 0;
  right: 0;
