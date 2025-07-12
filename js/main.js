@@ -206,11 +206,8 @@ gsap.to('.indicator', {
 }, "<");
 
     
-
-      
-
- (function () {
-  const arrOpts = [
+(function () {
+  const arrOpts = [    
     {
       color: "#068FFF",
       direction: 'right',
@@ -228,62 +225,85 @@ gsap.to('.indicator', {
   const items = document.querySelectorAll(".nav");
 
   items.forEach((el, pos) => {
-    const bttn = el.querySelector("button.particles-button");
-    if (!bttn) return;
 
-    const particlesOpts = arrOpts[pos % arrOpts.length]; // Ensure valid index
+    let bttn = el.querySelector("button.particles-button");
+    if (!bttn) return; 
+    let particlesOpts = arrOpts[pos];
     const particles = new Particles(bttn, particlesOpts);
-    const tl = gsap.timeline({ paused: true }); // Create paused timeline
 
-    // Initial animation
-    tl.to(items, {
-      autoAlpha: 1,
-      duration: 1
-    });
+let tl = gsap.timeline()
 
-    // Click handler for disintegration and reintegration
-    bttn.addEventListener("click", () => {
-      if (!tl.isActive()) {
-        tl.to(bttn, {
-          autoAlpha: 0,
-          duration: 0.5,
-          onStart: () => {
-            particles.disintegrate({
-              duration: 900,
-              easing: "easeOutSine"
-            });
-          },
-          onComplete: () => {
-            gsap.to(bttn, {
-              autoAlpha: 1,
-              duration: 1,
-              onStart: () => {
-                particles.integrate({
-                  duration: 900,
-                  easing: "easeOutSine"
-                });
-              },
-              onComplete: () => {
-                bttn.style.opacity = "1";
-                bttn.style.visibility = "visible";
-              }
-            });
-          }
+tl.to(items, {
+ autoAlpha:1
+});
+	  
+bttn.addEventListener("click", () => {      
+   tl.to(bttn, {
+      autoAlpha: 0,    
+      onComplete: () => {	
+        particles.integrate({
+          duration: 900,
+          easing: "easeOutSine"
         });
-        tl.play();
+
+        gsap.to(bttn, {
+          duration: 1,	  
+          onComplete: () => {
+            bttn.style.opacity = "1";
+            bttn.style.visibility = "visible";
+          }
+        })
       }
-    });
-  });
-})();   
-          
+    }, ">1");  
+}); 
 
-
+bttn.addEventListener("click", () => {
+tl.to(items, {                
+ autoAlpha: 1
+});
 	
-        
+    tl.to(bttn, {
+      autoAlpha: 0,  
+      onUpdate: () => {	
+        particles.integrate({
+          duration: 900,
+          easing: "easeOutSine"
+        });
+	
+        gsap.to(bttn, {
+         duration: 1,	        
+         autoAlpha: 1,
+	 opacity:1
+        });
+      }
+    }, "+=1.5");  
+});
 	 
-    
+    tl.to(bttn, {
+      autoAlpha: 0,
+      onComplete: () => {
+        particles.integrate({
+          duration: 900,
+          easing: "easeOutSine"
+        });
 
-      	
+        gsap.to(bttn, {
+          duration: 1,
+          onComplete: () => {
+            bttn.style.opacity = "1";
+            bttn.style.visibility = "visible";
+          }
+        })
+      }
+    }, pos + 1.3)  
+ 
+    bttn.addEventListener("click", () => {
+      particles.disintegrate();
+    });       
+     
+  });
+})();
+                    
 gsap.to('.header', {  
  onComplete: () => {
   gsap.to(".header", {  
