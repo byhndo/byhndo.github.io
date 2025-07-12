@@ -375,12 +375,12 @@ const tl = gsap.timeline({
 })
 
 .to([bioPath, photosPath], {
-      duration: 0.8,
+      duration: 1.2,
       ease: "power3.in",
       attr: { d: paths.step1.inBetween }},0)
 
 .to([bioPath, photosPath], {
-    duration: 0.2,
+    duration: .6,
     ease: "power1",
     attr: { d: paths.step1.filled }
   })
