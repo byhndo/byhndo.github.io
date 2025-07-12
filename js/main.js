@@ -423,8 +423,8 @@ const photosPath = document.getElementById("photosPath");
       attr: { d: paths.step1.filled }
     });            
   
-  const bioBtn = document.getElementById("bio");
-  const photosBtn = document.getElementById("photos"); 
+  const bioBtn = document.getElementById("btn-nav-1");
+  const photosBtn = document.getElementById("btn-nav-2"); 
   
   bioBtn.addEventListener("click", () => {
     tl.restart();
