@@ -205,8 +205,8 @@ gsap.to('.indicator', {
 }
 }, "<");
 
-(function () {
 
+(function () {
   const arrOpts = [    
     {
       color: "#068FFF",
@@ -225,62 +225,18 @@ gsap.to('.indicator', {
   const items = document.querySelectorAll(".nav");
 
   items.forEach((el, pos) => {
+    const bttn = el.querySelector("button.particles-button");
+    if (!bttn) return;
 
-    let bttn = el.querySelector("button.particles-button");
-    if (!bttn) return; 
-    let particlesOpts = arrOpts[pos];
+    const particlesOpts = arrOpts[pos];
     const particles = new Particles(bttn, particlesOpts);
 
-let tl = gsap.timeline()
+    const tl = gsap.timeline({ paused: true });
 
-tl.to(items, {
- autoAlpha:1
-});
-	  
-bttn.addEventListener("click", () => {      
-   tl.to(bttn, {
-      autoAlpha: 0,    
-      onComplete: () => {	
-        particles.integrate({
-          duration: 900,
-          easing: "easeOutSine"
-        });
-
-        gsap.to(bttn, {
-          duration: 1,	  
-          onComplete: () => {
-            bttn.style.opacity = "1";
-            bttn.style.visibility = "visible";
-          }
-        })
-      }
-    }, ">1");  
-}); 
-
-bttn.addEventListener("click", () => {
-tl.to(items, {                
- autoAlpha: 1
-});
-	
-    tl.to(bttn, {
-      autoAlpha: 0,  
-      onUpdate: () => {	
-        particles.integrate({
-          duration: 900,
-          easing: "easeOutSine"
-        });
-	
-        gsap.to(bttn, {
-         duration: 1,	        
-         autoAlpha: 1,
-	 opacity:1
-        });
-      }
-    }, "+=1.5");  
-});
-	 
+    // Timeline animation
     tl.to(bttn, {
       autoAlpha: 0,
+      duration: 0.6,
       onComplete: () => {
         particles.integrate({
           duration: 900,
@@ -288,19 +244,29 @@ tl.to(items, {
         });
 
         gsap.to(bttn, {
+          autoAlpha: 1,
           duration: 1,
           onComplete: () => {
             bttn.style.opacity = "1";
             bttn.style.visibility = "visible";
           }
-        })
+        });
       }
-    }, pos + 1.3)  
- 
+    });
+
+    // Hanya satu kali event listener
     bttn.addEventListener("click", () => {
+      tl.restart();
+
+      // Opsional: trigger disintegrasi efek lain
       particles.disintegrate();
-    });       
-     
+
+      // Jika ingin efek pada semua item nav juga
+      gsap.to(items, {
+        autoAlpha: 1,
+        duration: 0.5
+      });
+    });
   });
 })();
 	
