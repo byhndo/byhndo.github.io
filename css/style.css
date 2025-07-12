@@ -374,7 +374,6 @@ wrapnav{
 } 
 
 h1 { 
- filter: url(#noise);
  display:inline;
  opacity:0;
  visibility:hidden;
@@ -406,7 +405,6 @@ h1 {
  text-align:center;
  opacity:0;
  visibility:hidden;
- filter: url(#noise);
 }
 
 .photos .sub-title{
@@ -501,7 +499,6 @@ a:hover, a:active{
  /*transition: transform 1s cubic-bezier(0.445, 0.050, 0.550, 0.950);*/
  width: 100%;
  height: 100%;
- z-index:1;
  /*transform: scaleX(0) scaleY(1);*/
  /*transform-origin: 0 0;*/
 }
