@@ -383,50 +383,50 @@ const paths = {
   }
 };
 
-const tl = gsap.timeline({
-    paused: true
-})
+tl.set(bioPath, {
+      attr: { d: paths.step1.unfilled }
+    })
 
-.set([bioPath, photosPath], {
-    attr: { d: paths.step1.unfilled }
-})
+    .to(bioPath,{
+        duration: 1.1,
+        ease: "power3.in",
+        attr: { d: paths.step1.inBetween }
+      },0)
 
-.to([bioPath, photosPath], {
-      duration: 1.1,
-      ease: "power3.in",
-      attr: { d: paths.step1.inBetween }},0)
+    .to(bioPath, {
+      duration: .5,
+      ease: "power1",
+      attr: { d: paths.step1.filled }
+    });
 
-.to([bioPath, photosPath], {
-    duration: .5,
-    ease: "power1",
-    attr: { d: paths.step1.filled }
-  })
+const tl2 = gsap.timeline({paused: true})
+  
+    .set(photosPath, {
+      attr: { d: paths.step1.unfilled }
+    })
 
-/*.set([bioPath, photosPath], {
-    attr: { d: paths.step2.filled }
-  })
+    .to(photosPath, {
+        duration: 1.1,
+        ease: "power3.in",
+        attr: { d: paths.step1.inBetween }
+      },0)
 
-.to([bioPath, photosPath], {
-    duration: 0.15,
-    ease: "sine.in",
-    attr: { d: paths.step2.inBetween }
-  })
-
-.to([bioPath, photosPath], {
-    duration: 1,
-    ease: "power4",
-    attr: { d: paths.step2.unfilled }
-});*/
+    .to(photosPath, {
+      duration: .5,
+      ease: "power1",
+      attr: { d: paths.step1.filled }
+    });
 
 const bioBtn = document.getElementById("btn-nav-1");
 const photosBtn = document.getElementById("btn-nav-2");
-const allMorphBtns = [bioBtn, photosBtn];
 
-allMorphBtns.forEach((btn) => {
-  btn.addEventListener("click", () => {
+bioBtn.addEventListener("click", () => {
     tl.restart();
   });
-});
+
+photosBtn.addEventListener("click", () => {         
+    tl2.restart();
+  });
 	
 	
 function setupReveal(container) {
