@@ -7,8 +7,7 @@
   const originPath = "M 0 100 V 0 Q 50 0 100 0 V 100 z";
 
   let tl = gsap.timeline({
-    paused: true,
-    repeat: -1
+    paused: true
   });
 
   tl.to([bioPath, projectsPath, findmePath], {
