@@ -64,10 +64,10 @@
 </svg>  
 <wrapnav>
 <div class="nav theme">
- <button onclick="window.location.hash='bio';" @click="bg = 'bio'" id="btn-nav-1" class="particles-button">About</button>
+ <button data-hash="bio" onclick="window.location.hash='bio';" @click="bg = 'bio'" id="btn-nav-1" class="particles-button">About</button>
 </div>
 <div class="nav theme">
- <button onclick="window.location.hash='photos';" @click="bg = 'photos'" id="btn-nav-2" class="particles-button">Photo</button>                                        
+ <button data-hash="photos" onclick="window.location.hash='photos';" @click="bg = 'photos'" id="btn-nav-2" class="particles-button">Photo</button>                                        
 </div>
 </wrapnav>
 <main>
@@ -340,6 +340,22 @@ document.getElementById("year2").textContent = currentYear2</script>
 <script>
 function removeLocationHash(){var noHashURL=window.location.href.replace(/#.*$/,'');window.history.replaceState('',document.title,noHashURL)}
 window.addEventListener("popstate",function(event){removeLocationHash()});window.addEventListener("hashchange",function(event){event.preventDefault();removeLocationHash()});window.addEventListener("load",function(){removeLocationHash()})
+</script>
+<script>
+document.querySelectorAll('#btn-nav-1, #btn-nav-2').forEach(button => {
+  button.addEventListener('click', function () {
+    const sectionId = this.getAttribute('data-hash');
+    const targetElement = document.getElementById(sectionId);
+    const headerHeight = document.querySelector('wrapnav')?.offsetHeight || 0;
+    
+    if (targetElement) {
+      window.scrollTo({
+        top: targetElement.offsetTop - headerHeight
+      });
+      window.location.hash = sectionId;
+    }
+  });
+});	
 </script>
 </body>
 </html>
