@@ -337,21 +337,5 @@ document.getElementById("year2").textContent = currentYear2</script>
 <script src="js/gsap.js"></script>
 <script src="js/scrolltrigger.js"></script>
 <script src="js/main.js"></script>
-<script>
-document.querySelectorAll('.particles-button').forEach(button => {
-  button.addEventListener('click', function () {
-    const sectionId = this.getAttribute('data-hash');
-    const targetElement = document.getElementById(sectionId);
-    const headerHeight = document.querySelector('.wrapnav')?.offsetHeight || 0;
-    
-    if (targetElement) {
-      window.scrollTo({
-        top: targetElement.offsetTop - headerHeight
-      });
-      window.location.hash = sectionId;
-    }
-  });
-});
-</script>
 </body>
 </html>
