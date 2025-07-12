@@ -22,12 +22,11 @@
     }
   };
 
-const tl = gsap
-    .timeline({
+const tl = gsap.timeline({
       paused: true
-    });
+    })
 
-    tl.set(bioPath, {
+    .set(bioPath, {
       attr: { d: paths.step1.unfilled }
     })
 
@@ -61,9 +60,9 @@ const tl2 = gsap.timeline({paused: true})
       attr: { d: paths.step1.filled }
     });
 
-const tl3 = gsap.timeline({ paused: true });
+const tl3 = gsap.timeline({ paused: true })
 
-  tl3.set(findmePath, { attr: { d: paths.step1.unfilled } })
+  .set(findmePath, { attr: { d: paths.step1.unfilled } })
 
   .to(findmePath, {
     duration: 0.8,
