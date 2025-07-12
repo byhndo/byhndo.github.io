@@ -394,13 +394,13 @@ const tl = gsap.timeline({
     })
 
     .to(bioPath,{
-        duration: 0.8,
+        duration: 1.1,
         ease: "power3.in",
         attr: { d: paths.step1.inBetween }
       },0)
 
     .to(bioPath, {
-      duration: 0.2,
+      duration: .5,
       ease: "power1",
       attr: { d: paths.step1.filled }
     });
@@ -412,13 +412,13 @@ const tl2 = gsap.timeline({paused: true})
     })
 
     .to(photosPath, {
-        duration: 0.8,
+        duration: 1.1,
         ease: "power3.in",
         attr: { d: paths.step1.inBetween }
       },0)
 
     .to(photosPath, {
-      duration: 0.2,
+      duration: .5,
       ease: "power1",
       attr: { d: paths.step1.filled }
     });
