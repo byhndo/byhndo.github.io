@@ -294,7 +294,7 @@ html.lenis, html.lenis body {
  --border-button: 0;
 }
 
-svg.noise2, svg.noise3 {
+svg.sub, svg.noise2, svg.noise3 {
  width: 0;
  height: 0;
  position: absolute;
