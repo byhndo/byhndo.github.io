@@ -144,15 +144,6 @@ gsap.registerPlugin(ScrollTrigger);
 $('.quote').each(function(){
   $(this).html($(this).text().replace(/\S/g, "<span>$&</span>"));
 });
-
-window.addEventListener("hashchange", () => {
-  const id = location.hash.replace("#", "");
-  const target = document.getElementById(id);
-  if (target) {
-    const y = target.getBoundingClientRect().top + window.pageYOffset + yOffset;
-    window.scrollTo(0, y);
-  }
-});
 	
 const {
     createApp,
