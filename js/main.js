@@ -361,11 +361,11 @@ gsap.ticker.add((time)=>{
 })
 
 gsap.ticker.lagSmoothing(0);
-        
-  const bioPath = document.getElementById("bioPath");
-  const photosPath = document.getElementById("photosPath");
-  
-  const paths = {
+                
+const bioPath = document.getElementById("bioPath");
+const photosPath = document.getElementById("photosPath");
+
+    const paths = {
     step1: {
       unfilled: "M 0 0 h 0 c 0 50 0 50 0 100 H 0 V 0 Z",
       inBetween: "M 0 0 h 33 c -30 54 113 65 0 100 H 0 V 0 Z",
@@ -384,12 +384,12 @@ gsap.ticker.lagSmoothing(0);
       unfilled: "M 100 0 H 100 c 0 50 0 50 0 100 h 0 V 0 Z"
     }
   };
+	
+  const tl = gsap.timeline({
+    paused: true
+  })
 
-const tl = gsap.timeline({
-      paused: true
-    })
-
-    .set(bioPath, {
+ .set(bioPath, {
       attr: { d: paths.step1.unfilled }
     })
 
@@ -397,16 +397,16 @@ const tl = gsap.timeline({
         duration: 1.1,
         ease: "power3.in",
         attr: { d: paths.step1.inBetween }
-      },0)
+      }, 0)
 
     .to(bioPath, {
       duration: .5,
       ease: "power1",
       attr: { d: paths.step1.filled }
     });
-
-const tl2 = gsap.timeline({paused: true})
   
+  const tl2 = gsap.timeline({paused: true}) 
+
     .set(photosPath, {
       attr: { d: paths.step1.unfilled }
     })
@@ -415,25 +415,24 @@ const tl2 = gsap.timeline({paused: true})
         duration: 1.1,
         ease: "power3.in",
         attr: { d: paths.step1.inBetween }
-      },0)
+      }, 0)
 
     .to(photosPath, {
       duration: .5,
       ease: "power1",
       attr: { d: paths.step1.filled }
-    });
-
-  const bioBtn = document.getElementById("#btn-nav-1");
-  const photosBtn = document.getElementById("#btn-nav-2"); 
+    });            
+  
+  const bioBtn = document.getElementById("bio");
+  const photosBtn = document.getElementById("photos"); 
   
   bioBtn.addEventListener("click", () => {
     tl.restart();
   });
-
   photosBtn.addEventListener("click", () => {         
     tl2.restart();
   });
-  
+
 	
 function setupReveal(container) {
 	
