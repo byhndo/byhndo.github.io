@@ -407,19 +407,19 @@ const photosPath = document.getElementById("photosPath");
   const tl2 = gsap.timeline({paused: true}) 
 
     .set(photosPath, {
-      attr: { d: paths.step1.unfilled }
+      attr: { d: paths.step2.unfilled }
     })
 
     .to(photosPath, {
         duration: 1.1,
         ease: "power3.in",
-        attr: { d: paths.step1.inBetween }
+        attr: { d: paths.step2.inBetween }
       }, 0)
 
     .to(photosPath, {
       duration: .5,
       ease: "power1",
-      attr: { d: paths.step1.filled }
+      attr: { d: paths.step2.filled }
     });            
   
   const bioBtn = document.getElementById("btn-nav-1");
