@@ -152,14 +152,25 @@ const {
 } = Vue
 		
 createApp({
+   mounted() {
+    window.addEventListener("hashchange", this.removeHashIfNeeded);
+    this.removeHashIfNeeded(); 
+  },
+   beforeUnmount() { 
+    window.removeEventListener("hashchange", this.removeHashIfNeeded);
+  },
     methods: {
         afterEnter(el) {
             setupReveal(el);
         },
-
         afterLeave(el) {
             el.ctx && el.ctx.revert();
+        },
+	removeHashIfNeeded() {
+          if (window.location.hash) {
+          history.replaceState(null, null, window.location.pathname);
         }
+	}
     },
 data() {
         return {
