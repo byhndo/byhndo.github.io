@@ -378,10 +378,9 @@ const photosPath = document.getElementById("photosPath");
     },
 
     step2: {
-      filled: "M 100 0 H 0 c 0 50 0 50 0 100 h 100 V 50 Z",
-      //inBetween: 'M 100 0 H 50 c 20 33 20 67 0 100 h 50 V 0 Z',
-      inBetween: "M 100 0 H 50 c 28 43 4 81 0 100 h 50 V 0 Z",
-      unfilled: "M 100 0 H 100 c 0 50 0 50 0 100 h 0 V 0 Z"
+      unfilled: "M 100 0 h 0 c 0 50 0 50 0 100 H 100 V 0 Z",  
+      inBetween: "M 100 0 h -33 c 30 54 -113 65 0 100 H 100 V 0 Z",
+      filled: "M 100 0 h -100 c 0 50 0 50 0 100 H 100 V 0 Z"
     }
   };
 	
