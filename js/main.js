@@ -204,7 +204,7 @@ const feDisplacementMap = document.querySelector(
 
 let primitiveValues = { stdDeviation: 0, scale: 0 };
 
-const tl = gsap.timeline({
+const titletl = gsap.timeline({
     defaults: {
       duration: 2,
       ease: "quart.out"
