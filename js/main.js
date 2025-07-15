@@ -196,7 +196,7 @@ document.querySelectorAll('#btn-nav-1, #btn-nav-2').forEach(button => {
 });
 		
 
-const title = document.querySelectorAll("h1");
+const title = document.querySelector("h1");
 const feBlur = document.querySelector(`#noisetitle feGaussianBlur`);
 const feDisplacementMap = document.querySelector(
   `#noisetitle feDisplacementMap`
@@ -204,8 +204,7 @@ const feDisplacementMap = document.querySelector(
 
 let primitiveValues = { stdDeviation: 0, scale: 0 };
 
-const tl = gsap
-  .timeline({
+const tl = gsap.timeline({
     defaults: {
       duration: 2,
       ease: "quart.out"
