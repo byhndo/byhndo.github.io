@@ -196,9 +196,45 @@ document.querySelectorAll('#btn-nav-1, #btn-nav-2').forEach(button => {
 });
 		
 
-gsap.to("h1", { 
- autoAlpha:1
-});
+const title = document.querySelectorAll("h1");
+const feBlur = document.querySelector(`#noisetitle feGaussianBlur`);
+const feDisplacementMap = document.querySelector(
+  `#noisetitle feDisplacementMap`
+);
+
+let primitiveValues = { stdDeviation: 0, scale: 0 };
+
+const tl = gsap
+  .timeline({
+    defaults: {
+      duration: 2,
+      ease: "quart.out"
+    },
+
+    onUpdate: () => {
+      feBlur.setAttribute("stdDeviation", primitiveValues.stdDeviation);
+      feDisplacementMap.setAttribute("scale", primitiveValues.scale);
+    }
+  })
+
+  .to(primitiveValues, {
+      startAt: { stdDeviation: 10, scale: 300 },
+      stdDeviation: 0,
+      scale: 0}, 0)
+  .to(title, {
+      duration: 2,
+      startAt: {
+        opacity: 0,
+        autoAlpha: 0,
+        scale: 0.8,
+        yPercent: 20
+      },
+      opacity: 1,
+      autoAlpha: 1,
+      scale: 1,
+      yPercent : 0
+    }, 0);
+
 	  
 gsap.to(".sub-title", {     
  autoAlpha:1,
