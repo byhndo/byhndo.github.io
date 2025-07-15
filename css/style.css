@@ -388,6 +388,7 @@ h1 {
  margin-bottom:0;
  text-transform:none;
  left:-3%;
+ filter: url(#noisetitle);
 }
 
 .photos h1{
