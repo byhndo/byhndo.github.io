@@ -171,16 +171,7 @@ createApp({
           history.replaceState(null, null, window.location.pathname);
         }
 	}
-    },
-   goToBio() {
-    this.bg = 'bio'
-    this.$router.push('/bio')
-	    },
-   goToPhotos() {
-    this.bg = 'photos'
-    this.$router.push('/photos')
-	    }	    
-    },
+    },   
 data() {
         return {
             bg: 'bio'
