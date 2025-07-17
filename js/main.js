@@ -198,16 +198,15 @@ document.querySelectorAll('#btn-nav-1, #btn-nav-2').forEach(button => {
 
 const title = document.querySelector("h1");
 const feBlur = document.querySelector(`#noisetitle feGaussianBlur`);
-const feDisplacementMap = document.querySelector(
-  `#noisetitle feDisplacementMap`
+const feDisplacementMap = document.querySelector(`#noisetitle feDisplacementMap`
 );
 
 let primitiveValues = { stdDeviation: 0, scale: 0 };
 
 const titletl = gsap.timeline({
     defaults: {
-      duration: 2,
-      ease: "quart.out"
+      duration: 1.7,
+      ease: easing
     },
 
     onUpdate: () => {
@@ -217,23 +216,18 @@ const titletl = gsap.timeline({
   })
 
   .to(primitiveValues, {
-      startAt: { stdDeviation: 10, scale: 280 },
+      startAt: { stdDeviation: 1, scale: 150 },
       stdDeviation: 0,
       scale: 0}, 0)
   .to(title, {
-      duration: 2,
+      duration: 1.7,
       startAt: {
         opacity: 0,
-        autoAlpha: 0,
-        scale: 0.8,
-        yPercent: 20
+        autoAlpha: 0
       },
       opacity: 1,
-      autoAlpha: 1,
-      scale: 1,
-      yPercent : 0
+      autoAlpha: 1
     }, 0);
-
 	  
 gsap.to(".sub-title", {     
  autoAlpha:1,
