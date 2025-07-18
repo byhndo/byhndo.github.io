@@ -157,6 +157,7 @@ createApp({
         },
         afterLeave(el) {
             el.ctx && el.ctx.revert();
+	    delete el.ctx;
         },
 	removeHashIfNeeded() {
           if (window.location.hash) {
