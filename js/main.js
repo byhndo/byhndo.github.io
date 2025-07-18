@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+window.addEventListener("load", function () {
 
 var width = 100,
   perfData = window.performance.timing,
